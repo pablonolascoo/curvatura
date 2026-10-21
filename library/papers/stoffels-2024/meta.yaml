@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2411.11050
 language: en
 subsystems: [G, C, Q]
 kind: restriccion
-license: unknown
+license: CC-BY-SA-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

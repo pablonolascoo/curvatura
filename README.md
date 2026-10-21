@@ -19,7 +19,8 @@ Programa abierto de investigación para llevar el motor de curvatura de la relat
 | [`solvers/cpp/`](solvers/cpp/), [`solvers/matlab/`](solvers/matlab/) | Implementaciones independientes para validación cruzada. | C++20, MATLAB/Octave |
 | [`packages/formula/`](packages/formula/) | Motor de fórmulas propio: parser, compilación, derivación simbólica, MathML. | TypeScript |
 | [`apps/web/`](apps/web/) | Web: página única, ecuaciones vivas, laboratorio (Rust/WASM, Python/Pyodide, fórmulas), biblioteca y buscador. | Next.js |
-| [`apps/desktop/`](apps/desktop/) | App nativa para macOS, Windows y Linux. Incluye todo, también Python, sin instalar nada más. | Tauri (Rust) |
+| [`apps/desktop/`](apps/desktop/) | App nativa para macOS, Windows y Linux, siempre en la misma versión. Incluye el núcleo Rust paralelo, Python en el navegador (Pyodide) y Python nativo (uv instala Python 3.12 con numpy, sympy, scipy y matplotlib la primera vez). | Tauri (Rust) |
+| [`benchmarks/`](benchmarks/) | Mismo cálculo en C++, Rust, Go y Python, con la decisión de lenguajes. | Varios |
 
 Plan con fases y criterios de salida: [`ROADMAP.md`](ROADMAP.md). Qué impide construirlo hoy: [`docs/obstaculos.md`](docs/obstaculos.md).
 

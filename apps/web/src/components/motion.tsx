@@ -71,7 +71,7 @@ export function FadeOnLeave({ children, className }: { children: React.ReactNode
   useEffect(() => {
     const el = ref.current;
     if (!el || reduced()) return;
-    const tw = gsap.to(el, {
+    const tw = gsap.fromTo(el, { scale: 1, opacity: 1 }, {
       scale: 0.92, opacity: 0.2, ease: "none", transformOrigin: "60% 40%",
       scrollTrigger: { trigger: el.parentElement, start: "top top", end: "bottom top", scrub: true },
     });

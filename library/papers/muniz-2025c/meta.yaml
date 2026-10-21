@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2503.12943
 language: en
 subsystems: [G, E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

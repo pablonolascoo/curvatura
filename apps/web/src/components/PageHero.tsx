@@ -14,8 +14,8 @@ export function PageHero({ title, body, visual, children }: { title: React.React
           {children && <div className="reveal" style={{ ["--i" as string]: 2 }}>{children}</div>}
         </div>
         {visual && (
-          <FadeOnLeave className="reveal lg:col-span-5">
-            <div className="card relative aspect-[5/4] overflow-hidden">{visual}</div>
+          <FadeOnLeave className="lg:col-span-5">
+            <div className="reveal card relative aspect-[5/4] overflow-hidden" style={{ ["--i" as string]: 2 }}>{visual}</div>
           </FadeOnLeave>
         )}
       </div>

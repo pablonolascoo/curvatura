@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2503.17448
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

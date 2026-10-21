@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2506.19158
 language: en
 subsystems: [G, E]
 kind: fuente
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

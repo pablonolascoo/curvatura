@@ -61,7 +61,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
   return (
     <article className="mx-auto grid max-w-6xl gap-14 px-4 pb-24 pt-32 md:px-8 md:pt-40 lg:grid-cols-12">
       <JsonLd data={ld} />
-      <header className="grid content-start gap-8 lg:col-span-4">
+      <header className="grid content-start gap-8 lg:sticky lg:top-24 lg:col-span-4 lg:max-h-[calc(100dvh-7rem)] lg:self-start lg:overflow-y-auto">
         <Link href={`/${lang}/biblioteca/`} className="inline-flex w-max items-center gap-2 text-sm text-muted hover:text-fg">
           <ArrowLeft size={16} weight="light" aria-hidden /> {t.library.back}
         </Link>

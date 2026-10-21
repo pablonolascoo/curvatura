@@ -4,6 +4,13 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+### Añadido
+- Títulos de los 3367 papers traducidos al español, inglés y francés; papers en chino y de instituciones chinas.
+- País de los autores (OpenAlex) con banderas en círculo y filtro por país en la biblioteca.
+- Python nativo en las apps de macOS, Windows y Linux: uv incluido instala Python 3.12 con numpy, sympy, scipy y matplotlib.
+- Núcleo Rust paralelo en la app de escritorio; banco de pruebas C++, Rust, Go y Python con la decisión documentada.
+- Cabecera editorial, bento y bloques fijados (gpt-taste) en todas las páginas interiores.
+
 ## Alcubierre v0.1.1 · 2026-10-21
 
 ### Añadido

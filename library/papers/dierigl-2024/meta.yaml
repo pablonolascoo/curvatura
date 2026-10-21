@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2409.02180
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

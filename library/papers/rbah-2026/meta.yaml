@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2608.18566
 language: en
 subsystems: [G, E, S]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

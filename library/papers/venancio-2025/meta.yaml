@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2505.16704
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true
