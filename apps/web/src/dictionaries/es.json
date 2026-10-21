@@ -18,7 +18,8 @@
     "lab": "Laboratorio",
     "equations": "Ecuaciones",
     "search": "Buscar",
-    "download": "Descargar"
+    "download": "Descargar",
+    "account": "Cuenta"
   },
   "hero": {
     "title": "Mover el espacio, no la nave.",
@@ -202,7 +203,7 @@
     "unverified": "Pendiente de verificar",
     "noFulltext": "La licencia de este paper no permite reproducir el texto completo. Se ofrecen cita, resumen y enlace a la fuente.",
     "noAbstract": "Sin resumen disponible. Consulta la fuente original.",
-    "translation": "Traducción del proyecto Curvatura.",
+    "translation": "Traducción automática con IA: puede contener errores.",
     "back": "Volver a la biblioteca",
     "kinds": {
       "solucion": "Solución",
@@ -224,7 +225,8 @@
     "country": "País",
     "countries": "países",
     "byCountry": "Por país",
-    "translated": "Títulos traducidos"
+    "translated": "Títulos traducidos",
+    "aiTitle": "Título traducido con IA"
   },
   "notes": {
     "title": "Notas",
@@ -332,5 +334,72 @@
       "cta": "Buscar en la biblioteca"
     }
   },
-  "marquee": "Revistas de la biblioteca"
+  "marquee": "Revistas de la biblioteca",
+  "rating": {
+    "title": "Valoración",
+    "votes": "valoraciones",
+    "yours": "Tu valoración",
+    "login": "Inicia sesión con ORCID para valorar",
+    "honor": "Mención de honor",
+    "honorGive": "Dar Mención de honor",
+    "honorGiven": "Mención de honor dada",
+    "honorHow": "Cómo conseguir la Mención de honor",
+    "honorList": "Mención de honor",
+    "error": "No se pudo cargar la valoración",
+    "onWeb": "Valorar en la web",
+    "loading": "Cargando…",
+    "saved": "Guardado."
+  },
+  "account": {
+    "title": "Cuenta",
+    "body": "Valora papers con estrellas y, si tienes formación o trabajo en el ámbito, concede Menciones de honor.",
+    "intro": "Para valorar hace falta una cuenta verificada. Usamos ORCID, el identificador de investigadores: no guardamos contraseñas.",
+    "login": "Iniciar sesión con ORCID",
+    "notConfigured": "El inicio de sesión con ORCID se activará en breve.",
+    "logout": "Cerrar sesión",
+    "signedAs": "Sesión iniciada como",
+    "status": {
+      "no": "Sin Mención de honor",
+      "pendiente": "En revisión",
+      "aprobada": "Mención de honor verificada",
+      "rechazada": "Rechazada"
+    },
+    "stepsTitle": "Cómo se verifica la Mención de honor",
+    "steps": [
+      "Inicia sesión con ORCID. Tu identidad queda verificada por ORCID.",
+      "Indica tu grado, máster, posgrado, doctorado o trabajo en física, ingeniería o un área afín. Si tu institución lo ha confirmado en ORCID, se aprueba al momento.",
+      "Si no, adjunta el título o el contrato. Un revisor comprueba que el documento y la institución son reales y te responde aquí."
+    ],
+    "formTitle": "Solicitar la verificación",
+    "type": "Tipo",
+    "types": {
+      "grado": "Grado",
+      "master": "Máster",
+      "postgrado": "Posgrado",
+      "doctorado": "Doctorado",
+      "trabajo": "Trabajo"
+    },
+    "degree": "Título o puesto",
+    "institution": "Institución",
+    "year": "Año",
+    "area": "Área (p. ej. física teórica, ingeniería aeroespacial)",
+    "document": "Documento (PDF, PNG o JPG, máx. 5 MB)",
+    "documentHelp": "Obligatorio si tu institución no lo ha confirmado en ORCID. Se borra al terminar la revisión; solo guardamos su huella.",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "mine": "Tus solicitudes",
+    "none": "Todavía no has enviado ninguna.",
+    "adminTitle": "Revisión pendiente",
+    "adminEmpty": "No hay solicitudes pendientes.",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "note": "Nota para el usuario",
+    "openDoc": "Ver documento",
+    "evidence": "Evidencia de ORCID",
+    "hash": "SHA-256",
+    "onWeb": "Gestiona tu cuenta en la web",
+    "privacy": "Los documentos solo los ve el equipo revisor y se eliminan al cerrar la revisión.",
+    "resultApproved": "Verificado con tu registro ORCID. Ya puedes dar Menciones de honor.",
+    "resultPending": "Solicitud recibida. Te avisaremos aquí cuando se revise."
+  }
 }

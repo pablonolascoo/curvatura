@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { GithubLogo, List, X } from "@phosphor-icons/react";
+import { GithubLogo, List, UserCircle, X } from "@phosphor-icons/react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
 const REPO = "https://github.com/pablonolascoo/curvatura";
@@ -30,6 +30,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Dictionary["nav"] }) {
     { href: `${base}/buscar/`, label: t.search },
     { href: `${base}/notas/`, label: t.notes },
   ];
+  const mobileLinks = [...links, { href: `${base}/cuenta/`, label: t.account }];
   const swap = (l: Locale) => pathname.replace(/^\/(es|en|fr)(?=\/|$)/, `/${l}`);
   const active = (href: string) => !href.includes("#") && pathname.startsWith(href);
 
@@ -58,7 +59,10 @@ export function Nav({ lang, t }: { lang: Locale; t: Dictionary["nav"] }) {
               </li>
             ))}
           </ul>
-          <a href={REPO} target="_blank" rel="noreferrer" aria-label="GitHub" className="ml-2 flex size-9 items-center justify-center rounded-md text-fg transition-colors hover:bg-gray-bg">
+          <Link href={`${base}/cuenta/`} aria-label={t.account} className="ml-2 flex size-9 items-center justify-center rounded-md text-fg transition-colors hover:bg-gray-bg">
+            <UserCircle size={20} weight="bold" />
+          </Link>
+          <a href={REPO} target="_blank" rel="noreferrer" aria-label="GitHub" className="flex size-9 items-center justify-center rounded-md text-fg transition-colors hover:bg-gray-bg">
             <GithubLogo size={18} weight="bold" />
           </a>
         </div>
@@ -69,7 +73,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Dictionary["nav"] }) {
 
       <div id="menu" hidden={!open} className="fixed inset-x-0 bottom-0 top-[calc(3.5rem+env(safe-area-inset-top))] overflow-y-auto overscroll-contain border-t border-line bg-bg px-4 pb-10 pt-6 lg:hidden">
         <ul className="grid">
-          {links.map((l, i) => (
+          {mobileLinks.map((l, i) => (
             <li key={l.href} className="reveal is-in border-b border-line" style={{ ["--i" as string]: i }}>
               <Link href={l.href} onClick={() => setOpen(false)} className="block py-4 font-serif text-2xl tracking-[-0.02em] text-fg">
                 {l.label}

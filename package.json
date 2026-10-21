@@ -9,14 +9,15 @@
   "scripts": {
     "dev": "cd apps/web && bun run dev",
     "build": "cd apps/web && bun run build",
-    "test": "bun --filter '@curvatura/formula' test && uv --directory physics run pytest -q && cargo test --release -q --manifest-path solvers/rust/Cargo.toml && make -C solvers/cpp test",
+    "test": "bun scripts/check-readmes.ts && bun --filter '@curvatura/formula' test && uv --directory physics run pytest -q && cargo test --release -q --manifest-path solvers/rust/Cargo.toml && make -C solvers/cpp test",
     "deploy": "bun scripts/deploy.ts",
     "desktop": "cd apps/desktop && bun run dev",
     "desktop:build": "cd apps/desktop && bun run build",
     "library:harvest": "python3 -I library/tools/harvest.py all",
     "library:index": "python3 -I library/rag/build.py",
     "app:mac": "bun scripts/app-local.ts",
-    "firma": "bun scripts/firma.ts"
+    "firma": "bun scripts/firma.ts",
+    "readme:check": "bun scripts/check-readmes.ts"
   },
   "packageManager": "bun@1.3.4"
 }

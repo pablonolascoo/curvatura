@@ -8,6 +8,7 @@ import { equationView, equationsForPaper } from "@/lib/equations";
 import { LOCALES, LOCALE_NAMES, getDictionary, hasLocale, type Locale } from "@/lib/i18n";
 import { citation, getPaper, getStaticIds, getTitles, getVersions, isOpenLicense } from "@/lib/library";
 import { Flags } from "@/components/Flags";
+import { Rating } from "@/components/Rating";
 import { renderMarkdown } from "@/lib/markdown";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE, alternates } from "@/lib/site";
@@ -68,7 +69,12 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
         <div className="grid gap-4">
           <span className="font-mono text-sm text-muted">{p.year}</span>
           <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{getTitles(p.id)?.[lang] ?? p.title}</h1>
-          {getTitles(p.id)?.[lang] && getTitles(p.id)?.[lang] !== p.title && <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>}
+          {getTitles(p.id)?.[lang] && getTitles(p.id)?.[lang] !== p.title && (
+            <>
+              <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>
+              <span className="tag tag-yellow w-max normal-case tracking-normal">{t.library.aiTitle}</span>
+            </>
+          )}
           <p className="text-fg-2">{p.authors.join(", ")}</p>
           <p className="text-sm text-muted">{p.venue}</p>
         </div>
@@ -83,6 +89,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
         {!isOpenLicense(p) && <p className="card p-5 text-sm leading-relaxed text-muted border border-line">{t.library.noFulltext}</p>}
       </header>
       <div className="grid min-w-0 content-start gap-12 lg:col-span-8">
+        <Rating paper={p.id} lang={lang} labels={t.rating} />
         {eqs.length > 0 && (
           <section className="grid gap-4">
             <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{t.nav.equations}</h2>

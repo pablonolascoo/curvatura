@@ -18,7 +18,8 @@
     "lab": "Lab",
     "equations": "Equations",
     "search": "Search",
-    "download": "Download"
+    "download": "Download",
+    "account": "Account"
   },
   "hero": {
     "title": "Move space, not the ship.",
@@ -202,7 +203,7 @@
     "unverified": "Pending verification",
     "noFulltext": "This paper's licence does not allow reproducing the full text. Citation, abstract and a link to the source are provided.",
     "noAbstract": "No abstract available. See the original source.",
-    "translation": "Translation by the Curvatura project.",
+    "translation": "Machine translation with AI: it may contain errors.",
     "back": "Back to the library",
     "kinds": {
       "solucion": "Solution",
@@ -224,7 +225,8 @@
     "country": "Country",
     "countries": "countries",
     "byCountry": "By country",
-    "translated": "Translated titles"
+    "translated": "Translated titles",
+    "aiTitle": "Title translated with AI"
   },
   "notes": {
     "title": "Notes",
@@ -332,5 +334,72 @@
       "cta": "Search the library"
     }
   },
-  "marquee": "Journals in the library"
+  "marquee": "Journals in the library",
+  "rating": {
+    "title": "Rating",
+    "votes": "ratings",
+    "yours": "Your rating",
+    "login": "Sign in with ORCID to rate",
+    "honor": "Honourable mention",
+    "honorGive": "Give an honourable mention",
+    "honorGiven": "Honourable mention given",
+    "honorHow": "How to earn the honourable mention",
+    "honorList": "Honourable mention",
+    "error": "Could not load the rating",
+    "onWeb": "Rate on the website",
+    "loading": "Loading…",
+    "saved": "Saved."
+  },
+  "account": {
+    "title": "Account",
+    "body": "Rate papers with stars and, if you have training or work in the field, give honourable mentions.",
+    "intro": "Rating requires a verified account. We use ORCID, the researcher identifier: we never store passwords.",
+    "login": "Sign in with ORCID",
+    "notConfigured": "ORCID sign-in will be enabled shortly.",
+    "logout": "Sign out",
+    "signedAs": "Signed in as",
+    "status": {
+      "no": "No honourable mention",
+      "pendiente": "Under review",
+      "aprobada": "Honourable mention verified",
+      "rechazada": "Rejected"
+    },
+    "stepsTitle": "How the honourable mention is verified",
+    "steps": [
+      "Sign in with ORCID. Your identity is verified by ORCID.",
+      "Enter your bachelor's, master's, postgraduate, PhD or job in physics, engineering or a related field. If your institution has confirmed it on ORCID, it is approved instantly.",
+      "Otherwise attach the diploma or contract. A reviewer checks that the document and the institution are real and replies here."
+    ],
+    "formTitle": "Request verification",
+    "type": "Type",
+    "types": {
+      "grado": "Bachelor's",
+      "master": "Master's",
+      "postgrado": "Postgraduate",
+      "doctorado": "PhD",
+      "trabajo": "Job"
+    },
+    "degree": "Degree or position",
+    "institution": "Institution",
+    "year": "Year",
+    "area": "Field (e.g. theoretical physics, aerospace engineering)",
+    "document": "Document (PDF, PNG or JPG, max 5 MB)",
+    "documentHelp": "Required unless your institution confirmed it on ORCID. Deleted when the review ends; we only keep its fingerprint.",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "mine": "Your requests",
+    "none": "You have not sent any yet.",
+    "adminTitle": "Pending review",
+    "adminEmpty": "No pending requests.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "note": "Note for the user",
+    "openDoc": "View document",
+    "evidence": "ORCID evidence",
+    "hash": "SHA-256",
+    "onWeb": "Manage your account on the website",
+    "privacy": "Documents are only seen by the review team and are deleted when the review closes.",
+    "resultApproved": "Verified with your ORCID record. You can now give honourable mentions.",
+    "resultPending": "Request received. We will let you know here when it is reviewed."
+  }
 }

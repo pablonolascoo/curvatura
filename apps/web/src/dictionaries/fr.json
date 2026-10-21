@@ -18,7 +18,8 @@
     "lab": "Laboratoire",
     "equations": "Équations",
     "search": "Rechercher",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "account": "Compte"
   },
   "hero": {
     "title": "Déplacer l'espace, pas le vaisseau.",
@@ -202,7 +203,7 @@
     "unverified": "Vérification en attente",
     "noFulltext": "La licence de cet article ne permet pas de reproduire le texte intégral. Citation, résumé et lien vers la source sont fournis.",
     "noAbstract": "Pas de résumé disponible. Consultez la source originale.",
-    "translation": "Traduction du projet Curvatura.",
+    "translation": "Traduction automatique par IA : elle peut contenir des erreurs.",
     "back": "Retour à la bibliothèque",
     "kinds": {
       "solucion": "Solution",
@@ -224,7 +225,8 @@
     "country": "Pays",
     "countries": "pays",
     "byCountry": "Par pays",
-    "translated": "Titres traduits"
+    "translated": "Titres traduits",
+    "aiTitle": "Titre traduit par IA"
   },
   "notes": {
     "title": "Notes",
@@ -332,5 +334,72 @@
       "cta": "Rechercher dans la bibliothèque"
     }
   },
-  "marquee": "Revues de la bibliothèque"
+  "marquee": "Revues de la bibliothèque",
+  "rating": {
+    "title": "Évaluation",
+    "votes": "évaluations",
+    "yours": "Votre évaluation",
+    "login": "Connectez-vous avec ORCID pour évaluer",
+    "honor": "Mention d'honneur",
+    "honorGive": "Donner une mention d'honneur",
+    "honorGiven": "Mention d'honneur donnée",
+    "honorHow": "Comment obtenir la mention d'honneur",
+    "honorList": "Mention d'honneur",
+    "error": "Impossible de charger l'évaluation",
+    "onWeb": "Évaluer sur le site",
+    "loading": "Chargement…",
+    "saved": "Enregistré."
+  },
+  "account": {
+    "title": "Compte",
+    "body": "Évaluez les articles avec des étoiles et, si vous avez une formation ou un emploi dans le domaine, accordez des mentions d'honneur.",
+    "intro": "Évaluer exige un compte vérifié. Nous utilisons ORCID, l'identifiant des chercheurs : aucun mot de passe n'est stocké.",
+    "login": "Se connecter avec ORCID",
+    "notConfigured": "La connexion ORCID sera bientôt activée.",
+    "logout": "Se déconnecter",
+    "signedAs": "Connecté en tant que",
+    "status": {
+      "no": "Sans mention d'honneur",
+      "pendiente": "En cours de révision",
+      "aprobada": "Mention d'honneur vérifiée",
+      "rechazada": "Refusée"
+    },
+    "stepsTitle": "Comment la mention d'honneur est vérifiée",
+    "steps": [
+      "Connectez-vous avec ORCID. Votre identité est vérifiée par ORCID.",
+      "Indiquez votre licence, master, post-master, doctorat ou emploi en physique, ingénierie ou domaine voisin. Si votre établissement l'a confirmé sur ORCID, c'est approuvé immédiatement.",
+      "Sinon, joignez le diplôme ou le contrat. Un réviseur vérifie que le document et l'établissement sont réels et vous répond ici."
+    ],
+    "formTitle": "Demander la vérification",
+    "type": "Type",
+    "types": {
+      "grado": "Licence",
+      "master": "Master",
+      "postgrado": "Post-master",
+      "doctorado": "Doctorat",
+      "trabajo": "Emploi"
+    },
+    "degree": "Diplôme ou poste",
+    "institution": "Établissement",
+    "year": "Année",
+    "area": "Domaine (ex. physique théorique, ingénierie aérospatiale)",
+    "document": "Document (PDF, PNG ou JPG, 5 Mo max.)",
+    "documentHelp": "Obligatoire sauf confirmation par votre établissement sur ORCID. Supprimé à la fin de la révision ; seule son empreinte est conservée.",
+    "submit": "Envoyer",
+    "sending": "Envoi…",
+    "mine": "Vos demandes",
+    "none": "Vous n'en avez encore envoyé aucune.",
+    "adminTitle": "Révision en attente",
+    "adminEmpty": "Aucune demande en attente.",
+    "approve": "Approuver",
+    "reject": "Refuser",
+    "note": "Note pour l'utilisateur",
+    "openDoc": "Voir le document",
+    "evidence": "Preuves ORCID",
+    "hash": "SHA-256",
+    "onWeb": "Gérez votre compte sur le site",
+    "privacy": "Les documents ne sont vus que par l'équipe de révision et sont supprimés à la clôture.",
+    "resultApproved": "Vérifié avec votre profil ORCID. Vous pouvez désormais donner des mentions d'honneur.",
+    "resultPending": "Demande reçue. Nous vous répondrons ici après révision."
+  }
 }

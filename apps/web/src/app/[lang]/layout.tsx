@@ -6,6 +6,7 @@ import { Newsreader } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { RevealObserver } from "@/components/RevealObserver";
+import { ExternalLinks } from "@/components/ExternalLinks";
 import { LOCALES, getDictionary, hasLocale } from "@/lib/i18n";
 import { APP_VERSION } from "@/lib/version";
 import { AUTHOR, SITE, alternates } from "@/lib/site";
@@ -59,6 +60,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <main id="contenido" tabIndex={-1} className="w-full max-w-full overflow-x-clip">{children}</main>
         <Footer lang={lang} t={t.footer} nav={t.nav} />
         <RevealObserver />
+        <ExternalLinks />
       </body>
     </html>
   );

@@ -4,6 +4,17 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+### Añadido
+- Valoraciones de 1 a 5 estrellas con identidad ORCID (Cloudflare Worker + D1).
+- Mención de honor para titulados (grado, máster, posgrado, doctorado) y profesionales del área. Verificación automática con afiliaciones validadas por la institución en ORCID; si no, documento revisado a mano y borrado tras la revisión.
+- Página «Cuenta»: inicio de sesión, solicitud de verificación y cola de revisión para administradores.
+- Resúmenes traducidos al español y al francés en 2109 papers. Aviso de traducción con IA en títulos y resúmenes.
+- README en español, inglés, francés y chino, con comprobación automática (`bun run readme:check`) en la CI, en los tests y antes de cada despliegue.
+
+### Cambiado
+- Banderas y países ya no se solapan en la ficha del paper.
+- En la app de escritorio, los enlaces externos se abren en el navegador predeterminado.
+
 ## Alcubierre v0.1.2 · 2026-10-21
 
 ### Añadido

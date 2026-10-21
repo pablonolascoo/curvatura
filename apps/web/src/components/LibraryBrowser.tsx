@@ -9,7 +9,7 @@ type Row = { st: 0 | 1; te: string | null; tf: string | null; f: string[]; id: s
 
 type Labels = {
   search: string; all: string; subsystem: string; kind: string; empty: string; fulltext: string;
-  kinds: Record<string, string>; count: string; relevance: string; core: string; country: string; sort: string; recent: string; cited: string; more: string; loading: string; onlyOpen: string;
+  kinds: Record<string, string>; count: string; relevance: string; core: string; country: string; aiTitle: string; sort: string; recent: string; cited: string; more: string; loading: string; onlyOpen: string;
 };
 
 const SUBSYSTEMS = ["G", "C", "E", "S", "D", "Q", "M", "P", "V"];
@@ -141,6 +141,7 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
             <Chip on={st.sort === "cited"} onClick={() => set({ sort: "cited" })}>{labels.cited}</Chip>
           </span>
           {rows && <span className="ml-auto font-mono text-muted tabular-nums">{list.length} {labels.count}</span>}
+          {lang !== "en" && <span className="tag tag-yellow w-full justify-center normal-case tracking-normal sm:w-max">{labels.aiTitle}</span>}
         </div>
       </div>
 

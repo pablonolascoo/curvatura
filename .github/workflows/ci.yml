@@ -18,6 +18,8 @@ jobs:
         with:
           targets: wasm32-unknown-unknown
       - run: bun install --frozen-lockfile
+      - name: README en todos los idiomas
+        run: bun scripts/check-readmes.ts
       - name: Motor de fórmulas
         run: bun --filter '@curvatura/formula' test
       - name: Física (Python)

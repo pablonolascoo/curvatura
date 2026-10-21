@@ -40,7 +40,7 @@ export function PaperTabs({ tabs, initial, labels }: { tabs: Tab[]; initial: str
         ))}
       </div>
       <div role="tabpanel" className="grid min-w-0 gap-12">
-        {tab.note && <p className="text-sm text-muted">{tab.note}</p>}
+        {tab.note && <p className="tag tag-yellow w-max normal-case tracking-normal">{tab.note}</p>}
         <section className="grid gap-4">
           <h2 className="text-sm text-muted">{labels.abstract}</h2>
           {tab.abstract ? (

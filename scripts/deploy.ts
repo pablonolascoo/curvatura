@@ -37,6 +37,8 @@ if (branch !== "main") { console.error(`Hay que desplegar desde main (estás en 
 // La biblioteca crece en segundo plano (recolector, traducciones): no bloquea el despliegue.
 const sucio = (await $`git status --porcelain`.text()).split("\n").filter((l) => l.trim() && !l.slice(3).startsWith("library/"));
 if (sucio.length) { console.error(`Hay cambios sin commitear fuera de library/:\n${sucio.join("\n")}`); process.exit(1); }
+// Los README de todos los idiomas tienen que ir parejos antes de publicar.
+if ((await $`bun scripts/check-readmes.ts`.nothrow()).exitCode !== 0) process.exit(1);
 
 const meta = JSON.parse(readFileSync(VERSION_FILE, "utf8")) as { codename: string; version: string; released?: boolean };
 const nextVersion = meta.released ? bump(meta.version, level) : meta.version;
@@ -58,7 +60,7 @@ await $`git commit -m ${`deploy: ${label}`}`;
 await $`git tag -a ${tag} -m ${label}${obligatoria ? " [obligatoria]" : ""}`;
 
 const envFile = existsSync(".cloudflare.env") ? "set -a && source .cloudflare.env && set +a && " : "";
-const result = await $`bash -c ${`${envFile}cd apps/web && bun run build && bunx wrangler deploy`}`.nothrow();
+const result = await $`bash -c ${`${envFile}cd apps/web && bun run build && bunx wrangler d1 migrations apply curvatura --remote && bunx wrangler deploy`}`.nothrow();
 
 if (result.exitCode !== 0) {
   console.error(`\nEl despliegue falló. Revirtiendo commit, etiqueta y versión.`);

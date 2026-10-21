@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowUpRight } from "@phosphor-icons/react";
 import { Flags } from "./Flags";
+import { Rating } from "./Rating";
 
 type Paper = {
   id: string; title: string; authors: string[]; year: number; venue: string; doi: string | null; arxiv: string | null;
@@ -13,14 +14,14 @@ type Paper = {
 
 type Labels = {
   back: string; source: string; license: string; subsystem: string; kind: string; verified: string; unverified: string;
-  abstract: string; noAbstract: string; noFulltext: string; translation: string; original: string; loading: string; empty: string; country: string;
+  abstract: string; noAbstract: string; noFulltext: string; translation: string; aiTitle: string; original: string; loading: string; empty: string; country: string;
   kinds: Record<string, string>;
 };
 
 const NAMES: Record<string, string> = { es: "Español", en: "English", fr: "Français" };
 
 /** Ficha ligera para papers sin página estática: lee /library/p/<id>.json. */
-export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) {
+export function PaperViewer({ lang, labels, ratingLabels }: { lang: string; labels: Labels; ratingLabels: React.ComponentProps<typeof Rating>["labels"] }) {
   const [p, setP] = useState<Paper | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [tab, setTab] = useState(lang);
@@ -76,7 +77,12 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
         <div className="grid gap-4">
           <span className="font-mono text-sm text-muted">{p.year}</span>
           <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{p.titles?.[lang] ?? p.title}</h1>
-          {p.titles?.[lang] && p.titles[lang] !== p.title && <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>}
+          {p.titles?.[lang] && p.titles[lang] !== p.title && (
+            <>
+              <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>
+              <span className="tag tag-yellow w-max normal-case tracking-normal">{labels.aiTitle}</span>
+            </>
+          )}
           <p className="text-fg-2">{p.authors.join(", ")}</p>
           <p className="text-sm text-muted">{p.venue}</p>
         </div>
@@ -91,6 +97,7 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
         <p className="card p-5 text-sm leading-relaxed text-muted">{labels.noFulltext}</p>
       </header>
       <div className="grid min-w-0 content-start gap-8 lg:col-span-8">
+        <Rating paper={p.id} lang={lang} labels={ratingLabels} />
         {langs.length > 1 && (
           <div role="tablist" className="flex flex-wrap gap-2">
             {langs.map((l) => (
@@ -102,7 +109,7 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
             ))}
           </div>
         )}
-        {tab !== p.language && p.abstracts[tab] && <p className="text-sm text-muted">{labels.translation}</p>}
+        {tab !== p.language && p.abstracts[tab] && <p className="tag tag-yellow w-max normal-case tracking-normal">{labels.translation}</p>}
         <section className="grid gap-4">
           <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{labels.abstract}</h2>
           {p.abstracts[tab] ? <p className="prose-paper text-lg text-fg">{p.abstracts[tab]}</p> : <p className="text-muted">{labels.noAbstract}</p>}

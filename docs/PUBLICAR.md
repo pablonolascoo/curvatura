@@ -28,3 +28,25 @@ gh repo create pablonolascoo/curvatura --public --source=. --remote=origin --pus
 bun scripts/firma.ts --github   # imprime los comandos gh secret set
 git push origin --tags
 ```
+
+## Valoraciones (ORCID)
+
+La API de valoraciones vive en el mismo Worker (`apps/web/worker/`) con D1 (`curvatura`) y KV (`DOCS`, documentos de verificación). `bun run deploy` aplica las migraciones de `apps/web/migrations/` antes de publicar.
+
+Para activar el inicio de sesión (una sola vez):
+
+1. En <https://orcid.org/developer-tools>, registra una aplicación de la API pública.
+   - Nombre: Curvatura. Web: `https://curvatura.consultora-bim.workers.dev`.
+   - URI de redirección: `https://curvatura.consultora-bim.workers.dev/api/auth/orcid/callback`.
+2. Guarda las credenciales como secretos del Worker (no van al repo):
+   ```bash
+   cd apps/web
+   bunx wrangler secret put ORCID_CLIENT_ID
+   bunx wrangler secret put ORCID_CLIENT_SECRET
+   ```
+3. Pon tu ORCID en `ADMIN_ORCIDS` (`apps/web/wrangler.jsonc`, separados por comas) para revisar solicitudes en **Cuenta**.
+4. Si cambias de dominio, actualiza `SITE_URL` y la URI de redirección en ORCID.
+
+Mientras no haya credenciales, la web muestra «El inicio de sesión con ORCID se activará en breve» y las medias de estrellas se ven igual.
+
+En local: `.dev.vars` con `DEV_LOGIN=1` permite entrar sin ORCID solo en `localhost`.
