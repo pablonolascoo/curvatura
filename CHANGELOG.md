@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.2.1 · 2026-10-21
+
 ## Alcubierre v0.2.0 · 2026-10-21
 
 ### Añadido
