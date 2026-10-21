@@ -16,7 +16,7 @@ source: https://arxiv.org/abs/gr-qc/0202021
 language: en
 subsystems: [G, C, D]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

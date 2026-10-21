@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1004.4876
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

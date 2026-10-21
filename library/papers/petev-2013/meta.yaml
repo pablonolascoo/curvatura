@@ -17,7 +17,7 @@ source: https://arxiv.org/abs/1303.5967
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false

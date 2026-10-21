@@ -35,7 +35,7 @@ from curvatura.energy_conditions import nec_min, wec_min
 (t, x, y, z), g, alpha, beta, _ = A.symbolic(sp.Rational(1, 2), 1, 4)
 geo = geometry(g, (t, x, y, z))
 T = sp.lambdify((t, x, y, z), stress_energy_frame(geo, eulerian_tetrad_flat(alpha, beta)), "numpy")
-for p in [(0, 0, 0), (0.3, 0.9, 0), (1.0, 0.1, 0), (2.5, 0, 0)]:
+for p in [(0.05, 0.02, 0), (0.3, 0.9, 0), (1.0, 0.1, 0), (2.5, 0.1, 0)]:
     Tab = np.array(T(0.0, *p), dtype=float)
     print(f"{str(p):<16} ρ={Tab[0,0]:+.3e}  NEC mín={nec_min(Tab):+.3e}  WEC mín={wec_min(Tab):+.3e}")`,
 };

@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1007.4167
 language: en
 subsystems: [C, Q]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

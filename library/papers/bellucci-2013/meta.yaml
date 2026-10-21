@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/1311.5484
 language: en
 subsystems: [G, E, Q]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

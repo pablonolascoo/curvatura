@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1203.1803
 language: en
 subsystems: [G, C, E, D, M, P]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

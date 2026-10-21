@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/1111.4356
 language: en
 subsystems: [G, C, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

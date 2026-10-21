@@ -64,13 +64,13 @@ def test_energy_conditions_detect_negative_density():
 
 
 def test_energy_conditions_violated_in_the_wall():
-    """En la pared de Alcubierre se violan NEC y WEC; en el centro no hay materia."""
+    """En la pared de Alcubierre se violan NEC y WEC; cerca del centro el contenido es despreciable."""
     from curvatura.tensor import eulerian_tetrad_flat, stress_energy_frame
 
     (t, x, y, z), g, alpha, beta, _ = A.symbolic(sp.Rational(1, 2), sp.Integer(1), sp.Integer(4))
     geo = geometry(g, (t, x, y, z))
     T = sp.lambdify((t, x, y, z), stress_energy_frame(geo, eulerian_tetrad_flat(alpha, beta)), "numpy")
     wall = np.array(T(0.0, 0.3, 0.9, 0.0), dtype=float)
-    centre = np.array(T(0.0, 0.0, 0.0, 0.0), dtype=float)
+    centre = np.array(T(0.0, 0.05, 0.02, 0.0), dtype=float)  # r = 0 exacto es 0/0 en la expresión
     assert wec_min(wall) < 0 and nec_min(wall) < 0
-    assert np.allclose(centre, 0.0, atol=1e-12)
+    assert np.abs(centre).max() < 1e-2 * np.abs(wall).max()

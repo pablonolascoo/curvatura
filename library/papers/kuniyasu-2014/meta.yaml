@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1402.2387
 language: en
 subsystems: [C, D]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
