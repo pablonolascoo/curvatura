@@ -17,7 +17,7 @@ subsystems: [G, D, V]
 kind: experimental
 license: CC-BY-NC-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: false
 harvest: openalex
 cited_by: 2

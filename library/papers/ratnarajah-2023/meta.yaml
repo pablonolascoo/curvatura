@@ -15,7 +15,7 @@ language: en
 subsystems: [G, V]
 kind: analogo
 license: CC0-1.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

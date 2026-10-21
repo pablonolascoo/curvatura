@@ -1,0 +1,1 @@
+Le Catalogue d'espaces-temps est une collection d'espaces-temps lorentziens à quatre dimensions dans le contexte de la théorie de la relativité générale (GR). L'objectif du catalogue est de donner une référence rapide aux étudiants qui ont besoin de quelques faits de base sur les espaces-temps les plus connus de la GR.

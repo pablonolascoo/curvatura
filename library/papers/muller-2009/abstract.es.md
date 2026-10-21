@@ -1,0 +1,1 @@
+El Catálogo de Espacio-tiempos es una colección de espacio-tiempos lorentzianos de cuatro dimensiones en el contexto de la teoría general de la relatividad (GR). El objetivo del catálogo es dar una referencia rápida a los estudiantes que necesitan algunos datos básicos de los espacio-tiempos más conocidos de la GR.

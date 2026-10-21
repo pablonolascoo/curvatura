@@ -1,0 +1,1 @@
+Ceci est un rapport d'étape sur les travaux en cours pour réaliser la théorie quantique des champs sur des espaces-temps courbes de graphène en utilisant la symétrie de Weyl. Le programme est activement poursuivi sous de nombreux angles différents. Nous indiquons ici ce qui a été fait et ce qui reste à faire.

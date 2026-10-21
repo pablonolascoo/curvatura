@@ -1,0 +1,1 @@
+En el contexto de la radiación de tipo Hawking en agujeros negros sónicos formados por BEC, investigamos las modificaciones del espectro de emisión causadas por una anchura finita de la región de transición sónica que conecta el flujo subsónico con el supersónico.

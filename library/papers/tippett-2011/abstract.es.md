@@ -1,0 +1,1 @@
+A la vista del auge de popularidad de los dispositivos de camuflaje electromagnético, consideramos si es posible usar la lente gravitatoria para ocultar un volumen de espacio-tiempo. Se presenta una métrica para tal geometría de espacio-tiempo y se explican sus implicaciones geométricas y físicas.

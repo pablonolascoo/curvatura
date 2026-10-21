@@ -1,0 +1,1 @@
+En este análisis especulativo se introduce la interdimensionalidad como la (co)existencia de universos embebidos en otros mayores. Estos universos interdimensionales pueden estar aislados o entrelazados, lo que sugiere una variedad de fenómenos intrínsecos interdimensionales que solo pueden entenderse en términos de la realidad externa, extrínseca.

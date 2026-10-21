@@ -1,0 +1,1 @@
+Nous présentons une discussion générale sur les propriétés dites émergentes et nous examinons si l'espace-temps et la gravité peuvent être considérés comme des caractéristiques émergentes de structures sous-jacentes plus fondamentales. Enfin, nous discutons quelques idées sur le multivers et spéculons sur la manière dont notre univers pourrait surgir du multivers.

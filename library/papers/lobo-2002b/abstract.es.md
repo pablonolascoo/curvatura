@@ -1,0 +1,1 @@
+La relatividad general está contaminada con geometrías no triviales que generan curvas temporales cerradas. Estas aparentemente violan la causalidad y producen paradojas de los viajes en el tiempo. Discutiremos brevemente estas geometrías y analizaremos algunos de sus aspectos físicos.

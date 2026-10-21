@@ -1,0 +1,1 @@
+La relativité générale est contaminée par des géométries non triviales qui engendrent des courbes temporelles fermées. Celles-ci violent apparemment la causalité, produisant des paradoxes de voyage dans le temps. Nous discuterons brièvement ces géométries et analyserons certains de leurs aspects physiques.

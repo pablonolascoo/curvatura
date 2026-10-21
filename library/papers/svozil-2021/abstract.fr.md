@@ -1,0 +1,1 @@
+Dans cette analyse spéculative, l'interdimensionnalité est introduite comme la (co)existence d'univers plongés dans de plus grands. Ces univers interdimensionnels peuvent être isolés ou entremêlés, ce qui suggère une variété de phénomènes intrinsèques interdimensionnels qui ne peuvent se comprendre qu'en termes de la réalité externe, extrinsèque.

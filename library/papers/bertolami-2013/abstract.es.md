@@ -1,0 +1,1 @@
+Presentamos una discusión general sobre las llamadas propiedades emergentes y debatimos si el espaciotiempo y la gravedad pueden considerarse rasgos emergentes de estructuras subyacentes más fundamentales. Por último, discutimos algunas ideas sobre el multiverso y especulamos sobre cómo podría surgir nuestro universo a partir del multiverso.

@@ -1,0 +1,1 @@
+En este artículo, dedicado a la memoria de A. Aurilia, repasaremos algunas características básicas de la radiación de agujero negro de Hawking y las compararemos con las correspondientes presentes en los agujeros negros análogos de condensados de Bose-Einstein.

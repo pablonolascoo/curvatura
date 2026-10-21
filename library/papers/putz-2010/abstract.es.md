@@ -1,0 +1,1 @@
+Proponemos «impulsar» la velocidad de comunicación y de cálculo sumergiendo el entorno de cómputo en un medio cuyo índice de refracción sea menor que uno, traspasando así la barrera de la velocidad de la luz.

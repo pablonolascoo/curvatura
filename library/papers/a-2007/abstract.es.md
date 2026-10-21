@@ -1,0 +1,1 @@
+En este artículo hemos encontrado una solución en serie de las ecuaciones de Einstein en 3D que describe un agujero de gusano para una distribución inhomogénea de energía fantasma. Aquí suponemos que la ecuación de estado es lineal pero muy anisótropa.

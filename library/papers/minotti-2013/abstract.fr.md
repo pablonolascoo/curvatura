@@ -1,0 +1,1 @@
+Des résultats expérimentaux publiés récemment indiquent l'apparition de forces inhabituelles sur des cavités résonantes électromagnétiques asymétriques. On soutient ici qu'une classe particulière de théories scalaire-tensorielles de la gravité pourrait rendre compte de cet effet.

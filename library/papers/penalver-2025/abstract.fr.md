@@ -1,0 +1,1 @@
+Dans le contexte du rayonnement de type Hawking dans les trous noirs soniques formés par des BEC, nous étudions les modifications du spectre d'émission causées par une largeur finie de la région de transition sonique reliant l'écoulement subsonique à l'écoulement supersonique.

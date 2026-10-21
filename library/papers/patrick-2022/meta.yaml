@@ -15,8 +15,8 @@ language: en
 subsystems: [G, Q]
 kind: restriccion
 license: CC-BY-4.0
-fulltext: false
-translations: []
+fulltext: source
+translations: [es, fr]
 verified: false
 harvest: openalex
 cited_by: 19

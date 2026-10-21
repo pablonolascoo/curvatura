@@ -1,0 +1,1 @@
+À l'aide de calculs holographiques, nous examinons une hypothèse clé de l'argument récent de Jacobson pour déduire les équations d'Einstein de l'entropie d'intrication du vide. Nos résultats, concernant des opérateurs pertinents de faibles dimensions conformes, semblent entrer en conflit avec l'hypothèse de Jacobson. Nous discutons cependant des moyens de contourner ce problème.

@@ -1,0 +1,1 @@
+Este artículo revisa y amplía un enfoque de la cinemática superlumínica expuesto por R. Sutherland y J. Shepanski en 1986. Esta teoría se caracteriza por un espaciotiempo de métrica definida positiva, un factor de Lorentz de la forma $1/\sqrt{β^2 - 1}$ y tiempos propios y longitudes propias de valor real para los sistemas de referencia superlumínicos.

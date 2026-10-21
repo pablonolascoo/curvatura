@@ -1,0 +1,1 @@
+Resultados experimentales publicados recientemente indican la aparición de fuerzas inusuales en cavidades resonantes electromagnéticas asimétricas. Aquí se argumenta que una clase particular de teorías escalar-tensoriales de la gravedad podría explicar este efecto.

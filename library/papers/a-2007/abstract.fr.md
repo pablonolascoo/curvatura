@@ -1,0 +1,1 @@
+Dans cet article, nous avons trouvé une solution en série des équations d'Einstein en 3D décrivant un trou de ver pour une distribution inhomogène d'énergie fantôme. Nous supposons ici que l'équation d'état est linéaire mais fortement anisotrope.

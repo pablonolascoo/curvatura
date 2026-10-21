@@ -1,0 +1,1 @@
+Usamos la teleportación cuántica de energía en la interacción luz-materia como medio operativo para crear estados de campo cuántico que violan las condiciones de energía y tienen densidades locales de tensión-energía negativas. Mostramos que el protocolo es óptimo en el sentido de que escala de un modo que satura la conjetura del interés cuántico.

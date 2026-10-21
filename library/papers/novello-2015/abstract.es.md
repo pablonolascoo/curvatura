@@ -1,0 +1,1 @@
+Presentamos una visión general de los desarrollos recientes sobre modificaciones de la geometría del espacio-tiempo para describir diversos procesos de interacción entre configuraciones clásicas y cuánticas. Nos concentramos en dos líneas principales de investigación: la Relatividad Métrica y el Puente Dinámico.

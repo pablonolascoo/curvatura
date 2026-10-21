@@ -1,0 +1,1 @@
+Nous présentons un aperçu des développements récents concernant les modifications de la géométrie de l'espace-temps pour décrire divers processus d'interaction entre configurations classiques et quantiques. Nous nous concentrons sur deux grandes lignes de recherche : la Relativité Métrique et le Pont Dynamique.

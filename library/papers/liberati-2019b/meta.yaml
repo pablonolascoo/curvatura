@@ -15,7 +15,7 @@ subsystems: [G, V]
 kind: analogo
 license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: false
 harvest: openalex
 cited_by: 21

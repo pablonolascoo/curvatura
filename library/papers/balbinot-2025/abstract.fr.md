@@ -1,0 +1,1 @@
+Dans cet article, dédié à la mémoire d'A. Aurilia, nous passerons en revue quelques caractéristiques de base du rayonnement de trou noir de Hawking et les comparerons avec celles correspondantes présentes dans les trous noirs analogues à base de condensats de Bose-Einstein.

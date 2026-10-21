@@ -1,0 +1,1 @@
+Au vu de l'essor de la popularité des dispositifs de camouflage électromagnétique, nous nous demandons s'il est possible d'utiliser la lentille gravitationnelle pour dissimuler un volume d'espace-temps. Une métrique pour une telle géométrie d'espace-temps est présentée et ses implications géométriques et physiques sont expliquées.

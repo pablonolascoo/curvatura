@@ -1,0 +1,1 @@
+Nous proposons d'« accélérer » la vitesse de communication et de calcul en plongeant l'environnement de calcul dans un milieu dont l'indice de réfraction est inférieur à un, franchissant ainsi la barrière de la vitesse de la lumière.

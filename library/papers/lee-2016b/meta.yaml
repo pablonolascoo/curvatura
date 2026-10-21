@@ -13,7 +13,7 @@ subsystems: [G]
 kind: solucion
 license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: false
 harvest: openalex
 cited_by: 10

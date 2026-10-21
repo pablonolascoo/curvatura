@@ -1,0 +1,1 @@
+Este es un informe de situación sobre el trabajo en curso para realizar la teoría cuántica de campos en espaciotiempos curvos de grafeno mediante la simetría de Weyl. El programa se desarrolla activamente desde muchas perspectivas distintas. Aquí señalamos lo que se ha hecho y lo que queda por hacer.

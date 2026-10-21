@@ -1,0 +1,1 @@
+Nous utilisons la téléportation quantique d'énergie dans l'interaction lumière-matière comme moyen opérationnel pour créer des états de champ quantique qui violent les conditions d'énergie et ont des densités locales de tension-énergie négatives. Nous montrons que le protocole est optimal en ce sens qu'il évolue d'une manière qui sature la conjecture de l'intérêt quantique.
