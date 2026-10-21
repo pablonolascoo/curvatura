@@ -1,7 +1,7 @@
 """Servidor MCP de Curvatura: toda la base y el laboratorio como herramientas para Claude Code / Claude Desktop.
 
 Configuración (.mcp.json en la raíz del repo; ver .mcp.json.example):
-  {"mcpServers": {"curvatura": {"command": "uv", "args": ["run", "--project", "ia", "curvatura-ia", "mcp"]}}}
+  {"mcpServers": {"curvatura": {"command": "uv", "args": ["run", "--no-sync", "--project", "ia", "curvatura-ia", "mcp"]}}}
 """
 
 from __future__ import annotations

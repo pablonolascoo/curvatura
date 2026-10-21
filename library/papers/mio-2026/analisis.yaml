@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia con relatividad numérica en simetría esférica la estabilidad dinámica de estrellas de Proca cargadas eléctricamente, y clasifica el espacio de parámetros en tres regiones según su destino."
+tipo: simulacion
+supuestos:
+  - "Sistema Einstein-Maxwell-Proca en simetría esférica con campo de Proca complejo de masa m y parámetro de carga q."
+  - "Datos iniciales estacionarios con ansatz armónico, perturbados añadiendo una fracción epsilon al potencial escalar central."
+  - "Código OllinSphere con formulación BSSN esférica, diferencias finitas de cuarto orden, Runge-Kutta de cuarto orden, desplazamiento nulo y foliación 1+log."
+  - "Se toma m = 1 y la solución se reescala a otros valores de m por invariancia de las ecuaciones."
+resultados:
+  - "Región I: configuraciones ligadas estables, con energía de ligadura negativa a la izquierda del máximo de masa; masa y carga se mantienen constantes."
+  - "Región II: configuraciones ligadas inestables que migran a la rama estable o colapsan a un agujero negro de Reissner-Nordström, según el signo de la perturbación."
+  - "Región III: configuraciones inestables no ligadas (energía de ligadura positiva) que se dispersan al infinito o colapsan."
+  - "En los colapsos siempre se forma de golpe un horizonte aparente, lo que confirma la formación del agujero negro."
+  - "La migración es mucho más lenta que el colapso o la dispersión, y su escala de tiempo baja al aumentar la energía en el centro."
+ecuaciones_clave:
+  - n: 4
+    latex: 'ds^2 = - \alpha^2 dt^2 + \Psi^4 \left( a \, dr^2 + r^2 b \, d\Omega^2 \right)'
+    significado: "Métrica esférica en la forma usada por BSSN."
+  - n: 9
+    latex: '\rho = \frac{1}{8\pi} \left[\mathcal{E}_r \bar{\mathcal{E}}^r + m^2(\varphi\bar{\varphi} + x_r\bar{x}^r) + E_rE^r\right]'
+    significado: "Densidad de energía euleriana del campo de Proca y del campo eléctrico."
+  - n: 10
+    latex: '\varphi(t,r) = \varphi(r)e^{-i\omega t}, \qquad x_r(t,r) = ix(r)e^{-i\omega t}'
+    significado: "Ansatz armónico de los potenciales de Proca."
+  - n: 20
+    latex: 'Q := 4 \pi \int_0^\infty \rho_Q \left( a^{1/2} b \Psi^6 r^2 \right) dr'
+    significado: "Carga eléctrica total de la estrella."
+limitaciones:
+  - "Solo simetría esférica; no se estudian modos no esféricos ni rotación."
+  - "Sin perturbación explícita, el destino de las configuraciones inestables lo decide el error de truncamiento y no es predecible."
+  - "No trata warp drives; el interés para la biblioteca es metodológico, como ejemplo de relatividad numérica con campos de materia exóticos."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Generalizar la evolución a tres dimensiones espaciales."
+  - "Estudiar otros finales posibles, como la formación de agujeros negros cargados con pelo."

@@ -1,0 +1,17 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Boletín trimestral del grupo de gravitación de la APS (nº 23, primavera 2004). Reúne noticias, breves de investigación e informes de congresos. Su única relación con warp es el informe de Alcubierre sobre un taller de relatividad numérica."
+tipo: revision
+supuestos:
+  - "Son crónicas y noticias, no un trabajo de investigación original."
+resultados:
+  - "El informe 'Apples with Apples II' describe un taller en la UNAM sobre formulaciones de las ecuaciones de Einstein para relatividad numérica."
+  - "El taller reunió a unas 40 personas, frente a 25 del primero, y comparó resultados de simulaciones entre formulaciones."
+  - "Otras secciones tratan de cosmología, ondas gravitatorias, LISA y cuerdas, sin relación con warp."
+ecuaciones_clave: []
+limitaciones:
+  - "No contiene resultados físicos sobre propulsión warp."
+  - "Entrada marginal de la biblioteca: el interés warp es indirecto, por el autor del informe."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Valorar si el boletín debe quedar en la biblioteca o reclasificarse como material de contexto."

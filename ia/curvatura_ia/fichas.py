@@ -7,11 +7,13 @@ del paper), así que se publica con la biblioteca, marcado como generado por IA.
   curvatura-ia fichas contexto <id>          texto compacto del paper para quien escribe la ficha
   curvatura-ia fichas generar [--relevancia alta] [--max N] [ids…]   con el modelo configurado
   curvatura-ia fichas validar [ids…]         comprueba el formato de las fichas escritas
+  curvatura-ia fichas pobres [--relevancia alta]   fichas sin texto completo que ya pueden rehacerse
 """
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 import time
 
@@ -61,9 +63,11 @@ def contexto(pid: str, palabras: int = 7000) -> str:
         out.append(f"\n## {s.get('title')}\n{trozo}")
     eqs = a.get("equations") or []
     if eqs:
-        out.append(f"\n## Ecuaciones ({len(eqs)} en total; se muestran hasta 45)")
-        for e in eqs[:45]:
-            out.append(f"[{e['n']}] {e['latex'][:300]}")
+        tope = 120
+        sel = eqs if len(eqs) <= tope else [eqs[round(i * (len(eqs) - 1) / (tope - 1))] for i in range(tope)]
+        out.append(f"\n## Ecuaciones ({len(eqs)} en total; se muestran {len(sel)} repartidas por el texto)")
+        for e in sel:
+            out.append(f"[{e['n']}] ({(e.get('section') or '')[:40]}) {' '.join(e['latex'].split())[:220]}")
     figs = a.get("figures") or []
     if figs:
         out.append("\n## Figuras")
@@ -122,6 +126,14 @@ def main() -> int:
         rel = resto[resto.index("--relevancia") + 1] if "--relevancia" in resto else None
         ids = sorted(p.parent.name for p in PAPERS.glob("*/meta.yaml")
                      if not rel or f"relevance: {rel}" in p.read_text())
+    if orden == "pobres":  # fichas hechas sin texto completo que ya podrían rehacerse con él
+        for p in ids:
+            f = PAPERS / p / "analisis.yaml"
+            a = ANALISIS / f"{p}.json"
+            if f.exists() and a.exists() and re.search(r"solo con el (t[ií]tulo|resumen)", f.read_text(), re.I):
+                if json.loads(a.read_text()).get("sections"):
+                    print(p)
+        return 0
     if orden == "validar":
         hechas = [p for p in ids if (PAPERS / p / "analisis.yaml").exists()]
         malas = {p: e for p in hechas if (e := validar(p))}

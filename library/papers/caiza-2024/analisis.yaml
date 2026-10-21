@@ -1,0 +1,25 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "No trata de física warp: analiza el Cuadrado de Sator como objeto matemático y define funciones, cuadrados y matrices 'satorianos' con sus simetrías. Solo lo enlaza el nombre de Alcubierre (el ingeniero que excavó Pompeya)."
+tipo: propuesta
+supuestos:
+  - "El Cuadrado de Sator se trata como un juego de palabras simétrico, sin carácter místico."
+  - "Las simetrías se describen con puntos y ejes de simetría y con matrices bisimétricas."
+resultados:
+  - "Identifica simetría puntual, simetría de espejo con dos ejes y simetría rotacional en 3D."
+  - "Define función satoriana: f(x,y)=f(y,x) y f(x,y)=f(-y,-x); el cuadrado satoriano tiene dimensión impar."
+  - "Toda matriz satoriana es bisimétrica; se generan superficies y sólidos simétricos."
+ecuaciones_clave:
+  - n: 1
+    latex: 'f(x,y)=\sqrt{x^2+y^2}\ \text{si } xy\geq 0,\quad f(x,y)=-\sqrt{x^2+y^2}\ \text{si no}'
+    significado: "Ejemplo de función satoriana que reproduce las simetrías del cuadrado."
+  - n: 5
+    latex: 'f(x,y)=|x+y|\ \text{si } xy=0,\quad \pm\exp(-x^2-y^2)\ \text{según el signo de } xy'
+    significado: "Función satoriana con perfil gaussiano para generar superficies."
+limitaciones:
+  - "Sin relación con la propulsión warp ni con la relatividad general; solo coincide el apellido Alcubierre."
+  - "Es un estudio recreativo de simetrías, sin teoremas nuevos."
+  - "Probable entrada irrelevante de la biblioteca: conviene revisar si debe permanecer."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Retirar o reclasificar este paper en la biblioteca por no ser de física."

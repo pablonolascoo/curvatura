@@ -16,5 +16,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: baja
 countries: [DE]
+relevance_manual: baja  # trata del cuadrado Sator, no de motores de curvatura

@@ -17,5 +17,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: media
 countries: []
+relevance_manual: media  # estrellas de Proca: objetos compactos exóticos, relación indirecta

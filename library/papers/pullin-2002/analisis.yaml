@@ -1,0 +1,18 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Boletín trimestral del grupo de gravitación de la APS (otoño de 2002) con noticias de la comunidad, breves de investigación e informes de congresos, sin contenido específico sobre warp drives."
+tipo: revision
+supuestos:
+  - "Son textos breves de distintos autores sobre eventos y avances del campo, sin desarrollo formal."
+  - "Incluye informes de reuniones sobre ondas gravitacionales, datos iniciales de sistemas binarios, teoría cuántica de campos en espaciotiempo curvo y relatividad numérica."
+resultados:
+  - "Anuncia el establecimiento del Premio Einstein de Física Gravitacional, con periodicidad bienal."
+  - "Informa del inicio de la primera toma de datos científicos de LIGO (S1), que empezó el 23 de agosto."
+  - "Recoge informes de congresos, entre ellos el taller sobre formulaciones de las ecuaciones de Einstein para relatividad numérica."
+ecuaciones_clave: []
+limitaciones:
+  - "No contiene ecuaciones ni resultados sobre warp drive, energía negativa ni propulsión."
+  - "Es un documento informativo; su relevancia para la biblioteca es marginal."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Comprobar si el boletín tiene alguna sección sobre warp drive que justifique mantenerlo en la biblioteca."

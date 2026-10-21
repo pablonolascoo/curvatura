@@ -2,7 +2,7 @@
   "mcpServers": {
     "curvatura": {
       "command": "uv",
-      "args": ["run", "--project", "ia", "curvatura-ia", "mcp"]
+      "args": ["run", "--no-sync", "--project", "ia", "curvatura-ia", "mcp"]
     }
   }
 }

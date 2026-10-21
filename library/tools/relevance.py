@@ -54,6 +54,10 @@ def main() -> int:
         # Las fichas curadas a mano (sin campo harvest) son siempre relevantes.
         if "harvest:" not in text and lv == "baja":
             lv = "media"
+        # Revisión humana o de IA: `relevance_manual` manda sobre la heurística.
+        manual = re.search(r"^relevance_manual:\s*(alta|media|baja)", text, re.M)
+        if manual:
+            lv = manual.group(1)
         count[lv] += 1
         if dry:
             continue

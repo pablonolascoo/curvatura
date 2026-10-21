@@ -16,5 +16,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: baja
 countries: []
+relevance_manual: baja  # boletín de noticias
