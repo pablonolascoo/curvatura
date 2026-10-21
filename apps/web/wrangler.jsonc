@@ -1,7 +1,9 @@
 {
   // Web estática (next build con output: "export") servida como static assets de un Worker.
   "name": "curvatura",
+  "account_id": "7da596b0f3d9c43df2882b4e9167079e",
   "compatibility_date": "2026-10-01",
+  "workers_dev": true,
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page",

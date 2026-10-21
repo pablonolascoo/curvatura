@@ -1,0 +1,2 @@
+# Pyodide local solo va en la app de escritorio; la web lo carga del CDN.
+pyodide

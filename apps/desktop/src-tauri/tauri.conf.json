@@ -30,14 +30,52 @@
   },
   "bundle": {
     "active": true,
-    "targets": "all",
+    "targets": [
+      "app",
+      "dmg",
+      "nsis",
+      "appimage",
+      "deb"
+    ],
     "category": "Education",
     "shortDescription": "Biblioteca, ecuaciones y laboratorio del motor de curvatura.",
     "copyright": "© 2026 Pablo Nolasco. PolyForm Noncommercial 1.0.0.",
     "license": "PolyForm-Noncommercial-1.0.0",
-    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
-    "macOS": { "minimumSystemVersion": "11.0" },
-    "windows": { "webviewInstallMode": { "type": "embedBootstrapper" } },
-    "linux": { "deb": { "depends": [] } }
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "hardenedRuntime": true
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      },
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    },
+    "linux": {
+      "deb": {
+        "depends": []
+      }
+    },
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEEzRDdGQ0M4MzIwMjJDNzkKUldSNUxBSXl5UHpYbzhqMVg5a21YNmkzaXVnSmt1dGpWWGdQOFI3cEtEZ0QwbWF1dmhUdTBMbzAK",
+      "endpoints": [
+        "https://github.com/pablonolascoo/curvatura/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
   }
 }

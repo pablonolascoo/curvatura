@@ -58,10 +58,65 @@ fn trace_geodesic(v: f64, r: f64, sigma: f64, x0: f64, y0: f64, h: f64, steps: u
     Ok(Path { points, d_h: geodesic::hamiltonian(&end, &p) - geodesic::hamiltonian(&s0, &p) })
 }
 
+/// Actualizaciones automáticas: comprueba al arrancar y cada 6 h contra latest.json de GitHub
+/// Releases. El paquete va firmado (minisign) y solo se instala si la firma coincide con la clave
+/// pública de tauri.conf.json. Si las notas de la versión contienen «[obligatoria]», no se puede
+/// posponer.
+async fn buscar_actualizacion(app: tauri::AppHandle) -> Result<(), String> {
+    use tauri_plugin_dialog::{DialogExt, MessageDialogButtons, MessageDialogKind};
+    use tauri_plugin_updater::UpdaterExt;
+
+    let Some(update) = app.updater().map_err(|e| e.to_string())?.check().await.map_err(|e| e.to_string())? else {
+        return Ok(());
+    };
+    let notas = update.body.clone().unwrap_or_default();
+    let obligatoria = notas.contains("[obligatoria]");
+    let texto = format!(
+        "Curvatura {} está disponible. Tienes la {}.\n\n{}",
+        update.version,
+        update.current_version,
+        notas.replace("[obligatoria]", "").trim()
+    );
+    let botones = if obligatoria {
+        MessageDialogButtons::OkCustom("Actualizar y reiniciar".into())
+    } else {
+        MessageDialogButtons::OkCancelCustom("Actualizar y reiniciar".into(), "Más tarde".into())
+    };
+    let acepta = app
+        .dialog()
+        .message(texto)
+        .title("Actualización de Curvatura")
+        .kind(MessageDialogKind::Info)
+        .buttons(botones)
+        .blocking_show();
+    if !acepta && !obligatoria {
+        return Ok(());
+    }
+    update.download_and_install(|_, _| {}, || {}).await.map_err(|e| e.to_string())?;
+    app.restart();
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
+        .plugin(tauri_plugin_updater::Builder::new().build())
+        .plugin(tauri_plugin_dialog::init())
+        .plugin(tauri_plugin_process::init())
+        .setup(|app| {
+            if !cfg!(debug_assertions) {
+                let handle = app.handle().clone();
+                tauri::async_runtime::spawn(async move {
+                    loop {
+                        if let Err(e) = buscar_actualizacion(handle.clone()).await {
+                            eprintln!("[actualizaciones] {e}"); // sin red o sin versión publicada: se reintenta luego
+                        }
+                        tokio::time::sleep(std::time::Duration::from_secs(6 * 3600)).await;
+                    }
+                });
+            }
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, trace_geodesic])
         .run(tauri::generate_context!())
         .expect("error al iniciar Curvatura");

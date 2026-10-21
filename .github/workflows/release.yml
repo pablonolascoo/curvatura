@@ -44,12 +44,24 @@ jobs:
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Firma de las actualizaciones (obligatoria): `bun scripts/firma.ts --github` da los comandos.
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+          # macOS: identidad fija (o Developer ID cuando exista). Con APPLE_ID, APPLE_PASSWORD y
+          # APPLE_TEAM_ID además se notariza y Gatekeeper deja de avisar.
+          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
         with:
           projectPath: apps/desktop
           tauriScript: bunx tauri
           tagName: ${{ github.ref_name }}
           releaseName: "Curvatura ${{ github.ref_name }}"
-          releaseBody: "Aplicación de escritorio de Curvatura. Ver CHANGELOG.md."
-          releaseDraft: true
+          releaseBody: "Aplicación de escritorio de Curvatura. Novedades en CHANGELOG.md."
+          releaseDraft: false
+          includeUpdaterJson: true
           prerelease: false
           args: ${{ matrix.args }}
