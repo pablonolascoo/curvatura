@@ -1,0 +1,24 @@
+id: daniel-2025
+title: "Quantum teleportation between simulated binary black holes"
+authors:
+  - "Aiden Daniel"
+  - "Tanmay Bhore"
+  - "Jiannis K. Pachos"
+  - "Liu, Chang"
+  - "Andrew Hallam"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2503.10761
+arxiv: "2503.10761"
+source: https://arxiv.org/abs/2503.10761
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex-zh
+cited_by: 0
+countries: [GB, CN]
+relevance: media

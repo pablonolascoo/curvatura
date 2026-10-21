@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/2102.06425
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [DE]

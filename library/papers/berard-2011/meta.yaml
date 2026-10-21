@@ -14,10 +14,11 @@ source: https://arxiv.org/abs/1105.4691
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [FR, IN]

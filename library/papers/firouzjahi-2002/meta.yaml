@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/hep-th/0209248
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [CA]

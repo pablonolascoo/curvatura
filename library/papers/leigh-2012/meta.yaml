@@ -12,10 +12,11 @@ source: https://arxiv.org/abs/1205.6140
 language: en
 subsystems: [E, D, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [CA, US, GR, FR]

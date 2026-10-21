@@ -13,10 +13,11 @@ source: https://arxiv.org/abs/1702.04353
 language: en
 subsystems: [G, E]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [PT, CH, GB]

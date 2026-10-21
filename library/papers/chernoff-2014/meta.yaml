@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/1412.0579
 language: en
 subsystems: [D, V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [US, HK]

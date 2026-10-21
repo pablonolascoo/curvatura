@@ -14,10 +14,11 @@ source: https://arxiv.org/abs/1108.5732
 language: en
 subsystems: [G, D]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [US]

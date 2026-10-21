@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1510.05778
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false
@@ -19,3 +19,4 @@ harvest: openalex
 cited_by: 5
 cites_seeds: [alcubierre-1994]
 relevance: media
+countries: [TW]

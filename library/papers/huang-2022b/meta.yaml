@@ -13,10 +13,11 @@ source: https://arxiv.org/abs/2210.16274
 language: en
 subsystems: [C, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [IE, US, CH]

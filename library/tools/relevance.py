@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1] / "papers"
 HIGH = ["曲速", "阿尔库别雷", "超光速旅行", "warp drive", "warp bubble", "warp-drive", "alcubierre", "natario", "natário", "krasnikov", "van den broeck",
         "superluminal travel", "faster-than-light travel", "faster than light travel", "hyperfast", "warp factory",
         "warp metric", "warp field", "warp shell", "physical warp", "warp spacetime"]
-MEDIUM = ["虫洞", "负能量", "奇异物质", "能量条件 广义", "卡西米尔", "类比引力", "声学黑洞", "霍金辐射", "超光速", "广义相对论", "量子不等式", "energy condition", "negative energy", "exotic matter", "quantum inequalit", "quantum energy inequalit",
+MEDIUM = ["虫洞", "负能量密度", "量子 负能量", "奇异物质", "能量条件 广义", "卡西米尔", "类比引力", "声学黑洞", "霍金辐射", "超光速", "广义相对论", "量子不等式", "energy condition", "negative energy", "exotic matter", "quantum inequalit", "quantum energy inequalit",
           "traversable wormhole", "casimir", "analogue gravity", "analog gravity", "acoustic metric",
           "acoustic black hole", "analogue black hole", "closed timelike", "time machine", "superluminal",
           "faster-than-light", "squeezed vacuum", "einstein-maxwell-plasma", "soliton", "stress-energy tensor",

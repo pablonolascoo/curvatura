@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/hep-th/0211244
 language: en
 subsystems: [G, C, E, Q]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [US]

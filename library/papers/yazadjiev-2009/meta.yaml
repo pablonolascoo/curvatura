@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/0910.0938
 language: en
 subsystems: [G, E]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [BG]

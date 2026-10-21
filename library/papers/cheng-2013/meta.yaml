@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/1311.3330
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [CN]

@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/0812.5107
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false
@@ -18,3 +18,4 @@ harvest: openalex
 cited_by: 13
 cites_seeds: [alcubierre-1994]
 relevance: media
+countries: [US]

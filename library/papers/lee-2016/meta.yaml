@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/1606.02420
 language: en
 subsystems: [C, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [TW]

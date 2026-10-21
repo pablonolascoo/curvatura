@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/1805.00098
 language: en
 subsystems: [C, Q]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [US]

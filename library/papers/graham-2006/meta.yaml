@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/hep-th/0601038
 language: en
 subsystems: [G, C, D]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: alta
+countries: [US]

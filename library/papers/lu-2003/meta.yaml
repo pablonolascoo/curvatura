@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/hep-th/0312082
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [CN]

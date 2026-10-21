@@ -172,7 +172,7 @@ def new_id(authors: list[str], year: int, ids: set[str]) -> str:
     pid, n = base, 1
     while pid in ids:
         n += 1
-        pid = f"{base}{chr(96 + n)}"  # b, c, d...
+        pid = f"{base}{chr(96 + n)}" if n <= 26 else f"{base}-{n}"  # b, c… z y después -27, -28…
     ids.add(pid)
     return pid
 

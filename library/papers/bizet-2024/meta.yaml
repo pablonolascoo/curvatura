@@ -12,10 +12,11 @@ source: https://arxiv.org/abs/2405.21032
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [MX]

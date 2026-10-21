@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/hep-th/0105186
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [JP]

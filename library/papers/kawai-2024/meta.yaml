@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/2403.01705
 language: en
 subsystems: [G]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: []

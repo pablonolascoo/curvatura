@@ -13,10 +13,11 @@ source: https://arxiv.org/abs/hep-ph/0207145
 language: en
 subsystems: [D, V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [CH, IT]

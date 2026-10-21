@@ -13,10 +13,11 @@ source: https://arxiv.org/abs/2304.05586
 language: en
 subsystems: [D, V]
 kind: solucion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [CN, KR, JP, US]

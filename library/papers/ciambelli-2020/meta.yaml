@@ -12,10 +12,11 @@ source: https://arxiv.org/abs/2008.06793
 language: en
 subsystems: [G, E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [BE]

@@ -12,10 +12,11 @@ source: https://arxiv.org/abs/1510.01380
 language: en
 subsystems: [G, E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [GB, FR]

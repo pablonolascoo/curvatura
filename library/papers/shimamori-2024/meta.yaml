@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/2404.08411
 language: en
 subsystems: [C, Q]
 kind: restriccion
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
 translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [JP]

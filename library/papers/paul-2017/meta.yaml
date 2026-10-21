@@ -11,10 +11,11 @@ source: https://arxiv.org/abs/1704.06115
 language: en
 subsystems: [G]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: baja
+countries: [IN]

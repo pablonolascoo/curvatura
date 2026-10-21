@@ -10,10 +10,11 @@ source: https://arxiv.org/abs/hep-th/0102113
 language: en
 subsystems: [E, P]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
 harvest: arxiv
 cited_by: 0
 relevance: media
+countries: [JP]

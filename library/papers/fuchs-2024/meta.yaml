@@ -20,3 +20,4 @@ fulltext: true
 translations: [es, fr]
 verified: true
 relevance: alta
+countries: [US, IL]
