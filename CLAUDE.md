@@ -23,7 +23,10 @@ Commit y push juntos. Mensajes `tipo(ámbito): resumen`.
 | `apps/web` | Next.js 16, export estático, i18n es/en/fr por diccionarios. | `bun --filter web build` |
 | `apps/desktop` | Tauri 2. Empaqueta `apps/web/out` y Pyodide local. | `bun run desktop:build` |
 | `library/equations` | Ecuaciones vivas (DSL + símbolos + cálculo). | build de la web |
-| `library/rag` | Índice RAG y servidor MCP. | `python3 -I library/rag/build.py` |
+| `library/rag` | Índice RAG ligero (BM25) y servidor MCP mínimo. | `python3 -I library/rag/build.py` |
+| `ia/` | IA de investigación: corpus, análisis, vectores LanceDB, patentes, agente, web y MCP. Ver `ia/README.md`. | `uv run --project ia pytest -q ia/tests` |
+| `physics/curvatura/lab` | Laboratorio de fórmulas (symengine, Arb, Z3, numba). Skill `formulas`. | `uv run --project ia pytest -q physics/tests/test_lab.py` |
+| `.claude/skills`, `.claude/agents` | Skills (fórmulas, investigar, lluvia de ideas, TRIZ, lateral…) y subagentes. | — |
 
 ## Reglas
 
@@ -36,3 +39,5 @@ Commit y push juntos. Mensajes `tipo(ámbito): resumen`.
 - Papers: texto completo solo con licencia abierta (`library/taxonomy.yaml`).
 - No desplegar sin orden explícita. Despliegue: `bun run deploy` (requiere `.cloudflare.env`).
 - Toda cifra en la web sale de un cálculo o de una cita.
+- Fórmulas: ninguna se da por buena sin el laboratorio (skill `formulas`). Investigación: skill `investigar` con el MCP `curvatura`.
+- `datos/` (corpus completo, vectores) nunca entra en git: el texto de papers sin licencia abierta es solo para uso local.

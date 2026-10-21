@@ -26,6 +26,9 @@ Curvatura réunit trois choses :
 | Application de bureau | macOS, Windows et Linux, toujours à la même version. Se met à jour seule et inclut Python natif. |
 | Recherche et RAG | 10205 fragments indexés avec citations exactes. Serveur MCP pour Claude. |
 | Évaluations | De 1 à 5 étoiles avec identité ORCID. Mention d'honneur pour les diplômés et professionnels vérifiés. |
+| IA de recherche | RAG multimodal sur le texte intégral de chaque article (sections, équations, figures, références) et les brevets. Agent avec sous-agents récursifs, citations exactes et remue-méninges multi-agents. Fonctionne en local. |
+| Laboratoire de formules | Identités à 50 chiffres, unités, bornes rigoureuses, preuves avec Z3, évaluation avec numba et tenseurs depuis la métrique, sur n'importe quel ordinateur. |
+| Brevets | Veille quotidienne des brevets liés (propulsion sans propergol, inertie, gravité, Casimir). Index dans `library/patentes/`. |
 | Plan | Phases et critères de sortie dans [`ROADMAP.md`](ROADMAP.md). Obstacles dans [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Les traductions des titres et des résumés sont faites par IA et peuvent contenir des erreurs. Le site l'indique sur chaque fiche.
@@ -66,6 +69,20 @@ python3 -I library/rag/query.py "positive energy shell"   # recherche avec citat
 
 Pour que Claude interroge directement la bibliothèque, copiez `.mcp.json.example` vers `.mcp.json`.
 
+### 3.5 IA de recherche
+
+Une IA qui connaît toute la base, cite chaque source et vérifie les formules. Guide complet dans [`ia/README.md`](ia/README.md).
+
+```bash
+cd ia && uv sync                       # ajoutez --extra gpu si vous avez un GPU Apple ou NVIDIA
+.venv/bin/curvatura-ia corpus          # télécharge les articles (une fois, quelques heures)
+.venv/bin/curvatura-ia analizar        # équations, figures et références de chaque article
+.venv/bin/curvatura-ia vectorizar      # base multimodale locale
+.venv/bin/curvatura-ia web             # http://localhost:8765
+```
+
+Depuis Claude Code : copiez `.mcp.json.example` vers `.mcp.json` et utilisez les skills `investigar`, `lluvia-de-ideas` et `formulas`.
+
 ## 4. Comment l'installer pour développer
 
 Prérequis : [Bun](https://bun.sh) 1.3 ou plus, [uv](https://docs.astral.sh/uv/), [Rust](https://rustup.rs) avec `wasm32-unknown-unknown` et un compilateur C++20.
@@ -93,6 +110,8 @@ bun run desktop        # application de bureau en mode développement
 | [`packages/formula/`](packages/formula/) | Notre moteur de formules : analyseur, dérivées, intégrales, MathML. | TypeScript |
 | [`apps/web/`](apps/web/) | Site statique et API des évaluations (Cloudflare Worker + D1). | Next.js |
 | [`apps/desktop/`](apps/desktop/) | Application de bureau. | Tauri (Rust) |
+| [`ia/`](ia/) | IA de recherche : corpus, analyse, vecteurs, brevets, agent, web locale et serveur MCP. | Python |
+| [`.claude/`](.claude/) | Skills (formules, recherche, pensée latérale, TRIZ) et sous-agents. | Markdown |
 | [`benchmarks/`](benchmarks/) | Même calcul en C++, Rust, Go et Python. | Plusieurs |
 
 ## 5. Méthode de travail

@@ -24,6 +24,8 @@ jobs:
         run: bun --filter '@curvatura/formula' test
       - name: Física (Python)
         run: uv --directory physics run pytest -q
+      - name: Laboratorio de fórmulas e IA
+        run: uv run --project ia --python 3.13 pytest -q ia/tests physics/tests/test_lab.py
       - name: Núcleo (Rust)
         run: cargo test --release --manifest-path solvers/rust/Cargo.toml
       - name: Solvers (C++)

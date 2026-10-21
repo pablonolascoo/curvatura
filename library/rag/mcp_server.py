@@ -1,7 +1,9 @@
 """Servidor MCP de la biblioteca: Claude (u otro cliente MCP) consulta el índice con citas exactas.
 
-Uso: uv run --with mcp library/rag/mcp_server.py
-Configuración de ejemplo en .mcp.json.example (raíz del repo).
+Versión ligera (solo BM25 sobre library/index, sin dependencias pesadas):
+  uv run --with mcp library/rag/mcp_server.py
+La IA completa (texto íntegro, figuras, patentes, laboratorio) es `curvatura-ia mcp` (ver ia/README.md
+y .mcp.json.example).
 """
 
 from __future__ import annotations

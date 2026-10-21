@@ -17,7 +17,11 @@
     "library:index": "python3 -I library/rag/build.py",
     "app:mac": "bun scripts/app-local.ts",
     "firma": "bun scripts/firma.ts",
-    "readme:check": "bun scripts/check-readmes.ts"
+    "readme:check": "bun scripts/check-readmes.ts",
+    "ia": "uv run --project ia curvatura-ia",
+    "ia:web": "uv run --project ia curvatura-ia web",
+    "ia:vigilar": "uv run --project ia curvatura-ia vigilar",
+    "lab": "uv run --project ia curvatura-lab"
   },
   "packageManager": "bun@1.3.4"
 }

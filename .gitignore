@@ -40,3 +40,6 @@ apps/web/public/robots.txt
 apps/web/public/llms.txt
 apps/desktop/src-tauri/binaries/
 apps/web/public/flags/
+
+# Datos locales de la IA (corpus completo, vectores): se regeneran con `bun run ia:*`
+datos/

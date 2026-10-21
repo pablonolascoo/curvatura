@@ -26,6 +26,9 @@ Curvatura brings three things together:
 | Desktop app | macOS, Windows and Linux, always on the same version. Updates itself and ships native Python. |
 | Search and RAG | 10205 chunks indexed with exact citations. MCP server for Claude. |
 | Ratings | 1 to 5 stars with ORCID identity. Honour mention for verified graduates and professionals. |
+| Research AI | Multimodal RAG over the full text of every paper (sections, equations, figures, references) and patents. Agent with recursive sub-agents, exact citations and multi-agent brainstorming. Runs locally. |
+| Formula lab | Identities to 50 digits, units, rigorous bounds, Z3 proofs, numba evaluation and tensors from the metric, on any computer. |
+| Patents | Daily watch of related patents (propellantless propulsion, inertia, gravity, Casimir). Index in `library/patentes/`. |
 | Plan | Phases and exit criteria in [`ROADMAP.md`](ROADMAP.md). Obstacles in [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Title and abstract translations are made with AI and may contain errors. The website says so on every paper.
@@ -66,6 +69,20 @@ python3 -I library/rag/query.py "positive energy shell"   # search with citation
 
 To let Claude query the library directly, copy `.mcp.json.example` to `.mcp.json`.
 
+### 3.5 Research AI
+
+An AI that knows the whole database, cites every source and checks formulas. Full guide in [`ia/README.md`](ia/README.md).
+
+```bash
+cd ia && uv sync                       # add --extra gpu if you have an Apple or NVIDIA GPU
+.venv/bin/curvatura-ia corpus          # downloads the papers (once, a few hours)
+.venv/bin/curvatura-ia analizar        # equations, figures and references of each paper
+.venv/bin/curvatura-ia vectorizar      # local multimodal database
+.venv/bin/curvatura-ia web             # http://localhost:8765
+```
+
+From Claude Code: copy `.mcp.json.example` to `.mcp.json` and use the `investigar`, `lluvia-de-ideas` and `formulas` skills.
+
 ## 4. How to install it for development
 
 Requirements: [Bun](https://bun.sh) 1.3 or later, [uv](https://docs.astral.sh/uv/), [Rust](https://rustup.rs) with `wasm32-unknown-unknown` and a C++20 compiler.
@@ -93,6 +110,8 @@ bun run desktop        # desktop app in development mode
 | [`packages/formula/`](packages/formula/) | Our own formula engine: parser, derivatives, integrals, MathML. | TypeScript |
 | [`apps/web/`](apps/web/) | Static website and ratings API (Cloudflare Worker + D1). | Next.js |
 | [`apps/desktop/`](apps/desktop/) | Desktop app. | Tauri (Rust) |
+| [`ia/`](ia/) | Research AI: corpus, analysis, vectors, patents, agent, local web and MCP server. | Python |
+| [`.claude/`](.claude/) | Skills (formulas, research, lateral thinking, TRIZ) and sub-agents. | Markdown |
 | [`benchmarks/`](benchmarks/) | Same computation in C++, Rust, Go and Python. | Several |
 
 ## 5. Workflow

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curvatura · IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2"></script>
+<style>
+:root{--bg:#fbfbfa;--surface:#fff;--fg:#111;--fg-2:#2f3437;--muted:#6b6a67;--line:#eaeaea;--line-strong:#dcdcda;--ink:#111;
+--red-bg:#fdebec;--red:#9f2f2d;--blue-bg:#e1f3fe;--blue:#1f6c9f;--green-bg:#edf3ec;--green:#346538;--yellow-bg:#fbf3db;--yellow:#956400;--ease:cubic-bezier(.16,1,.3,1)}
+@media (prefers-color-scheme:dark){:root{--bg:#191919;--surface:#202020;--fg:#ededec;--fg-2:#d4d4d2;--muted:#9b9a97;--line:#2f2f2f;--line-strong:#3a3a3a;--ink:#ededec;
+--red-bg:#3b2324;--red:#f1a5a2;--blue-bg:#1d3240;--blue:#8ccbf2;--green-bg:#22301f;--green:#a3c99a;--yellow-bg:#3a3020;--yellow:#e8c36b}}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--fg-2);font:15px/1.6 Geist,system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:32px 16px 140px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:20px}
+h1{font:500 clamp(28px,4vw,40px)/1.1 Newsreader,serif;letter-spacing:-.02em;color:var(--fg);margin:0}
+.meta{font:12px Geist Mono,monospace;color:var(--muted)}
+.modos{display:flex;gap:6px;margin:24px 0 12px;flex-wrap:wrap}
+.modo{border:1px solid var(--line);background:var(--surface);color:var(--fg-2);border-radius:6px;padding:8px 14px;font:500 14px Geist;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.modo[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.modo:active{transform:scale(.98)}
+.ayuda{color:var(--muted);font-size:14px;margin:0 0 24px}
+#hilo{display:grid;gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 24px;animation:in .6s var(--ease) both}
+@keyframes in{from{opacity:0;transform:translateY(12px)}}
+@media (prefers-reduced-motion:reduce){.card{animation:none}}
+.card .pregunta{border:0;padding:0;margin-bottom:8px}
+.pregunta{background:transparent;border-style:dashed;font:400 18px/1.4 Newsreader,serif;color:var(--fg)}
+.pasos{font:12px/1.7 Geist Mono,monospace;color:var(--muted);max-height:220px;overflow:auto;border-left:2px solid var(--line);padding-left:12px;margin:4px 0}
+.pasos .fase{color:var(--blue);font-weight:500}
+.respuesta h1,.respuesta h2,.respuesta h3{font-family:Newsreader,serif;color:var(--fg);font-weight:500;letter-spacing:-.01em}
+.respuesta a{color:var(--blue)}.respuesta table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}
+.respuesta th,.respuesta td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+.respuesta code{font-family:Geist Mono,monospace;font-size:13px;background:var(--line);padding:1px 5px;border-radius:4px}
+.res{display:grid;gap:4px;border-top:1px solid var(--line);padding:14px 0}.res:first-child{border-top:0}
+.tag{display:inline-block;border-radius:999px;padding:1px 9px;font:500 11px Geist;letter-spacing:.05em;text-transform:uppercase;background:var(--blue-bg);color:var(--blue);margin-right:8px}
+.tag.ecuacion{background:var(--yellow-bg);color:var(--yellow)}.tag.patente{background:var(--red-bg);color:var(--red)}.tag.figura{background:var(--green-bg);color:var(--green)}
+.cita{font-size:13px;color:var(--muted)}.cita a{color:var(--muted)}
+.figs{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.fig{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}.fig img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;display:block}
+.fig p{margin:0;padding:10px 12px;font-size:13px}
+form{position:fixed;left:0;right:0;bottom:0;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+form .in{max-width:980px;margin:0 auto;padding:14px 16px;display:flex;gap:8px}
+textarea{flex:1;resize:none;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);color:var(--fg);padding:10px 12px;font:15px/1.5 Geist;min-height:46px;max-height:180px}
+textarea:focus-visible,.modo:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+button.enviar{border:0;background:var(--ink);color:var(--bg);border-radius:6px;padding:0 18px;font:500 14px Geist;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+button.enviar:disabled{opacity:.5;cursor:wait}
+.aviso{background:var(--yellow-bg);color:var(--yellow);border-radius:12px;padding:12px 16px;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Curvatura · IA</h1>
+    <span class="meta" id="estado">cargando…</span>
+  </header>
+  <div class="modos" role="group" aria-label="Modo">
+    <button class="modo" data-modo="buscar" aria-pressed="true"><i class="ph-bold ph-magnifying-glass" aria-hidden="true"></i>Buscar</button>
+    <button class="modo" data-modo="imagen" aria-pressed="false"><i class="ph-bold ph-image" aria-hidden="true"></i>Figuras</button>
+    <button class="modo" data-modo="preguntar" aria-pressed="false"><i class="ph-bold ph-chats-circle" aria-hidden="true"></i>Preguntar</button>
+    <button class="modo" data-modo="lluvia" aria-pressed="false"><i class="ph-bold ph-lightbulb" aria-hidden="true"></i>Lluvia de ideas</button>
+  </div>
+  <p class="ayuda" id="ayuda"></p>
+  <div id="hilo" aria-live="polite"></div>
+</div>
+<form id="f">
+  <div class="in">
+    <label for="q" class="meta" style="position:absolute;left:-9999px">Pregunta</label>
+    <textarea id="q" rows="1" placeholder="¿Qué limita la energía negativa en la pared de una burbuja?"></textarea>
+    <button class="enviar" type="submit" id="b"><i class="ph-bold ph-arrow-up" aria-hidden="true"></i>Enviar</button>
+  </div>
+</form>
+<script>
+const AYUDA={buscar:"Busca en todos los papers, ecuaciones, figuras y patentes. No necesita modelo.",
+imagen:"Describe la figura que buscas: «mapa de la densidad de energía», «diagrama de cavidad resonante».",
+preguntar:"Un agente investiga con subagentes, cita cada fuente y comprueba fórmulas en el laboratorio.",
+lluvia:"Varios agentes generan ideas con técnicas distintas, un crítico las ataca y un formulista las mide."};
+let modo="buscar", conversacion=Math.random().toString(36).slice(2), hayModelo=false;
+const $=s=>document.querySelector(s), hilo=$("#hilo");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function md(t){let h=marked.parse(t||"");return h.replace(/\$\$([\s\S]+?)\$\$/g,(_,x)=>katex.renderToString(x,{displayMode:true,throwOnError:false})).replace(/\$([^$\n]+?)\$/g,(_,x)=>katex.renderToString(x,{throwOnError:false}))}
+function tex(x){try{return katex.renderToString(x,{displayMode:true,throwOnError:false})}catch{return esc(x)}}
+function card(html,cls=""){const d=document.createElement("div");d.className="card "+cls;d.innerHTML=html;hilo.prepend(d);return d}
+document.querySelectorAll(".modo").forEach(b=>b.onclick=()=>{modo=b.dataset.modo;document.querySelectorAll(".modo").forEach(x=>x.setAttribute("aria-pressed",x===b));$("#ayuda").textContent=AYUDA[modo]+((modo==="preguntar"||modo==="lluvia")&&!hayModelo?" Falta configurar un modelo (ver README de ia/).":"")});
+fetch("/api/estado").then(r=>r.json()).then(e=>{hayModelo=e.modelo;$("#estado").textContent=`${e.fragmentos.toLocaleString()} fragmentos · ${e.imagenes.toLocaleString()} figuras · ${e.papers_analizados.toLocaleString()} papers · ${e.patentes} patentes`;$("#ayuda").textContent=AYUDA[modo]});
+$("#q").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$("#f").requestSubmit()}});
+$("#f").onsubmit=async e=>{e.preventDefault();const q=$("#q").value.trim();if(!q)return;$("#q").value="";$("#b").disabled=true;
+ try{ if(modo==="buscar"||modo==="imagen") await buscar(q); else await preguntar(q)} finally{$("#b").disabled=false}};
+async function buscar(q){const r=await (await fetch(`/api/buscar?q=${encodeURIComponent(q)}${modo==="imagen"?"&tipo=imagen":""}`)).json();
+ if(r.imagenes){card(`<div class="pregunta" style="margin-bottom:12px">${esc(q)}</div><div class="figs">${r.imagenes.map(i=>`<figure class="fig"><img loading="lazy" alt="${esc(i.pie)}" src="/figura?ruta=${encodeURIComponent(i.ruta)}"><p>${esc(i.pie).slice(0,180)}<br><span class="cita"><a href="${esc(i.url)}" target="_blank" rel="noreferrer">${esc(i.cita)}</a></span></p></figure>`).join("")||"<p>Sin figuras todavía.</p>"}</div>`);return}
+ card(`<div class="pregunta" style="margin-bottom:8px">${esc(q)}</div>${(r.resultados||[]).map(x=>`<div class="res"><div><span class="tag ${esc(x.tipo)}">${esc(x.tipo)}</span><span class="cita"><a href="${esc(x.url)}" target="_blank" rel="noreferrer">${esc(x.cita)}</a></span></div>${x.latex?tex(x.latex):""}<div>${esc((x.texto||"").slice(0,420))}</div></div>`).join("")||"<p>Sin resultados.</p>"}`)}
+async function preguntar(q){const c=card(`<div class="pregunta">${esc(q)}</div><div class="pasos" aria-label="Pasos"></div><div class="respuesta"></div>`);
+ const pasos=c.querySelector(".pasos"), out=c.querySelector(".respuesta");
+ const r=await fetch("/api/preguntar",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({pregunta:q,modo,conversacion})});
+ const rd=r.body.getReader(), dec=new TextDecoder();let buf="";
+ for(;;){const {value,done}=await rd.read();if(done)break;buf+=dec.decode(value,{stream:true});let i;
+  while((i=buf.indexOf("\n\n"))>=0){const linea=buf.slice(0,i);buf=buf.slice(i+2);if(!linea.startsWith("data: "))continue;const ev=JSON.parse(linea.slice(6));
+   if(ev.tipo==="herramienta")pasos.insertAdjacentHTML("beforeend",`<div>${esc(ev.agente)} → ${esc(ev.nombre)} ${esc(JSON.stringify(ev.args)).slice(0,140)}</div>`);
+   else if(ev.tipo==="subagente")pasos.insertAdjacentHTML("beforeend",`<div>↳ subagente: ${esc(ev.pregunta)}</div>`);
+   else if(ev.tipo==="fase")pasos.insertAdjacentHTML("beforeend",`<div class="fase">${esc(ev.fase)}</div>`);
+   else if(ev.tipo==="resultado"&&ev.imagenes?.length)out.insertAdjacentHTML("beforeend",`<div class="figs">${ev.imagenes.map(s=>`<figure class="fig"><img alt="Figura" src="/figura?ruta=${encodeURIComponent(s)}"></figure>`).join("")}</div>`);
+   else if(ev.tipo==="final")out.innerHTML+=md(ev.texto);
+   else if(ev.tipo==="error")out.innerHTML=`<div class="aviso">${esc(ev.texto)}</div>`;
+   pasos.scrollTop=pasos.scrollHeight}}}
+</script>
+</body>
+</html>

@@ -26,6 +26,9 @@ Curvatura reúne en un solo sitio tres cosas:
 | App de escritorio | macOS, Windows y Linux, siempre en la misma versión. Se actualiza sola y trae Python nativo. |
 | Buscador y RAG | 10205 fragmentos indexados con citas exactas. Servidor MCP para Claude. |
 | Valoraciones | Estrellas de 1 a 5 con identidad ORCID. Mención de honor para titulados y profesionales verificados. |
+| IA de investigación | RAG multimodal sobre el texto completo de cada paper (secciones, ecuaciones, figuras, referencias) y las patentes. Agente con subagentes recursivos, citas exactas y lluvia de ideas multiagente. Funciona en local. |
+| Laboratorio de fórmulas | Igualdades a 50 dígitos, unidades, cotas rigurosas, demostraciones con Z3, evaluación con numba y tensores desde la métrica, en cualquier ordenador. |
+| Patentes | Vigilancia diaria de patentes relacionadas (propulsión sin propelente, inercia, gravedad, Casimir). Índice en `library/patentes/`. |
 | Plan | Fases y criterios de salida en [`ROADMAP.md`](ROADMAP.md). Obstáculos en [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Las traducciones de títulos y resúmenes están hechas con IA y pueden contener errores. La web lo indica en cada ficha.
@@ -66,6 +69,20 @@ python3 -I library/rag/query.py "positive energy shell"   # búsqueda con citas
 
 Para que Claude consulte la biblioteca directamente, copia `.mcp.json.example` a `.mcp.json`.
 
+### 3.5 IA de investigación
+
+Una IA que conoce toda la base, cita cada fuente y comprueba las fórmulas. Guía completa en [`ia/README.md`](ia/README.md).
+
+```bash
+cd ia && uv sync                       # añade --extra gpu si tienes GPU de Apple o NVIDIA
+.venv/bin/curvatura-ia corpus          # descarga los papers (una vez, unas horas)
+.venv/bin/curvatura-ia analizar        # ecuaciones, figuras y referencias de cada paper
+.venv/bin/curvatura-ia vectorizar      # base multimodal local
+.venv/bin/curvatura-ia web             # http://localhost:8765
+```
+
+Desde Claude Code: copia `.mcp.json.example` a `.mcp.json` y usa las skills `investigar`, `lluvia-de-ideas` y `formulas`.
+
 ## 4. Cómo instalarlo para desarrollar
 
 Requisitos: [Bun](https://bun.sh) 1.3 o superior, [uv](https://docs.astral.sh/uv/), [Rust](https://rustup.rs) con `wasm32-unknown-unknown` y un compilador C++20.
@@ -93,6 +110,8 @@ bun run desktop        # app de escritorio en modo desarrollo
 | [`packages/formula/`](packages/formula/) | Motor de fórmulas propio: parser, derivadas, integrales, MathML. | TypeScript |
 | [`apps/web/`](apps/web/) | Web estática y API de valoraciones (Cloudflare Worker + D1). | Next.js |
 | [`apps/desktop/`](apps/desktop/) | App de escritorio. | Tauri (Rust) |
+| [`ia/`](ia/) | IA de investigación: corpus, análisis, vectores, patentes, agente, web local y servidor MCP. | Python |
+| [`.claude/`](.claude/) | Skills (fórmulas, investigación, pensamiento lateral, TRIZ) y subagentes. | Markdown |
 | [`benchmarks/`](benchmarks/) | Mismo cálculo en C++, Rust, Go y Python. | Varios |
 
 ## 5. Proceso de trabajo
