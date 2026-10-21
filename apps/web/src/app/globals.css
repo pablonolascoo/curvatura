@@ -15,7 +15,7 @@
   --surface: #ffffff;
   --fg: #111111;
   --fg-2: #2f3437;
-  --muted: #787774;
+  --muted: #6b6a67;
   --line: #eaeaea;
   --line-strong: #dcdcda;
   --ink: #111111;
@@ -263,4 +263,18 @@ input[type="range"]::-moz-range-thumb {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* Acordeón horizontal de entradas (≥ 768 px). La primera abierta por defecto. */
+@media (min-width: 768px) {
+  .acc > a { flex: 1 1 0; transition: flex-grow 0.7s var(--ease), border-color 0.2s var(--ease); }
+  .acc > a:first-child { flex-grow: 2.4; }
+  .acc:hover > a, .acc:focus-within > a { flex-grow: 1; }
+  .acc > a:hover, .acc > a:focus-visible { flex-grow: 2.4; }
+  .acc .acc-body { opacity: 0; transition: opacity 0.5s var(--ease); }
+  .acc > a:first-child .acc-body { opacity: 1; }
+  .acc:hover > a .acc-body, .acc:focus-within > a .acc-body { opacity: 0; }
+  .acc > a:hover .acc-body, .acc > a:focus-visible .acc-body { opacity: 1; }
 }

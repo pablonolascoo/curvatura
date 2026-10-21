@@ -2,6 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppleLogo, ArrowUpRight, LinuxLogo, Minus, Plus, WindowsLogo } from "@phosphor-icons/react/dist/ssr";
 import { ButtonLink } from "@/components/ButtonLink";
+import { EntryAccordion } from "@/components/EntryAccordion";
+import { Marquee } from "@/components/Marquee";
+import { MiniField } from "@/components/MiniField";
+import { FadeOnLeave, PinnedSplit, ScrubText } from "@/components/motion";
+import { renderTitle } from "@/lib/markdown";
+import { topJournals } from "@/lib/journals";
 import { Formula } from "@/components/Formula";
 import { LiveEquation } from "@/components/LiveEquation";
 import { MetricLab } from "@/components/MetricLab";
@@ -32,7 +38,14 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   if (!hasLocale(lang)) notFound();
   const t = getDictionary(lang);
   const papers = getPapers();
-  const recent = [...papers].sort((a, b) => b.year - a.year || Number(isOpenLicense(b)) - Number(isOpenLicense(a))).slice(0, 5);
+  // Solo lo nuclear y reciente: la portada no enseña ruido de la recolección.
+  const recent = papers
+    .filter((p) => (p as { relevance?: string }).relevance === "alta")
+    .sort((a, b) => b.year - a.year || Number(isOpenLicense(b)) - Number(isOpenLicense(a)))
+    .slice(0, 5);
+  // Revistas reales de la biblioteca, por número de papers.
+  const journals = topJournals(papers.map((p) => String(p.venue ?? "")), 14);
+  const [firstWord, ...restWords] = t.equations.title.split(" ");
   const featured = ["alcubierre-energy-density", "alcubierre-total-energy"]
     .map((id) => getEquation(id))
     .filter((e) => !!e)
@@ -44,7 +57,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <>
       {/* Portada */}
       <section className="relative isolate overflow-hidden border-b border-line">
-        <WarpField label={t.hero.canvas} offset={[1.5, 1.0]} className="absolute inset-0 -z-10 h-full w-full" />
+        <FadeOnLeave className="absolute inset-0 -z-10">
+          <WarpField label={t.hero.canvas} offset={[1.5, 1.0]} className="h-full w-full" />
+        </FadeOnLeave>
         <div className="mx-auto flex min-h-[100dvh] max-w-6xl flex-col justify-end px-4 pb-16 pt-24 md:px-8 md:pb-24">
           <h1 className="reveal max-w-4xl font-serif text-[clamp(3rem,7vw,6.2rem)] leading-[1.02] tracking-[-0.035em]">{t.hero.title}</h1>
           <p className="reveal mt-6 max-w-[42ch] text-lg leading-relaxed text-fg-2 md:text-xl" style={{ ["--i" as string]: 1 }}>
@@ -59,15 +74,26 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </div>
       </section>
 
-      {/* Manifiesto */}
-      <section className="px-4 py-24 md:px-8 md:py-32">
-        <p className="reveal mx-auto max-w-4xl font-serif text-[clamp(1.5rem,2.8vw,2.3rem)] leading-[1.35] tracking-[-0.015em] text-fg">{t.manifesto}</p>
+      <Marquee items={journals} label={t.marquee} />
+
+      {/* Manifiesto: lectura guiada por el scroll */}
+      <section className="px-4 py-32 md:px-8 md:py-48">
+        <ScrubText text={t.manifesto} className="mx-auto max-w-4xl font-serif text-[clamp(1.6rem,3vw,2.5rem)] leading-[1.32] tracking-[-0.015em] text-fg" />
       </section>
 
       {/* Ecuaciones clave */}
       <section className="border-t border-line bg-bg-2 px-4 py-24 md:px-8 md:py-32">
         <div className="mx-auto grid max-w-6xl gap-12">
-          <SectionHead title={t.equations.title} body={t.equations.body} />
+          <div className="grid max-w-4xl gap-4">
+            <h2 className="reveal font-serif text-[clamp(2.2rem,4.4vw,3.6rem)] leading-[1.15] tracking-[-0.03em]">
+              {firstWord}{" "}
+              <span translate="no" className="mx-1 inline-flex h-[1.15em] items-center rounded-full border border-line bg-surface px-4 align-middle text-[0.42em] text-fg">
+                <Formula expr="rho_E = -(v_s^2*rho^2)/(32*pi*r_s^2)" display="inline" highlight={["rho_E"]} />
+              </span>{" "}
+              {restWords.join(" ")}
+            </h2>
+            <p className="reveal max-w-[60ch] text-lg text-muted" style={{ ["--i" as string]: 1 }}>{t.equations.body}</p>
+          </div>
           <div className="grid gap-4 lg:grid-cols-2">
             {featured.map((e, i) => (
               <div key={e.id} className="reveal" style={{ ["--i" as string]: i }}>
@@ -109,6 +135,15 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                   <h3 className={`font-serif tracking-[-0.02em] ${i === 0 ? "text-3xl" : "text-xl"}`}>{s.name}</h3>
                   <p className="text-[15px] text-muted">{s.question}</p>
                 </div>
+                {i === 0 && (
+                  <div className="relative my-2 aspect-[2/1] overflow-hidden rounded-lg border border-line bg-surface">
+                    <MiniField label={t.hero.canvas} className="absolute inset-0 h-full w-full object-cover" />
+                    <div className="absolute left-3 top-3 flex gap-2">
+                      <span className="tag tag-red">{t.lab.contraction}</span>
+                      <span className="tag tag-blue">{t.lab.expansion}</span>
+                    </div>
+                  </div>
+                )}
                 <div className={`mt-auto overflow-x-auto border-t border-line pt-5 text-fg ${i === 0 ? "text-2xl" : ""}`}>
                   <Formula expr={s.eq} />
                 </div>
@@ -121,8 +156,10 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       {/* Obstáculos */}
       {obstacles.length > 0 && (
         <section id="obstaculos" className="scroll-mt-20 border-t border-line bg-bg-2 px-4 py-24 md:px-8 md:py-32">
-          <div className="mx-auto grid max-w-6xl gap-12">
-            <SectionHead title={t.obstacles.title} body={t.obstacles.body} />
+          <PinnedSplit
+            className="mx-auto max-w-6xl"
+            left={<SectionHead title={t.obstacles.title} body={t.obstacles.body} />}
+            right={
             <ul className="border-t border-line">
               {obstacles.map((o, i) => (
                 <li key={o.id} className="reveal border-b border-line" style={{ ["--i" as string]: i % 4 }}>
@@ -136,7 +173,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                       <Plus size={18} weight="bold" className="shrink-0 group-open:hidden" aria-hidden />
                       <Minus size={18} weight="bold" className="hidden shrink-0 group-open:block" aria-hidden />
                     </summary>
-                    <div className="grid gap-8 pb-8 pl-12 md:grid-cols-2">
+                    <div className="grid gap-8 pb-8 pl-12">
                       <div className="grid content-start gap-3">
                         <p className="text-fg-2">{o.summary}</p>
                         <h4 className="mt-2 text-xs uppercase tracking-[0.05em] text-muted">{t.obstacles.evidence}</h4>
@@ -166,7 +203,8 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 </li>
               ))}
             </ul>
-          </div>
+            }
+          />
         </section>
       )}
 
@@ -237,7 +275,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <li key={p.id} className="reveal" style={{ ["--i" as string]: i }}>
                 <Link href={paperHref(lang, p.id)} className="group grid gap-1 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
                   <span className="font-mono text-sm text-muted md:col-span-1">{p.year}</span>
-                  <span className="text-lg text-fg transition-colors group-hover:text-fg-2 md:col-span-8">{p.title}</span>
+                  <span className="text-lg text-fg transition-colors group-hover:text-fg-2 md:col-span-8" dangerouslySetInnerHTML={{ __html: renderTitle(p.title) }} />
                   <span className="text-sm text-muted md:col-span-3 md:text-right">
                     {p.authors.length > 2 ? `${p.authors[0].split(" ").at(-1)} et al.` : p.authors.map((a) => a.split(" ").at(-1)).join(", ")}
                   </span>
@@ -248,6 +286,22 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <div className="reveal flex flex-wrap gap-3">
             <ButtonLink href={`/${lang}/biblioteca/`}>{t.library.cta}</ButtonLink>
             <ButtonLink href={`/${lang}/buscar/`} variant="outline">{t.nav.search}</ButtonLink>
+          </div>
+        </div>
+      </section>
+
+      {/* Entradas: acordeón horizontal */}
+      <section className="border-t border-line px-4 py-24 md:px-8 md:py-32">
+        <div className="mx-auto grid max-w-6xl gap-12">
+          <SectionHead title={t.entries.title} />
+          <div className="reveal">
+            <EntryAccordion
+              entries={[
+                { href: `/${lang}/laboratorio/`, code: "Rust · Python · WASM", tone: "tag-green", ...t.entries.lab },
+                { href: `/${lang}/ecuaciones/`, code: "MathML", tone: "tag-blue", ...t.entries.eq },
+                { href: `/${lang}/buscar/`, code: "RAG", tone: "tag-yellow", ...t.entries.search },
+              ]}
+            />
           </div>
         </div>
       </section>

@@ -304,5 +304,24 @@
     "windows": "Download for Windows",
     "linux": "Download for Linux",
     "note": "Builds on GitHub Releases. Not yet developer-signed: the system will ask for confirmation on first launch."
-  }
+  },
+  "entries": {
+    "title": "Start wherever you like.",
+    "lab": {
+      "title": "Lab",
+      "body": "Rust in WebAssembly, Python on Pyodide and the formula engine. Compute, break it, try again.",
+      "cta": "Open the lab"
+    },
+    "eq": {
+      "title": "Equations",
+      "body": "The programme's key formulas, animated and computable, with their source paper.",
+      "cta": "See the equations"
+    },
+    "search": {
+      "title": "Search",
+      "body": "Thousands of passages with exact citations: abstracts, full texts and documentation.",
+      "cta": "Search the library"
+    }
+  },
+  "marquee": "Journals in the library"
 }

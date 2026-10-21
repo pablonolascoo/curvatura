@@ -304,5 +304,24 @@
     "windows": "Descargar para Windows",
     "linux": "Descargar para Linux",
     "note": "Versiones en GitHub Releases. Sin firma de desarrollador por ahora: el sistema pedirá confirmación al abrir."
-  }
+  },
+  "entries": {
+    "title": "Entra por donde quieras.",
+    "lab": {
+      "title": "Laboratorio",
+      "body": "Rust en WebAssembly, Python con Pyodide y el motor de fórmulas. Calcula, rompe y vuelve a probar.",
+      "cta": "Abrir el laboratorio"
+    },
+    "eq": {
+      "title": "Ecuaciones",
+      "body": "Las fórmulas clave del programa, animadas y calculables, con su paper de origen.",
+      "cta": "Ver las ecuaciones"
+    },
+    "search": {
+      "title": "Buscar",
+      "body": "Miles de fragmentos con cita exacta: resúmenes, textos completos y documentación.",
+      "cta": "Buscar en la biblioteca"
+    }
+  },
+  "marquee": "Revistas de la biblioteca"
 }

@@ -45,3 +45,12 @@ export function renderMarkdown(src: string, assetBase?: string): string {
   if (!assetBase) return html;
   return html.replace(/<img src="(?!https?:|\/)([^"]+)"/g, `<img loading="lazy" src="${assetBase}/$1"`);
 }
+
+/** Título con $…$ de LaTeX: matemáticas a MathML en línea, resto escapado. */
+export function renderTitle(title: string): string {
+  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return title
+    .split(/(\$\$?[^$]+\$\$?)/g)
+    .map((part) => (/^\$\$?[^$]+\$\$?$/.test(part) ? math(part.replace(/^\$\$?|\$\$?$/g, ""), false) : esc(part)))
+    .join("");
+}
