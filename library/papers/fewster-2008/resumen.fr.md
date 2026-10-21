@@ -1,0 +1,1 @@
+D'après son titre, ce travail rassemble des cours sur la théorie quantique des champs en espace-temps courbe. Il couvre le cadre où les champs quantiques sont décrits sur un fond gravitationnel classique, base de sujets comme l'énergie négative et le rayonnement de Hawking. Les sources n'incluent ni résumé ni mots-clés, aucun contenu précis n'est donc détaillé.

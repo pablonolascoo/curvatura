@@ -1,0 +1,1 @@
+This is a popular text explaining that there is a cosmic speed limit and that, unfortunately, we will not be firing up a warp drive any time soon. According to its keywords, it reviews superluminal motion, wormholes, general relativity and quantum entanglement as possible avenues. The sources give no further detail on its content.

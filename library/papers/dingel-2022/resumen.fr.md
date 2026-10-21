@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail propose un analogue optique de l'effet Thomas de la relativité restreinte à l'aide d'un interféromètre de Michelson-Gires-Tournois à résonateurs en couches minces. Il comprend une analyse détaillée des erreurs et la récupération du sens de l'angle de rotation de Thomas.

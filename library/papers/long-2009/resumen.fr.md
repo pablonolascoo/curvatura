@@ -1,0 +1,1 @@
+D'après son titre, cet article du Journal of the British Interplanetary Society trace une voie vers les étoiles avec la fusion, l'antimatière et un « space drive ». Il relève de la propulsion interstellaire, en plaçant des options connues à côté de concepts plus spéculatifs. Les sources n'incluent pas de résumé, méthodes et résultats ne sont donc pas détaillés.

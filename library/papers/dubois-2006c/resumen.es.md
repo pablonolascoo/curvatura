@@ -1,0 +1,1 @@
+Según su título y temas, es un manifiesto firmado por varios científicos sobre la responsabilidad de la ciencia y la evolución del planeta, que llama a actuar por la paz y la armonía mundiales. No hay resumen ni texto en las fuentes, y no trata de física ni de propulsión.

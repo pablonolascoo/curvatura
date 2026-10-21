@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, c'est un manifeste signé par plusieurs scientifiques sur la responsabilité de la science et l'évolution de la planète, qui appelle à agir pour la paix et l'harmonie mondiales. Les sources n'ont ni résumé ni texte, et il ne concerne ni la physique ni la propulsion.

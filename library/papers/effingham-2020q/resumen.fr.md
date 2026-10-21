@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, il s'agit de la liste des figures d'un ouvrage de philosophie sur le voyage dans le temps, avec des illustrations comme un ruban de Möbius et des bandes dessinées en ligne. Il n'a pas de contenu scientifique propre et aucun lien avec la propulsion.

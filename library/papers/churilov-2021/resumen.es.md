@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo propone modelos hidrodinámicos de agujeros de gusano astrofísicos y expone su concepto general. Parece buscar analogías entre el comportamiento de fluidos y la geometría de estos túneles hipotéticos del espaciotiempo. No se dispone de resumen, de modo que no se pueden precisar su método ni sus resultados.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone métricas de distorsión subluminales, derivadas de un sesgo de entrelazamiento a escala de Planck, y las compara con los modelos de Alcubierre, Natário y White. Considera las desigualdades cuánticas y la retroacción, y añade especulaciones superlumínicas dirigidas a aficionados a la ciencia ficción.

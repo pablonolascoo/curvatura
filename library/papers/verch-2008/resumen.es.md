@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de las desigualdades cuánticas, o promediadas, de energía en la teoría cuántica de campos. Se ocupa del tensor de energía-momento y de las correcciones cuánticas que limitan cuánta energía negativa puede haber. No se dispone de resumen ni texto, por lo que no se pueden precisar sus resultados.

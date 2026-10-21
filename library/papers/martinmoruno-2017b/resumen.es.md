@@ -1,0 +1,1 @@
+Según su título y temas, el capítulo repasa las condiciones de energía clásicas y semiclásicas de la relatividad general, como la condición de energía nula promediada. Trata el tensor de energía-impulso, el enfoque de geodésicas y los teoremas de singularidad. Estas condiciones son las que debe violar la energía negativa en agujeros de gusano y burbujas de distorsión.

@@ -1,0 +1,1 @@
+Based on its title and topics, this thesis deals with the canonical quantization of geometrodynamics, that is, general relativity formulated as the dynamics of spatial geometries, with as few constraints as possible. It belongs to the field of quantum gravity.

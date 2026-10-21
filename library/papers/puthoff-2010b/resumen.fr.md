@@ -1,0 +1,1 @@
+D'après son titre, le travail traite de propulsion spatiale avancée fondée sur l'ingénierie du vide, c'est-à-dire de la métrique de l'espace-temps. Il a paru dans le Journal of the British Interplanetary Society. Les sources ne contiennent pas de résumé ; méthode et résultats ne sont donc pas indiqués.

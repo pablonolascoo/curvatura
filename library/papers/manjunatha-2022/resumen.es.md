@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone un modelo de agujero de gusano con función de forma exponencial en el marco de la geometría de Finsler. Las palabras clave señalan que analiza las condiciones de energía, el parámetro de la ecuación de estado, las fuerzas hidrostáticas y las soluciones exactas. No hay resumen en las fuentes, así que no se afirman resultados.

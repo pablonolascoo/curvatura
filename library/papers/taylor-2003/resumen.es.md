@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo hace un balance del estado de la ingeniería de la métrica y de sus implicaciones para el motor warp, dentro de la investigación en propulsión. Las fuentes no aportan resumen ni resultados.

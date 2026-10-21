@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail présente un espace-temps stationnaire à symétrie cylindrique qui admet des courbes temporelles fermées, une solution exacte des équations d'Einstein. Il semble aussi discuter l'interprétation physique de la solution, probablement par les géodésiques et leur déviation.

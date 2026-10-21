@@ -1,0 +1,1 @@
+Según su título y temas, se trata de la lista de figuras de un libro de filosofía sobre el viaje en el tiempo, con ilustraciones como una tira de Möbius y cómics web. No contiene contenido científico propio y no guarda relación con la propulsión.

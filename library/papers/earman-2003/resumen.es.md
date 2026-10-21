@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de las máquinas del tiempo en el marco de la física y la filosofía de la ciencia. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

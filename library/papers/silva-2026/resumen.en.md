@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies the nonlinear branch blocking of dark solitons in transonic flows described by the Gross-Pitaevskii equation, in Bose-Einstein condensates. It deals with nonlinear waves and soliton dynamics, and relates to analogue gravity systems.

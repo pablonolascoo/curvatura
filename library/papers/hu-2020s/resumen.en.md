@@ -1,0 +1,1 @@
+Based on its title and authors, this is the preface of the book Semiclassical and Stochastic Gravity by Hu and Verdaguer. The sources offer no abstract or text, so its contents cannot be described beyond introducing the book.

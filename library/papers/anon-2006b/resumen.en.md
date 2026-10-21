@@ -1,0 +1,1 @@
+Based on its title, this is a text published in a Springer book called "Exotic possibilities". No abstract or authors are available, so all that can be said is that it appears to deal with unconventional ideas related to the topic area of the library.

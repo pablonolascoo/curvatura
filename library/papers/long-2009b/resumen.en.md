@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns nuclear fusion and antimatter as propulsion routes, and a space drive, for interstellar travel. The sources do not allow stating its method or results.

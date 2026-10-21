@@ -1,0 +1,1 @@
+Based on its title and topics, this conference paper reviews the status of faster-than-light space warps and the next research steps. Its topics include wormholes, spacetime manipulation, quantum entanglement and quantum teleportation. The sources include no abstract, so no specific results are detailed.

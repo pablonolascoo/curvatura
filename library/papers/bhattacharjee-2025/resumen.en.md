@@ -1,0 +1,1 @@
+Based on its title and topics, the work is about possible astrophysical signatures of warp-drive activity in the nearby galactic neighbourhood. It relies on the Alcubierre metric and mentions technosignatures, gravitational-wave bursts, interaction with the interstellar medium and advanced civilizations. No abstract is available, so no results are claimed.

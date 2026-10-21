@@ -1,0 +1,1 @@
+D'après son titre, le travail traite de technologies « hors des sentiers battus » de transport spatial et terrestre et d'énergie pour le XXIe siècle. Faute d'informations supplémentaires, on peut seulement dire qu'il concerne des concepts non conventionnels de propulsion et d'énergie.

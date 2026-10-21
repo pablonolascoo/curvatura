@@ -1,0 +1,1 @@
+D'après son titre, ce travail de Carlip porte sur la thermodynamique des trous noirs, un domaine qui relie horizons, entropie et température à la gravité et à la théorie quantique. Les sources ne contiennent ni résumé ni texte, on ne peut donc pas indiquer de méthodes ni de résultats.

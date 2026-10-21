@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with analogue quantum simulation of the Hawking effect in a polariton superfluid. It addresses the sound horizon in nonequilibrium systems, optical bistability, the dispersion relation and Bose-Einstein condensates as analogue gravity platforms. No further detail on its results is available.

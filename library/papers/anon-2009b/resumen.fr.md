@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce chapitre passe en revue l'histoire récente des études sur la propulsion de rupture. Il relève du domaine de la propulsion spatiale avancée et du voyage interstellaire.

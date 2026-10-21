@@ -10,8 +10,8 @@ source: https://arxiv.org/abs/2404.01048
 language: en
 subsystems: [G, C]
 kind: solucion
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

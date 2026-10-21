@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo plantea el viaje en el tiempo como un nuevo paradigma de hipercomputación. Parece discutir cómo podría aprovecharse la posibilidad de viajar al pasado para resolver problemas que una computadora ordinaria no puede abordar. No se dispone de más detalles sobre su método ni sus conclusiones.

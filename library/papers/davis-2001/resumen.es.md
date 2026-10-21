@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo trata de los agujeros de gusano como «stargates», túneles que permitirían viajar por nuestro entorno cósmico. Las fuentes no aportan más detalle sobre método ni resultados.

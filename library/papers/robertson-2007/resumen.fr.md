@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail passe en revue de nouvelles frontières des sciences de la propulsion spatiale. Il aborde la propulsion sans ergol, la courbure de l'espace-temps, les trous de ver traversables, le moteur warp d'Alcubierre, l'énergie du vide et les systèmes hybrides.

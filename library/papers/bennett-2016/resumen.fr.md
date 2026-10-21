@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose des réflexions sur le voyage plus rapide que la lumière et le voyage interstellaire relativiste, dans le contexte du vol spatial. Il a été présenté à la conférence de propulsion AIAA/SAE/ASEE de 2016. Aucun résumé n'est disponible, on n'indique donc pas de résultats précis.

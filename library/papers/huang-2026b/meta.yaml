@@ -23,4 +23,7 @@ verified: false
 harvest: openalex-zh
 cited_by: 0
 countries: [CN, FR]
-relevance: media
+relevance: baja
+resumen_propio: ia
+resumen_base: resumen
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

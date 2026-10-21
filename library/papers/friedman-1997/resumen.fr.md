@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail traite de la censure topologique et de la protection de la chronologie. Il concerne les courbes temporelles fermées, la violation de la causalité et la topologie de l'espace-temps, les trous de ver étant un cas pertinent.

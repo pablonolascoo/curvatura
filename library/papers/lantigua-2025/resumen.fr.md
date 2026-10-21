@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie l'effet Hartman, le temps de l'effet tunnel quantique, à partir d'une extension géométrodynamique de la mécanique bohmienne. Il traite du potentiel quantique, de la propagation apparemment superluminique, de la causalité relativiste et des phases topologiques. Aucun détail supplémentaire sur ses résultats n'est disponible.

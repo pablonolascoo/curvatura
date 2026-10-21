@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie comment une métrique lorentzienne effective peut émerger d'un défaut de type vortex. Il s'inscrit dans la ligne de l'espace-temps et de la gravité émergents, où des défauts topologiques d'un milieu engendrent une géométrie effective.

@@ -1,0 +1,1 @@
+An introduction is given to discussions on the possiblity of fabricating spacetime geometries allowing time-travel scenarios with the help of matter possessing typically quantum features. Those scenarios are considered in the framework of quantum field theory and general relativity. Results established in the literature excluding the possibility of time-travel are presented.

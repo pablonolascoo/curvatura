@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de teoremas de singularidad que se obtienen al debilitar las condiciones de energía. Estas condiciones son las mismas que la energía negativa viola, por lo que el tema enlaza con agujeros de gusano y propulsión por distorsión.

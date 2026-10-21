@@ -1,0 +1,1 @@
+Based on its title, this is a doctoral dissertation on the visualization of four-dimensional spacetimes, that is, how to represent relativistic geometries graphically. No abstract is available, so no method or results are stated.

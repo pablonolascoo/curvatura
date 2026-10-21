@@ -1,0 +1,1 @@
+Based on its title and topics, this legal article in Spanish deals with consumers' access to Community justice. It addresses consumer protection and European Community law, with reference to the Court of Justice and the European Court of Human Rights. It has no relation to physics or propulsion.

@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo describe el programa de física de propulsión revolucionaria de la NASA, que exploraba propulsión sin propelente, motores warp, agujeros de gusano y transporte espacial. Las fuentes no aportan detalles de resultados.

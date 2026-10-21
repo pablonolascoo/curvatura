@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le chapitre « Prerequisites for Space Drive Science », publié par l'AIAA en 2009, traite des prérequis d'une science des propulseurs spatiaux d'un type nouveau et de la propulsion des engins spatiaux. Aucun résumé n'est disponible, on n'affirme donc ni méthodes ni résultats.

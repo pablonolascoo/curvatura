@@ -1,0 +1,1 @@
+Based on its title and topics, the work, presented at the STAIF-97 forum, describes NASA's breakthrough propulsion physics research programme. Its aim is to explore approaches that go beyond the limits of chemical propulsion, and it belongs to the field of spacecraft propulsion.

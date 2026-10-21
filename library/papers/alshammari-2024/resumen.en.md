@@ -1,0 +1,1 @@
+Based on its title and topics, this work proposes that apparent superluminal speed and nonlocality could be an illusion caused by differences in curvature between different spacetime intervals. It focuses on spacetime geometry and superluminal propagation, touching on relativity and quantum gravity. The sources do not describe any specific results.

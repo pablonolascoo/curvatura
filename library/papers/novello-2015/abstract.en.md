@@ -1,0 +1,1 @@
+We present an overview of recent developments concerning modifications of the geometry of space-time to describe various physical processes of interactions among classical and quantum configurations. We concentrate in two main lines of research: the Metric Relativity and the Dynamical Bridge.

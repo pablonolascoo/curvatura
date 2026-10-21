@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies the interaction of linear modulated waves with unsteady dispersive hydrodynamic states, with application to shallow water waves. The sources include no abstract or text, so methods and results cannot be stated. Its link to analogue black hole physics or propulsion is, at most, indirect.

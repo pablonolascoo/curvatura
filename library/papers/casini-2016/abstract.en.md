@@ -1,0 +1,1 @@
+Using holographic calculations, we examine a key assumption made in Jacobson's recent argument for deriving Einstein's equations from vacuum entanglement entropy. Our results involving relevant operators with low conformal dimensions seem to conflict with Jacobson's assumption. However, we discuss ways to circumvent this problem.

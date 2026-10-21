@@ -17,7 +17,7 @@ source: https://arxiv.org/abs/2502.00565
 language: en
 subsystems: [V]
 kind: experimental
-license: unknown
+license: CC-BY-NC-ND-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

@@ -1,0 +1,1 @@
+Based on its title, this text by Matheus Pereira Lobo is called "Internet of People". The sources only contain a promotional phrase with no physical content, so it cannot be stated what it studies or what results it offers. It appears unrelated to spacetime physics and propulsion.

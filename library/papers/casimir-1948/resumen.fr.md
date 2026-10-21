@@ -1,0 +1,1 @@
+D'après son titre, le travail porte sur l'attraction entre deux plaques parfaitement conductrices. Les sources consultées ne contiennent pas de résumé ; méthode et résultats ne sont donc pas détaillés. C'est la référence classique de l'effet Casimir, pertinent pour l'énergie du vide et l'énergie négative.

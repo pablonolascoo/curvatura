@@ -1,0 +1,1 @@
+This is a brief preliminary text presenting first steps toward understanding the most fundamental nature of spacetime, in the context of quantum gravity. The sources give no further detail on its method or results, so its specific contribution cannot be described.

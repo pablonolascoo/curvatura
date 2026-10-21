@@ -1,0 +1,1 @@
+Based on its title and topics, the work compares how two language models, DeepSeek and GPT, compute the Einstein tensor of the Alcubierre warp drive metric. The keywords mention symbolic computation, vacuum solutions, the Burgers equation and model evaluation metrics. The sources have no abstract or text, so no results are claimed.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies the effect of monopole charge on dark matter induced Morris-Thorne type traversable wormhole solutions in general relativity. The keywords point to anisotropic fluid, energy conditions, stability, adiabatic index, complexity factor and embedding diagrams. The sources have no abstract or text, so no results are claimed.

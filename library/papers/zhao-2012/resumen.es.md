@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata del principio de incertidumbre generalizado y de la entropía de un agujero negro acústico rotante tridimensional. Menciona la entropía estadística y el modelo de la pared de ladrillos. No se dispone de resumen ni texto, por lo que no se pueden precisar sus resultados.

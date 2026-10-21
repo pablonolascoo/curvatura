@@ -1,0 +1,1 @@
+Según su título, el trabajo discute qué implicaciones tendría la teoría de la inflación cósmica para una posible visita extraterrestre. Se publicó en el Journal of the British Interplanetary Society. La descripción que acompañaba al registro no es utilizable, así que no se indican método ni resultados.

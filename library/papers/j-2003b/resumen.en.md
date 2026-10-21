@@ -1,0 +1,1 @@
+Based on its title, the work establishes a quantum weak energy inequality for spin one fields in curved spacetime. No abstract or topics are available, so method and results are not stated. This kind of inequality limits how much negative energy can exist, which is relevant for warp drives.

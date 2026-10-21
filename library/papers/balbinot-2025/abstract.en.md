@@ -1,0 +1,1 @@
+In this paper, dedicated to the memory of A. Aurilia, we will review some basic features of Hawking's black hole radiation and compare them with the corresponding ones present in Bose-Einstein condensate analogue black holes.

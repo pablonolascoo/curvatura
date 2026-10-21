@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail porte sur le champ gravitationnel quantique, dans le cadre de la gravité quantique et de la théorie quantique des champs de la gravité. Les sources ne fournissent pas de résumé.

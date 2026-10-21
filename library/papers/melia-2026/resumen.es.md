@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata del universo primitivo: la inflación cósmica, el problema del horizonte, las fluctuaciones cuánticas y la historia de la expansión. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de una desigualdad cuántica de energía débil para el campo de Dirac en un espaciotiempo plano de dos dimensiones. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with speed limits in general relativity, that is, under what conditions the speed of objects or signals can or cannot exceed that of light in curved spacetimes. No abstract or text is available, so its results cannot be specified.

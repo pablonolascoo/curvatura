@@ -1,0 +1,1 @@
+Según su título, el trabajo trata del viaje interestelar y los agujeros de gusano transitables, es decir, de si estas geometrías podrían servir como atajos en el espaciotiempo. Las fuentes no incluyen resumen ni texto, así que no se pueden indicar métodos ni resultados.

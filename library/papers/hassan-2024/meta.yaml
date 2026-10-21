@@ -12,7 +12,7 @@ language: en
 subsystems: [G, C]
 kind: restriccion
 license: CC-BY-4.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

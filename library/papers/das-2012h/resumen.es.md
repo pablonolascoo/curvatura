@@ -1,0 +1,1 @@
+Según su título y temas, este capítulo de un libro de texto trata las ecuaciones acopladas de Einstein, Maxwell y Klein-Gordon, que describen gravedad, electromagnetismo y un campo escalar a la vez. Se presenta como material opcional, fuera de un curso introductorio, y relacionado con agujeros negros.

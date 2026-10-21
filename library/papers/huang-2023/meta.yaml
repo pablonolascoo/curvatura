@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2301.06235
 language: en
 subsystems: [G, V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

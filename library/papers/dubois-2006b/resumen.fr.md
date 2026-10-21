@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, il s'agit d'un manifeste signé par plusieurs scientifiques sur la responsabilité de la science et l'évolution de la planète, appelant à agir pour la paix et l'harmonie dans le monde. Aucun résumé n'est disponible et ce n'est pas un travail de physique de la propulsion.

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie les trajectoires des rayons lumineux dans l'espace-temps d'Alcubierre, le modèle théorique de propulsion par distorsion de l'espace. Il porte donc sur la propagation de la lumière à l'intérieur et autour de la bulle de distorsion.

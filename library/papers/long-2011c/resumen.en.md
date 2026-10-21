@@ -1,0 +1,1 @@
+First chapter of a book on interstellar travel presenting the many concepts devised for someday reaching the distant stars. They range from large, slow world ships to spacecraft able to travel faster than light. It is a general introduction to spacecraft propulsion and superluminal travel, with no calculations of its own in the sources consulted.

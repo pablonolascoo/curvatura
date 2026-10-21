@@ -1,0 +1,1 @@
+Cet article d'un magazine informatique chinois présente internet comme un trou de ver vers le passé. Il décrit la possibilité d'ouvrir d'anciennes versions de sites web, vieilles d'un an, de deux ans ou davantage, comme dans un voyage dans le temps. C'est un texte sur l'archivage du web, sans lien avec la physique des trous de ver.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies travel across the galaxy using the Alcubierre warp drive, with superluminal motion. The keywords mention interstellar travel, Hawking radiation, Proxima Centauri and extraterrestrial civilizations. The sources have no abstract or text, so methods and results cannot be stated.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes a unification of gravity and electromagnetism through a geometric "chronon" field. Its topics include scalar fields, geodesics, scalar curvature and the de Sitter universe. The only description available is "International audience", so method and results are not stated.

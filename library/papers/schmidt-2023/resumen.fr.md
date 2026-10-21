@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose un modèle quantique analogue pour une particule scalaire interagissant avec un trou noir de Kerr-de Sitter. Il évoque des solutions exactes des équations de Schrödinger et de Klein-Gordon, un sphéroïde aplati, des analogues de trous noirs et des trous de ver. Aucun détail supplémentaire sur ses résultats n'est disponible.

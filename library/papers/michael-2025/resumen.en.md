@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes ensembles of Planck scale "grains" and a correspondence among entanglement, loop quantum gravity and string theory, from which grand unified and Standard Model fields would emerge. It mentions Voronoi tessellations, edge states and an emergent spacetime metric. The sources include no abstract, so no results are stated.

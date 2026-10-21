@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de las trayectorias de rayos de luz en el espacio-tiempo de Alcubierre, es decir, de cómo se propagan los rayos en la métrica de la burbuja warp. No se dispone de más detalle sobre su método ni sus resultados.

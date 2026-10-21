@@ -1,0 +1,1 @@
+Based on its title, this article by Puthoff and Braker asks whether the vacuum can be engineered for spaceflight applications and offers an overview of theory and experiments. It belongs to zero-point energy and advanced propulsion. The sources include no abstract, so methods and results are not detailed.

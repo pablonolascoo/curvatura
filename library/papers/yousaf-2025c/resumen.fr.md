@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail interprète des modèles de trous de ver de type Morris-Thorne à charge topologique, ainsi que leurs conditions d'énergie et corrections relativistes. Il utilise la classe d'immersion un, le quantificateur d'intégrale de volume et la gravité modifiée, et traite de matière exotique et de stabilité.

@@ -1,0 +1,1 @@
+Según su título y temas, esta ponencia de propulsión repasa motores warp, agujeros de gusano, antigravedad y viaje en el tiempo desde la relatividad general, con la manipulación del espacio-tiempo como hilo común.

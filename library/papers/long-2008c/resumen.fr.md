@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail fait le point sur l'état du moteur warp, avec la métrique d'Alcubierre, la courbure de l'espace-temps et le voyage plus rapide que la lumière. Les sources ne contiennent ni résumé ni texte, on ne peut donc pas indiquer méthodes ni conclusions.

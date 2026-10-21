@@ -1,0 +1,1 @@
+Based on its title and topics, this work proposes an optical analogue of the Thomas effect of special relativity using a Michelson-Gires-Tournois interferometer with thin-film resonators. It includes a detailed error analysis and the recovery of the direction of the Thomas rotation angle.

@@ -12,8 +12,8 @@ source: https://arxiv.org/abs/2604.24787
 language: en
 subsystems: [V]
 kind: experimental
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

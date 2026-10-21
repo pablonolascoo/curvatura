@@ -1,0 +1,1 @@
+Based on its title and topics, the work is about absolute quantum energy inequalities, that is, bounds on negative energy density in quantum field theory. No abstract is available, so no results are claimed.

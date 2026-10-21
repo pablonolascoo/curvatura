@@ -1,0 +1,1 @@
+Based on its title, the work is about how gravity might be used to reach warp speed, that is, a possible link between gravity and warp drives. It was published as a preprint on viXra. No abstract is available, so no results are claimed.

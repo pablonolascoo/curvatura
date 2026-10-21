@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia cómo puede surgir una métrica lorentziana efectiva a partir de un defecto de tipo vórtice. Pertenece a la línea de espaciotiempo y gravedad emergentes, donde defectos topológicos de un medio generan una geometría efectiva.

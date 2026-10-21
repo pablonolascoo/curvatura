@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de una cuantización canónica de la geometrodinámica con restricciones mínimas. Se limita a describir ese tema de gravedad cuántica, sin que las fuentes permitan precisar método ni resultados.

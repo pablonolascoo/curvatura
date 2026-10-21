@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone una comunicación más rápida que la luz basada en codificar información en fotones dentro de una burbuja de Alcubierre, usando polarización y frecuencia. Trata la materia exótica, la densidad de energía negativa, la lente gravitatoria, los corrimientos de frecuencia y las paradojas de causalidad.

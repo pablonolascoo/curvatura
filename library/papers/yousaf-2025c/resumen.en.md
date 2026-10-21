@@ -1,0 +1,1 @@
+Based on its title and topics, the work interprets Morris-Thorne type wormhole models with topological charge, together with their energy conditions and relativistic corrections. It uses embedding class one, the volume integral quantifier and modified gravity, and deals with exotic matter and stability.

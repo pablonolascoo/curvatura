@@ -1,0 +1,1 @@
+Según su título, se trata de una tesis doctoral sobre supertubos, cuerdas negras y sistemas de D-branas, objetos de la teoría de cuerdas. No se dispone de resumen ni texto, por lo que no se pueden precisar sus métodos ni resultados.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo combina técnicas de renderizado basado en imágenes con la relatividad general, es decir, la visualización de cómo se vería el espacio-tiempo curvo. No se dispone de resumen ni texto, por lo que no se pueden precisar sus métodos ni resultados.

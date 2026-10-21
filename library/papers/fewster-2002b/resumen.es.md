@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo establece una desigualdad cuántica de energía débil para campos de Dirac en espacio-tiempo curvo, es decir, una cota inferior sobre la densidad de energía que puede alcanzar un campo fermiónico cuántico. Es relevante para los límites de la energía negativa.

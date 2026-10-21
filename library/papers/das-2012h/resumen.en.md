@@ -1,0 +1,1 @@
+Based on its title and topics, this textbook chapter covers the coupled Einstein, Maxwell and Klein-Gordon equations, which describe gravity, electromagnetism and a scalar field together. It is presented as optional material beyond an introductory course, and is related to black holes.

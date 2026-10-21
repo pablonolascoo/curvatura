@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with the generalized uncertainty principle and the entropy of a three-dimensional rotating acoustic black hole. It mentions statistical entropy and the brick wall model. No abstract or text is available, so its results cannot be specified.

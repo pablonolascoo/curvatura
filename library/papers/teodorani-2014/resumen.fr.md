@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail recherche des objets à fort mouvement propre avec excès infrarouge, dans le cadre des sphères de Dyson, de la migration interstellaire et du SETI. Les sources n'ont ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

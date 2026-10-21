@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail soutient que le moteur à distorsion d'Alcubierre n'est pas physiquement réalisable. Les sources disponibles ne permettent pas d'en préciser la méthode ni les résultats.

@@ -1,0 +1,1 @@
+Based on its title, the work concerns singularity theorems obtained by weakening the energy conditions. These are the same conditions that negative energy violates, so the topic connects to wormholes and warp drives.

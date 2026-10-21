@@ -23,3 +23,5 @@ harvest: openalex-zh
 cited_by: 0
 countries: [PK, UZ, AZ, JO, CN]
 relevance: media
+resumen_propio: ia
+resumen_base: titulo

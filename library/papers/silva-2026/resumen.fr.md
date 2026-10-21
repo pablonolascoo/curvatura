@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie le blocage de branches non linéaires de solitons sombres dans des écoulements transsoniques décrits par l'équation de Gross-Pitaevskii, dans des condensats de Bose-Einstein. Il traite d'ondes non linéaires et de dynamique de solitons, et se rattache aux systèmes de gravité analogue.

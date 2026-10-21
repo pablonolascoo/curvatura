@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail présente la théorie des moteurs warp et leurs limites à ce jour. Ni résumé ni texte ne sont disponibles, de sorte que sa méthode et ses conclusions ne peuvent être précisées.

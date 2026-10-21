@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo compara cómo dos modelos de lenguaje, DeepSeek y GPT, calculan el tensor de Einstein de la métrica del motor warp de Alcubierre. Las palabras clave mencionan cálculo simbólico, soluciones de vacío, la ecuación de Burgers y métricas de evaluación de modelos. No hay resumen ni texto en las fuentes, así que no se afirman resultados.

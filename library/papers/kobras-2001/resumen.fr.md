@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail associe des techniques de rendu à partir d'images à la relativité générale, c'est-à-dire la visualisation de l'apparence de l'espace-temps courbe. Ni résumé ni texte ne sont disponibles, de sorte que ses méthodes et résultats ne peuvent être précisés.

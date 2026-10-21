@@ -1,0 +1,1 @@
+Según su título y temas, este documento es el informe de un taller de la NASA y el JPL sobre propulsión avanzada basada en teorías cuánticas y de relatividad. Trata de la propulsión relativista y de conceptos que van más allá de los cohetes convencionales.

@@ -1,0 +1,1 @@
+D'après son titre, le travail étudie un espace-temps déformé pour des phonons se déplaçant dans un fluide parfait non relativiste. Il relève de la gravité analogue, où le son dans un fluide se comporte comme un champ dans une métrique courbe effective.

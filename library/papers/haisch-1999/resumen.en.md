@@ -1,0 +1,1 @@
+Based on its title, this preprint deals with an interstellar mission and with narrowing down the inertia resonance associated with the zero-point field. It sits within the hypothesis that inertia arises from interaction with the vacuum field, with possible uses in propulsion. The sources include no abstract, so methods and results cannot be detailed.

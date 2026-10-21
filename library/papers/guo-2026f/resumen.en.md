@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies the dynamical properties of Hayward-type thin-shell wormholes in anti-de Sitter space with a string fluid. It addresses stability through an effective potential, with barotropic and phantom-type equations of state, and exotic matter in modified gravity. No further detail on its results is available.

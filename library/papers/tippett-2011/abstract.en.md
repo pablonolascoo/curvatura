@@ -1,0 +1,1 @@
+In light of the surge in popularity of electromagnetic cloaking devices, we consider whether it is possible to use gravitational lensing to cloak a volume of spacetime. A metric for such a spacetime geometry is presented, and its geometric and physical implications are explained.

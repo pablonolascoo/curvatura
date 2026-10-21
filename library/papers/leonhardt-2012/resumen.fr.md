@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail présente une théorie analytique du rayonnement de Hawking dans les milieux dispersifs. Il relève de la gravité analogue et touche au paradoxe de l'information des trous noirs.

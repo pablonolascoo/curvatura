@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie la théorie quantique des champs sur des espaces-temps dotés d'un horizon de Cauchy engendré de façon compacte, c'est-à-dire avec des courbes de genre temps fermées apparaissant dans une région bornée. Aucun résumé n'est disponible, on n'affirme donc aucun résultat. Il s'inscrit dans le débat sur la protection de la chronologie.

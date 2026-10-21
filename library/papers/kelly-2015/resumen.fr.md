@@ -1,0 +1,1 @@
+D'après son titre, le travail cherche la causalité dans la correspondance AdS/CFT, c'est-à-dire la manière dont la structure causale de l'espace-temps se reflète dans la théorie des champs duale. C'est un sujet de gravité quantique et d'holographie.

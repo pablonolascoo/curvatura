@@ -1,0 +1,1 @@
+D'après son titre, le travail porte sur la façon dont la gravité pourrait servir à atteindre la vitesse warp, c'est-à-dire un possible lien entre la gravité et les moteurs warp. Il a été publié en prépublication sur viXra. Aucun résumé n'est disponible, on n'affirme donc aucun résultat.

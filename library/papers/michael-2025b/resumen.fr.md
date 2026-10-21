@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose des métriques de distorsion subluminiques, issues d'un biais d'intrication à l'échelle de Planck, et les compare aux modèles d'Alcubierre, Natário et White. Il considère les inégalités quantiques et la rétroaction, et ajoute des spéculations superluminiques destinées aux amateurs de science-fiction.

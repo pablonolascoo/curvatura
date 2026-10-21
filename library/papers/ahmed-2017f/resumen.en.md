@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies a type N spacetime in the Petrov classification, which is an Einstein space serving as a model of a time machine. It deals with axisymmetric geometries containing closed timelike curves and with congruences of null geodesics.

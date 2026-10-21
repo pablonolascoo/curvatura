@@ -1,0 +1,1 @@
+D'après son titre, ce preprint propose une électrogravité par un champ géométrique de chronon. Il suggère un lien entre électromagnétisme et gravité fondé sur un champ associé au temps. Les sources n'incluent ni résumé ni mots-clés, la méthode et les résultats ne sont donc pas détaillés.

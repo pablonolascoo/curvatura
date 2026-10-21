@@ -1,0 +1,1 @@
+Según su título y temas, esta tesis doctoral estudia supertubos, cuerdas negras y sistemas de D-branas dentro de la teoría de cuerdas. Se enmarca en las soluciones de tipo agujero negro de esa teoría.

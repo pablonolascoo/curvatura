@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de relojes de sonido y de una relatividad sónica, es decir, de cómo el sonido haría el papel de la luz en un análogo de la relatividad. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

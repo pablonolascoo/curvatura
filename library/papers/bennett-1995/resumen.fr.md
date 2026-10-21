@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce document est le rapport d'un atelier de la NASA et du JPL sur la propulsion avancée fondée sur les théories quantiques et de la relativité. Il traite de la propulsion relativiste et de concepts qui dépassent les fusées conventionnelles.

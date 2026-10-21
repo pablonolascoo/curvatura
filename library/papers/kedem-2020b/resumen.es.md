@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de agujeros negros y blancos que se forman en las uniones entre materiales, es decir, de análogos de horizontes en sistemas de materia condensada. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

@@ -1,0 +1,1 @@
+This report gathers four case studies of integrated care projects in different countries, to show how integration works in practice. Its aim is to propose a structure of advice on what is needed for integration to succeed, and it defines key ingredients for progress based on four real programs. It is a health policy work, unrelated to physics.

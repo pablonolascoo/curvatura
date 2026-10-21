@@ -1,0 +1,1 @@
+This preprint, written in Portuguese, argues that the bending of spacetime could be a mechanism similar to the expansion of the universe. It raises the idea of spacetime elasticity linking local geometry to cosmic expansion. The source offers only a one-sentence summary, so the method and specific results are unknown.

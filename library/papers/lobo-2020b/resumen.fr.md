@@ -1,0 +1,1 @@
+Il s'agit d'une note très brève qui soulève plusieurs questions sur les accélérations d'ordre supérieur, c'est-à-dire les dérivées de l'accélération, en cinématique et en relativité. Les sources ne donnent pas plus de détails, on ne peut donc indiquer ni méthodes ni résultats.

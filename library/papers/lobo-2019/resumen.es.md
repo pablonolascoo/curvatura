@@ -1,0 +1,1 @@
+Se trata de un breve texto preliminar que presenta unos primeros pasos hacia la comprensión de la naturaleza más fundamental del espacio-tiempo, en el contexto de la gravedad cuántica. Las fuentes no ofrecen más detalle sobre su método ni sus resultados, por lo que su aporte concreto no puede describirse.

@@ -1,0 +1,1 @@
+Based on its title, the work studies a warped spacetime for phonons moving in a perfect nonrelativistic fluid. It belongs to analogue gravity, where sound plays the role of light. The sources include no abstract, so method and results are not stated.

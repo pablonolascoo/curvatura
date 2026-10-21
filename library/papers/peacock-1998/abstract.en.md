@@ -1,0 +1,1 @@
+This paper reviews and extends an approach to superluminal kinematics set forth by R. Sutherland and J. Shepanski in 1986. This theory is characterized by a spacetime with positive definite metric, a Lorentz factor of the form $1/\sqrt{β^2 - 1}$, and real-valued proper times and proper lengths for superluminal reference frames.

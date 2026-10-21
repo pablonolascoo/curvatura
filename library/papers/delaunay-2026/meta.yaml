@@ -13,8 +13,8 @@ source: https://arxiv.org/abs/2607.28721
 language: en
 subsystems: [C]
 kind: solucion
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

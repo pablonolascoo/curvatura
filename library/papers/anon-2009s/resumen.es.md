@@ -1,0 +1,1 @@
+Según su título y temas, este artículo en chino presenta fórmulas sobre masa, energía, fuerza, movimiento superlumínico, física nuclear de alta energía y propiedades del espaciotiempo. Trata la equivalencia masa-energía y las interacciones fundamentales desde una perspectiva propia. Las fuentes no ofrecen detalles de su método ni de sus resultados.

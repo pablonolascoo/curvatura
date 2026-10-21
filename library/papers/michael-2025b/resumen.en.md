@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes sub-luminal warp metrics derived from a Planck-scale entanglement bias and compares them with the Alcubierre, Natario and White models. It considers quantum inequalities and back-reaction, and adds superluminal speculation aimed at science fiction fans.

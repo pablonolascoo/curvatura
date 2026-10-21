@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo estudia cómo los plasmas relativistas y la polarización del vacío modifican el corrimiento al rojo observado en púlsares y magnetares. Considera campos magnéticos muy intensos y su efecto sobre el índice de refracción y sobre el corrimiento al rojo de emisión.

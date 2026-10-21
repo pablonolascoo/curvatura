@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur la transmission d'ondes scalaires de basse énergie à travers un trou de ver traversable. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

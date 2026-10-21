@@ -1,0 +1,1 @@
+Según su título y temas, este artículo en chino divulga el efecto Casimir, una fuerza que surge «de la nada» a partir del vacío. Trata las fluctuaciones del vacío, las partículas virtuales y la fuerza electromagnética entre superficies cercanas. Las fuentes no aportan más detalles sobre su contenido.

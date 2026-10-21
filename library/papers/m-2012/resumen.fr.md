@@ -1,0 +1,1 @@
+D'après son titre, ce travail de Smerlak étudie la diffusion dans les espaces-temps courbes. Il traite de la manière dont les processus diffusifs se propagent lorsque la géométrie de l'espace-temps n'est pas plate. Les sources n'incluent ni résumé ni mots-clés, méthodes et résultats ne peuvent donc être indiqués.

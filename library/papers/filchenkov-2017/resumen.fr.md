@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie le voyage à travers la galaxie au moyen du moteur warp d'Alcubierre, avec mouvement superluminique. Les mots-clés mentionnent le voyage interstellaire, le rayonnement de Hawking, Proxima du Centaure et les civilisations extraterrestres. Les sources n'ont ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

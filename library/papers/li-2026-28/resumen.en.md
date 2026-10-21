@@ -1,0 +1,1 @@
+Based on its title and topics, the work presents charged traversable wormhole solutions in f(R, ϕ, X) modified gravity. It deals with the Karmarkar condition, shape functions, violation of the null energy condition, exotic matter and stability.

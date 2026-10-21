@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose un modèle de trou de ver à fonction de forme exponentielle dans le cadre de la géométrie de Finsler. Les mots-clés indiquent qu'il analyse les conditions d'énergie, le paramètre de l'équation d'état, les forces hydrostatiques et les solutions exactes. Les sources n'ont pas de résumé, aucun résultat n'est donc avancé.

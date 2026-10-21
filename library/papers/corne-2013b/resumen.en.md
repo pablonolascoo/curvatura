@@ -1,0 +1,1 @@
+Based on its title, the work proposes a canonical quantization of geometrodynamics with minimal constraints. No abstract or topics are available, so method and results are not stated. It belongs to the area of canonical quantum gravity.

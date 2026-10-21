@@ -1,0 +1,1 @@
+Recently published experimental results indicate the appeareance of unusual forces on asymmetric, electromagnetic resonant cavities. It is argued here that a particular class of scalar-tensor theories of gravity could account for this effect.

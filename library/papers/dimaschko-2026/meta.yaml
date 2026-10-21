@@ -10,8 +10,8 @@ source: https://arxiv.org/abs/2606.19466
 language: en
 subsystems: [C, S, P]
 kind: fuente
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

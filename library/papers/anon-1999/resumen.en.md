@@ -1,0 +1,1 @@
+Based on its title and topics, this is a work called "Future Systems", published by the AIAA in 1999, dealing with future aerospace systems and systems engineering. No abstract is available, so no methods or results can be stated.

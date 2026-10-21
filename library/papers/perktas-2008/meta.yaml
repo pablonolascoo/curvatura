@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/0807.1836
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

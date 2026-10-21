@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail examine la fusée relativiste entre rêve et réalité, avec l'annihilation antiproton-proton, la tuyère magnétique, les accélérateurs d'ions et les réacteurs nucléaires comme éléments du voyage interstellaire. Les sources ne fournissent ni résumé ni résultats.

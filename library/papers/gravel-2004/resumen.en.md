@@ -1,0 +1,1 @@
+The authors show that the masses of Krasnikov tubes can be made much smaller while still allowing apparent superluminal transport of particles and other small objects. They study simple and double-walled tubes with low masses. They note this could be useful in cosmology. It is relevant to traversable wormholes and spacetime shortcuts as an alternative to warp bubbles.

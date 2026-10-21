@@ -1,0 +1,1 @@
+Based on its title and topics, the work is about the artificial inducement of a local warp bubble using a propulsion device called the VEM Drive. Only the table of contents is available, mentioning experiments, red shift, a modified Cavendish experiment, magnetic field curvature, radiation measurements and error accounting. No abstract is available, so no results are claimed.

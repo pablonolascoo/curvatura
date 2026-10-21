@@ -1,0 +1,1 @@
+Según su título y temas, este capítulo repasa la historia reciente de los estudios sobre propulsión revolucionaria. Se sitúa en el ámbito de la propulsión espacial avanzada y los viajes interestelares.

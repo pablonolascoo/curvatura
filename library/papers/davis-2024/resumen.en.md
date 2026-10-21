@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns general relativistic faster-than-light propulsion for interstellar flight, that is, manipulating spacetime to travel. The sources do not allow stating its method or results.

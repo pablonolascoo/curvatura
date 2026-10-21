@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de los modos de Higgs y de Goldstone en sólidos cristalinos, ligados a fonones ópticos y acústicos y a la ruptura espontánea de simetría. Se limita a describir ese tema de materia condensada, sin que las fuentes permitan precisar método ni resultados.

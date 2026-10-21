@@ -1,0 +1,1 @@
+Based on its title and topics, this paper, published in the Journal of the British Interplanetary Society, examines what the theory of cosmic inflation implies for the possibility of extraterrestrial visitation. No further detail on its method or conclusions is available.

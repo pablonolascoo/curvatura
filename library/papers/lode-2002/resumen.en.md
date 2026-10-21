@@ -1,0 +1,1 @@
+Based on its title and topics, the work presents "outside the box" ideas on space and terrestrial transportation and energy technologies for the 21st century. It was presented at an AIAA aerospace sciences meeting. The sources contain no abstract, so method and results are not stated.

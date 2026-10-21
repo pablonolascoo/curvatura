@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies Andreev reflection and BTK conductance in Schwarzschild spacetime. It combines superconductivity and quantum transport phenomena with the black hole metric, and includes Andreev bound states, quantum tunnelling and black hole thermodynamics. The sources include no abstract, so no results are described.

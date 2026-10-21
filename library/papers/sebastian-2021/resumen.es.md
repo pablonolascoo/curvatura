@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de motores cuánticos de Otto que funcionan a energías relativistas, es decir, ciclos termodinámicos cuánticos en el régimen relativista. No hay resumen disponible, así que no se indican método ni resultados.

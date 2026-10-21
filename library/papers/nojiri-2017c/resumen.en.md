@@ -1,0 +1,1 @@
+Based on its title and topics, this work offers a condensed review of modified gravity theories. It covers inflation, bounce models and the late-time evolution of the universe, with f(R), f(T) and scalar-tensor gravity and dark energy.

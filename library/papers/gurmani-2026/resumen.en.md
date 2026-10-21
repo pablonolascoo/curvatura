@@ -1,0 +1,1 @@
+Based on its title and topics, this work makes a first comprehensive analysis of transient dynamical wormholes within Euler-Heisenberg nonlinear electrodynamics. It deals with shape functions, energy conditions including the averaged null one, exotic matter, stability, the photon sphere, gravitational wave echoes and embedding diagrams.

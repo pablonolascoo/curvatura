@@ -1,0 +1,1 @@
+This article proposes an alternative approach to superluminal propulsion, motivated by the superluminal velocity measured for neutrinos at CERN. According to the author, on the surface it does not suffer from some of the problems of the standard Alcubierre drive. The available sources include only this general description and do not detail the model or the calculations.

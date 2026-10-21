@@ -1,0 +1,1 @@
+Based on its title and topics, this document is the report of a NASA and JPL workshop on advanced propulsion based on quantum and relativity theories. It deals with relativistic propulsion and concepts that go beyond conventional rockets.

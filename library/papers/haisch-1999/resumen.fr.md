@@ -1,0 +1,1 @@
+D'après son titre, ce preprint traite d'une mission interstellaire et de la précision de la résonance d'inertie associée au champ de point zéro. Il s'inscrit dans l'hypothèse selon laquelle l'inertie provient de l'interaction avec le champ du vide, avec des usages possibles en propulsion. Les sources n'incluent pas de résumé, méthodes et résultats ne peuvent donc être détaillés.

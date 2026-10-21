@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns Higgs and Goldstone modes in crystalline solids, linked to optical and acoustic phonons and spontaneous symmetry breaking. It is a condensed matter topic, and the sources do not allow stating its method or results.

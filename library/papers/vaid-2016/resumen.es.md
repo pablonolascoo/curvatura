@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo investiga el problema de la constante cosmológica desde la física de muchos cuerpos, es decir, con herramientas de la materia condensada aplicadas a la energía del vacío. No hay resumen disponible, así que no se afirman método ni resultados.

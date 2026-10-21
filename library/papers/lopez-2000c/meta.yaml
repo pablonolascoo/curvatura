@@ -17,4 +17,7 @@ verified: false
 harvest: openalex
 cited_by: 0
 cites_seeds: [alcubierre-1994, krasnikov-1998]
-relevance: media
+relevance: baja
+resumen_propio: ia
+resumen_base: titulo
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

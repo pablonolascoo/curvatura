@@ -1,0 +1,1 @@
+Based on its title, this article in the Journal of the British Interplanetary Society charts a path to the stars using fusion, antimatter and a space drive. It belongs to interstellar propulsion, setting known options beside more speculative concepts. The sources include no abstract, so methods and results are not detailed.

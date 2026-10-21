@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2602.06170
 language: en
 subsystems: [E]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

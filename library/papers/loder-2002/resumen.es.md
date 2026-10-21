@@ -1,0 +1,1 @@
+Según su título, el trabajo habla de tecnologías «fuera de lo convencional» de transporte espacial y terrestre y de energía para el siglo XXI. Sin más información, solo cabe decir que trata de conceptos de propulsión y energía no convencionales.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia el efecto Hartman, el tiempo del efecto túnel cuántico, desde una extensión geodinámica de la mecánica bohmiana. Se ocupa del potencial cuántico, la propagación aparentemente superlumínica, la causalidad relativista y las fases topológicas. No se dispone de más detalle sobre sus resultados.

@@ -1,0 +1,1 @@
+Based on its title and topics, this document is the full Summer 2022 issue (volume 36, number 2) of the Journal of Scientific Exploration, a journal on unconventional scientific topics. It gathers several articles in a single PDF. The sources do not detail its contents, so no specific link to propulsion or exotic physics can be stated.

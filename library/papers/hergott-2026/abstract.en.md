@@ -1,0 +1,1 @@
+We present an asymptotically flat spherically symmetric non-singular metric that describes gravitational collapse and matter bounce with transient black hole and white hole regions. The metric provides a dynamical counterpart to proposed static non-singular black holes, and a phenomenological model for possible black hole to white hole transitions in quantum gravity.

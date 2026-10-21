@@ -1,0 +1,1 @@
+Según su título, este artículo de Puthoff y Braker plantea si se puede diseñar el vacío para aplicaciones de vuelo espacial y ofrece un panorama de teoría y experimentos. Se enmarca en la energía del punto cero y la propulsión avanzada. Las fuentes no incluyen resumen, así que no se detallan métodos ni resultados.

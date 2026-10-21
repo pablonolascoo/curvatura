@@ -1,0 +1,1 @@
+Based on its title, this philosophy of science work discusses the multiple realizability of general relativity in quantum gravity, that is, whether different quantum theories could give rise to the same general relativity. The sources give no further detail.

@@ -19,3 +19,5 @@ harvest: openalex-zh
 cited_by: 1
 countries: []
 relevance: media
+resumen_propio: ia
+resumen_base: resumen

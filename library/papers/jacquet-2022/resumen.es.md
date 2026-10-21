@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de la simulación cuántica análoga del efecto Hawking en un superfluido de polaritones. Se ocupa del horizonte sónico en sistemas fuera del equilibrio, la biestabilidad óptica, la relación de dispersión y los condensados de Bose-Einstein como plataformas de gravedad análoga. No se dispone de más detalle sobre sus resultados.

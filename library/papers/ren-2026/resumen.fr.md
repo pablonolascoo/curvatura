@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie la dynamique de paquets d'ondes non adiabatique, avec une métrique non adiabatique, une géométrie quantique et une analogie gravitationnelle. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

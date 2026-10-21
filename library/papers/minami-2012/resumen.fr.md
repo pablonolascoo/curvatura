@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail traite des systèmes de propulsion par champ pour les voyages spatiaux. Ses thèmes comprennent la génération de poussée, la structure de l'espace-temps, la relativité générale, la théorie quantique des champs et la structure du vide. Les sources ne contiennent pas de résumé ; aucun résultat n'est donc indiqué.

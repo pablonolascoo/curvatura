@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur la propulsion plus rapide que la lumière fondée sur la relativité générale pour le vol interstellaire, c'est-à-dire la manipulation de l'espace-temps pour voyager. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

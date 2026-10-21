@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur le principe d'incertitude généralisé et l'entropie d'un trou noir acoustique tournant tridimensionnel. Il évoque l'entropie statistique et le modèle du mur de briques. Ni résumé ni texte ne sont disponibles, de sorte que ses résultats ne peuvent être précisés.

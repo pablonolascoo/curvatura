@@ -1,0 +1,1 @@
+Based on its title, the work looks for causality in the AdS/CFT correspondence, that is, how the causal structure of spacetime shows up in the dual field theory. It is a topic in quantum gravity and holography.

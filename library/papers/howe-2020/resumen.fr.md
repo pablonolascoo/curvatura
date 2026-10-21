@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le chapitre passe en revue la propulsion avancée : systèmes pulsés, à fusion et à antimatière, et physique de rupture, y compris la propulsion sans propergol. Il évoque la haute densité d'énergie, le voyage interstellaire vers Alpha du Centaure et le voyage relativiste. Aucun résumé n'est disponible, on n'affirme donc aucun résultat.

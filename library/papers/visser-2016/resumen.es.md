@@ -1,0 +1,1 @@
+Según su título, este trabajo trata de condiciones de energía semiclásicas para estados de vacío cuánticos, es decir, de cómo reformular las condiciones de energía clásicas cuando la materia es cuántica. Las fuentes no aportan resumen ni más detalle.

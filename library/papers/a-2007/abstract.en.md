@@ -1,0 +1,1 @@
+In this article, we have found a series solution of 3D Einstein equations describing a wormhole for an inhomogeneous distribution of phantom energy. Here, we assume equation of state is linear but highly anistropic.

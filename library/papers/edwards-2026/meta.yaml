@@ -17,5 +17,8 @@ verified: false
 harvest: openalex
 cited_by: 0
 cites_seeds: [alcubierre-1994]
-relevance: media
+relevance: baja
 countries: [GB]
+resumen_propio: ia
+resumen_base: resumen
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

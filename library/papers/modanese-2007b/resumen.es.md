@@ -1,0 +1,1 @@
+Según su título, el trabajo sostiene que el estado de vacío de la gravedad cuántica contiene grandes masas virtuales. No se dispone de resumen ni texto, por lo que no se pueden precisar su método ni sus conclusiones.

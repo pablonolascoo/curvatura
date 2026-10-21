@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo trata de la búsqueda de una fuerza nueva que podría revolucionar la aeronáutica y el espacio, dentro del campo de la propulsión avanzada. Parece un texto de reflexión sobre propulsión exótica, con posible tono especulativo.

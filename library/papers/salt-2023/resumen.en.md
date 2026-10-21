@@ -1,0 +1,1 @@
+Based on its title and topics, the work builds thin-shell wormholes through polytropic gas surgery, starting from static spherically symmetric black holes. Its topics include exotic matter, stability under radial perturbations, and the null, weak and strong energy conditions. The sources include no abstract, so no results are stated.

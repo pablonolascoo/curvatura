@@ -1,0 +1,1 @@
+Es un artículo de síntesis sobre la humanidad en el espacio exterior. La primera parte resume un libro anterior de uno de los autores sobre la filosofía de la exploración espacial, y la segunda se centra en las relaciones internacionales. Las fuentes no dan más detalles. Es un texto de filosofía y política espacial, sin relación directa con la física de propulsión.

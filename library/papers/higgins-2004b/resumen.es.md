@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo propone un método basado en transformaciones para etiquetar argumentos, un asunto de lingüística computacional. No parece tener relación con la física ni con la propulsión.

@@ -1,0 +1,1 @@
+Based on its title and topics, this is the list of figures of a philosophy book on time travel, with illustrations such as a Möbius strip and webcomics. It has no scientific content of its own and no connection to propulsion.

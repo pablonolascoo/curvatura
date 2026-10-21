@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie des moteurs quantiques d'Otto fonctionnant à des énergies relativistes. Il se situe entre la thermodynamique quantique, la mécanique quantique relativiste et les moteurs thermiques quantiques. Les sources ne contiennent que des remerciements, pas de résumé, méthodes et résultats ne sont donc pas détaillés.

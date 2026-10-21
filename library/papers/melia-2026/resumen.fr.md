@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur l'univers primordial : l'inflation cosmique, le problème de l'horizon, les fluctuations quantiques et l'histoire de l'expansion. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

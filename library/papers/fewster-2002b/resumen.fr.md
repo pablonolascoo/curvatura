@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail établit une inégalité quantique d'énergie faible pour les champs de Dirac en espace-temps courbe, c'est-à-dire une borne inférieure sur la densité d'énergie qu'un champ fermionique quantique peut atteindre. Il intéresse les limites de l'énergie négative.

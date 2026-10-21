@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cette thèse de doctorat étudie les supertubes, les cordes noires et les systèmes de D-branes dans le cadre de la théorie des cordes. Elle relève des solutions de type trou noir de cette théorie.

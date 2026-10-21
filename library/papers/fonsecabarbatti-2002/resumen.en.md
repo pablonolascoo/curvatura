@@ -1,0 +1,1 @@
+The authors obtain a new class of solutions of Einstein's equations describing wormholes, using the one-loop effective Lagrangian of quantum electrodynamics. They also show that these wormholes can be sustained only by a magnetic field. It is relevant because it seeks to hold the throat open with a nonlinear field source rather than conventional exotic matter.

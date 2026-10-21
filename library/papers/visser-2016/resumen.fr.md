@@ -1,0 +1,1 @@
+D'après son titre, ce travail porte sur des conditions d'énergie semi-classiques pour les états de vide quantiques, c'est-à-dire sur la façon de reformuler les conditions d'énergie classiques lorsque la matière est quantique. Les sources ne fournissent ni résumé ni autre détail.

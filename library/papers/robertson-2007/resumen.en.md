@@ -1,0 +1,1 @@
+Based on its title and topics, this work surveys new frontiers in space propulsion sciences. It addresses propellantless propulsion, spacetime curvature, traversable wormholes, the Alcubierre warp drive, vacuum energy and hybrid systems.

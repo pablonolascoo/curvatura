@@ -1,0 +1,1 @@
+D'après son titre, ce prépublié d'Obousy et Cleaver propose une nouvelle approche du moteur warp. Aucun résumé ni thème n'est disponible dans les sources ; méthode et résultats ne sont donc pas indiqués.

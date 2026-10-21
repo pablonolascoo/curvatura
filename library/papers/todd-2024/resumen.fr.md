@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur les horloges sonores et une relativité sonique, c'est-à-dire sur la façon dont le son jouerait le rôle de la lumière dans un analogue de la relativité. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

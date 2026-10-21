@@ -1,0 +1,1 @@
+General Relativity is contaminated with non-trivial geometries which generate closed timelike curves. These apparently violate causality, producing time-travel paradoxes. We shall briefly discuss these geometries and analyze some of their physical aspects.

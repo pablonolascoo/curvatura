@@ -1,0 +1,1 @@
+Según su título y temas, el capítulo repasa la propulsión avanzada: sistemas pulsados, de fusión, de antimateria y física de ruptura, incluida la propulsión sin propelente. Menciona la alta densidad de energía, el viaje interestelar hacia Alfa Centauri y el viaje relativista. No hay resumen disponible, así que no se afirman resultados.

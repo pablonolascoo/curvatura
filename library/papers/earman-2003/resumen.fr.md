@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur les machines à voyager dans le temps dans le cadre de la physique et de la philosophie des sciences. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

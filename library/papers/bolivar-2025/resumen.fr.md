@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie des géométries de bulle de distorsion avec des fluides anisotropes par une approche analytique par morceaux. Il utilise des espaces-temps à symétrie sphérique dans la métrique de Painlevé-Gullstrand, des profils en loi de puissance et une équation d'état, et examine les conditions d'énergie faible, nulle et dominante.

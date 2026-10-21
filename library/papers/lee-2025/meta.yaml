@@ -10,8 +10,8 @@ source: https://arxiv.org/abs/2502.11568
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

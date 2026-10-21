@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cet article juridique en espagnol traite de l'accès des consommateurs à la justice communautaire. Il aborde la protection du consommateur et le droit de la Communauté européenne, en référence à la Cour de justice et à la Cour européenne des droits de l'homme. Il n'a aucun rapport avec la physique ni la propulsion.

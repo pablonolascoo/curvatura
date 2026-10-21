@@ -11,8 +11,8 @@ source: https://arxiv.org/abs/2511.07526
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

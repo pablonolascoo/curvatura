@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns a superluminal warp drive based on the Alcubierre metric. It appears to study it in 1+1 dimensions and in cosmological spacetimes, using an apparent velocity and a thermodynamic view of spacetime.

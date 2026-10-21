@@ -1,0 +1,1 @@
+Based on its title and topics, the work combines image-based rendering techniques with general relativity, that is, visualizing how curved spacetime would look. No abstract or text is available, so its methods and results cannot be specified.

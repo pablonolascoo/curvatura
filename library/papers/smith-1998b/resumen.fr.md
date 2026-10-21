@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cet article philosophique traite des problèmes du voyage dans le temps vers le passé. Il aborde les paradoxes du voyage temporel et la philosophie du temps, en lien avec la relativité. Les sources n'incluent pas de résumé, arguments et conclusions ne sont donc pas détaillés.

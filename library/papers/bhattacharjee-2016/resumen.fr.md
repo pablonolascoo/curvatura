@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie l'effet tunnel d'une onde bloquée dans un ressaut hydraulique circulaire, une mince couche de liquide où se forme un horizon pour les ondulations de surface. Il relève de la gravité analogue et mentionne la viscosité. Les sources disponibles ne contiennent pas de résumé ; aucun résultat n'est donc indiqué.

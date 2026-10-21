@@ -1,0 +1,1 @@
+Primer capítulo de un libro sobre viaje interestelar que presenta los muchos conceptos ideados para alcanzar algún día las estrellas lejanas. Van desde grandes naves generacionales lentas hasta naves capaces de viajar más rápido que la luz. Es una introducción general a la propulsión de naves espaciales y al viaje superlumínico, sin cálculos propios en las fuentes consultadas.

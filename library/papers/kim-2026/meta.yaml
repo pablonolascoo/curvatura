@@ -13,8 +13,8 @@ source: https://arxiv.org/abs/2605.30850
 language: en
 subsystems: [E]
 kind: experimental
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

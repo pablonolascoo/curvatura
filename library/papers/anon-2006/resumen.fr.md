@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, il s'agit d'une liste de références d'un ouvrage de Springer consacré au paradoxe de Fermi, à la vie extraterrestre et à la recherche d'intelligence (SETI). Elle ne contient pas de résultats originaux.

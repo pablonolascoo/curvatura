@@ -1,0 +1,1 @@
+Según su título, este trabajo propone un enfoque basado en transformaciones para el etiquetado de argumentos. Las fuentes no aportan resumen ni temas, y por el título parece un tema de lógica o informática ajeno a la física.

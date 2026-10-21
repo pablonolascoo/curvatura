@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo estudia el bloqueo de ramas no lineales de solitones oscuros en flujos transónicos descritos por la ecuación de Gross-Pitaevskii, en condensados de Bose-Einstein. Trata ondas no lineales y dinámica de solitones, y se relaciona con sistemas análogos de gravedad.

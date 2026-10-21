@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de la propulsión más rápida que la luz basada en la relatividad general para el vuelo interestelar, es decir, de manipular el espaciotiempo para viajar. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

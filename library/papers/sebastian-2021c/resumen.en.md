@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies quantum Otto engines operating at relativistic energies. It sits between quantum thermodynamics, relativistic quantum mechanics and quantum heat engines. The sources contain only acknowledgements, not an abstract, so methods and results are not detailed.

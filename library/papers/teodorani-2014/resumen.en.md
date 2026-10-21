@@ -1,0 +1,1 @@
+Based on its title and topics, the work searches for objects with high proper motion and infrared excess, in the context of Dyson spheres, interstellar migration and SETI. The sources have no abstract or text, so methods and results cannot be stated.

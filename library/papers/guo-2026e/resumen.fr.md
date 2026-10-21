@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail analyse des trous de ver traversables soutenus par de la matière noire de type Taylor-Silk en relativité générale. Il étudie leur stabilité à l'aide de coques minces avec perturbations radiales linéarisées, et traite des fonctions de forme, des conditions d'énergie et de la matière exotique.

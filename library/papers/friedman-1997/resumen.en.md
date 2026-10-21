@@ -1,0 +1,1 @@
+Based on its title and topics, this work deals with topological censorship and chronology protection. It concerns closed timelike curves, causality violation and the topology of spacetime, with wormholes as a relevant case.

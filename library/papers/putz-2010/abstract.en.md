@@ -1,0 +1,1 @@
+We propose to "boost" the speed of communication and computation by immersing the computing environment into a medium whose index of refraction is smaller than one, thereby trespassing the speed-of-light barrier.

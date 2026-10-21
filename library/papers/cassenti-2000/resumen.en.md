@@ -1,0 +1,1 @@
+Based on its title and topics, this conference paper addresses the engineering of warp drives, that is, what would be needed to turn the Alcubierre metric into practice. It deals with relativistic propulsion and spacetime engineering, with links to Casimir-type effects.

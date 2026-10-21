@@ -1,0 +1,1 @@
+Según su título, este trabajo, de filosofía de la ciencia, discute la realizabilidad múltiple de la relatividad general en gravedad cuántica, es decir, si distintas teorías cuánticas podrían dar lugar a la misma relatividad general. Las fuentes no aportan más detalle.

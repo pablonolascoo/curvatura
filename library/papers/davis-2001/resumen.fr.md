@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail porte sur les trous de ver comme « stargates », des tunnels qui permettraient de voyager dans notre voisinage cosmique. Les sources ne donnent aucun autre détail sur la méthode ou les résultats.

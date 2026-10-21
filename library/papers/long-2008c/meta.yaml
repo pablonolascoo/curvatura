@@ -18,3 +18,5 @@ harvest: openalex
 cited_by: 5
 cites_seeds: [krasnikov-1998]
 relevance: alta
+resumen_propio: ia
+resumen_base: titulo

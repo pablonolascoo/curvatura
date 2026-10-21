@@ -1,0 +1,1 @@
+Based on its title, this work by S. P. Dawson establishes a quantum weak energy inequality for the Dirac field in two-dimensional flat spacetime. Such inequalities bound the negative energy density that quantum fields can allow, a central topic for wormholes and warp propulsion. The sources include no abstract, so the method and exact result are not detailed.

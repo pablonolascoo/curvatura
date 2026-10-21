@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/hep-ph/0612295
 language: en
 subsystems: [G]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

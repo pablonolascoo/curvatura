@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur la fusion nucléaire et l'antimatière comme voies de propulsion, ainsi que sur un moteur spatial, pour le voyage interstellaire. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

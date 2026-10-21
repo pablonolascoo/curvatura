@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le chapitre se demande si une civilisation à l'échelle du système solaire est un préalable nécessaire pour voyager vers d'autres étoiles. Il traite du voyage interstellaire, d'une civilisation spatiale et de la colonisation de l'espace. Aucun résumé n'est disponible, on n'affirme donc aucune conclusion.

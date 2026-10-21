@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo de Carlip trata sobre la termodinámica de los agujeros negros, un campo que relaciona horizontes, entropía y temperatura con la gravedad y la teoría cuántica. Las fuentes no incluyen resumen ni texto, así que no se pueden indicar métodos ni resultados.

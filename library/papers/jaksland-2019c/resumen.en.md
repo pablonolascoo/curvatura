@@ -1,0 +1,1 @@
+Based on its title and topics, this philosophy of physics work discusses the multiple realizability of general relativity in quantum gravity. It relates to functionalism, induced gravity, thermodynamic gravity, the Einstein equations and string theory.

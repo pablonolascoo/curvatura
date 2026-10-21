@@ -1,0 +1,1 @@
+Based on its title, the work is about experimental quantum cosmology in time-dependent optical media, that is, simulating quantum cosmological phenomena with light in materials whose properties change. The sources include no abstract or text, so methods and results cannot be stated.

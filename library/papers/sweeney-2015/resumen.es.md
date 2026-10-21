@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de cómo la gravedad podría servir para alcanzar velocidades warp, es decir, de un posible vínculo entre la gravedad y los motores de curvatura. Se publicó como preprint en viXra. No hay resumen disponible, así que no se afirman resultados.

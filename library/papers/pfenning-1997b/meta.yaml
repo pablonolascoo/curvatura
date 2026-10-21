@@ -19,3 +19,5 @@ harvest: openalex
 cited_by: 97
 cites_seeds: [alcubierre-1994, everett-roman-1997, ford-roman-1996]
 relevance: alta
+resumen_propio: ia
+resumen_base: resumen

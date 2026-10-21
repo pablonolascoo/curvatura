@@ -1,0 +1,1 @@
+Según su título, este preprint trata de una misión interestelar y de afinar la resonancia de inercia asociada al campo de punto cero. Se enmarca en la hipótesis de que la inercia surge de la interacción con el campo del vacío, con posibles usos en propulsión. Las fuentes no incluyen resumen, por lo que no se pueden detallar métodos ni resultados.

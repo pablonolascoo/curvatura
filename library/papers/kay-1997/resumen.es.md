@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia la teoría cuántica de campos en espaciotiempos con un horizonte de Cauchy generado de forma compacta, es decir, con curvas temporales cerradas que aparecen en una región acotada. No hay resumen disponible, así que no se afirman resultados. Se sitúa en el debate sobre la protección de la cronología.

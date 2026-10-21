@@ -12,8 +12,8 @@ source: https://arxiv.org/abs/2603.28231
 language: en
 subsystems: [S, V]
 kind: experimental
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

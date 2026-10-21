@@ -1,0 +1,1 @@
+Based on its title, the work is about quantum Otto engines operating at relativistic energies, that is, quantum thermodynamic cycles in the relativistic regime. No abstract is available, so no method or results are stated.

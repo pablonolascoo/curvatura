@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone un modelo cuántico análogo para una partícula escalar que interactúa con un agujero negro de Kerr-de Sitter. Menciona soluciones exactas de las ecuaciones de Schrödinger y de Klein-Gordon, un esferoide oblato, análogos de agujeros negros y agujeros de gusano. No se dispone de más detalle sobre sus resultados.

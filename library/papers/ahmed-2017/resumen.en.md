@@ -1,0 +1,1 @@
+Based on its title and topics, this work presents a stationary, cylindrically symmetric spacetime that admits closed timelike curves, an exact solution of Einstein's equations. It also appears to discuss the physical interpretation of the solution, likely through geodesics and geodesic deviation.

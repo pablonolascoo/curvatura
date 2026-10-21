@@ -1,0 +1,1 @@
+Based on its title, this work is about semiclassical energy conditions for quantum vacuum states, that is, how to reformulate the classical energy conditions when matter is quantum. The sources provide no abstract or further detail.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de la transmisión de ondas escalares de baja energía a través de un agujero de gusano transitable. Se limita a describir ese problema, sin que las fuentes permitan precisar método ni resultados.

@@ -1,0 +1,1 @@
+Based on its title, the work deals with the attraction between two perfectly conducting plates. The sources consulted contain no abstract, so method and results are not detailed. It is the classic reference for the Casimir effect, relevant to vacuum energy and negative energy.

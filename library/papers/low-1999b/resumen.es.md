@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de los límites de velocidad en la relatividad general, es decir, de en qué condiciones la velocidad de objetos o señales puede o no superar la de la luz en espacio-tiempos curvos. No se dispone de resumen ni texto, por lo que no se pueden precisar sus resultados.

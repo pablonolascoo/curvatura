@@ -1,0 +1,1 @@
+Based on its title and topics, this work is about optical black hole lasers, that is, optical systems that mimic a black hole horizon and can amplify light between two horizons. The sources give no further detail on method or results.

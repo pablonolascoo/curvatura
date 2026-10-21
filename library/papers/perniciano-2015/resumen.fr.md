@@ -1,0 +1,1 @@
+D'après son titre, le travail se demande s'il est possible de rendre positives toutes les composantes du tenseur énergie-impulsion dans la propulsion d'Alcubierre. Il aborde ainsi le problème de l'énergie négative de cette métrique de distorsion.

@@ -1,0 +1,1 @@
+This is a status report about the ongoing work on the realization of quantum field theory on curved graphene spacetimes that uses Weyl symmetry. The programme is actively pursued from many different perspectives. Here we point to what has been done, and to what needs to be done.

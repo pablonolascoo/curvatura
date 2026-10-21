@@ -1,0 +1,1 @@
+This article from a Chinese computing magazine talks about using the internet as if it were a wormhole into the past. It describes being able to open old versions of websites, from one or two years ago or earlier, as though travelling in time. It is a piece about web archives and has no connection to wormhole physics.

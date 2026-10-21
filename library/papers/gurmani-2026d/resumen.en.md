@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies geometric constraints on traversable wormholes supported by dark matter in extended teleparallel f(T) gravity. The keywords point to anisotropic materials, the Navarro-Frenk-White profile, energy conditions, hydrostatic equilibrium, compactness and surface redshift. The sources have no abstract or text, so no results are claimed.

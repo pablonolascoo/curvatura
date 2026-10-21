@@ -1,0 +1,1 @@
+The work deals with ontology matching, that is, aligning different ontologies that express similar concepts in order to integrate data, answer queries or translate data, and applies it to PropBank and DBpedia in the semantic web setting. It is a topic in computer science and knowledge representation, with no connection to physics or propulsion.

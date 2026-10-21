@@ -1,0 +1,1 @@
+Según su título, este trabajo recoge unas lecciones sobre teoría cuántica de campos en espaciotiempo curvo. Trata el marco en que los campos cuánticos se describen sobre un fondo gravitatorio clásico, base de temas como la energía negativa y la radiación de Hawking. Las fuentes no incluyen resumen ni palabras clave, así que no se detallan contenidos concretos.

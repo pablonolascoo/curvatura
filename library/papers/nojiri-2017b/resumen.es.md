@@ -1,0 +1,1 @@
+Según su título, este trabajo es un repaso breve de las teorías de gravedad modificada y de lo que aportan a la inflación, al rebote cosmológico y a la evolución tardía del universo. Las fuentes no aportan resumen.

@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/math-ph/0412027
 language: en
 subsystems: [C, Q]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

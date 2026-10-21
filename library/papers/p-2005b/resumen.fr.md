@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur une inégalité d'énergie faible quantique pour le champ de Dirac dans un espace-temps plat à deux dimensions. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

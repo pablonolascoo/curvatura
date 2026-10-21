@@ -1,0 +1,1 @@
+This is a very brief note that raises several questions about higher-order accelerations, that is, derivatives of acceleration, in kinematics and relativity. The sources give no further detail, so no methods or results can be stated.

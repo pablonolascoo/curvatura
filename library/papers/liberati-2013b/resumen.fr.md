@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail traite des gravités de surface des horizons non de Killing. Il concerne la manière de définir cette grandeur lorsque l'horizon n'a pas de symétrie de Killing.

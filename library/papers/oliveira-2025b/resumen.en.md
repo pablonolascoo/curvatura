@@ -1,0 +1,1 @@
+Based on its title and topics, this work maps the Schwarzschild, de Sitter and anti-de Sitter spacetimes into flat-space systems described with Kratzer potentials. It deals with event and cosmological horizons and with quantum mechanics in curved spacetime.

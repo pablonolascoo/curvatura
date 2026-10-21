@@ -1,0 +1,1 @@
+Based on its title and topics, this Chinese-language article popularizes the Casimir effect, a force that arises "from nothing" out of the vacuum. It deals with vacuum fluctuations, virtual particles and the electromagnetic force between nearby surfaces. The sources provide no further details of its content.

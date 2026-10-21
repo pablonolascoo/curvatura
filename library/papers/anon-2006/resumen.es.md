@@ -1,0 +1,1 @@
+Según su título y temas, se trata de una lista de referencias de una obra publicada por Springer sobre la paradoja de Fermi, la vida extraterrestre y la búsqueda de inteligencia (SETI). No aporta por sí misma resultados propios.

@@ -1,0 +1,1 @@
+The author presents a solution of general relativity describing an Alcubierre propulsion system able to travel at superluminal speed while reducing the required energy by an arbitrary amount. The available sources do not detail the method or give numbers. It is relevant because the large energy requirement is one of the main obstacles for warp drives.

@@ -1,0 +1,1 @@
+Según su título y temas, este artículo filosófico trata de los problemas del viaje en el tiempo hacia atrás. Aborda las paradojas del viaje temporal y la filosofía del tiempo, con relación con la relatividad. Las fuentes no incluyen resumen, así que no se detallan argumentos ni conclusiones.

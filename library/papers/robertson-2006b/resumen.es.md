@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia el material exótico como resultado de interacciones entre campos escalares. No se dispone de resumen ni texto, por lo que no se pueden precisar su método ni sus conclusiones.

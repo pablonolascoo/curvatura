@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies quantum field theory on spacetimes with a compactly generated Cauchy horizon, that is, with closed timelike curves arising in a bounded region. No abstract is available, so no results are claimed. It sits in the chronology protection debate.

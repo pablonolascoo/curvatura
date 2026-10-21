@@ -1,0 +1,1 @@
+Based on its title and topics, this is a manifesto signed by several scientists on the responsibility of science and the evolution of planet Earth, calling for action for world peace and harmony. The sources have no abstract or text, and it is not about physics or propulsion.

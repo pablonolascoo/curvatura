@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo sostiene que el motor de curvatura de Alcubierre no es físicamente realizable. Se limita a describir ese tema, sin que las fuentes disponibles permitan precisar método ni resultados concretos.

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur des inégalités quantiques d'énergie absolues, c'est-à-dire des bornes sur la densité d'énergie négative en théorie quantique des champs. Aucun résumé n'est disponible, on n'affirme donc aucun résultat.

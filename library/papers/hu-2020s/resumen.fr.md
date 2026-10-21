@@ -1,0 +1,1 @@
+D'après son titre et ses auteurs, c'est la préface du livre Semiclassical and Stochastic Gravity de Hu et Verdaguer. Les sources n'offrent ni résumé ni texte, on ne peut donc pas décrire son contenu au-delà de la présentation de l'ouvrage.

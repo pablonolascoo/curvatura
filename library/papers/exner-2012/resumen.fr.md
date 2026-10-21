@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail traite de l'alignement d'ontologies entre PropBank et DBpedia, un problème d'informatique et de web sémantique. Il n'a aucun rapport avec la physique ni avec la propulsion.

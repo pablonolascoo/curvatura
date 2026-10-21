@@ -1,0 +1,1 @@
+Based on its title and topics, this work is about negative energy densities in quantum field theory, tied to the energy-momentum tensor, vacuum energy and the Casimir effect. It is a central topic for the possibility of exotic matter.

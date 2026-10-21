@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de la inducción artificial de una burbuja warp local mediante un propulsor llamado VEM. Lo único disponible es el índice, que menciona experimentos, corrimiento al rojo, un experimento de Cavendish modificado, curvatura de campo magnético, mediciones de radiación y contabilidad de errores. No hay resumen, así que no se afirman resultados.

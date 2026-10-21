@@ -1,0 +1,1 @@
+Based on its title, the work asks whether all components of the energy-impulse tensor can be made positive in the Alcubierre warp drive, that is, whether negative energy can be avoided. No abstract or text is available, so its answer cannot be specified.

@@ -1,0 +1,1 @@
+Según su título, el trabajo trata del escape de un solitón vectorial de onda de materia desde una trampa parabólica. No hay resumen ni temas disponibles, así que no se pueden indicar el método ni los resultados. Parece un estudio de física de condensados atómicos y ondas no lineales.

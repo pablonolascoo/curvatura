@@ -1,0 +1,1 @@
+Este artículo de teoría social continúa una discusión iniciada en un trabajo anterior sobre perspectivas macrosociales anidadas. Aquí explora perspectivas macro que van más allá del nivel del sistema mundial actual y qué ideas podrían aportar sobre el futuro de la humanidad. No trata física ni propulsión.

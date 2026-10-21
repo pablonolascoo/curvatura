@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns black and white holes at material junctions, that is, horizon analogues in condensed-matter systems. The sources do not allow stating its method or results.

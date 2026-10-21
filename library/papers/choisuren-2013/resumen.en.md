@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes a new model of gravity based on an aether sink, within alternative or modified gravity theories. The sources give only keywords, with no abstract or text, so methods and results cannot be described.

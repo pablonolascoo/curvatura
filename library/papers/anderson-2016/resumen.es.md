@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia las trayectorias de los rayos de luz en el espaciotiempo de Alcubierre, el modelo teórico de propulsión por distorsión del espacio. Trata por tanto de cómo se propaga la luz dentro y alrededor de la burbuja de curvatura.

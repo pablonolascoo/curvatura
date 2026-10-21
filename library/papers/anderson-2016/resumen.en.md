@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies the trajectories of light rays in the Alcubierre spacetime, the theoretical warp drive model. It therefore deals with how light propagates inside and around the warp bubble.

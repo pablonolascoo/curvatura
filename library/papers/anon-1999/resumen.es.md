@@ -1,0 +1,1 @@
+Según su título y temas, se trata de una obra titulada «Future Systems», publicada por el AIAA en 1999, que trata de sistemas aeroespaciales del futuro y de ingeniería de sistemas. No hay resumen disponible, así que no se pueden indicar métodos ni resultados.

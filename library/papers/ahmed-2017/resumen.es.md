@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo presenta un espaciotiempo estacionario con simetría cilíndrica que admite curvas temporales cerradas, un tipo de solución exacta de las ecuaciones de Einstein. Parece analizar además su interpretación física, probablemente mediante geodésicas y su desviación.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies how an effective Lorentzian metric can emerge from a vortex defect. It belongs to the line of emergent spacetime and gravity, where topological defects of a medium give rise to an effective geometry.

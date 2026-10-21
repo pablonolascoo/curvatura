@@ -14,8 +14,8 @@ source: https://arxiv.org/abs/2303.16418
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

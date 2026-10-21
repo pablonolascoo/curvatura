@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail fait le point sur l'état de l'ingénierie de la métrique et ses implications pour le moteur à distorsion, dans le cadre de la recherche en propulsion. Les sources ne fournissent ni résumé ni résultats.

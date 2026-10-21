@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur les limites de vitesse en relativité générale, c'est-à-dire sur les conditions dans lesquelles la vitesse d'objets ou de signaux peut ou non dépasser celle de la lumière dans des espaces-temps courbes. Ni résumé ni texte ne sont disponibles, de sorte que ses résultats ne peuvent être précisés.

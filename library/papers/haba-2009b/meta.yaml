@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/0908.1042
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

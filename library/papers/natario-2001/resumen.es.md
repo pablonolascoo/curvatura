@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de un motor warp con expansión nula, es decir, una variante de la geometría de Alcubierre en la que el volumen del espacio no se contrae ni se expande. No se dispone de resumen ni texto, por lo que no se pueden precisar sus resultados.

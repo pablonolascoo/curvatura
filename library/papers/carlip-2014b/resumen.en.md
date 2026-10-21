@@ -1,0 +1,1 @@
+Based on its title, this work by Carlip is about black hole thermodynamics, a field that relates horizons, entropy and temperature to gravity and quantum theory. The sources include no abstract or text, so methods and results cannot be stated.

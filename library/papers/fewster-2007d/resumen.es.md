@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de desigualdades cuánticas de energía absolutas, es decir, cotas a la densidad de energía negativa en teoría cuántica de campos. No hay resumen disponible, así que no se afirman resultados.

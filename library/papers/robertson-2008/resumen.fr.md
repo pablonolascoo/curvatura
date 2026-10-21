@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie la propulsion dans le modèle caméléon, une théorie de gravité scalaire-tensorielle et modifiée avec une possible cinquième force et un lien avec l'énergie sombre. L'information disponible est seulement bibliographique, on n'indique donc ni méthode ni résultats.

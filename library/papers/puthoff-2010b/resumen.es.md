@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de propulsión espacial avanzada basada en la ingeniería del vacío, es decir, de la métrica del espaciotiempo. Se publicó en el Journal of the British Interplanetary Society. Las fuentes no incluyen resumen, así que no se indican método ni resultados.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo presenta ideas «fuera de lo convencional» sobre tecnologías de transporte espacial y terrestre y de energía para el siglo XXI. Se presentó en un congreso de ciencias aeroespaciales de la AIAA. No hay resumen en las fuentes, así que no se indican método ni resultados.

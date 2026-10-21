@@ -1,0 +1,1 @@
+In this article, we propose metamaterials analog brane models based on the geometric optics approach. We show how to model the Randall-Sundrum thin brane model and the Gremm model for a thick brane. We incorporate the Yukawa-like confinement mechanics for thick branes in the analog system and show an asymmetrical analog brane model with and without the confinement mechanisms.

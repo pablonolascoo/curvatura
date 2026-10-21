@@ -17,3 +17,5 @@ harvest: openalex
 cited_by: 9
 cites_seeds: [ford-roman-1996]
 relevance: media
+resumen_propio: ia
+resumen_base: titulo

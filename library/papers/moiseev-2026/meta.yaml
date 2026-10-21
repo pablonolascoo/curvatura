@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2604.01752
 language: en
 subsystems: [G, E, D]
 kind: numerico
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

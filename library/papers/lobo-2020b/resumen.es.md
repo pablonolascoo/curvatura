@@ -1,0 +1,1 @@
+Se trata de una nota muy breve que plantea varias preguntas sobre las aceleraciones de orden superior, es decir, las derivadas de la aceleración, en cinemática y relatividad. Las fuentes no ofrecen más detalle, así que no se pueden indicar métodos ni resultados.

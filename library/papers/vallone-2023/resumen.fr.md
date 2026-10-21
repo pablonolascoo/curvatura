@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur les modes de Higgs et de Goldstone dans les solides cristallins, liés aux phonons optiques et acoustiques et à la brisure spontanée de symétrie. C'est un sujet de matière condensée, et les sources ne permettent pas d'en préciser la méthode ni les résultats.

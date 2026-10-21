@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail transpose les espaces-temps de Schwarzschild, de Sitter et anti-de Sitter en systèmes d'espace plat décrits par des potentiels de Kratzer. Il traite des horizons des événements et cosmologiques et de la mécanique quantique en espace-temps courbe.

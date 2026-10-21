@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cette communication sur la propulsion passe en revue les moteurs à distorsion, les trous de ver, l'antigravité et le voyage dans le temps du point de vue de la relativité générale, la manipulation de l'espace-temps en étant le fil conducteur.

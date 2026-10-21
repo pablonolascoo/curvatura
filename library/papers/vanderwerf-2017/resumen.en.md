@@ -1,0 +1,1 @@
+This is a Springer book chapter on light in free space and in the cosmos. The available excerpt recalls that in special relativity Einstein stated that the cosmic speed of light in vacuum is constant and absolute. Its topics include light propagation and the expansion of space. The sources give no further detail on content or results.

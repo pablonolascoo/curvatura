@@ -1,0 +1,1 @@
+D'après son titre, ce travail de philosophie des sciences discute la réalisabilité multiple de la relativité générale en gravité quantique, c'est-à-dire si différentes théories quantiques pourraient donner naissance à la même relativité générale. Les sources ne donnent aucun autre détail.

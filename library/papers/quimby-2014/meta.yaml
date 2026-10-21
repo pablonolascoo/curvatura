@@ -20,7 +20,7 @@ source: https://arxiv.org/abs/1404.6014
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2510.08115
 language: en
 subsystems: [E]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

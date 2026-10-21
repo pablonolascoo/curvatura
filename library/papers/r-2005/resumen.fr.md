@@ -1,0 +1,1 @@
+D'après son titre, ce travail étudie l'effet Casimir dans un espace-temps de trou de ver, c'est-à-dire l'énergie du vide qui apparaît entre des plaques dans cette géométrie. Les sources ne fournissent ni résumé ni autre détail.

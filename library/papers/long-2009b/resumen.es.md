@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de la fusión nuclear y la antimateria como vías de propulsión y de un impulsor espacial para el viaje interestelar. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

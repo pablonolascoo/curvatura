@@ -19,3 +19,5 @@ harvest: openalex
 cited_by: 5
 cites_seeds: [alcubierre-1994]
 relevance: media
+resumen_propio: ia
+resumen_base: resumen

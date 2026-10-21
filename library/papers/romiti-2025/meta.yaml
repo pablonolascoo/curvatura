@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2508.05724
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

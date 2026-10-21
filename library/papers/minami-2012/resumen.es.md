@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de sistemas de propulsión por campo para viajes espaciales. Sus temas incluyen la generación de empuje, la estructura del espaciotiempo, la relatividad general, la teoría cuántica de campos y la estructura del vacío. Las fuentes no incluyen resumen, así que no se indican resultados.

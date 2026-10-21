@@ -1,0 +1,1 @@
+Based on its title, this is a doctoral thesis on supertubes, black strings and D-brane systems, objects from string theory. No abstract or text is available, so its methods and results cannot be specified.

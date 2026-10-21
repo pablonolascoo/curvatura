@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cet article en chinois vulgarise l'effet Casimir, une force qui surgit « de rien » à partir du vide. Il traite des fluctuations du vide, des particules virtuelles et de la force électromagnétique entre surfaces proches. Les sources ne donnent pas d'autres détails sur son contenu.

@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo ofrece un repaso resumido de las teorías de gravedad modificada. Cubre la inflación, los modelos de rebote y la evolución tardía del universo, con gravedades f(R), f(T) y escalar-tensorial y energía oscura.

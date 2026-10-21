@@ -1,0 +1,1 @@
+Based on its title and topics, this work proposes hydrodynamic models of astrophysical wormholes and sets out their general concept. It seems to look for analogies between fluid behaviour and the geometry of these hypothetical spacetime tunnels. No abstract is available, so its method and results cannot be specified.

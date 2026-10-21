@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with a warp drive with zero expansion, that is, a variant of the Alcubierre geometry in which the volume of space neither contracts nor expands. No abstract or text is available, so its results cannot be specified.

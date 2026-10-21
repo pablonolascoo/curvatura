@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns sound clocks and sonic relativity, that is, how sound would play the role of light in an analogue of relativity. The sources do not allow stating its method or results.

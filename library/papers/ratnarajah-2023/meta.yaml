@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2312.00834
 language: en
 subsystems: [G, V]
 kind: analogo
-license: unknown
+license: CC0-1.0
 fulltext: false
 translations: [es, fr]
 verified: true

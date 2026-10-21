@@ -17,4 +17,7 @@ verified: false
 harvest: openalex
 cited_by: 11
 cites_seeds: [krasnikov-1998, vandenbroeck-1999]
-relevance: media
+relevance: baja
+resumen_propio: ia
+resumen_base: titulo
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cette thèse traite de la visualisation d'espaces-temps à quatre dimensions, avec des diagrammes d'espace-temps et des techniques d'infographie appliquées à la relativité et à la relativité générale. Les sources n'ont ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

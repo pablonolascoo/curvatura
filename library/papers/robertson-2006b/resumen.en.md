@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies exotic material as arising from interactions between scalar fields. No abstract or text is available, so its method and conclusions cannot be specified.

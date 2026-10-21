@@ -1,0 +1,1 @@
+Based on its title and topics, this philosophical article deals with the problems of backward time travel. It addresses time travel paradoxes and the philosophy of time, in connection with relativity. The sources include no abstract, so arguments and conclusions are not detailed.

@@ -1,0 +1,1 @@
+We use quantum energy teleportation in the light-matter interaction as an operational means to create quantum field states that violate energy conditions and have negative local stress-energy densities. We show that the protocol is optimal in the sense that it scales in a way that saturates the quantum interest conjecture.

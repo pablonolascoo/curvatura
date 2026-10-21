@@ -1,0 +1,1 @@
+D'après son titre, ce travail propose une approche fondée sur des transformations pour l'étiquetage d'arguments. Les sources ne fournissent ni résumé ni thèmes, et d'après le titre il semble s'agir d'un sujet de logique ou d'informatique étranger à la physique.

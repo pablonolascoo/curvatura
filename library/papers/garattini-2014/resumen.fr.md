@@ -1,0 +1,1 @@
+D'après son titre, le travail traite du voyage interstellaire et des trous de ver traversables, c'est-à-dire de la possibilité que ces géométries servent de raccourcis dans l'espace-temps. Les sources ne contiennent ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

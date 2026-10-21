@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail concerne une propulsion à distorsion superluminique fondée sur la métrique d'Alcubierre. Il semble l'étudier en 1+1 dimensions et dans des espaces-temps cosmologiques, avec une vitesse apparente et un point de vue thermodynamique de l'espace-temps.

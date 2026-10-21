@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with two dimensional vector solitons in mixtures of Bose-Einstein condensates. Its topics include the Gross-Pitaevskii equation, the Kadomtsev-Petviashvili equation, dark-dark solitons, their stability, vortex nucleation and inelastic collisions. The sources include no abstract, so no results are stated.

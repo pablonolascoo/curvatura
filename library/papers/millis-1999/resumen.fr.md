@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail décrit le programme de physique de la propulsion révolutionnaire de la NASA, qui explorait la propulsion sans ergols, les moteurs à distorsion, les trous de ver et le transport spatial. Les sources ne donnent pas de détails sur les résultats.

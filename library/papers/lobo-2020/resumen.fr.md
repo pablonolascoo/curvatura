@@ -1,0 +1,1 @@
+Ce préprint, rédigé en portugais, soutient que la courbure de l'espace-temps pourrait être un mécanisme semblable à l'expansion de l'univers. Il avance l'idée d'une élasticité de l'espace-temps reliant la géométrie locale à l'expansion cosmique. La source ne fournit qu'une phrase de résumé, de sorte que la méthode et les résultats précis sont inconnus.

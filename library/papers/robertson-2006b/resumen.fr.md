@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie le matériau exotique comme résultant d'interactions entre champs scalaires. Ni résumé ni texte ne sont disponibles, de sorte que sa méthode et ses conclusions ne peuvent être précisées.

@@ -1,0 +1,1 @@
+Based on its title and topics, the chapter "Prerequisites for Space Drive Science", published by the AIAA in 2009, deals with the prerequisites for a science of novel space drives and spacecraft propulsion. No abstract is available, so no methods or results are claimed.

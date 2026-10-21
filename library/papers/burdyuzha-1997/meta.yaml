@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/hep-ph/9707460
 language: en
 subsystems: [E, Q]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia el efecto túnel de una onda bloqueada en un resalto hidráulico circular, una fina capa de líquido donde se forma un horizonte para las ondulaciones de la superficie. Se enmarca en la gravedad análoga y menciona la viscosidad. Las fuentes disponibles no incluyen resumen, así que no se indican resultados.

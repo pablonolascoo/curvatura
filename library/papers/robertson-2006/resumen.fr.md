@@ -1,0 +1,1 @@
+D'après son titre, le travail considère la matière exotique comme le résultat d'interactions entre champs scalaires. C'est une approche de l'origine de la matière exotique dont ont besoin les trous de ver et les bulles de distorsion.

@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo de filosofía de la física discute la realizabilidad múltiple de la relatividad general en la gravedad cuántica. Se relaciona con el funcionalismo, la gravedad inducida, la gravedad termodinámica, las ecuaciones de Einstein y la teoría de cuerdas.

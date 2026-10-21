@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns a minimally constrained canonical quantization of geometrodynamics, a topic in quantum gravity. The sources do not allow stating its method or results.

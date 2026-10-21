@@ -1,0 +1,1 @@
+Based on its title and topics, this work establishes a quantum weak energy inequality for Dirac fields in curved spacetime, that is, a lower bound on the energy density a quantum fermionic field can reach. It is relevant to the limits on negative energy.

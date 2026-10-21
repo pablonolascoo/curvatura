@@ -21,5 +21,8 @@ verified: false
 harvest: openalex
 cited_by: 1
 cites_seeds: [everett-roman-1997]
-relevance: media
+relevance: baja
 countries: [US]
+resumen_propio: ia
+resumen_base: resumen
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

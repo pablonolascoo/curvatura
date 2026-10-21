@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone un nuevo modelo de gravedad basado en un sumidero de éter, dentro de las teorías de gravedad alternativas o modificadas. Las fuentes solo dan palabras clave, sin resumen ni texto, de modo que no se pueden describir métodos ni resultados.

@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes a wormhole model with an exponential shape function in the framework of Finsler geometry. The keywords indicate that it analyses energy conditions, the equation of state parameter, hydrostatic forces and exact solutions. The sources have no abstract, so no results are claimed.

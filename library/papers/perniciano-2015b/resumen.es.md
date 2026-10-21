@@ -1,0 +1,1 @@
+Según su título, el trabajo se pregunta si es posible hacer positivas todas las componentes del tensor de energía-impulso en el motor warp de Alcubierre, es decir, evitar la energía negativa. No se dispone de resumen ni texto, por lo que no se puede precisar su respuesta.

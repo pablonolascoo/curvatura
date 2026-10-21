@@ -1,0 +1,1 @@
+Based on its title and topics, this is a reference list from a Springer publication on the Fermi paradox, extraterrestrial life and the search for intelligence (SETI). It contains no original results of its own.

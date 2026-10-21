@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone una unificación de gravedad y electromagnetismo mediante un campo geométrico de «cronón». Sus temas incluyen campos escalares, geodésicas, curvatura escalar y el universo de De Sitter. La única descripción disponible es «audiencia internacional», así que no se indican método ni resultados.

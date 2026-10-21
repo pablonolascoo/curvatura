@@ -1,0 +1,1 @@
+Según su título, este trabajo estudia el efecto Casimir en un espacio-tiempo de agujero de gusano, es decir, la energía del vacío que aparece entre placas en esa geometría. Las fuentes no aportan resumen ni más detalle.

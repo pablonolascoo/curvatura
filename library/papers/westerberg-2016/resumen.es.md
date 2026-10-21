@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de cosmología cuántica experimental en medios ópticos que dependen del tiempo, es decir, de simular fenómenos cosmológicos cuánticos con luz en materiales cuyas propiedades cambian. Las fuentes no incluyen resumen ni texto, así que no se pueden indicar métodos ni resultados.

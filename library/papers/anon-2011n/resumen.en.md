@@ -1,0 +1,1 @@
+Based on its title and topics, the text, in Chinese, discusses the stir caused by the 2011 report of neutrinos apparently faster than light, and asks whether it meant time travel, a catastrophe or a technological breakthrough. It deals with the scientific controversy around that result, with no further detail available.

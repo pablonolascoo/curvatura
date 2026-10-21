@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/math-ph/0611058
 language: en
 subsystems: [C, Q]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

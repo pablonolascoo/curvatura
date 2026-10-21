@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo hace un balance del estado del motor warp, con la métrica de Alcubierre, la curvatura del espaciotiempo y el viaje más rápido que la luz. Las fuentes no incluyen resumen ni texto, así que no se pueden indicar métodos ni conclusiones.

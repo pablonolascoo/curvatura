@@ -19,3 +19,5 @@ harvest: openalex
 cited_by: 6
 cites_seeds: [alcubierre-1994, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
 relevance: media
+resumen_propio: ia
+resumen_base: titulo

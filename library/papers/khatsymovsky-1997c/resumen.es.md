@@ -1,0 +1,1 @@
+Según su título, el trabajo se pregunta si el vacío de neutrinos puede sostener un agujero de gusano, es decir, si la energía del vacío de ese campo podría hacer de materia exótica. No hay resumen disponible, así que no se afirman método ni resultados.

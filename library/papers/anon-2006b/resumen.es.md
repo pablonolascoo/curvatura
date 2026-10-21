@@ -1,0 +1,1 @@
+Según su título, se trata de un texto publicado en un libro de Springer con el nombre «Exotic possibilities» (posibilidades exóticas). No hay resumen ni autores disponibles, así que solo cabe decir que parece tratar ideas poco convencionales relacionadas con el área de la biblioteca.

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, il s'agit d'un ouvrage général sur les systèmes de propulsion, dans le cadre de la recherche sur les fusées et la propulsion et de la conception aérospatiale. Ni résumé ni texte ne sont disponibles, on ne peut donc pas préciser méthodes ni résultats.

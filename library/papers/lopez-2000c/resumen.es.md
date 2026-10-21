@@ -1,0 +1,1 @@
+Según su título y temas, este artículo jurídico en español trata del acceso de los consumidores a la justicia comunitaria. Aborda la protección del consumidor y el derecho de la Comunidad Europea, con referencia al Tribunal de Justicia y al Tribunal Europeo de Derechos Humanos. No tiene relación con la física ni la propulsión.

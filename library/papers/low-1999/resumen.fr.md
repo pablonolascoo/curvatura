@@ -1,0 +1,1 @@
+D'après son titre, le travail traite des limites de vitesse en relativité générale, c'est-à-dire des conditions qui empêchent ou permettent de dépasser la vitesse de la lumière dans des espaces-temps courbes. Le sujet est lié aux propulsions à distorsion et aux trous de ver.

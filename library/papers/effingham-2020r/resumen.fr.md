@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce texte se centre sur le paradoxe du grand-père, un problème classique du voyage dans le temps lié aux boucles causales. Les sources indiquent qu'il résume les prémisses et l'argument d'une version précise du paradoxe discutée dans le reste du livre.

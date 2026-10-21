@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia la dinámica de paquetes de onda no adiabática, con una métrica no adiabática, geometría cuántica y una analogía gravitatoria. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

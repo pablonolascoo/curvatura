@@ -1,0 +1,1 @@
+Este capítulo, escrito en alemán, trata de la educación superior y no de física. Sitúa primero a las universidades en el contexto educativo global, marcado por la digitalización, y explica los problemas con su libertad y su responsabilidad propia. A partir de un análisis del aprendizaje en la era digital, discute las tareas de la universidad del futuro y propone cuatro misiones.

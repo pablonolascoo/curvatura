@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail présente le voyage dans le temps comme un nouveau paradigme d'hypercalcul. Il semble discuter la manière dont la possibilité de voyager vers le passé pourrait servir à résoudre des problèmes hors de portée d'un ordinateur ordinaire. Les sources ne donnent pas d'autres détails sur sa méthode ni sur ses conclusions.

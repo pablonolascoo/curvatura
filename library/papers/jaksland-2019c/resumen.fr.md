@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail de philosophie de la physique discute la réalisabilité multiple de la relativité générale en gravité quantique. Il touche au fonctionnalisme, à la gravité induite, à la gravité thermodynamique, aux équations d'Einstein et à la théorie des cordes.

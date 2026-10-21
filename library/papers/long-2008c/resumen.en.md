@@ -1,0 +1,1 @@
+Based on its title and topics, the work takes stock of the status of the warp drive, covering the Alcubierre metric, spacetime curvature and faster-than-light travel. The sources include no abstract or text, so methods and conclusions cannot be stated.

@@ -1,0 +1,1 @@
+Based on its title and topics, this text focuses on the grandfather paradox, a classic time travel problem tied to causal loops. The sources indicate that it summarizes the premises and argument of one particular version of the paradox discussed in the rest of the book.

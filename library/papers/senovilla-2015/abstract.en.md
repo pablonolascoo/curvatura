@@ -1,0 +1,1 @@
+We review the first modern singularity theorem, published by Penrose in 1965. This is the first genuine post-Einstenian result in General Relativity, where the fundamental and fruitful concept of closed trapped surface was introduced. We include historical remarks, an appraisal of the theorem's impact, and relevant current and future work that belongs to its legacy.

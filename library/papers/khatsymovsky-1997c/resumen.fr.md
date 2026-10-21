@@ -1,0 +1,1 @@
+D'après son titre, le travail se demande si le vide de neutrinos peut soutenir un trou de ver, c'est-à-dire si l'énergie du vide de ce champ pourrait jouer le rôle de matière exotique. Aucun résumé n'est disponible, on n'affirme donc ni méthode ni résultats.

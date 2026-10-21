@@ -1,0 +1,1 @@
+Este preprint, escrito en portugués, argumenta que la curvatura o doblez del espaciotiempo podría ser un mecanismo similar a la expansión del universo. Se plantea la idea de una elasticidad del espaciotiempo que vincula la geometría local con la expansión cósmica. La fuente solo ofrece una frase de resumen, así que no se conocen el método ni los resultados concretos.

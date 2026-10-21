@@ -19,7 +19,7 @@ source: https://arxiv.org/abs/2410.12779
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

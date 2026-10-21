@@ -1,0 +1,1 @@
+D'après son titre, ce travail soutient que l'état de vide de la gravité quantique contient de grandes masses virtuelles. Les sources ne fournissent ni résumé ni autre détail sur la méthode ou les résultats.

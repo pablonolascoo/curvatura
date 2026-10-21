@@ -1,0 +1,1 @@
+An economics book in German that asks what happens when an economy built on continuous growth and GDP can no longer grow. It discusses whether green growth is a way out or whether capitalism itself must be rethought, and compares the options of degrowth, green growth and no growth. It has no connection to physics or propulsion.

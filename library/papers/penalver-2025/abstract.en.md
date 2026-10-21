@@ -1,0 +1,1 @@
+In the context of Hawking-like radiation in sonic black holes formed by BECs we investigate the modifications of the emission spectrum caused by a finite width of the sonic transition region connecting the subsonic to supersonic flow.

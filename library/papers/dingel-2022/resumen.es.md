@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo propone un análogo óptico del efecto Thomas de la relatividad especial usando un interferómetro de Michelson-Gires-Tournois con resonadores de película delgada. Incluye un análisis detallado de errores y la recuperación del sentido del ángulo de rotación de Thomas.

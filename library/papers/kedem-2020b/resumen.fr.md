@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur des trous noirs et blancs aux jonctions de matériaux, c'est-à-dire des analogues d'horizons dans des systèmes de matière condensée. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

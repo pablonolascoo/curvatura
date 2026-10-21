@@ -1,0 +1,1 @@
+Based on its title and topics, the chapter asks whether a solar-system-scale civilization is a necessary precursor to travelling to other stars. It deals with interstellar travel, a spacefaring civilization and space colonization. No abstract is available, so no conclusions are claimed.

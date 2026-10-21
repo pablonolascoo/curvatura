@@ -1,0 +1,1 @@
+Según su título y temas, el texto, en chino, comenta el revuelo que causó el anuncio de neutrinos supuestamente más rápidos que la luz en 2011, y se pregunta si implicaba viajes en el tiempo, una catástrofe o un avance tecnológico. Trata la controversia científica en torno a ese resultado, sin que se disponga de más detalle.

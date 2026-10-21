@@ -16,7 +16,7 @@ source: https://arxiv.org/abs/2608.15355
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
+license: CC-BY-NC-ND-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

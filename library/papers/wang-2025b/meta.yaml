@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2504.03874
 language: en
 subsystems: [D, V]
 kind: numerico
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

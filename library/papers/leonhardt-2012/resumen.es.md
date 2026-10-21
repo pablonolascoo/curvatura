@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo presenta una teoría analítica de la radiación de Hawking en medios dispersivos. Se sitúa en la gravedad análoga y toca la paradoja de la información de los agujeros negros.

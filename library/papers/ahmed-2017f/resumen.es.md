@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo estudia un espaciotiempo de tipo N en la clasificación de Petrov, que es un espacio de Einstein y funciona como modelo de máquina del tiempo. Se ocupa de geometrías axisimétricas con curvas temporales cerradas y de congruencias de geodésicas nulas.

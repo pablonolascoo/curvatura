@@ -1,0 +1,1 @@
+Based on its title and topics, the work investigates the cosmological constant problem from the viewpoint of many-body physics, that is, using condensed matter tools applied to vacuum energy. No abstract is available, so no method or results are claimed.

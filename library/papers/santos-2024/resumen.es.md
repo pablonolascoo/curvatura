@@ -1,0 +1,1 @@
+Según su título y temas, es un libro en portugués sobre el tiempo en la física, que trata de la naturaleza del tiempo y de su filosofía. No hay resumen disponible, así que no se afirman contenidos concretos.

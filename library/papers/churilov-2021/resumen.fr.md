@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail propose des modèles hydrodynamiques de trous de ver astrophysiques et en expose le concept général. Il semble chercher des analogies entre le comportement des fluides et la géométrie de ces tunnels hypothétiques de l'espace-temps. Aucun résumé n'est disponible, de sorte que sa méthode et ses résultats ne peuvent être précisés.

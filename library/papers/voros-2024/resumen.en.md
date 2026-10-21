@@ -1,0 +1,1 @@
+This social theory paper continues a discussion begun in an earlier article on nested macro social perspectives. Here it explores macro perspectives that go beyond the level of the current world system and what insights they might offer about the future of humankind. It does not deal with physics or propulsion.

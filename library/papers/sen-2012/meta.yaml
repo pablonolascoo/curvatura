@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1207.1070
 language: en
 subsystems: [D, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

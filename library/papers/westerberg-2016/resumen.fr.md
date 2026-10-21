@@ -1,0 +1,1 @@
+D'après son titre, le travail porte sur la cosmologie quantique expérimentale dans des milieux optiques dépendant du temps, c'est-à-dire simuler des phénomènes cosmologiques quantiques avec de la lumière dans des matériaux dont les propriétés changent. Les sources ne contiennent ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

@@ -1,0 +1,1 @@
+Según su título y temas, este texto se centra en la paradoja del abuelo, un problema clásico del viaje en el tiempo ligado a los bucles causales. Las fuentes indican que resume las premisas y el argumento de una versión concreta de la paradoja que se discute en el resto del libro.

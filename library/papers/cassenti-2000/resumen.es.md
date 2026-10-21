@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo, un artículo de actas de congreso, aborda la ingeniería de las propulsiones de distorsión, es decir, qué haría falta para llevar a la práctica la métrica de Alcubierre. Trata la propulsión relativista y la ingeniería del espaciotiempo, con vínculos con los efectos tipo Casimir.

@@ -1,0 +1,1 @@
+This chapter, written in German, is about higher education rather than physics. It first places universities in the global educational context, shaped by digitalization, and explains problems with their freedom and self responsibility. Based on an analysis of learning in the digital age, it discusses the tasks of the university of the future and identifies four missions.

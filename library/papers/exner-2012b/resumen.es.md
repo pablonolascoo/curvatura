@@ -1,0 +1,1 @@
+El trabajo trata del emparejamiento de ontologías, es decir, alinear ontologías distintas que expresan conceptos parecidos para integrar datos, responder consultas o traducir datos, y lo aplica a PropBank y DBpedia en el contexto de la web semántica. Es un tema de informática y representación del conocimiento, sin relación con la física ni la propulsión.

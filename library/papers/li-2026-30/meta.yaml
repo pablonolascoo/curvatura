@@ -15,8 +15,8 @@ source: https://arxiv.org/abs/2610.17628
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: []
 verified: false
 harvest: openalex-zh

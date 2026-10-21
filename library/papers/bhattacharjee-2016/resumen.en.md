@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies the tunneling of a blocked wave in a circular hydraulic jump, a thin liquid layer where a horizon forms for surface ripples. It belongs to analogue gravity and mentions viscosity. The available sources include no abstract, so no results are stated.

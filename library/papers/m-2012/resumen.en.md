@@ -1,0 +1,1 @@
+Based on its title, this work by Smerlak studies diffusion in curved spacetimes. It deals with how diffusive processes spread when the spacetime geometry is not flat. The sources include no abstract or keywords, so methods and results cannot be stated.

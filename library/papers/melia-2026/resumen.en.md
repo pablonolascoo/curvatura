@@ -1,0 +1,1 @@
+Based on its title and topics, the work concerns the early universe: cosmic inflation, the horizon problem, quantum fluctuations and the expansion history. The sources do not allow stating its method or results.

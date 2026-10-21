@@ -1,0 +1,1 @@
+Según su título y temas, el capítulo se pregunta si una civilización a escala del sistema solar es un paso previo necesario para viajar a otras estrellas. Trata del viaje interestelar, de una civilización con capacidad espacial y de la colonización del espacio. No hay resumen disponible, así que no se afirman conclusiones.

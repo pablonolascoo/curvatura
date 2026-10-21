@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie comment les plasmas relativistes et la polarisation du vide modifient le décalage vers le rouge observé dans les pulsars et les magnétars. Il considère des champs magnétiques très intenses et leur effet sur l'indice de réfraction et sur le décalage vers le rouge d'émission.

@@ -1,0 +1,1 @@
+This is a summary paper on humankind in outer space. The first part summarizes an earlier book by one of the authors on the philosophy of space exploration, and the second focuses on international relations. The sources give no further details. It is a text on space philosophy and policy, with no direct relation to propulsion physics.

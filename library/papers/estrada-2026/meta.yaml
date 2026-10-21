@@ -11,7 +11,7 @@ language: en
 subsystems: [G, C, E, P]
 kind: numerico
 license: CC-BY-SA-4.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

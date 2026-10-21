@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce chapitre de manuel traite des équations couplées d'Einstein, Maxwell et Klein-Gordon, qui décrivent ensemble la gravité, l'électromagnétisme et un champ scalaire. Il est présenté comme un contenu optionnel, hors d'un cours d'introduction, et lié aux trous noirs.

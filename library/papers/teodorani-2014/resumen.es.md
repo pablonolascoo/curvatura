@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo busca objetos de alto movimiento propio con exceso infrarrojo, en el marco de los esferas de Dyson, la migración interestelar y SETI. No hay resumen ni texto en las fuentes, así que no se pueden indicar métodos ni resultados.

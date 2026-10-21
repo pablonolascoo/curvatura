@@ -1,0 +1,1 @@
+Based on its title and topics, this Chinese-language article presents formulas concerning mass, energy, force, superluminal motion, high-energy nuclear physics and spacetime properties. It deals with mass-energy equivalence and fundamental interactions from the author's own viewpoint. The sources give no details of its method or results.

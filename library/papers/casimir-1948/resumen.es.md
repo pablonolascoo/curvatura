@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de la atracción entre dos placas perfectamente conductoras. No hay resumen en las fuentes consultadas, por lo que no se detallan método ni resultados. Es la referencia clásica del efecto Casimir, relevante para la energía de vacío y la energía negativa.

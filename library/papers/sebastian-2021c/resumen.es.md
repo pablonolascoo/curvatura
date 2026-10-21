@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo estudia motores cuánticos de Otto que funcionan a energías relativistas. Se sitúa entre la termodinámica cuántica, la mecánica cuántica relativista y los motores térmicos cuánticos. Las fuentes solo incluyen agradecimientos, no un resumen, así que no se detallan métodos ni resultados.

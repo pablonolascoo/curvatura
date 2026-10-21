@@ -1,0 +1,1 @@
+D'après son titre, le travail concerne des théorèmes de singularité obtenus en affaiblissant les conditions d'énergie. Ce sont les conditions que l'énergie négative viole, d'où un lien avec les trous de ver et la propulsion à distorsion.

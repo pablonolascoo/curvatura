@@ -1,0 +1,1 @@
+Ouvrage d'économie en allemand qui demande ce qui se passe quand une économie bâtie sur la croissance continue et le PIB ne peut plus croître. Il discute si la croissance verte est une issue ou s'il faut repenser le capitalisme, et compare les options de décroissance, de croissance verte et de non-croissance. Il n'a aucun lien avec la physique ni la propulsion.

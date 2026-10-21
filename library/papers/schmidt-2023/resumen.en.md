@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes a quantum analogue model for a scalar particle interacting with a Kerr-de Sitter black hole. It mentions exact solutions of the Schrödinger and Klein-Gordon equations, an oblate spheroid, black hole analogues and wormholes. No further detail on its results is available.

@@ -1,0 +1,1 @@
+This paper explores the effect of an extra spatial dimension on a Morris-Thorne wormhole. After proposing a suitable model, it is shown that under certain conditions, the throat of the wormhole can be threaded with ordinary matter, while the unavoidable violation of the null energy condition can be attributed to the existence of the extra dimension.

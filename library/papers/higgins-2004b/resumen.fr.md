@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail propose une méthode fondée sur des transformations pour l'étiquetage des arguments, un sujet de linguistique computationnelle. Il ne semble avoir aucun rapport avec la physique ni la propulsion.

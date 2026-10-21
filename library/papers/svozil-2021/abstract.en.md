@@ -1,0 +1,1 @@
+In this speculative analysis, interdimensionality is introduced as the (co)existence of universes embedded into larger ones. These interdimensional universes may be isolated or intertwined, suggesting a variety of interdimensional intrinsic phenomena that can only be understood in terms of the outer, extrinsic reality.

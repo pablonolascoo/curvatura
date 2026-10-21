@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/1702.02256
 language: en
 subsystems: [D, V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

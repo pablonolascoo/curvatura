@@ -1,0 +1,1 @@
+D'après son titre, il s'agit d'une thèse de doctorat sur les supertubes, les cordes noires et les systèmes de D-branes, objets de la théorie des cordes. Ni résumé ni texte ne sont disponibles, de sorte que ses méthodes et résultats ne peuvent être précisés.

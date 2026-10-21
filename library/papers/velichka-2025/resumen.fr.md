@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose une communication plus rapide que la lumière fondée sur le codage d'information dans des photons à l'intérieur d'une bulle d'Alcubierre, avec polarisation et fréquence. Il traite de la matière exotique, de la densité d'énergie négative, de la lentille gravitationnelle, des décalages de fréquence et des paradoxes de causalité.

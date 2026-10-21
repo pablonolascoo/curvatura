@@ -1,0 +1,1 @@
+Según su título, el trabajo busca la causalidad en la correspondencia AdS/CFT, es decir, cómo se refleja la estructura causal del espaciotiempo en la teoría de campos dual. Es un tema de gravedad cuántica y holografía.

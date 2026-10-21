@@ -1,0 +1,1 @@
+Based on its title and topics, the chapter surveys advanced propulsion: pulsed, fusion and antimatter systems and breakthrough physics, including propellantless propulsion. It mentions high energy density, interstellar travel to Alpha Centauri and relativistic travel. No abstract is available, so no results are claimed.

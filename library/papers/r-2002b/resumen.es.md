@@ -1,0 +1,1 @@
+Según su título, el trabajo estudia un espaciotiempo deformado para fonones que se mueven en un fluido perfecto no relativista. Pertenece a la gravedad análoga, donde el sonido en un fluido se comporta como un campo en una métrica curva efectiva.

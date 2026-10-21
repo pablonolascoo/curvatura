@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail porte sur les lasers à trou noir optiques, c'est-à-dire des systèmes optiques qui imitent un horizon de trou noir et peuvent amplifier la lumière entre deux horizons. Les sources ne donnent aucun autre détail sur la méthode ou les résultats.

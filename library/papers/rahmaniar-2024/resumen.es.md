@@ -1,0 +1,1 @@
+Según su título y temas, es una revisión sobre el uso de aprendizaje profundo y algoritmos cuánticos para investigar la viabilidad de los agujeros de gusano, en el marco de la relatividad general. No hay resumen disponible, así que no se afirman resultados.

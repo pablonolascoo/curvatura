@@ -1,0 +1,1 @@
+Based on its title and topics, this thesis deals with the visualization of four-dimensional spacetimes, with spacetime diagrams and computer graphics techniques applied to relativity and general relativity. The sources have no abstract or text, so methods and results cannot be stated.

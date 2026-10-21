@@ -1,0 +1,1 @@
+D'après son titre, le travail établit une inégalité quantique d'énergie faible pour des champs de spin un en espace-temps courbe. Aucun résumé ni thème n'est disponible ; méthode et résultats ne sont donc pas indiqués. Ce type d'inégalité borne la quantité d'énergie négative possible, ce qui est pertinent pour les moteurs warp.

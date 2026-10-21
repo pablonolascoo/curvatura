@@ -18,3 +18,5 @@ harvest: openalex
 cited_by: 0
 cites_seeds: [alcubierre-1994, krasnikov-1998]
 relevance: media
+resumen_propio: ia
+resumen_base: titulo

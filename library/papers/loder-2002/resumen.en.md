@@ -1,0 +1,1 @@
+Based on its title, the work discusses unconventional space and terrestrial transportation and energy technologies for the 21st century. Without more information, all that can be said is that it concerns non-conventional propulsion and energy concepts.

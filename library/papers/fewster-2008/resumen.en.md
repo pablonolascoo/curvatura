@@ -1,0 +1,1 @@
+Based on its title, this work collects lectures on quantum field theory in curved spacetime. It covers the framework in which quantum fields are described on a classical gravitational background, the basis for topics such as negative energy and Hawking radiation. The sources include no abstract or keywords, so no specific contents are detailed.

@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo trata de láseres de agujero negro ópticos, es decir, sistemas ópticos que imitan un horizonte de agujero negro y pueden amplificar la luz entre dos horizontes. Las fuentes no aportan más detalle sobre método ni resultados.

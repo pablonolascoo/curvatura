@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de una desigualdad cuántica de energía débil para campos de espín uno en espaciotiempo curvo. Se limita a describir ese tema, sin que las fuentes permitan precisar método ni resultados.

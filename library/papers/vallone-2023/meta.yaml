@@ -17,5 +17,8 @@ verified: false
 harvest: openalex
 cited_by: 0
 cites_seeds: [barcelo-2011]
-relevance: media
+relevance: baja
 countries: [IT]
+resumen_propio: ia
+resumen_base: titulo
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

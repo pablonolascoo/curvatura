@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo, presentado en el foro STAIF-97, describe el programa de investigación de la NASA en física de propulsión revolucionaria. Su objetivo es explorar enfoques que superen los límites de la propulsión química, y se sitúa en el ámbito de la propulsión de naves espaciales.

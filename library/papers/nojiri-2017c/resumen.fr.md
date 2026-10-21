@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail offre un aperçu condensé des théories de gravité modifiée. Il couvre l'inflation, les modèles de rebond et l'évolution tardive de l'univers, avec les gravités f(R), f(T) et scalaire-tenseur et l'énergie noire.

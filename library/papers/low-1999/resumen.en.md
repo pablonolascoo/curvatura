@@ -1,0 +1,1 @@
+Based on its title, the work deals with speed limits in general relativity, that is, which conditions prevent or allow exceeding the speed of light in curved spacetimes. The topic is tied to warp drives and wormholes.

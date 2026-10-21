@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo traslada los espaciotiempos de Schwarzschild, de Sitter y anti-de Sitter a sistemas en espacio plano descritos con potenciales de Kratzer. Se ocupa de horizontes de sucesos y cosmológicos y de la mecánica cuántica en espaciotiempo curvo.

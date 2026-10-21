@@ -21,5 +21,8 @@ verified: false
 harvest: openalex
 cited_by: 16
 cites_seeds: [lentz-2021]
-relevance: media
+relevance: baja
 countries: [IN]
+resumen_propio: ia
+resumen_base: resumen
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

@@ -1,0 +1,1 @@
+Based on its title, the work asks whether it is possible to make all the components of the energy-momentum tensor positive in the Alcubierre warp drive. It thus addresses the negative energy problem of that warp metric.

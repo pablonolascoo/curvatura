@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo estudia geometrías de burbuja warp con fluidos anisótropos mediante un enfoque analítico por tramos. Usa espacio-tiempos esféricamente simétricos en la métrica de Painlevé-Gullstrand, perfiles de potencia y una ecuación de estado, y analiza las condiciones de energía débil, nula y dominante.

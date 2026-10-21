@@ -1,0 +1,1 @@
+Cet article de théorie sociale prolonge une discussion entamée dans un article précédent sur les perspectives macrosociales emboîtées. Il explore ici des perspectives macro dépassant le niveau du système-monde actuel et ce qu'elles pourraient révéler sur l'avenir de l'humanité. Il ne traite ni de physique ni de propulsion.

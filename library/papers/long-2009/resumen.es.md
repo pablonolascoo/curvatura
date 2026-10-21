@@ -1,0 +1,1 @@
+Según su título, este artículo del Journal of the British Interplanetary Society traza un camino hacia las estrellas con fusión, antimateria y un «space drive». Se enmarca en la propulsión interestelar, comparando opciones conocidas con conceptos más especulativos. Las fuentes no incluyen resumen, por lo que no se detallan métodos ni resultados.

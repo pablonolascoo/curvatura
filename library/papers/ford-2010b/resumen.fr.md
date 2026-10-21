@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail porte sur les densités d'énergie négatives en théorie quantique des champs, liées au tenseur énergie-impulsion, à l'énergie du vide et à l'effet Casimir. C'est un sujet central pour la possibilité de matière exotique.

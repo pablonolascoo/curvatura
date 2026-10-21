@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia viajes por la galaxia mediante el motor warp de Alcubierre, con movimiento superlumínico. Las palabras clave mencionan viaje interestelar, radiación de Hawking, Próxima Centauri y civilizaciones extraterrestres. No hay resumen ni texto en las fuentes, así que no se pueden indicar métodos ni resultados.

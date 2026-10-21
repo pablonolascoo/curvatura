@@ -1,0 +1,1 @@
+Based on its title, this NASA report deals with coupling gravity, electromagnetism and spacetime in pursuit of breakthroughs in space propulsion. It belongs to the search for forms of propulsion that do not depend on expelling mass. The sources include no abstract or keywords, so methods and results are not detailed.

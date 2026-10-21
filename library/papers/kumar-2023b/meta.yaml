@@ -14,8 +14,8 @@ source: https://arxiv.org/abs/2311.15277
 language: en
 subsystems: [E]
 kind: experimental
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

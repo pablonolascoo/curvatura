@@ -1,0 +1,1 @@
+Este artículo de una revista informática china habla de usar internet como si fuera un agujero de gusano hacia el pasado. Describe la posibilidad de abrir versiones antiguas de sitios web, de hace uno o dos años o más, como si se viajara en el tiempo. Se trata de un texto sobre archivos web, sin relación con la física de los agujeros de gusano.

@@ -1,0 +1,1 @@
+D'après son titre, ce travail est un bref tour d'horizon des théories de gravité modifiée et de leur apport à l'inflation, au rebond cosmologique et à l'évolution tardive de l'univers. Les sources ne fournissent pas de résumé.

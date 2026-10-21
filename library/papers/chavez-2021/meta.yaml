@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2110.00875
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

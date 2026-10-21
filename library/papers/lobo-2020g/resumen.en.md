@@ -1,0 +1,1 @@
+This very short note presents two limits of the light-speed limit. According to the available abstract, no further detail is given on the arguments or results. The associated topics are the relativistic speed limit and general relativity. Its relevance to faster-than-light travel depends on what those two limits are, which the sources do not clarify.

@@ -1,0 +1,1 @@
+D'après son titre, ce rapport de la NASA traite du couplage de la gravité, de l'électromagnétisme et de l'espace-temps en vue de percées en propulsion spatiale. Il s'inscrit dans la recherche de formes de propulsion qui ne dépendent pas de l'éjection de masse. Les sources n'incluent ni résumé ni mots-clés, méthodes et résultats ne sont donc pas détaillés.

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur un moteur warp à expansion nulle, c'est-à-dire une variante de la géométrie d'Alcubierre dans laquelle le volume de l'espace ne se contracte ni ne se dilate. Ni résumé ni texte ne sont disponibles, de sorte que ses résultats ne peuvent être précisés.

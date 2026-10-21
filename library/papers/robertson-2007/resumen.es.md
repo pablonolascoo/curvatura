@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo repasa nuevas fronteras de las ciencias de la propulsión espacial. Aborda la propulsión sin propelente, la curvatura del espaciotiempo, los agujeros de gusano atravesables, el motor warp de Alcubierre, la energía del vacío y los sistemas híbridos.

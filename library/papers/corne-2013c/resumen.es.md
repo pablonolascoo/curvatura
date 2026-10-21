@@ -1,0 +1,1 @@
+Según su título y temas, esta tesis trata de la cuantización canónica de la geometrodinámica, es decir, de la relatividad general formulada como dinámica de geometrías espaciales, con el menor número posible de restricciones. Se sitúa en el ámbito de la gravedad cuántica.

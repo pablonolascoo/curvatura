@@ -1,0 +1,1 @@
+D'après son titre, c'est une thèse de doctorat sur la visualisation d'espaces-temps à quatre dimensions, c'est-à-dire sur la façon de représenter graphiquement des géométries relativistes. Aucun résumé n'est disponible, on n'indique donc ni méthode ni résultats.

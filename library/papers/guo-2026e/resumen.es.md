@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo analiza agujeros de gusano atravesables sostenidos por materia oscura de tipo Taylor-Silk en relatividad general. Estudia su estabilidad mediante cáscaras finas con perturbaciones radiales linealizadas, y trata funciones de forma, condiciones de energía y materia exótica.

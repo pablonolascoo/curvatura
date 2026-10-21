@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail relie les branes à tension négative de la théorie des cordes à la deuxième loi de la thermodynamique. Les sources ne permettent pas d'en préciser la méthode ni les résultats.

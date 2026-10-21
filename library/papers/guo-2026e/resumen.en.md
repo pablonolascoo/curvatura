@@ -1,0 +1,1 @@
+Based on its title and topics, the work analyses traversable wormholes supported by Taylor-Silk dark matter in general relativity. It studies their stability using thin shells with linearized radial perturbations, and deals with shape functions, energy conditions and exotic matter.

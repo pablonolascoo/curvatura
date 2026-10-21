@@ -1,0 +1,1 @@
+Based on its title and topics, the work offers reflections on faster-than-light travel and relativistic interstellar travel in the context of spaceflight. It was presented at the 2016 AIAA/SAE/ASEE propulsion conference. No abstract is available, so no specific results are stated.

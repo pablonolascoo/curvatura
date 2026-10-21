@@ -1,0 +1,1 @@
+L'auteur présente une solution de la relativité générale décrivant un système de propulsion d'Alcubierre capable de voyager à vitesse supraluminique en réduisant l'énergie nécessaire d'une valeur arbitraire. Les sources disponibles ne détaillent ni la méthode ni les chiffres. C'est pertinent car le besoin élevé en énergie est l'un des principaux obstacles des moteurs warp.

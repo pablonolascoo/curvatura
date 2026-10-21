@@ -1,0 +1,1 @@
+Based on its title and topics, this propulsion conference paper surveys warp drives, wormholes, antigravity and time travel from the standpoint of general relativity, with spacetime manipulation as the common thread.

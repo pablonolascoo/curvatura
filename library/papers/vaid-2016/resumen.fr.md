@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail étudie le problème de la constante cosmologique du point de vue de la physique à N corps, c'est-à-dire avec des outils de la matière condensée appliqués à l'énergie du vide. Aucun résumé n'est disponible, on n'affirme donc ni méthode ni résultats.

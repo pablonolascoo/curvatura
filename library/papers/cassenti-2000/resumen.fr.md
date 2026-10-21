@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cet article de conférence aborde l'ingénierie des propulsions à distorsion, c'est-à-dire ce qu'il faudrait pour concrétiser la métrique d'Alcubierre. Il traite de la propulsion relativiste et de l'ingénierie de l'espace-temps, avec des liens avec les effets de type Casimir.

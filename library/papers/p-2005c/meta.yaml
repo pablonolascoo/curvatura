@@ -18,3 +18,5 @@ harvest: openalex
 cited_by: 6
 cites_seeds: [alcubierre-1994, everett-roman-1997, ford-roman-1996, krasnikov-1998, pfenning-ford-1997]
 relevance: media
+resumen_propio: ia
+resumen_base: resumen

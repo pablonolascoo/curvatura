@@ -1,0 +1,1 @@
+D'après son titre, le travail propose une quantification canonique de la géométrodynamique avec des contraintes minimales. Aucun résumé ni thème n'est disponible ; méthode et résultats ne sont donc pas indiqués. Il relève de la gravité quantique canonique.

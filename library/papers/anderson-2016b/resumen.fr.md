@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail porte sur les trajectoires des rayons lumineux dans l'espace-temps d'Alcubierre, c'est-à-dire sur la manière dont les rayons se propagent dans la métrique de la bulle warp. Aucun détail supplémentaire sur sa méthode ou ses résultats n'est disponible.

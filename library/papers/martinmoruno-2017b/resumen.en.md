@@ -1,0 +1,1 @@
+Based on its title and topics, the chapter reviews the classical and semiclassical energy conditions of general relativity, such as the averaged null energy condition. It deals with the energy-momentum tensor, geodesic focusing and singularity theorems. These are the conditions that negative energy must violate in wormholes and warp bubbles.

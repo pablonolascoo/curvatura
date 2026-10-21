@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies warp bubble geometries with anisotropic fluids using a piecewise analytical approach. It uses spherically symmetric spacetimes in the Painlevé-Gullstrand metric, power-law profiles and an equation of state, and examines the weak, null and dominant energy conditions.

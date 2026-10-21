@@ -18,3 +18,5 @@ harvest: openalex
 cited_by: 79
 cites_seeds: [barcelo-2011]
 relevance: media
+resumen_propio: ia
+resumen_base: resumen

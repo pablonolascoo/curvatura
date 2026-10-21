@@ -1,0 +1,1 @@
+Cet article propose une approche alternative de la propulsion superluminique, motivée par la vitesse superluminique mesurée pour des neutrinos au CERN. Selon l'auteur, elle ne souffre pas en apparence de certains problèmes du moteur d'Alcubierre standard. Les sources disponibles ne contiennent que cette description générale et ne détaillent ni le modèle ni les calculs.

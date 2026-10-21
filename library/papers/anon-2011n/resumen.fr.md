@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le texte, en chinois, commente l'émoi suscité par l'annonce en 2011 de neutrinos apparemment plus rapides que la lumière, et se demande s'il s'agissait de voyage dans le temps, de catastrophe ou d'avancée technologique. Il traite de la controverse scientifique autour de ce résultat, sans autre détail disponible.

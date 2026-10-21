@@ -1,0 +1,1 @@
+This book chapter offers a view of the future and of the exploration of our galaxy, starting with the Andromeda Galaxy (M31), the nearest neighbour of the Milky Way. It explains that both belong to the same group of galaxies bound by gravity. Judging by its topics, it is a background astronomy introduction, with no models or original propulsion results in the sources consulted.

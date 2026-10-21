@@ -1,0 +1,1 @@
+D'après son titre, le travail porte sur l'échappement d'un soliton vectoriel d'onde de matière hors d'un piège parabolique. Aucun résumé ni thème n'est disponible ; ni la méthode ni les résultats ne peuvent donc être indiqués. Il semble s'agir d'une étude de condensats atomiques et d'ondes non linéaires.

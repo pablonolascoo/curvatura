@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2502.10591
 language: en
 subsystems: [D, V]
 kind: fuente
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

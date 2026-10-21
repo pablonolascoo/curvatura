@@ -1,0 +1,1 @@
+Based on its title, the work deals with interstellar travel and traversable wormholes, that is, whether such geometries could serve as shortcuts through spacetime. The sources include no abstract or text, so methods and results cannot be stated.

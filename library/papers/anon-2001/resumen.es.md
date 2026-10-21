@@ -1,0 +1,1 @@
+Según su título y temas, se trata de una obra general sobre sistemas de propulsión, dentro de la investigación de cohetes y propulsión y del diseño aeroespacial. No hay resumen ni texto disponibles, de modo que no se pueden precisar métodos ni resultados.

@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose un nouveau modèle de gravité fondé sur un puits d'éther, dans le cadre des théories de gravité alternatives ou modifiées. Les sources ne donnent que des mots-clés, sans résumé ni texte, on ne peut donc pas décrire méthodes ni résultats.

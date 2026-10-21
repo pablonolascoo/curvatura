@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de los límites de velocidad en relatividad general, es decir, de qué condiciones impiden o permiten superar la velocidad de la luz en espaciotiempos curvos. Es un tema ligado a las propulsiones de distorsión y a los agujeros de gusano.

@@ -1,0 +1,1 @@
+Según su título y temas, esta tesis trata de la visualización de espaciotiempos de cuatro dimensiones, con diagramas de espaciotiempo y técnicas de gráficos por ordenador aplicadas a la relatividad y a la relatividad general. No hay resumen ni texto en las fuentes, así que no se pueden indicar métodos ni resultados.

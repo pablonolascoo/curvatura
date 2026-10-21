@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies the Hartman effect, the quantum tunneling time, from a geometrodynamic extension of Bohmian mechanics. It addresses the quantum potential, apparently superluminal propagation, relativistic causality and topological phases. No further detail on its results is available.

@@ -1,0 +1,1 @@
+Based on its title and topics, this work takes stock of the current state of metric engineering and its implications for the warp drive, within propulsion research. The sources provide no abstract or results.

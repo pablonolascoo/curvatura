@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo trata de las posibles señales astrofísicas de la actividad de motores warp en el entorno galáctico cercano. Se apoya en la métrica de Alcubierre y menciona tecnofirmas, ráfagas de ondas gravitacionales, interacción con el medio interestelar y civilizaciones avanzadas. No hay resumen disponible, así que no se afirman resultados.

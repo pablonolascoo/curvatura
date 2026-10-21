@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with field propulsion systems for space travel. Its topics include thrust generation, spacetime structure, general relativity, quantum field theory and vacuum structure. The sources include no abstract, so no results are stated.

@@ -1,0 +1,1 @@
+Según su título, este preprint propone una electrogravedad mediante un campo geométrico de crononio. Sugiere un vínculo entre electromagnetismo y gravedad basado en un campo asociado al tiempo. Las fuentes no incluyen resumen ni palabras clave, así que no se detallan método ni resultados.

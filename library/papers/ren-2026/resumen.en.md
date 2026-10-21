@@ -1,0 +1,1 @@
+Based on its title and topics, the work studies nonadiabatic wave-packet dynamics, with a nonadiabatic metric, quantum geometry and a gravitational analogy. The sources do not allow stating its method or results.

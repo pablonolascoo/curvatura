@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes faster-than-light communication by coding information in photons inside an Alcubierre bubble, using polarisation and frequency. It deals with exotic matter, negative energy density, gravitational lensing, frequency shifts and causality paradoxes.

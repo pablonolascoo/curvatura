@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail présente des solutions de trous de ver traversables chargés dans la gravité modifiée f(R, ϕ, X). Il traite de la condition de Karmarkar, des fonctions de forme, de la violation de la condition d'énergie nulle, de la matière exotique et de la stabilité.

@@ -1,0 +1,1 @@
+Based on its title, the work asks whether the neutrino vacuum can support a wormhole, that is, whether the vacuum energy of that field could act as exotic matter. No abstract is available, so no method or results are claimed.

@@ -1,0 +1,1 @@
+Based on its title and topics, this work examines the relativistic rocket between dream and reality, with antiproton-proton annihilation, the magnetic nozzle, ion accelerators and nuclear reactors as elements for interstellar travel. The sources provide no abstract or results.

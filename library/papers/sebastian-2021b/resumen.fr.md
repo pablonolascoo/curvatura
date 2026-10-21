@@ -1,0 +1,1 @@
+D'après son titre, le travail porte sur des moteurs quantiques d'Otto fonctionnant à des énergies relativistes, c'est-à-dire des cycles thermodynamiques quantiques en régime relativiste. Les sources ne contiennent ni résumé ni texte, on ne peut donc pas indiquer méthodes ni résultats.

@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo examina el cohete relativista entre el sueño y la realidad, con la aniquilación antiprotón-protón, la tobera magnética, los aceleradores de iones y los reactores nucleares como elementos para el viaje interestelar. Las fuentes no aportan resumen ni resultados.

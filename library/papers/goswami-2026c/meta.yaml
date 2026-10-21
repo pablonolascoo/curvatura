@@ -10,8 +10,8 @@ source: https://arxiv.org/abs/2602.12299
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
-fulltext: false
+license: CC-BY-4.0
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

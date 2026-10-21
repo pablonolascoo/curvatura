@@ -1,0 +1,1 @@
+Según su título, el trabajo establece una desigualdad cuántica de energía débil para campos de espín uno en espaciotiempo curvo. No hay resumen ni temas disponibles, así que no se indican método ni resultados. Este tipo de desigualdad acota cuánta energía negativa puede haber, lo que es relevante para los motores warp.

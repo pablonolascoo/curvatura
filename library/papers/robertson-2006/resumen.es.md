@@ -1,0 +1,1 @@
+Según su título, el trabajo trata de material exótico entendido como resultado de interacciones entre campos escalares. Es un enfoque sobre el origen de la materia exótica que necesitan los agujeros de gusano y las burbujas de distorsión.

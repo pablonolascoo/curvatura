@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, c'est une revue sur l'usage de l'apprentissage profond et des algorithmes quantiques pour étudier la faisabilité des trous de ver, dans le cadre de la relativité générale. Aucun résumé n'est disponible, on n'affirme donc aucun résultat.

@@ -17,7 +17,7 @@ language: en
 subsystems: [D, Q, V]
 kind: analogo
 license: CC-BY-4.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

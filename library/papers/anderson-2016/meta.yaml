@@ -24,3 +24,5 @@ harvest: openalex
 cited_by: 5
 cites_seeds: [lobo-visser-2004, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
 relevance: alta
+resumen_propio: ia
+resumen_base: titulo

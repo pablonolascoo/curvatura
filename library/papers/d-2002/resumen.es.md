@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo relaciona las branas de tensión negativa de la teoría de cuerdas con la segunda ley de la termodinámica. Se limita a describir ese problema, sin que las fuentes permitan precisar método ni resultados.

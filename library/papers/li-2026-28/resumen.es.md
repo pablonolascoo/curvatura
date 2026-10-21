@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo presenta soluciones de agujeros de gusano atravesables con carga eléctrica en la gravedad modificada f(R, ϕ, X). Trata la condición de Karmarkar, las funciones de forma, la violación de la condición de energía nula, la materia exótica y la estabilidad.

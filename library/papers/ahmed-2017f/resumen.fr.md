@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, ce travail étudie un espace-temps de type N dans la classification de Petrov, qui est un espace d'Einstein servant de modèle de machine à remonter le temps. Il traite de géométries axisymétriques contenant des courbes temporelles fermées et de congruences de géodésiques nulles.

@@ -1,0 +1,1 @@
+Based on its title, this work studies the Casimir effect in a wormhole spacetime, that is, the vacuum energy that appears between plates in that geometry. The sources provide no abstract or further detail.

@@ -1,0 +1,1 @@
+Based on its title, the work studies a warped spacetime for phonons moving in a perfect nonrelativistic fluid. It belongs to analogue gravity, where sound in a fluid behaves like a field in an effective curved metric.

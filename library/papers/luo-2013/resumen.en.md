@@ -1,0 +1,1 @@
+Based on its title and topics, this work studies how relativistic plasmas and vacuum polarization modify the redshift observed in pulsars and magnetars. It considers very strong magnetic fields and their effect on the refractive index and on the emission redshift.

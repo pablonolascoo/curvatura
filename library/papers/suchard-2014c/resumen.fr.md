@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail propose une unification de la gravité et de l'électromagnétisme par un champ géométrique de « chronon ». Ses thèmes comprennent les champs scalaires, les géodésiques, la courbure scalaire et l'univers de De Sitter. La seule description disponible est « International audience » ; méthode et résultats ne sont donc pas indiqués.

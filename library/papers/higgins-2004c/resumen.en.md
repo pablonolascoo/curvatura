@@ -1,0 +1,1 @@
+The paper applies transformation-based learning to semantic role labeling in natural language. Its advantage is that it lets argument identification and argument labeling influence each other within a simple learning framework. The available abstract is incomplete and gives no results. It is natural language processing work with no relation to physics.

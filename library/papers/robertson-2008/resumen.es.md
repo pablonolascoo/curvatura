@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo estudia la propulsión en el modelo camaleón, una teoría de gravedad escalar-tensorial y modificada con una posible quinta fuerza y relación con la energía oscura. La información disponible es solo bibliográfica, así que no se indican método ni resultados.

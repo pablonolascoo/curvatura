@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with the trajectories of light rays in the Alcubierre spacetime, that is, how rays propagate in the metric of the warp bubble. No further detail on its method or results is available.

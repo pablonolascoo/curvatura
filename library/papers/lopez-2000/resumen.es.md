@@ -1,0 +1,1 @@
+Según su título, es un artículo en español sobre el acceso de los consumidores a la justicia comunitaria, publicado en una revista sobre la Unión Europea en 2000. Trata de derecho y no tiene relación con la física ni con la propulsión.

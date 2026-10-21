@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, le travail présente des idées « hors des sentiers battus » sur les technologies de transport spatial et terrestre et d'énergie pour le XXIe siècle. Il a été présenté lors d'une conférence aérospatiale de l'AIAA. Les sources ne contiennent pas de résumé ; méthode et résultats ne sont donc pas indiqués.

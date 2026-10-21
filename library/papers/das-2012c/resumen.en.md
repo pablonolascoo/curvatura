@@ -1,0 +1,1 @@
+Based on its title and topics, this book chapter on relativity deals with the algebraic classification of field equations, touching on the classification of differential equations and Lie point symmetries. The only extra information available is that background material is in an appendix worth reviewing before reading. No specific results can be stated.

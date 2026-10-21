@@ -1,0 +1,1 @@
+Based on its title and topics, the work deals with quantum, or averaged, energy inequalities in quantum field theory. It addresses the energy-momentum tensor and the quantum corrections that limit how much negative energy can exist. No abstract or text is available, so its results cannot be specified.

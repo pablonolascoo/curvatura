@@ -1,0 +1,1 @@
+Según su título, este informe de la NASA trata de acoplar la gravedad, el electromagnetismo y el espaciotiempo para lograr avances en propulsión espacial. Se enmarca en la búsqueda de formas de propulsión que no dependan de expulsar masa. Las fuentes no incluyen resumen ni palabras clave, así que no se detallan métodos ni resultados.

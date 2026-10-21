@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo trata del emparejamiento de ontologías entre PropBank y DBpedia, un problema de informática y web semántica. No guarda relación con la física ni con la propulsión.

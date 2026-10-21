@@ -1,0 +1,1 @@
+Cette très courte note présente deux limites de la limite de la vitesse de la lumière. D'après le résumé disponible, aucun détail n'est donné sur les arguments ou les résultats. Les thèmes associés sont la limite relativiste de vitesse et la relativité générale. Sa pertinence pour le voyage plus rapide que la lumière dépend de ces deux limites, que les sources ne précisent pas.

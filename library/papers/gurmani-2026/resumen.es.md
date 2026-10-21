@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo hace un primer análisis completo de agujeros de gusano dinámicos transitorios dentro de la electrodinámica no lineal de Euler-Heisenberg. Trata funciones de forma, condiciones de energía incluida la nula promediada, materia exótica, estabilidad, esfera de fotones, ecos de ondas gravitacionales y diagramas de inmersión.

@@ -1,0 +1,1 @@
+Según su título y temas, el capítulo «Prerequisites for Space Drive Science», publicado por el AIAA en 2009, trata de los requisitos previos para una ciencia de los propulsores espaciales de nuevo tipo y de la propulsión de naves. No hay resumen disponible, así que no se afirman métodos ni resultados.

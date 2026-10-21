@@ -1,0 +1,1 @@
+D'après son titre et ses thèmes, cette thèse traite de la quantification canonique de la géométrodynamique, c'est-à-dire de la relativité générale formulée comme dynamique de géométries spatiales, avec aussi peu de contraintes que possible. Elle relève de la gravité quantique.

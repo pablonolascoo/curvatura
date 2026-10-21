@@ -1,0 +1,1 @@
+Based on its title, the work deals with advanced space propulsion based on vacuum engineering, that is, of the spacetime metric. It appeared in the Journal of the British Interplanetary Society. The sources include no abstract, so method and results are not stated.

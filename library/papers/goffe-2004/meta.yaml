@@ -17,5 +17,8 @@ verified: false
 harvest: openalex
 cited_by: 4
 cites_seeds: [vandenbroeck-1999]
-relevance: media
+relevance: baja
 countries: [US]
+resumen_propio: ia
+resumen_base: resumen
+relevance_manual: baja  # ajeno al tema (revisión de resúmenes propios)

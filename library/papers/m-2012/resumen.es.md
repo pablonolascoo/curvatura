@@ -1,0 +1,1 @@
+Según su título, este trabajo de Smerlak estudia la difusión en espaciotiempos curvos. Trata cómo se propagan procesos difusivos cuando la geometría del espaciotiempo no es plana. Las fuentes no incluyen resumen ni palabras clave, así que no se pueden indicar métodos ni resultados.

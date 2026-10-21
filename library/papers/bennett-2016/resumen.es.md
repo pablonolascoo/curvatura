@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo reflexiona sobre las posibilidades del viaje más rápido que la luz y el viaje interestelar relativista, en el contexto del vuelo espacial. Se presentó en la conferencia de propulsión AIAA/SAE/ASEE de 2016. No hay resumen disponible, así que no se indican resultados concretos.

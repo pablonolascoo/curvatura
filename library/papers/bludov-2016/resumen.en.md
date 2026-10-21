@@ -1,0 +1,1 @@
+Based on its title, the work deals with the escape of a vector matter-wave soliton from a parabolic trap. No abstract or topics are available, so neither method nor results can be given. It appears to be a study of atomic condensates and nonlinear waves.

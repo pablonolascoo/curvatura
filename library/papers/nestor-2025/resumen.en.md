@@ -1,0 +1,1 @@
+Based on its title and topics, the work proposes that the Riemann hypothesis and the Monster group lie at the heart of the vacuum catastrophe, that is, the cosmological constant problem. It mentions zeros of the Riemann zeta function, spectral operators, Jackiw-Teitelboim gravity, the SYK model and supersymmetry. No abstract is available, so no results are claimed.

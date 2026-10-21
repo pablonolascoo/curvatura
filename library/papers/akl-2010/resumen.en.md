@@ -1,0 +1,1 @@
+Based on its title and topics, this work presents time travel as a new paradigm for hypercomputation. It appears to discuss how the possibility of travelling to the past might be exploited to solve problems beyond the reach of an ordinary computer. No further details about its method or conclusions are available in the sources.

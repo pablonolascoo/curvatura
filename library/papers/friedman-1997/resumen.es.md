@@ -1,0 +1,1 @@
+Según su título y temas, este trabajo trata la censura topológica y la protección de la cronología. Se ocupa de las curvas temporales cerradas, de la violación de la causalidad y de la topología del espaciotiempo, con los agujeros de gusano como caso relevante.

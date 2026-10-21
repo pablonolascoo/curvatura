@@ -1,0 +1,1 @@
+D'après son titre, cet article de Puthoff et Braker se demande si le vide peut être conçu pour des applications de vol spatial et offre un panorama de théorie et d'expériences. Il relève de l'énergie du point zéro et de la propulsion avancée. Les sources n'incluent pas de résumé, méthodes et résultats ne sont donc pas détaillés.

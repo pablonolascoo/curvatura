@@ -1,0 +1,1 @@
+This chapter points out that sending ships to the stars runs into the ultimate barrier of the speed of light. It describes traversable wormholes, hypothetical objects allowed by general relativity, as a way to get past that limit. It is a review-style introduction to the role of these spacetime tunnels in interstellar travel. The sources mention no original quantitative results.

@@ -1,0 +1,1 @@
+Según su título y temas, el trabajo interpreta modelos de agujeros de gusano de tipo Morris-Thorne con carga topológica, junto con sus condiciones de energía y correcciones relativistas. Usa la clase de incrustación uno, el cuantificador de integral de volumen y gravedad modificada, y trata materia exótica y estabilidad.
