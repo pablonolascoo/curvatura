@@ -1,0 +1,20 @@
+id: bianchi-2014
+title: "Entanglement entropy and negative energy in two dimensions"
+authors:
+  - "Eugenio Bianchi"
+  - "Matteo Smerlak"
+year: 2014
+venue: "Phys. Rev. D 90, 041904 (2014)"
+doi: 10.1103/physrevd.90.041904
+arxiv: "1404.0602"
+source: https://arxiv.org/abs/1404.0602
+language: en
+subsystems: [E, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

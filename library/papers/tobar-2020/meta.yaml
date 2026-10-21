@@ -1,0 +1,21 @@
+id: tobar-2020
+title: "Reversible dynamics with closed time-like curves and freedom of choice"
+authors:
+  - "Germain Tobar"
+  - "Fabio Costa"
+year: 2020
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aba4bc
+arxiv: "2001.02511"
+source: https://arxiv.org/abs/2001.02511
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

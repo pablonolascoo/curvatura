@@ -1,0 +1,23 @@
+id: frassino-2020
+title: "Thermodynamics of quantum phase transitions of a Dirac oscillator in a homogenous magnetic field"
+authors:
+  - "A M Frassino"
+  - "D Marinelli"
+  - "Orlando Panella"
+  - "P Roy"
+year: 2020
+venue: "Journal of Physics A Mathematical and Theoretical"
+doi: 10.1088/1751-8121/ab7df7
+arxiv: "1707.06984"
+source: https://arxiv.org/abs/1707.06984
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [barcelo-2011]
+relevance: media

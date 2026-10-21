@@ -1,0 +1,1 @@
+Artificial black holes, such as sonic holes in Bose-Einstein condensates, may give insights into the role of the physics at the event horizon beyond the Planck scale. We show that sonic white holes give rise to a discrete spectrum of instabilities that is insensitive to the analogue of trans-Planckian physics for Bose-Einstein condensates.

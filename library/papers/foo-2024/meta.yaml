@@ -1,0 +1,22 @@
+id: foo-2024
+title: "Measurement-based Lorentz-covariant Bohmian trajectories of interacting photons"
+authors:
+  - "Joshua Foo"
+  - "Austin P. Lund"
+  - "Timothy C. Ralph"
+year: 2024
+venue: "Physical Review A"
+doi: 10.1103/physreva.109.022229
+arxiv: "2309.16011"
+source: https://arxiv.org/abs/2309.16011
+language: en
+subsystems: [G]
+kind: experimental
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,21 @@
+id: robertson-2008
+title: "Propulsion in the Chameleon Model"
+authors:
+  - "Glen A. Robertson"
+  - "Mohamed S. El‐Genk"
+year: 2008
+venue: "AIP conference proceedings"
+doi: 10.1063/1.2844953
+arxiv: null
+source: https://doi.org/10.1063/1.2844953
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

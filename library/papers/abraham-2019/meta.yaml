@@ -1,0 +1,27 @@
+id: abraham-2019
+title: "A machine learning approach for GRB detection in AstroSat CZTI data"
+authors:
+  - "Sheelu Abraham"
+  - "Nikhil Mukund"
+  - "Ajay Vibhute"
+  - "Vidushi Sharma"
+  - "Shabnam Iyyani"
+  - "Dipankar Bhattacharya"
+  - "A. R. Rao"
+  - "Santosh Vadawale"
+  - "Varun Bhalerao"
+year: 2019
+venue: "Monthly Notices of the Royal Astronomical Society, Volume 504, Issue 2, June 2021"
+doi: 10.1093/mnras/stab1082
+arxiv: "1906.09670"
+source: https://arxiv.org/abs/1906.09670
+language: en
+subsystems: [D, V]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

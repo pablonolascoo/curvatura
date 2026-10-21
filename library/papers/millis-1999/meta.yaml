@@ -1,0 +1,20 @@
+id: millis-1999
+title: "NASA breakthrough propulsion physics program"
+authors:
+  - "Marc G. Millis"
+year: 1999
+venue: "Acta Astronautica"
+doi: 10.1016/s0094-5765(99)00045-4
+arxiv: null
+source: https://doi.org/10.1016/s0094-5765(99)00045-4
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [alcubierre-1994]
+relevance: media

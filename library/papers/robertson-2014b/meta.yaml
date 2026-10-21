@@ -1,0 +1,21 @@
+id: robertson-2014b
+title: "Integral method for the calculation of Hawking radiation in dispersive media. I. Symmetric asymptotics"
+authors:
+  - "Scott Robertson"
+  - "Ulf Leonhardt"
+year: 2014
+venue: "Physical Review E"
+doi: 10.1103/physreve.90.053302
+arxiv: "1403.7213"
+source: https://arxiv.org/abs/1403.7213
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [barcelo-2011]
+relevance: media

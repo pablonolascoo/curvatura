@@ -1,0 +1,21 @@
+id: schuster-2024
+title: "Boyer–Lindquist Space-Times and Beyond: Metamaterial Analogues for Arbitrary Space-Times"
+authors:
+  - "Sebastian Schuster"
+  - "Matt Visser"
+year: 2024
+venue: "Universe"
+doi: 10.3390/universe10040159
+arxiv: "1802.09807"
+source: https://arxiv.org/abs/1802.09807
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,28 @@
+id: matzner-1996
+title: "Analysis of ``Gauge Modes'' in Linearized Relativity"
+authors:
+  - "Richard A. Matzner"
+  - "Mijan Huq"
+  - "Alonso Botero"
+  - "Dae Il Choi"
+  - "Ullar Kask"
+  - "Juan Lara"
+  - "Steven Liebling"
+  - "David Neilsen"
+  - "Premana Premadi"
+  - "Deirdre Shoemaker"
+year: 1996
+venue: "Class.Quant.Grav.14:L21-L27,1997"
+doi: 10.1088/0264-9381/14/1/004
+arxiv: "gr-qc/9607031"
+source: https://arxiv.org/abs/gr-qc/9607031
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

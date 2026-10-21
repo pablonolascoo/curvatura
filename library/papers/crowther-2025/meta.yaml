@@ -1,0 +1,20 @@
+id: crowther-2025
+title: "Why Do We Want a Theory of Quantum Gravity?"
+authors:
+  - "Karen Crowther"
+year: 2025
+venue: "Cambridge University Press eBooks"
+doi: 10.1017/9781108878074
+arxiv: "2505.04858"
+source: https://arxiv.org/abs/2505.04858
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

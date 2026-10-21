@@ -1,0 +1,27 @@
+id: li-2020
+title: "Field-mediated locomotor dynamics on highly deformable surfaces"
+authors:
+  - "Shengkai Li"
+  - "Yasemin Ozkan Aydin"
+  - "Charles Xiao"
+  - "Gabriella Small"
+  - "Hussain N. Gynai"
+  - "Gongjie Li"
+  - "Jennifer M. Rieser"
+  - "Pablo Laguna"
+  - "Daniel I. Goldman"
+year: 2020
+venue: "Proceedings of the National Academy of Sciences 119 (30), e2113912119, 2022"
+doi: 10.1073/pnas.2113912119
+arxiv: "2004.03549"
+source: https://arxiv.org/abs/2004.03549
+language: en
+subsystems: [D, M, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

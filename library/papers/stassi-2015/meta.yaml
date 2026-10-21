@@ -1,0 +1,23 @@
+id: stassi-2015
+title: "Quantum control and long-range quantum correlations in dynamical Casimir arrays"
+authors:
+  - "Roberto Stassi"
+  - "Simone De Liberato"
+  - "Luigi Garziano"
+  - "Bernardo Spagnolo"
+  - "Salvatore Savasta"
+year: 2015
+venue: "Phys. Rev. A 92, 013830 (2015)"
+doi: 10.1103/physreva.92.013830
+arxiv: "1501.07536"
+source: https://arxiv.org/abs/1501.07536
+language: en
+subsystems: [E, D]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

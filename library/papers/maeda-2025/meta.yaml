@@ -1,0 +1,20 @@
+id: maeda-2025
+title: "Exact plane symmetric black bounce with a perfect-fluid exterior obeying a linear equation of state"
+authors:
+  - "Hideki Maeda"
+  - "Cristian Martinez"
+year: 2025
+venue: "Phys.Rev.D 112 (2025) 4, 044021"
+doi: 10.1103/lt5f-gqmw
+arxiv: "2506.14872"
+source: https://arxiv.org/abs/2506.14872
+language: en
+subsystems: [G, C, S, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

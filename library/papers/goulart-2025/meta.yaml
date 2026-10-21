@@ -1,0 +1,21 @@
+id: goulart-2025
+title: "Mimicking a rotating black hole with nonlinear electrodynamics"
+authors:
+  - "Érico Goulart"
+  - "Eduardo Bittencourt"
+year: 2025
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/adcb16
+arxiv: "2411.18573"
+source: https://arxiv.org/abs/2411.18573
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

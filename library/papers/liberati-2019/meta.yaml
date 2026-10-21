@@ -1,0 +1,21 @@
+id: liberati-2019
+title: "The information loss problem: an analogue gravity perspective"
+authors:
+  - "Stefano Liberati"
+  - "Giovanni Tricella"
+  - "Andrea Trombettoni"
+year: 2019
+venue: "arXiv:1908.01036"
+doi: 10.3390/e21100940
+arxiv: "1908.01036"
+source: https://arxiv.org/abs/1908.01036
+language: en
+subsystems: [G, Q, M, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

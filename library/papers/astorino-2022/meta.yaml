@@ -1,0 +1,22 @@
+id: astorino-2022
+title: "Black holes in a swirling universe"
+authors:
+  - "Marco Astorino"
+  - "Riccardo Martelli"
+  - "Adriano Viganò"
+year: 2022
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.106.064014
+arxiv: "2205.13548"
+source: https://arxiv.org/abs/2205.13548
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 26
+cites_seeds: [alcubierre-1994]
+relevance: media

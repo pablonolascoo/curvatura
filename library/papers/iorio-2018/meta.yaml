@@ -1,0 +1,21 @@
+id: iorio-2018
+title: "(Anti-)de Sitter, Poincaré, Super symmetries, and the two Dirac points of graphene"
+authors:
+  - "Alfredo Iorio"
+  - "Pablo Pais"
+year: 2018
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2018.09.011
+arxiv: "1807.08764"
+source: https://arxiv.org/abs/1807.08764
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 29
+cites_seeds: [barcelo-2011]
+relevance: media

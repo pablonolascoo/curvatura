@@ -1,0 +1,1 @@
+Various objections against Alcubierre's warp drive geometry are reviewed. Superluminal warp bubbles seem an unlikey possibility within the framework of general relativity and quantum field theory, although subluminal bubbles may still be possible.

@@ -1,0 +1,21 @@
+id: martinmartinez-2014
+title: "Entanglement in curved spacetimes and cosmology"
+authors:
+  - "Eduardo Martín-Martínez"
+  - "Nicolas C. Menicucci"
+year: 2014
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/31/21/214001
+arxiv: "1408.3420"
+source: https://arxiv.org/abs/1408.3420
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 95
+cites_seeds: [barcelo-2011]
+relevance: media

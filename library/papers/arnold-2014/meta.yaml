@@ -1,0 +1,21 @@
+id: arnold-2014
+title: "Absence of a local rest frame in far from equilibrium quantum matter"
+authors:
+  - "Peter Arnold"
+  - "Paul Romatschke"
+  - "Wilke van der Schee"
+year: 2014
+venue: "JHEP10 (2014) 110"
+doi: 10.1007/jhep10(2014)110
+arxiv: "1408.2518"
+source: https://arxiv.org/abs/1408.2518
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

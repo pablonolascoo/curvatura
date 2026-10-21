@@ -1,0 +1,24 @@
+id: weixing-2006
+title: "Restrictions on negative energy density for the Dirac field in flat spacetime"
+authors:
+  - "Shu Wei-Xing"
+  - "Hongwei Yu"
+  - "Li Fei"
+  - "Puxun Wu"
+  - "Zhongzhou Ren"
+year: 2006
+venue: "Chinese Physics"
+doi: 10.1088/1009-1963/15/5/011
+arxiv: null
+source: https://doi.org/10.1088/1009-1963/15/5/011
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [pfenning-ford-1997]
+relevance: media

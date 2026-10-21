@@ -1,0 +1,22 @@
+id: agusti-2020
+title: "Qubit Motion as a Microscopic Model for the Dynamical Casimir Effect"
+authors:
+  - "Andrés Agustí"
+  - "Laura García-Álvarez"
+  - "Enrique Solano"
+  - "Carlos Sabín"
+year: 2020
+venue: "Phys. Rev. A 103, 062201 (2021)"
+doi: 10.1103/physreva.103.062201
+arxiv: "2011.02822"
+source: https://arxiv.org/abs/2011.02822
+language: en
+subsystems: [E, D]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

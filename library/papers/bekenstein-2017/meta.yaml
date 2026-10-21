@@ -1,0 +1,27 @@
+id: bekenstein-2017
+title: "Control of light by curved space in nanophotonic structures"
+authors:
+  - "Rivka Bekenstein"
+  - "Yossef Kabessa"
+  - "Yonatan Sharabi"
+  - "Or Tal"
+  - "Nader Engheta"
+  - "G. Eisenstein"
+  - "Aharon J. Agranat"
+  - "Mordechai Segev"
+year: 2017
+venue: "Nature Photonics"
+doi: 10.1038/s41566-017-0008-0
+arxiv: null
+source: https://doi.org/10.1038/s41566-017-0008-0
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 105
+cites_seeds: [barcelo-2011]
+relevance: media

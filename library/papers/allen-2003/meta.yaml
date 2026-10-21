@@ -1,0 +1,20 @@
+id: allen-2003
+title: "Quest for a novel force: a possible revolution in aerospace"
+authors:
+  - "John E Allen"
+year: 2003
+venue: "Progress in Aerospace Sciences"
+doi: 10.1016/s0376-0421(02)00049-0
+arxiv: null
+source: https://doi.org/10.1016/s0376-0421(02)00049-0
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 19
+cites_seeds: [alcubierre-1994]
+relevance: media

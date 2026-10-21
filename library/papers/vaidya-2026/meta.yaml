@@ -1,0 +1,20 @@
+id: vaidya-2026
+title: "Self-similar configurations in Bose–Einstein condensates, their Borel analysis, and acoustic horizons"
+authors:
+  - "Sachin Vaidya"
+year: 2026
+venue: "Journal of Physics A Mathematical and Theoretical"
+doi: 10.1088/1751-8121/ae767f
+arxiv: "2412.02728"
+source: https://arxiv.org/abs/2412.02728
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

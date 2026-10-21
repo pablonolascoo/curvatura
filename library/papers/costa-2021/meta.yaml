@@ -1,0 +1,20 @@
+id: costa-2021
+title: "Can quantum mechanics breed negative masses?"
+authors:
+  - "Bruno Arderucio Costa"
+  - "George E. A. Matsas"
+year: 2021
+venue: "Phys. Rev. D 105, 085016 (2022)"
+doi: 10.1103/physrevd.105.085016
+arxiv: "2112.08881"
+source: https://arxiv.org/abs/2112.08881
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,1 @@
+We show that the transformations J. M. Hill and B. J. Cox introduce between inertial observers moving faster than light with respect to each other are consistent with Einstein's principle of relativity only if the spacetime is 2 dimensional.

@@ -1,0 +1,22 @@
+id: oliveira-2015
+title: "Quasinormal modes of the polytropic hydrodynamic vortex"
+authors:
+  - "Leandro A. Oliveira"
+  - "Vítor Cardoso"
+  - "Luís C. B. Crispino"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.92.024033
+arxiv: "1703.01277"
+source: https://arxiv.org/abs/1703.01277
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

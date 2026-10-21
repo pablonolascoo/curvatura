@@ -1,0 +1,19 @@
+id: gielen-2013
+title: "Comment on \"Causality-violating Higgs singlets at the LHC\""
+authors:
+  - "Steffen Gielen"
+year: 2013
+venue: "Phys. Rev. D 88, 068701 (2013)"
+doi: 10.1103/physrevd.88.068701
+arxiv: "1302.1711"
+source: https://arxiv.org/abs/1302.1711
+language: en
+subsystems: [C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

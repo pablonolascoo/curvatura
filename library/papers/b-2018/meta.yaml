@@ -1,0 +1,21 @@
+id: b-2018
+title: "Bouncing unitary cosmology I. Mini-superspace general solution"
+authors:
+  - "Sean Gryb A B"
+  - "Karim P. Y. Thébault"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aaf823
+arxiv: "1801.05789"
+source: https://arxiv.org/abs/1801.05789
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 40
+cites_seeds: [barcelo-2011]
+relevance: media

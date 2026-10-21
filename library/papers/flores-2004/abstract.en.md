@@ -1,0 +1,1 @@
+A complete study of the structure of Ricci collineations for type B warped spacetimes is carried out. This study can be used as a method to obtain these symetries in such spacetimes. Special cases as 2+2 reducible spacetimes, and plane and spherical symmetric spacetimes are considered specifically.

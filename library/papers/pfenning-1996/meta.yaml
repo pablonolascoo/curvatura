@@ -1,0 +1,20 @@
+id: pfenning-1996
+title: "Quantum Inequalities on the Energy Density in Static Robertson-Walker Spacetimes"
+authors:
+  - "Michael J. Pfenning"
+  - "L. H. Ford"
+year: 1996
+venue: "Phys.Rev. D55 (1997) 4813-4821"
+doi: 10.1103/physrevd.55.4813
+arxiv: "gr-qc/9608005"
+source: https://arxiv.org/abs/gr-qc/9608005
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

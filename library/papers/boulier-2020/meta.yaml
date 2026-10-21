@@ -1,0 +1,30 @@
+id: boulier-2020
+title: "Microcavity Polaritons for Quantum Simulation"
+authors:
+  - "Thomas Boulier"
+  - "Maxime J. Jacquet"
+  - "Anne Maître"
+  - "Giovanni Lerario"
+  - "Ferdinand Claude"
+  - "Simon Pigeon"
+  - "Quentin C. Glorieux"
+  - "Alberto Amo"
+  - "Jacqueline Bloch"
+  - "Alberto Bramati"
+  - "E. Giacobino"
+year: 2020
+venue: "Advanced Quantum Technologies"
+doi: 10.1002/qute.202000052
+arxiv: "2005.12569"
+source: https://arxiv.org/abs/2005.12569
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 58
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,21 @@
+id: harms-2021
+title: "Dynamically stable negative-energy states induced by spin-transfer torques"
+authors:
+  - "J. S. Harms"
+  - "A. Rückriegel"
+  - "R. A. Duine"
+year: 2021
+venue: "Phys. Rev. B 103, 144408 (2021)"
+doi: 10.1103/physrevb.103.144408
+arxiv: "2101.12544"
+source: https://arxiv.org/abs/2101.12544
+language: en
+subsystems: [D, Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

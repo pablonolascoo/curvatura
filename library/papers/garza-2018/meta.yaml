@@ -1,0 +1,22 @@
+id: garza-2018
+title: "Fluid analogs for rotating black holes"
+authors:
+  - "Pablo Garza"
+  - "Daniel Kabat"
+  - "Ariana van Gelder"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aad0fe
+arxiv: "1802.08306"
+source: https://arxiv.org/abs/1802.08306
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

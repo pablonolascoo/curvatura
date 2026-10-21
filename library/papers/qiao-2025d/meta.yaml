@@ -1,0 +1,20 @@
+id: qiao-2025d
+title: "Transforming Electromagnetic Tensor to Weyl Tensor for Curvature Drive"
+authors:
+  - "Bi Qiao"
+year: 2025
+venue: "Journal of Modern Physics"
+doi: 10.4236/jmp.2025.164030
+arxiv: null
+source: https://doi.org/10.4236/jmp.2025.164030
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

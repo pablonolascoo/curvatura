@@ -1,0 +1,22 @@
+id: busch-2014b
+title: "Suppression of infrared instability in transsonic flows by condensation of zero-frequency short wave length phonons"
+authors:
+  - "Xavier Busch"
+  - "Florent Michel"
+  - "Renaud Parentani"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.105005
+arxiv: "1408.2442"
+source: https://arxiv.org/abs/1408.2442
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [barcelo-2011]
+relevance: media

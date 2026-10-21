@@ -1,0 +1,25 @@
+id: garciameca-2013
+title: "Analogue transformation acoustics: Generalizing transformation techniques to non-form-invariant equations"
+authors:
+  - "Carlos García‐Meca"
+  - "Sante Carloni"
+  - "Carlos Barceló"
+  - "Gil Jannes"
+  - "José Sánchez‐Dehesa"
+  - "A. Martinez"
+year: 2013
+venue: "International Congress on Advanced Electromagnetic Materials in Microwaves and Optics"
+doi: 10.1109/metamaterials.2013.6809011
+arxiv: null
+source: https://doi.org/10.1109/metamaterials.2013.6809011
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

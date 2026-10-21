@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "curvatura-library": {
+      "command": "uv",
+      "args": ["run", "--with", "mcp", "library/rag/mcp_server.py"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+id: urban-2009
+title: "Averaged null energy condition violation in a conformally flat spacetime"
+authors:
+  - "Douglas Urban"
+  - "Ken D. Olum"
+year: 2009
+venue: "PhysRevD.81.024039,2010"
+doi: 10.1103/physrevd.81.024039
+arxiv: "0910.5925"
+source: https://arxiv.org/abs/0910.5925
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

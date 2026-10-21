@@ -1,0 +1,19 @@
+id: maeda-2024
+title: "Fake Schwarzschild and Kerr black holes"
+authors:
+  - "Hideki Maeda"
+year: 2024
+venue: "Class. Quant. Grav. 42 (2025) 23, 235005"
+doi: 10.1088/1361-6382/ae1e53
+arxiv: "2410.11937"
+source: https://arxiv.org/abs/2410.11937
+language: en
+subsystems: [C, S, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

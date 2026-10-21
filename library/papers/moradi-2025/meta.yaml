@@ -1,0 +1,25 @@
+id: moradi-2025
+title: "Constraining the Neutron-Star Equation of State via Short Gamma-Ray Burst X-ray Afterglows"
+authors:
+  - "R. Moradi"
+  - "Y. Wang"
+  - "F. Rastegarnia"
+  - "E. S. Yorgancioglu"
+  - "Shu-Xu Yi"
+  - "B. Eslam Panah"
+  - "S. N. Zhang"
+year: 2025
+venue: "arXiv:2510.01872"
+doi: 10.3847/1538-4357/ae0c9f
+arxiv: "2510.01872"
+source: https://arxiv.org/abs/2510.01872
+language: en
+subsystems: [E, P]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

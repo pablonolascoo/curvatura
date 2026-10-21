@@ -1,0 +1,20 @@
+id: nye-2025
+title: "Computational Holography"
+authors:
+  - "Logan Nye"
+year: 2025
+venue: "International Journal of Topology"
+doi: 10.3390/ijt2020005
+arxiv: null
+source: https://doi.org/10.3390/ijt2020005
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

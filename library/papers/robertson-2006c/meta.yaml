@@ -1,0 +1,20 @@
+id: robertson-2006c
+title: "Exotic Material as Interactions Between Scalar Fields"
+authors:
+  - "Glen A. Robertson"
+year: 2006
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W201525445
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994, lobo-visser-2004]
+relevance: media

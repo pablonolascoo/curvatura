@@ -1,0 +1,21 @@
+id: forghani-2022
+title: "A closed universe: de Sitter cosmic gate"
+authors:
+  - "S. Danial Forghani"
+  - "S. Habib Mazharimousavi"
+year: 2022
+venue: "Physics Letters B"
+doi: 10.1016/j.physletb.2022.137411
+arxiv: "2206.08816"
+source: https://arxiv.org/abs/2206.08816
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [ford-roman-1996]
+relevance: media

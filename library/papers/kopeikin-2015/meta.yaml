@@ -1,0 +1,20 @@
+id: kopeikin-2015
+title: "Local gravitational physics of the Hubble expansion"
+authors:
+  - "Sergei M. Kopeikin"
+year: 2015
+venue: "The European Physical Journal Plus"
+doi: 10.1140/epjp/i2015-15011-y
+arxiv: "1407.6667"
+source: https://arxiv.org/abs/1407.6667
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [natario-2002]
+relevance: media

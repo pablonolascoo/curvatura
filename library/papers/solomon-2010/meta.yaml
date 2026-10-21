@@ -1,0 +1,19 @@
+id: solomon-2010
+title: "A violation of the spatial quantum inequality"
+authors:
+  - "Dan Solomon"
+year: 2010
+venue: "arXiv:1012.1622"
+doi: null
+arxiv: "1012.1622"
+source: https://arxiv.org/abs/1012.1622
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

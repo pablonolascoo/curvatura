@@ -1,0 +1,22 @@
+id: motazedifard-2017
+title: "Controllable generation of photons and phonons in a coupled BEC-optomechanical-cavity via the parametric dynamical Casimir effect"
+authors:
+  - "Ali Motazedifard"
+  - "A. Dalafi"
+  - "M. H. Naderi"
+  - "R. Roknizadeh"
+year: 2017
+venue: "Annals of Physics 396, 202-219 (2018)"
+doi: 10.1016/j.aop.2018.07.013
+arxiv: "1711.07072"
+source: https://arxiv.org/abs/1711.07072
+language: en
+subsystems: [E, D, M, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

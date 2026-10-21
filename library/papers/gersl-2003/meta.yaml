@@ -1,0 +1,21 @@
+id: gersl-2003
+title: "A charged rotating cylindrical shell"
+authors:
+  - "J Gersl"
+  - "P Klepac"
+  - "J Horsky"
+year: 2003
+venue: "Gen.Rel.Grav. 36 (2004) 1399-1413"
+doi: 10.1023/b:gerg.0000022394.97195.07
+arxiv: "gr-qc/0309110"
+source: https://arxiv.org/abs/gr-qc/0309110
+language: en
+subsystems: [C, E, D]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

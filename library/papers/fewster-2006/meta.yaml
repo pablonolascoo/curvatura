@@ -1,0 +1,20 @@
+id: fewster-2006
+title: "Quantum Energy Inequalities and Stability Conditions in Quantum Field Theory"
+authors:
+  - "Christopher J. Fewster"
+year: 2006
+venue: "Progress in mathematics"
+doi: 10.1007/978-3-7643-7434-1_8
+arxiv: "math-ph/0502002"
+source: https://arxiv.org/abs/math-ph/0502002
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [pfenning-ford-1997]
+relevance: media

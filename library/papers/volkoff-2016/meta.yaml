@@ -1,0 +1,21 @@
+id: volkoff-2016
+title: "Quantum sine-Gordon dynamics on analogue curved spacetime in a weakly imperfect scalar Bose gas"
+authors:
+  - "Tyler J. Volkoff"
+  - "Uwe R. Fischer"
+year: 2016
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.94.024051
+arxiv: "1603.09197"
+source: https://arxiv.org/abs/1603.09197
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

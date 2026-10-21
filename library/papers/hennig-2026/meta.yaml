@@ -1,0 +1,19 @@
+id: hennig-2026
+title: "The balance problem for $n$ aligned black holes"
+authors:
+  - "Jörg Hennig"
+year: 2026
+venue: "J. Phys.: Conf. Ser. 3177 (2026) 012022"
+doi: 10.1088/1742-6596/3177/1/012022
+arxiv: "2604.12134"
+source: https://arxiv.org/abs/2604.12134
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

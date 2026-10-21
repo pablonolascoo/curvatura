@@ -1,0 +1,20 @@
+id: iorio-2019
+title: "Two arguments for more fundamental building blocks"
+authors:
+  - "Alfredo Iorio"
+year: 2019
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/1275/1/012013
+arxiv: "1902.07096"
+source: https://arxiv.org/abs/1902.07096
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+relevance: media

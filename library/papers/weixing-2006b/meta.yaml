@@ -1,0 +1,24 @@
+id: weixing-2006b
+title: "Lower Bounds on Negative Energy Densities for the Scalar Field in Flat Spacetime"
+authors:
+  - "Shu Wei-Xing"
+  - "Hongwei Yu"
+  - "Zhongzhou Ren"
+  - "Puxun Wu"
+  - "Fei Li"
+year: 2006
+venue: "Chinese Physics Letters"
+doi: 10.1088/0256-307x/23/1/008
+arxiv: null
+source: https://doi.org/10.1088/0256-307x/23/1/008
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [pfenning-ford-1997]
+relevance: media

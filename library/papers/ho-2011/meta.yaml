@@ -1,0 +1,20 @@
+id: ho-2011
+title: "Causality-Violating Higgs Singlets at the LHC"
+authors:
+  - "Chiu Man Ho"
+  - "Thomas J. Weiler"
+year: 2011
+venue: "Phys. Rev. D 87, 045004 (2013)"
+doi: 10.1103/physrevd.87.045004
+arxiv: "1103.1373"
+source: https://arxiv.org/abs/1103.1373
+language: en
+subsystems: [C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,21 @@
+id: souza-2022
+title: "Black-hole analog in vehicular traffic"
+authors:
+  - "Luanna K. de Souza"
+  - "George E. A. Matsas"
+year: 2022
+venue: "American Journal of Physics"
+doi: 10.1119/5.0091957
+arxiv: "2202.11791"
+source: https://arxiv.org/abs/2202.11791
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

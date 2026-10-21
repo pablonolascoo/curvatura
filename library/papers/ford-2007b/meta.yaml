@@ -1,0 +1,20 @@
+id: ford-2007b
+title: "Negative Energy in Superposition and Entangled States"
+authors:
+  - "L. H. Ford"
+  - "Thomas A. Roman"
+year: 2007
+venue: "Phys.Rev.D77:045018,2008"
+doi: 10.1103/physrevd.77.045018
+arxiv: "0705.3003"
+source: https://arxiv.org/abs/0705.3003
+language: en
+subsystems: [E, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

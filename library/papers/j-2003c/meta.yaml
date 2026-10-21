@@ -1,0 +1,21 @@
+id: j-2003c
+title: "A Quantum Weak Energy Inequality for Spin-One Fields in Curved Spacetime"
+authors:
+  - "Fewster, C J"
+  - "Pfenning, M J"
+year: 2003
+venue: "CERN Document Server (European Organization for Nuclear Research)"
+doi: null
+arxiv: null
+source: https://openalex.org/W3101252088
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 61
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

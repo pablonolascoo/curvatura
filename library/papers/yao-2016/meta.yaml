@@ -1,0 +1,20 @@
+id: yao-2016
+title: "Topological Casimir effect in a quantum LC circuit: real-time dynamics"
+authors:
+  - "Yuan Yao"
+  - "Ariel R. Zhitnitsky"
+year: 2016
+venue: "Phys. Rev. D 95, 065018 (2017)"
+doi: 10.1103/physrevd.95.065018
+arxiv: "1605.01411"
+source: https://arxiv.org/abs/1605.01411
+language: en
+subsystems: [E, S, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

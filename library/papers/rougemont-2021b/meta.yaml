@@ -1,0 +1,23 @@
+id: rougemont-2021b
+title: "Violation of energy conditions and entropy production in holographic Bjorken flow"
+authors:
+  - "Romulo Rougemont"
+  - "Jorge Noronha"
+  - "Willians Barreto"
+  - "Gabriel S. Denicol"
+  - "Travis Dore"
+year: 2021
+venue: "Phys. Rev. D 104, 126012 (2021)"
+doi: 10.1103/physrevd.104.126012
+arxiv: "2105.02378"
+source: https://arxiv.org/abs/2105.02378
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

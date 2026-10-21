@@ -1,0 +1,20 @@
+id: popov-2014
+title: "Semiclassical long wormhole throats"
+authors:
+  - "Arkady A. Popov"
+year: 2014
+venue: "Gravitation and Cosmology"
+doi: 10.1134/s0202289314030128
+arxiv: "1809.06202"
+source: https://arxiv.org/abs/1809.06202
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [ford-roman-1996]
+relevance: media

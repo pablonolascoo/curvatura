@@ -1,0 +1,21 @@
+id: jing-2015
+title: "Geometric optics for a coupling model of the electromagnetic and gravitational fields"
+authors:
+  - "Jiliang Jing"
+  - "Songbai Chen"
+  - "Qiyuan Pan"
+year: 2015
+venue: "Annals of Physics, 367 (2016) 219"
+doi: 10.1016/j.aop.2016.01.015
+arxiv: "1510.03316"
+source: https://arxiv.org/abs/1510.03316
+language: en
+subsystems: [G, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,21 @@
+id: barroso-2023
+title: "Non-linear effective field theory simulators in two-fluid interfaces"
+authors:
+  - "Vitor S. Barroso"
+  - "Cameron R. D. Bunney"
+  - "Silke Weinfurtner"
+year: 2023
+venue: "arXiv:2305.00226"
+doi: 10.1088/1742-6596/2531/1/012003
+arxiv: "2305.00226"
+source: https://arxiv.org/abs/2305.00226
+language: en
+subsystems: [E, Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

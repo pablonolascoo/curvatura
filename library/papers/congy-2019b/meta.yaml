@@ -1,0 +1,22 @@
+id: congy-2019b
+title: "Interaction of linear modulated waves and unsteady dispersive hydrodynamic states with application to shallow water waves"
+authors:
+  - "T. Congy"
+  - "G. A. El"
+  - "Mark A. Hoefer"
+year: 2019
+venue: "Journal of Fluid Mechanics"
+doi: 10.1017/jfm.2019.534
+arxiv: "1812.06593"
+source: https://arxiv.org/abs/1812.06593
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 31
+cites_seeds: [barcelo-2011]
+relevance: media

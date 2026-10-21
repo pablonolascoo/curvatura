@@ -1,0 +1,23 @@
+id: lobo-2020e
+title: "Thin-shell wormholes in Rastall gravity"
+authors:
+  - "Iarley P. Lobo"
+  - "Martín G. Richarte"
+  - "J. P. Morais Graça"
+  - "Hooman Moradpour"
+year: 2020
+venue: "The European Physical Journal Plus"
+doi: 10.1140/epjp/s13360-020-00553-y
+arxiv: "2007.05641"
+source: https://arxiv.org/abs/2007.05641
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 49
+cites_seeds: [lobo-visser-2004]
+relevance: media

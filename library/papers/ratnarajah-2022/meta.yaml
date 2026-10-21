@@ -1,0 +1,22 @@
+id: ratnarajah-2022
+title: "MESH2IR: Neural Acoustic Impulse Response Generator for Complex 3D Scenes"
+authors:
+  - "Anton Ratnarajah"
+  - "Zhenyu Tang"
+  - "Rohith Chandrashekar Aralikatti"
+  - "Dinesh Manocha"
+year: 2022
+venue: "arXiv:2205.09248"
+doi: 10.1145/3503161.3548253
+arxiv: "2205.09248"
+source: https://arxiv.org/abs/2205.09248
+language: en
+subsystems: [V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

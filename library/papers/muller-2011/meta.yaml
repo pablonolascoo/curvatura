@@ -1,0 +1,20 @@
+id: muller-2011
+title: "Detailed study of null and time-like geodesics in the Alcubierre Warp spacetime"
+authors:
+  - "Thomas Müller"
+  - "Daniel Weiskopf"
+year: 2011
+venue: "arXiv:1107.5650"
+doi: 10.1007/s10714-011-1289-0
+arxiv: "1107.5650"
+source: https://arxiv.org/abs/1107.5650
+language: en
+subsystems: [G, C, M]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

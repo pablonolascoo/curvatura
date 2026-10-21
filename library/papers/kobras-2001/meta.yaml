@@ -1,0 +1,22 @@
+id: kobras-2001
+title: "Image-based rendering and general relativity"
+authors:
+  - "Daniel Kobras"
+  - "Daniel Weiskopf"
+  - "H. Ruder"
+year: 2001
+venue: "Digital Library (University of West Bohemia)"
+doi: null
+arxiv: null
+source: https://openalex.org/W49832181
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

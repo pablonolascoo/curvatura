@@ -1,0 +1,21 @@
+id: lima-2008
+title: "Energy conditions bounds and their confrontation with supernovae data"
+authors:
+  - "M. P. Lima"
+  - "S. Vitenti"
+  - "M. J. Reboucas"
+year: 2008
+venue: "Phys.Rev.D77:083518,2008"
+doi: 10.1103/physrevd.77.083518
+arxiv: "0802.0706"
+source: https://arxiv.org/abs/0802.0706
+language: en
+subsystems: [C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

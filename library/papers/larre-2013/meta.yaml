@@ -1,0 +1,21 @@
+id: larre-2013
+title: "Hawking radiation in a two-component Bose-Einstein condensate"
+authors:
+  - "Pierre-Élie Larré"
+  - "Nicolas Pavloff"
+year: 2013
+venue: "Europhysics Letters (EPL)"
+doi: 10.1209/0295-5075/103/60001
+arxiv: "1307.2843"
+source: https://arxiv.org/abs/1307.2843
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

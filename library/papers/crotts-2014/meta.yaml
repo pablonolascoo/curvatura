@@ -1,0 +1,20 @@
+id: crotts-2014
+title: "Stepping Stone"
+authors:
+  - "Arlin P. S. Crotts"
+year: 2014
+venue: "Cambridge University Press eBooks"
+doi: 10.1017/cbo9781139045384.014
+arxiv: null
+source: https://doi.org/10.1017/cbo9781139045384.014
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,20 @@
+id: hsiang-2008b
+title: "Recoherence by Squeezed States in Electron Interferometry"
+authors:
+  - "Jen-Tsung Hsiang"
+  - "L. H. Ford"
+year: 2008
+venue: "Phys.Rev.D78:065012,2008"
+doi: 10.1103/physrevd.78.065012
+arxiv: "0806.1512"
+source: https://arxiv.org/abs/0806.1512
+language: en
+subsystems: [C, Q, V]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

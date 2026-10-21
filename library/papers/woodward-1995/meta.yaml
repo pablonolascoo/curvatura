@@ -1,0 +1,20 @@
+id: woodward-1995
+title: "Making the universe safe for historians: Time travel and the laws of physics"
+authors:
+  - "James F. Woodward"
+year: 1995
+venue: "Foundations of Physics Letters"
+doi: 10.1007/bf02187529
+arxiv: null
+source: https://doi.org/10.1007/bf02187529
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [alcubierre-1994]
+relevance: media

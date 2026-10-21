@@ -1,0 +1,20 @@
+id: mukohyama-2001
+title: "Brane Gravity at Low Energy"
+authors:
+  - "Shinji Mukohyama"
+  - "Lev Kofman"
+year: 2001
+venue: "Phys.Rev. D65 (2002) 124025"
+doi: 10.1103/physrevd.65.124025
+arxiv: "hep-th/0112115"
+source: https://arxiv.org/abs/hep-th/0112115
+language: en
+subsystems: [G, D, V]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

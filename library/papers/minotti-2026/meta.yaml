@@ -1,0 +1,21 @@
+id: minotti-2026
+title: "Scalar–tensor gravity and Aharonov–Bohm electrodynamics with bosons: applications to superconductors"
+authors:
+  - "Fernando O. Minotti"
+  - "Giovanni Modanese"
+year: 2026
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-026-15825-7
+arxiv: "2603.26986"
+source: https://arxiv.org/abs/2603.26986
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, lobo-visser-2004]
+relevance: media

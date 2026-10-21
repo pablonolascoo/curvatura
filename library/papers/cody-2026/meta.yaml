@@ -1,0 +1,20 @@
+id: cody-2026
+title: "Black hole singularities and the limits of the spacetime continuum"
+authors:
+  - "Michael Aaron Cody"
+year: 2026
+venue: "The European Physical Journal Plus"
+doi: 10.1140/epjp/s13360-025-07237-5
+arxiv: null
+source: https://doi.org/10.1140/epjp/s13360-025-07237-5
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

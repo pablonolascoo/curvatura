@@ -1,117 +1,161 @@
 "use client";
 
 import Link from "next/link";
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { MagnifyingGlass } from "@phosphor-icons/react";
 
-export type PaperRow = {
-  id: string;
-  title: string;
-  authors: string[];
-  year: number;
-  venue: string;
-  kind: string;
-  subsystems: string[];
-  open: boolean;
-  href: string;
+type Row = { st: 0 | 1; id: string; t: string; a: string[]; y: number; v: string; k: string; s: string[]; o: 0 | 1; c: number; ab: 0 | 1; r: 0 | 1 | 2 };
+
+type Labels = {
+  search: string; all: string; subsystem: string; kind: string; empty: string; fulltext: string;
+  kinds: Record<string, string>; count: string; relevance: string; core: string; sort: string; recent: string; cited: string; more: string; loading: string; onlyOpen: string;
 };
 
-type Labels = { search: string; all: string; subsystem: string; kind: string; empty: string; fulltext: string; kinds: Record<string, string> };
-
 const SUBSYSTEMS = ["G", "C", "E", "S", "D", "Q", "M", "P", "V"];
+const PAGE = 60;
 
 function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
-    <button
-      type="button"
-      aria-pressed={on}
-      onClick={onClick}
-      className={`rounded-full px-3.5 py-1.5 text-sm transition-colors duration-300 ${on ? "bg-fg text-bg" : "text-muted ring-1 ring-line hover:text-fg"}`}
-    >
+    <button type="button" aria-pressed={on} onClick={onClick}
+      className={`rounded-md px-3 py-1.5 text-sm transition-colors duration-200 ${on ? "bg-[var(--ink)] text-[var(--bg)]" : "border border-line bg-surface text-muted hover:text-fg"}`}>
       {children}
     </button>
   );
 }
 
-export function LibraryBrowser({ rows, labels, names }: { rows: PaperRow[]; labels: Labels; names: Record<string, string> }) {
-  const [q, setQ] = useState("");
-  const [sub, setSub] = useState<string | null>(null);
-  const [kind, setKind] = useState<string | null>(null);
-  const query = useDeferredValue(q.trim().toLowerCase());
+/** Lee y escribe los filtros en la URL (?q=&s=&k=&o=&sort=) para poder enlazarlos. */
+function useUrlState() {
+  const [st, setSt] = useState({ q: "", s: "", k: "", o: false, all: false, core: false, sort: "recent" as "recent" | "cited" });
+  useEffect(() => {
+    const u = new URLSearchParams(window.location.search);
+    setSt({ q: u.get("q") ?? "", s: u.get("s") ?? "", k: u.get("k") ?? "", o: u.get("o") === "1", all: u.get("all") === "1", core: u.get("core") === "1", sort: u.get("sort") === "cited" ? "cited" : "recent" });
+  }, []);
+  const update = (patch: Partial<typeof st>) =>
+    setSt((prev) => {
+      const next = { ...prev, ...patch };
+      const u = new URLSearchParams();
+      if (next.q) u.set("q", next.q);
+      if (next.s) u.set("s", next.s);
+      if (next.k) u.set("k", next.k);
+      if (next.o) u.set("o", "1");
+      if (next.all) u.set("all", "1");
+      if (next.core) u.set("core", "1");
+      if (next.sort !== "recent") u.set("sort", next.sort);
+      history.replaceState(null, "", `${location.pathname}${u.size ? `?${u}` : ""}`);
+      return next;
+    });
+  return [st, update] as const;
+}
 
-  const list = useMemo(
-    () =>
-      rows.filter(
-        (r) =>
-          (!sub || r.subsystems.includes(sub)) &&
-          (!kind || r.kind === kind) &&
-          (!query || `${r.title} ${r.authors.join(" ")} ${r.year}`.toLowerCase().includes(query)),
-      ),
-    [rows, sub, kind, query],
-  );
-  const kinds = [...new Set(rows.map((r) => r.kind))];
+export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: Labels; names: Record<string, string> }) {
+  const [rows, setRows] = useState<Row[] | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [st, set] = useUrlState();
+  const [limit, setLimit] = useState(PAGE);
+  const query = useDeferredValue(st.q.trim().toLowerCase());
+
+  useEffect(() => {
+    fetch("/library/index.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then(setRows, (e: Error) => setError(e.message));
+  }, []);
+  useEffect(() => setLimit(PAGE), [query, st.s, st.k, st.o, st.all, st.core, st.sort]);
+
+  const list = useMemo(() => {
+    if (!rows) return [];
+    const words = query.split(/\s+/).filter(Boolean);
+    return rows
+      .filter((r) => (!st.s || r.s.includes(st.s)) && (!st.k || r.k === st.k) && (!st.o || r.o) && (st.all || r.r > 0) && (!st.core || r.r === 2)
+        && words.every((w) => `${r.t} ${r.a.join(" ")} ${r.y} ${r.v}`.toLowerCase().includes(w)))
+      .sort((a, b) => (st.sort === "cited" ? b.c - a.c || b.y - a.y : b.y - a.y || b.c - a.c));
+  }, [rows, query, st]);
+  const kinds = useMemo(() => [...new Set((rows ?? []).map((r) => r.k))].sort(), [rows]);
 
   return (
     <div className="grid gap-10">
       <div className="grid gap-6">
         <div className="relative max-w-xl">
           <label htmlFor="q" className="sr-only">{labels.search}</label>
-          <MagnifyingGlass size={18} weight="light" className="absolute left-5 top-1/2 -translate-y-1/2 text-muted" aria-hidden />
-          <input
-            id="q"
-            name="q"
-            type="search"
-            autoComplete="off"
-            spellCheck={false}
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder={labels.search}
-            className="h-12 w-full rounded-full bg-surface pl-12 pr-5 text-base text-fg ring-1 ring-line outline-none placeholder:text-muted focus:ring-fg/40"
-          />
+          <MagnifyingGlass size={18} weight="bold" className="absolute left-4 top-1/2 -translate-y-1/2 text-muted" aria-hidden />
+          <input id="q" name="q" type="search" autoComplete="off" spellCheck={false} value={st.q} onChange={(e) => set({ q: e.target.value })} placeholder={labels.search}
+            className="h-11 w-full rounded-md border border-line bg-surface pl-11 pr-4 text-base text-fg outline-none placeholder:text-muted focus:border-line-strong" />
         </div>
         <div className="grid gap-3">
-          <span className="text-sm text-muted">{labels.subsystem}</span>
+          <span className="text-xs uppercase tracking-[0.05em] text-muted">{labels.subsystem}</span>
           <div className="flex flex-wrap gap-2">
-            <Chip on={!sub} onClick={() => setSub(null)}>{labels.all}</Chip>
+            <Chip on={!st.s} onClick={() => set({ s: "" })}>{labels.all}</Chip>
             {SUBSYSTEMS.map((s) => (
-              <Chip key={s} on={sub === s} onClick={() => setSub(sub === s ? null : s)}>
+              <Chip key={s} on={st.s === s} onClick={() => set({ s: st.s === s ? "" : s })}>
                 <span className="font-mono">{s}</span> {names[s]}
               </Chip>
             ))}
           </div>
         </div>
         <div className="grid gap-3">
-          <span className="text-sm text-muted">{labels.kind}</span>
+          <span className="text-xs uppercase tracking-[0.05em] text-muted">{labels.kind}</span>
           <div className="flex flex-wrap gap-2">
-            <Chip on={!kind} onClick={() => setKind(null)}>{labels.all}</Chip>
+            <Chip on={!st.k} onClick={() => set({ k: "" })}>{labels.all}</Chip>
             {kinds.map((k) => (
-              <Chip key={k} on={kind === k} onClick={() => setKind(kind === k ? null : k)}>{labels.kinds[k] ?? k}</Chip>
+              <Chip key={k} on={st.k === k} onClick={() => set({ k: st.k === k ? "" : k })}>{labels.kinds[k] ?? k}</Chip>
             ))}
           </div>
         </div>
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
+          <label className="flex cursor-pointer items-center gap-2 text-fg-2">
+            <input type="checkbox" checked={st.o} onChange={(e) => set({ o: e.target.checked })} className="size-4 accent-[var(--ink)]" />
+            {labels.onlyOpen}
+          </label>
+          <label className="flex cursor-pointer items-center gap-2 text-fg-2">
+            <input type="checkbox" checked={st.core} onChange={(e) => set({ core: e.target.checked })} className="size-4 accent-[var(--ink)]" />
+            {labels.core}
+          </label>
+          <label className="flex cursor-pointer items-center gap-2 text-fg-2">
+            <input type="checkbox" checked={st.all} onChange={(e) => set({ all: e.target.checked })} className="size-4 accent-[var(--ink)]" />
+            {labels.relevance}
+          </label>
+          <span className="flex items-center gap-2 text-muted">
+            {labels.sort}
+            <Chip on={st.sort === "recent"} onClick={() => set({ sort: "recent" })}>{labels.recent}</Chip>
+            <Chip on={st.sort === "cited"} onClick={() => set({ sort: "cited" })}>{labels.cited}</Chip>
+          </span>
+          {rows && <span className="ml-auto font-mono text-muted tabular-nums">{list.length} {labels.count}</span>}
+        </div>
       </div>
 
-      {list.length === 0 ? (
-        <p className="rounded-[1.6rem] p-10 text-center text-muted ring-1 ring-line">{labels.empty}</p>
-      ) : (
-        <ul className="grid">
-          {list.map((r) => (
-            <li key={r.id}>
-              <Link href={r.href} className="group grid gap-2 border-t border-line py-7 md:grid-cols-12 md:items-baseline md:gap-8">
-                <span className="font-mono text-sm text-muted md:col-span-1">{r.year}</span>
-                <span className="grid gap-1 md:col-span-7">
-                  <span className="text-lg font-medium tracking-[-0.02em] text-fg transition-colors duration-300 group-hover:text-accent md:text-xl">{r.title}</span>
-                  <span className="text-sm text-muted">{r.authors.join(", ")}</span>
-                </span>
-                <span className="flex flex-wrap items-center gap-2 text-xs text-muted md:col-span-4 md:justify-end">
-                  {r.open && <span className="rounded-full bg-accent-soft px-2.5 py-1 text-accent">{labels.fulltext}</span>}
-                  <span className="rounded-full px-2.5 py-1 ring-1 ring-line">{labels.kinds[r.kind] ?? r.kind}</span>
-                  <span className="font-mono">{r.subsystems.join(" ")}</span>
-                </span>
-              </Link>
-            </li>
-          ))}
+      {error && <p className="tag tag-red w-max">{error}</p>}
+      {!rows && !error && (
+        <ul className="grid gap-px" aria-busy="true" aria-label={labels.loading}>
+          {Array.from({ length: 8 }, (_, i) => <li key={i} className="h-16 animate-pulse rounded-md bg-gray-bg" />)}
         </ul>
+      )}
+      {rows && list.length === 0 && <p className="card p-10 text-center text-muted">{labels.empty}</p>}
+      {rows && list.length > 0 && (
+        <>
+          <ul className="border-t border-line">
+            {list.slice(0, limit).map((r) => (
+              <li key={r.id} className="[content-visibility:auto] [contain-intrinsic-size:auto_88px]">
+                <Link href={r.st ? `/${lang}/biblioteca/${r.id}/` : `/${lang}/biblioteca/ver/?id=${encodeURIComponent(r.id)}`} className="group grid gap-1.5 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
+                  <span className="font-mono text-sm text-muted md:col-span-1">{r.y}</span>
+                  <span className="grid gap-1 md:col-span-8">
+                    <span className="text-[1.05rem] text-fg group-hover:text-fg-2">{r.t}</span>
+                    <span className="line-clamp-1 text-sm text-muted">{r.a.join(", ")}</span>
+                  </span>
+                  <span className="flex flex-wrap items-center gap-1.5 md:col-span-3 md:justify-end">
+                    {r.r === 2 && <span className="tag tag-blue">{labels.core}</span>}
+                    {r.o === 1 && <span className="tag tag-green">{labels.fulltext}</span>}
+                    <span className="tag">{labels.kinds[r.k] ?? r.k}</span>
+                    <span className="font-mono text-xs text-muted">{r.s.join(" ")}</span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {limit < list.length && (
+            <button type="button" onClick={() => setLimit((l) => l + PAGE)} className="mx-auto h-11 rounded-md border border-line bg-surface px-5 text-sm text-fg hover:border-line-strong">
+              {labels.more} ({list.length - limit})
+            </button>
+          )}
+        </>
       )}
     </div>
   );

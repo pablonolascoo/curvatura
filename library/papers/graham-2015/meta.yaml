@@ -1,0 +1,27 @@
+id: graham-2015
+title: "A systematic search for close supermassive black hole binaries in the Catalina Real-Time Transient Survey"
+authors:
+  - "Matthew J. Graham"
+  - "S. G. Djorgovski"
+  - "Daniel Stern"
+  - "Andrew J. Drake"
+  - "Ashish A. Mahabal"
+  - "Ciro Donalek"
+  - "Eilat Glikman"
+  - "Steve Larsen"
+  - "Eric Christensen"
+year: 2015
+venue: "arXiv:1507.07603"
+doi: 10.1093/mnras/stv1726
+arxiv: "1507.07603"
+source: https://arxiv.org/abs/1507.07603
+language: en
+subsystems: [D, V]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

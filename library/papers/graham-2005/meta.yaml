@@ -1,0 +1,20 @@
+id: graham-2005
+title: "Plate with a hole obeys the averaged null energy condition"
+authors:
+  - "Noah Graham"
+  - "Ken D. Olum"
+year: 2005
+venue: "Phys.Rev.D72:025013,2005"
+doi: 10.1103/physrevd.72.025013
+arxiv: "hep-th/0506136"
+source: https://arxiv.org/abs/hep-th/0506136
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

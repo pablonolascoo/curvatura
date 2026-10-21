@@ -1,0 +1,20 @@
+id: cen-2025
+title: "Upper bound on the radius of the innermost stable circular orbit of black holes"
+authors:
+  - "Yiting Cen"
+  - "Yong Song"
+year: 2025
+venue: "Phys. Lett.B 866 (2025)139545"
+doi: null
+arxiv: "2505.02107"
+source: https://arxiv.org/abs/2505.02107
+language: en
+subsystems: [G, E, P]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

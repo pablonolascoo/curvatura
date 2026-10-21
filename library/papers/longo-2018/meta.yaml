@@ -1,0 +1,19 @@
+id: longo-2018
+title: "Entropy distribution of localised states"
+authors:
+  - "Roberto Longo"
+year: 2018
+venue: "arXiv:1809.03358"
+doi: 10.1007/s00220-019-03332-8
+arxiv: "1809.03358"
+source: https://arxiv.org/abs/1809.03358
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

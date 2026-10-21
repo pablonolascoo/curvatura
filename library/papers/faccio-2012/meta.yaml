@@ -1,0 +1,23 @@
+id: faccio-2012
+title: "Optical black hole lasers"
+authors:
+  - "Daniele Faccio"
+  - "Tal Arane"
+  - "Marco Lamperti"
+  - "Ulf Leonhardt"
+year: 2012
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/29/22/224009
+arxiv: "1209.4993"
+source: https://arxiv.org/abs/1209.4993
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 47
+cites_seeds: [barcelo-2011]
+relevance: media

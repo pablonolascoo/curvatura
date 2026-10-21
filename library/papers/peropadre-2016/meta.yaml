@@ -1,0 +1,21 @@
+id: peropadre-2016
+title: "Dynamical Casimir Effect for Gaussian Boson Sampling"
+authors:
+  - "Borja Peropadre"
+  - "Joonsuk Huh"
+  - "Carlos Sabín"
+year: 2016
+venue: "Scientific Reports 8, 3751 (2018)"
+doi: null
+arxiv: "1610.07777"
+source: https://arxiv.org/abs/1610.07777
+language: en
+subsystems: [E, D]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

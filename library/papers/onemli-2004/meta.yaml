@@ -1,0 +1,20 @@
+id: onemli-2004
+title: "Quantum effects can render w<-1 on cosmological scales"
+authors:
+  - "V. K. Onemli"
+  - "R. P. Woodard"
+year: 2004
+venue: "Phys.Rev. D70 (2004) 107301"
+doi: 10.1103/physrevd.70.107301
+arxiv: "gr-qc/0406098"
+source: https://arxiv.org/abs/gr-qc/0406098
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

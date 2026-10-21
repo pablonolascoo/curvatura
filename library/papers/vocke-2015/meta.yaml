@@ -1,0 +1,27 @@
+id: vocke-2015
+title: "The role of geometry in the superfluid flow of nonlocal photon fluids"
+authors:
+  - "David Vocke"
+  - "Kali Wilson"
+  - "Francesco Marino"
+  - "Iacopo Carusotto"
+  - "Ewan M. Wright"
+  - "Thomas Roger"
+  - "Brian P. Anderson"
+  - "Patrik Öhberg"
+  - "Daniele Faccio"
+year: 2015
+venue: "Phys. Rev. A 94, 013849 (2016)"
+doi: 10.1103/physreva.94.013849
+arxiv: "1511.06634"
+source: https://arxiv.org/abs/1511.06634
+language: en
+subsystems: [V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

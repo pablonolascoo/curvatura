@@ -1,0 +1,20 @@
+id: garcia-2018
+title: "Dirac equation in exotic spacetimes"
+authors:
+  - "Javier Faba García"
+  - "Carlos Sabín"
+year: 2018
+venue: "Phys. Rev. D 99, 025008 (2019)"
+doi: 10.1103/physrevd.99.025008
+arxiv: "1811.00385"
+source: https://arxiv.org/abs/1811.00385
+language: en
+subsystems: [G, C]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

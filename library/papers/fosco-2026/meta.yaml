@@ -1,0 +1,20 @@
+id: fosco-2026
+title: "Dynamical Casimir effect in the worldline formulation"
+authors:
+  - "C. D. Fosco"
+  - "B. C. Guntsche"
+year: 2026
+venue: "Phys. Rev. D 114, 025016 (2026)"
+doi: 10.1103/vn2g-ryw1
+arxiv: "2604.13237"
+source: https://arxiv.org/abs/2604.13237
+language: en
+subsystems: [G, E, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

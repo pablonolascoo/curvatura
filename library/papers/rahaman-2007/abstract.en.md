@@ -1,0 +1,1 @@
+We propose wormholes solutions by assuming space dependent equation of state parameter. Our models show that the existence of wormholes is supported by arbitrary small quantities of averaged null energy condition (ANEC) violating phantom energy characterized by variable equation state parameter.

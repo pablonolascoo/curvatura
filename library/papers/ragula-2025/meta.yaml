@@ -1,0 +1,21 @@
+id: ragula-2025
+title: "A review of applications of quantum energy teleportation: from experimental tests to thermodynamics and spacetime engineering"
+authors:
+  - "Boris Ragula"
+  - "Eduardo Martín-Martínez"
+year: 2025
+venue: "Canadian Journal of Physics"
+doi: 10.1139/cjp-2025-0128
+arxiv: "2505.04689"
+source: https://arxiv.org/abs/2505.04689
+language: en
+subsystems: [G]
+kind: experimental
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,19 @@
+id: hotta-2007
+title: "A Fundamental Lower Bound of Actuating Energy for Broadband Photon Switching"
+authors:
+  - "Masahiro Hotta"
+year: 2007
+venue: "arXiv:0711.1858"
+doi: 10.1016/j.physleta.2008.02.058
+arxiv: "0711.1858"
+source: https://arxiv.org/abs/0711.1858
+language: en
+subsystems: [E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

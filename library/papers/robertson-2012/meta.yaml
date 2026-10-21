@@ -1,0 +1,20 @@
+id: robertson-2012
+title: "The theory of Hawking radiation in laboratory analogues"
+authors:
+  - "Scott Robertson"
+year: 2012
+venue: "Journal of Physics B Atomic Molecular and Optical Physics"
+doi: 10.1088/0953-4075/45/16/163001
+arxiv: "1508.02569"
+source: https://arxiv.org/abs/1508.02569
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 108
+cites_seeds: [barcelo-2011]
+relevance: media

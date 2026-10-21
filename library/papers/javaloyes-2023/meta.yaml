@@ -1,0 +1,22 @@
+id: javaloyes-2023
+title: "A General Model for Wildfire Propagation with Wind and Slope"
+authors:
+  - "Miguel Ángel Javaloyes"
+  - "Enrique Pendás-Recondo"
+  - "Miguel Sánchez"
+year: 2023
+venue: "SIAM Journal on Applied Algebra and Geometry"
+doi: 10.1137/22m1477866
+arxiv: "2110.03364"
+source: https://arxiv.org/abs/2110.03364
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: micheli-2023
+title: "Entanglement and decoherence in cosmology and in analogue gravity experiments"
+authors:
+  - "Amaury Micheli"
+year: 2023
+venue: "dissertation"
+doi: 10.70675/a99c7bcazd462z4586zafb3zeef3e64a2618
+arxiv: null
+source: https://doi.org/10.70675/a99c7bcazd462z4586zafb3zeef3e64a2618
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

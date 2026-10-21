@@ -1,0 +1,20 @@
+id: millis-2007
+title: "Energy Considerations of Hypothetical Space Drives"
+authors:
+  - "Marc G. Millis"
+year: 2007
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit (JPC)"
+doi: 10.2514/6.2007-5594
+arxiv: null
+source: https://doi.org/10.2514/6.2007-5594
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [krasnikov-1998]
+relevance: media

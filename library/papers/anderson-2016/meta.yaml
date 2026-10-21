@@ -1,0 +1,26 @@
+id: anderson-2016
+title: "Ray trajectories for Alcubierre spacetime"
+authors:
+  - "Tom H. Anderson"
+  - "Tom G. Mackay"
+  - "Nanomm Nanoengineered"
+  - "Metamaterials Group"
+  - "Akhlesh Lakhtakia"
+  - "Nanomm Nanoengineered"
+  - "Metamaterials Group"
+year: 2016
+venue: "preprint"
+doi: null
+arxiv: null
+source: https://openalex.org/W3105797630
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [lobo-visser-2004, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+relevance: alta

@@ -1,0 +1,22 @@
+id: ahn-2022
+title: "Traversable wormholes via a double trace deformation involving $U(1)$ conserved current operators"
+authors:
+  - "Byoungjoon Ahn"
+  - "Sang-Eon Bak"
+  - "Viktor Jahnke"
+  - "Keun-Young Kim"
+year: 2022
+venue: "Phys. Rev. D 109, 066016 (2024)"
+doi: 10.1103/physrevd.109.066016
+arxiv: "2206.03434"
+source: https://arxiv.org/abs/2206.03434
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

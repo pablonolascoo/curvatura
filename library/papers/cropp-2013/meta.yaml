@@ -1,0 +1,22 @@
+id: cropp-2013
+title: "Surface gravities for non-Killing horizons"
+authors:
+  - "Bethan Cropp"
+  - "Stefano Liberati"
+  - "Matt Visser"
+year: 2013
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/30/12/125001
+arxiv: "1302.2383"
+source: https://arxiv.org/abs/1302.2383
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 64
+cites_seeds: [barcelo-2011]
+relevance: media

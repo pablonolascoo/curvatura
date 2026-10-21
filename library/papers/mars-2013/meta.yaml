@@ -1,0 +1,22 @@
+id: mars-2013
+title: "Review on exact and perturbative deformations of the Einstein–Straus model: uniqueness and rigidity results"
+authors:
+  - "Marc Mars"
+  - "Filipe C. Mena"
+  - "Raül Vera"
+year: 2013
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-013-1574-1
+arxiv: "1307.4371"
+source: https://arxiv.org/abs/1307.4371
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [alcubierre-1994]
+relevance: media

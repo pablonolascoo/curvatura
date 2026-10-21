@@ -1,0 +1,20 @@
+id: ahmed-2018c
+title: "A type N radiation field solution with $$\\Lambda <0$$ Λ < 0 in a curved space-time and closed time-like curves"
+authors:
+  - "Faizuddin Ahmed"
+year: 2018
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-018-5880-3
+arxiv: "1705.07405"
+source: https://arxiv.org/abs/1705.07405
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [alcubierre-1994]
+relevance: media

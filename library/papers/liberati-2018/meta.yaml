@@ -1,0 +1,22 @@
+id: liberati-2018
+title: "Towards a Gordon form of the Kerr spacetime"
+authors:
+  - "Stefano Liberati"
+  - "Giovanni Tricella"
+  - "Matt Visser"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aacb75
+arxiv: "1803.03933"
+source: https://arxiv.org/abs/1803.03933
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: krasnikov-2006
+title: "Evaporation induced traversability of the Einstein-Rosen wormhole"
+authors:
+  - "Serguei Krasnikov"
+year: 2006
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.73.084006
+arxiv: "gr-qc/0507079"
+source: https://arxiv.org/abs/gr-qc/0507079
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [pfenning-ford-1997]
+relevance: media

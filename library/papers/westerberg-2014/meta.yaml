@@ -1,0 +1,23 @@
+id: westerberg-2014
+title: "Experimental quantum cosmology in time-dependent optical media"
+authors:
+  - "N. Westerberg"
+  - "S. Cacciatori"
+  - "F. Belgiorno"
+  - "F. Dalla Piazza"
+  - "D. Faccio"
+year: 2014
+venue: "arXiv:1403.5910"
+doi: 10.1088/1367-2630/16/7/075003
+arxiv: "1403.5910"
+source: https://arxiv.org/abs/1403.5910
+language: en
+subsystems: [G, E, D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

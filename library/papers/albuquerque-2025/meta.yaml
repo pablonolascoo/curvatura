@@ -1,0 +1,20 @@
+id: albuquerque-2025
+title: "Bayesian analysis of analog gravity systems with the Rezzolla-Zhidenko metric"
+authors:
+  - "Saulo Albuquerque"
+  - "Sebastian H. Völkel"
+year: 2025
+venue: "Phys. Rev. D 111, 124020 (2025)"
+doi: 10.1103/kwrg-rs71
+arxiv: "2501.09000"
+source: https://arxiv.org/abs/2501.09000
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

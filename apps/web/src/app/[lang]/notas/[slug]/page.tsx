@@ -23,13 +23,13 @@ export default async function NotePage({ params }: PageProps<"/[lang]/notas/[slu
   if (!n) notFound();
   const t = getDictionary(lang);
   return (
-    <article className="mx-auto grid max-w-[820px] gap-10 px-4 pb-24 pt-36 md:px-8 md:pt-44">
+    <article className="mx-auto grid max-w-[820px] gap-10 px-4 pb-24 pt-32 md:px-8 md:pt-40">
       <Link href={`/${lang}/notas/`} className="inline-flex w-max items-center gap-2 text-sm text-muted hover:text-fg">
         <ArrowLeft size={16} weight="light" aria-hidden /> {t.notes.back}
       </Link>
       <header className="grid gap-5">
         <time dateTime={n.date} className="font-mono text-sm text-muted">{formatDate(n.date, lang)}</time>
-        <h1 className="text-[clamp(2.2rem,5vw,4rem)] font-medium leading-[1] tracking-[-0.04em]">{n.title}</h1>
+        <h1 className="font-serif text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.05] tracking-[-0.03em]">{n.title}</h1>
         <p className="text-lg text-muted">{n.summary}</p>
       </header>
       <div className="prose-paper" dangerouslySetInnerHTML={{ __html: renderMarkdown(n.body) }} />

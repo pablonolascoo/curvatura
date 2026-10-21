@@ -1,0 +1,19 @@
+id: bilic-2021b
+title: "Analog Schwarzschild-like geometry in fluids with external pressure"
+authors:
+  - "Neven Bilic"
+year: 2021
+venue: "arXiv:2112.13349"
+doi: 10.1103/physrevd.105.064052
+arxiv: "2112.13349"
+source: https://arxiv.org/abs/2112.13349
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

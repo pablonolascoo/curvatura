@@ -1,0 +1,20 @@
+id: burwig-2026
+title: "Affine ANEC selects the closed FRW branch for geodesically complete cosmology"
+authors:
+  - "Nathan L. Burwig"
+  - "Damien A. Easson"
+year: 2026
+venue: "arXiv:2605.18965"
+doi: null
+arxiv: "2605.18965"
+source: https://arxiv.org/abs/2605.18965
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

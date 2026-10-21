@@ -1,0 +1,21 @@
+id: hu-2006
+title: "Quantum inequalities for massless spin-3/2 field in Minkowski spacetime"
+authors:
+  - "Bo Hu"
+  - "Yi Ling"
+  - "Hongbao Zhang"
+year: 2006
+venue: "Phys.Rev.D73:045015,2006"
+doi: 10.1103/physrevd.73.045015
+arxiv: "gr-qc/0601038"
+source: https://arxiv.org/abs/gr-qc/0601038
+language: en
+subsystems: [C, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

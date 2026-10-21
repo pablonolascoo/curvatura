@@ -1,0 +1,20 @@
+id: bukhari-2023
+title: "Seeing dark matter via acceleration radiation"
+authors:
+  - "Syed Masood A. S. Bukhari"
+  - "Li-Gang Wang"
+year: 2023
+venue: "Phys. Rev. D 109 (2024),04 045009"
+doi: 10.1103/physrevd.109.045009
+arxiv: "2309.11958"
+source: https://arxiv.org/abs/2309.11958
+language: en
+subsystems: [G, E, D, M, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

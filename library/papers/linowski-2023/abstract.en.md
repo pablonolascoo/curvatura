@@ -1,0 +1,1 @@
+We use the reduced state of the field formalism [Entropy 21, 705 (2019)] to derive conditions under which a Bogoliubov transformation can be considered semi-classical. We apply this result to the dynamical Casimir effect in a moving medium [Phys. Rev. A 78, 042109 (2008)], discussing its classical and quantum features.

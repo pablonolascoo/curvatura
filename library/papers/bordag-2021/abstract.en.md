@@ -1,0 +1,1 @@
+We calculate the vacuum (Casimir) energy for a scalar field with $φ^4$ self-interaction in (1+1) dimensions non perturbatively, i.e., in all orders of the self-interaction. We consider massive and massless fields in a finite box with Dirichlet boundary conditions and on the whole axis as well. For strong coupling, the vacuum energy is negative indicating some instability.

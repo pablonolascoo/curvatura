@@ -1,0 +1,22 @@
+id: bostelmann-2013
+title: "Quantum energy inequality for the massive Ising model"
+authors:
+  - "Henning Bostelmann"
+  - "Daniela Cadamuro"
+  - "Christopher J. Fewster"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.88.025019
+arxiv: "1304.7682"
+source: https://arxiv.org/abs/1304.7682
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 30
+cites_seeds: [pfenning-ford-1997]
+relevance: media

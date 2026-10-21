@@ -1,0 +1,21 @@
+id: lee-2016b
+title: "Effects of external radiation on an Alcubierre warp bubble"
+authors:
+  - "Jeffrey S. Lee"
+  - "Gerald Cleaver"
+year: 2016
+venue: "Physics Essays"
+doi: 10.4006/0836-1398-29.2.201
+arxiv: "1407.7772"
+source: https://arxiv.org/abs/1407.7772
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [alcubierre-1994]
+relevance: alta

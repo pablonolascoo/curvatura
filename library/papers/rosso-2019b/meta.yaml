@@ -1,0 +1,20 @@
+id: rosso-2019b
+title: "Holography of negative energy states"
+authors:
+  - "Felipe Rosso"
+year: 2019
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.99.026002
+arxiv: "1809.04793"
+source: https://arxiv.org/abs/1809.04793
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [natario-2002]
+relevance: media

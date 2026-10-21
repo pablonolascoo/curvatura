@@ -1,0 +1,22 @@
+id: bohmer-2007
+title: "Conformally symmetric traversable wormholes"
+authors:
+  - "Christian G. Böhmer"
+  - "Tiberiu Harko"
+  - "Francisco S. N. Lobo"
+year: 2007
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.76.084014
+arxiv: "0708.1537"
+source: https://arxiv.org/abs/0708.1537
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 95
+cites_seeds: [lobo-visser-2004]
+relevance: media

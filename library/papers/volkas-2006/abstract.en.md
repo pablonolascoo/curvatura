@@ -1,0 +1,1 @@
+The most obvious field-theoretic model for a brane is a scalar field domain wall or kink. I discuss how this idea can be connected with spontaneous internal symmetry breaking via a mechanism called the ``clash of symmetries''. Compatibility with Randall and Sundrum's warped metric alternative to compactification is then demonstrated. I end with brief remarks about open questions.

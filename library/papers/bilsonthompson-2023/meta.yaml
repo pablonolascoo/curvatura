@@ -1,0 +1,24 @@
+id: bilsonthompson-2023
+title: "Tachyonic media in analog models of special relativity"
+authors:
+  - "Sundance Bilson-Thompson"
+  - "Scott L. Todd"
+  - "James Alexander Mabyn Read"
+  - "Valentina Baccetti"
+  - "Nicolas C. Menicucci"
+year: 2023
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.108.124020
+arxiv: "2305.12113"
+source: https://arxiv.org/abs/2305.12113
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

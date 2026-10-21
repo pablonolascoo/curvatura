@@ -1,0 +1,20 @@
+id: rosso-2019
+title: "Localized thermal states and negative energy"
+authors:
+  - "Felipe Rosso"
+year: 2019
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep10(2019)246
+arxiv: "1907.07699"
+source: https://arxiv.org/abs/1907.07699
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [natario-2002]
+relevance: media

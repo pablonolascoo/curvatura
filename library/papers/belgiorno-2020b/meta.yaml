@@ -1,0 +1,21 @@
+id: belgiorno-2020b
+title: "Analogue Hawking Effect: a master equation"
+authors:
+  - "F. Belgiorno"
+  - "S. L. Cacciatori"
+  - "A. Viganò"
+year: 2020
+venue: "Phys. Rev. D 102, 105003 (2020)"
+doi: 10.1103/physrevd.102.105003
+arxiv: "2003.04236"
+source: https://arxiv.org/abs/2003.04236
+language: en
+subsystems: [V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

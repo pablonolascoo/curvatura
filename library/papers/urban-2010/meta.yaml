@@ -1,0 +1,20 @@
+id: urban-2010
+title: "Spacetime Averaged Null Energy Condition"
+authors:
+  - "Douglas Urban"
+  - "Ken D. Olum"
+year: 2010
+venue: "Phys.Rev.D81:124004,2010"
+doi: 10.1103/physrevd.81.124004
+arxiv: "1002.4689"
+source: https://arxiv.org/abs/1002.4689
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

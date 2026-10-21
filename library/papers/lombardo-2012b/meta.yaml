@@ -1,0 +1,20 @@
+id: lombardo-2012b
+title: "Decoherence and Loss of Entanglement in Acoustic Black Holes"
+authors:
+  - "Fernando C. Lombardo"
+  - "Gustavo J. Turiaci"
+year: 2012
+venue: "Phys. Rev. Lett. 108, 261301 (2012)"
+doi: 10.1103/physrevlett.108.261301
+arxiv: "1206.1351"
+source: https://arxiv.org/abs/1206.1351
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

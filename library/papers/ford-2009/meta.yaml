@@ -1,0 +1,20 @@
+id: ford-2009
+title: "Effects of Vacuum Fluctuation Suppression on Atomic Decay Rates"
+authors:
+  - "L. H. Ford"
+  - "Thomas A. Roman"
+year: 2009
+venue: "Annals Phys.326:2294,2011"
+doi: 10.1016/j.aop.2011.04.004
+arxiv: "0907.1638"
+source: https://arxiv.org/abs/0907.1638
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

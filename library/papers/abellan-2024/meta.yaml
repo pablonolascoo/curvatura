@@ -1,0 +1,22 @@
+id: abellan-2024
+title: "Spherical warp-based bubble with non–trivial lapse function and its consequences on matter content"
+authors:
+  - "Gabriel Abellán"
+  - "Nelson Enrique Bolivar"
+  - "Ivaylo T. Vasilev"
+year: 2024
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ad3ed9
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/ad3ed9
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, lentz-2021, lobo-visser-2004, natario-2002, santiago-2022]
+relevance: media

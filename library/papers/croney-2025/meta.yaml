@@ -1,0 +1,22 @@
+id: croney-2025
+title: "Thermodynamics of dyonic black holes in non-linear electrodynamics"
+authors:
+  - "Lewis Croney"
+  - "Ruth Gregory"
+  - "Carlos J. Ramírez-Valdez"
+year: 2025
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep10(2025)013
+arxiv: "2506.06437"
+source: https://arxiv.org/abs/2506.06437
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

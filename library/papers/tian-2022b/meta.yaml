@@ -1,0 +1,23 @@
+id: tian-2022b
+title: "Testing the upper bound on the speed of scrambling with an analogue of Hawking radiation using trapped ions"
+authors:
+  - "Zehua Tian"
+  - "Yiheng Lin"
+  - "Uwe R. Fischer"
+  - "Jiangfeng Du"
+year: 2022
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-022-10149-8
+arxiv: "2007.05949"
+source: https://arxiv.org/abs/2007.05949
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 46
+cites_seeds: [barcelo-2011]
+relevance: media

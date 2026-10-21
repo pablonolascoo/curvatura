@@ -1,0 +1,26 @@
+id: yang-2025
+title: "Measuring Prosody Diversity in Zero-Shot TTS: A New Metric, Benchmark, and Exploration"
+authors:
+  - "Yifan Yang"
+  - "Bing Han"
+  - "Hui Wang"
+  - "Long Zhou"
+  - "Wei Wang"
+  - "Mingyu Cui"
+  - "Xu Tan"
+  - "Xie Chen"
+year: 2025
+venue: "arXiv:2509.19928"
+doi: null
+arxiv: "2509.19928"
+source: https://arxiv.org/abs/2509.19928
+language: en
+subsystems: [V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

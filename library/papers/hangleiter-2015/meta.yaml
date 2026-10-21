@@ -1,0 +1,25 @@
+id: hangleiter-2015
+title: "Nondestructive selective probing of phononic excitations in a cold Bose gas using impurities"
+authors:
+  - "Dominik Hangleiter"
+  - "Mark T. Mitchison"
+  - "T. H. Johnson"
+  - "M. Bruderer"
+  - "Martin Bodo Plenio"
+  - "Dieter Jaksch"
+year: 2015
+venue: "Physical Review A"
+doi: 10.1103/physreva.91.013611
+arxiv: "1411.0688"
+source: https://arxiv.org/abs/1411.0688
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 39
+cites_seeds: [barcelo-2011]
+relevance: media

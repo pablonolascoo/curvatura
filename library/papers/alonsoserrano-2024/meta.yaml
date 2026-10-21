@@ -1,0 +1,22 @@
+id: alonsoserrano-2024
+title: "Emergent Time and Time Travel in Quantum Physics"
+authors:
+  - "Ana Alonso-Serrano"
+  - "Sebastian Schuster"
+  - "Matt Visser"
+year: 2024
+venue: "Universe"
+doi: 10.3390/universe10020073
+arxiv: null
+source: https://doi.org/10.3390/universe10020073
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [krasnikov-1998, santiago-2022]
+relevance: media

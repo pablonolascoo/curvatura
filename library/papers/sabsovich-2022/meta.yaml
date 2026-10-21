@@ -1,0 +1,25 @@
+id: sabsovich-2022
+title: "Hawking fragmentation and Hawking attenuation in Weyl semimetals"
+authors:
+  - "Daniel Sabsovich"
+  - "Paul Wunderlich"
+  - "V. Fleurov"
+  - "Dmitry I. Pikulin"
+  - "Roni Ilan"
+  - "Tobias Meng"
+year: 2022
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.4.013055
+arxiv: "2106.14553"
+source: https://arxiv.org/abs/2106.14553
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 36
+cites_seeds: [barcelo-2011]
+relevance: media

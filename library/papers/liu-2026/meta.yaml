@@ -1,0 +1,23 @@
+id: liu-2026
+title: "Scene-Conditioned PINN-GNN for Multipath RF Maps: Cross-Scene Generation and In-Scene Completion"
+authors:
+  - "Lizhou Liu"
+  - "Xiaohui Chen"
+  - "Zihan Tang"
+  - "Mengyao Ma"
+  - "Wenyi Zhang"
+year: 2026
+venue: "arXiv:2607.01777"
+doi: null
+arxiv: "2607.01777"
+source: https://arxiv.org/abs/2607.01777
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,20 @@
+id: palessandro-2026
+title: "Quantum Inequalities From the Second Law"
+authors:
+  - "Andrea Palessandro"
+year: 2026
+venue: "International Journal of Theoretical Physics"
+doi: 10.1007/s10773-026-06434-x
+arxiv: "2608.11817"
+source: https://arxiv.org/abs/2608.11817
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [finazzi-2009]
+relevance: media

@@ -1,0 +1,23 @@
+id: guo-2017
+title: "Acceleration of low-latency gravitational wave searches using Maxwell-microarchitecture GPUs"
+authors:
+  - "Xiangyu Guo"
+  - "Qi Chu"
+  - "Shin Kee Chung"
+  - "Zhihui Du"
+  - "Linqing Wen"
+year: 2017
+venue: "arXiv:1702.02256"
+doi: null
+arxiv: "1702.02256"
+source: https://arxiv.org/abs/1702.02256
+language: en
+subsystems: [D, V]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

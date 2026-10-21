@@ -1,0 +1,23 @@
+id: patrick-2018
+title: "Black Hole Quasibound States from a Draining Bathtub Vortex Flow"
+authors:
+  - "Sam Patrick"
+  - "Antonin Coutant"
+  - "Maurício Richartz"
+  - "Silke Weinfurtner"
+year: 2018
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.121.061101
+arxiv: "1801.08473"
+source: https://arxiv.org/abs/1801.08473
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 64
+cites_seeds: [barcelo-2011]
+relevance: media

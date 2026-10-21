@@ -1,0 +1,20 @@
+id: millis-1997
+title: "Challenge to Create the Space Drive"
+authors:
+  - "Marc G. Millis"
+year: 1997
+venue: "Journal of Propulsion and Power"
+doi: 10.2514/2.5215
+arxiv: null
+source: https://doi.org/10.2514/2.5215
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 73
+cites_seeds: [alcubierre-1994]
+relevance: media

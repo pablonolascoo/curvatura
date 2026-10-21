@@ -1,0 +1,20 @@
+id: horowitz-1998
+title: "The AdS/CFT Correspondence and a New Positive Energy Conjecture for General Relativity"
+authors:
+  - "Gary T. Horowitz"
+  - "Robert C. Myers"
+year: 1998
+venue: "Phys.Rev.D59:026005,1998"
+doi: 10.1103/physrevd.59.026005
+arxiv: "hep-th/9808079"
+source: https://arxiv.org/abs/hep-th/9808079
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

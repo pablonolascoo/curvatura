@@ -1,0 +1,22 @@
+id: anchordoqui-2000
+title: "Radiation from a uniformly accelerated charge in the outskirts of a wormhole throat"
+authors:
+  - "Luis A. Anchordoqui"
+  - "S. Capozziello"
+  - "G. Lambiase"
+  - "Diego F. Torres"
+year: 2000
+venue: "Mod.Phys.Lett.A15:2219-2228,2000"
+doi: 10.1142/s0217732300002516
+arxiv: "gr-qc/0011097"
+source: https://arxiv.org/abs/gr-qc/0011097
+language: en
+subsystems: [C, M]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

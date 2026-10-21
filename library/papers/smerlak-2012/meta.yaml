@@ -1,0 +1,20 @@
+id: smerlak-2012
+title: "Tailoring diffusion in analog spacetimes"
+authors:
+  - "Matteo Smerlak"
+year: 2012
+venue: "Physical Review E"
+doi: 10.1103/physreve.85.041134
+arxiv: "1112.0798"
+source: https://arxiv.org/abs/1112.0798
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+relevance: media

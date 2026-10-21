@@ -1,0 +1,21 @@
+id: ghezzi-2025
+title: "Topological phase transitions in superfluids near black hole horizons"
+authors:
+  - "Cristian R. Ghezzi"
+  - "P. S. Custódio"
+year: 2025
+venue: "Physica Scripta"
+doi: 10.1088/1402-4896/ae083d
+arxiv: "2603.13544"
+source: https://arxiv.org/abs/2603.13544
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

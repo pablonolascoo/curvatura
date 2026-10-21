@@ -1,0 +1,24 @@
+id: morice-2022c
+title: "Report on scipost_202201_00020v1"
+authors:
+  - "Corentin Morice"
+  - "Corentin Morice"
+  - "Jasper van Wezel"
+  - "Jeroen van den Brink"
+  - "Ali G. Moghaddam"
+year: 2022
+venue: "peer-review"
+doi: 10.21468/scipost.report.4417
+arxiv: null
+source: https://doi.org/10.21468/scipost.report.4417
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

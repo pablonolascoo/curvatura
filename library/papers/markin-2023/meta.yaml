@@ -1,0 +1,25 @@
+id: markin-2023
+title: "General-Relativistic Hydrodynamics Simulation of a Neutron Star - Sub-Solar-Mass Black Hole Merger"
+authors:
+  - "Ivan Markin"
+  - "Anna Neuweiler"
+  - "Adrian Abac"
+  - "Swami Vivekanandji Chaurasia"
+  - "Maximiliano Ujevic"
+  - "Mattia Bulla"
+  - "Tim Dietrich"
+year: 2023
+venue: "Phys. Rev. D 108, 064025 (2023)"
+doi: 10.1103/physrevd.108.064025
+arxiv: "2304.11642"
+source: https://arxiv.org/abs/2304.11642
+language: en
+subsystems: [D, P, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,20 @@
+id: louko-2018
+title: "Thermality from a Rindler quench"
+authors:
+  - "Jorma Louko"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aadb34
+arxiv: "1807.04584"
+source: https://arxiv.org/abs/1807.04584
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+relevance: media

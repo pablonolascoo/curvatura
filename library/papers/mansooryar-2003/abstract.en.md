@@ -1,0 +1,1 @@
+Herein a process of suitable extraction of energy from vacuum is introduced. By followung Ridgely's idea[1], it is proposed some molecular fine-scale plates. Then some properties of them are considered. In fact Casimir effect is viewed in engineering manner. The introduced plates may be applied for support of traversable wormholes (TWs) & warp drives (WDs).

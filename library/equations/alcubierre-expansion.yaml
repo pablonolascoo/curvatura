@@ -1,0 +1,14 @@
+id: alcubierre-expansion
+paper: alcubierre-1994
+subsystem: G
+title: { es: Expansión del volumen, en: Volume expansion, fr: Expansion du volume }
+expr: "theta = v_s * x_s / r_s * diff(f(r_s), r_s)"
+symbols:
+  theta: { group: geometry, es: Expansión de los elementos de volumen, en: Expansion of volume elements, fr: Expansion des éléments de volume }
+  v_s: { group: velocity, es: Velocidad de la burbuja, en: Bubble velocity, fr: Vitesse de la bulle }
+  x_s: { group: geometry, es: Coordenada x relativa al centro, en: x relative to the centre, fr: x relatif au centre }
+  r_s: { group: geometry, es: Distancia al centro, en: Distance to the centre, fr: Distance au centre }
+note:
+  es: Negativa delante de la burbuja (el espacio se contrae) y positiva detrás (se expande).
+  en: Negative ahead of the bubble (space contracts) and positive behind it (space expands).
+  fr: Négative devant la bulle (l'espace se contracte) et positive derrière (il se dilate).

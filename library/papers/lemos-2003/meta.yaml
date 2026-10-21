@@ -1,0 +1,22 @@
+id: lemos-2003
+title: "Morris-Thorne wormholes with a cosmological constant"
+authors:
+  - "José P. S. Lemos"
+  - "Francisco S. N. Lobo"
+  - "Sérgio Quinet de Oliveira"
+year: 2003
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.68.064004
+arxiv: "gr-qc/0302049"
+source: https://arxiv.org/abs/gr-qc/0302049
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 377
+cites_seeds: [ford-roman-1996]
+relevance: media

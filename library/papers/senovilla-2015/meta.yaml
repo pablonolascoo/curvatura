@@ -1,0 +1,21 @@
+id: senovilla-2015
+title: "The 1965 Penrose singularity theorem"
+authors:
+  - "José M. M. Senovilla"
+  - "David Garfinkle"
+year: 2015
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/32/12/124008
+arxiv: "1410.5226"
+source: https://arxiv.org/abs/1410.5226
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 245
+cites_seeds: [barcelo-2011]
+relevance: media

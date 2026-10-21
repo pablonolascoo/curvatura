@@ -1,0 +1,22 @@
+id: robertson-2007
+title: "New frontiers in space propulsion sciences"
+authors:
+  - "Glen A. Robertson"
+  - "Paul Murad"
+  - "Eric W. Davis"
+year: 2007
+venue: "Energy Conversion and Management"
+doi: 10.1016/j.enconman.2007.10.013
+arxiv: null
+source: https://doi.org/10.1016/j.enconman.2007.10.013
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [lobo-visser-2004, pfenning-ford-1997, vandenbroeck-1999]
+relevance: media

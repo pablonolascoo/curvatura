@@ -1,0 +1,21 @@
+id: sabin-2015b
+title: "Quantum discord in the Dynamical Casimir Effect"
+authors:
+  - "Carlos Sabín"
+  - "Ivette Fuentes"
+  - "Göran Johansson"
+year: 2015
+venue: "Phys. Rev. A 92, 012314 (2015)"
+doi: 10.1103/physreva.92.012314
+arxiv: "1502.03753"
+source: https://arxiv.org/abs/1502.03753
+language: en
+subsystems: [E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,19 @@
+id: miyamoto-2018
+title: "Explosive particle creation by instantaneous change of boundary condition"
+authors:
+  - "Umpei Miyamoto"
+year: 2018
+venue: "Phys. Rev. D 99, 025012 (2019)"
+doi: 10.1103/physrevd.99.025012
+arxiv: "1805.02367"
+source: https://arxiv.org/abs/1805.02367
+language: en
+subsystems: [E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

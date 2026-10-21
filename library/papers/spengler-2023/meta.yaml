@@ -1,0 +1,23 @@
+id: spengler-2023
+title: "Optical solitons in curved spacetime"
+authors:
+  - "Felix Spengler"
+  - "Alessio Belenchia"
+  - "Dennis Rätzel"
+  - "Daniel Braun"
+year: 2023
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/acdd43
+arxiv: "2301.04986"
+source: https://arxiv.org/abs/2301.04986
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

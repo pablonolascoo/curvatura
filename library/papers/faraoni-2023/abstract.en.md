@@ -1,0 +1,1 @@
+Formal analogies between the ordinary differential equations describing geophysical flows and Friedmann cosmology are developed. As a result, one obtains Lagrangian and Hamiltonian formulations of these equations, while laboratory experiments aimed at testing geophysical flows are shown to constitute analogue gravity systems for cosmology.

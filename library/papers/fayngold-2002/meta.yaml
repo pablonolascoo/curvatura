@@ -1,0 +1,21 @@
+id: fayngold-2002
+title: "Special Relativity and Motions Faster than Light"
+authors:
+  - "Moses Fayngold"
+  - "J. G. Cramer"
+year: 2002
+venue: "Wiley eBooks"
+doi: 10.1002/3527602763
+arxiv: null
+source: https://doi.org/10.1002/3527602763
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 47
+cites_seeds: [alcubierre-1994]
+relevance: media

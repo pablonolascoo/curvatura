@@ -1,0 +1,22 @@
+id: faulkner-2016
+title: "Modular Hamiltonians for Deformed Half-Spaces and the Averaged Null Energy Condition"
+authors:
+  - "Thomas Faulkner"
+  - "Robert G. Leigh"
+  - "Onkar Parrikar"
+  - "Huajia Wang"
+year: 2016
+venue: "arXiv:1605.08072"
+doi: 10.1007/jhep09(2016)038
+arxiv: "1605.08072"
+source: https://arxiv.org/abs/1605.08072
+language: en
+subsystems: [C, D, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

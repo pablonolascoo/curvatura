@@ -1,0 +1,13 @@
+id: null-energy-condition
+paper: santiago-2022
+subsystem: C
+title: { es: Condición de energía nula, en: Null energy condition, fr: Condition d'énergie nulle }
+expr: "T_mu_nu * k__mu * k__nu >= 0"
+symbols:
+  T_mu_nu: { group: energy, es: Tensor energía-momento, en: Stress-energy tensor, fr: Tenseur énergie-impulsion }
+  k__mu: { group: geometry, es: Vector nulo, en: Null vector, fr: Vecteur nul }
+  k__nu: { group: geometry, es: Vector nulo, en: Null vector, fr: Vecteur nul }
+note:
+  es: Santiago, Schuster y Visser (2022) prueban que toda burbuja genérica la viola en algún punto.
+  en: Santiago, Schuster and Visser (2022) prove that every generic bubble violates it somewhere.
+  fr: Santiago, Schuster et Visser (2022) montrent que toute bulle générique la viole quelque part.

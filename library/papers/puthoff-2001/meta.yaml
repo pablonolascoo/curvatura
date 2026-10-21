@@ -1,0 +1,22 @@
+id: puthoff-2001
+title: "Engineering the Zero-Point Field and Polarizable Vacuum For Interstellar Flight"
+authors:
+  - "H. E. Puthoff"
+  - "Little, S. R."
+  - "M. Ibison"
+year: 2001
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.astro-ph/0107316
+arxiv: "astro-ph/0107316"
+source: https://arxiv.org/abs/astro-ph/0107316
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 37
+cites_seeds: [alcubierre-1994, everett-roman-1997]
+relevance: media

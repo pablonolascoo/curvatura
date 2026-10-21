@@ -1,0 +1,20 @@
+id: perlov-2003
+title: "Null energy conditions outside a background potential"
+authors:
+  - "Delia Schwartz Perlov"
+  - "Ken D. Olum"
+year: 2003
+venue: "Phys.Rev.D68:065016,2003; Erratum-ibid.D72:069901,2005"
+doi: 10.1103/physrevd.68.065016
+arxiv: "hep-th/0307067"
+source: https://arxiv.org/abs/hep-th/0307067
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

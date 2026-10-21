@@ -1,0 +1,23 @@
+id: nakahara-2004
+title: "Warp-Drive Quantum Computation"
+authors:
+  - "Mikio Nakahara"
+  - "Juha J. Vartiainen"
+  - "Yasushi Kondo"
+  - "Shogo Tanimura"
+  - "Kazuya Hata"
+year: 2004
+venue: "arXiv:quant-ph/0411153"
+doi: null
+arxiv: "quant-ph/0411153"
+source: https://arxiv.org/abs/quant-ph/0411153
+language: en
+subsystems: [G, C]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

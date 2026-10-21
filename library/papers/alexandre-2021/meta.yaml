@@ -1,0 +1,20 @@
+id: alexandre-2021
+title: "Tunnelling and dynamical violation of the Null Energy Condition"
+authors:
+  - "Jean Alexandre"
+  - "Janos Polonyi"
+year: 2021
+venue: "Phys. Rev. D 103, 105020 (2021)"
+doi: 10.1103/physrevd.103.105020
+arxiv: "2101.08640"
+source: https://arxiv.org/abs/2101.08640
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

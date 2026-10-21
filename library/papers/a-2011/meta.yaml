@@ -1,0 +1,22 @@
+id: a-2011
+title: "A New Class of Stable (2+1) Dimensional Thin Shell Wormhole"
+authors:
+  - "Farook Rahaman A"
+  - "Ayan Banerjee"
+  - "Irina Radinschi"
+year: 2011
+venue: "International Journal of Theoretical Physics"
+doi: 10.1007/s10773-011-1045-y
+arxiv: "1109.0976"
+source: https://arxiv.org/abs/1109.0976
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 41
+cites_seeds: [ford-roman-1996]
+relevance: media

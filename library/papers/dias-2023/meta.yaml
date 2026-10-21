@@ -1,0 +1,22 @@
+id: dias-2023
+title: "Black hole-wormhole collisions and the emergence of islands"
+authors:
+  - "João M. Dias"
+  - "Antonia M. Frassino"
+  - "Valentin D. Paccoia"
+  - "Jorge V. Rocha"
+year: 2023
+venue: "Phys. Rev. D 107 (2023) 124056"
+doi: 10.1103/physrevd.107.124056
+arxiv: "2304.06098"
+source: https://arxiv.org/abs/2304.06098
+language: en
+subsystems: [C, D, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,21 @@
+id: alonsoserrano-2017
+title: "Multipartite analysis of average-subsystem entropies"
+authors:
+  - "Ana Alonso-Serrano"
+  - "Matt Visser"
+year: 2017
+venue: "Physical Review A"
+doi: 10.1103/physreva.96.052302
+arxiv: "1512.01890"
+source: https://arxiv.org/abs/1512.01890
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+relevance: media

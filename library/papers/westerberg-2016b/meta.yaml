@@ -1,0 +1,24 @@
+id: westerberg-2016b
+title: "Experimental quantum cosmology in time-dependent optical media"
+authors:
+  - "Niclas Westerberg"
+  - "Sergio L. Cacciatori"
+  - "F. Belgiorno"
+  - "F. Dalla Piazza"
+  - "Daniele Faccio"
+year: 2016
+venue: "preprint"
+doi: null
+arxiv: null
+source: https://openalex.org/W3099608630
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 27
+cites_seeds: [barcelo-2011]
+relevance: media

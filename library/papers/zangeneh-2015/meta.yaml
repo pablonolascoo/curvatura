@@ -1,0 +1,22 @@
+id: zangeneh-2015
+title: "Traversable wormholes satisfying the weak energy condition in third-order Lovelock gravity"
+authors:
+  - "M. Kord Zangeneh"
+  - "Francisco S. N. Lobo"
+  - "Mohammad Hossein Dehghani"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.92.124049
+arxiv: "1510.07089"
+source: https://arxiv.org/abs/1510.07089
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 131
+cites_seeds: [lobo-visser-2004]
+relevance: media

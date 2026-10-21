@@ -1,0 +1,20 @@
+id: vollick-1999
+title: "Wormholes in string theory"
+authors:
+  - "Dan N. Vollick"
+year: 1999
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/16/5/309
+arxiv: "gr-qc/9806096"
+source: https://arxiv.org/abs/gr-qc/9806096
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [ford-roman-1996]
+relevance: media

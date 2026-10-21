@@ -1,0 +1,22 @@
+id: rego-2021
+title: "Dynamical Casimir effect enhanced by decreasing the mirror reflectivity"
+authors:
+  - "Andreson L. C. Rego"
+  - "Alessandra N. Braga"
+  - "Jeferson Danilo L. Silva"
+  - "Danilo T. Alves"
+year: 2021
+venue: "arXiv:2110.12048"
+doi: 10.1103/physrevd.105.025013
+arxiv: "2110.12048"
+source: https://arxiv.org/abs/2110.12048
+language: en
+subsystems: [E, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

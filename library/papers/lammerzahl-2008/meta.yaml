@@ -1,0 +1,20 @@
+id: lammerzahl-2008
+title: "Why gravity experiments are so exciting"
+authors:
+  - "Cláus Lämmerzahl"
+year: 2008
+venue: "The European Physical Journal Special Topics"
+doi: 10.1140/epjst/e2008-00823-7
+arxiv: null
+source: https://doi.org/10.1140/epjst/e2008-00823-7
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [alcubierre-1994]
+relevance: media

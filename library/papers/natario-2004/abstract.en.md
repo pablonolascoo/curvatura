@@ -1,0 +1,1 @@
+We find a class of warp drive spacetimes possessing Newtonian limits, which we then determine. The same method is used to compute Newtonian limits of the Schwarzschild solution and spatially flat Friedmann-Robertson-Walker cosmological models.

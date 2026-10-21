@@ -1,0 +1,20 @@
+id: weinfurtner-2019
+title: "Quantum simulation of black-hole radiation"
+authors:
+  - "Silke Weinfurtner"
+year: 2019
+venue: "Nature"
+doi: 10.1038/d41586-019-01592-x
+arxiv: null
+source: https://doi.org/10.1038/d41586-019-01592-x
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [barcelo-2011]
+relevance: media

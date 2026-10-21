@@ -1,0 +1,20 @@
+id: lobo-2019b
+title: "The Warp Drive: search for a pure mathematical approach"
+authors:
+  - "Matheus Pereira Lobo"
+year: 2019
+venue: "preprint"
+doi: 10.31219/osf.io/ht246
+arxiv: null
+source: https://doi.org/10.31219/osf.io/ht246
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [alcubierre-1994]
+relevance: alta

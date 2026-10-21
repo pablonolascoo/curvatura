@@ -1,0 +1,20 @@
+id: luminet-2021
+title: "Closed Timelike Curves, Singularities and Causality: A Survey from Gödel to Chronological Protection"
+authors:
+  - "Jean‐Pierre Luminet"
+year: 2021
+venue: "Universe"
+doi: 10.3390/universe7010012
+arxiv: "2101.08592"
+source: https://arxiv.org/abs/2101.08592
+language: en
+subsystems: [G, D]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

@@ -1,0 +1,20 @@
+id: dehghani-2011
+title: "Lovelock Thin-Shell Wormholes"
+authors:
+  - "M. H. Dehghani"
+  - "M. R. Mehdizadeh"
+year: 2011
+venue: "Phys. Rev. D 85, 024024 (2012)"
+doi: 10.1103/physrevd.85.024024
+arxiv: "1111.5680"
+source: https://arxiv.org/abs/1111.5680
+language: en
+subsystems: [C, S]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

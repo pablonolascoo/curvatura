@@ -1,0 +1,20 @@
+id: liberati-2013
+title: "Tests of Lorentz invariance: a 2013 update"
+authors:
+  - "Stefano Liberati"
+year: 2013
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/30/13/133001
+arxiv: "1304.5795"
+source: https://arxiv.org/abs/1304.5795
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 446
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: paraoanu-2014
+title: "Recent Progress in Quantum Simulation Using Superconducting Circuits"
+authors:
+  - "Gheorghe Sorin Paraoanu"
+year: 2014
+venue: "Journal of Low Temperature Physics"
+doi: 10.1007/s10909-014-1175-8
+arxiv: "1402.1388"
+source: https://arxiv.org/abs/1402.1388
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 75
+cites_seeds: [barcelo-2011]
+relevance: media

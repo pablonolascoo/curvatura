@@ -1,0 +1,21 @@
+id: polchinski-1999
+title: "Negative Energy, Superluminosity and Holography"
+authors:
+  - "Joseph Polchinski"
+  - "Leonard Susskind"
+  - "Nicolaos Toumbas"
+year: 1999
+venue: "Phys.Rev.D60:084006,1999"
+doi: 10.1103/physrevd.60.084006
+arxiv: "hep-th/9903228"
+source: https://arxiv.org/abs/hep-th/9903228
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

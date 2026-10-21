@@ -1,0 +1,21 @@
+id: friedman-2005
+title: "Topological censorship and chronology protection"
+authors:
+  - "J. Friedman"
+  - "A. Higuchi"
+year: 2005
+venue: "Annalen der Physik"
+doi: 10.1002/andp.200510172
+arxiv: "0801.0735"
+source: https://arxiv.org/abs/0801.0735
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [pfenning-ford-1997]
+relevance: media

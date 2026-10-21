@@ -1,0 +1,23 @@
+id: white-2025
+title: "Interior-flat cylindrical nacelle warp bubbles: derivation and comparison with Alcubierre model"
+authors:
+  - "Harold G. White"
+  - "Jerry Vera"
+  - "Andre J. Sylvester"
+  - "Leonard Dudzinski"
+year: 2025
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ae237a
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/ae237a
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, krasnikov-1998, lentz-2021, lobo-visser-2004, natario-2002, pfenning-ford-1997, santiago-2022, vandenbroeck-1999]
+relevance: alta

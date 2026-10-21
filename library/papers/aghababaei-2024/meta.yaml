@@ -1,0 +1,25 @@
+id: aghababaei-2024
+title: "Effective information bounds in modified quantum mechanics"
+authors:
+  - "S. Aghababaei"
+  - "Hooman Moradpour"
+  - "Salman Sajad Wani"
+  - "Francesco Marino"
+  - "Naveed Ahmad Shah"
+  - "Mir Faizal"
+year: 2024
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-024-12749-y
+arxiv: "2211.09227"
+source: https://arxiv.org/abs/2211.09227
+language: en
+subsystems: [G]
+kind: restriccion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

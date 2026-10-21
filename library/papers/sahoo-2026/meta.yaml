@@ -1,0 +1,21 @@
+id: sahoo-2026
+title: "Analog Gravity in Magneto-Viscous Fluids: Enhanced Analog Hawking Temperature in Accretion Disks"
+authors:
+  - "Aliv Sahoo"
+  - "Mayank Pathak"
+  - "Banibrata Mukhopadhyay"
+year: 2026
+venue: "arXiv:2609.16135"
+doi: null
+arxiv: "2609.16135"
+source: https://arxiv.org/abs/2609.16135
+language: en
+subsystems: [G, D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

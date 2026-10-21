@@ -1,0 +1,22 @@
+id: berry-2022
+title: "General-relativistic thin-shell Dyson megaspheres"
+authors:
+  - "Thomas Berry"
+  - "Alex Simpson"
+  - "Matt Visser"
+year: 2022
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.106.084001
+arxiv: "2207.02465"
+source: https://arxiv.org/abs/2207.02465
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [santiago-2022]
+relevance: media

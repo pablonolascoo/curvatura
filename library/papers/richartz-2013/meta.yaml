@@ -1,0 +1,23 @@
+id: richartz-2013
+title: "Super-radiant scattering of dispersive fields"
+authors:
+  - "Maurício Richartz"
+  - "Angus Prain"
+  - "Silke Weinfurtner"
+  - "Stefano Liberati"
+year: 2013
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/30/8/085009
+arxiv: "1208.3601"
+source: https://arxiv.org/abs/1208.3601
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 29
+cites_seeds: [barcelo-2011]
+relevance: media

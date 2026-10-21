@@ -1,0 +1,20 @@
+id: kay-2024
+title: "Quantum Field Theory in Curved Spacetime"
+authors:
+  - "Bernard S. Kay"
+year: 2024
+venue: "Encyclopedia of Mathematical Physics"
+doi: 10.1016/b978-0-323-95703-8.00085-9
+arxiv: null
+source: https://doi.org/10.1016/b978-0-323-95703-8.00085-9
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

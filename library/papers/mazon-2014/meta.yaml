@@ -1,0 +1,20 @@
+id: mazon-2014
+title: "Use of energy loss mechanisms to constrain Lorentz invariance violations"
+authors:
+  - "Diego Mazón"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.89.056012
+arxiv: "1401.2964"
+source: https://arxiv.org/abs/1401.2964
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

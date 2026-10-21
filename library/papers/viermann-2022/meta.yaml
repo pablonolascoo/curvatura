@@ -1,0 +1,31 @@
+id: viermann-2022
+title: "Quantum field simulator for dynamics in curved spacetime"
+authors:
+  - "Celia Viermann"
+  - "Marius Sparn"
+  - "Nikolas Liebster"
+  - "Maurus Hans"
+  - "Elinor Kath"
+  - "Álvaro Parra-López"
+  - "Mireia Tolosa-Simeón"
+  - "Natalia Sánchez-Kuntz"
+  - "Tobias Haas"
+  - "Helmut Strobel"
+  - "Stefan Floerchinger"
+  - "Markus K. Oberthaler"
+year: 2022
+venue: "Nature"
+doi: 10.1038/s41586-022-05313-9
+arxiv: "2202.10399"
+source: https://arxiv.org/abs/2202.10399
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 107
+cites_seeds: [barcelo-2011]
+relevance: media

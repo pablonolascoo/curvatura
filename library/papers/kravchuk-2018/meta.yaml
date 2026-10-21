@@ -1,0 +1,20 @@
+id: kravchuk-2018
+title: "Light-ray operators in conformal field theory"
+authors:
+  - "Petr Kravchuk"
+  - "David Simmons-Duffin"
+year: 2018
+venue: "arXiv:1805.00098"
+doi: 10.1007/jhep11(2018)102
+arxiv: "1805.00098"
+source: https://arxiv.org/abs/1805.00098
+language: en
+subsystems: [C, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

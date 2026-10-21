@@ -1,0 +1,20 @@
+id: dawson-2005
+title: "A quantum weak energy inequality for the Dirac field in two-dimensional flat spacetime"
+authors:
+  - "S P Dawson"
+year: 2005
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/23/1/014
+arxiv: "gr-qc/0508058"
+source: https://arxiv.org/abs/gr-qc/0508058
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

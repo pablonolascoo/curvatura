@@ -1,0 +1,22 @@
+id: frasca-2020
+title: "Warping Effects in Strongly Perturbed Metrics"
+authors:
+  - "Marco Frasca"
+  - "Riccardo  Maria Liberati"
+  - "Massimiliano Rossi"
+year: 2020
+venue: "Physics"
+doi: 10.3390/physics2040039
+arxiv: "2010.11031"
+source: https://arxiv.org/abs/2010.11031
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, lentz-2021]
+relevance: media

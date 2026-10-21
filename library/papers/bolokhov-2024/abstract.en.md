@@ -1,0 +1,1 @@
+A correspondence between two distinct spectral problems, quasinormal modes and grey-body factors, has recently been established for a wide class of black holes. Here, we demonstrate that a similar correspondence exists for a broad class of traversable wormholes and verify it using several well-known examples.

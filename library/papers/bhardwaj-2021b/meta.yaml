@@ -1,0 +1,22 @@
+id: bhardwaj-2021b
+title: "Inflationary dynamics and particle production in a toroidal Bose-Einstein condensate"
+authors:
+  - "Anshuman Bhardwaj"
+  - "Dzmitry Vaido"
+  - "Daniel E. Sheehy"
+year: 2021
+venue: "Physical Review A"
+doi: 10.1103/physreva.103.023322
+arxiv: "2009.05611"
+source: https://arxiv.org/abs/2009.05611
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [barcelo-2011]
+relevance: media

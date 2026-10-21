@@ -1,0 +1,22 @@
+id: finazzi-2010
+title: "Superluminal warp drives are semiclassically unstable"
+authors:
+  - "Stefano Finazzi"
+  - "Stefano Liberati"
+  - "Carlos Barceló"
+year: 2010
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/222/1/012046
+arxiv: null
+source: https://doi.org/10.1088/1742-6596/222/1/012046
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [finazzi-2009, lobo-visser-2004, pfenning-ford-1997, vandenbroeck-1999]
+relevance: alta

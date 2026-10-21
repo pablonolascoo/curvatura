@@ -1,0 +1,20 @@
+id: halerewicz-2001c
+title: "Warp Drive Today: theory and limitations"
+authors:
+  - "E. F. Halerewicz"
+year: 2001
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W2548294781
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: alta

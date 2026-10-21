@@ -1,0 +1,23 @@
+id: rhyno-2023
+title: "Mechanical cosmology: simulating scalar fluctuations in expanding Universes using synthetic mechanical lattices"
+authors:
+  - "Brendan Rhyno"
+  - "Ivan Velkovsky"
+  - "Peter Adshead"
+  - "Bryce Gadway"
+  - "Smitha Vishveshwara"
+year: 2023
+venue: "arXiv:2312.13467"
+doi: 10.1103/physrevresearch.7.l022004
+arxiv: "2312.13467"
+source: https://arxiv.org/abs/2312.13467
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

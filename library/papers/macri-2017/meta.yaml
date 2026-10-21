@@ -1,0 +1,24 @@
+id: macri-2017
+title: "Non-perturbative Dynamical Casimir Effect in Optomechanical Systems: Vacuum Casimir-Rabi Splittings"
+authors:
+  - "Vincenzo Macrì"
+  - "Alessandro Ridolfo"
+  - "Omar Di Stefano"
+  - "Anton Frisk Kockum"
+  - "Franco Nori"
+  - "Salvatore Savasta"
+year: 2017
+venue: "Phys. Rev. X 8, 011031 (2018)"
+doi: 10.1103/physrevx.8.011031
+arxiv: "1706.04134"
+source: https://arxiv.org/abs/1706.04134
+language: en
+subsystems: [E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

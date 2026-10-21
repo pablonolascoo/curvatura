@@ -1,0 +1,22 @@
+id: mi-2025
+title: "Quasibound states of massless spin particles in Schwarzschild equivalent mediums*"
+authors:
+  - "Li-Qin Mi"
+  - "Dandan Li"
+  - "Zhong-Heng Li"
+year: 2025
+venue: "Communications in Theoretical Physics"
+doi: 10.1088/1572-9494/adff04
+arxiv: "2509.17717"
+source: https://arxiv.org/abs/2509.17717
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: goldman-2022
+title: "An Inquiry on Warp Drives and Wormholes"
+authors:
+  - "Daniel S Goldman"
+year: 2022
+venue: "preprint"
+doi: 10.31219/osf.io/sre5z
+arxiv: null
+source: https://doi.org/10.31219/osf.io/sre5z
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: alta

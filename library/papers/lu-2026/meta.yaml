@@ -1,0 +1,21 @@
+id: lu-2026
+title: "Quantum Channel Capacity of Traversable Wormhole"
+authors:
+  - "Jingru Lu"
+  - "Zhenbin Yang"
+  - "Jianming Zheng"
+year: 2026
+venue: "arXiv:2603.26051"
+doi: null
+arxiv: "2603.26051"
+source: https://arxiv.org/abs/2603.26051
+language: en
+subsystems: [G, E]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

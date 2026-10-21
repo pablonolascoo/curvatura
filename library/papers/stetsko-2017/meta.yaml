@@ -1,0 +1,20 @@
+id: stetsko-2017
+title: "Fermionic quasinormal modes for two-dimensional Hořava–Lifshitz black holes"
+authors:
+  - "M. M. Stetsko"
+year: 2017
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-017-4983-6
+arxiv: "1612.09172"
+source: https://arxiv.org/abs/1612.09172
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

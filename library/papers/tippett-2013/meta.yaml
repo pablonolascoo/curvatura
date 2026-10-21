@@ -1,0 +1,20 @@
+id: tippett-2013
+title: "The Blue Box White Paper"
+authors:
+  - "Benjamin K Tippett"
+  - "David Tsang"
+year: 2013
+venue: "arXiv:1310.7983"
+doi: null
+arxiv: "1310.7983"
+source: https://arxiv.org/abs/1310.7983
+language: en
+subsystems: [G, C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

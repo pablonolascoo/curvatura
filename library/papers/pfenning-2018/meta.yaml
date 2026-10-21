@@ -1,0 +1,19 @@
+id: pfenning-2018
+title: "Particle creation and energy conditions for a quantized scalar field in the presence of an external, time-dependent, Mamev-Trunov potential"
+authors:
+  - "Michael J. Pfenning"
+year: 2018
+venue: "Phys. Rev. D 98, 065004 (2018)"
+doi: 10.1103/physrevd.98.065004
+arxiv: "1807.02496"
+source: https://arxiv.org/abs/1807.02496
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

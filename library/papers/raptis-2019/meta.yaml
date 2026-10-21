@@ -1,0 +1,20 @@
+id: raptis-2019
+title: "Encoding discrete quantum algebras in a hierarchy of binary words"
+authors:
+  - "T. E. Raptis"
+year: 2019
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/1251/1/012041
+arxiv: "1806.01637"
+source: https://arxiv.org/abs/1806.01637
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

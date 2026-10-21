@@ -1,0 +1,19 @@
+id: maclaurin-2019
+title: "Schwarzschild spacetime under generalised Gullstrand-Painlevé slicing"
+authors:
+  - "Colin MacLaurin"
+year: 2019
+venue: "chapter 9 in Cacciatori, Güneysu & Pigola, eds., Einstein equations: Physical and mathematical aspects of general relativity (Birkhauser, 2019)"
+doi: 10.1007/978-3-030-18061-4_9
+arxiv: "1911.05988"
+source: https://arxiv.org/abs/1911.05988
+language: en
+subsystems: [V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

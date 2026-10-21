@@ -1,0 +1,22 @@
+id: garriga-1999
+title: "Eternal inflation, black holes, and the future of civilizations"
+authors:
+  - "J. Garriga"
+  - "V. F. Mukhanov"
+  - "K. D. Olum"
+  - "A. Vilenkin"
+year: 1999
+venue: "Int.J.Theor.Phys.39:1887-1900,2000"
+doi: 10.1023/a:1003602000709
+arxiv: "astro-ph/9909143"
+source: https://arxiv.org/abs/astro-ph/9909143
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

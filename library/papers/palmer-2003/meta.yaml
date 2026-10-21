@@ -1,0 +1,21 @@
+id: palmer-2003
+title: "Fast travel through spherically symmetric spacetimes"
+authors:
+  - "Belkis Cabrera Palmer"
+  - "Donald M. Marolf"
+year: 2003
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.67.044012
+arxiv: "gr-qc/0211045"
+source: https://arxiv.org/abs/gr-qc/0211045
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [krasnikov-1998]
+relevance: media

@@ -1,0 +1,20 @@
+id: bertolami-2013
+title: "Zen and the Art of Space-Time Manufacturing"
+authors:
+  - "Orfeu Bertolami"
+year: 2013
+venue: "EPJ Web of Conferences"
+doi: 10.1051/epjconf/20135802001
+arxiv: "1303.2381"
+source: https://arxiv.org/abs/1303.2381
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [lobo-visser-2004]
+relevance: media

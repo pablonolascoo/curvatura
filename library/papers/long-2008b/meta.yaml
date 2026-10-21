@@ -1,0 +1,20 @@
+id: long-2008b
+title: "The Status of the Warp Drive"
+authors:
+  - "K. F. Long"
+year: 2008
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W3006245382
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [krasnikov-1998]
+relevance: alta

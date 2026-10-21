@@ -1,0 +1,21 @@
+id: batic-2026
+title: "Exact solutions for slowly rotating wormholes in the presence of an anisotropic fluid"
+authors:
+  - "Davide Batic"
+  - "Denys Dutykh"
+  - "Mark Essa Sukaiti"
+year: 2026
+venue: "Class. Quantum Grav. 43 095007 (2026)"
+doi: 10.1088/1361-6382/ae60db
+arxiv: "2605.02555"
+source: https://arxiv.org/abs/2605.02555
+language: en
+subsystems: [C, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

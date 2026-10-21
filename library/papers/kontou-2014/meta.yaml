@@ -1,0 +1,20 @@
+id: kontou-2014
+title: "Quantum inequality for a scalar field with a background potential"
+authors:
+  - "Eleni-Alexandra Kontou"
+  - "Ken D. Olum"
+year: 2014
+venue: "Phys. Rev. D 90, 024031 (2014)"
+doi: 10.1103/physrevd.90.024031
+arxiv: "1404.6541"
+source: https://arxiv.org/abs/1404.6541
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

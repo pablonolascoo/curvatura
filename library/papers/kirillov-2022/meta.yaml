@@ -1,0 +1,21 @@
+id: kirillov-2022
+title: "On Possible Origin of an Artificial Wormhole"
+authors:
+  - "Alexander A. Kirillov"
+  - "Elena P. Savelova"
+year: 2022
+venue: "Universe"
+doi: 10.3390/universe8080428
+arxiv: null
+source: https://doi.org/10.3390/universe8080428
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

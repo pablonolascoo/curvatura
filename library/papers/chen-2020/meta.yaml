@@ -1,0 +1,21 @@
+id: chen-2020
+title: "Trajectory of a flying plasma mirror traversing a target with density gradient"
+authors:
+  - "Pisin Chen"
+  - "Gerard A. Mourou"
+year: 2020
+venue: "Physics of Plasmas"
+doi: 10.1063/5.0012374
+arxiv: "2004.10615"
+source: https://arxiv.org/abs/2004.10615
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 28
+cites_seeds: [barcelo-2011]
+relevance: media

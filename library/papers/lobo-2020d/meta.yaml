@@ -1,0 +1,20 @@
+id: lobo-2020d
+title: "Internet of People"
+authors:
+  - "Matheus Pereira Lobo"
+year: 2020
+venue: "article"
+doi: 10.21428/c53615e7.355f8f7f
+arxiv: null
+source: https://doi.org/10.21428/c53615e7.355f8f7f
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

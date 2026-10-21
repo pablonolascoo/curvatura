@@ -1,0 +1,20 @@
+id: low-1999c
+title: "Speed Limits in General Relativity"
+authors:
+  - "Robert J. Low"
+year: 1999
+venue: "preprint"
+doi: null
+arxiv: null
+source: https://openalex.org/W3104718621
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [alcubierre-1994, krasnikov-1998, pfenning-ford-1997]
+relevance: media

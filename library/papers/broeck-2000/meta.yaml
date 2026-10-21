@@ -1,0 +1,20 @@
+id: broeck-2000
+title: "Alcubierre’s warp drive: Problems and prospects"
+authors:
+  - "Chris Van Den Broeck"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1290913
+arxiv: null
+source: https://doi.org/10.1063/1.1290913
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [krasnikov-1998, vandenbroeck-1999]
+relevance: alta

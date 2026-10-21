@@ -1,0 +1,21 @@
+id: r-2002b
+title: "Warped space-time for phonons moving in a perfect nonrelativistic fluid"
+authors:
+  - "Fischer, U R"
+  - "Matt Visser"
+year: 2002
+venue: "CERN Document Server (European Organization for Nuclear Research)"
+doi: null
+arxiv: null
+source: https://openalex.org/W3099713619
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [alcubierre-1994, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+relevance: media

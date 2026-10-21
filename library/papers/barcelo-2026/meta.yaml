@@ -1,0 +1,22 @@
+id: barcelo-2026
+title: "Analogue gravity"
+authors:
+  - "Carlos Barceló"
+  - "Stefano Liberati"
+  - "Matt Visser"
+year: 2026
+venue: "Living Reviews in Relativity"
+doi: 10.1007/s41114-026-00064-9
+arxiv: null
+source: https://doi.org/10.1007/s41114-026-00064-9
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [santiago-2022]
+relevance: media

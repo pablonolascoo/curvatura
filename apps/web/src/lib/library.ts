@@ -35,7 +35,7 @@ export function getPapers(): Paper[] {
     .map((d) => {
       const raw = YAML.parse(readFileSync(path.join(ROOT, d.name, "meta.yaml"), "utf8")) as Paper;
       if (!raw?.id || raw.id !== d.name) throw new Error(`meta.yaml inválido en library/papers/${d.name}`);
-      return { ...raw, translations: raw.translations ?? [], subsystems: raw.subsystems ?? [] };
+      return { ...raw, title: String(raw.title ?? d.name), authors: raw.authors ?? [], translations: raw.translations ?? [], subsystems: raw.subsystems ?? [] };
     })
     .sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
   return cache;
@@ -72,4 +72,15 @@ export function citation(p: Paper): string {
   return `${a} (${p.year}). ${p.title}. ${p.venue}.${p.doi ? ` doi:${p.doi}` : ""}`;
 }
 
-export const paperHref = (lang: Locale, id: string) => `/${lang}/biblioteca/${id}/`;
+/** Ids con página estática; los decide scripts/sync-library.ts (se ejecuta antes del build). */
+let staticIds: Set<string> | null = null;
+export function getStaticIds(): Set<string> {
+  if (!staticIds) {
+    const f = path.resolve(process.cwd(), "public/library/static-ids.json");
+    staticIds = new Set(existsSync(f) ? (JSON.parse(readFileSync(f, "utf8")) as string[]) : getPapers().map((p) => p.id));
+  }
+  return staticIds;
+}
+
+export const paperHref = (lang: Locale, id: string) =>
+  getStaticIds().has(id) ? `/${lang}/biblioteca/${id}/` : `/${lang}/biblioteca/ver/?id=${encodeURIComponent(id)}`;

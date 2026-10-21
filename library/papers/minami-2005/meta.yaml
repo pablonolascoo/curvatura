@@ -1,0 +1,20 @@
+id: minami-2005
+title: "A Perspective of Practical Interstellar Exploration: Using Field Propulsion and Hyper-Space Navigation Theory"
+authors:
+  - "Yoshinari Minami"
+year: 2005
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1867273
+arxiv: null
+source: https://doi.org/10.1063/1.1867273
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

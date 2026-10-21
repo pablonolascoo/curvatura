@@ -1,0 +1,22 @@
+id: dalui-2024
+title: "Spinning Black Hole in a Fluid"
+authors:
+  - "Surojit Dalui"
+  - "Arpan Krishna Mitra"
+  - "Deeshani Mitra"
+  - "Subir Ghosh"
+year: 2024
+venue: "Phys.Rev.D 109 (2024) 6, 064055"
+doi: 10.1103/physrevd.109.064055
+arxiv: "2402.15540"
+source: https://arxiv.org/abs/2402.15540
+language: en
+subsystems: [D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

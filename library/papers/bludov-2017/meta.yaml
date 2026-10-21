@@ -1,0 +1,21 @@
+id: bludov-2017
+title: "Escape of a vector matter–wave soliton from a parabolic trap"
+authors:
+  - "Yuliy V Bludov"
+  - "Monica A García-Ñustes"
+year: 2017
+venue: "Journal of Physics B Atomic Molecular and Optical Physics"
+doi: 10.1088/1361-6455/aa7432
+arxiv: "1501.02401"
+source: https://arxiv.org/abs/1501.02401
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

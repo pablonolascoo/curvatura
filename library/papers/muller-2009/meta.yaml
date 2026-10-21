@@ -1,0 +1,21 @@
+id: muller-2009
+title: "Catalogue of Spacetimes"
+authors:
+  - "Thomas Müller"
+  - "Frank Grave"
+year: 2009
+venue: "arXiv (Cornell University)"
+doi: null
+arxiv: "0904.4184"
+source: https://arxiv.org/abs/0904.4184
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [vandenbroeck-1999]
+relevance: media

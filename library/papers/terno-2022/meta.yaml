@@ -1,0 +1,19 @@
+id: terno-2022
+title: "Inaccessibility of traversable wormholes"
+authors:
+  - "Daniel R. Terno"
+year: 2022
+venue: "arXiv:2203.03770"
+doi: 10.1103/physrevd.106.044035
+arxiv: "2203.03770"
+source: https://arxiv.org/abs/2203.03770
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

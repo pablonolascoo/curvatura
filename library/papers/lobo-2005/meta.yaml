@@ -1,0 +1,20 @@
+id: lobo-2005
+title: "Energy conditions, traversable wormholes and dust shells"
+authors:
+  - "Francisco S. N. Lobo"
+year: 2005
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-005-0177-x
+arxiv: "gr-qc/0410087"
+source: https://arxiv.org/abs/gr-qc/0410087
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 115
+cites_seeds: [lobo-visser-2004, pfenning-ford-1997]
+relevance: media

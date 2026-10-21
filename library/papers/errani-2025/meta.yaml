@@ -1,0 +1,24 @@
+id: errani-2025
+title: "Negative-energy spin waves in antiferromagnets for spin-current amplification and analogue gravity"
+authors:
+  - "V. Errani"
+  - "Steven H. Schoenmaker"
+  - "X. R. Wang"
+  - "Olena Gomonay"
+  - "R. A. Duine"
+year: 2025
+venue: "Physical review. B./Physical review. B"
+doi: 10.1103/physrevb.112.024420
+arxiv: "2405.04996"
+source: https://arxiv.org/abs/2405.04996
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

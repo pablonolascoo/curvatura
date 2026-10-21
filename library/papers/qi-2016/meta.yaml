@@ -1,0 +1,20 @@
+id: qi-2016
+title: "Capacities of Quantum Amplifier Channels"
+authors:
+  - "Haoyu Qi"
+  - "Mark M. Wilde"
+year: 2016
+venue: "Physical Review A, vol. 95, no. 1, page 012339, January 2017"
+doi: 10.1103/physreva.95.012339
+arxiv: "1605.04922"
+source: https://arxiv.org/abs/1605.04922
+language: en
+subsystems: [E, Q]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

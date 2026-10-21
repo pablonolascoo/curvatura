@@ -1,0 +1,19 @@
+id: marecki-2002
+title: "Application of quantum inequalities to quantum optics"
+authors:
+  - "P. Marecki"
+year: 2002
+venue: "Phys. Rev. A 66, 053801 (2002)"
+doi: 10.1103/physreva.66.053801
+arxiv: "quant-ph/0203027"
+source: https://arxiv.org/abs/quant-ph/0203027
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

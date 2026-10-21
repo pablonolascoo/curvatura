@@ -1,0 +1,21 @@
+id: rougemont-2021
+title: "Hydrodynamization times of a holographic fluid far from equilibrium"
+authors:
+  - "Romulo Rougemont"
+  - "Willians Barreto"
+  - "Jorge Noronha"
+year: 2021
+venue: "Phys. Rev. D 105, 046009 (2022)"
+doi: 10.1103/physrevd.105.046009
+arxiv: "2111.08532"
+source: https://arxiv.org/abs/2111.08532
+language: en
+subsystems: [C, E, S]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

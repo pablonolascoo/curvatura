@@ -1,0 +1,20 @@
+id: anon-2023b
+title: "Acoustic metric and Planck constants"
+authors:
+  - "Григорий Ефимович Воловик"
+year: 2023
+venue: "Письма в Журнал экспериментальной и теоретической физики"
+doi: 10.31857/s1234567823070121
+arxiv: null
+source: https://doi.org/10.31857/s1234567823070121
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

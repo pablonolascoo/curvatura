@@ -1,0 +1,23 @@
+id: basilakos-2013
+title: "Resembling dark energy and modified gravity with Finsler-Randers cosmology"
+authors:
+  - "Spyros Basilakos"
+  - "Alexandros P. Kouretsis"
+  - "Emmanuel N. Saridakis"
+  - "Panayiotis C. Stavrinos"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.88.123510
+arxiv: "1311.5915"
+source: https://arxiv.org/abs/1311.5915
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 105
+cites_seeds: [barcelo-2011]
+relevance: media

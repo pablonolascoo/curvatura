@@ -1,0 +1,20 @@
+id: segman-2021
+title: "Warp Drive with Positive Energy"
+authors:
+  - "Yosef Joseph Segman"
+year: 2021
+venue: "Journal of High Energy Physics Gravitation and Cosmology"
+doi: 10.4236/jhepgc.2021.73051
+arxiv: null
+source: https://doi.org/10.4236/jhepgc.2021.73051
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994, natario-2002]
+relevance: alta

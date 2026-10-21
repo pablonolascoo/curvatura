@@ -1,0 +1,21 @@
+id: jr-2000
+title: "Preliminary simulations of vehicle interactions with the zero point vacuum by fluid dynamic approximations"
+authors:
+  - "H. Froning, Jr."
+  - "Robert L. Roach"
+year: 2000
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.2000-3478
+arxiv: null
+source: https://doi.org/10.2514/6.2000-3478
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [pfenning-ford-1997]
+relevance: media

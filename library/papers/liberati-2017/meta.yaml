@@ -1,0 +1,20 @@
+id: liberati-2017
+title: "Analogue gravity models of emergent gravity: lessons and pitfalls"
+authors:
+  - "Stefano Liberati"
+year: 2017
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/880/1/012009
+arxiv: null
+source: https://doi.org/10.1088/1742-6596/880/1/012009
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

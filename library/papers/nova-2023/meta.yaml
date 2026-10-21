@@ -1,0 +1,20 @@
+id: nova-2023
+title: "The BHL-BCL crossover: from nonlinear to linear quantum amplification"
+authors:
+  - "Juan Ramón Muñoz de Nova"
+  - "Fernando Sols"
+year: 2023
+venue: "Phys. Rev. Research 5, 043282 (2023)"
+doi: 10.1103/physrevresearch.5.043282
+arxiv: "2306.05458"
+source: https://arxiv.org/abs/2306.05458
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

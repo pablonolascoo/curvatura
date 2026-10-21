@@ -1,0 +1,23 @@
+id: a-2019
+title: "Neutrino oscillations in Unruh radiation"
+authors:
+  - "Massimo Blasone A"
+  - "Gaetano Lambiase"
+  - "Giuseppe Gaetano Luciano"
+  - "Luciano Petruzziello"
+year: 2019
+venue: "Physics Letters B"
+doi: 10.1016/j.physletb.2019.135083
+arxiv: "1903.03382"
+source: https://arxiv.org/abs/1903.03382
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 29
+cites_seeds: [barcelo-2011]
+relevance: media

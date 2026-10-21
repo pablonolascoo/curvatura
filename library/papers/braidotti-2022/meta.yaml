@@ -1,0 +1,23 @@
+id: braidotti-2022
+title: "The Penrose process in nonlinear optics"
+authors:
+  - "Maria Chiara Braidotti"
+  - "Francesco Marino"
+  - "Ewan M. Wright"
+  - "Daniele Faccio"
+year: 2022
+venue: "AVS Quantum Science"
+doi: 10.1116/5.0073218
+arxiv: null
+source: https://doi.org/10.1116/5.0073218
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

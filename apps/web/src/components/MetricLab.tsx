@@ -2,6 +2,8 @@
 
 import { FormulaSystem, parse, toMathML } from "@curvatura/formula";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { loadCore, type Core } from "@/lib/core";
+import { formatSci } from "./LiveEquation";
 import { WarpField } from "./WarpField";
 
 /** c²/G en kg/m: convierte una longitud geométrica en masa. */
@@ -19,6 +21,8 @@ type Labels = {
   geometric: string;
   note: string;
   canvas: string;
+  contraction: string;
+  expansion: string;
 };
 
 const sys = new FormulaSystem().define("f(r) = (tanh(sigma*(r + R)) - tanh(sigma*(r - R))) / (2*tanh(sigma*R))");
@@ -40,12 +44,6 @@ function totalEnergy(v: number, R: number, sigma: number): number {
   let acc = g(a) + g(b);
   for (let i = 1; i < n; i++) acc += g(a + i * h) * (i % 2 ? 4 : 2);
   return (-(v * v) * (acc * h)) / 3 / 12;
-}
-
-function sci(x: number, digits = 3): { m: string; e: number } {
-  if (x === 0 || !Number.isFinite(x)) return { m: "0", e: 0 };
-  const e = Math.floor(Math.log10(Math.abs(x)));
-  return { m: (x / 10 ** e).toFixed(digits - 1).replace("-", "−"), e };
 }
 
 const FORMULAS = {
@@ -92,7 +90,7 @@ function Slider(props: {
         onPointerUp={() => onActive(false)}
         onFocus={() => onActive(true)}
         onBlur={() => onActive(false)}
-        className="h-1 w-full cursor-pointer appearance-none rounded-full bg-line-strong accent-[var(--accent)]"
+        className="w-full cursor-pointer"
       />
     </div>
   );
@@ -114,8 +112,8 @@ function Plot({ R, sigma, labels }: { R: number; sigma: number; labels: Labels }
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.clearRect(0, 0, width, height);
       const css = getComputedStyle(document.documentElement);
-      const fg = css.getPropertyValue("--fg").trim();
-      const accent = css.getPropertyValue("--accent").trim();
+      const fg = css.getPropertyValue("--ink").trim();
+      const accent = css.getPropertyValue("--red").trim();
       const line = css.getPropertyValue("--line-strong").trim();
       const pad = 8;
       const mid = height * 0.55;
@@ -144,7 +142,7 @@ function Plot({ R, sigma, labels }: { R: number; sigma: number; labels: Labels }
       ctx.lineTo(X(N), mid);
       ctx.closePath();
       ctx.fillStyle = accent;
-      ctx.globalAlpha = 0.22;
+      ctx.globalAlpha = 0.12;
       ctx.fill();
       ctx.globalAlpha = 1;
       ctx.strokeStyle = accent;
@@ -172,26 +170,30 @@ function Plot({ R, sigma, labels }: { R: number; sigma: number; labels: Labels }
       <canvas ref={ref} className="h-44 w-full" aria-label={`${labels.shape} / ${labels.density}`} role="img" />
       <figcaption className="flex gap-6 text-xs text-muted">
         <span className="flex items-center gap-2">
-          <span className="h-px w-5 bg-fg" aria-hidden /> {labels.shape}
+          <span className="h-px w-5 bg-[var(--ink)]" aria-hidden /> {labels.shape}
         </span>
         <span className="flex items-center gap-2">
-          <span className="h-px w-5 bg-accent" aria-hidden /> {labels.density}
+          <span className="h-px w-5 bg-red" aria-hidden /> {labels.density}
         </span>
       </figcaption>
     </figure>
   );
 }
 
-export function MetricLab({ labels }: { labels: Labels }) {
+export function MetricLab({ labels, lang }: { labels: Labels; lang: string }) {
   const [v, setV] = useState(1);
   const [R, setR] = useState(100);
   const [sigma, setSigma] = useState(0.1);
   const [active, setActive] = useState<string | null>(null);
 
-  const E = useMemo(() => totalEnergy(v, R, sigma), [v, R, sigma]);
+  // Núcleo Rust en WebAssembly; mientras carga (o si falla) calcula el motor de fórmulas.
+  const [core, setCore] = useState<Core | null>(null);
+  const [coreError, setCoreError] = useState<string | null>(null);
+  useEffect(() => {
+    loadCore().then(setCore, (err: unknown) => setCoreError(err instanceof Error ? err.message : String(err)));
+  }, []);
+  const E = useMemo(() => (core ? core.totalEnergy(v, R, sigma) : totalEnergy(v, R, sigma)), [core, v, R, sigma]);
   const mJ = (E * C2_OVER_G) / M_JUPITER;
-  const e = sci(E);
-  const j = sci(mJ);
 
   const hl = active ? [active] : [];
   const html = useMemo(
@@ -209,8 +211,8 @@ export function MetricLab({ labels }: { labels: Labels }) {
 
   return (
     <div className="grid gap-6 lg:grid-cols-12">
-      <div className="rounded-[2rem] bg-fg/[0.03] p-1.5 ring-1 ring-line lg:col-span-7">
-        <div className="relative h-full min-h-[380px] overflow-hidden rounded-[calc(2rem-0.375rem)] bg-surface shadow-[inset_0_1px_0_rgb(255_255_255/0.06)] md:min-h-[560px]">
+      <div className="card relative overflow-hidden lg:col-span-7">
+        <div className="relative h-full min-h-[380px] md:min-h-[560px]">
           <WarpField
             params={view}
             amplitude={0.9 / Math.max(peak, 0.5) * (0.55 + 0.25 * Math.log10(1 + v))}
@@ -218,14 +220,18 @@ export function MetricLab({ labels }: { labels: Labels }) {
             label={labels.canvas}
             className="absolute inset-0"
           />
+          <div className="pointer-events-none absolute inset-x-0 top-0 flex flex-wrap gap-2 p-5">
+            <span className="tag tag-red">{labels.contraction}</span>
+            <span className="tag tag-blue">{labels.expansion}</span>
+          </div>
           <div className="pointer-events-none absolute inset-x-0 bottom-0 grid gap-1 p-6 md:p-8">
             <div className="overflow-x-auto text-lg text-fg md:text-xl" dangerouslySetInnerHTML={{ __html: html.metric }} />
           </div>
         </div>
       </div>
 
-      <div className="rounded-[2rem] bg-fg/[0.03] p-1.5 ring-1 ring-line lg:col-span-5">
-        <div className="grid h-full gap-8 rounded-[calc(2rem-0.375rem)] bg-surface p-6 shadow-[inset_0_1px_0_rgb(255_255_255/0.06)] md:p-8">
+      <div className="card lg:col-span-5">
+        <div className="grid h-full gap-8 p-6 md:p-8">
           <div className="overflow-x-auto text-[0.95rem] text-fg-2" dangerouslySetInnerHTML={{ __html: html.shape }} />
           <div className="grid gap-6">
             <Slider id="v" label={labels.velocity} symbol="v" unit="c" value={v} min={0.1} max={10} step={0.01} log onChange={setV} onActive={(on) => setActive(on ? "v_s" : null)} />
@@ -234,12 +240,15 @@ export function MetricLab({ labels }: { labels: Labels }) {
           </div>
           <Plot R={R} sigma={sigma} labels={labels} />
           <div className="grid gap-1 border-t border-line pt-6" aria-live="polite">
-            <span className="text-sm text-muted">{labels.energy}</span>
-            <span className="font-mono text-3xl tracking-tight tabular-nums text-fg">
-              {j.m}×10<sup>{j.e}</sup> <span className="text-base text-muted">{labels.jupiter}</span>
+            <span className="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.05em] text-muted">
+              {labels.energy}
+              <span className={`tag ${core ? "tag-green" : ""}`} title={coreError ?? undefined}>{core ? "Rust · WASM" : "TS"}</span>
+            </span>
+            <span className="font-mono text-3xl tracking-tight tabular-nums text-red">
+              {formatSci(mJ, lang)} <span className="text-base text-muted">{labels.jupiter}</span>
             </span>
             <span className="font-mono text-xs tabular-nums text-muted">
-              E = {e.m}×10<sup>{e.e}</sup> m ({labels.geometric})
+              E = {formatSci(E, lang)} m ({labels.geometric})
             </span>
           </div>
           <p className="text-xs leading-relaxed text-muted">{labels.note}</p>

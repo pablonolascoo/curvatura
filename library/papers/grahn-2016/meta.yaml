@@ -1,0 +1,22 @@
+id: grahn-2016
+title: "On the exhaust of electromagnetic drive"
+authors:
+  - "Patrick Grahn"
+  - "Arto Annila"
+  - "Erkki T. Kolehmainen"
+year: 2016
+venue: "AIP Advances"
+doi: 10.1063/1.4953807
+arxiv: null
+source: https://doi.org/10.1063/1.4953807
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [alcubierre-1994]
+relevance: media

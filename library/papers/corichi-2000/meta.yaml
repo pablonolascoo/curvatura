@@ -1,0 +1,21 @@
+id: corichi-2000
+title: "Einstein-Yang-Mills Isolated Horizons: Phase Space, Mechanics, Hair and Conjectures"
+authors:
+  - "Alejandro Corichi"
+  - "Ulises Nucamendi"
+  - "Daniel Sudarsky"
+year: 2000
+venue: "Phys.Rev.D62:044046,2000"
+doi: 10.1103/physrevd.62.044046
+arxiv: "gr-qc/0002078"
+source: https://arxiv.org/abs/gr-qc/0002078
+language: en
+subsystems: [G, E, P]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

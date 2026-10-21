@@ -1,0 +1,21 @@
+id: unruh-2012
+title: "Hawking radiation from “phase horizons” in laser filaments?"
+authors:
+  - "William George Unruh"
+  - "Ralf Schützhold"
+year: 2012
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.86.064006
+arxiv: "1202.6492"
+source: https://arxiv.org/abs/1202.6492
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 47
+cites_seeds: [barcelo-2011]
+relevance: media

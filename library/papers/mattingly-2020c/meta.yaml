@@ -1,0 +1,30 @@
+id: mattingly-2020c
+title: "Curvature Invariants for Lorentzian Traversable Wormholes"
+authors:
+  - "Brandon Mattingly"
+  - "Abinash Kar"
+  - "William Julius"
+  - "Matthew Gorban"
+  - "Cooper K. Watson"
+  - "MD Ali"
+  - "Andrew Baas"
+  - "Caleb Elmore"
+  - "Bahram Shakerin"
+  - "Eric W. Davis"
+  - "Gerald Cleaver"
+year: 2020
+venue: "Universe"
+doi: 10.3390/universe6010011
+arxiv: "1806.10985"
+source: https://arxiv.org/abs/1806.10985
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [alcubierre-1994]
+relevance: media

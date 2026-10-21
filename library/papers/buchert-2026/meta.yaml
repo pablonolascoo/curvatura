@@ -1,0 +1,20 @@
+id: buchert-2026
+title: "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity"
+authors:
+  - "Thomas Buchert"
+  - "Antony Frackowiak"
+year: 2026
+venue: "Universe 2026, 12, 132"
+doi: 10.3390/universe12050132
+arxiv: "2605.03653"
+source: https://arxiv.org/abs/2605.03653
+language: en
+subsystems: [G, C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

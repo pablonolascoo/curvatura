@@ -1,0 +1,20 @@
+id: millis-1994
+title: "Coupling gravity, electromagnetism and space-time for space propulsion breakthroughs"
+authors:
+  - "Marc G. Millis"
+year: 1994
+venue: "NASA Technical Reports Server (NASA)"
+doi: null
+arxiv: null
+source: https://openalex.org/W807884260
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

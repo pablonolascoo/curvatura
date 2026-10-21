@@ -1,0 +1,22 @@
+id: earman-2008
+title: "Do the laws of physics forbid the operation of time machines?"
+authors:
+  - "John Earman"
+  - "Chris Smeenk"
+  - "Christian Wüthrich"
+year: 2008
+venue: "Synthese"
+doi: 10.1007/s11229-008-9338-2
+arxiv: null
+source: https://doi.org/10.1007/s11229-008-9338-2
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 67
+cites_seeds: [ford-roman-1996]
+relevance: media

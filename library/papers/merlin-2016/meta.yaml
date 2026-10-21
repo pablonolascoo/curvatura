@@ -1,0 +1,19 @@
+id: merlin-2016
+title: "Orthogonality Catastrophes in Quantum Electrodynamics"
+authors:
+  - "R. Merlin"
+year: 2016
+venue: "Phys. Rev. A 95, 023802 (2017)"
+doi: 10.1103/physreva.95.023802
+arxiv: "1609.02910"
+source: https://arxiv.org/abs/1609.02910
+language: en
+subsystems: [E]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

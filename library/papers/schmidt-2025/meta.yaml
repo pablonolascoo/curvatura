@@ -1,0 +1,22 @@
+id: schmidt-2025
+title: "Emergent quantum field theories on curved spacetimes in spinor Bose-Einstein condensates: From scalar to Proca fields"
+authors:
+  - "Christian F. Schmidt"
+  - "S. Brunner"
+  - "Stefan Floerchinger"
+year: 2025
+venue: "Physical Review A"
+doi: 10.1103/fnbn-yp2m
+arxiv: "2506.13297"
+source: https://arxiv.org/abs/2506.13297
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

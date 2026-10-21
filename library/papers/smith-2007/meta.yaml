@@ -1,0 +1,20 @@
+id: smith-2007
+title: "An absolute quantum energy inequality for the Dirac field in curved spacetime"
+authors:
+  - "Calvin J. Smith"
+year: 2007
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/24/18/012
+arxiv: "0705.2203"
+source: https://arxiv.org/abs/0705.2203
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [alcubierre-1994]
+relevance: media

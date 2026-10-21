@@ -1,0 +1,23 @@
+id: a-2020
+title: "On the $$\\beta $$-decay of the accelerated proton and neutrino oscillations: a three-flavor description with CP violation"
+authors:
+  - "Massimo Blasone A"
+  - "Gaetano Lambiase"
+  - "Giuseppe Gaetano Luciano"
+  - "Luciano Petruzziello"
+year: 2020
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-020-7658-7
+arxiv: "2002.03351"
+source: https://arxiv.org/abs/2002.03351
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 30
+cites_seeds: [barcelo-2011]
+relevance: media

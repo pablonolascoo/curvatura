@@ -1,0 +1,23 @@
+id: su-2025
+title: "Generalized Bronnikov–Ellis wormhole with nonlinear electromagnetic field"
+authors:
+  - "Xin Su"
+  - "Chen-Hao Hao"
+  - "Tie-Feng Fang"
+  - "Yong‐Qiang Wang"
+year: 2025
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-025-14729-2
+arxiv: null
+source: https://doi.org/10.1140/epjc/s10052-025-14729-2
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,22 @@
+id: akers-2016
+title: "Geometric Constraints from Subregion Duality Beyond the Classical Regime"
+authors:
+  - "Chris Akers"
+  - "Jason Koeller"
+  - "Stefan Leichenauer"
+  - "Adam Levine"
+year: 2016
+venue: "arXiv:1610.08968"
+doi: null
+arxiv: "1610.08968"
+source: https://arxiv.org/abs/1610.08968
+language: en
+subsystems: [G, C, Q]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

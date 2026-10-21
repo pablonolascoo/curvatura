@@ -1,0 +1,23 @@
+id: leeuw-2015
+title: "Theory for Bose-Einstein condensation of light in nano-fabricated semiconductor microcavities"
+authors:
+  - "A. -W. de Leeuw"
+  - "E. C. I. van der Wurff"
+  - "R. A. Duine"
+  - "D. van Oosten"
+  - "H. T. C. Stoof"
+year: 2015
+venue: "Phys. Rev. A 94, 013615 (2016)"
+doi: 10.1103/physreva.94.013615
+arxiv: "1505.01732"
+source: https://arxiv.org/abs/1505.01732
+language: en
+subsystems: [E]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

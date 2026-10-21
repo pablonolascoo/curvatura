@@ -1,0 +1,22 @@
+id: itin-2014
+title: "Finsler-type modification of the Coulomb law"
+authors:
+  - "Yakov Itin"
+  - "Cláus Lämmerzahl"
+  - "Volker Perlick"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.124057
+arxiv: "1411.2670"
+source: https://arxiv.org/abs/1411.2670
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 25
+cites_seeds: [barcelo-2011]
+relevance: media

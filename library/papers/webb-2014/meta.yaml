@@ -1,0 +1,26 @@
+id: webb-2014
+title: "Nonlinear optics of fibre event horizons"
+authors:
+  - "Karen E. Webb"
+  - "Miro J. Erkintalo"
+  - "Yiqing Xu"
+  - "Neil G. R. Broderick"
+  - "John M. Dudley"
+  - "Goëry Genty"
+  - "Stuart G. Murdoch"
+year: 2014
+venue: "Nature Communications"
+doi: 10.1038/ncomms5969
+arxiv: "1403.6547"
+source: https://arxiv.org/abs/1403.6547
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 124
+cites_seeds: [barcelo-2011]
+relevance: media

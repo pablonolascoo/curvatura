@@ -1,0 +1,20 @@
+id: simpson-2023
+title: "Excising Curvature Singularities from General Relativity"
+authors:
+  - "Alex Simpson"
+year: 2023
+venue: "dissertation"
+doi: 10.26686/wgtn.22338298
+arxiv: "2304.07383"
+source: https://arxiv.org/abs/2304.07383
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [lobo-visser-2004, santiago-2022]
+relevance: media

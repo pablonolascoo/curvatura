@@ -1,0 +1,1 @@
+In this paper we treat the Law's effective Hamiltonian of the Dynamical Casimir Effect in a cavity and construct an analytic approximate solution of the time-dependent Schr{ö}dinger equation under the general setting through a kind of rotating wave approximation (RWA). To the best of our knowledge this is the finest analytic approximate solution.

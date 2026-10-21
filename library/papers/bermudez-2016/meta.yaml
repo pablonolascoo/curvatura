@@ -1,0 +1,21 @@
+id: bermudez-2016
+title: "Hawking spectrum for a fiber-optical analog of the event horizon"
+authors:
+  - "David Bermúdez"
+  - "Ulf Leonhardt"
+year: 2016
+venue: "Physical Review A"
+doi: 10.1103/physreva.93.053820
+arxiv: "1601.06816"
+source: https://arxiv.org/abs/1601.06816
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 28
+cites_seeds: [barcelo-2011]
+relevance: media

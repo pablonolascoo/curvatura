@@ -1,0 +1,22 @@
+id: lemos-2023
+title: "Probing time orientability of spacetime"
+authors:
+  - "Nivaldo Agostinho Lemos"
+  - "Daniel Müller"
+  - "MARCELO J. REBOUÇAS"
+year: 2023
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-023-11642-4
+arxiv: "2211.00816"
+source: https://arxiv.org/abs/2211.00816
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

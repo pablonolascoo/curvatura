@@ -1,0 +1,22 @@
+id: tamburini-2018
+title: "Radiation from charged particles due to explicit symmetry breaking in a gravitational field"
+authors:
+  - "Fabrizio Tamburini"
+  - "Mariafelicia De Laurentis"
+  - "Ignazio Licata"
+year: 2018
+venue: "International Journal of Geometric Methods in Modern Physics"
+doi: 10.1142/s0219887818501220
+arxiv: "1702.04096"
+source: https://arxiv.org/abs/1702.04096
+language: en
+subsystems: [G, M]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+relevance: media

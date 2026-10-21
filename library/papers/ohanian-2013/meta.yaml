@@ -1,0 +1,21 @@
+id: ohanian-2013
+title: "Black holes and gravitational collapse"
+authors:
+  - "Hans C. Ohanian"
+  - "REMO J. RUFFINI"
+year: 2013
+venue: "Cambridge University Press eBooks"
+doi: 10.1017/cbo9781139003391.011
+arxiv: null
+source: https://doi.org/10.1017/cbo9781139003391.011
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

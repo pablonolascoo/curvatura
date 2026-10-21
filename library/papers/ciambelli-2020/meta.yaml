@@ -1,0 +1,21 @@
+id: ciambelli-2020
+title: "New Chiral Gravity"
+authors:
+  - "Luca Ciambelli"
+  - "Stéphane Detournay"
+  - "Antoine Somerhausen"
+year: 2020
+venue: "Phys. Rev. D 102, 106017 (2020)"
+doi: 10.1103/physrevd.102.106017
+arxiv: "2008.06793"
+source: https://arxiv.org/abs/2008.06793
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

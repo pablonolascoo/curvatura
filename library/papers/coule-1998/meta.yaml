@@ -1,0 +1,20 @@
+id: coule-1998
+title: "No warp drive"
+authors:
+  - "David H. Coule"
+year: 1998
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/15/8/026
+arxiv: null
+source: https://doi.org/10.1088/0264-9381/15/8/026
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: alta

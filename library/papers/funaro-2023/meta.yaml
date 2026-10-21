@@ -1,0 +1,20 @@
+id: funaro-2023
+title: "Newtonian Forces Exerted by Electromagnetic Waves Traveling into Matter"
+authors:
+  - "Daniele Funaro"
+year: 2023
+venue: "International Journal of Theoretical Physics"
+doi: 10.1007/s10773-023-05491-w
+arxiv: null
+source: https://doi.org/10.1007/s10773-023-05491-w
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, lentz-2021, lobo-visser-2004]
+relevance: media

@@ -1,0 +1,22 @@
+id: alvesjunior-2023
+title: "Metamaterial branes"
+authors:
+  - "F. A. P. Alves-Júnior"
+  - "A. B. Barreto"
+  - "Fernando Moraes"
+year: 2023
+venue: "Nuclear Physics B"
+doi: 10.1016/j.nuclphysb.2023.116407
+arxiv: "2302.13998"
+source: https://arxiv.org/abs/2302.13998
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

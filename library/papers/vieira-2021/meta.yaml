@@ -1,0 +1,21 @@
+id: vieira-2021
+title: "Slowly-rotating curved acoustic black holes: Quasinormal modes, Hawking-Unruh radiation and quasibound states"
+authors:
+  - "H. S. Vieira"
+  - "Kyriakos Destounis"
+  - "Kostas D. Kokkotas"
+year: 2021
+venue: "Phys. Rev. D 105, 045015 (2022)"
+doi: 10.1103/physrevd.105.045015
+arxiv: "2112.08711"
+source: https://arxiv.org/abs/2112.08711
+language: en
+subsystems: [G, Q, V]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,24 @@
+id: patrick-2022
+title: "Quantum vortex instability and black hole superradiance"
+authors:
+  - "Sam Patrick"
+  - "August Geelmuyden"
+  - "Sebastian Erne"
+  - "Carlo F. Barenghi"
+  - "Silke Weinfurtner"
+year: 2022
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.4.033117
+arxiv: "2112.12266"
+source: https://arxiv.org/abs/2112.12266
+language: en
+subsystems: [G, Q]
+kind: restriccion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 19
+cites_seeds: [barcelo-2011]
+relevance: media

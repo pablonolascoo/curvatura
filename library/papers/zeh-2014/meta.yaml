@@ -1,0 +1,20 @@
+id: zeh-2014
+title: "The Nature and Origin of Time-Asymmetric Spacetime Structures"
+authors:
+  - "H. D. Zeh"
+year: 2014
+venue: "Springer handbooks"
+doi: 10.1007/978-3-642-41992-8_10
+arxiv: "1012.4708"
+source: https://arxiv.org/abs/1012.4708
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

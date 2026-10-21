@@ -1,0 +1,20 @@
+id: bellucci-2009
+title: "Fermionic Casimir effect for parallel plates in the presence of compact dimensions with applications to nanotubes"
+authors:
+  - "S. Bellucci"
+  - "A. A. Saharian"
+year: 2009
+venue: "Phys.Rev.D80:105003,2009"
+doi: 10.1103/physrevd.80.105003
+arxiv: "0907.4942"
+source: https://arxiv.org/abs/0907.4942
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

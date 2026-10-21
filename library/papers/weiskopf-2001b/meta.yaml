@@ -1,0 +1,20 @@
+id: weiskopf-2001b
+title: "Visualization of Four-Dimensional Spacetimes"
+authors:
+  - "Daniel Weiskopf"
+year: 2001
+venue: "dissertation"
+doi: null
+arxiv: null
+source: https://openalex.org/W1595282818
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 34
+cites_seeds: [alcubierre-1994]
+relevance: media

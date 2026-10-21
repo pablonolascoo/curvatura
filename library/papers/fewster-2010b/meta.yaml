@@ -1,0 +1,21 @@
+id: fewster-2010b
+title: "Probability distributions of smeared quantum stress tensors"
+authors:
+  - "Christopher J. Fewster"
+  - "L. H. Ford"
+  - "Thomas A. Roman"
+year: 2010
+venue: "Phys.Rev.D81:121901,2010"
+doi: 10.1103/physrevd.81.121901
+arxiv: "1004.0179"
+source: https://arxiv.org/abs/1004.0179
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,22 @@
+id: zangeneh-2014
+title: "Higher-dimensional evolving wormholes satisfying the null energy condition"
+authors:
+  - "M. Kord Zangeneh"
+  - "Francisco S. N. Lobo"
+  - "N. Riazi"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.024072
+arxiv: "1406.5703"
+source: https://arxiv.org/abs/1406.5703
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 95
+cites_seeds: [lobo-visser-2004]
+relevance: media

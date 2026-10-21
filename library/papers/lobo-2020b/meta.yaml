@@ -1,0 +1,20 @@
+id: lobo-2020b
+title: "Higher-order acceleration"
+authors:
+  - "Matheus Pereira Lobo"
+year: 2020
+venue: "preprint"
+doi: 10.31219/osf.io/p3k24
+arxiv: null
+source: https://doi.org/10.31219/osf.io/p3k24
+language: en
+subsystems: [G, D]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

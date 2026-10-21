@@ -1,0 +1,20 @@
+id: ontanon-2021
+title: "Rotating Boson Stars Using Finite Differences and Global Newton Methods"
+authors:
+  - "Santiago Ontanon"
+  - "Miguel Alcubierre"
+year: 2021
+venue: "arXiv:2103.13993"
+doi: 10.1088/1361-6382/ac0b53
+arxiv: "2103.13993"
+source: https://arxiv.org/abs/2103.13993
+language: en
+subsystems: [G, C]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

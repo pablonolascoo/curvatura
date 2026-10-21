@@ -1,0 +1,20 @@
+id: millis-2005
+title: "Assessing Potential Propulsion Breakthroughs"
+authors:
+  - "Marc G. Millis"
+year: 2005
+venue: "Annals of the New York Academy of Sciences"
+doi: 10.1196/annals.1370.023
+arxiv: null
+source: https://doi.org/10.1196/annals.1370.023
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 23
+cites_seeds: [krasnikov-1998]
+relevance: media

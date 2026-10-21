@@ -1,0 +1,20 @@
+id: ford-2010
+title: "NEGATIVE ENERGY DENSITIES IN QUANTUM FIELD THEORY"
+authors:
+  - "Lawrence H. Ford"
+year: 2010
+venue: "International Journal of Modern Physics A"
+doi: 10.1142/s0217751x10049633
+arxiv: "0911.3597"
+source: https://arxiv.org/abs/0911.3597
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 39
+cites_seeds: [pfenning-ford-1997]
+relevance: media

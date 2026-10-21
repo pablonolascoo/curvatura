@@ -1,0 +1,20 @@
+id: freivogel-2018
+title: "The Smeared Null Energy Condition"
+authors:
+  - "Ben Freivogel"
+  - "Dimitrios Krommydas"
+year: 2018
+venue: "arXiv:1807.03808"
+doi: 10.1007/jhep12(2018)067
+arxiv: "1807.03808"
+source: https://arxiv.org/abs/1807.03808
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

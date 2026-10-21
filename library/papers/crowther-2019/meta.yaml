@@ -1,0 +1,22 @@
+id: crowther-2019
+title: "What we cannot learn from analogue experiments"
+authors:
+  - "Karen Crowther"
+  - "Niels Linnemann"
+  - "Christian Wüthrich"
+year: 2019
+venue: "Synthese"
+doi: 10.1007/s11229-019-02190-0
+arxiv: null
+source: https://doi.org/10.1007/s11229-019-02190-0
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 59
+cites_seeds: [barcelo-2011]
+relevance: media

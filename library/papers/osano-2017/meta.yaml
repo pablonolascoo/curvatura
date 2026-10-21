@@ -1,0 +1,21 @@
+id: osano-2017
+title: "Toward the analogue of a thermally generated electromagnetic field"
+authors:
+  - "Bob Osano"
+  - "Patrick W. M. Adams"
+year: 2017
+venue: "Journal of Mathematical Physics"
+doi: 10.1063/1.5001338
+arxiv: "1606.03413"
+source: https://arxiv.org/abs/1606.03413
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,22 @@
+id: biasi-2017
+title: "Delayed collapses of Bose-Einstein condensates in relation to anti-de Sitter gravity"
+authors:
+  - "Anxo Biasi"
+  - "Javier Mas"
+  - "Ángel Paredes"
+year: 2017
+venue: "Physical review. E"
+doi: 10.1103/physreve.95.032216
+arxiv: "1610.04866"
+source: https://arxiv.org/abs/1610.04866
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 29
+cites_seeds: [barcelo-2011]
+relevance: media

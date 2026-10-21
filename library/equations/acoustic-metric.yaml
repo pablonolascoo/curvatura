@@ -1,0 +1,12 @@
+id: acoustic-metric
+paper: barcelo-2011
+subsystem: V
+title: { es: Métrica acústica, en: Acoustic metric, fr: Métrique acoustique }
+expr: "ds^2 = -c_s^2*dt^2 + (dx - v*dt)^2 + dy^2 + dz^2"
+symbols:
+  c_s: { group: matter, es: Velocidad del sonido en el fluido, en: Speed of sound in the fluid, fr: Vitesse du son dans le fluide }
+  v: { group: velocity, es: Velocidad del flujo, en: Flow velocity, fr: Vitesse de l'écoulement }
+note:
+  es: Misma forma que Alcubierre con c → c_s. Un flujo con v = v_s f(r_s) es una burbuja para las ondas del fluido.
+  en: Same form as Alcubierre with c → c_s. A flow with v = v_s f(r_s) is a bubble for waves in the fluid.
+  fr: Même forme qu'Alcubierre avec c → c_s. Un écoulement v = v_s f(r_s) est une bulle pour les ondes du fluide.

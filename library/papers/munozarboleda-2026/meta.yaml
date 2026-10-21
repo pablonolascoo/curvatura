@@ -1,0 +1,22 @@
+id: munozarboleda-2026
+title: "Thermodynamics of analogue black holes in a non-Hermitian tight-binding model"
+authors:
+  - "D. F. Munoz-Arboleda"
+  - "Marcus Stålhammar"
+  - "C. Morais Smith"
+year: 2026
+venue: "Physical review. B./Physical review. B"
+doi: 10.1103/vdsx-r3dq
+arxiv: "2507.03826"
+source: https://arxiv.org/abs/2507.03826
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,21 @@
+id: churilov-2017
+title: "Wave Scattering in Spatially Inhomogeneous Currents"
+authors:
+  - "Semyon Churilov"
+  - "Andrei Ermakov"
+  - "Yury Stepanyants"
+year: 2017
+venue: "Phys. Rev. D 96, 064016 (2017)"
+doi: 10.1103/physrevd.96.064016
+arxiv: "1706.02507"
+source: https://arxiv.org/abs/1706.02507
+language: en
+subsystems: [D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

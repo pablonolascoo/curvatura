@@ -1,0 +1,23 @@
+id: richartz-2015
+title: "Rotating black holes in a draining bathtub: Superradiant scattering of gravity waves"
+authors:
+  - "Maurício Richartz"
+  - "Angus Prain"
+  - "Stefano Liberati"
+  - "Silke Weinfurtner"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.91.124018
+arxiv: "1411.1662"
+source: https://arxiv.org/abs/1411.1662
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 58
+cites_seeds: [barcelo-2011]
+relevance: media

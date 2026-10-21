@@ -1,0 +1,21 @@
+id: butera-2023b
+title: "Numerical Studies of Back Reaction Effects in an Analog Model of Cosmological Preheating"
+authors:
+  - "Salvatore Butera"
+  - "Iacopo Carusotto"
+year: 2023
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.130.241501
+arxiv: "2207.00311"
+source: https://arxiv.org/abs/2207.00311
+language: en
+subsystems: [G, V]
+kind: numerico
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 19
+cites_seeds: [barcelo-2011]
+relevance: media

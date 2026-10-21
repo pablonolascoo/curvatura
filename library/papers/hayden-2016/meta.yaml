@@ -1,0 +1,22 @@
+id: hayden-2016
+title: "Spacetime replication of continuous variable quantum information"
+authors:
+  - "Patrick Hayden"
+  - "Sepehr Nezami"
+  - "Grant Salton"
+  - "Barry C. Sanders"
+year: 2016
+venue: "New J. Phys. 18 (2016) 083043"
+doi: 10.1088/1367-2630/18/8/083043
+arxiv: "1601.02544"
+source: https://arxiv.org/abs/1601.02544
+language: en
+subsystems: [G, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,20 @@
+id: hazarika-2021
+title: "An axially symmetric spacetime with causality violation"
+authors:
+  - "Bidyut Bikash Hazarika"
+year: 2021
+venue: "Physica Scripta"
+doi: 10.1088/1402-4896/abf800
+arxiv: "2004.13769"
+source: https://arxiv.org/abs/2004.13769
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

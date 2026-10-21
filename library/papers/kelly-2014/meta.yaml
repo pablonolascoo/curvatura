@@ -1,0 +1,21 @@
+id: kelly-2014
+title: "Holographic proof of the averaged null energy condition"
+authors:
+  - "William R. Kelly"
+  - "Aron C. Wall"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.106003
+arxiv: "1408.3566"
+source: https://arxiv.org/abs/1408.3566
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 61
+cites_seeds: [natario-2002]
+relevance: media

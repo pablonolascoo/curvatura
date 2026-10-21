@@ -1,0 +1,21 @@
+id: jordan-2004
+title: "Noncausal effects arising from a Maxwell fluid model with negative relaxation"
+authors:
+  - "P.M. Jordan"
+  - "Ashok Puri"
+year: 2004
+venue: "European Journal of Physics"
+doi: 10.1088/0143-0807/25/6/015
+arxiv: null
+source: https://doi.org/10.1088/0143-0807/25/6/015
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [natario-2002]
+relevance: media

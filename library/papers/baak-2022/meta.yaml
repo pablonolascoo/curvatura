@@ -1,0 +1,22 @@
+id: baak-2022
+title: "Number-conserving solution for dynamical quantum backreaction in a Bose-Einstein condensate"
+authors:
+  - "Sang-Shin Baak"
+  - "Caio C. Holanda Ribeiro"
+  - "Uwe R. Fischer"
+year: 2022
+venue: "Physical Review A"
+doi: 10.1103/physreva.106.053319
+arxiv: "2206.11317"
+source: https://arxiv.org/abs/2206.11317
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 22
+cites_seeds: [barcelo-2011]
+relevance: media

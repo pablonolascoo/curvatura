@@ -1,0 +1,20 @@
+id: ford-2010b
+title: "NEGATIVE ENERGY DENSITIES IN QUANTUM FIELD THEORY"
+authors:
+  - "Lawrence H. Ford"
+year: 2010
+venue: "conference-paper"
+doi: 10.1142/9789814289931_0055
+arxiv: null
+source: https://doi.org/10.1142/9789814289931_0055
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [alcubierre-1994, ford-roman-1996]
+relevance: media

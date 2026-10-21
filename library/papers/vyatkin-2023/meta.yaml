@@ -1,0 +1,21 @@
+id: vyatkin-2023
+title: "Resonant Parametric Photon Generation in Waveguide-coupled Quantum Emitter Arrays"
+authors:
+  - "Egor S. Vyatkin"
+  - "Alexander V. Poshakinskiy"
+  - "Alexander N. Poddubny"
+year: 2023
+venue: "Phys. Rev. A 108, 023715 (2023)"
+doi: 10.1103/physreva.108.023715
+arxiv: "2302.12792"
+source: https://arxiv.org/abs/2302.12792
+language: en
+subsystems: [E, D]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

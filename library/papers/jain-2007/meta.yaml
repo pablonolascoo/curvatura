@@ -1,0 +1,21 @@
+id: jain-2007
+title: "The Quantum de Laval Nozzle: stability and quantum dynamics of sonic horizons in a toroidally trapped Bose gas containing a superflow"
+authors:
+  - "P. Jain"
+  - "A. S. Bradley"
+  - "C. W. Gardiner"
+year: 2007
+venue: "Phys. Rev. A 76, 023617 (2007)"
+doi: 10.1103/physreva.76.023617
+arxiv: "0705.3093"
+source: https://arxiv.org/abs/0705.3093
+language: en
+subsystems: [D, Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

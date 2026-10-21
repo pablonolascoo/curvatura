@@ -1,0 +1,1 @@
+We show analytically that the vacuum electromagnetic stress-energy tensor outside a ball with constant dielectric constant and permeability always obeys the weak, null, dominant, and strong energy conditions. There are still no known examples in quantum field theory in which the averaged null energy condition in flat spacetime is violated.

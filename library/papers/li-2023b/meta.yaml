@@ -1,0 +1,26 @@
+id: li-2023b
+title: "A robophysical model of spacetime dynamics"
+authors:
+  - "Shengkai Li"
+  - "Hussain N. Gynai"
+  - "Steven W. Tarr"
+  - "Emily Alicea-Muñoz"
+  - "Pablo Laguna"
+  - "Gongjie Li"
+  - "Daniel I. Goldman"
+year: 2023
+venue: "Scientific Reports"
+doi: 10.1038/s41598-023-46718-4
+arxiv: "2202.04835"
+source: https://arxiv.org/abs/2202.04835
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

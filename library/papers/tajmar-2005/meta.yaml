@@ -1,0 +1,21 @@
+id: tajmar-2005
+title: "Hyopthetical Gravity Control and Possible Influence on Space Propulsion"
+authors:
+  - "Martin Tajmar"
+  - "Orfeu Bertolami A"
+year: 2005
+venue: "Journal of Propulsion and Power"
+doi: 10.2514/1.15240
+arxiv: null
+source: https://doi.org/10.2514/1.15240
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [alcubierre-1994]
+relevance: media

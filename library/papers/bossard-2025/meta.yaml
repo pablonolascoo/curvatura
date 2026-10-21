@@ -1,0 +1,25 @@
+id: bossard-2025
+title: "On the art of designing effective space-times with free surface flows in Analogue Gravity"
+authors:
+  - "Alexis Bossard"
+  - "Nicolas James"
+  - "Valentin Jules"
+  - "Johan Fourdrinoy"
+  - "Scott Robertson"
+  - "Germain Rousseaux"
+year: 2025
+venue: "Comptes Rendus Physique"
+doi: 10.5802/crphys.215
+arxiv: "2408.15629"
+source: https://arxiv.org/abs/2408.15629
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

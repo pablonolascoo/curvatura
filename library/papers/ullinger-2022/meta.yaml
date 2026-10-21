@@ -1,0 +1,22 @@
+id: ullinger-2022
+title: "The logarithmic phase singularity in the inverted harmonic oscillator"
+authors:
+  - "Freyja Ullinger"
+  - "Matthias Zimmermann"
+  - "Wolfgang P. Schleich"
+year: 2022
+venue: "AVS Quantum Science"
+doi: 10.1116/5.0074429
+arxiv: null
+source: https://doi.org/10.1116/5.0074429
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 18
+cites_seeds: [barcelo-2011]
+relevance: media

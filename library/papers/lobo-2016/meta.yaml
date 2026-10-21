@@ -1,0 +1,20 @@
+id: lobo-2016
+title: "From the Flamm–Einstein–Rosen bridge to the modern renaissance of traversable wormholes"
+authors:
+  - "Francisco S. N. Lobo"
+year: 2016
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271816300172
+arxiv: "1604.02082"
+source: https://arxiv.org/abs/1604.02082
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 48
+cites_seeds: [finazzi-2009, lobo-visser-2004]
+relevance: media

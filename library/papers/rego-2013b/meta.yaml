@@ -1,0 +1,22 @@
+id: rego-2013b
+title: "Inhibition of the dynamical Casimir effect with Robin boundary conditions"
+authors:
+  - "Andreson L. C. Rego"
+  - "B. W. Mintz"
+  - "C. Farina"
+  - "Danilo T. Alves"
+year: 2013
+venue: "Phys. Rev. D 87, 045024 (2013)"
+doi: 10.1103/physrevd.87.045024
+arxiv: "1302.4709"
+source: https://arxiv.org/abs/1302.4709
+language: en
+subsystems: [E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

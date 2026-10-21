@@ -1,0 +1,21 @@
+id: labarbe-2020
+title: "Membrane flutter induced by radiation of surface gravity waves on a uniform flow"
+authors:
+  - "Joris Labarbe"
+  - "Oleg N. Kirillov"
+year: 2020
+venue: "Journal of Fluid Mechanics"
+doi: 10.1017/jfm.2020.533
+arxiv: "2004.11736"
+source: https://arxiv.org/abs/2004.11736
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

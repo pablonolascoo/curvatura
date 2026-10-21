@@ -1,0 +1,22 @@
+id: ma-2013
+title: "Statistical Entropy of an Acoustic Black Hole in Bose—Einstein Condensates"
+authors:
+  - "Meng-Sen Ma"
+  - "Hui-Hua Zhao"
+  - "Ren Zhao"
+year: 2013
+venue: "Communications in Theoretical Physics"
+doi: 10.1088/0253-6102/60/6/11
+arxiv: null
+source: https://doi.org/10.1088/0253-6102/60/6/11
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

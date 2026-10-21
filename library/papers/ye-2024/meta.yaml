@@ -1,0 +1,24 @@
+id: ye-2024
+title: "Quantum metric of non-Hermitian Su-Schrieffer-Heeger systems"
+authors:
+  - "Chao Chen Ye"
+  - "Ward Vleeshouwers"
+  - "S. Heatley"
+  - "Vladimir Gritsev"
+  - "C. Morais Smith"
+year: 2024
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.6.023202
+arxiv: "2305.17675"
+source: https://arxiv.org/abs/2305.17675
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 32
+cites_seeds: [barcelo-2011]
+relevance: media

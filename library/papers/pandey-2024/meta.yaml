@@ -1,0 +1,19 @@
+id: pandey-2024
+title: "Acoustic Analogue for Quantum Field Theory with a Source term"
+authors:
+  - "Akshat Pandey"
+year: 2024
+venue: "arXiv:2407.08999"
+doi: 10.1142/s0217751x24500830
+arxiv: "2407.08999"
+source: https://arxiv.org/abs/2407.08999
+language: en
+subsystems: [E, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

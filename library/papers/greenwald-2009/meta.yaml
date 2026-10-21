@@ -1,0 +1,21 @@
+id: greenwald-2009
+title: "Black holes and stars in Horava-Lifshitz theory with projectability condition"
+authors:
+  - "Jared Greenwald"
+  - "Antonios Papazoglou"
+  - "Anzhong Wang"
+year: 2009
+venue: "Phys.Rev.D81:084046,2010"
+doi: 10.1103/physrevd.81.084046
+arxiv: "0912.0011"
+source: https://arxiv.org/abs/0912.0011
+language: en
+subsystems: [G, E, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,22 @@
+id: demirkaya-2019b
+title: "Analog black holes and energy extraction by super-radiance from Bose Einstein condensates (BEC) with constant density"
+authors:
+  - "Betül Demirkaya"
+  - "Tekin Dereli"
+  - "Kaan Güven"
+year: 2019
+venue: "Heliyon"
+doi: 10.1016/j.heliyon.2019.e02497
+arxiv: "1806.02139"
+source: https://arxiv.org/abs/1806.02139
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

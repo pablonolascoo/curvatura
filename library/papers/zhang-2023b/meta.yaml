@@ -1,0 +1,21 @@
+id: zhang-2023b
+title: "Shielding of Penrose superradiance in optical black holes"
+authors:
+  - "Hongbin Zhang"
+  - "Baocheng Zhang"
+year: 2023
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-023-11389-y
+arxiv: "2303.14418"
+source: https://arxiv.org/abs/2303.14418
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

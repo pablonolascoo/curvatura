@@ -1,0 +1,181 @@
+# Obstacles to a useful warp drive, ordered by severity.
+# Long version with equations and tasks: docs/obstaculos.md
+# status: bloqueante (no known way out), abierto (unresolved, active leads), parcial (solved in a restricted case)
+
+- id: violacion-nec-generica
+  subsystem: C
+  status: bloqueante
+  title: Every generic warp bubble violates the null energy condition
+  summary: "For the Natário class (unit lapse, flat spatial slices, shift only) the NEC is proven to fail somewhere in the wall, and with it the WEC, SEC and DEC, at any speed. The 2021 positive-energy claims only checked the Eulerian observer; the NEC does not depend on the observer. The only solutions that satisfy it leave that class, add ADM mass and are subluminal."
+  evidence: [santiago-2022, schuster-2022, lobo-visser-2004, le-2026, barzegar-2026]
+  leads:
+    - text: "Leave the Natário class with non-trivial lapse and spatial metric, as in the matter shell with interior shift, which satisfies all conditions at constant velocity."
+      papers: [fuchs-2024, bobrick-martire-2021]
+    - text: "Use irrotational shift flows, which give a Hawking-Ellis Type I tensor everywhere and cut the local energy deficit by factors of 38 to 2600 relative to Alcubierre and Natário."
+      papers: [rodal-2025c, le-2026]
+    - text: "Move to a covariant description with spatial curvature, acceleration and vorticity of the flow, which current models set to zero by construction."
+      papers: [barzegar-2024, buchert-2026]
+
+- id: aceleracion-momento
+  subsystem: D
+  status: bloqueante
+  title: No physical solution accelerates or decelerates
+  summary: "Every positive-energy solution describes only the constant-velocity phase. Moving the centre of a massive shell in time forces negative energy density throughout space, and a bubble that sheds no mass would be a reactionless drive, in conflict with conservation of the ADM four-momentum. No published metric describes start, acceleration and stop with positive energy."
+  evidence: [fuchs-2024, schuster-2022, bobrick-martire-2021, lobo-visser-2004]
+  leads:
+    - text: "Use the momentum constraint on flat slices, which fixes the Eulerian momentum from the shift vorticity, to bound which profiles can gain momentum without an energy flux."
+      papers: [le-2026]
+    - text: "Describe warp-field dynamics with relativistic Lagrangian perturbations and tilted fluids, where acceleration is a variable rather than an imposed amplitude."
+      papers: [buchert-2026, barzegar-2024]
+    - text: "Account for the gravitational energy flux in the accelerated phase, which in the teleparallel equivalent restores total conservation."
+      papers: [carneiro-2022]
+
+- id: energia-negativa-desigualdades-cuanticas
+  subsystem: Q
+  status: bloqueante
+  title: Required negative energy clashes with quantum inequalities
+  summary: "Quantum inequalities limit the negative energy an observer sees over a time τ to about $3\\hbar c/(32\\pi^2 (c\\tau)^4)$, which forces walls of about $10^2$ Planck lengths and an energy of order $10^{62}$ kg for $R = 100$ m at $v = c$. Van Den Broeck lowers this to a few solar masses, and for Natário the exact minimum scales as $v^2 R^4/(4\\Delta^3)$, worse than the earlier estimate."
+  evidence: [ford-roman-1996, pfenning-ford-1997, vandenbroeck-1999, bolivar-2026, fewster-2012b]
+  leads:
+    - text: "Find the exact negative-energy floor for each metric family, as has been done for Natário, before optimising blindly."
+      papers: [bolivar-2026, jusufi-2026]
+    - text: "Apply rigorous quantum inequalities along stationary worldlines, which are those of an observer at rest with respect to the wall."
+      papers: [fewster-2023, kontou-2024]
+    - text: "Optimise the geometry to lower the negative energy, with demonstrated reductions of two orders of magnitude over Alcubierre."
+      papers: [bobrick-martire-2021, helmerich-2024b]
+
+- id: horizontes-control-causal
+  subsystem: G
+  status: bloqueante
+  title: At superluminal speed the crew cannot control the bubble
+  summary: "If $v_s > c$, the interior is causally disconnected from the front edge of the wall, so the ship cannot create, steer or stop the bubble from inside. Two superluminal bubbles suffice to build closed timelike curves. The Krasnikov alternative requires preparing the route at subluminal speed before the trip."
+  evidence: [everett-roman-1997, alcubierre-2021, krasnikov-1998, shoshany-2023, lentz-2021b]
+  leads:
+    - text: "Study membrane models that satisfy the WEC and propose a transition from subluminal to superluminal regime, although their membranes are not compact."
+      papers: [huey-2023]
+    - text: "Explore energy distributions generated from outside the bubble, along a tube, which separate control from the vehicle."
+      papers: [pieri-2023]
+    - text: "Test chronology-protection mechanisms near horizons in laboratory analogues."
+      papers: [barcelo-2022b, sabin-2022]
+
+- id: inestabilidad-semiclasica
+  subsystem: Q
+  status: bloqueante
+  title: Quantum vacuum destabilises superluminal bubbles
+  summary: "The renormalised stress-energy tensor diverges at the front wall once the bubble exceeds the speed of light: explicitly in 1+1 dimensions and, for bubbles created from flat space, with exponential growth at the horizon. The problem disappears in the subluminal regime, where there are no horizons."
+  evidence: [hiscock-1997, finazzi-2009, barcelo-2010, liberati-2016]
+  leads:
+    - text: "In 2+1 dimensions or more, the divergence is confined to isolated points and the accumulated energy is finite; aerodynamic shapes and trajectories reduce it further."
+      papers: [barcelo-2022]
+    - text: "Stay subluminal with a positive-energy shell, which has no horizons and therefore lacks this mechanism."
+      papers: [fuchs-2024, bobrick-martire-2021]
+
+- id: masa-cascara-subluminal
+  subsystem: P
+  status: abierto
+  title: The positive-energy shell weighs two Jupiters
+  summary: "The only solution satisfying all conditions uses a shell of radii 10 and 20 m with $4.49\\times10^{27}$ kg (2.37 Jupiter masses) for an interior shift of 0.02. That gives a compactness $2GM/(c^2R_2) \\approx 0.33$ and a mean density of $1.5\\times10^{23}$ kg/m³, about $7\\times10^{5}$ times nuclear density (our calculation from the published parameters). The admissible mass is bounded by the requirement of not forming a horizon."
+  evidence: [fuchs-2024, bobrick-martire-2021, schuster-2022]
+  leads:
+    - text: "Replace smoothing with a direct optimisation of the radial density, pressure and shift profiles, which the authors expect to save several orders of magnitude."
+      papers: [fuchs-2024, helmerich-2024b]
+    - text: "Find the upper bound on the shift for a given mass with energy-condition certificates valid for all observers."
+      papers: [le-2026]
+
+- id: modelo-materia-ecuacion-estado
+  subsystem: E
+  status: abierto
+  title: No real matter has the required equation of state
+  summary: "The proposal of superluminal solitons sourced by plasma and electromagnetic fields contains derivation errors and has negative Eulerian density in some regions, even after correcting the geometry. In the Alcubierre form, dust and isotropic fluids give zero density, and perfect-fluid solutions require complex shape functions. The only shell with an equation of state (anisotropic TOV) is subluminal and models no actual material."
+  evidence: [celmaster-2025, lentz-2021, abellan-2023, santospereira-2021d, santiago-2022]
+  leads:
+    - text: "Work with anisotropic fluids in spherical coordinates, where the total mass can stay positive throughout the numerical evolution."
+      papers: [abellan-2023b, bolivar-2025]
+    - text: "Build the source as a tilted fluid flow in a covariant framework, instead of deducing it from an imposed metric."
+      papers: [buchert-2026]
+    - text: "Use the anisotropic TOV shell as a starting point to close the system with an explicit equation of state."
+      papers: [fuchs-2024]
+
+- id: tensiones-estabilidad-cascara
+  subsystem: S
+  status: abierto
+  title: The shell needs extreme stresses and is unstable
+  summary: "Holding the shell requires a hoop stress peaking at the inner radius and pressures below the energy density everywhere, otherwise the DEC fails. With the published parameters, the isotropic TOV equation gives a pressure of about $10^{39}$ Pa at the inner radius ($\\approx 0.07\\,\\rho c^2$, our calculation), some 28 orders above the strength of the strongest materials, of order $10^{11}$ Pa. A thin shell between a flat interior and a Schwarzschild exterior has a minimum radius for radial stability and is unstable to non-radial perturbations."
+  evidence: [fuchs-2024, idrissov-2026, rodal-2025]
+  leads:
+    - text: "Use the exact radial stability threshold to delimit where any stabilising mechanism would have to act."
+      papers: [idrissov-2026]
+    - text: "Enlarge the shell and reshape the density to lower the required pressure, as the authors of the solution suggest."
+      papers: [fuchs-2024]
+
+- id: escala-casimir
+  subsystem: E
+  status: bloqueante
+  title: The Casimir effect falls dozens of orders short
+  summary: "The Casimir density between ideal plates is $-\\pi^2\\hbar c/(720a^4)$: about $-4\\times10^{4}$ J/m³ at 10 nm and $-4\\times10^{-4}$ J/m³ at 1 µm. An Alcubierre wall with $\\sigma = 1$ m⁻¹ and $v = c$ needs of order $10^{41}$ J/m³, some 37 orders more than at 10 nm (our calculation). The force has only been measured between parallel plates from 0.5 to 3 µm at 15 % precision."
+  evidence: [casimir-1948, bressi-2002, ford-roman-1996, maclay-2018]
+  leads:
+    - text: "Test quantum inequalities experimentally with squeezed light, where data with -15 dB of squeezing already exist."
+      papers: [maclay-2018]
+    - text: "Study the small-radius limit, where the total energy is far lower, as a test bench and not as transport."
+      papers: [pieri-2023]
+
+- id: particulas-desaceleracion
+  subsystem: M
+  status: abierto
+  title: Trapped particles are released highly energetic on braking
+  summary: "Particles entering the wall from the front become almost frozen in proper time and gain large energies; when the bubble decelerates they are released forward. Interstellar dust and photons exert a pressure proportional to $v_s$. An aircraft-sized bubble above 0.1 c in the atmosphere would emit more than a terawatt."
+  evidence: [mcmonigal-2012, bian-2022, pieri-2023, fell-2026]
+  leads:
+    - text: "Design bubble modifications that act as a deflector shield against dust and projectiles at 10 % of c."
+      papers: [sanches-2026]
+    - text: "Choose aerodynamic shapes and trajectories that limit energy accumulation in the wall."
+      papers: [barcelo-2022]
+
+- id: gravedad-modificada
+  subsystem: C
+  status: abierto
+  title: Modified gravity offers no clean way out
+  summary: "In modified theories, a reasonable bubble still violates the geometric null and timelike convergence conditions. A variable gravitational coupling imposed by a metamaterial breaks local conservation, and its dynamical version is excluded by Solar System data with $|\\gamma - 1| \\lesssim 10^{-5}$. The remaining routes, such as spin in Einstein-Cartan theory, need a spin density whose realisation with known matter has not been shown."
+  evidence: [santiago-2022, rodal-2025d, debenedictis-2018]
+  leads:
+    - text: "Quantify the minimum spin density that satisfies the NEC and compare it with known polarised matter."
+      papers: [debenedictis-2018]
+    - text: "Treat external gravitational backgrounds as reducers of the violation, bearing in mind that they are very restricted cases."
+      papers: [garattini-2024, garattini-2025]
+
+- id: dinamica-relatividad-numerica
+  subsystem: D
+  status: abierto
+  title: Full time evolution in numerical relativity is missing
+  summary: "The only 3+1 evolution in the library follows the collapse of an Alcubierre bubble with a stiff-equation-of-state fluid and computes its gravitational wave. There are no simulations of formation, acceleration or stopping, nor of positive-energy shells. A covariant analysis finds a generic instability of the warp field in one of the cases studied."
+  evidence: [clough-2024, buchert-2026, helmerich-2024]
+  leads:
+    - text: "Repeat the evolution with the positive-energy shell and a physical equation of state to measure its stability and waveform."
+      papers: [clough-2024, fuchs-2024]
+    - text: "Prepare electromagnetic, particle and gravitational emission templates to compare against observatories."
+      papers: [lentz-2024, fell-2026]
+
+- id: verificacion-observadores
+  subsystem: V
+  status: parcial
+  title: Energy checks have been incomplete
+  summary: "Several positive-energy claims failed because only the Eulerian observer was evaluated; for an irrotational profile that reading misses about 73 % of the WEC violations in the wall. Published invariants also contain errors of up to 21 orders of magnitude. Interval certificates now exist that test the NEC, WEC and SEC over all causal directions."
+  evidence: [santiago-2022, celmaster-2025, le-2026, rodal-2025b]
+  leads:
+    - text: "Express the energy conditions as 4x4 linear matrix inequalities with global bounds from interval arithmetic."
+      papers: [le-2026]
+    - text: "Validate each result with independent tools and compare curvature invariants, not only components."
+      papers: [helmerich-2024, rodal-2025]
+
+- id: analogos-laboratorio
+  subsystem: V
+  status: parcial
+  title: Analogues test the kinematics, not the source
+  summary: "The Alcubierre metric is the acoustic metric of a flow, and stimulated Hawking emission in water channels and spontaneous emission in Bose-Einstein condensates have been measured. These systems reproduce how perturbations propagate, but not the stress-energy tensor or the back-reaction. Part of the water results were obtained in a non-linear regime, which complicates their reading."
+  evidence: [barcelo-2011, weinfurtner-2011, kolobov-2019, euve-2021]
+  leads:
+    - text: "Simulate 1+1 sections of the bubble with SQUID arrays in superconducting transmission lines, with parameters already bounded."
+      papers: [sabin-2017, sabin-2022]
+    - text: "Create 2D transonic flows with fluids of light and extract parameters from noisy spectra with simulation-based inference."
+      papers: [jacquet-2020b, solidoro-2026]

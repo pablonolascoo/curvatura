@@ -1,0 +1,1 @@
+We study curve shortening flows in two types of warped product manifolds. These manifolds are $S^1\times N$ with two types of warped metrics where $S^1$ is the unit circle in $R^2$ and $N$ is a closed Riemannian manifold. If the initial curve is a graph over $S^1$, then its curve shortening flow exists for all times and finally converges to a geodesic closed curve.

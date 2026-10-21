@@ -32,7 +32,7 @@ export function PaperTabs({ tabs, initial, labels }: { tabs: Tab[]; initial: str
             tabIndex={t.lang === lang ? 0 : -1}
             aria-selected={t.lang === lang}
             onClick={() => setLang(t.lang)}
-            className={`rounded-full px-4 py-2 text-sm transition-colors duration-300 ${t.lang === lang ? "bg-fg text-bg" : "text-muted ring-1 ring-line hover:text-fg"}`}
+            className={`rounded-md px-3.5 py-1.5 text-sm transition-colors duration-300 ${t.lang === lang ? "bg-[var(--ink)] text-[var(--bg)]" : "text-muted border border-line hover:text-fg"}`}
           >
             {t.label}
             {t.original && <span className="ml-2 font-mono text-[11px] opacity-70">{labels.original}</span>}

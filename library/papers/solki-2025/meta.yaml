@@ -1,0 +1,23 @@
+id: solki-2025
+title: "Nonclassical microwave radiation from the parametric dynamical Casimir effect in the reversed-dissipation regime of circuit optomechanics"
+authors:
+  - "H. Solki"
+  - "Ali Motazedifard"
+  - "M. H. Naderi"
+  - "A. Youssefi"
+  - "R. Roknizadeh"
+year: 2025
+venue: "Phys. Rev. A 113, 013737 (2026)"
+doi: 10.1103/tmwf-s4k8
+arxiv: "2508.00353"
+source: https://arxiv.org/abs/2508.00353
+language: en
+subsystems: [E, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

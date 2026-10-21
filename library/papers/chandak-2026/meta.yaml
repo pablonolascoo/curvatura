@@ -1,0 +1,22 @@
+id: chandak-2026
+title: "The energy conditions and model selection in the local Universe"
+authors:
+  - "Namit Chandak"
+  - "Fulvio Melia"
+  - "Jun-Jie Wei"
+year: 2026
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-026-15468-8
+arxiv: "2605.28903"
+source: https://arxiv.org/abs/2605.28903
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

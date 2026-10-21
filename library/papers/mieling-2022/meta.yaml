@@ -1,0 +1,20 @@
+id: mieling-2022
+title: "Gupta-Bleuler quantization of optical fibers in weak gravitational fields"
+authors:
+  - "Thomas Mieling"
+year: 2022
+venue: "Physical Review A"
+doi: 10.1103/physreva.106.063511
+arxiv: "2207.13537"
+source: https://arxiv.org/abs/2207.13537
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

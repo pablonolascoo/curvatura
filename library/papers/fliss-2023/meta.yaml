@@ -1,0 +1,22 @@
+id: fliss-2023
+title: "Non-minimal coupling, negative null energy, and effective field theory"
+authors:
+  - "Jackson R. Fliss"
+  - "Ben Freivogel"
+  - "Eleni-Alexandra Kontou"
+  - "Diego Pardo Santos"
+year: 2023
+venue: "arXiv:2309.10848"
+doi: null
+arxiv: "2309.10848"
+source: https://arxiv.org/abs/2309.10848
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

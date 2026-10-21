@@ -1,0 +1,20 @@
+id: jaksland-2019
+title: "The multiple realizability of general relativity in quantum gravity"
+authors:
+  - "Rasmus Jaksland"
+year: 2019
+venue: "Synthese"
+doi: 10.1007/s11229-019-02382-8
+arxiv: "2005.05055"
+source: https://arxiv.org/abs/2005.05055
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

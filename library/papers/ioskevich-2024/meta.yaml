@@ -1,0 +1,20 @@
+id: ioskevich-2024
+title: "Quantum Propulsion: Background and Practical Applications"
+authors:
+  - "Alex Ioskevich"
+year: 2024
+venue: "European Journal of Applied Physics"
+doi: 10.24018/ejphysics.2024.6.2.294
+arxiv: null
+source: https://doi.org/10.24018/ejphysics.2024.6.2.294
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, bobrick-martire-2021]
+relevance: media

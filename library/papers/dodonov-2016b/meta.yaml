@@ -1,0 +1,22 @@
+id: dodonov-2016b
+title: "Effective Landau-Zener transitions in circuit dynamical Casimir effect with time-varying modulation frequency"
+authors:
+  - "A. V. Dodonov"
+  - "B. Militello"
+  - "A. Napoli"
+  - "A. Messina"
+year: 2016
+venue: "Phys. Rev. A 93, 052505 (2016)"
+doi: 10.1103/physreva.93.052505
+arxiv: "1603.04651"
+source: https://arxiv.org/abs/1603.04651
+language: en
+subsystems: [E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

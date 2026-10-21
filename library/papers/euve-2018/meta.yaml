@@ -1,0 +1,23 @@
+id: euve-2018
+title: "Scattering of co-current surface waves on an analogue black hole"
+authors:
+  - "Léo-Paul Euvé"
+  - "Scott Robertson"
+  - "Nicolas James"
+  - "Alessandro Fabbri"
+  - "Germain Rousseaux"
+year: 2018
+venue: "Phys. Rev. Lett. 124, 141101 (2020)"
+doi: 10.1103/physrevlett.124.141101
+arxiv: "1806.05539"
+source: https://arxiv.org/abs/1806.05539
+language: en
+subsystems: [G, D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,19 @@
+id: pfenning-2001
+title: "Quantum Inequalities for the Electromagnetic Field"
+authors:
+  - "Michael J. Pfenning"
+year: 2001
+venue: "Phys.Rev. D65 (2002) 024009"
+doi: 10.1103/physrevd.65.024009
+arxiv: "gr-qc/0107075"
+source: https://arxiv.org/abs/gr-qc/0107075
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

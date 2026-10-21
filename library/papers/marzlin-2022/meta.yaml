@@ -1,0 +1,21 @@
+id: marzlin-2022
+title: "Exactly solvable 2D model for photon propagation in curved space: loss of interference and Bell inequality violation"
+authors:
+  - "Karl-Peter Marzlin"
+  - "Michael P. Kinach"
+year: 2022
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ac4fbb
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/ac4fbb
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,24 @@
+id: finazzi-2015
+title: "Instability of the Superfluid Flow as Black-Hole Lasing Effect"
+authors:
+  - "Stefano Finazzi"
+  - "Francesco Piazza"
+  - "Marta Abad"
+  - "Augusto Smerzi"
+  - "Alessio Recati"
+year: 2015
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.114.245301
+arxiv: "1409.8068"
+source: https://arxiv.org/abs/1409.8068
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,22 @@
+id: jensen-2018
+title: "From the Weyl Anomaly to Entropy of Two-Dimensional Boundaries and Defects"
+authors:
+  - "Kristan Jensen"
+  - "Andy O'Bannon"
+  - "Brandon Robinson"
+  - "Ronnie Rodgers"
+year: 2018
+venue: "Phys. Rev. Lett. 122, 241602 (2019)"
+doi: 10.1103/physrevlett.122.241602
+arxiv: "1812.08745"
+source: https://arxiv.org/abs/1812.08745
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

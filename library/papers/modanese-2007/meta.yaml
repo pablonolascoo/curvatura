@@ -1,0 +1,20 @@
+id: modanese-2007
+title: "The vacuum state of quantum gravity contains large virtual masses"
+authors:
+  - "Giovanni Modanese"
+year: 2007
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/24/8/001
+arxiv: "physics/0605076"
+source: https://arxiv.org/abs/physics/0605076
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [lobo-visser-2004]
+relevance: media

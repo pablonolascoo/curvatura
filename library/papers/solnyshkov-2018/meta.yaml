@@ -1,0 +1,23 @@
+id: solnyshkov-2018
+title: "Analog Kerr Black hole and Penrose effect in a Bose-Einstein Condensate"
+authors:
+  - "D. D. Solnyshkov"
+  - "C. Leblanc"
+  - "S. V. Koniakhin"
+  - "O. Bleu"
+  - "G. Malpuech"
+year: 2018
+venue: "Phys. Rev. B 99, 214511 (2019)"
+doi: 10.1103/physrevb.99.214511
+arxiv: "1809.05386"
+source: https://arxiv.org/abs/1809.05386
+language: en
+subsystems: [M, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

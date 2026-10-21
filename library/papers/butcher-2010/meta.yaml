@@ -1,0 +1,21 @@
+id: butcher-2010
+title: "Localizing the Energy and Momentum of Linear Gravity"
+authors:
+  - "Luke M. Butcher"
+  - "Michael Hobson"
+  - "Anthony Lasenby"
+year: 2010
+venue: "Phys.Rev.D82:104040,2010"
+doi: 10.1103/physrevd.82.104040
+arxiv: "1008.4061"
+source: https://arxiv.org/abs/1008.4061
+language: en
+subsystems: [G, D]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

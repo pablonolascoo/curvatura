@@ -1,0 +1,22 @@
+id: ford-2002
+title: "Spatially averaged quantum inequalities do not exist in four-dimensional spacetime"
+authors:
+  - "Lawrence H. Ford"
+  - "Adam D. Helfer"
+  - "Thomas A. Roman"
+year: 2002
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.66.124012
+arxiv: "gr-qc/0208045"
+source: https://arxiv.org/abs/gr-qc/0208045
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

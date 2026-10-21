@@ -1,0 +1,21 @@
+id: zampino-2003
+title: "The potential application of risk assessment to the Breakthrough Propulsion Physics Project"
+authors:
+  - "Edward Zampino"
+  - "Marc G. Millis"
+year: 2003
+venue: "Proceedings, annual Reliability and Maintainability Symposium/Proceedings. Annual Reliability and Maintainability Symposium"
+doi: 10.1109/rams.2003.1181920
+arxiv: null
+source: https://doi.org/10.1109/rams.2003.1181920
+language: en
+subsystems: [G]
+kind: solucion
+license: public-domain
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,22 @@
+id: dai-2023b
+title: "On the emergence of gravitational dynamics from tensor networks"
+authors:
+  - "Hua-Yu Dai"
+  - "Jia-Rui Sun"
+  - "Yuan Sun"
+year: 2023
+venue: "Communications in Theoretical Physics"
+doi: 10.1088/1572-9494/acdd61
+arxiv: null
+source: https://doi.org/10.1088/1572-9494/acdd61
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

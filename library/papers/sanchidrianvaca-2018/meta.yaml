@@ -1,0 +1,21 @@
+id: sanchidrianvaca-2018
+title: "Parameter Estimation of Wormholes beyond the Heisenberg Limit"
+authors:
+  - "Carlos Sanchidrián-Vaca"
+  - "Carlos Sabín"
+year: 2018
+venue: "Universe"
+doi: 10.3390/universe4110115
+arxiv: "1811.02395"
+source: https://arxiv.org/abs/1811.02395
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [ford-roman-1996]
+relevance: media

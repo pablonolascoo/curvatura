@@ -1,0 +1,20 @@
+id: suchard-2017
+title: "Electro-gravity via geometric chrononfield"
+authors:
+  - "Eytan H. Suchard"
+year: 2017
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/845/1/012019
+arxiv: "1806.05244"
+source: https://arxiv.org/abs/1806.05244
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

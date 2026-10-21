@@ -1,0 +1,25 @@
+id: berti-2025
+title: "Analog Hawking radiation from a spin-sonic horizon in a two-component Bose–Einstein condensate"
+authors:
+  - "Anna Berti"
+  - "Lennart Fernandes"
+  - "Salvatore Butera"
+  - "Alessio Recati"
+  - "Michiel Wouters"
+  - "Iacopo Carusotto"
+year: 2025
+venue: "Comptes Rendus Physique"
+doi: 10.5802/crphys.226
+arxiv: "2408.17292"
+source: https://arxiv.org/abs/2408.17292
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

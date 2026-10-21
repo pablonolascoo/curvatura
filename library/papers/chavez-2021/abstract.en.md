@@ -1,0 +1,1 @@
+We study the new warped metric proposed by P. Marcal and Z. Shen. We obtain the differential equation of such metrics with vanishing Douglas curvature. By solving this equation, we obtain all Douglas warped product metrics. We show that Landsberg and Berwald warped product metrics are equivalent. We classify Douglas Ricci-flat metrics. Examples are included.

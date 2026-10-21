@@ -1,0 +1,25 @@
+id: sedov-2015
+title: "Atomic Bose-Einstein condensates as nonlinear hyperbolic metamaterials"
+authors:
+  - "Evgeny S. Sedov"
+  - "M. V. Charukhchyan"
+  - "Sergei M Arakelyan"
+  - "A. P. Alodjants"
+  - "You-Lin Chuang"
+  - "Ray‐Kuang Lee"
+year: 2015
+venue: "Days on Diffraction"
+doi: 10.1109/dd.2015.7354878
+arxiv: null
+source: https://doi.org/10.1109/dd.2015.7354878
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

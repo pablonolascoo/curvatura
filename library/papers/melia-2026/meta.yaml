@@ -1,0 +1,20 @@
+id: melia-2026
+title: "The early Universe"
+authors:
+  - "Fulvio Melia"
+year: 2026
+venue: "Elsevier eBooks"
+doi: 10.1016/b978-0-44-345201-7.00012-5
+arxiv: null
+source: https://doi.org/10.1016/b978-0-44-345201-7.00012-5
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

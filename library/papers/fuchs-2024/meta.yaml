@@ -9,7 +9,7 @@ authors:
   - "Gianni Martire"
 year: 2024
 venue: "Classical and Quantum Gravity 41, 095013"
-doi: null
+doi: 10.1088/1361-6382/ad26aa
 arxiv: "2405.02709"
 source: https://arxiv.org/abs/2405.02709
 language: en
@@ -19,3 +19,4 @@ license: CC-BY-4.0
 fulltext: true
 translations: [es, fr]
 verified: true
+relevance: alta

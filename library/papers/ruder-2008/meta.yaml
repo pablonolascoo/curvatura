@@ -1,0 +1,23 @@
+id: ruder-2008
+title: "How computers can help us in creating an intuitive access to relativity"
+authors:
+  - "H. Ruder"
+  - "Daniel Weiskopf"
+  - "Hans-Peter Nollert"
+  - "Thomas Müller"
+year: 2008
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/10/12/125014
+arxiv: null
+source: https://doi.org/10.1088/1367-2630/10/12/125014
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [alcubierre-1994]
+relevance: media

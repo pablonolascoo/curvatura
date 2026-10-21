@@ -1,0 +1,19 @@
+id: tinoco-2026
+title: "Hydrodynamic Analog of the Klein Paradox: Vacuum Instability and Pair Production in a Linear Elastic Medium"
+authors:
+  - "Alan F. Tinoco"
+year: 2026
+venue: "Eur. J. Phys. 47 025503 (2026)"
+doi: 10.1088/1361-6404/ae5903
+arxiv: "2604.14378"
+source: https://arxiv.org/abs/2604.14378
+language: en
+subsystems: [S, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

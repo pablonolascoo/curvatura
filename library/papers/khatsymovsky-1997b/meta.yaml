@@ -1,0 +1,20 @@
+id: khatsymovsky-1997b
+title: "Towards the possibility of a self-maintained vacuum-traversable wormhole"
+authors:
+  - "V. M. Khatsymovsky"
+year: 1997
+venue: "Physics Letters B"
+doi: 10.1016/s0370-2693(97)00290-6
+arxiv: "gr-qc/9612013"
+source: https://arxiv.org/abs/gr-qc/9612013
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [ford-roman-1996]
+relevance: media

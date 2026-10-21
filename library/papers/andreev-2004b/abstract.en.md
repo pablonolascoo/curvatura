@@ -1,0 +1,1 @@
+The high-energy behavior of string scattering in warped spacetimes is studied to all orders in perturbation theory. If one assumes that the theory is finite, the amplitudes exactly fall as powers of momentum.

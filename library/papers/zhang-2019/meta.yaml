@@ -1,0 +1,26 @@
+id: zhang-2019
+title: "Metric-Torsion Duality of Optically Chiral Structures"
+authors:
+  - "Yongliang Zhang"
+  - "Lina Shi"
+  - "Ruo-Yang Zhang"
+  - "Jinglai Duan"
+  - "Jack Tsz Fai Ng"
+  - "Che Ting Chan"
+  - "Kin Hung Fung"
+year: 2019
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.122.200201
+arxiv: null
+source: https://doi.org/10.1103/physrevlett.122.200201
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 23
+cites_seeds: [barcelo-2011]
+relevance: media

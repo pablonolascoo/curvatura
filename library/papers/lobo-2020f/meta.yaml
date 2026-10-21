@@ -1,0 +1,22 @@
+id: lobo-2020f
+title: "Dynamic thin-shell black-bounce traversable wormholes"
+authors:
+  - "Francisco S. N. Lobo"
+  - "Alex Simpson"
+  - "Matt Visser"
+year: 2020
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.101.124035
+arxiv: "2003.09419"
+source: https://arxiv.org/abs/2003.09419
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 93
+cites_seeds: [lobo-visser-2004]
+relevance: media

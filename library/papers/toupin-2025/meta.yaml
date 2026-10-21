@@ -1,0 +1,20 @@
+id: toupin-2025
+title: "Simulating gravitational dynamics via scalar field propagation"
+authors:
+  - "Brendan Toupin"
+year: 2025
+venue: "Frontiers in Physics"
+doi: 10.3389/fphy.2025.1672745
+arxiv: null
+source: https://doi.org/10.3389/fphy.2025.1672745
+language: en
+subsystems: [G]
+kind: fuente
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

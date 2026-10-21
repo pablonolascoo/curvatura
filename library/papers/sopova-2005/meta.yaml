@@ -1,0 +1,20 @@
+id: sopova-2005
+title: "The Electromagnetic Field Stress Tensor between Dielectric Half-Spaces"
+authors:
+  - "V. Sopova"
+  - "L. H. Ford"
+year: 2005
+venue: "Phys.Rev.D72:033001,2005; Erratum-ibid.D72:033001,2005"
+doi: 10.1103/physrevd.72.033001
+arxiv: "quant-ph/0504143"
+source: https://arxiv.org/abs/quant-ph/0504143
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

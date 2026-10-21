@@ -1,0 +1,21 @@
+id: nation-2015
+title: "Ultra-Strong Optomechanics Incorporating the Dynamical Casimir Effect"
+authors:
+  - "P. D. Nation"
+  - "J. Suh"
+  - "M. P. Blencowe"
+year: 2015
+venue: "Phys. Rev. A 93, 022510 (2016)"
+doi: 10.1103/physreva.93.022510
+arxiv: "1507.00115"
+source: https://arxiv.org/abs/1507.00115
+language: en
+subsystems: [E]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

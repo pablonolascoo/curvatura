@@ -1,0 +1,21 @@
+id: cassenti-2003
+title: "Warp Drives: How and When?"
+authors:
+  - "Brice N. Cassenti"
+  - "Harry I. Ringermacher"
+year: 2003
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.2003-4677
+arxiv: null
+source: https://doi.org/10.2514/6.2003-4677
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [vandenbroeck-1999]
+relevance: alta

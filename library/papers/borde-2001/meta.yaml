@@ -1,0 +1,21 @@
+id: borde-2001
+title: "Inflationary spacetimes are not past-complete"
+authors:
+  - "Arvind Borde"
+  - "Alan H. Guth"
+  - "Alexander Vilenkin"
+year: 2001
+venue: "Phys.Rev.Lett. 90 (2003) 151301"
+doi: 10.1103/physrevlett.90.151301
+arxiv: "gr-qc/0110012"
+source: https://arxiv.org/abs/gr-qc/0110012
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

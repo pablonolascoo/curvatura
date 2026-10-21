@@ -1,0 +1,20 @@
+id: gerace-2012
+title: "Analog Hawking radiation from an acoustic black hole in a flowing polariton superfluid"
+authors:
+  - "Dario Gerace"
+  - "Iacopo Carusotto"
+year: 2012
+venue: "arXiv:1206.4276"
+doi: 10.1103/physrevb.86.144505
+arxiv: "1206.4276"
+source: https://arxiv.org/abs/1206.4276
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

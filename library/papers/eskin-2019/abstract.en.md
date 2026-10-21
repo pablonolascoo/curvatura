@@ -1,0 +1,1 @@
+We consider a time-dependent acoustic metric in 2+1 dimensions having a black hole and we study the Hawking type radiation from such black hole. We construct eikonals of special form with the support close to the black hole. We compute the average number of created particles where the average is taken with respect to the Unruh type vacuum.

@@ -1,0 +1,25 @@
+id: dingel-2022
+title: "Optical analogue of the Thomas effect in special relativity using Michelson-Gires-Tournois interferometer: Comprehensive error analysis and recovery of the direction of the Thomas rotation angle"
+authors:
+  - "Benjamin B. Dingel"
+  - "Kent C. Soria"
+  - "Julius Guillermo"
+  - "Clyde J. Calgo"
+  - "Jezlor Villarde"
+  - "Weili Cui"
+year: 2022
+venue: "Optik"
+doi: 10.1016/j.ijleo.2022.169013
+arxiv: null
+source: https://doi.org/10.1016/j.ijleo.2022.169013
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

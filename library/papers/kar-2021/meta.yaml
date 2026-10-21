@@ -1,0 +1,19 @@
+id: kar-2021
+title: "A curious variant of Bronnikov-Ellis spacetime"
+authors:
+  - "Sayan Kar"
+year: 2021
+venue: "arXiv:2112.05440"
+doi: 10.1103/physrevd.105.024013
+arxiv: "2112.05440"
+source: https://arxiv.org/abs/2112.05440
+language: en
+subsystems: [G, C, S, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

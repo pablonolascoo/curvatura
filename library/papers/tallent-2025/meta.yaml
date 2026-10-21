@@ -1,0 +1,21 @@
+id: tallent-2025
+title: "Analog Unruh effect of inhomogeneous one-dimensional Dirac fermions"
+authors:
+  - "Khristian B. Tallent"
+  - "Daniel E. Sheehy"
+year: 2025
+venue: "Physical review. B./Physical review. B"
+doi: 10.1103/yccb-db4j
+arxiv: "2408.00862"
+source: https://arxiv.org/abs/2408.00862
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

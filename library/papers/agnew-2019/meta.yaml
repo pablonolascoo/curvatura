@@ -1,0 +1,20 @@
+id: agnew-2019
+title: "An Examination of Warp Theory and Technology to Determine the State of the Art and Feasibility"
+authors:
+  - "Joseph F. Agnew"
+year: 2019
+venue: "AIAA Propulsion and Energy Forum"
+doi: 10.2514/6.2019-4288
+arxiv: null
+source: https://doi.org/10.2514/6.2019-4288
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [lobo-visser-2004, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+relevance: media

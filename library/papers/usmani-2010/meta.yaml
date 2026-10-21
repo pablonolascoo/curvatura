@@ -1,0 +1,25 @@
+id: usmani-2010
+title: "Thin-shell wormholes from charged black holes in generalized dilaton-axion gravity"
+authors:
+  - "A. A. Usmani"
+  - "Z. Hasan"
+  - "Farook Rahaman A"
+  - "Sk. A. Rakib"
+  - "Saibal Ray"
+  - "Peter K. F. Kuhfittig"
+year: 2010
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-010-1044-y
+arxiv: "1001.1415"
+source: https://arxiv.org/abs/1001.1415
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 78
+cites_seeds: [ford-roman-1996]
+relevance: media

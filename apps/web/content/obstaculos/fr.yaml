@@ -1,0 +1,181 @@
+# Obstacles à un moteur de distorsion utile, classés par gravité.
+# Version longue avec équations et tâches : docs/obstaculos.md
+# status : bloqueante (aucune issue connue), abierto (non résolu, pistes actives), parcial (résolu dans un cas restreint)
+
+- id: violacion-nec-generica
+  subsystem: C
+  status: bloqueante
+  title: Toute bulle générique viole la condition d'énergie nulle
+  summary: "Pour la classe de Natário (lapse unité, tranches spatiales plates, shift seul), il est démontré que la NEC échoue quelque part dans la paroi, et avec elle la WEC, la SEC et la DEC, à toute vitesse. Les affirmations d'énergie positive de 2021 ne vérifiaient que l'observateur eulérien ; la NEC ne dépend pas de l'observateur. Les seules solutions qui la respectent sortent de cette classe, ajoutent une masse ADM et sont subluminiques."
+  evidence: [santiago-2022, schuster-2022, lobo-visser-2004, le-2026, barzegar-2026]
+  leads:
+    - text: "Sortir de la classe de Natário avec un lapse et une métrique spatiale non triviaux, comme la coque de matière avec shift intérieur, qui respecte toutes les conditions à vitesse constante."
+      papers: [fuchs-2024, bobrick-martire-2021]
+    - text: "Utiliser des écoulements de shift irrotationnels, qui donnent un tenseur de type Hawking-Ellis I partout et réduisent le déficit d'énergie local d'un facteur 38 à 2600 par rapport à Alcubierre et Natário."
+      papers: [rodal-2025c, le-2026]
+    - text: "Passer à une description covariante avec courbure spatiale, accélération et vorticité de l'écoulement, que les modèles actuels annulent par construction."
+      papers: [barzegar-2024, buchert-2026]
+
+- id: aceleracion-momento
+  subsystem: D
+  status: bloqueante
+  title: Aucune solution physique n'accélère ni ne freine
+  summary: "Toutes les solutions à énergie positive ne décrivent que la phase à vitesse constante. Déplacer dans le temps le centre d'une coque massive impose une densité d'énergie négative dans tout l'espace, et une bulle sans éjection de masse serait un propulseur sans réaction, en conflit avec la conservation du quadri-moment ADM. Aucune métrique publiée ne décrit démarrage, accélération et arrêt avec énergie positive."
+  evidence: [fuchs-2024, schuster-2022, bobrick-martire-2021, lobo-visser-2004]
+  leads:
+    - text: "Utiliser la contrainte de moment sur des tranches plates, qui fixe le moment eulérien à partir de la vorticité du shift, pour borner les profils capables de gagner du moment sans flux d'énergie."
+      papers: [le-2026]
+    - text: "Décrire la dynamique du champ de distorsion par des perturbations lagrangiennes relativistes et des fluides inclinés, où l'accélération est une variable et non une amplitude imposée."
+      papers: [buchert-2026, barzegar-2024]
+    - text: "Comptabiliser le flux d'énergie gravitationnelle pendant la phase accélérée, qui rétablit la conservation totale dans l'équivalent téléparallèle."
+      papers: [carneiro-2022]
+
+- id: energia-negativa-desigualdades-cuanticas
+  subsystem: Q
+  status: bloqueante
+  title: L'énergie négative requise heurte les inégalités quantiques
+  summary: "Les inégalités quantiques limitent l'énergie négative vue par un observateur pendant un temps τ à environ $3\\hbar c/(32\\pi^2 (c\\tau)^4)$, ce qui impose des parois d'environ $10^2$ longueurs de Planck et une énergie de l'ordre de $10^{62}$ kg pour $R = 100$ m à $v = c$. Van Den Broeck ramène ce chiffre à quelques masses solaires, et pour Natário le minimum exact croît comme $v^2 R^4/(4\\Delta^3)$, pire que l'estimation antérieure."
+  evidence: [ford-roman-1996, pfenning-ford-1997, vandenbroeck-1999, bolivar-2026, fewster-2012b]
+  leads:
+    - text: "Connaître le plancher exact d'énergie négative pour chaque famille de métriques, comme c'est déjà fait pour Natário, avant d'optimiser à l'aveugle."
+      papers: [bolivar-2026, jusufi-2026]
+    - text: "Appliquer des inégalités quantiques rigoureuses le long de lignes d'univers stationnaires, celles d'un observateur au repos par rapport à la paroi."
+      papers: [fewster-2023, kontou-2024]
+    - text: "Optimiser la géométrie pour réduire l'énergie négative, avec des gains démontrés de deux ordres de grandeur par rapport à Alcubierre."
+      papers: [bobrick-martire-2021, helmerich-2024b]
+
+- id: horizontes-control-causal
+  subsystem: G
+  status: bloqueante
+  title: En régime supraluminique l'équipage ne contrôle pas la bulle
+  summary: "Si $v_s > c$, l'intérieur est causalement déconnecté du bord avant de la paroi : le vaisseau ne peut ni créer, ni guider, ni arrêter la bulle depuis l'intérieur. Deux bulles supraluminiques suffisent pour construire des courbes de genre temps fermées. L'alternative de Krasnikov exige de préparer le trajet à vitesse subluminique avant le voyage."
+  evidence: [everett-roman-1997, alcubierre-2021, krasnikov-1998, shoshany-2023, lentz-2021b]
+  leads:
+    - text: "Étudier les modèles de membranes qui respectent la WEC et proposent une transition du régime subluminique au supraluminique, bien que leurs membranes ne soient pas compactes."
+      papers: [huey-2023]
+    - text: "Explorer des distributions d'énergie générées hors de la bulle, le long d'un tube, qui séparent le contrôle du véhicule."
+      papers: [pieri-2023]
+    - text: "Tester en laboratoire, sur des analogues, les mécanismes de protection de la chronologie près des horizons."
+      papers: [barcelo-2022b, sabin-2022]
+
+- id: inestabilidad-semiclasica
+  subsystem: Q
+  status: bloqueante
+  title: Le vide quantique déstabilise les bulles supraluminiques
+  summary: "Le tenseur énergie-impulsion renormalisé diverge sur la paroi avant dès que la bulle dépasse la vitesse de la lumière : explicitement en 1+1 dimensions et, pour des bulles créées à partir d'un espace plat, avec une croissance exponentielle à l'horizon. Le problème disparaît en régime subluminique, sans horizons."
+  evidence: [hiscock-1997, finazzi-2009, barcelo-2010, liberati-2016]
+  leads:
+    - text: "En 2+1 dimensions ou plus, la divergence se limite à des points isolés et l'énergie accumulée est finie ; des formes et trajectoires aérodynamiques la réduisent encore."
+      papers: [barcelo-2022]
+    - text: "Rester subluminique avec une coque à énergie positive, qui n'a pas d'horizon et donc pas ce mécanisme."
+      papers: [fuchs-2024, bobrick-martire-2021]
+
+- id: masa-cascara-subluminal
+  subsystem: P
+  status: abierto
+  title: La coque à énergie positive pèse deux Jupiter
+  summary: "La seule solution qui respecte toutes les conditions utilise une coque de rayons 10 et 20 m avec $4{,}49\\times10^{27}$ kg (2,37 masses de Jupiter) pour un shift intérieur de 0,02. Cela donne une compacité $2GM/(c^2R_2) \\approx 0{,}33$ et une densité moyenne de $1{,}5\\times10^{23}$ kg/m³, environ $7\\times10^{5}$ fois la densité nucléaire (notre calcul à partir des paramètres publiés). La masse admissible est bornée par la condition de ne pas former d'horizon."
+  evidence: [fuchs-2024, bobrick-martire-2021, schuster-2022]
+  leads:
+    - text: "Remplacer le lissage par une optimisation directe des profils radiaux de densité, de pression et de shift, dont les auteurs attendent un gain de plusieurs ordres de grandeur."
+      papers: [fuchs-2024, helmerich-2024b]
+    - text: "Chercher la borne supérieure du shift pour une masse donnée avec des certificats de conditions d'énergie valables pour tous les observateurs."
+      papers: [le-2026]
+
+- id: modelo-materia-ecuacion-estado
+  subsystem: E
+  status: abierto
+  title: Aucune matière réelle n'a l'équation d'état requise
+  summary: "La proposition de solitons supraluminiques sourcés par un plasma et des champs électromagnétiques contient des erreurs de dérivation et présente une densité eulérienne négative dans certaines régions, même après correction de la géométrie. Dans la forme d'Alcubierre, la poussière et les fluides isotropes donnent une densité nulle, et les solutions de fluide parfait exigent des fonctions de forme complexes. La seule coque dotée d'une équation d'état (TOV anisotrope) est subluminique et ne modélise aucun matériau réel."
+  evidence: [celmaster-2025, lentz-2021, abellan-2023, santospereira-2021d, santiago-2022]
+  leads:
+    - text: "Travailler avec des fluides anisotropes en coordonnées sphériques, où la masse totale peut rester positive pendant toute l'évolution numérique."
+      papers: [abellan-2023b, bolivar-2025]
+    - text: "Construire la source comme un écoulement de fluide incliné dans un cadre covariant, au lieu de la déduire d'une métrique imposée."
+      papers: [buchert-2026]
+    - text: "Partir de la coque TOV anisotrope pour fermer le système avec une équation d'état explicite."
+      papers: [fuchs-2024]
+
+- id: tensiones-estabilidad-cascara
+  subsystem: S
+  status: abierto
+  title: La coque exige des contraintes extrêmes et est instable
+  summary: "Maintenir la coque exige une contrainte circonférentielle avec un pic au rayon intérieur et des pressions inférieures à la densité d'énergie en tout point, sinon la DEC est violée. Avec les paramètres publiés, l'équation TOV isotrope donne une pression d'environ $10^{39}$ Pa au rayon intérieur ($\\approx 0{,}07\\,\\rho c^2$, notre calcul), quelque 28 ordres au-dessus de la résistance des matériaux les plus solides, de l'ordre de $10^{11}$ Pa. Une coque mince entre un intérieur plat et un extérieur de Schwarzschild a un rayon minimal de stabilité radiale et est instable aux perturbations non radiales."
+  evidence: [fuchs-2024, idrissov-2026, rodal-2025]
+  leads:
+    - text: "Utiliser le seuil exact de stabilité radiale pour délimiter où devrait agir tout mécanisme stabilisateur."
+      papers: [idrissov-2026]
+    - text: "Agrandir la coque et remodeler la densité pour réduire la pression requise, comme le suggèrent les auteurs de la solution."
+      papers: [fuchs-2024]
+
+- id: escala-casimir
+  subsystem: E
+  status: bloqueante
+  title: L'effet Casimir reste des dizaines d'ordres en dessous
+  summary: "La densité de Casimir entre plaques idéales vaut $-\\pi^2\\hbar c/(720a^4)$ : environ $-4\\times10^{4}$ J/m³ à 10 nm et $-4\\times10^{-4}$ J/m³ à 1 µm. Une paroi d'Alcubierre avec $\\sigma = 1$ m⁻¹ et $v = c$ demande de l'ordre de $10^{41}$ J/m³, soit quelque 37 ordres de plus qu'à 10 nm (notre calcul). La force n'a été mesurée entre plaques parallèles qu'entre 0,5 et 3 µm, avec une précision de 15 %."
+  evidence: [casimir-1948, bressi-2002, ford-roman-1996, maclay-2018]
+  leads:
+    - text: "Tester expérimentalement les inégalités quantiques avec de la lumière comprimée, pour laquelle il existe déjà des données à -15 dB."
+      papers: [maclay-2018]
+    - text: "Étudier la limite de petit rayon, où l'énergie totale est bien plus faible, comme banc d'essai et non comme moyen de transport."
+      papers: [pieri-2023]
+
+- id: particulas-desaceleracion
+  subsystem: M
+  status: abierto
+  title: Les particules piégées ressortent très énergétiques au freinage
+  summary: "Les particules qui entrent dans la paroi par l'avant restent presque figées en temps propre et gagnent beaucoup d'énergie ; quand la bulle décélère, elles sont libérées vers l'avant. La poussière et les photons interstellaires exercent une pression proportionnelle à $v_s$. Une bulle de la taille d'un avion au-delà de 0,1 c dans l'atmosphère émettrait plus d'un térawatt."
+  evidence: [mcmonigal-2012, bian-2022, pieri-2023, fell-2026]
+  leads:
+    - text: "Concevoir des modifications de la bulle qui servent de bouclier déflecteur contre la poussière et les projectiles à 10 % de c."
+      papers: [sanches-2026]
+    - text: "Choisir des formes et trajectoires aérodynamiques qui limitent l'accumulation d'énergie dans la paroi."
+      papers: [barcelo-2022]
+
+- id: gravedad-modificada
+  subsystem: C
+  status: abierto
+  title: La gravité modifiée n'offre pas d'issue nette
+  summary: "Dans les théories modifiées, une bulle raisonnable viole toujours les conditions géométriques de convergence nulle et temporelle. Un couplage gravitationnel variable imposé par un métamatériau brise la conservation locale, et sa version dynamique est exclue par les mesures du Système solaire avec $|\\gamma - 1| \\lesssim 10^{-5}$. Les voies restantes, comme le spin en théorie d'Einstein-Cartan, exigent une densité de spin dont la réalisation avec de la matière connue n'est pas démontrée."
+  evidence: [santiago-2022, rodal-2025d, debenedictis-2018]
+  leads:
+    - text: "Quantifier la densité de spin minimale qui respecte la NEC et la comparer à la matière polarisée connue."
+      papers: [debenedictis-2018]
+    - text: "Traiter les fonds gravitationnels externes comme réducteurs de la violation, en sachant qu'il s'agit de cas très restreints."
+      papers: [garattini-2024, garattini-2025]
+
+- id: dinamica-relatividad-numerica
+  subsystem: D
+  status: abierto
+  title: L'évolution temporelle complète en relativité numérique manque
+  summary: "La seule évolution 3+1 de la bibliothèque suit l'effondrement d'une bulle d'Alcubierre avec un fluide à équation d'état rigide et calcule son onde gravitationnelle. Il n'existe aucune simulation de formation, d'accélération ou d'arrêt, ni de coques à énergie positive. Une analyse covariante trouve une instabilité générique du champ de distorsion dans l'un des cas étudiés."
+  evidence: [clough-2024, buchert-2026, helmerich-2024]
+  leads:
+    - text: "Refaire l'évolution avec la coque à énergie positive et une équation d'état physique pour mesurer sa stabilité et sa forme d'onde."
+      papers: [clough-2024, fuchs-2024]
+    - text: "Préparer des gabarits d'émission électromagnétique, particulaire et gravitationnelle à confronter aux observatoires."
+      papers: [lentz-2024, fell-2026]
+
+- id: verificacion-observadores
+  subsystem: V
+  status: parcial
+  title: Les vérifications d'énergie ont été incomplètes
+  summary: "Plusieurs affirmations d'énergie positive ont échoué parce que seul l'observateur eulérien était évalué ; pour un profil irrotationnel, cette lecture manque environ 73 % des violations de la WEC dans la paroi. Des invariants publiés contiennent aussi des erreurs allant jusqu'à 21 ordres de grandeur. Il existe désormais des certificats par intervalles qui testent la NEC, la WEC et la SEC dans toutes les directions causales."
+  evidence: [santiago-2022, celmaster-2025, le-2026, rodal-2025b]
+  leads:
+    - text: "Exprimer les conditions d'énergie comme inégalités matricielles linéaires 4x4 avec des bornes globales par arithmétique d'intervalles."
+      papers: [le-2026]
+    - text: "Valider chaque résultat avec des outils indépendants et comparer les invariants de courbure, pas seulement les composantes."
+      papers: [helmerich-2024, rodal-2025]
+
+- id: analogos-laboratorio
+  subsystem: V
+  status: parcial
+  title: Les analogues testent la cinématique, pas la source
+  summary: "La métrique d'Alcubierre est la métrique acoustique d'un écoulement, et l'émission de Hawking stimulée dans des canaux d'eau et spontanée dans des condensats de Bose-Einstein a été mesurée. Ces systèmes reproduisent la propagation des perturbations, mais ni le tenseur énergie-impulsion ni la rétroaction. Une partie des résultats en eau a été obtenue en régime non linéaire, ce qui complique leur lecture."
+  evidence: [barcelo-2011, weinfurtner-2011, kolobov-2019, euve-2021]
+  leads:
+    - text: "Simuler des sections 1+1 de la bulle avec des chaînes de SQUID dans des lignes de transmission supraconductrices, aux paramètres déjà bornés."
+      papers: [sabin-2017, sabin-2022]
+    - text: "Créer des écoulements transsoniques 2D avec des fluides de lumière et extraire les paramètres de spectres bruités par inférence fondée sur la simulation."
+      papers: [jacquet-2020b, solidoro-2026]

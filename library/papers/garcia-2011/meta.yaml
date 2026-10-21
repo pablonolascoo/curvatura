@@ -1,0 +1,21 @@
+id: garcia-2011
+title: "EXACT SOLUTIONS OF BRANS–DICKE WORMHOLES IN THE PRESENCE OF MATTER"
+authors:
+  - "NADIEZHDA MONTELONGO GARCIA"
+  - "Francisco S. N. Lobo"
+year: 2011
+venue: "Modern Physics Letters A"
+doi: 10.1142/s021773231103739x
+arxiv: "1106.3216"
+source: https://arxiv.org/abs/1106.3216
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 31
+cites_seeds: [lobo-visser-2004]
+relevance: media

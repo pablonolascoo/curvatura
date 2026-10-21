@@ -1,0 +1,19 @@
+id: marino-2019
+title: "Massive phonons and gravitational dynamics in a photon-fluid model"
+authors:
+  - "Francesco Marino"
+year: 2019
+venue: "Phys. Rev. A 100, 063825 (2019)"
+doi: 10.1103/physreva.100.063825
+arxiv: "1908.00875"
+source: https://arxiv.org/abs/1908.00875
+language: en
+subsystems: [G, E, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: doukas-2014
+title: "Superconducting circuit boundary conditions beyond the Dynamical Casimir Effect"
+authors:
+  - "Jason Doukas"
+  - "Jorma Louko"
+year: 2014
+venue: "Phys. Rev. D 91, 044010 (2015)"
+doi: 10.1103/physrevd.91.044010
+arxiv: "1411.2948"
+source: https://arxiv.org/abs/1411.2948
+language: en
+subsystems: [E, D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

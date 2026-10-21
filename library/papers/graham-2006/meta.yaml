@@ -1,0 +1,19 @@
+id: graham-2006
+title: "Casimir Energies and General Relativity Energy Conditions"
+authors:
+  - "N. Graham"
+year: 2006
+venue: "J.Phys. A39 (2006) 6423-6432"
+doi: 10.1088/0305-4470/39/21/s37
+arxiv: "hep-th/0601038"
+source: https://arxiv.org/abs/hep-th/0601038
+language: en
+subsystems: [G, C, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

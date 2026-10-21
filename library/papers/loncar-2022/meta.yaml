@@ -1,0 +1,22 @@
+id: loncar-2022
+title: "Negative-Inertia Converters: Devices Manifesting Negative Mass and Negative Moment of Inertia"
+authors:
+  - "Josip Lončar"
+  - "Bojan Igrec"
+  - "D.I. Babic"
+year: 2022
+venue: "Symmetry"
+doi: 10.3390/sym14030529
+arxiv: null
+source: https://doi.org/10.3390/sym14030529
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [alcubierre-1994]
+relevance: media

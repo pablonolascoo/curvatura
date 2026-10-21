@@ -1,0 +1,21 @@
+id: fiedler-2021
+title: "Analogue Hawking temperature of a laser-driven plasma"
+authors:
+  - "C. Fiedler"
+  - "David A. Burton"
+year: 2021
+venue: "Physics Letters A"
+doi: 10.1016/j.physleta.2021.127380
+arxiv: "2102.02556"
+source: https://arxiv.org/abs/2102.02556
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: kempf-2013
+title: "Quantum Gravity on a Quantum Computer?"
+authors:
+  - "Achim Kempf"
+year: 2013
+venue: "Foundations of Physics"
+doi: 10.1007/s10701-013-9735-3
+arxiv: "1302.3680"
+source: https://arxiv.org/abs/1302.3680
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [barcelo-2011]
+relevance: media

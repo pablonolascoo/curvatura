@@ -1,0 +1,22 @@
+id: visser-2022
+title: "Adm Mass in Warp Drive Spacetimes"
+authors:
+  - "Matt Visser"
+  - "Sebastian Schuster"
+  - "Jéssica Santiago"
+year: 2022
+venue: "SSRN Electronic Journal"
+doi: 10.2139/ssrn.4164341
+arxiv: null
+source: https://doi.org/10.2139/ssrn.4164341
+language: en
+subsystems: [G, P]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, finazzi-2009, lentz-2021, lobo-visser-2004, natario-2002, santiago-2022, vandenbroeck-1999]
+relevance: alta

@@ -1,0 +1,21 @@
+id: dailey-2023
+title: "Reflecting boundary conditions in numerical relativity as a model for black hole echoes"
+authors:
+  - "Conner Dailey"
+  - "Niayesh Afshordi"
+  - "Erik Schnetter"
+year: 2023
+venue: "Classical and Quantum Gravity, 40, 2023, 195007"
+doi: 10.1088/1361-6382/acde2f
+arxiv: "2301.05778"
+source: https://arxiv.org/abs/2301.05778
+language: en
+subsystems: [G, D, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,21 @@
+id: fewster-2017b
+title: "Quantum Energy Inequalities in Pre-Metric Electrodynamics"
+authors:
+  - "Christopher J. Fewster"
+  - "Christian Pfeifer"
+  - "Daniel Siemssen"
+year: 2017
+venue: "Phys. Rev. D 97, 025019 (2018)"
+doi: 10.1103/physrevd.97.025019
+arxiv: "1709.01760"
+source: https://arxiv.org/abs/1709.01760
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

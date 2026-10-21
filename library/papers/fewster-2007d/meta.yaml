@@ -1,0 +1,21 @@
+id: fewster-2007d
+title: "Absolute quantum energy inequalities"
+authors:
+  - "Christopher J. Fewster"
+  - "Calvin J. Smith"
+year: 2007
+venue: "preprint"
+doi: null
+arxiv: null
+source: https://openalex.org/W2598972011
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, ford-roman-1996]
+relevance: media

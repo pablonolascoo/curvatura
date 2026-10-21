@@ -1,0 +1,20 @@
+id: lammerzahl-2009
+title: "Testing Basic Laws of Gravitation – Are Our Postulates on Dynamics and Gravitation Supported by Experimental Evidence?"
+authors:
+  - "Cláus Lämmerzahl"
+year: 2009
+venue: "Springer eBooks"
+doi: 10.1007/978-90-481-3015-3_2
+arxiv: null
+source: https://doi.org/10.1007/978-90-481-3015-3_2
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [alcubierre-1994]
+relevance: media

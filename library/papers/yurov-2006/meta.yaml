@@ -1,0 +1,22 @@
+id: yurov-2006
+title: "New “bigs” in cosmology"
+authors:
+  - "Artem Valerianovich Yurov"
+  - "Prado Martín–Moruno"
+  - "Pedro F. González-Dı́az"
+year: 2006
+venue: "Nuclear Physics B"
+doi: 10.1016/j.nuclphysb.2006.10.021
+arxiv: "astro-ph/0606529"
+source: https://arxiv.org/abs/astro-ph/0606529
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 42
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

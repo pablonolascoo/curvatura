@@ -1,0 +1,22 @@
+id: mosna-2016
+title: "Analogue model for anti-de Sitter as a description of point sources in fluids"
+authors:
+  - "Ricardo Antonio Mosna"
+  - "João Paulo M. Pitelli"
+  - "Maurício Richartz"
+year: 2016
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.94.104065
+arxiv: "1611.09290"
+source: https://arxiv.org/abs/1611.09290
+language: en
+subsystems: [G, E, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [barcelo-2011]
+relevance: media

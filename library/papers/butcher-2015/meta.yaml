@@ -1,0 +1,19 @@
+id: butcher-2015
+title: "Traversable Wormholes and Classical Scalar Fields"
+authors:
+  - "Luke M. Butcher"
+year: 2015
+venue: "Phys. Rev. D 91, 124031 (2015)"
+doi: 10.1103/physrevd.91.124031
+arxiv: "1503.04145"
+source: https://arxiv.org/abs/1503.04145
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

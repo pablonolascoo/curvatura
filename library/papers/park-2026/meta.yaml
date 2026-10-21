@@ -1,0 +1,22 @@
+id: park-2026
+title: "SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding"
+authors:
+  - "Jisoo Park"
+  - "Seonghak Lee"
+  - "Hyojin Park"
+  - "Junseok Kwon"
+year: 2026
+venue: "arXiv:2609.37601"
+doi: null
+arxiv: "2609.37601"
+source: https://arxiv.org/abs/2609.37601
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,28 @@
+id: jacquet-2023
+title: "Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black Hole Spacetime"
+authors:
+  - "Maxime J. Jacquet"
+  - "Luca Giacomelli"
+  - "Quentin Valnais"
+  - "Malo Joly"
+  - "Ferdinand Claude"
+  - "E. Giacobino"
+  - "Quentin C. Glorieux"
+  - "Iacopo Carusotto"
+  - "Alberto Bramati"
+year: 2023
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.130.111501
+arxiv: "2110.14452"
+source: https://arxiv.org/abs/2110.14452
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 34
+cites_seeds: [barcelo-2011]
+relevance: media

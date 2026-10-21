@@ -1,0 +1,19 @@
+id: marecki-2007
+title: "Balanced homodyne detectors in QFT"
+authors:
+  - "P. Marecki"
+year: 2007
+venue: "Phys. Rev. A 77, 012101 (2008)"
+doi: 10.1103/physreva.77.012101
+arxiv: "quant-ph/0703076"
+source: https://arxiv.org/abs/quant-ph/0703076
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

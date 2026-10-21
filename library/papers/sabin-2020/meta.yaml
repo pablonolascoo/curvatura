@@ -1,0 +1,20 @@
+id: sabin-2020
+title: "Entangling Superconducting Qubits through an Analogue Wormhole"
+authors:
+  - "Carlos Sabín"
+year: 2020
+venue: "Universe"
+doi: 10.3390/universe6090149
+arxiv: "2003.13309"
+source: https://arxiv.org/abs/2003.13309
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

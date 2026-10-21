@@ -1,0 +1,20 @@
+id: bunney-2024
+title: "C-metric in a (nut)shell"
+authors:
+  - "Cameron R D Bunney"
+  - "Robert B Mann"
+year: 2024
+venue: "Class. Quant. Grav. 42, 075001 (2025)"
+doi: 10.1088/1361-6382/adbc3f
+arxiv: "2410.19677"
+source: https://arxiv.org/abs/2410.19677
+language: en
+subsystems: [C, S, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

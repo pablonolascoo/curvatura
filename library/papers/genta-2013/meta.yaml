@@ -1,0 +1,20 @@
+id: genta-2013
+title: "Humankind on the Verge of Becoming a Spacefaring Civilization"
+authors:
+  - "Giancarlo Genta"
+year: 2013
+venue: "Science and fiction"
+doi: 10.1007/978-3-319-02060-0_2
+arxiv: null
+source: https://doi.org/10.1007/978-3-319-02060-0_2
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

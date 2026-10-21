@@ -1,0 +1,20 @@
+id: yu-2003
+title: "Quantum inequalities for the free Rarita-Schwinger fields in flat spacetime"
+authors:
+  - "Hongwei Yu"
+  - "Puxun Wu"
+year: 2003
+venue: "Phys.Rev. D69 (2004) 064008"
+doi: 10.1103/physrevd.69.064008
+arxiv: "gr-qc/0312071"
+source: https://arxiv.org/abs/gr-qc/0312071
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

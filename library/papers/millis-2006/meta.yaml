@@ -1,0 +1,20 @@
+id: millis-2006
+title: "Assessing Hypothetical Gravity Control Propulsion"
+authors:
+  - "Marc G. Millis"
+year: 2006
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.physics/0603113
+arxiv: "physics/0603113"
+source: https://arxiv.org/abs/physics/0603113
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [krasnikov-1998]
+relevance: media

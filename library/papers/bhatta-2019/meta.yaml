@@ -1,0 +1,20 @@
+id: bhatta-2019
+title: "Light cone OPE in a CFT with lowest twist scalar primary"
+authors:
+  - "Atanu Bhatta"
+  - "Soham Ray"
+year: 2019
+venue: "Phys. Rev. D 101, 066003 (2020)"
+doi: 10.1103/physrevd.101.066003
+arxiv: "1908.06303"
+source: https://arxiv.org/abs/1908.06303
+language: en
+subsystems: [C, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

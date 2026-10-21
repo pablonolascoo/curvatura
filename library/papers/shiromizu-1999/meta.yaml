@@ -1,0 +1,19 @@
+id: shiromizu-1999
+title: "Stringy Probe Particle and Force Balance"
+authors:
+  - "Tetsuya Shiromizu"
+year: 1999
+venue: "Phys.Rev. D60 (1999) 104046"
+doi: 10.1103/physrevd.60.104046
+arxiv: "hep-th/9907017"
+source: https://arxiv.org/abs/hep-th/9907017
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

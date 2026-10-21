@@ -1,0 +1,20 @@
+id: abreu-2011
+title: "Kodama Time, Entropy Bounds, the Raychaudhuri Equation, and the Quantum Interest Conjecture"
+authors:
+  - "Gabriel Abreu"
+year: 2011
+venue: "dissertation"
+doi: 10.26686/wgtn.16985671
+arxiv: null
+source: https://doi.org/10.26686/wgtn.16985671
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [lobo-visser-2004]
+relevance: media

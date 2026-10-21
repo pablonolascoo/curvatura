@@ -1,0 +1,22 @@
+id: beeai-2024
+title: "TraceGR: Modular Spacetime Imaging using Null Geodesics in Raycasting Applications"
+authors:
+  - "Zane Beeai"
+  - "Aditya Makkar"
+  - "Ahmed Ellithy"
+year: 2024
+venue: "IEEE MIT Undergraduate Research Technology Conference (URTC)"
+doi: 10.1109/urtc65039.2024.10937597
+arxiv: null
+source: https://doi.org/10.1109/urtc65039.2024.10937597
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

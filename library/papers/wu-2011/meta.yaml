@@ -1,0 +1,22 @@
+id: wu-2011
+title: "Subvacuum effects of the quantum field on the dynamics of a test particle"
+authors:
+  - "Tai-Hung Wu"
+  - "Jen-Tsung Hsiang"
+  - "Da-Shin Lee"
+year: 2011
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2011.11.011
+arxiv: "0809.4100"
+source: https://arxiv.org/abs/0809.4100
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [alcubierre-1994]
+relevance: media

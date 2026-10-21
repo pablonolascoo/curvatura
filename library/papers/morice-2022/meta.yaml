@@ -1,0 +1,24 @@
+id: morice-2022
+title: "Quantum dynamics in 1D lattice models with synthetic horizons"
+authors:
+  - "Corentin Morice"
+  - "Corentin Morice"
+  - "Jasper van Wezel"
+  - "Jeroen van den Brink"
+  - "Ali G. Moghaddam"
+year: 2022
+venue: "SciPost Physics Core"
+doi: 10.21468/scipostphyscore.5.3.042
+arxiv: null
+source: https://doi.org/10.21468/scipostphyscore.5.3.042
+language: en
+subsystems: [G, D]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

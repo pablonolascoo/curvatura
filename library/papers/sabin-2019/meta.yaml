@@ -1,0 +1,19 @@
+id: sabin-2019
+title: "Digital quantum simulation of linear and nonlinear optical elements"
+authors:
+  - "Carlos Sabín"
+year: 2019
+venue: "Quantum Reports 2, 208 (2020)"
+doi: 10.3390/quantum2010013
+arxiv: "1909.04408"
+source: https://arxiv.org/abs/1909.04408
+language: en
+subsystems: [E, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

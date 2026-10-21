@@ -1,0 +1,24 @@
+id: krauss-2023
+title: "Listening to quantum gravity?"
+authors:
+  - "Lawrence M. Krauss"
+  - "Francesco Marino"
+  - "Samuel L. Braunstein"
+  - "Mir Faizal"
+  - "Naveed Ahmad Shah"
+year: 2023
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271824410062
+arxiv: "2405.19385"
+source: https://arxiv.org/abs/2405.19385
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

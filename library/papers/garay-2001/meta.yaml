@@ -1,0 +1,21 @@
+id: garay-2001
+title: "Quantum CTC's in General Relativity"
+authors:
+  - "Luis J. Garay"
+  - "Pedro F. González-Dı́az"
+year: 2001
+venue: "General Relativity and Gravitation"
+doi: 10.1023/a:1002709503156
+arxiv: null
+source: https://doi.org/10.1023/a:1002709503156
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, hiscock-1997]
+relevance: media

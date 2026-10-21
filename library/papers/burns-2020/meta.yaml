@@ -1,0 +1,23 @@
+id: burns-2020
+title: "Acoustic versus electromagnetic field theory: scalar, vector, spinor representations and the emergence of acoustic spin"
+authors:
+  - "Lucas Burns"
+  - "Konstantin Y Bliokh"
+  - "Franco Nori"
+  - "Justin Dressel"
+year: 2020
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/ab7f91
+arxiv: "1912.10522"
+source: https://arxiv.org/abs/1912.10522
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 55
+cites_seeds: [barcelo-2011]
+relevance: media

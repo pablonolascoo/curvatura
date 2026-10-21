@@ -1,0 +1,20 @@
+id: pal-2024
+title: "Quantum nonlinear effects in the number-conserving analogue gravity of Bose-Einstein condensates"
+authors:
+  - "Kunal Pal"
+  - "Uwe R. Fischer"
+year: 2024
+venue: "Phys. Rev. D 110, 116022 (2024)"
+doi: 10.1103/physrevd.110.116022
+arxiv: "2410.13596"
+source: https://arxiv.org/abs/2410.13596
+language: en
+subsystems: [G, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

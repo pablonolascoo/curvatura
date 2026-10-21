@@ -1,0 +1,20 @@
+id: everett-2004
+title: "Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics"
+authors:
+  - "Allen E. Everett"
+year: 2004
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.69.124023
+arxiv: "gr-qc/0410035"
+source: https://arxiv.org/abs/gr-qc/0410035
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 39
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

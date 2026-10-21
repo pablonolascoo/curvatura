@@ -1,0 +1,22 @@
+id: albuquerque-2023
+title: "Inverse problem of analog gravity systems"
+authors:
+  - "Saulo Albuquerque"
+  - "Sebastian H. Völkel"
+  - "Kostas D. Kokkotas"
+  - "Valdir B. Bezerra"
+year: 2023
+venue: "Phys. Rev. D 108, 124053 (2023)"
+doi: 10.1103/physrevd.108.124053
+arxiv: "2309.11168"
+source: https://arxiv.org/abs/2309.11168
+language: en
+subsystems: [D, Q, V]
+kind: experimental
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

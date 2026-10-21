@@ -1,0 +1,21 @@
+id: schmidt-2023
+title: "A quantum analog model for a scalar particle interacting with a Kerr–de Sitter black hole"
+authors:
+  - "Alexandre G. M. Schmidt"
+  - "Matheus E. Pereira"
+year: 2023
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2023.169465
+arxiv: null
+source: https://doi.org/10.1016/j.aop.2023.169465
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [barcelo-2011]
+relevance: media

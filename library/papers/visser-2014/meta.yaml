@@ -1,0 +1,20 @@
+id: visser-2014
+title: "Physical observability of horizons"
+authors:
+  - "Matt Visser"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.127502
+arxiv: "1407.7295"
+source: https://arxiv.org/abs/1407.7295
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 98
+cites_seeds: [barcelo-2011]
+relevance: media

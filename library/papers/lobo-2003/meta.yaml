@@ -1,0 +1,21 @@
+id: lobo-2003
+title: "Time, Closed Timelike Curves and Causality"
+authors:
+  - "Francisco S. N. Lobo"
+  - "Paulo Crawford"
+year: 2003
+venue: "Springer eBooks"
+doi: 10.1007/978-94-010-0155-7_30
+arxiv: null
+source: https://doi.org/10.1007/978-94-010-0155-7_30
+language: en
+subsystems: [G, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 34
+cites_seeds: [krasnikov-1998]
+relevance: media

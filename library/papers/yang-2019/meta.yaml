@@ -1,0 +1,23 @@
+id: yang-2019
+title: "Simulating quantum field theory in curved spacetime with quantum many-body systems"
+authors:
+  - "Run-Qiu Yang"
+  - "Hui Liu"
+  - "Shining Zhu"
+  - "Le Luo"
+  - "Rong-Gen Cai"
+year: 2019
+venue: "Phys. Rev. Research 2, 023107 (2020)"
+doi: 10.1103/physrevresearch.2.023107
+arxiv: "1906.01927"
+source: https://arxiv.org/abs/1906.01927
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

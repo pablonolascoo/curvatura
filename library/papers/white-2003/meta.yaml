@@ -1,0 +1,20 @@
+id: white-2003
+title: "A Discussion of Space-Time Metric Engineering"
+authors:
+  - "Harold G. White"
+year: 2003
+venue: "General Relativity and Gravitation"
+doi: 10.1023/a:1026247026218
+arxiv: null
+source: https://doi.org/10.1023/a:1026247026218
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 24
+cites_seeds: [pfenning-ford-1997]
+relevance: media

@@ -1,0 +1,21 @@
+id: gonzalezdiaz-2002
+title: "Quantum Closed Timelike Curves in General Relativity"
+authors:
+  - "P. F. González‐Díaz"
+  - "Luis J. Garay"
+year: 2002
+venue: "Springer eBooks"
+doi: 10.1007/978-88-470-2101-3_41
+arxiv: null
+source: https://doi.org/10.1007/978-88-470-2101-3_41
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, hiscock-1997]
+relevance: media

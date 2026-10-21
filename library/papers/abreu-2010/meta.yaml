@@ -1,0 +1,20 @@
+id: abreu-2010
+title: "The quantum interest conjecture in (3+1)-dimensional Minkowski space"
+authors:
+  - "Gabriel Abreu"
+  - "Matt Visser"
+year: 2010
+venue: "arXiv:1001.1180"
+doi: null
+arxiv: "1001.1180"
+source: https://arxiv.org/abs/1001.1180
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

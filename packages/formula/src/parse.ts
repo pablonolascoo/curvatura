@@ -18,7 +18,9 @@ function lex(src: string): Tok[] {
     if (m) { out.push({ t: "num", v: m[0], at: i }); i += m[0].length; continue; }
     const id = /^[A-Za-z][A-Za-z0-9_]*/.exec(src.slice(i));
     if (id) { out.push({ t: "id", v: id[0], at: i }); i += id[0].length; continue; }
-    if ("+-*/^(),=".includes(c)) { out.push({ t: "op", v: c, at: i }); i++; continue; }
+    const two = src.slice(i, i + 2);
+    if (two === ">=" || two === "<=") { out.push({ t: "op", v: two, at: i }); i += 2; continue; }
+    if ("+-*/^(),=~".includes(c)) { out.push({ t: "op", v: c, at: i }); i++; continue; }
     throw new FormulaSyntaxError(`carácter inesperado «${c}»`, i);
   }
   return out;
@@ -26,7 +28,7 @@ function lex(src: string): Tok[] {
 
 /**
  * Gramática:
- *   eq      := sum ('=' sum)?
+ *   eq      := sum (rel sum)?          rel: = >= <= ~
  *   sum     := product (('+'|'-') product)*
  *   product := unary (('*'|'/') unary)*
  *   unary   := '-' unary | power
@@ -78,7 +80,9 @@ export function parse(src: string): Node {
   };
 
   const left = sum();
-  const result: Node = isOp("=") ? (p++, { k: "eq", a: left, b: sum() }) : left;
+  const REL = ["=", ">=", "<=", "~"] as const;
+  const rel = REL.find((r) => isOp(r));
+  const result: Node = rel ? (p++, { k: "eq", a: left, b: sum(), rel }) : left;
   if (p < toks.length) throw new FormulaSyntaxError(`sobra «${toks[p].v}»`, toks[p].at);
   return result;
 }

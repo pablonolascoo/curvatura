@@ -1,0 +1,20 @@
+id: pandey-2024b
+title: "A Note on Analogue Semi-Classical Gravity in ($$\\boldsymbol{1+1}$$) Dimensions"
+authors:
+  - "Akshat Pandey"
+year: 2024
+venue: "Gravitation and Cosmology"
+doi: 10.1134/s0202289324700129
+arxiv: "2405.13359"
+source: https://arxiv.org/abs/2405.13359
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,22 @@
+id: anderson-2014
+title: "Gray-body factor and infrared divergences in 1D BEC acoustic black holes"
+authors:
+  - "Paul R. Anderson"
+  - "Roberto Balbinot"
+  - "Alessandro Fabbri"
+  - "Renaud Parentani"
+year: 2014
+venue: "Phys. Rev. D 90, 104044 (2014)"
+doi: 10.1103/physrevd.90.104044
+arxiv: "1404.3224"
+source: https://arxiv.org/abs/1404.3224
+language: en
+subsystems: [M, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

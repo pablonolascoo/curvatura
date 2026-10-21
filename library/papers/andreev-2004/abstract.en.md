@@ -1,0 +1,1 @@
+We study the Regge limit of string amplitudes within the model of Polchinski-Strassler for string scattering in warped spacetimes. We also present some numerical estimations of the Regge slopes. It is quite remarkable that the real values of the slopes are inside a range of ours.

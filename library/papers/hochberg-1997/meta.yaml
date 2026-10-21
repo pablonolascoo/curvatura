@@ -1,0 +1,22 @@
+id: hochberg-1997
+title: "Self-Consistent Wormhole Solutions of Semiclassical Gravity"
+authors:
+  - "David Hochberg"
+  - "Arkady A. Popov"
+  - "Sergey V. Sushkov"
+year: 1997
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.78.2050
+arxiv: "gr-qc/9701064"
+source: https://arxiv.org/abs/gr-qc/9701064
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 148
+cites_seeds: [ford-roman-1996]
+relevance: media

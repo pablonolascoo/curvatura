@@ -1,0 +1,21 @@
+id: bemani-2016
+title: "Quantum simulation of discrete curved spacetime by the Bose-Hubbard model: from analog acoustic black hole to quantum phase transition"
+authors:
+  - "F. Bemani"
+  - "R. Roknizadeh"
+  - "M. H. Naderi"
+year: 2016
+venue: "arXiv:1612.09094"
+doi: 10.1016/j.aop.2017.11.010
+arxiv: "1612.09094"
+source: https://arxiv.org/abs/1612.09094
+language: en
+subsystems: [G, E, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,21 @@
+id: butera-2023c
+title: "Analog simulations of early universe pre-heating and the back-reaction effect"
+authors:
+  - "Salvatore Butera"
+  - "Iacopo Carusotto"
+year: 2023
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/2533/1/012031
+arxiv: null
+source: https://doi.org/10.1088/1742-6596/2533/1/012031
+language: en
+subsystems: [G, V]
+kind: numerico
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

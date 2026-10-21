@@ -1,0 +1,19 @@
+id: lin-2017
+title: "Quantum radiation by an Unruh-DeWitt detector in oscillatory motion"
+authors:
+  - "Shih-Yuin Lin"
+year: 2017
+venue: "arXiv:1709.08506"
+doi: 10.1007/jhep11(2017)102
+arxiv: "1709.08506"
+source: https://arxiv.org/abs/1709.08506
+language: en
+subsystems: [C, E, D, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

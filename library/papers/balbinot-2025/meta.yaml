@@ -1,0 +1,21 @@
+id: balbinot-2025
+title: "Some Considerations on BEC Analogue Black Holes"
+authors:
+  - "Roberto Balbinot"
+  - "Alessandro Fabbri"
+year: 2025
+venue: "Fundamental theories of physics"
+doi: 10.1007/978-3-031-76066-2_8
+arxiv: "2512.01613"
+source: https://arxiv.org/abs/2512.01613
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

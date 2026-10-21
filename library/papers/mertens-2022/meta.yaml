@@ -1,0 +1,25 @@
+id: mertens-2022
+title: "Thermalization by a synthetic horizon"
+authors:
+  - "Lotte Mertens"
+  - "Ali G. Moghaddam"
+  - "Corentin Morice"
+  - "Corentin Morice"
+  - "Jeroen van den Brink"
+  - "Jasper van Wezel"
+year: 2022
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.4.043084
+arxiv: "2206.08041"
+source: https://arxiv.org/abs/2206.08041
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [barcelo-2011]
+relevance: media

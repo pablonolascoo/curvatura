@@ -1,0 +1,21 @@
+id: fumeron-2016
+title: "Principles of thermal design with nematic liquid crystals"
+authors:
+  - "S. Fumeron"
+  - "E. Pereira"
+  - "F. Moraes"
+year: 2016
+venue: "Phys. Rev. E 89, 020501(R) 19 February 2014"
+doi: 10.1103/physreve.89.020501
+arxiv: "1608.03596"
+source: https://arxiv.org/abs/1608.03596
+language: en
+subsystems: [V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

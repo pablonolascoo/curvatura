@@ -1,0 +1,21 @@
+id: hartman-2016
+title: "Averaged Null Energy Condition from Causality"
+authors:
+  - "Thomas Hartman"
+  - "Sandipan Kundu"
+  - "Amirhossein Tajdini"
+year: 2016
+venue: "arXiv:1610.05308"
+doi: 10.1007/jhep07(2017)066
+arxiv: "1610.05308"
+source: https://arxiv.org/abs/1610.05308
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

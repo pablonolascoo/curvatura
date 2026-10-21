@@ -1,0 +1,1 @@
+We analyze the correlations functions across the horizon in Hawking black hole radiation to reveal the correlations between Hawking particles and their partners. The effects of the underlying space-time on this are shown in various examples ranging from acoustic black holes to regular black holes.

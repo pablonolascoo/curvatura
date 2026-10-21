@@ -1,0 +1,22 @@
+id: blanco-2017
+title: "Modular energy inequalities from relative entropy"
+authors:
+  - "David Blanco"
+  - "Horacio Casini"
+  - "Mauricio Leston"
+  - "Felipe Rosso"
+year: 2017
+venue: "JHEP01(2018)154"
+doi: 10.1007/jhep01(2018)154
+arxiv: "1711.04816"
+source: https://arxiv.org/abs/1711.04816
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

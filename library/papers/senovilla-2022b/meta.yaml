@@ -1,0 +1,20 @@
+id: senovilla-2022b
+title: "A critical appraisal of the singularity theorems"
+authors:
+  - "José M. M. Senovilla"
+year: 2022
+venue: "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences"
+doi: 10.1098/rsta.2021.0174
+arxiv: "2108.07296"
+source: https://arxiv.org/abs/2108.07296
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [barcelo-2011]
+relevance: media

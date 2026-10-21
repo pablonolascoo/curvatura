@@ -1,0 +1,20 @@
+id: wuester-2007
+title: "Limits to the analogue Hawking temperature in a Bose-Einstein condensate"
+authors:
+  - "S. Wuester"
+  - "C. M. Savage"
+year: 2007
+venue: "Phys. Rev. A 76 (2007) 013608"
+doi: 10.1103/physreva.76.013608
+arxiv: "cond-mat/0702045"
+source: https://arxiv.org/abs/cond-mat/0702045
+language: en
+subsystems: [D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

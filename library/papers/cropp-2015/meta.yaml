@@ -1,0 +1,21 @@
+id: cropp-2015
+title: "Vorticity in analogue gravity"
+authors:
+  - "Bethan Cropp"
+  - "Stefano Liberati"
+  - "Rodrigo Turcati"
+year: 2015
+venue: "Class. Quantum Grav. 33 125009 (2016)"
+doi: 10.1088/0264-9381/33/12/125009
+arxiv: "1512.08198"
+source: https://arxiv.org/abs/1512.08198
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

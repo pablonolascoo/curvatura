@@ -1,0 +1,21 @@
+id: neuenhahn-2015
+title: "Quantum simulation of expanding space–time with tunnel-coupled condensates"
+authors:
+  - "Clemens Neuenhahn"
+  - "Florian Marquardt"
+year: 2015
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/17/12/125007
+arxiv: "1208.2255"
+source: https://arxiv.org/abs/1208.2255
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: goffe-2004
+title: "The Internet and the American Economic Association"
+authors:
+  - "William L. Goffe"
+year: 2004
+venue: "Social Science Computer Review"
+doi: 10.1177/0894439304268633
+arxiv: null
+source: https://doi.org/10.1177/0894439304268633
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [vandenbroeck-1999]
+relevance: media

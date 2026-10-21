@@ -1,0 +1,22 @@
+id: farrell-2023
+title: "Logarithmic catastrophes and Stokes’s phenomenon in waves at horizons"
+authors:
+  - "L. M. Farrell"
+  - "C. J. Howls"
+  - "Duncan H J O’Dell"
+year: 2023
+venue: "Journal of Physics A Mathematical and Theoretical"
+doi: 10.1088/1751-8121/acb29e
+arxiv: "2209.11148"
+source: https://arxiv.org/abs/2209.11148
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: long-2026
+title: "The Starship Engineer"
+authors:
+  - "K F. Long"
+year: 2026
+venue: "Springer aerospace technology"
+doi: 10.1007/978-3-032-18062-9_14
+arxiv: null
+source: https://doi.org/10.1007/978-3-032-18062-9_14
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

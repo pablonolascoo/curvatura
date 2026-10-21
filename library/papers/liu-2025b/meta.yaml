@@ -1,0 +1,21 @@
+id: liu-2025b
+title: "Self-stimulated rotational superradiance in a coaxial twin rotor system"
+authors:
+  - "Lianyun Liu"
+  - "Zhigang Chu"
+year: 2025
+venue: "Physics of Fluids"
+doi: 10.1063/5.0270795
+arxiv: null
+source: https://doi.org/10.1063/5.0270795
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -6,7 +6,7 @@ authors:
   - "Sebastian Khan"
 year: 2024
 venue: "The Open Journal of Astrophysics 7"
-doi: null
+doi: 10.33232/001c.121868
 arxiv: "2406.02466"
 source: https://arxiv.org/abs/2406.02466
 language: en
@@ -16,3 +16,4 @@ license: CC-BY-4.0
 fulltext: source
 translations: [es, fr]
 verified: true
+relevance: alta

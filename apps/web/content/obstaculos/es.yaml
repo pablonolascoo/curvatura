@@ -1,0 +1,181 @@
+# Obstáculos para un motor de curvatura útil, ordenados por gravedad.
+# Versión larga con ecuaciones y tareas: docs/obstaculos.md
+# status: bloqueante (no se conoce salida), abierto (sin resolver, con vías activas), parcial (resuelto en un caso restringido)
+
+- id: violacion-nec-generica
+  subsystem: C
+  status: bloqueante
+  title: Toda burbuja genérica viola la condición de energía nula
+  summary: "Para la clase de Natário (lapso unidad, cortes espaciales planos, solo desplazamiento) se demuestra que la NEC falla en algún punto de la pared, y con ella la WEC, la SEC y la DEC, a cualquier velocidad. Las afirmaciones de energía positiva de 2021 solo comprobaban al observador euleriano; la NEC no depende del observador. Las únicas soluciones que la cumplen salen de esa clase, añaden masa ADM y son subluminales."
+  evidence: [santiago-2022, schuster-2022, lobo-visser-2004, le-2026, barzegar-2026]
+  leads:
+    - text: "Salir de la clase de Natário con lapso y métrica espacial no triviales, como la cáscara de materia con desplazamiento interior, que cumple todas las condiciones a velocidad constante."
+      papers: [fuchs-2024, bobrick-martire-2021]
+    - text: "Usar flujos de desplazamiento irrotacionales, que dan tensor de tipo Hawking-Ellis I en todo punto y reducen el déficit de energía local en factores de 38 a 2600 frente a Alcubierre y Natário."
+      papers: [rodal-2025c, le-2026]
+    - text: "Pasar a una descripción covariante con curvatura espacial, aceleración y vorticidad del flujo, que los modelos actuales anulan por construcción."
+      papers: [barzegar-2024, buchert-2026]
+
+- id: aceleracion-momento
+  subsystem: D
+  status: bloqueante
+  title: No hay solución física que acelere ni frene
+  summary: "Todas las soluciones con energía positiva describen solo la fase de velocidad constante. Desplazar el centro de una cáscara con masa en el tiempo obliga a introducir densidad de energía negativa en todo el espacio, y una burbuja sin expulsión de masa sería un motor sin reacción, en conflicto con la conservación del cuadrimomento ADM. Ninguna métrica publicada describe arranque, aceleración y parada con energía positiva."
+  evidence: [fuchs-2024, schuster-2022, bobrick-martire-2021, lobo-visser-2004]
+  leads:
+    - text: "Usar la ligadura de momento en cortes planos, que fija el momento euleriano a partir de la vorticidad del desplazamiento, para acotar qué perfiles pueden ganar momento sin flujo de energía."
+      papers: [le-2026]
+    - text: "Describir la dinámica del campo de curvatura con perturbaciones lagrangianas relativistas y fluidos inclinados, donde la aceleración entra como variable y no como amplitud impuesta."
+      papers: [buchert-2026, barzegar-2024]
+    - text: "Contabilizar el flujo de energía gravitacional en la fase acelerada, que en el equivalente teleparalelo restituye la conservación total."
+      papers: [carneiro-2022]
+
+- id: energia-negativa-desigualdades-cuanticas
+  subsystem: Q
+  status: bloqueante
+  title: La energía negativa necesaria choca con las desigualdades cuánticas
+  summary: "Las desigualdades cuánticas limitan la energía negativa que un observador ve durante un tiempo τ a unos $3\\hbar c/(32\\pi^2 (c\\tau)^4)$, lo que fuerza paredes de unos $10^2$ longitudes de Planck y una energía del orden de $10^{62}$ kg para $R = 100$ m a $v = c$. Van Den Broeck baja la cifra a unas pocas masas solares, y en Natário el mínimo exacto escala como $v^2 R^4/(4\\Delta^3)$, peor que la estimación previa."
+  evidence: [ford-roman-1996, pfenning-ford-1997, vandenbroeck-1999, bolivar-2026, fewster-2012b]
+  leads:
+    - text: "Conocer el suelo exacto de energía negativa para cada familia de métricas, como ya se ha hecho para Natário, antes de optimizar a ciegas."
+      papers: [bolivar-2026, jusufi-2026]
+    - text: "Aplicar desigualdades cuánticas rigurosas a lo largo de líneas de universo estacionarias, que son las de un observador en reposo respecto a la pared."
+      papers: [fewster-2023, kontou-2024]
+    - text: "Optimizar la geometría para bajar la energía negativa, con reducciones demostradas de dos órdenes de magnitud sobre Alcubierre."
+      papers: [bobrick-martire-2021, helmerich-2024b]
+
+- id: horizontes-control-causal
+  subsystem: G
+  status: bloqueante
+  title: A velocidad supraluminal la tripulación no controla la burbuja
+  summary: "Si $v_s > c$, el interior queda causalmente desconectado del borde delantero de la pared, así que la nave no puede crear, guiar ni detener la burbuja desde dentro. Dos burbujas supraluminales bastan para construir curvas temporales cerradas. La alternativa de Krasnikov exige preparar el trayecto a velocidad subluminal antes del viaje."
+  evidence: [everett-roman-1997, alcubierre-2021, krasnikov-1998, shoshany-2023, lentz-2021b]
+  leads:
+    - text: "Estudiar modelos de membranas que cumplen la WEC y proponen una transición de régimen subluminal a supraluminal, aunque sus membranas no son compactas."
+      papers: [huey-2023]
+    - text: "Explorar distribuciones de energía generadas desde fuera de la burbuja, a lo largo de un tubo, que separan el control del vehículo."
+      papers: [pieri-2023]
+    - text: "Probar en análogos de laboratorio los mecanismos de protección de la cronología cerca de horizontes."
+      papers: [barcelo-2022b, sabin-2022]
+
+- id: inestabilidad-semiclasica
+  subsystem: Q
+  status: bloqueante
+  title: El vacío cuántico desestabiliza las burbujas supraluminales
+  summary: "El tensor energía-momento renormalizado diverge en la pared delantera cuando la burbuja supera la velocidad de la luz: en 1+1 dimensiones de forma explícita y, en burbujas creadas desde espacio plano, con crecimiento exponencial en el horizonte. El problema desaparece en régimen subluminal, donde no hay horizontes."
+  evidence: [hiscock-1997, finazzi-2009, barcelo-2010, liberati-2016]
+  leads:
+    - text: "En 2+1 dimensiones o más, la divergencia se limita a puntos aislados y la energía acumulada es finita; formas y trayectorias aerodinámicas la reducen más."
+      papers: [barcelo-2022]
+    - text: "Quedarse en régimen subluminal con cáscara de energía positiva, que no tiene horizontes y por tanto no tiene este mecanismo."
+      papers: [fuchs-2024, bobrick-martire-2021]
+
+- id: masa-cascara-subluminal
+  subsystem: P
+  status: abierto
+  title: La cáscara de energía positiva pesa como dos Júpiter
+  summary: "La única solución que cumple todas las condiciones usa una cáscara de radios 10 y 20 m con $4{,}49\\times10^{27}$ kg (2,37 masas de Júpiter) para un desplazamiento interior de 0,02. Eso da una compacidad $2GM/(c^2R_2) \\approx 0{,}33$ y una densidad media de $1{,}5\\times10^{23}$ kg/m³, unas $7\\times10^{5}$ veces la densidad nuclear (cálculo propio con los parámetros publicados). La masa admisible está acotada por la condición de no formar horizonte."
+  evidence: [fuchs-2024, bobrick-martire-2021, schuster-2022]
+  leads:
+    - text: "Sustituir el suavizado por una optimización directa de los perfiles radiales de densidad, presión y desplazamiento, que los autores estiman en varios órdenes de magnitud de ahorro."
+      papers: [fuchs-2024, helmerich-2024b]
+    - text: "Buscar la cota superior del desplazamiento para una masa dada con certificados de condiciones de energía válidos para todos los observadores."
+      papers: [le-2026]
+
+- id: modelo-materia-ecuacion-estado
+  subsystem: E
+  status: abierto
+  title: Ninguna materia real tiene la ecuación de estado necesaria
+  summary: "La propuesta de solitones supraluminales con plasma y campos electromagnéticos tiene errores de derivación y presenta densidad euleriana negativa en algunas regiones, incluso tras corregir la geometría. En la forma de Alcubierre, polvo y fluidos isótropos dan densidad nula, y las soluciones con fluido perfecto exigen funciones de forma complejas. La única cáscara con ecuación de estado (TOV anisótropa) es subluminal y no modela ningún material."
+  evidence: [celmaster-2025, lentz-2021, abellan-2023, santospereira-2021d, santiago-2022]
+  leads:
+    - text: "Trabajar con fluidos anisótropos en coordenadas esféricas, donde la masa total puede mantenerse positiva durante toda la evolución numérica."
+      papers: [abellan-2023b, bolivar-2025]
+    - text: "Construir la fuente como flujo de fluido inclinado en un marco covariante, en lugar de deducirla a partir de una métrica impuesta."
+      papers: [buchert-2026]
+    - text: "Usar la cáscara TOV anisótropa como punto de partida para cerrar el sistema con una ecuación de estado explícita."
+      papers: [fuchs-2024]
+
+- id: tensiones-estabilidad-cascara
+  subsystem: S
+  status: abierto
+  title: La cáscara exige tensiones extremas y es inestable
+  summary: "Mantener la cáscara exige una tensión circunferencial con un pico en el radio interior y presiones menores que la densidad de energía en todo punto, de lo contrario se viola la DEC. Con los parámetros publicados, la ecuación TOV isótropa da una presión de unos $10^{39}$ Pa en el radio interior ($\\approx 0{,}07\\,\\rho c^2$, cálculo propio), unos 28 órdenes por encima de la resistencia de los materiales más fuertes, del orden de $10^{11}$ Pa. Una cáscara delgada entre interior plano y exterior de Schwarzschild tiene un radio mínimo de estabilidad radial y es inestable ante perturbaciones no radiales."
+  evidence: [fuchs-2024, idrissov-2026, rodal-2025]
+  leads:
+    - text: "Usar el umbral exacto de estabilidad radial para delimitar dónde tendría que actuar cualquier mecanismo estabilizador."
+      papers: [idrissov-2026]
+    - text: "Agrandar la cáscara y reperfilar la densidad para bajar la presión necesaria, como sugieren los autores de la solución."
+      papers: [fuchs-2024]
+
+- id: escala-casimir
+  subsystem: E
+  status: bloqueante
+  title: El efecto Casimir queda decenas de órdenes por debajo
+  summary: "La densidad de Casimir entre placas ideales es $-\\pi^2\\hbar c/(720a^4)$: unos $-4\\times10^{4}$ J/m³ a 10 nm y $-4\\times10^{-4}$ J/m³ a 1 µm. La pared de Alcubierre con $\\sigma = 1$ m⁻¹ y $v = c$ pide del orden de $10^{41}$ J/m³, unos 37 órdenes más a 10 nm (cálculo propio). La fuerza solo se ha medido en placas paralelas entre 0,5 y 3 µm con un 15 % de precisión."
+  evidence: [casimir-1948, bressi-2002, ford-roman-1996, maclay-2018]
+  leads:
+    - text: "Poner a prueba experimental las desigualdades cuánticas con luz comprimida, donde ya hay datos con -15 dB de compresión."
+      papers: [maclay-2018]
+    - text: "Estudiar el límite de radio pequeño, donde la energía total es mucho menor, como banco de pruebas y no como transporte."
+      papers: [pieri-2023]
+
+- id: particulas-desaceleracion
+  subsystem: M
+  status: abierto
+  title: Las partículas atrapadas se liberan muy energéticas al frenar
+  summary: "Las partículas que entran por delante en la pared quedan casi congeladas en tiempo propio y ganan mucha energía; al decelerar la burbuja se liberan hacia delante. El polvo y los fotones interestelares ejercen una presión proporcional a $v_s$. Una burbuja de tamaño de avión a más de 0,1 c en la atmósfera emitiría más de un teravatio."
+  evidence: [mcmonigal-2012, bian-2022, pieri-2023, fell-2026]
+  leads:
+    - text: "Diseñar modificaciones de la burbuja que actúen como escudo deflector frente a polvo y proyectiles a velocidades del 10 % de c."
+      papers: [sanches-2026]
+    - text: "Elegir formas y trayectorias aerodinámicas que limiten la acumulación de energía en la pared."
+      papers: [barcelo-2022]
+
+- id: gravedad-modificada
+  subsystem: C
+  status: abierto
+  title: La gravedad modificada no ofrece una salida limpia
+  summary: "En teorías modificadas, una burbuja razonable sigue violando las condiciones geométricas de convergencia nula y temporal. Un acoplamiento gravitacional variable impuesto por un metamaterial rompe la conservación local, y su versión dinámica está excluida por medidas del Sistema Solar con $|\\gamma - 1| \\lesssim 10^{-5}$. Las vías restantes, como el espín en Einstein-Cartan, piden una densidad de espín cuya realización con materia conocida no está demostrada."
+  evidence: [santiago-2022, rodal-2025d, debenedictis-2018]
+  leads:
+    - text: "Cuantificar la densidad de espín mínima que permite cumplir la NEC y compararla con materia polarizada conocida."
+      papers: [debenedictis-2018]
+    - text: "Tratar los fondos gravitatorios externos como reductores de la violación, sabiendo que son casos muy restringidos."
+      papers: [garattini-2024, garattini-2025]
+
+- id: dinamica-relatividad-numerica
+  subsystem: D
+  status: abierto
+  title: Falta la evolución temporal completa en relatividad numérica
+  summary: "La única evolución 3+1 recogida en la biblioteca sigue el colapso de una burbuja de Alcubierre con un fluido de ecuación de estado rígida y calcula su onda gravitacional. No hay simulaciones de formación, aceleración o parada, ni de cáscaras de energía positiva. Un análisis covariante encuentra una inestabilidad genérica del campo de curvatura en uno de los casos estudiados."
+  evidence: [clough-2024, buchert-2026, helmerich-2024]
+  leads:
+    - text: "Repetir la evolución con la cáscara de energía positiva y una ecuación de estado física para medir su estabilidad y su forma de onda."
+      papers: [clough-2024, fuchs-2024]
+    - text: "Preparar plantillas de emisión electromagnética, de partículas y gravitacional para contrastar con observatorios."
+      papers: [lentz-2024, fell-2026]
+
+- id: verificacion-observadores
+  subsystem: V
+  status: parcial
+  title: Las comprobaciones de energía han sido incompletas
+  summary: "Varias afirmaciones de energía positiva fallaron porque solo se evaluó al observador euleriano; en un perfil irrotacional, esa lectura omite cerca del 73 % de las violaciones de la WEC en la pared. También hay errores de hasta 21 órdenes de magnitud en invariantes publicados. Hoy existen certificados por intervalos que comprueban la NEC, la WEC y la SEC para todas las direcciones causales."
+  evidence: [santiago-2022, celmaster-2025, le-2026, rodal-2025b]
+  leads:
+    - text: "Expresar las condiciones de energía como desigualdades matriciales lineales 4x4 con cotas globales por aritmética de intervalos."
+      papers: [le-2026]
+    - text: "Validar cada resultado con herramientas independientes y comparar invariantes de curvatura, no solo componentes."
+      papers: [helmerich-2024, rodal-2025]
+
+- id: analogos-laboratorio
+  subsystem: V
+  status: parcial
+  title: Los análogos solo prueban la cinemática, no la fuente
+  summary: "La métrica de Alcubierre es la métrica acústica de un flujo, y ya se han medido emisión de Hawking estimulada en canales de agua y espontánea en condensados de Bose-Einstein. Estos sistemas reproducen cómo se propagan las perturbaciones, pero no el tensor energía-momento ni la retroacción. Parte de los resultados en agua se obtuvieron en régimen no lineal, lo que complica su lectura."
+  evidence: [barcelo-2011, weinfurtner-2011, kolobov-2019, euve-2021]
+  leads:
+    - text: "Simular secciones 1+1 de la burbuja con cadenas de SQUID en líneas de transmisión superconductoras, con parámetros ya acotados."
+      papers: [sabin-2017, sabin-2022]
+    - text: "Crear flujos transónicos en 2D con fluidos de luz y extraer parámetros de espectros ruidosos con inferencia basada en simulación."
+      papers: [jacquet-2020b, solidoro-2026]

@@ -1,0 +1,21 @@
+id: anon-2015b
+title: "Modeling a nonperturbative spinor vacuum interacting with a strong gravitational wave"
+authors:
+  - "Джунушалиев Владимир Джумакадырович"
+  - "Vladimir Folomeev"
+year: 2015
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-015-3526-2
+arxiv: "1503.04402"
+source: https://arxiv.org/abs/1503.04402
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

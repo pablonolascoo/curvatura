@@ -1,0 +1,22 @@
+id: baak-2023
+title: "Petrov classification of analogue spacetimes"
+authors:
+  - "Sang-Shin Baak"
+  - "Satadal Datta"
+  - "Uwe R. Fischer"
+year: 2023
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/acf08e
+arxiv: "2305.12771"
+source: https://arxiv.org/abs/2305.12771
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [barcelo-2011]
+relevance: media

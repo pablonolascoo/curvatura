@@ -1,0 +1,20 @@
+id: churilov-2026
+title: "Traveling surface wave propagation on shallow water with variable bathymetry and current"
+authors:
+  - "Semyon M. Churilov"
+year: 2026
+venue: "Transport Phenomena"
+doi: 10.1515/tp-2026-0060
+arxiv: null
+source: https://doi.org/10.1515/tp-2026-0060
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

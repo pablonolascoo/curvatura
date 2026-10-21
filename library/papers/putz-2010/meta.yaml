@@ -1,0 +1,21 @@
+id: putz-2010
+title: "Can a computer be \"pushed\" to perform faster-than-light?"
+authors:
+  - "Volkmar Putz"
+  - "Karl Svozil"
+year: 2010
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1003.1238
+arxiv: "1003.1238"
+source: https://arxiv.org/abs/1003.1238
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

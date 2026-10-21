@@ -1,0 +1,20 @@
+id: voros-2003
+title: "A generic foresight process framework"
+authors:
+  - "Joseph Voros"
+year: 2003
+venue: "foresight"
+doi: 10.1108/14636680310698379
+arxiv: null
+source: https://doi.org/10.1108/14636680310698379
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 558
+cites_seeds: [alcubierre-1994]
+relevance: media

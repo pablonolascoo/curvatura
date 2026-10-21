@@ -1,0 +1,26 @@
+id: vercellino-2026
+title: "Digital Quantum Reservoir Computing for ATM Time Series Prediction"
+authors:
+  - "Chiara Vercellino"
+  - "Giacomo Vitali"
+  - "Valeria Zaffaroni"
+  - "Francesca Cibrario"
+  - "Emanuele Dri"
+  - "Paolo Viviani"
+  - "Olivier Terzo"
+  - "Davide Corbelletto"
+year: 2026
+venue: "arXiv:2606.04686"
+doi: null
+arxiv: "2606.04686"
+source: https://arxiv.org/abs/2606.04686
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

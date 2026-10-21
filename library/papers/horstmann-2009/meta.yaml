@@ -1,0 +1,22 @@
+id: horstmann-2009
+title: "Hawking Radiation from an Acoustic Black Hole on an Ion Ring"
+authors:
+  - "Birger Horstmann"
+  - "Benni Reznik"
+  - "Serena Fagnocchi"
+  - "J. Ignacio Cirac"
+year: 2009
+venue: "Phys.Rev.Lett.104:250403,2010"
+doi: 10.1103/physrevlett.104.250403
+arxiv: "0904.4801"
+source: https://arxiv.org/abs/0904.4801
+language: en
+subsystems: [V]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

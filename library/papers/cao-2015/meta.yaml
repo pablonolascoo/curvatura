@@ -1,0 +1,21 @@
+id: cao-2015
+title: "Aharonov-Bohm phases in a quantum LC circuit"
+authors:
+  - "ChunJun Cao"
+  - "Yuan Yao"
+  - "Ariel R. Zhitnitsky"
+year: 2015
+venue: "Phys. Rev. D 93, 065049 (2016)"
+doi: 10.1103/physrevd.93.065049
+arxiv: "1512.00470"
+source: https://arxiv.org/abs/1512.00470
+language: en
+subsystems: [E, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

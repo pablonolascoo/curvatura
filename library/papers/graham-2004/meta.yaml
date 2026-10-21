@@ -1,0 +1,21 @@
+id: graham-2004
+title: "Energy conditions outside a dielectric ball"
+authors:
+  - "Noah Graham"
+  - "Ken D. Olum"
+  - "Delia Schwartz-Perlov"
+year: 2004
+venue: "Phys.Rev. D70 (2004) 105019"
+doi: 10.1103/physrevd.70.105019
+arxiv: "gr-qc/0407006"
+source: https://arxiv.org/abs/gr-qc/0407006
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

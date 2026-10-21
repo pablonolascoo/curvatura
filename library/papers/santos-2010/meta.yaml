@@ -1,0 +1,22 @@
+id: santos-2010
+title: "ENERGY CONDITIONS CONSTRAINTS ON A CLASS OF f(R)-GRAVITY"
+authors:
+  - "J. SANTOS"
+  - "M. J. REBOUÇAS"
+  - "J. S. ALCANIZ"
+year: 2010
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271810017639
+arxiv: "0807.2443"
+source: https://arxiv.org/abs/0807.2443
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 44
+cites_seeds: [lobo-visser-2004]
+relevance: media

@@ -1,0 +1,20 @@
+id: baumann-2006
+title: "A Microscopic Limit on Gravitational Waves from D-brane Inflation"
+authors:
+  - "Daniel Baumann"
+  - "Liam McAllister"
+year: 2006
+venue: "Phys.Rev.D75:123508,2007"
+doi: 10.1103/physrevd.75.123508
+arxiv: "hep-th/0610285"
+source: https://arxiv.org/abs/hep-th/0610285
+language: en
+subsystems: [D, V]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

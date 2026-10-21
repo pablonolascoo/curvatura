@@ -1,0 +1,21 @@
+id: nguyen-2024
+title: "Time-reversed information flow through a wormhole in scalar–tensor gravity"
+authors:
+  - "Hoang Ky Nguyen"
+  - "Francisco S. N. Lobo"
+year: 2024
+venue: "Physics Letters B"
+doi: 10.1016/j.physletb.2024.138892
+arxiv: "2405.12397"
+source: https://arxiv.org/abs/2405.12397
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

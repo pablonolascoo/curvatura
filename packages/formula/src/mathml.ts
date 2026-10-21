@@ -21,10 +21,16 @@ export type MathMLOptions = {
 function symbol(name: string, hl: Set<string>): string {
   const attr = ` data-sym="${esc(name)}"${hl.has(name) ? ' data-active=""' : ""}`;
   if (DIFFERENTIALS.has(name)) return `<mrow${attr}><mi mathvariant="normal">d</mi><mi>${name[1]}</mi></mrow>`;
-  const [base, ...sub] = name.split("_");
+  // base_sub__sup → base con subíndice y superíndice (K_ij, K__ij, R__3).
+  const [lower, upper] = name.split("__");
+  const [base, ...sub] = lower.split("_");
+  const idx = (parts: string[]) => `<mi>${esc(parts.map(glyph).join(""))}</mi>`;
   const b = `<mi${glyph(base).length > 1 ? ' mathvariant="normal"' : ""}>${esc(glyph(base))}</mi>`;
-  if (!sub.length) return b.replace("<mi", `<mi${attr}`);
-  return `<msub${attr}>${b}<mi>${esc(sub.map(glyph).join(""))}</mi></msub>`;
+  const supParts = upper ? upper.split("_") : [];
+  if (!sub.length && !supParts.length) return b.replace("<mi", `<mi${attr}`);
+  if (!supParts.length) return `<msub${attr}>${b}${idx(sub)}</msub>`;
+  if (!sub.length) return `<msup${attr}>${b}${idx(supParts)}</msup>`;
+  return `<msubsup${attr}>${b}${idx(sub)}${idx(supParts)}</msubsup>`;
 }
 
 function prec(n: Node): number {
@@ -46,7 +52,10 @@ function render(n: Node, hl: Set<string>): string {
     case "num": return `<mn>${Number.isInteger(n.v) ? n.v : +n.v.toPrecision(6)}</mn>`;
     case "sym": return symbol(n.name, hl);
     case "neg": return `<mrow><mo>−</mo>${sub(n.a, PREC.neg)}</mrow>`;
-    case "eq": return `<mrow>${render(n.a, hl)}<mo>=</mo>${render(n.b, hl)}</mrow>`;
+    case "eq": {
+      const op = { "=": "=", ">=": "≥", "<=": "≤", "~": "≈" }[n.rel ?? "="];
+      return `<mrow>${render(n.a, hl)}<mo>${op}</mo>${render(n.b, hl)}</mrow>`;
+    }
     case "call": {
       if (n.fn === "sqrt") return `<msqrt>${render(n.args[0], hl)}</msqrt>`;
       if (n.fn === "abs") return `<mrow><mo>|</mo>${render(n.args[0], hl)}<mo>|</mo></mrow>`;

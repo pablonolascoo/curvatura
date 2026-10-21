@@ -1,0 +1,21 @@
+id: menicucci-2010
+title: "Simulating quantum effects of cosmological expansion using a static ion trap"
+authors:
+  - "Nicolas C. Menicucci"
+  - "S. Jay Olson"
+  - "Gerard J. Milburn"
+year: 2010
+venue: "New J.Phys.12:095019,2010"
+doi: 10.1088/1367-2630/12/9/095019
+arxiv: "1005.0434"
+source: https://arxiv.org/abs/1005.0434
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

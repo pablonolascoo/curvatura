@@ -1,0 +1,20 @@
+id: pino-2010
+title: "Einstein. Científico y filósofo"
+authors:
+  - "Compilador Germán Guerrero Pino"
+year: 2010
+venue: "Editorial Universidad del Valle eBooks"
+doi: 10.25100/peu.74
+arxiv: null
+source: https://doi.org/10.25100/peu.74
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-SA-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

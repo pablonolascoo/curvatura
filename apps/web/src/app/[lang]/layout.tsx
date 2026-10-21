@@ -2,12 +2,15 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { Newsreader } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { RevealObserver } from "@/components/RevealObserver";
 import { LOCALES, getDictionary, hasLocale } from "@/lib/i18n";
 import { APP_VERSION } from "@/lib/version";
 import "../globals.css";
+
+const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-newsreader", style: ["normal", "italic"], display: "swap" });
 
 export const dynamicParams = false;
 export const generateStaticParams = () => LOCALES.map((lang) => ({ lang }));
@@ -27,8 +30,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#0b0c0e" },
-    { media: "(prefers-color-scheme: light)", color: "#f3f4f2" },
+    { media: "(prefers-color-scheme: dark)", color: "#191919" },
+    { media: "(prefers-color-scheme: light)", color: "#fbfbfa" },
   ],
 };
 
@@ -37,13 +40,13 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   if (!hasLocale(lang)) notFound();
   const t = getDictionary(lang);
   return (
-    <html lang={lang} className={`${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
+    <html lang={lang} className={`${GeistSans.variable} ${GeistMono.variable} ${newsreader.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
       <body className="min-h-[100dvh]">
         <a href="#contenido" className="skip-link">{t.nav.skip}</a>
-        <div className="grain" aria-hidden />
+        <div className="ambient" aria-hidden />
         <Nav lang={lang} t={t.nav} />
         <main id="contenido" tabIndex={-1} className="w-full max-w-full overflow-x-clip">{children}</main>
         <Footer lang={lang} t={t.footer} nav={t.nav} />

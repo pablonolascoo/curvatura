@@ -1,0 +1,21 @@
+id: faruk-2016
+title: "Planck scale effects on the thermodynamics of photon gases"
+authors:
+  - "Mir Mehedi Faruk"
+  - "Md. Muktadir Rahman"
+year: 2016
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.94.105018
+arxiv: "1605.06784"
+source: https://arxiv.org/abs/1605.06784
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

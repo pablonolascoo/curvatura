@@ -1,0 +1,21 @@
+id: leonhardt-2012
+title: "Analytical theory of Hawking radiation in dispersive media"
+authors:
+  - "Ulf Leonhardt"
+  - "Scott Robertson"
+year: 2012
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/14/5/053003
+arxiv: null
+source: https://doi.org/10.1088/1367-2630/14/5/053003
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 34
+cites_seeds: [barcelo-2011]
+relevance: media

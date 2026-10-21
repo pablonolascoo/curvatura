@@ -1,0 +1,22 @@
+id: chao-2010
+title: "Black Hole Hair in Higher Dimensions"
+authors:
+  - "Cao Chao"
+  - "Yi-Xin Chen"
+  - "Jianlong Li"
+year: 2010
+venue: "Communications in Theoretical Physics"
+doi: 10.1088/0253-6102/53/2/16
+arxiv: "0804.0280"
+source: https://arxiv.org/abs/0804.0280
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

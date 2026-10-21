@@ -1,0 +1,19 @@
+id: letelier-1999
+title: "Exact General Relativistic Disks with Magnetic Fields"
+authors:
+  - "Patricio S. Letelier"
+year: 1999
+venue: "Phys.Rev. D60 (1999) 104042"
+doi: 10.1103/physrevd.60.104042
+arxiv: "gr-qc/9907050"
+source: https://arxiv.org/abs/gr-qc/9907050
+language: en
+subsystems: [G, E, S]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

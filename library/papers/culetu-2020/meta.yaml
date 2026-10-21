@@ -1,0 +1,20 @@
+id: culetu-2020
+title: "Accelerating imperfect fluid"
+authors:
+  - "Hristu Culetu"
+year: 2020
+venue: "Physics Letters A"
+doi: 10.1016/j.physleta.2020.126348
+arxiv: "1908.11438"
+source: https://arxiv.org/abs/1908.11438
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

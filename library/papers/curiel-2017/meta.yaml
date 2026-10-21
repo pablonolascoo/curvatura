@@ -1,0 +1,20 @@
+id: curiel-2017
+title: "A Primer on Energy Conditions"
+authors:
+  - "Erik Curiel"
+year: 2017
+venue: "Einstein studies"
+doi: 10.1007/978-1-4939-3210-8_3
+arxiv: "1405.0403"
+source: https://arxiv.org/abs/1405.0403
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 226
+cites_seeds: [krasnikov-1998]
+relevance: media

@@ -1,0 +1,26 @@
+id: cohencobos-2024
+title: "Chemistry does general relativity: reaction-diffusion waves can model gravitational lensing"
+authors:
+  - "Daniel Cohen-Cobos"
+  - "Kiyomi Sanders"
+  - "Laura DeGroot"
+  - "Heather M. Guarnera"
+  - "Cody C. Leary"
+  - "John F. Lindner"
+  - "Niklas Manz"
+year: 2024
+venue: "Frontiers in Physics"
+doi: 10.3389/fphy.2023.1315966
+arxiv: null
+source: https://doi.org/10.3389/fphy.2023.1315966
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

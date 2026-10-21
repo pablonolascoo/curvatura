@@ -1,0 +1,30 @@
+id: xu-2025b
+title: "Enhancing XR Auditory Realism via Multimodal Scene-Aware Acoustic Rendering"
+authors:
+  - "Tianyu Xu"
+  - "Jihan Li"
+  - "Penghe Zu"
+  - "Pranav Sahay"
+  - "Maruchi Kim"
+  - "Jack Obeng-Marnu"
+  - "Farley Miller"
+  - "Xun Qian"
+  - "Katrina Passarella"
+  - "Mahitha Rachumalla"
+  - "Rajeev Nongpiur"
+  - "D. Shin"
+year: 2025
+venue: "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25), Article 17, 1-16, 2025"
+doi: 10.1145/3746059.3747730
+arxiv: "2511.11930"
+source: https://arxiv.org/abs/2511.11930
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

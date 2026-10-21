@@ -1,0 +1,21 @@
+id: balakin-2007
+title: "Non-minimal coupling for the gravitational and electromagnetic fields: black hole solutions and solitons"
+authors:
+  - "Alexander B. Balakin"
+  - "Vladimir V. Bochkarev"
+  - "José P. S. Lemos"
+year: 2007
+venue: "Phys.Rev.D77:084013,2008"
+doi: 10.1103/physrevd.77.084013
+arxiv: "0712.4066"
+source: https://arxiv.org/abs/0712.4066
+language: en
+subsystems: [G, E, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

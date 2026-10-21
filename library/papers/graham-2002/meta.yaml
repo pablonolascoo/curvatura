@@ -1,0 +1,20 @@
+id: graham-2002
+title: "Negative Energy Densities in Quantum Field Theory With a Background Potential"
+authors:
+  - "Noah Graham"
+  - "Ken D. Olum"
+year: 2002
+venue: "Phys.Rev.D67:085014,2003; Erratum-ibid.D69:109901,2004"
+doi: 10.1103/physrevd.67.085014
+arxiv: "hep-th/0211244"
+source: https://arxiv.org/abs/hep-th/0211244
+language: en
+subsystems: [G, C, E, Q]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

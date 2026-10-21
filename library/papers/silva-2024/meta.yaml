@@ -1,0 +1,22 @@
+id: silva-2024
+title: "Gödel-type spacetimes in f(Q) gravity"
+authors:
+  - "A. M. Silva"
+  - "MARCELO J. REBOUÇAS"
+  - "Nivaldo Agostinho Lemos"
+year: 2024
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271824500603
+arxiv: "2407.04750"
+source: https://arxiv.org/abs/2407.04750
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

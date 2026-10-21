@@ -1,0 +1,20 @@
+id: myung-2000
+title: "Stability of the GRS Model"
+authors:
+  - "Y. S. Myung"
+  - "G. Kang"
+year: 2000
+venue: "Phys.Lett.B497:296-302,2001"
+doi: 10.1016/s0370-2693(00)01328-9
+arxiv: "hep-th/0005206"
+source: https://arxiv.org/abs/hep-th/0005206
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

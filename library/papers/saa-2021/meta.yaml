@@ -1,0 +1,20 @@
+id: saa-2021
+title: "Isochrone spacetimes"
+authors:
+  - "Alberto Saa"
+  - "Roberto Venegeroles"
+year: 2021
+venue: "Gen. Rel. Grav. 54, 71 (2022)"
+doi: 10.1007/s10714-022-02957-w
+arxiv: "2111.02838"
+source: https://arxiv.org/abs/2111.02838
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

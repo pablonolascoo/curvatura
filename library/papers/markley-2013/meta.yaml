@@ -1,0 +1,21 @@
+id: markley-2013
+title: "Artificial gravity field"
+authors:
+  - "Larry C. Markley"
+  - "John F. Lindner"
+year: 2013
+venue: "Results in Physics"
+doi: 10.1016/j.rinp.2013.01.003
+arxiv: null
+source: https://doi.org/10.1016/j.rinp.2013.01.003
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

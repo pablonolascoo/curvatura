@@ -1,0 +1,21 @@
+id: funai-2017
+title: "Engineering negative stress-energy densities with quantum energy teleportation"
+authors:
+  - "Nicholas Funai"
+  - "Eduardo Martín-Martínez"
+year: 2017
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.96.025014
+arxiv: "1701.03805"
+source: https://arxiv.org/abs/1701.03805
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 31
+cites_seeds: [alcubierre-1994]
+relevance: media

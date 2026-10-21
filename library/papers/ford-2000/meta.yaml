@@ -1,0 +1,20 @@
+id: ford-2000
+title: "Stress Tensor Fluctuations and Stochastic Spacetimes"
+authors:
+  - "Lawrence H. Ford"
+year: 2000
+venue: "International Journal of Theoretical Physics"
+doi: 10.1023/a:1003637613913
+arxiv: null
+source: https://doi.org/10.1023/a:1003637613913
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 28
+cites_seeds: [alcubierre-1994]
+relevance: media

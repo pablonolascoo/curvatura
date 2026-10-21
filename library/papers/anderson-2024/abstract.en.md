@@ -1,0 +1,1 @@
+The detailed structure of the peaks appearing in the density-density correlation function for an acoustic black hole formed by a Bose-Einstein condensate is analytically discussed for a particular, but physically meaningful, sound velocity profile that allows the field modes to be exactly computed.

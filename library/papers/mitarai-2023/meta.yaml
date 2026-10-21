@@ -1,0 +1,20 @@
+id: mitarai-2023
+title: "Quantum synchronization of qubits via dynamical Casimir effect"
+authors:
+  - "Haruki Mitarai"
+  - "Yoshihiko Hasegawa"
+year: 2023
+venue: "arXiv:2308.15788"
+doi: 10.1103/physreva.110.043719
+arxiv: "2308.15788"
+source: https://arxiv.org/abs/2308.15788
+language: en
+subsystems: [E]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

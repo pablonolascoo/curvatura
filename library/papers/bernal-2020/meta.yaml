@@ -1,0 +1,22 @@
+id: bernal-2020
+title: "Foundations of Finsler Spacetimes from the Observers’ Viewpoint"
+authors:
+  - "Antonio N. Bernal"
+  - "Miguel A. Javaloyes"
+  - "Miguel Sánchez"
+year: 2020
+venue: "Universe"
+doi: 10.3390/universe6040055
+arxiv: "2003.00455"
+source: https://arxiv.org/abs/2003.00455
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 39
+cites_seeds: [barcelo-2011]
+relevance: media

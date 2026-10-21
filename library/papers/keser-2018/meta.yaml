@@ -1,0 +1,21 @@
+id: keser-2018
+title: "Analogue stochastic gravity in strongly-interacting Bose–Einstein condensates"
+authors:
+  - "Aydın Cem Keser"
+  - "Victor Galitski"
+year: 2018
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2018.05.009
+arxiv: "1612.08980"
+source: https://arxiv.org/abs/1612.08980
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+relevance: media

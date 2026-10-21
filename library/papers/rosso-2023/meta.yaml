@@ -1,0 +1,20 @@
+id: rosso-2023
+title: "Localized thermal states and negative energy"
+authors:
+  - "Felipe Rosso"
+year: 2023
+venue: "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+doi: 10.1007/jhep10%282019%29246
+arxiv: null
+source: https://doi.org/10.1007/jhep10%282019%29246
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994, natario-2002]
+relevance: media

@@ -1,0 +1,25 @@
+id: lahav-2009
+title: "Realization of a sonic black hole analogue in a Bose-Einstein condensate"
+authors:
+  - "Oren Lahav"
+  - "Amir Itah"
+  - "Alex Blumkin"
+  - "Carmit Gordon"
+  - "Shahar Rinott"
+  - "Alona Zayats"
+  - "Jeff Steinhauer"
+year: 2009
+venue: "Phys.Rev.Lett.105:240401,2010"
+doi: 10.1103/physrevlett.105.240401
+arxiv: "0906.1337"
+source: https://arxiv.org/abs/0906.1337
+language: en
+subsystems: [D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

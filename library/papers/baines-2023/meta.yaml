@@ -1,0 +1,22 @@
+id: baines-2023
+title: "Defect Wormholes Are Defective"
+authors:
+  - "Joshua Baines"
+  - "Rudeep Gaur"
+  - "Matt Visser"
+year: 2023
+venue: "Universe"
+doi: 10.3390/universe9100452
+arxiv: "2308.16624"
+source: https://arxiv.org/abs/2308.16624
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [ford-roman-1996]
+relevance: media

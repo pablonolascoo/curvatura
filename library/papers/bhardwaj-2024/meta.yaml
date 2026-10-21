@@ -1,0 +1,24 @@
+id: bhardwaj-2024
+title: "Entanglement in an expanding toroidal Bose-Einstein condensate"
+authors:
+  - "Anshuman Bhardwaj"
+  - "Iván Agulló"
+  - "Dimitrios Kranas"
+  - "Justin H. Wilson"
+  - "Daniel E. Sheehy"
+year: 2024
+venue: "Physical Review A"
+doi: 10.1103/physreva.109.013305
+arxiv: "2307.07560"
+source: https://arxiv.org/abs/2307.07560
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

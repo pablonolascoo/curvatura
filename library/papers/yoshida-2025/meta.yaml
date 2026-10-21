@@ -1,0 +1,21 @@
+id: yoshida-2025
+title: "Optimization of a Mutual Induction Circuit that Separates Zero Energy into Positive and Negative Energy"
+authors:
+  - "Yoshiaki Yoshida"
+  - "Yukio Suzuki"
+year: 2025
+venue: "IEEJ Journal of Industry Applications"
+doi: 10.1541/ieejjia.25000346
+arxiv: null
+source: https://doi.org/10.1541/ieejjia.25000346
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, natario-2002, pfenning-ford-1997]
+relevance: media

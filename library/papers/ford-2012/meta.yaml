@@ -1,0 +1,23 @@
+id: ford-2012
+title: "An analog model for quantum lightcone fluctuations in nonlinear optics"
+authors:
+  - "Lawrence H. Ford"
+  - "V. A. De Lorenci"
+  - "Gabriel Menezes"
+  - "Nami Fux Svaiter"
+year: 2012
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2012.10.002
+arxiv: "1202.3099"
+source: https://arxiv.org/abs/1202.3099
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [barcelo-2011]
+relevance: media

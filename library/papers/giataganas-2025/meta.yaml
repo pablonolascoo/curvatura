@@ -1,0 +1,19 @@
+id: giataganas-2025
+title: "Holographic Timelike c-function"
+authors:
+  - "Dimitrios Giataganas"
+year: 2025
+venue: "Phys. Rev. D 114, 026027 (2026)"
+doi: 10.1103/h7x9-39zs
+arxiv: "2505.20459"
+source: https://arxiv.org/abs/2505.20459
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: alias-2020
+title: "Geometrodynamics of spacetime “surfing”"
+authors:
+  - "Anuar Alias"
+year: 2020
+venue: "IOP Conference Series Materials Science and Engineering"
+doi: 10.1088/1757-899x/785/1/012040
+arxiv: null
+source: https://doi.org/10.1088/1757-899x/785/1/012040
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [lobo-visser-2004]
+relevance: media

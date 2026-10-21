@@ -1,0 +1,22 @@
+id: belgiorno-2015
+title: "The Hopfield model revisited: covariance and quantization"
+authors:
+  - "F. Belgiorno"
+  - "Sergio L. Cacciatori"
+  - "Francesco Dalla Piazza"
+year: 2015
+venue: "Physica Scripta"
+doi: 10.1088/0031-8949/91/1/015001
+arxiv: "1411.7866"
+source: https://arxiv.org/abs/1411.7866
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [barcelo-2011]
+relevance: media

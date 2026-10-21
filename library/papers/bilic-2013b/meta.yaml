@@ -1,0 +1,21 @@
+id: bilic-2013b
+title: "Trapped surfaces in a hadronic fluid"
+authors:
+  - "Neven Bilić"
+  - "Dijana Tolić"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.87.044033
+arxiv: "1210.3824"
+source: https://arxiv.org/abs/1210.3824
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

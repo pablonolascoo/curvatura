@@ -1,0 +1,19 @@
+id: smolyaninov-2010
+title: "Metamaterial-based model of the Alcubierre warp drive"
+authors:
+  - "Igor I. Smolyaninov"
+year: 2010
+venue: "Phys.Rev.B84:113103,2011"
+doi: 10.1103/physrevb.84.113103
+arxiv: "1009.5663"
+source: https://arxiv.org/abs/1009.5663
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

@@ -1,0 +1,20 @@
+id: a-2022
+title: "The Physics of Time: Current Knowledge and Unanswered Challenges"
+authors:
+  - "Orfeu Bertolami A"
+year: 2022
+venue: "SSRN Electronic Journal"
+doi: 10.2139/ssrn.4185869
+arxiv: "2208.13737"
+source: https://arxiv.org/abs/2208.13737
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, krasnikov-1998, lobo-visser-2004]
+relevance: media

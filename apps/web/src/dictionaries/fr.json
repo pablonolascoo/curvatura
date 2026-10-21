@@ -14,7 +14,11 @@
     "language": "Langue",
     "home": "Accueil",
     "skip": "Aller au contenu",
-    "label": "Principale"
+    "label": "Principale",
+    "lab": "Laboratoire",
+    "equations": "Équations",
+    "search": "Rechercher",
+    "download": "Télécharger"
   },
   "hero": {
     "title": "Déplacer l'espace, pas le vaisseau.",
@@ -208,7 +212,15 @@
       "experimental": "Expérimental",
       "analogo": "Analogue",
       "fundamento": "Fondement"
-    }
+    },
+    "sort": "Tri",
+    "recent": "Récents",
+    "cited": "Plus cités",
+    "more": "Afficher plus",
+    "loading": "Chargement…",
+    "onlyOpen": "Texte intégral uniquement",
+    "relevance": "Inclure faible pertinence",
+    "core": "Cœur du sujet"
   },
   "notes": {
     "title": "Notes",
@@ -223,5 +235,74 @@
     "cta": "Contribuer sur GitHub",
     "license": "Code sous PolyForm Noncommercial 1.0.0. Contenus sous CC BY-NC-SA 4.0. Usage commercial sous licence de l'auteur.",
     "credit": "Pablo Nolasco, 2026"
+  },
+  "equations": {
+    "title": "Équations clés.",
+    "body": "Chaque symbole a sa couleur : bleu géométrie, rouge énergie, jaune paramètres libres, vert matière. Survolez pour le suivre et modifiez les valeurs pour calculer.",
+    "all": "Voir toutes les équations",
+    "result": "Résultat",
+    "source": "Voir l'article",
+    "inputs": "Valeurs",
+    "groups": [
+      "Géométrie",
+      "Énergie",
+      "Paramètres",
+      "Matière"
+    ]
+  },
+  "obstacles": {
+    "title": "Ce qui empêche de le construire.",
+    "body": "Chaque obstacle avec les preuves qui le soutiennent et les travaux qui ouvrent une issue.",
+    "evidence": "Preuves",
+    "leads": "Pistes de solution",
+    "status": {
+      "bloqueante": "Bloquant",
+      "abierto": "Ouvert",
+      "parcial": "Solution partielle"
+    }
+  },
+  "lab": {
+    "title": "Laboratoire",
+    "body": "Les systèmes du projet exécutés dans votre navigateur. Rust en WebAssembly, Python avec Pyodide et le moteur de formules.",
+    "core": "Noyau numérique",
+    "coreBody": "Champ d'expansion calculé en Rust compilé en WebAssembly. Cliquez sur la carte pour lâcher une particule et suivre sa géodésique.",
+    "python": "Python",
+    "pythonBody": "Le paquet physics/ du dépôt exécuté avec Pyodide. Modifiez et exécutez.",
+    "formula": "Formules",
+    "formulaBody": "Saisissez une expression. Le moteur la dessine, la dérive et l'évalue.",
+    "run": "Exécuter",
+    "running": "Exécution…",
+    "loading": "Chargement…",
+    "loadPython": "Charger Python",
+    "pythonSize": "Téléchargement unique d'environ 30 Mo, mis en cache ensuite.",
+    "output": "Sortie",
+    "time": "Temps de calcul",
+    "energy": "Énergie totale",
+    "conservation": "Conservation de H",
+    "expression": "Expression",
+    "derivative": "Dérivée par rapport à",
+    "value": "Valeur",
+    "error": "Erreur",
+    "presets": "Exemples",
+    "clickHint": "Cliquez sur la carte",
+    "contraction": "Contraction",
+    "expansion": "Expansion"
+  },
+  "search": {
+    "title": "Rechercher",
+    "body": "Recherche dans tout l'index de la bibliothèque : résumés, textes intégraux et documentation.",
+    "placeholder": "Ex. : énergie positive coque…",
+    "results": "résultats",
+    "empty": "Aucun résultat. Essayez d'autres termes.",
+    "loading": "Chargement de l'index…",
+    "chunk": "fragment"
+  },
+  "download": {
+    "title": "Application de bureau.",
+    "body": "Tout le projet dans une application native : bibliothèque, équations et laboratoire, sans rien d'autre à installer.",
+    "mac": "Télécharger pour macOS",
+    "windows": "Télécharger pour Windows",
+    "linux": "Télécharger pour Linux",
+    "note": "Versions sur GitHub Releases. Pas encore signées : le système demandera une confirmation à l'ouverture."
   }
 }

@@ -1,0 +1,22 @@
+id: loup-2003
+title: "The Dynamics of Chung-Freese Braneworld"
+authors:
+  - "Fernando Loup"
+  - "Paulo Santos"
+  - "Dorabella Martins da Silva Santos"
+year: 2003
+venue: "General Relativity and Gravitation"
+doi: 10.1023/a:1026299010288
+arxiv: null
+source: https://doi.org/10.1023/a:1026299010288
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [natario-2002]
+relevance: baja

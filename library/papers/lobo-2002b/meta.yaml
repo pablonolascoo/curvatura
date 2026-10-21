@@ -1,0 +1,21 @@
+id: lobo-2002b
+title: "Time, Closed Timelike Curves and Causality"
+authors:
+  - "Francisco S. N. Lobo"
+  - "Paulo Crawford"
+year: 2002
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.gr-qc/0206078
+arxiv: "gr-qc/0206078"
+source: https://arxiv.org/abs/gr-qc/0206078
+language: en
+subsystems: [G, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, everett-roman-1997]
+relevance: media

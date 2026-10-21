@@ -1,0 +1,22 @@
+id: wilson-2022
+title: "Analog spacetimes from nonrelativistic Goldstone modes in spinor condensates"
+authors:
+  - "Justin H. Wilson"
+  - "Jonathan B. Curtis"
+  - "Victor M. Galitski"
+year: 2022
+venue: "Physical Review A"
+doi: 10.1103/physreva.105.043316
+arxiv: "2001.05496"
+source: https://arxiv.org/abs/2001.05496
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [barcelo-2011]
+relevance: media

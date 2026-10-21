@@ -1,0 +1,21 @@
+id: auregan-2015b
+title: "Slow sound in lined flow ducts"
+authors:
+  - "Yves Aurégan"
+  - "Vincent Pagneux"
+year: 2015
+venue: "The Journal of the Acoustical Society of America"
+doi: 10.1121/1.4923450
+arxiv: "1502.07883"
+source: https://arxiv.org/abs/1502.07883
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 53
+cites_seeds: [barcelo-2011]
+relevance: media

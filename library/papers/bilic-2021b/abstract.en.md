@@ -1,0 +1,1 @@
+We study acoustic geometry in fluids with external pressure. In particular, we examine the conditions under which the acoustic metric mimics a Schwarzschild-like metric. We demonstrate that it is possible to mimic a Schwarzschild-like geometry in a consistent way only in the framework of relativistic acoustic geometry.

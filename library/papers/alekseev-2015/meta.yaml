@@ -1,0 +1,19 @@
+id: alekseev-2015
+title: "Collision of strong gravitational and electromagnetic waves in the expanding universe"
+authors:
+  - "G. A. Alekseev"
+year: 2015
+venue: "Phys. Rev. D 93, 061501(R) (2016)"
+doi: 10.1103/physrevd.93.061501
+arxiv: "1511.03335"
+source: https://arxiv.org/abs/1511.03335
+language: en
+subsystems: [G, E]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

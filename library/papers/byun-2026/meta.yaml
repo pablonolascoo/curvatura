@@ -1,0 +1,21 @@
+id: byun-2026
+title: "Quantum simulation of traversable-wormhole-inspired quantum teleportation in a chaotic binary sparse SYK model"
+authors:
+  - "Moongul Byun"
+  - "Hyeonsoo Lee"
+  - "Keun-Young Kim"
+year: 2026
+venue: "arXiv:2604.10090"
+doi: null
+arxiv: "2604.10090"
+source: https://arxiv.org/abs/2604.10090
+language: en
+subsystems: [G, E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

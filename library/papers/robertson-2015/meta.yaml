@@ -1,0 +1,21 @@
+id: robertson-2015
+title: "Hawking radiation in the presence of high-momentum dissipation"
+authors:
+  - "Scott Robertson"
+  - "Renaud Parentani"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.92.044043
+arxiv: "1506.02287"
+source: https://arxiv.org/abs/1506.02287
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

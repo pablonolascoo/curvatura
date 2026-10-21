@@ -14,12 +14,19 @@ jobs:
         with:
           bun-version: 1.3.4
       - uses: astral-sh/setup-uv@v6
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
       - run: bun install --frozen-lockfile
       - name: Motor de fórmulas
         run: bun --filter '@curvatura/formula' test
       - name: Física (Python)
         run: uv --directory physics run pytest -q
+      - name: Núcleo (Rust)
+        run: cargo test --release --manifest-path solvers/rust/Cargo.toml
       - name: Solvers (C++)
         run: make -C solvers/cpp test CXX=g++
+      - name: Índice RAG
+        run: python3 -I library/rag/build.py
       - name: Web
         run: bun --filter web build

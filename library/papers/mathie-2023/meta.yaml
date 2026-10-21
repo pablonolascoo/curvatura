@@ -1,0 +1,20 @@
+id: mathie-2023
+title: "Black Holes and Analogy"
+authors:
+  - "Alex Mathie"
+year: 2023
+venue: "Synthese Library/Synthese library"
+doi: 10.1007/978-3-031-26618-8_14
+arxiv: null
+source: https://doi.org/10.1007/978-3-031-26618-8_14
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

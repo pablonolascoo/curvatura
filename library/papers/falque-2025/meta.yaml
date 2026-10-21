@@ -1,0 +1,25 @@
+id: falque-2025
+title: "Polariton Fluids as Quantum Field Theory Simulators on Tailored Curved Spacetimes"
+authors:
+  - "Kévin Falque"
+  - "Adrià Delhom"
+  - "Quentin C. Glorieux"
+  - "E. Giacobino"
+  - "Alberto Bramati"
+  - "Maxime J. Jacquet"
+year: 2025
+venue: "Physical Review Letters"
+doi: 10.1103/t5dh-rx6w
+arxiv: "2311.01392"
+source: https://arxiv.org/abs/2311.01392
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [barcelo-2011]
+relevance: media

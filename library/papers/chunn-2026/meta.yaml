@@ -1,0 +1,22 @@
+id: chunn-2026
+title: "Phonon dynamics in spherically-curved analog-gravity Bose–Einstein condensates"
+authors:
+  - "J. Austin Chunn"
+  - "Ruotong Zhai"
+  - "Daniel E. Sheehy"
+year: 2026
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-026-15884-w
+arxiv: "2508.03683"
+source: https://arxiv.org/abs/2508.03683
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

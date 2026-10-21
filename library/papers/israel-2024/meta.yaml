@@ -1,0 +1,20 @@
+id: israel-2024
+title: "Modification in Alcubierre Warp Drive Geometry to Preserve Positive Energy Density"
+authors:
+  - "Independent Researcher Israel"
+year: 2024
+venue: "European journal of applied sciences"
+doi: 10.14738/aivp.123.17054
+arxiv: null
+source: https://doi.org/10.14738/aivp.123.17054
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, krasnikov-1998, lentz-2021, lobo-visser-2004, natario-2002, pfenning-ford-1997, santiago-2022, vandenbroeck-1999]
+relevance: alta

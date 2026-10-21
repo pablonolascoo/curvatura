@@ -1,0 +1,21 @@
+id: carlini-1996
+title: "TIME MACHINES AND THE PRINCIPLE OF SELF-CONSISTENCY AS A CONSEQUENCE OF THE PRINCIPLE OF STATIONARY ACTION (II): THE CAUCHY PROBLEM FOR A SELF-INTERACTING RELATIVISTIC PARTICLE"
+authors:
+  - "A. Carlini"
+  - "Igor D. Novikov"
+year: 1996
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s021827189600028x
+arxiv: "gr-qc/9607063"
+source: https://arxiv.org/abs/gr-qc/9607063
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [ford-roman-1996]
+relevance: media

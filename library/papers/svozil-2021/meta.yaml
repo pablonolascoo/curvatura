@@ -1,0 +1,20 @@
+id: svozil-2021
+title: "Interdimensionality"
+authors:
+  - "Karl Svozil"
+year: 2021
+venue: "Axioms"
+doi: 10.3390/axioms10040300
+arxiv: "2110.11394"
+source: https://arxiv.org/abs/2110.11394
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [lentz-2021]
+relevance: media

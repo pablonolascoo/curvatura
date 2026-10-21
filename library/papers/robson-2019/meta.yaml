@@ -1,0 +1,22 @@
+id: robson-2019
+title: "Universal quantum Hawking evaporation of integrable two-dimensional solitons"
+authors:
+  - "Charles W. Robson"
+  - "Leone Di Mauro Villari"
+  - "Fabio Biancalana"
+year: 2019
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/ab1bf5
+arxiv: "1808.09099"
+source: https://arxiv.org/abs/1808.09099
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

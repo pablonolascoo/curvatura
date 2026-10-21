@@ -1,0 +1,1 @@
+A new solution of the Einstein-Born-Infeld theory in 2+1 space-time is derived. A new solution has no horizon there are two singularity. This space-time has two singular points, however, one of the point at the origin is not in the physical region. We also investigate the energycondition. Then, weak energy condition is satisfied. However, causal energy condition is violated.

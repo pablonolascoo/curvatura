@@ -1,0 +1,22 @@
+id: balakrishnan-2017
+title: "A General Proof of the Quantum Null Energy Condition"
+authors:
+  - "Srivatsan Balakrishnan"
+  - "Thomas Faulkner"
+  - "Zuhair U. Khandker"
+  - "Huajia Wang"
+year: 2017
+venue: "arXiv:1706.09432"
+doi: 10.1007/jhep09(2019)020
+arxiv: "1706.09432"
+source: https://arxiv.org/abs/1706.09432
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

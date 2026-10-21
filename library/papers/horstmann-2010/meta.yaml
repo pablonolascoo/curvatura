@@ -1,0 +1,23 @@
+id: horstmann-2010
+title: "Hawking Radiation on an Ion Ring in the Quantum Regime"
+authors:
+  - "Birger Horstmann"
+  - "Ralf Schützhold"
+  - "Benni Reznik"
+  - "Serena Fagnocchi"
+  - "J. Ignacio Cirac"
+year: 2010
+venue: "New J.Phys.13:045008,2011; Erratum-ibid.13:069601,2011"
+doi: 10.1088/1367-2630/13/4/045008
+arxiv: "1008.3494"
+source: https://arxiv.org/abs/1008.3494
+language: en
+subsystems: [Q, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

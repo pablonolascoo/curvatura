@@ -1,0 +1,1 @@
+By noticing that, in open 2+1 gravity, polarized surfaces cannot converge in the presence of timelike total energy momentum (except for a rotation of 2 pi), we give a simple argument which shows that, quite generally, closed timelike curves cannot exist in the presence of such energy condition.

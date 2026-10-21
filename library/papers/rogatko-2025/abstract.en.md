@@ -1,0 +1,1 @@
+We prove the uniqueness theorem for static spherically symmetric traversable wormholes with two asymptotically flat ends, constituting the solutions of Einstein-phantom-electric-magnetic equations of motion. For the completeness of the results, we also consider the case of phantom U(1)- gauge field. The key role in the proof is bounded with conformal positive energy theorem.

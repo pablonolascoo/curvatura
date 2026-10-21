@@ -1,0 +1,14 @@
+id: blueshift
+paper: mcmonigal-2012
+subsystem: M
+title: { es: Desplazamiento al azul, en: Blueshift, fr: Décalage vers le bleu }
+expr: "E_f / E_i = sqrt((1 + beta) / (1 - beta))"
+symbols:
+  E_f: { group: energy, es: Energía final de la partícula, en: Final particle energy, fr: Énergie finale de la particule }
+  E_i: { group: energy, es: Energía inicial, en: Initial energy, fr: Énergie initiale }
+  beta: { group: velocity, es: Velocidad relativa (fracción de c), en: Relative velocity (fraction of c), fr: Vitesse relative (fraction de c) }
+compute:
+  result: "sqrt((1 + beta) / (1 - beta))"
+  unit: "×"
+  inputs:
+    beta: { min: 0, max: 0.9999, default: 0.9, unit: c }

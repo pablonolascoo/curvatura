@@ -1,0 +1,20 @@
+id: bazeia-2004
+title: "Bloch Brane"
+authors:
+  - "D. Bazeia"
+  - "A. R. Gomes"
+year: 2004
+venue: "JHEP 0405 (2004) 012"
+doi: 10.1088/1126-6708/2004/05/012
+arxiv: "hep-th/0403141"
+source: https://arxiv.org/abs/hep-th/0403141
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

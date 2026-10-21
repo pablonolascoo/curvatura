@@ -1,0 +1,19 @@
+id: verch-1999
+title: "The averaged null energy condition for general quantum field theories in two dimensions"
+authors:
+  - "Rainer Verch"
+year: 1999
+venue: "J.Math.Phys. 41 (2000) 206-217"
+doi: 10.1063/1.533130
+arxiv: "math-ph/9904036"
+source: https://arxiv.org/abs/math-ph/9904036
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

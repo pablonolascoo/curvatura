@@ -1,0 +1,27 @@
+id: svancara-2024
+title: "Rotating curved spacetime signatures from a giant quantum vortex"
+authors:
+  - "P. Švančara"
+  - "Pietro Smaniotto"
+  - "Leonardo Solidoro"
+  - "James F. MacDonald"
+  - "Sam Patrick"
+  - "Ruth Gregory"
+  - "Carlo F. Barenghi"
+  - "Silke Weinfurtner"
+year: 2024
+venue: "Nature"
+doi: 10.1038/s41586-024-07176-8
+arxiv: "2308.10773"
+source: https://arxiv.org/abs/2308.10773
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 59
+cites_seeds: [barcelo-2011]
+relevance: media

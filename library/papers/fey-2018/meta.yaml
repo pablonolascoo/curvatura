@@ -1,0 +1,22 @@
+id: fey-2018
+title: "Ion-trap analog of particle creation in cosmology"
+authors:
+  - "Christian Fey"
+  - "Tobias Schaetz"
+  - "Ralf Schützhold"
+year: 2018
+venue: "Physical Review A"
+doi: 10.1103/physreva.98.033407
+arxiv: "1602.04081"
+source: https://arxiv.org/abs/1602.04081
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

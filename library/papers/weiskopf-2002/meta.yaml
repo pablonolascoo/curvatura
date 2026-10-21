@@ -1,0 +1,20 @@
+id: weiskopf-2002
+title: "Four-dimensional non-linear ray tracing as a visualization tool for gravitational physics"
+authors:
+  - "Daniel Weiskopf"
+year: 2002
+venue: "IEEE Visualization Conference (VIS)"
+doi: 10.1109/visual.2000.885728
+arxiv: null
+source: https://doi.org/10.1109/visual.2000.885728
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,22 @@
+id: helmerich-2021
+title: "Numerical Optimization of Warp Drive Geometries"
+authors:
+  - "Christopher Helmerich"
+  - "Jared Fuchs"
+  - "Joseph F. Agnew"
+year: 2021
+venue: "AIAA Propulsion and Energy Forum"
+doi: 10.2514/6.2021-3596
+arxiv: null
+source: https://doi.org/10.2514/6.2021-3596
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [bobrick-martire-2021]
+relevance: alta

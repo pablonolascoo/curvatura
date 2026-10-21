@@ -1,0 +1,21 @@
+id: minami-2012
+title: "Field propulsion systems for space travel"
+authors:
+  - "Yoshinari Minami"
+  - "Takaaki Musha"
+year: 2012
+venue: "Acta Astronautica"
+doi: 10.1016/j.actaastro.2012.02.027
+arxiv: null
+source: https://doi.org/10.1016/j.actaastro.2012.02.027
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

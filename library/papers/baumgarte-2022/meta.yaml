@@ -1,0 +1,20 @@
+id: baumgarte-2022
+title: "Shock-avoiding slicing conditions: tests and calibrations"
+authors:
+  - "Thomas W. Baumgarte"
+  - "David Hilditch"
+year: 2022
+venue: "arXiv:2207.06376"
+doi: 10.1103/physrevd.106.044014
+arxiv: "2207.06376"
+source: https://arxiv.org/abs/2207.06376
+language: en
+subsystems: [G, C, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

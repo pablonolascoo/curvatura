@@ -1,0 +1,22 @@
+id: nandi-2006
+title: "Gravitational lensing by wormholes"
+authors:
+  - "Kamal Kanti Nandi"
+  - "Yuan‐Zhong Zhang"
+  - "Alexander V. Zakharov"
+year: 2006
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.74.024020
+arxiv: "gr-qc/0602062"
+source: https://arxiv.org/abs/gr-qc/0602062
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 246
+cites_seeds: [ford-roman-1996]
+relevance: media

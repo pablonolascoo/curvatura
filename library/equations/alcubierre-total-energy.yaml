@@ -1,0 +1,26 @@
+id: alcubierre-total-energy
+paper: pfenning-ford-1997
+subsystem: P
+title: { es: Energía total de la burbuja, en: Total bubble energy, fr: Énergie totale de la bulle }
+expr: "E ~ -(v_s^2 * R^2 * sigma) / 36"
+symbols:
+  E: { group: energy, es: Energía total (longitud geométrica), en: Total energy (geometric length), fr: Énergie totale (longueur géométrique) }
+  v_s: { group: velocity, es: Velocidad en fracciones de c, en: Velocity as a fraction of c, fr: Vitesse en fraction de c }
+  R: { group: geometry, es: Radio, en: Radius, fr: Rayon }
+  sigma: { group: geometry, es: Inverso del grosor de pared, en: Inverse wall thickness, fr: Inverse de l'épaisseur de paroi }
+compute:
+  result: "-(v_s^2 * R^2 * sigma) / 36"
+  unit: m
+  inputs:
+    v_s: { min: 0.1, max: 10, default: 1, unit: c, log: true }
+    R: { min: 1, max: 1000, default: 100, unit: m, log: true }
+    sigma: { min: 0.01, max: 100, default: 0.1, unit: "m⁻¹", log: true }
+  constants: [c, G, M_J]
+  also:
+    label: { es: Masa equivalente, en: Equivalent mass, fr: Masse équivalente }
+    expr: "-(v_s^2 * R^2 * sigma) / 36 * c^2 / G / M_J"
+    unit: M_J
+note:
+  es: Límite de pared delgada (σR ≫ 1) de la integral exacta. Reproducido en Python, C++, Rust y la web.
+  en: Thin-wall limit (σR ≫ 1) of the exact integral. Reproduced in Python, C++, Rust and the web.
+  fr: Limite de paroi mince (σR ≫ 1) de l'intégrale exacte. Reproduit en Python, C++, Rust et sur le site.

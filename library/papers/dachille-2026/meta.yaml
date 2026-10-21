@@ -1,0 +1,22 @@
+id: dachille-2026
+title: "Configurable Photonic Simulator for Quantum Field Dynamics"
+authors:
+  - "Mauro D'Achille"
+  - "Martin Gärttner"
+  - "Tobias Haas"
+year: 2026
+venue: "PRX Quantum"
+doi: 10.1103/8z9p-tygz
+arxiv: "2506.23838"
+source: https://arxiv.org/abs/2506.23838
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

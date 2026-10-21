@@ -1,0 +1,22 @@
+id: pinto-2025
+title: "Kerr-Newman black hole in a Melvin-swirling universe"
+authors:
+  - "Andrea Di Pinto"
+  - "Dietmar Silke Klemm"
+  - "Adriano Viganò"
+year: 2025
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep06(2025)150
+arxiv: "2503.07780"
+source: https://arxiv.org/abs/2503.07780
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [alcubierre-1994]
+relevance: media

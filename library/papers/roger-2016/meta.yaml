@@ -1,0 +1,26 @@
+id: roger-2016
+title: "Optical analogues of the Newton–Schrödinger equation and boson star evolution"
+authors:
+  - "Thomas Roger"
+  - "Calum Maitland"
+  - "Kali Wilson"
+  - "Niclas Westerberg"
+  - "David Vocke"
+  - "Ewan M. Wright"
+  - "Daniele Faccio"
+year: 2016
+venue: "Nature Communications"
+doi: 10.1038/ncomms13492
+arxiv: "1611.00924"
+source: https://arxiv.org/abs/1611.00924
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 75
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: carlip-2014
+title: "Black hole thermodynamics"
+authors:
+  - "S. Carlip"
+year: 2014
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271814300237
+arxiv: "1410.1486"
+source: https://arxiv.org/abs/1410.1486
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 224
+cites_seeds: [barcelo-2011]
+relevance: media

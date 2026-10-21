@@ -1,0 +1,22 @@
+id: bouhmadilopez-2014
+title: "Wormholes minimally violating the null energy condition"
+authors:
+  - "Mariam Bouhmadi-López"
+  - "Francisco S. N. Lobo"
+  - "Prado Martín–Moruno"
+year: 2014
+venue: "Journal of Cosmology and Astroparticle Physics"
+doi: 10.1088/1475-7516/2014/11/007
+arxiv: "1407.7758"
+source: https://arxiv.org/abs/1407.7758
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 65
+cites_seeds: [lobo-visser-2004]
+relevance: media

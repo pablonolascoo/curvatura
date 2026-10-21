@@ -1,0 +1,24 @@
+id: saha-2015
+title: "Model dependence of the multi-transonic behaviour, stability properties and the corresponding acoustic geometry for accretion onto rotating black holes"
+authors:
+  - "Sonali Saha"
+  - "Sharmistha Sen"
+  - "Sankhasubhra Nag"
+  - "Suparna Raychowdhury"
+  - "Tapas K. Das"
+year: 2015
+venue: "New Astronomy"
+doi: 10.1016/j.newast.2015.07.007
+arxiv: "1501.00284"
+source: https://arxiv.org/abs/1501.00284
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 19
+cites_seeds: [barcelo-2011]
+relevance: media

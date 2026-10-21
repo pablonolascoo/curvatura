@@ -1,0 +1,20 @@
+id: modanese-2019
+title: "Metrics with Zero and Almost-Zero Einstein Action in Quantum Gravity"
+authors:
+  - "Giovanni Modanese"
+year: 2019
+venue: "Symmetry"
+doi: 10.3390/sym11101288
+arxiv: "1909.12391"
+source: https://arxiv.org/abs/1909.12391
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [lobo-visser-2004]
+relevance: media

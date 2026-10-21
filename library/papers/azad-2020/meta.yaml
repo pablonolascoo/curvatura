@@ -1,0 +1,22 @@
+id: azad-2020
+title: "Transmission of low-energy scalar waves through a traversable wormhole"
+authors:
+  - "Bahareh Azad"
+  - "Farhang Loran"
+  - "Ali Mostafazadeh"
+year: 2020
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-020-08668-3
+arxiv: "2010.15023"
+source: https://arxiv.org/abs/2010.15023
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [ford-roman-1996]
+relevance: media

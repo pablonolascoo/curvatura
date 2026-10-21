@@ -1,0 +1,21 @@
+id: angelil-2015
+title: "Geometrical versus wave optics under gravitational waves"
+authors:
+  - "Raymond Angélil"
+  - "Prasenjit Saha"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.91.124007
+arxiv: "1505.03157"
+source: https://arxiv.org/abs/1505.03157
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

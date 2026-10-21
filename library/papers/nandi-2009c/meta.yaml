@@ -1,0 +1,23 @@
+id: nandi-2009c
+title: "Energetics in condensate star and wormholes"
+authors:
+  - "Kamal Kanti Nandi"
+  - "Y. Z. Zhang"
+  - "Rong-Gen Cai"
+  - "Alla Panchenko"
+year: 2009
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.79.024011
+arxiv: "0809.4143"
+source: https://arxiv.org/abs/0809.4143
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 53
+cites_seeds: [ford-roman-1996]
+relevance: media

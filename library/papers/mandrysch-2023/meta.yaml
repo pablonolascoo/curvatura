@@ -1,0 +1,19 @@
+id: mandrysch-2023
+title: "Numerical results on Quantum Energy Inequalities in Integrable Models at the Two-Particle level"
+authors:
+  - "Jan Mandrysch"
+year: 2023
+venue: "Phys. Rev. D 109, 085022 (2024)"
+doi: 10.1103/physrevd.109.085022
+arxiv: "2312.14960"
+source: https://arxiv.org/abs/2312.14960
+language: en
+subsystems: [C, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,22 @@
+id: hergott-2026
+title: "Dynamical model for black hole to white hole transitions"
+authors:
+  - "Samantha Hergott"
+  - "Viqar Husain"
+  - "Saeed Rastgoo"
+year: 2026
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/8m7g-zz3k
+arxiv: "2505.15096"
+source: https://arxiv.org/abs/2505.15096
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

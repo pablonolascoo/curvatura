@@ -1,0 +1,20 @@
+id: nikitin-2019
+title: "RDM-stars and related topics"
+authors:
+  - "Igor Nikitin"
+year: 2019
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1906.09074
+arxiv: "1906.09074"
+source: https://arxiv.org/abs/1906.09074
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

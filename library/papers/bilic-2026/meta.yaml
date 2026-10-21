@@ -1,0 +1,21 @@
+id: bilic-2026
+title: "Planar Black Holes and Entanglement Entropy in Analog Gravity Models"
+authors:
+  - "Neven Bilić"
+  - "T. Zingg"
+year: 2026
+venue: "Entropy"
+doi: 10.3390/e28030345
+arxiv: "1903.03401"
+source: https://arxiv.org/abs/1903.03401
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

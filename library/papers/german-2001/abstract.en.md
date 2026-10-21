@@ -1,0 +1,1 @@
+Some interesting consequences of spacelike matter shells are presented, in particular the possibility of travelling through Cauchy horizons and violating the strong cosmic censorship principle. These show that the weak energy condition does not guarentee cosmic censorship.

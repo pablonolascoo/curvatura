@@ -1,0 +1,21 @@
+id: bessa-2014
+title: "An Analog Model for Light Propagation in Semiclassical Gravity"
+authors:
+  - "C. H. G. Bessa"
+  - "V. A. De Lorenci"
+  - "L. H. Ford"
+year: 2014
+venue: "Phys. Rev. D 90, 024036 (2014)"
+doi: 10.1103/physrevd.90.024036
+arxiv: "1402.6285"
+source: https://arxiv.org/abs/1402.6285
+language: en
+subsystems: [C, E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

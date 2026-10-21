@@ -1,0 +1,21 @@
+id: exner-2012
+title: "Ontology matching: from PropBank to DBpedia"
+authors:
+  - "Peter Exner"
+  - "Pierre Nugues"
+year: 2012
+venue: "Lund University Publications (Lund University)"
+doi: null
+arxiv: null
+source: https://openalex.org/W2132899385
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

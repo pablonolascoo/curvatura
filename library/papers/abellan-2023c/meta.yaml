@@ -1,0 +1,22 @@
+id: abellan-2023c
+title: "Alcubierre warp drive in spherical coordinates with some matter configurations"
+authors:
+  - "Gabriel Abellán"
+  - "Nelson Enrique Bolivar"
+  - "Ivaylo T. Vasilev"
+year: 2023
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-022-11091-5
+arxiv: null
+source: https://doi.org/10.1140/epjc/s10052-022-11091-5
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, krasnikov-1998, lentz-2021, lobo-visser-2004, natario-2002, santiago-2022, vandenbroeck-1999]
+relevance: alta

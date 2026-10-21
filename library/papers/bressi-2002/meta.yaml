@@ -1,0 +1,21 @@
+id: bressi-2002
+title: "Measurement of the Casimir force between parallel metallic surfaces"
+authors:
+  - "G. Bressi"
+  - "G. Carugno"
+  - "R. Onofrio"
+  - "G. Ruoso"
+year: 2002
+venue: "Physical Review Letters 88, 041804"
+doi: 10.1103/PhysRevLett.88.041804
+arxiv: "quant-ph/0203002"
+source: https://arxiv.org/abs/quant-ph/0203002
+language: en
+subsystems: [E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: manual
+relevance: media

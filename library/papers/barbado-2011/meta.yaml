@@ -1,0 +1,23 @@
+id: barbado-2011
+title: "The trans-Planckian problem as a guiding principle"
+authors:
+  - "L. C. Barbado"
+  - "C. Barceló"
+  - "L. J. Garay"
+  - "Gil Jannes"
+year: 2011
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep11(2011)112
+arxiv: "1109.3593"
+source: https://arxiv.org/abs/1109.3593
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [barcelo-2011]
+relevance: media

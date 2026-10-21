@@ -1,0 +1,22 @@
+id: casini-2016
+title: "Comments on Jacobson’s “entanglement equilibrium and the Einstein equation”"
+authors:
+  - "Horacio Casini"
+  - "Damián A. Galante"
+  - "Robert Cobb Myers"
+year: 2016
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep03(2016)194
+arxiv: "1601.00528"
+source: https://arxiv.org/abs/1601.00528
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 40
+cites_seeds: [alcubierre-1994]
+relevance: media

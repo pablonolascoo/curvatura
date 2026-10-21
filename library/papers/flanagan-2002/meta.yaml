@@ -1,0 +1,19 @@
+id: flanagan-2002
+title: "Quantum inequalities in two dimensional curved spacetimes"
+authors:
+  - "Eanna E. Flanagan"
+year: 2002
+venue: "Phys.Rev. D66 (2002) 104007"
+doi: 10.1103/physrevd.66.104007
+arxiv: "gr-qc/0208066"
+source: https://arxiv.org/abs/gr-qc/0208066
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

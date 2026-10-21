@@ -1,0 +1,20 @@
+id: ford-roman-inequality
+paper: ford-roman-1996
+subsystem: Q
+title: { es: Desigualdad cuántica, en: Quantum inequality, fr: Inégalité quantique }
+expr: "rho_tau >= -(3*hbar*c) / (32*pi^2*(c*tau)^4)"
+symbols:
+  rho_tau: { group: energy, es: Densidad de energía promediada durante τ, en: Energy density averaged over τ, fr: Densité d'énergie moyennée sur τ }
+  tau: { group: velocity, es: Tiempo de muestreo, en: Sampling time, fr: Temps d'échantillonnage }
+  hbar: { group: constant, es: Constante de Planck reducida, en: Reduced Planck constant, fr: Constante de Planck réduite }
+  c: { group: constant, es: Velocidad de la luz, en: Speed of light, fr: Vitesse de la lumière }
+compute:
+  result: "-(3*hbar*c) / (32*pi^2*(c*tau)^4)"
+  unit: "J/m³"
+  inputs:
+    tau: { min: 1e-15, max: 1e-6, default: 1e-9, unit: s, log: true }
+  constants: [hbar, c]
+note:
+  es: Campo escalar sin masa en espacio plano. Cuanto más dura la energía negativa, menos puede haber.
+  en: Massless scalar field in flat space. The longer negative energy lasts, the less of it there can be.
+  fr: Champ scalaire sans masse en espace plat. Plus l'énergie négative dure, moins il peut y en avoir.

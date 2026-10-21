@@ -14,7 +14,11 @@
     "language": "Language",
     "home": "Home",
     "skip": "Skip to content",
-    "label": "Main"
+    "label": "Main",
+    "lab": "Lab",
+    "equations": "Equations",
+    "search": "Search",
+    "download": "Download"
   },
   "hero": {
     "title": "Move space, not the ship.",
@@ -208,7 +212,15 @@
       "experimental": "Experimental",
       "analogo": "Analogue",
       "fundamento": "Foundation"
-    }
+    },
+    "sort": "Sort",
+    "recent": "Recent",
+    "cited": "Most cited",
+    "more": "Show more",
+    "loading": "Loading…",
+    "onlyOpen": "Full text only",
+    "relevance": "Include low relevance",
+    "core": "Core topic"
   },
   "notes": {
     "title": "Notes",
@@ -223,5 +235,74 @@
     "cta": "Contribute on GitHub",
     "license": "Code under PolyForm Noncommercial 1.0.0. Content under CC BY-NC-SA 4.0. Commercial use under licence from the author.",
     "credit": "Pablo Nolasco, 2026"
+  },
+  "equations": {
+    "title": "Key equations.",
+    "body": "Every symbol has its colour: blue geometry, red energy, yellow free parameters, green matter. Hover to follow it and move the values to compute.",
+    "all": "See all equations",
+    "result": "Result",
+    "source": "See the paper",
+    "inputs": "Values",
+    "groups": [
+      "Geometry",
+      "Energy",
+      "Parameters",
+      "Matter"
+    ]
+  },
+  "obstacles": {
+    "title": "What stops us from building it.",
+    "body": "Each obstacle with the evidence behind it and the work that points to a way out.",
+    "evidence": "Evidence",
+    "leads": "Possible ways out",
+    "status": {
+      "bloqueante": "Blocking",
+      "abierto": "Open",
+      "parcial": "Partial solution"
+    }
+  },
+  "lab": {
+    "title": "Lab",
+    "body": "The project's systems running in your browser. Rust in WebAssembly, Python with Pyodide and the formula engine.",
+    "core": "Numerical core",
+    "coreBody": "Expansion field computed in Rust compiled to WebAssembly. Click the map to drop a particle and follow its geodesic.",
+    "python": "Python",
+    "pythonBody": "The repository's physics/ package running on Pyodide. Edit and run.",
+    "formula": "Formulas",
+    "formulaBody": "Type an expression. The engine draws it, differentiates it and evaluates it.",
+    "run": "Run",
+    "running": "Running…",
+    "loading": "Loading…",
+    "loadPython": "Load Python",
+    "pythonSize": "One-off download of about 30 MB, cached afterwards.",
+    "output": "Output",
+    "time": "Compute time",
+    "energy": "Total energy",
+    "conservation": "H conservation",
+    "expression": "Expression",
+    "derivative": "Derivative with respect to",
+    "value": "Value",
+    "error": "Error",
+    "presets": "Examples",
+    "clickHint": "Click the map",
+    "contraction": "Contraction",
+    "expansion": "Expansion"
+  },
+  "search": {
+    "title": "Search",
+    "body": "Search across the whole library index: abstracts, full texts and documentation.",
+    "placeholder": "e.g. positive energy shell…",
+    "results": "results",
+    "empty": "No results. Try other terms.",
+    "loading": "Loading index…",
+    "chunk": "chunk"
+  },
+  "download": {
+    "title": "Desktop app.",
+    "body": "The whole project in a native app: library, equations and lab, with nothing else to install.",
+    "mac": "Download for macOS",
+    "windows": "Download for Windows",
+    "linux": "Download for Linux",
+    "note": "Builds on GitHub Releases. Not yet developer-signed: the system will ask for confirmation on first launch."
   }
 }

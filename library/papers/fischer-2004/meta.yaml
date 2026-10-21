@@ -1,0 +1,20 @@
+id: fischer-2004
+title: "QUASIPARTICLE UNIVERSES IN BOSE–EINSTEIN CONDENSATES"
+authors:
+  - "Uwe R. Fischer"
+year: 2004
+venue: "Modern Physics Letters A"
+doi: 10.1142/s0217732304015099
+arxiv: "cond-mat/0406086"
+source: https://arxiv.org/abs/cond-mat/0406086
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 23
+cites_seeds: [alcubierre-1994]
+relevance: media

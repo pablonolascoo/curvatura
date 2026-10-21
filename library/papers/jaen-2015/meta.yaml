@@ -1,0 +1,21 @@
+id: jaen-2015
+title: "On the meaning of Painlevé–Gullstrand synchronization"
+authors:
+  - "Xavier Jaén"
+  - "A. Molina"
+year: 2015
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-015-1994-1
+arxiv: "1505.01291"
+source: https://arxiv.org/abs/1505.01291
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

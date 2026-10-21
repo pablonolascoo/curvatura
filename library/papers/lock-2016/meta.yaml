@@ -1,0 +1,20 @@
+id: lock-2016
+title: "Dynamical Casimir effect in curved spacetime"
+authors:
+  - "Maximilian P. E. Lock"
+  - "Ivette Fuentes"
+year: 2016
+venue: "New J. Phys. 19, 073005, 2017"
+doi: 10.1088/1367-2630/aa7651
+arxiv: "1607.05444"
+source: https://arxiv.org/abs/1607.05444
+language: en
+subsystems: [G, E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,22 @@
+id: oliveira-2023b
+title: "Robin boundary conditions in acoustic BTZ black holes"
+authors:
+  - "Christyan Costa de Oliveira"
+  - "Ricardo Antonio Mosna"
+  - "João Paulo M. Pitelli"
+year: 2023
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.107.064018
+arxiv: "2303.05612"
+source: https://arxiv.org/abs/2303.05612
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

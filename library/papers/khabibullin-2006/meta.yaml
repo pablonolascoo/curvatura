@@ -1,0 +1,22 @@
+id: khabibullin-2006
+title: "The Casimir effect in a wormhole spacetime"
+authors:
+  - "Artem R Khabibullin"
+  - "Nail Rustamovich Khusnutdinov"
+  - "Sergey V Sushkov"
+year: 2006
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/23/3/006
+arxiv: "hep-th/0510232"
+source: https://arxiv.org/abs/hep-th/0510232
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [ford-roman-1996]
+relevance: media

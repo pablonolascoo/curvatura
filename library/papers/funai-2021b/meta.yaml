@@ -1,0 +1,20 @@
+id: funai-2021b
+title: "Investigations into quantum light-matter interactions, their approximations and applications"
+authors:
+  - "Nicholas Funai"
+year: 2021
+venue: "UWSpace (University of Waterloo)"
+doi: null
+arxiv: null
+source: https://openalex.org/W3135660470
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

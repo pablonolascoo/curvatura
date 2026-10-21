@@ -1,0 +1,22 @@
+id: byju-2023
+title: "Quenched Kitaev chain: Analogous model of gravitational collapse"
+authors:
+  - "Sandra Byju"
+  - "Kinjalk Lochan"
+  - "S. Shankaranarayanan"
+year: 2023
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.107.105020
+arxiv: "1808.07742"
+source: https://arxiv.org/abs/1808.07742
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,21 @@
+id: anderson-2015
+title: "Low frequency gray-body factors and infrared divergences: rigorous results"
+authors:
+  - "Paul R. Anderson"
+  - "Alessandro Fabbri"
+  - "Roberto Balbinot"
+year: 2015
+venue: "Phys. Rev. D 91, 064061 (2015)"
+doi: 10.1103/physrevd.91.064061
+arxiv: "1501.01953"
+source: https://arxiv.org/abs/1501.01953
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

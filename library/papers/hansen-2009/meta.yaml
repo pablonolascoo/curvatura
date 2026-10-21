@@ -1,0 +1,22 @@
+id: hansen-2009
+title: "Dynamics of false vacuum bubbles: beyond the thin shell approximation"
+authors:
+  - "Jakob Hansen"
+  - "Dong-il Hwang"
+  - "Dong-han Yeom"
+year: 2009
+venue: "Journal of High Energy Physics"
+doi: 10.1088/1126-6708/2009/11/016
+arxiv: "0908.0283"
+source: https://arxiv.org/abs/0908.0283
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 35
+cites_seeds: [krasnikov-1998]
+relevance: media

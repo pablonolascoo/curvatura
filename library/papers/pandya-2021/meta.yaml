@@ -1,0 +1,20 @@
+id: pandya-2021
+title: "A numerical exploration of first-order relativistic hydrodynamics"
+authors:
+  - "Alex Pandya"
+  - "Frans Pretorius"
+year: 2021
+venue: "Phys. Rev. D 104, 023015 (2021)"
+doi: 10.1103/physrevd.104.023015
+arxiv: "2104.00804"
+source: https://arxiv.org/abs/2104.00804
+language: en
+subsystems: [G, C, D]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

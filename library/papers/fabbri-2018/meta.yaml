@@ -1,0 +1,21 @@
+id: fabbri-2018
+title: "Momentum correlations as signature of sonic Hawking radiation in Bose-Einstein condensates"
+authors:
+  - "Alessandro Fabbri"
+  - "Nicolas Pavloff"
+year: 2018
+venue: "SciPost Physics"
+doi: 10.21468/scipostphys.4.4.019
+arxiv: "1712.07842"
+source: https://arxiv.org/abs/1712.07842
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 27
+cites_seeds: [barcelo-2011]
+relevance: media

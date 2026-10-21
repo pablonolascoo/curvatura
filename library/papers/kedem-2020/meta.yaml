@@ -1,0 +1,22 @@
+id: kedem-2020
+title: "Black and white holes at material junctions"
+authors:
+  - "Yaron Kedem"
+  - "Emil J. Bergholtz"
+  - "Frank A. Wilczek"
+year: 2020
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.2.043285
+arxiv: "2001.02625"
+source: https://arxiv.org/abs/2001.02625
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 43
+cites_seeds: [barcelo-2011]
+relevance: media

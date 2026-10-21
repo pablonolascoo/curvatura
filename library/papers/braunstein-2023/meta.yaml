@@ -1,0 +1,24 @@
+id: braunstein-2023
+title: "Analogue simulations of quantum gravity with fluids"
+authors:
+  - "Samuel L. Braunstein"
+  - "Mir Faizal"
+  - "Lawrence M. Krauss"
+  - "Francesco Marino"
+  - "Naveed Ahmad Shah"
+year: 2023
+venue: "Nature Reviews Physics"
+doi: 10.1038/s42254-023-00630-y
+arxiv: "2402.16136"
+source: https://arxiv.org/abs/2402.16136
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 67
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,1 @@
+Rotating acoustic metrics may have black holes inside the ergosphere. Simple cases of acoustic black holes were studied in the references [21], [4]. In the present paper we study the Hawking radiation for more complicated cases of acoustic black holes including black holes that have corner points.

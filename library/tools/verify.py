@@ -69,10 +69,26 @@ def arxiv_license(aid: str) -> str | None:
 
 def main() -> int:
     write = "--write" in sys.argv
+    license_only = "--license-only" in sys.argv  # para fichas ya leídas de la API de arXiv
     failures = 0
     for meta in sorted(ROOT.glob("*/meta.yaml")):
         text = meta.read_text()
         aid, title = field(text, "arxiv"), field(text, "title") or ""
+        if license_only:
+            if not aid or field(text, "license") not in (None, "unknown"):
+                continue
+            try:
+                lic = arxiv_license(aid)
+            except Exception as exc:
+                print(f"!  {meta.parent.name:<24} {exc}")
+                failures += 1
+                time.sleep(30)
+                continue
+            print(f"ok {meta.parent.name:<24} licencia {lic}", flush=True)
+            if write:
+                meta.write_text(re.sub(r"^license:.*$", f"license: {lic}", text, flags=re.M))
+            time.sleep(3.5)
+            continue
         if not aid:
             print(f"·  {meta.parent.name:<24} sin arXiv: verificar por DOI a mano")
             continue

@@ -1,0 +1,27 @@
+id: jacquet-2022
+title: "Analogue quantum simulation of the Hawking effect in a polariton superfluid"
+authors:
+  - "Maxime J. Jacquet"
+  - "Malo Joly"
+  - "Ferdinand Claude"
+  - "Luca Giacomelli"
+  - "Quentin C. Glorieux"
+  - "Alberto Bramati"
+  - "Iacopo Carusotto"
+  - "E. Giacobino"
+year: 2022
+venue: "The European Physical Journal D"
+doi: 10.1140/epjd/s10053-022-00477-5
+arxiv: null
+source: https://doi.org/10.1140/epjd/s10053-022-00477-5
+language: en
+subsystems: [G, Q, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: obousy-2009b
+title: "Investigation into Compactified Dimensions: Casimir Energies and Phenomenological Aspects"
+authors:
+  - "Richard Obousy"
+year: 2009
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.0901.3640
+arxiv: "0901.3640"
+source: https://arxiv.org/abs/0901.3640
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [lobo-visser-2004, vandenbroeck-1999]
+relevance: media

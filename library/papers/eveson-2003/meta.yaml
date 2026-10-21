@@ -1,0 +1,21 @@
+id: eveson-2003
+title: "Quantum inequalities in quantum mechanics"
+authors:
+  - "Simon P. Eveson"
+  - "Christopher J. Fewster"
+  - "Rainer Verch"
+year: 2003
+venue: "arXiv:math-ph/0312046"
+doi: null
+arxiv: "math-ph/0312046"
+source: https://arxiv.org/abs/math-ph/0312046
+language: en
+subsystems: [C, D, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

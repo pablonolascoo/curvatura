@@ -1,0 +1,24 @@
+id: muniz-2022
+title: "Scalar Particles around a Rindler–Schwarzschild Wormhole"
+authors:
+  - "Celio Rodrigues Muniz"
+  - "Hugo Roland Christiansen"
+  - "Marcony Silva Cunha"
+  - "J. Furtado"
+  - "V. B. Bezerra"
+year: 2022
+venue: "Universe"
+doi: 10.3390/universe8120616
+arxiv: "2210.07427"
+source: https://arxiv.org/abs/2210.07427
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [ford-roman-1996]
+relevance: media

@@ -1,0 +1,16 @@
+[package]
+name = "curvatura-core"
+version = "0.1.0"
+edition = "2021"
+description = "Núcleo numérico de Curvatura: campos de Alcubierre, energía y geodésicas. Nativo y WebAssembly."
+license-file = "../../LICENSE"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

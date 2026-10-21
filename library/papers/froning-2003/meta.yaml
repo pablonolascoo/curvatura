@@ -1,0 +1,20 @@
+id: froning-2003
+title: "The \"Quantum Interstellar Ramjet\" Revisited"
+authors:
+  - "H Froning"
+year: 2003
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.2003-4883
+arxiv: null
+source: https://doi.org/10.2514/6.2003-4883
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,20 @@
+id: levi-2016
+title: "Versatile method for renormalized stress-energy computation in black-hole spacetimes"
+authors:
+  - "Adam Levi"
+  - "Amos Ori"
+year: 2016
+venue: "Phys. Rev. Lett. 117, 231101 (2016)"
+doi: 10.1103/physrevlett.117.231101
+arxiv: "1608.03806"
+source: https://arxiv.org/abs/1608.03806
+language: en
+subsystems: [G, C, D, Q, P]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

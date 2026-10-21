@@ -1,0 +1,23 @@
+id: celi-2016
+title: "Quantum optics and frontiers of physics: the third quantum revolution"
+authors:
+  - "Alessio Celi"
+  - "Anna Sanpera"
+  - "V. Ahufinger"
+  - "Maciej Lewenstein"
+year: 2016
+venue: "Physica Scripta"
+doi: 10.1088/1402-4896/92/1/013003
+arxiv: "1601.04616"
+source: https://arxiv.org/abs/1601.04616
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 23
+cites_seeds: [barcelo-2011]
+relevance: media

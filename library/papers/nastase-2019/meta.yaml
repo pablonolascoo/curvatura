@@ -1,0 +1,20 @@
+id: nastase-2019
+title: "Causal faster-than-light travel from a localized second time coordinate"
+authors:
+  - "Horaƫiu Năstase"
+year: 2019
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.100.045021
+arxiv: "1812.10350"
+source: https://arxiv.org/abs/1812.10350
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: alta

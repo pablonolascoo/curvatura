@@ -1,0 +1,22 @@
+id: ferreira-2022
+title: "Quantum Brownian motion for a particle in analog expanding cosmologies in the presence of disclination"
+authors:
+  - "E. J. B. Ferreira"
+  - "E. R. Bezerra de Mello"
+  - "Herondy F. Santana Mota"
+year: 2022
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.105.125014
+arxiv: "2203.10590"
+source: https://arxiv.org/abs/2203.10590
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

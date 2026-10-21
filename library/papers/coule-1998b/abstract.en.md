@@ -1,0 +1,1 @@
+The pre-big bang's inflationary mechanism, when allowance is made for the rapid change of Newton's constant, is not actually of pole-law form . We give examples where pole-law inflation, which requires violation of the weak-energy condition, is possible but unlikely due to its very unstable character.

@@ -1,0 +1,25 @@
+id: garciameca-2014b
+title: "Analogue transformation acoustics and the compression of spacetime"
+authors:
+  - "Carlos García‐Meca"
+  - "Sante Carloni"
+  - "Carlos Barceló"
+  - "Gil Jannes"
+  - "José Sánchez‐Dehesa"
+  - "Alejandro Martı́nez"
+year: 2014
+venue: "Photonics and Nanostructures - Fundamentals and Applications"
+doi: 10.1016/j.photonics.2014.05.001
+arxiv: "1407.1630"
+source: https://arxiv.org/abs/1407.1630
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [barcelo-2011]
+relevance: media

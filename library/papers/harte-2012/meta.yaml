@@ -1,0 +1,21 @@
+id: harte-2012
+title: "Caustics and wave propagation in curved spacetimes"
+authors:
+  - "Abraham I. Harte"
+  - "Theodore D. Drivas"
+year: 2012
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.85.124039
+arxiv: "1202.0540"
+source: https://arxiv.org/abs/1202.0540
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 43
+cites_seeds: [barcelo-2011]
+relevance: media

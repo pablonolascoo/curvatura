@@ -1,0 +1,21 @@
+id: murad-1997
+title: "An ansatz on hyper-light travel"
+authors:
+  - "Paul Murad"
+  - "Paul Murad"
+year: 1997
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.1997-3213
+arxiv: null
+source: https://doi.org/10.2514/6.1997-3213
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [alcubierre-1994]
+relevance: media

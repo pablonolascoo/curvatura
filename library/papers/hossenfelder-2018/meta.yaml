@@ -1,0 +1,20 @@
+id: hossenfelder-2018
+title: "Analog Models for Holographic Transport"
+authors:
+  - "Sabine Hossenfelder"
+  - "Tobias Zingg"
+year: 2018
+venue: "Phys. Rev. D 100, 056015 (2019)"
+doi: 10.1103/physrevd.100.056015
+arxiv: "1810.05464"
+source: https://arxiv.org/abs/1810.05464
+language: en
+subsystems: [V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

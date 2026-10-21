@@ -1,0 +1,20 @@
+id: janca-2007
+title: "So you want to stop time"
+authors:
+  - "Andrew J. Janca"
+year: 2007
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.gr-qc/0701084
+arxiv: "gr-qc/0701084"
+source: https://arxiv.org/abs/gr-qc/0701084
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [vandenbroeck-1999]
+relevance: media

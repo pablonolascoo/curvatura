@@ -1,0 +1,20 @@
+id: vollick-1997
+title: "How to produce exotic matter using classical fields"
+authors:
+  - "Dan N. Vollick"
+year: 1997
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.56.4720
+arxiv: null
+source: https://doi.org/10.1103/physrevd.56.4720
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [alcubierre-1994]
+relevance: media

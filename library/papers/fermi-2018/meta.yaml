@@ -1,0 +1,21 @@
+id: fermi-2018
+title: "A time machine for free fall into the past"
+authors:
+  - "Davide Fermi"
+  - "Livio Pizzocchero"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aace6e
+arxiv: "1803.08214"
+source: https://arxiv.org/abs/1803.08214
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [krasnikov-1998]
+relevance: media

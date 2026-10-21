@@ -1,0 +1,25 @@
+id: garciameca-2013b
+title: "Analogue Transformations in Physics and their Application to Acoustics"
+authors:
+  - "Carlos García‐Meca"
+  - "Sante Carloni"
+  - "C. Barceló"
+  - "Gil Jannes"
+  - "José Sánchez‐Dehesa"
+  - "A. Martínez"
+year: 2013
+venue: "Scientific Reports"
+doi: 10.1038/srep02009
+arxiv: "1306.5177"
+source: https://arxiv.org/abs/1306.5177
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 51
+cites_seeds: [barcelo-2011]
+relevance: media

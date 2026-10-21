@@ -1,0 +1,20 @@
+id: culetu-2015
+title: "On a particular Morris–Thorne wormhole"
+authors:
+  - "Hristu Culetu"
+year: 2015
+venue: "Physica Scripta"
+doi: 10.1088/0031-8949/90/8/085001
+arxiv: "1407.3588"
+source: https://arxiv.org/abs/1407.3588
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [ford-roman-1996]
+relevance: media

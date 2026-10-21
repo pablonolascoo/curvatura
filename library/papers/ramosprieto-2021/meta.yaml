@@ -1,0 +1,22 @@
+id: ramosprieto-2021
+title: "Exact solution of a non-stationary cavity with one intermode interaction"
+authors:
+  - "I. Ramos-Prieto"
+  - "R. Román-Ancheyta"
+  - "J. Récamier"
+  - "H. M. Moya-Cessa"
+year: 2021
+venue: "J. Opt. Soc. Am. B 38, 2873-2880 (2021)"
+doi: 10.1364/josab.428112
+arxiv: "2107.00785"
+source: https://arxiv.org/abs/2107.00785
+language: en
+subsystems: [E, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

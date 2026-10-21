@@ -1,0 +1,22 @@
+id: fewster-2007b
+title: "Averaged null energy condition in spacetimes with boundaries"
+authors:
+  - "Christopher J. Fewster"
+  - "Ken D. Olum"
+  - "Michael J. Pfenning"
+year: 2007
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.75.025007
+arxiv: "gr-qc/0609007"
+source: https://arxiv.org/abs/gr-qc/0609007
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 49
+cites_seeds: [pfenning-ford-1997]
+relevance: media

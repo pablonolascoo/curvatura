@@ -1,0 +1,28 @@
+id: sun-2024
+title: "Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds"
+authors:
+  - "Xingzhi Sun"
+  - "Danqi Liao"
+  - "Kincaid MacDonald"
+  - "Yanlei Zhang"
+  - "Chen Liu"
+  - "Guillaume Huguet"
+  - "Guy Wolf"
+  - "Ian Adelstein"
+  - "Tim G. J. Rudner"
+  - "Smita Krishnaswamy"
+year: 2024
+venue: "arXiv:2410.12779"
+doi: null
+arxiv: "2410.12779"
+source: https://arxiv.org/abs/2410.12779
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

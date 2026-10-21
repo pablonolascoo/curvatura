@@ -1,0 +1,21 @@
+id: barcelo-2003
+title: "Probing semiclassical analogue gravity in Bose--Einstein condensates with widely tunable interactions"
+authors:
+  - "Carlos Barcelo"
+  - "Stefano Liberati"
+  - "Matt Visser"
+year: 2003
+venue: "Phys.Rev. A68 (2003) 053613"
+doi: 10.1103/physreva.68.053613
+arxiv: "cond-mat/0307491"
+source: https://arxiv.org/abs/cond-mat/0307491
+language: en
+subsystems: [G, D, Q, M, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

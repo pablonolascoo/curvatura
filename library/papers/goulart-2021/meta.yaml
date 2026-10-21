@@ -1,0 +1,21 @@
+id: goulart-2021
+title: "Space and time ambiguities in vacuum electrodynamics"
+authors:
+  - "Érico Goulart"
+  - "Eduardo Bittencourt"
+year: 2021
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ac08a9
+arxiv: "2010.14936"
+source: https://arxiv.org/abs/2010.14936
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,16 @@
+id: alcubierre-shape
+paper: alcubierre-1994
+subsystem: G
+title: { es: Función de forma, en: Shape function, fr: Fonction de forme }
+expr: "f(r_s) = (tanh(sigma*(r_s + R)) - tanh(sigma*(r_s - R))) / (2*tanh(sigma*R))"
+symbols:
+  r_s: { group: geometry, es: Distancia al centro, en: Distance to the centre, fr: Distance au centre }
+  R: { group: geometry, es: Radio de la burbuja, en: Bubble radius, fr: Rayon de la bulle }
+  sigma: { group: geometry, es: Inverso del grosor de pared, en: Inverse wall thickness, fr: Inverse de l'épaisseur de paroi }
+compute:
+  result: "(tanh(sigma*(r_s + R)) - tanh(sigma*(r_s - R))) / (2*tanh(sigma*R))"
+  unit: ""
+  inputs:
+    r_s: { min: 0, max: 3, default: 1, unit: "" }
+    R: { min: 0.2, max: 2, default: 1, unit: "" }
+    sigma: { min: 0.5, max: 30, default: 8, unit: "", log: true }

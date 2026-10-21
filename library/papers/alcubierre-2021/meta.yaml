@@ -1,0 +1,20 @@
+id: alcubierre-2021
+title: "Warp drive basics"
+authors:
+  - "Miguel Alcubierre"
+  - "Francisco S. N. Lobo"
+year: 2021
+venue: "Fundam.Theor.Phys. 189 (2017) 257-279"
+doi: 10.1007/978-3-319-55182-1
+arxiv: "2103.05610"
+source: https://arxiv.org/abs/2103.05610
+language: en
+subsystems: [G, C, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

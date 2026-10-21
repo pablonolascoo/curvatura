@@ -1,0 +1,19 @@
+id: visser-2008
+title: "Traversable wormholes: Some simple examples"
+authors:
+  - "Matt Visser"
+year: 2008
+venue: "Phys.Rev.D39:3182-3184,1989"
+doi: 10.1103/physrevd.39.3182
+arxiv: "0809.0907"
+source: https://arxiv.org/abs/0809.0907
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

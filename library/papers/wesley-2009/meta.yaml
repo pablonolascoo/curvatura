@@ -1,0 +1,20 @@
+id: wesley-2009
+title: "Oxidised cosmic acceleration"
+authors:
+  - "Daniel Wesley"
+year: 2009
+venue: "Journal of Cosmology and Astroparticle Physics"
+doi: 10.1088/1475-7516/2009/01/041
+arxiv: "0802.3214"
+source: https://arxiv.org/abs/0802.3214
+language: en
+subsystems: [G, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 28
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

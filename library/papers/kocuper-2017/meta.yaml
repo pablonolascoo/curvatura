@@ -1,0 +1,21 @@
+id: kocuper-2017
+title: "Stress-energy tensor of quantized massive fields in static wormhole spacetimes"
+authors:
+  - "Ewa Kocuper"
+  - "Jerzy Matyjasek"
+  - "Kasia Zwierzchowska"
+year: 2017
+venue: "Phys. Rev. D 96, 104057 (2017)"
+doi: 10.1103/physrevd.96.104057
+arxiv: "1709.09034"
+source: https://arxiv.org/abs/1709.09034
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

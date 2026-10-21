@@ -1,0 +1,21 @@
+id: lobo-2002c
+title: "Weak energy condition violation and superluminal travel"
+authors:
+  - "Francisco S. N. Lobo"
+  - "Paulo Crawford"
+year: 2002
+venue: "CERN Document Server (European Organization for Nuclear Research)"
+doi: 10.48550/arxiv.gr-qc/0204038
+arxiv: null
+source: https://doi.org/10.48550/arxiv.gr-qc/0204038
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, everett-roman-1997]
+relevance: alta

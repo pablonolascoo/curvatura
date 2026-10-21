@@ -1,0 +1,20 @@
+id: harte-2019
+title: "Gravitational lensing beyond geometric optics: II. Metric independence"
+authors:
+  - "Abraham I. Harte"
+year: 2019
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-019-2646-7
+arxiv: "1906.10708"
+source: https://arxiv.org/abs/1906.10708
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

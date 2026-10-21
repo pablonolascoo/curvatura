@@ -1,0 +1,22 @@
+id: billam-2018
+title: "Simulating seeded vacuum decay in a cold atom system"
+authors:
+  - "Thomas P. Billam"
+  - "Ruth Gregory"
+  - "Florent Michel"
+  - "Ian G. Moss"
+year: 2018
+venue: "Phys. Rev. D 100, 065016 (2019)"
+doi: 10.1103/physrevd.100.065016
+arxiv: "1811.09169"
+source: https://arxiv.org/abs/1811.09169
+language: en
+subsystems: [V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

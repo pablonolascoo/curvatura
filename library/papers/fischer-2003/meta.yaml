@@ -1,0 +1,21 @@
+id: fischer-2003
+title: "Warped space-time for phonons moving in a perfect nonrelativistic fluid"
+authors:
+  - "U. R Fischer"
+  - "M Visser"
+year: 2003
+venue: "Europhysics Letters (EPL)"
+doi: 10.1209/epl/i2003-00103-6
+arxiv: "gr-qc/0211029"
+source: https://arxiv.org/abs/gr-qc/0211029
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+relevance: media

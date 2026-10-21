@@ -1,0 +1,21 @@
+id: gambini-2014b
+title: "Hawking radiation from a spherical loop quantum gravity black hole"
+authors:
+  - "Rodolfo Gambini"
+  - "Jorge Pullin"
+year: 2014
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/31/11/115003
+arxiv: "1312.3595"
+source: https://arxiv.org/abs/1312.3595
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 31
+cites_seeds: [barcelo-2011]
+relevance: media

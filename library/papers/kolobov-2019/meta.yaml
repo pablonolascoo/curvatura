@@ -1,0 +1,22 @@
+id: kolobov-2019
+title: "Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole"
+authors:
+  - "Victor I. Kolobov"
+  - "Katrine Golubkov"
+  - "Juan Ramón Muñoz de Nova"
+  - "Jeff Steinhauer"
+year: 2019
+venue: "Nature Phys. 17, 362-367 (2021)"
+doi: 10.1038/s41567-020-01076-0
+arxiv: "1910.09363"
+source: https://arxiv.org/abs/1910.09363
+language: en
+subsystems: [M, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

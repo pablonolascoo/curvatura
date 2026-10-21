@@ -1,0 +1,20 @@
+id: frob-2013
+title: "Fully renormalized stress tensor correlator in flat space"
+authors:
+  - "Markus B. Fröb"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.88.045011
+arxiv: "1305.0217"
+source: https://arxiv.org/abs/1305.0217
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: neukart-2025
+title: "Toward the stars: Technological, ethical, and sociopolitical dimensions of interstellar exploration"
+authors:
+  - "Florian Neukart"
+year: 2025
+venue: "Space Policy"
+doi: 10.1016/j.spacepol.2024.101676
+arxiv: null
+source: https://doi.org/10.1016/j.spacepol.2024.101676
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994, lentz-2021]
+relevance: media

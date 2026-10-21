@@ -1,0 +1,22 @@
+id: jr-1998
+title: "Experiments involving specially conditioned EM radiation, gravitation and matter"
+authors:
+  - "H. Froning, Jr."
+  - "Terence William Barrett"
+  - "George Hathaway"
+year: 1998
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.1998-3138
+arxiv: null
+source: https://doi.org/10.2514/6.1998-3138
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [alcubierre-1994]
+relevance: media

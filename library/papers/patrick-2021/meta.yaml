@@ -1,0 +1,20 @@
+id: patrick-2021
+title: "Rotational superradiance with Bogoliubov dispersion"
+authors:
+  - "Sam Patrick"
+year: 2021
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/abf1fc
+arxiv: "2011.04620"
+source: https://arxiv.org/abs/2011.04620
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,19 @@
+id: robertson-2014
+title: "Integral method for the calculation of Hawking radiation in dispersive media II. Asymmetric asymptotics"
+authors:
+  - "Scott Robertson"
+year: 2014
+venue: "arXiv:1403.7215"
+doi: 10.1103/physreve.90.053303
+arxiv: "1403.7215"
+source: https://arxiv.org/abs/1403.7215
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

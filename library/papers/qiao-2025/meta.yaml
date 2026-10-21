@@ -1,0 +1,20 @@
+id: qiao-2025
+title: "Exploring the Alcubierre Warp Drive Ship"
+authors:
+  - "Bi Qiao"
+year: 2025
+venue: "Journal of Modern Physics"
+doi: 10.4236/jmp.2025.164025
+arxiv: null
+source: https://doi.org/10.4236/jmp.2025.164025
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, lentz-2021, natario-2002, pfenning-ford-1997]
+relevance: alta

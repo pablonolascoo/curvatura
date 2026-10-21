@@ -1,0 +1,22 @@
+id: bittencourt-2018
+title: "On the effective acoustic geometry for relativistic viscous fluids"
+authors:
+  - "E. Bittencourt"
+  - "V. A. De Lorenci"
+  - "R. Klippert"
+  - "L. S. Ruiz"
+year: 2018
+venue: "Phys. Rev. D 98, 064042 (2018)"
+doi: 10.1103/physrevd.98.064042
+arxiv: "1807.05052"
+source: https://arxiv.org/abs/1807.05052
+language: en
+subsystems: [G, V]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,22 @@
+id: sanz-2017
+title: "Electro-mechanical Casimir effect"
+authors:
+  - "Mikel Sanz"
+  - "Witlef Wieczorek"
+  - "Simon Gröblacher"
+  - "Enrique Solano"
+year: 2017
+venue: "Quantum 2, 91 (2018)"
+doi: 10.22331/q-2018-09-03-91
+arxiv: "1712.08060"
+source: https://arxiv.org/abs/1712.08060
+language: en
+subsystems: [E, D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

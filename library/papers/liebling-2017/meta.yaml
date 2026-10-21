@@ -1,0 +1,21 @@
+id: liebling-2017
+title: "Dynamical boson stars"
+authors:
+  - "Steven L. Liebling"
+  - "Carlos Palenzuela"
+year: 2017
+venue: "Living Reviews in Relativity"
+doi: 10.1007/s41114-017-0007-y
+arxiv: null
+source: https://doi.org/10.1007/s41114-017-0007-y
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 330
+cites_seeds: [barcelo-2011]
+relevance: media

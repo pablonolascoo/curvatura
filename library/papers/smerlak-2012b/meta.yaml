@@ -1,0 +1,20 @@
+id: smerlak-2012b
+title: "Diffusion in curved spacetimes"
+authors:
+  - "Matteo Smerlak"
+year: 2012
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/14/2/023019
+arxiv: "1104.3303"
+source: https://arxiv.org/abs/1104.3303
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 26
+cites_seeds: [barcelo-2011]
+relevance: media

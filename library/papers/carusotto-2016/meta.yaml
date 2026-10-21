@@ -1,0 +1,21 @@
+id: carusotto-2016
+title: "Acoustic Hawking radiation"
+authors:
+  - "Iacopo Carusotto"
+  - "Roberto Balbinot"
+year: 2016
+venue: "Nature Physics"
+doi: 10.1038/nphys3872
+arxiv: null
+source: https://doi.org/10.1038/nphys3872
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

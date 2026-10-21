@@ -1,0 +1,1 @@
+We study the sound perturbation of a rotating acoustic black hole in the presence of a disclination. The radial part of the massless Klein-Gordon equation is written into a Heun form, and its analytical solution is obtained. These solutions have an explicit dependence on the parameter of the disclination. We obtain the exact Hawking-Unruh radiation spectrum.

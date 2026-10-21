@@ -1,0 +1,20 @@
+id: davies-2002
+title: "Detection of negative energy: 4-dimensional examples"
+authors:
+  - "P. C. W. Davies"
+  - "Adrian C. Ottewill"
+year: 2002
+venue: "Phys.Rev. D65 (2002) 104014"
+doi: 10.1103/physrevd.65.104014
+arxiv: "gr-qc/0203003"
+source: https://arxiv.org/abs/gr-qc/0203003
+language: en
+subsystems: [C, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: vallone-2019
+title: "Higgs and Goldstone Modes in Crystalline Solids"
+authors:
+  - "Marco Vallone"
+year: 2019
+venue: "physica status solidi (b)"
+doi: 10.1002/pssb.201900443
+arxiv: "1908.00918"
+source: https://arxiv.org/abs/1908.00918
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [barcelo-2011]
+relevance: media

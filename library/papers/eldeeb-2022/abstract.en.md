@@ -1,0 +1,1 @@
+We prove new Hardy-type $α$-conformable dynamic inequalities on time scales. Our results are proved by using Keller's chain rule, the integration by parts formula, and the dynamic Hölder inequality on time scales. When $α=1$, then we obtain some well-known time-scale inequalities due to Hardy. As special cases, we obtain new continuous, discrete, and quantum inequalities.

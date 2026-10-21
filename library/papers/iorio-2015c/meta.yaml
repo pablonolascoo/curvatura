@@ -1,0 +1,20 @@
+id: iorio-2015c
+title: "Graphene and Black Holes: Novel Materials to Reach the Unreachable"
+authors:
+  - "Alfredo Iorio"
+year: 2015
+venue: "Frontiers in Materials"
+doi: 10.3389/fmats.2014.00036
+arxiv: "1412.5160"
+source: https://arxiv.org/abs/1412.5160
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

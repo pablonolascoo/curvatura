@@ -1,0 +1,19 @@
+id: klein-2005
+title: "On explicit solutions to the stationary axisymmetric Einstein-Maxwell equations describing dust disks"
+authors:
+  - "C. Klein"
+year: 2005
+venue: "Annalen Phys. 12 (2003) 599"
+doi: 10.1002/andp.200310029
+arxiv: "gr-qc/0512134"
+source: https://arxiv.org/abs/gr-qc/0512134
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

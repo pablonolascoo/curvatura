@@ -1,0 +1,21 @@
+id: bostelmann-2023
+title: "Quantum energy inequalities in integrable models with several particle species and bound states"
+authors:
+  - "Henning Bostelmann"
+  - "Daniela Cadamuro"
+  - "Jan Mandrysch"
+year: 2023
+venue: "Ann. Henri Poincaré (2024)"
+doi: 10.1007/s00023-023-01409-8
+arxiv: "2302.00063"
+source: https://arxiv.org/abs/2302.00063
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,19 @@
+id: terno-2019
+title: "Self-consistent description of a spherically-symmetric gravitational collapse"
+authors:
+  - "Daniel Terno"
+year: 2019
+venue: "Phys. Rev. D 100, 124025 (2019)"
+doi: 10.1103/physrevd.100.124025
+arxiv: "1903.04744"
+source: https://arxiv.org/abs/1903.04744
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

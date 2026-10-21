@@ -1,0 +1,29 @@
+id: schmidt-2024
+title: "Cosmological particle production in a quantum field simulator as a quantum mechanical scattering problem"
+authors:
+  - "Christian F. Schmidt"
+  - "Álvaro Parra-López"
+  - "Mireia Tolosa-Simeón"
+  - "Marius Sparn"
+  - "Elinor Kath"
+  - "Nikolas Liebster"
+  - "Jelte Duchene"
+  - "Helmut Strobel"
+  - "Markus K. Oberthaler"
+  - "Stefan Floerchinger"
+year: 2024
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.110.123523
+arxiv: "2406.08094"
+source: https://arxiv.org/abs/2406.08094
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+relevance: media

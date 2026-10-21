@@ -1,0 +1,21 @@
+id: chen-2021
+title: "Simulating superluminal propagation of Dirac particles using trapped ions"
+authors:
+  - "Qianqian Chen"
+  - "Yaoming Chu"
+  - "Jianming Cai"
+year: 2021
+venue: "Phys. Rev. A 105 (2022) 042609"
+doi: 10.1103/physreva.105.042609
+arxiv: "2110.01155"
+source: https://arxiv.org/abs/2110.01155
+language: en
+subsystems: [G, C, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

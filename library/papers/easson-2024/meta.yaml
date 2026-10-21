@@ -1,0 +1,20 @@
+id: easson-2024
+title: "Eternal Universes"
+authors:
+  - "Damien A. Easson"
+  - "Joseph E. Lesnefsky"
+year: 2024
+venue: "arXiv:2404.03016"
+doi: 10.1103/5mhz-m8bg
+arxiv: "2404.03016"
+source: https://arxiv.org/abs/2404.03016
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

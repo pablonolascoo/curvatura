@@ -1,0 +1,22 @@
+id: coutant-2016
+title: "Dynamical instabilities and quasi-normal modes, a spectral analysis with applications to black-hole physics"
+authors:
+  - "Antonin Coutant"
+  - "Florent Michel"
+  - "Renaud Parentani"
+year: 2016
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/33/12/125032
+arxiv: "1601.00868"
+source: https://arxiv.org/abs/1601.00868
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

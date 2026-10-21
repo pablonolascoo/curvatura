@@ -1,0 +1,22 @@
+id: gauthier-2002
+title: "NEW LOWER BOUNDS FOR WARP DRIVE ENERGY"
+authors:
+  - "C. GAUTHIER"
+  - "P. GRAVEL"
+  - "J. Melanson"
+year: 2002
+venue: "International Journal of Modern Physics A"
+doi: 10.1142/s0217751x02011886
+arxiv: null
+source: https://doi.org/10.1142/s0217751x02011886
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [vandenbroeck-1999]
+relevance: alta

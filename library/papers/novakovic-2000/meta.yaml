@@ -1,0 +1,20 @@
+id: novakovic-2000
+title: "A new General Lorentz Transformation model"
+authors:
+  - "Branko  M. Novakovic"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1291281
+arxiv: null
+source: https://doi.org/10.1063/1.1291281
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

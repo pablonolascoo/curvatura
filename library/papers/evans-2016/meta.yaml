@@ -1,0 +1,22 @@
+id: evans-2016
+title: "Ψ-epistemic quantum cosmology?"
+authors:
+  - "Peter W. Evans"
+  - "Sean Gryb A B"
+  - "Karim P. Y. Thébault"
+year: 2016
+venue: "Studies in History and Philosophy of Science Part B Studies in History and Philosophy of Modern Physics"
+doi: 10.1016/j.shpsb.2016.10.005
+arxiv: "1606.07265"
+source: https://arxiv.org/abs/1606.07265
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

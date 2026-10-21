@@ -1,0 +1,20 @@
+id: millis-1997b
+title: "Breakthrough propulsion physics research program"
+authors:
+  - "Marc G. Millis"
+year: 1997
+venue: "Space technology and applications international forum (STAIF - 97)"
+doi: 10.1063/1.51939
+arxiv: null
+source: https://doi.org/10.1063/1.51939
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [alcubierre-1994]
+relevance: media

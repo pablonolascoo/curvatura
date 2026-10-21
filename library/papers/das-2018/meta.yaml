@@ -1,0 +1,22 @@
+id: das-2018
+title: "Dynamics of flexural gravity waves: from sea ice to Hawking radiation and analogue gravity"
+authors:
+  - "Santu Das"
+  - "T. Sahoo"
+  - "Michael H. Meylan"
+year: 2018
+venue: "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences"
+doi: 10.1098/rspa.2017.0223
+arxiv: null
+source: https://doi.org/10.1098/rspa.2017.0223
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 86
+cites_seeds: [barcelo-2011]
+relevance: media

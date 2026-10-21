@@ -1,0 +1,23 @@
+id: bittencourt-2016
+title: "The flexibility of optical metrics"
+authors:
+  - "Eduardo Bittencourt"
+  - "Jonas P. Pereira"
+  - "Igor I. Smolyaninov"
+  - "Vera N. Smolyaninova"
+year: 2016
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/33/16/165008
+arxiv: "1510.02384"
+source: https://arxiv.org/abs/1510.02384
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

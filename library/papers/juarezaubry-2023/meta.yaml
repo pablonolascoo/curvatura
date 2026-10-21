@@ -1,0 +1,23 @@
+id: juarezaubry-2023
+title: "On the initial value problem for semiclassical gravity without and with quantum state collapses"
+authors:
+  - "Benito A. Juárez-Aubry"
+  - "Bernard S. Kay"
+  - "Tonatiuh Miramontes"
+  - "Daniel Sudarsky"
+year: 2023
+venue: "Journal of Cosmology and Astroparticle Physics"
+doi: 10.1088/1475-7516/2023/01/040
+arxiv: "2205.11671"
+source: https://arxiv.org/abs/2205.11671
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [finazzi-2009]
+relevance: media

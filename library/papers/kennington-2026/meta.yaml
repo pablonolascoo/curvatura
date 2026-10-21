@@ -1,0 +1,20 @@
+id: kennington-2026
+title: "Fisher Information Velocity: A New Geometric Channel for Precision Glitch Identification in Gravitational-Wave Detectors"
+authors:
+  - "James Kennington"
+  - "Zach Yarbrough"
+year: 2026
+venue: "PRD 2026"
+doi: 10.1103/9mr6-7vts
+arxiv: "2605.21531"
+source: https://arxiv.org/abs/2605.21531
+language: en
+subsystems: [D, V]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,25 @@
+id: anacleto-2022b
+title: "LIV effects on the quantum stochastic motion in an acoustic FRW-geometry"
+authors:
+  - "M. A. Anacleto"
+  - "C. H. G. Béssa"
+  - "F. A. Brito"
+  - "A. E. Mateus"
+  - "Eduardo Passos"
+  - "J. R. L. Santos"
+year: 2022
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-022-10303-2
+arxiv: "2106.09684"
+source: https://arxiv.org/abs/2106.09684
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

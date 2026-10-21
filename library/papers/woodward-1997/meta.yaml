@@ -1,0 +1,20 @@
+id: woodward-1997
+title: "Twists of fate: Can we make traversable wormholes in spacetime?"
+authors:
+  - "James F. Woodward"
+year: 1997
+venue: "Foundations of Physics Letters"
+doi: 10.1007/bf02764237
+arxiv: null
+source: https://doi.org/10.1007/bf02764237
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [ford-roman-1996]
+relevance: media

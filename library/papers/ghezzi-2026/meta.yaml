@@ -1,0 +1,20 @@
+id: ghezzi-2026
+title: "Thermal Hawking spectrum from quantum many-body simulations of Reissner–Nordström black holes"
+authors:
+  - "Cristian R. Ghezzi"
+year: 2026
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ae6f67
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/ae6f67
+language: en
+subsystems: [G, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

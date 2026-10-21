@@ -1,0 +1,21 @@
+id: schuster-2022
+title: "ADM mass in warp drive spacetimes"
+authors:
+  - "Sebastian Schuster"
+  - "Jessica Santiago"
+  - "Matt Visser"
+year: 2022
+venue: "arXiv:2205.15950"
+doi: 10.1007/s10714-022-03061-9
+arxiv: "2205.15950"
+source: https://arxiv.org/abs/2205.15950
+language: en
+subsystems: [G, C, P]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

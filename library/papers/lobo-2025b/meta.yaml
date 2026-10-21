@@ -1,0 +1,20 @@
+id: lobo-2025b
+title: "Sculpting Spacetime: Thin Shells in Wormhole Physics"
+authors:
+  - "Francisco S. N. Lobo"
+year: 2025
+venue: "Universe"
+doi: 10.3390/universe11080270
+arxiv: "2508.17823"
+source: https://arxiv.org/abs/2508.17823
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

@@ -1,0 +1,20 @@
+id: gordon-2002
+title: "Cosmological Perturbations Through a General Relativistic Bounce"
+authors:
+  - "Christopher Gordon"
+  - "Neil Turok"
+year: 2002
+venue: "Phys.Rev. D67 (2003) 123508"
+doi: 10.1103/physrevd.67.123508
+arxiv: "hep-th/0206138"
+source: https://arxiv.org/abs/hep-th/0206138
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

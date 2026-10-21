@@ -1,0 +1,14 @@
+id: alcubierre-energy-density
+paper: alcubierre-1994
+subsystem: C
+title: { es: Densidad de energía euleriana, en: Eulerian energy density, fr: Densité d'énergie eulérienne }
+expr: "rho_E = -(v_s^2 * rho^2) / (32*pi*r_s^2) * diff(f(r_s), r_s)^2"
+symbols:
+  rho_E: { group: energy, es: Densidad de energía medida por el observador euleriano, en: Energy density measured by the Eulerian observer, fr: Densité d'énergie mesurée par l'observateur eulérien }
+  v_s: { group: velocity, es: Velocidad de la burbuja, en: Bubble velocity, fr: Vitesse de la bulle }
+  rho: { group: geometry, es: Distancia al eje de movimiento, en: Distance to the axis of motion, fr: Distance à l'axe du mouvement }
+  r_s: { group: geometry, es: Distancia al centro, en: Distance to the centre, fr: Distance au centre }
+note:
+  es: Es negativa en toda la pared. Ninguna materia ordinaria tiene esa propiedad.
+  en: It is negative across the whole wall. No ordinary matter has that property.
+  fr: Elle est négative dans toute la paroi. Aucune matière ordinaire n'a cette propriété.

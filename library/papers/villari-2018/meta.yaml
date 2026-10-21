@@ -1,0 +1,23 @@
+id: villari-2018
+title: "Sine-Gordon soliton as a model for Hawking radiation of moving black holes and quantum soliton evaporation"
+authors:
+  - "Leone Di Mauro Villari"
+  - "Giulia Marcucci"
+  - "Maria Chiara Braidotti"
+  - "Claudio Conti"
+year: 2018
+venue: "Journal of Physics Communications"
+doi: 10.1088/2399-6528/aac340
+arxiv: "1703.02891"
+source: https://arxiv.org/abs/1703.02891
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [barcelo-2011]
+relevance: media

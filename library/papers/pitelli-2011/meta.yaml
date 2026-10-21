@@ -1,0 +1,20 @@
+id: pitelli-2011
+title: "Modeling the quantum evolution of the universe through classical matter"
+authors:
+  - "J. P. M. Pitelli"
+  - "P. S. Letelier"
+year: 2011
+venue: "General Relativity and Gravitation, 2013"
+doi: 10.1007/s10714-013-1531-z
+arxiv: "1107.5802"
+source: https://arxiv.org/abs/1107.5802
+language: en
+subsystems: [C, E, Q]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: garattini-2023
+title: "Black Holes and Warp Drive"
+authors:
+  - "Remo Garattini"
+  - "Kirill Zatrimaylov"
+year: 2023
+venue: "arXiv:2311.06757"
+doi: null
+arxiv: "2311.06757"
+source: https://arxiv.org/abs/2311.06757
+language: en
+subsystems: [G, C, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

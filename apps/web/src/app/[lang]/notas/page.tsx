@@ -15,9 +15,9 @@ export default async function Notes({ params }: PageProps<"/[lang]/notas">) {
   const t = getDictionary(lang);
   const notes = getNotes(lang);
   return (
-    <div className="mx-auto grid max-w-[1100px] gap-16 px-4 pb-24 pt-36 md:px-8 md:pt-44">
+    <div className="mx-auto grid max-w-5xl gap-16 px-4 pb-24 pt-32 md:px-8 md:pt-40">
       <header className="grid gap-5">
-        <h1 className="text-[clamp(2.6rem,6vw,5.5rem)] font-medium leading-[0.95] tracking-[-0.045em]">{t.notes.title}</h1>
+        <h1 className="font-serif text-[clamp(2.6rem,6vw,4.8rem)] leading-[1.02] tracking-[-0.03em]">{t.notes.title}</h1>
         <p className="max-w-[52ch] text-lg text-muted">{t.notes.body}</p>
       </header>
       {notes.length === 0 ? (
@@ -29,7 +29,7 @@ export default async function Notes({ params }: PageProps<"/[lang]/notas">) {
               <Link href={`/${lang}/notas/${n.slug}/`} className="group grid gap-3 border-t border-line py-10 md:grid-cols-12 md:gap-8">
                 <time dateTime={n.date} className="font-mono text-sm text-muted md:col-span-3">{formatDate(n.date, lang)}</time>
                 <span className="grid gap-3 md:col-span-9">
-                  <span className="text-2xl font-medium tracking-[-0.03em] text-fg transition-colors duration-300 group-hover:text-accent md:text-3xl">{n.title}</span>
+                  <span className="font-serif text-2xl tracking-[-0.02em] text-fg md:text-3xl">{n.title}</span>
                   <span className="max-w-[60ch] text-muted">{n.summary}</span>
                 </span>
               </Link>

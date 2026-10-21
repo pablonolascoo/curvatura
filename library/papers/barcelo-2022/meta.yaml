@@ -1,0 +1,23 @@
+id: barcelo-2022
+title: "Warp Drive Aerodynamics"
+authors:
+  - "Carlos Barceló"
+  - "Valentin Boyanov"
+  - "Luis J. Garay"
+  - "Eduardo Martín-Martínez"
+  - "Jose M. Sánchez Velázquez"
+year: 2022
+venue: "arXiv:2207.06458"
+doi: 10.1007/jhep08(2022)288
+arxiv: "2207.06458"
+source: https://arxiv.org/abs/2207.06458
+language: en
+subsystems: [G, C, D, Q, M]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

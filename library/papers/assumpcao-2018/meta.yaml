@@ -1,0 +1,24 @@
+id: assumpcao-2018
+title: "Black hole binaries: Ergoregions, photon surfaces, wave scattering, and quasinormal modes"
+authors:
+  - "Thiago Assumpção"
+  - "Vítor Cardoso"
+  - "Akihiro Ishibashi"
+  - "Maurício Richartz"
+  - "Miguel Zilhão"
+year: 2018
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.98.064036
+arxiv: "1806.07909"
+source: https://arxiv.org/abs/1806.07909
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 30
+cites_seeds: [barcelo-2011]
+relevance: media

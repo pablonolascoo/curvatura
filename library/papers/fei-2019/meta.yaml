@@ -1,0 +1,20 @@
+id: fei-2019
+title: "Group-theoretical approach to the calculation of quantum work distribution"
+authors:
+  - "Zhaoyu Fei"
+  - "H. T. Quan"
+year: 2019
+venue: "Phys. Rev. Research 1, 033175 (2019)"
+doi: 10.1103/physrevresearch.1.033175
+arxiv: "1909.10350"
+source: https://arxiv.org/abs/1909.10350
+language: en
+subsystems: [E, D]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

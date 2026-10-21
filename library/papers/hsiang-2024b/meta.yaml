@@ -1,0 +1,22 @@
+id: hsiang-2024b
+title: "Graviton Physics: A Concise Tutorial on the Quantum Field Theory of Gravitons, Graviton Noise, and Gravitational Decoherence"
+authors:
+  - "Jen-Tsung Hsiang"
+  - "Hing-Tong Cho"
+  - "B. L. Hu"
+year: 2024
+venue: "Universe"
+doi: 10.3390/universe10080306
+arxiv: "2405.11790"
+source: https://arxiv.org/abs/2405.11790
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [barcelo-2011]
+relevance: media

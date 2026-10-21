@@ -1,0 +1,1 @@
+A class of time dependent solutions to $(3+1)$ Einstein--Maxwell-dilaton theory with attractive electric force is found from Einstein--Weyl structures in (2+1) dimensions corresponding to dispersionless Kadomtsev--Petviashvili and $SU(\infty)$ Toda equations. These solutions are obtained from time--like Kaluza--Klein reductions of $(3+2)$ solitons.

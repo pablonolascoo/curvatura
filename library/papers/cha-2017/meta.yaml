@@ -1,0 +1,21 @@
+id: cha-2017
+title: "Probing the Scale Invariance of the Inflationary Power Spectrum in Expanding Quasi-Two-Dimensional Dipolar Condensates"
+authors:
+  - "Seok-Yeong Chä"
+  - "Uwe R. Fischer"
+year: 2017
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.118.130404
+arxiv: "1609.06155"
+source: https://arxiv.org/abs/1609.06155
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 67
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,19 @@
+id: garattini-2019
+title: "Casimir Wormholes"
+authors:
+  - "Remo Garattini"
+year: 2019
+venue: "arXiv:1907.03623"
+doi: 10.1140/epjc/s10052-019-7468-y
+arxiv: "1907.03623"
+source: https://arxiv.org/abs/1907.03623
+language: en
+subsystems: [C, E]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: levy-2019
+title: "A quasiprobability distribution for heat fluctuations in the quantum regime"
+authors:
+  - "Amikam Levy"
+  - "Matteo Lostaglio"
+year: 2019
+venue: "PRX Quantum 1, 010309 (2020)"
+doi: 10.1103/prxquantum.1.010309
+arxiv: "1909.11116"
+source: https://arxiv.org/abs/1909.11116
+language: en
+subsystems: [C, Q]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

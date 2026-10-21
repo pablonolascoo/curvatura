@@ -1,0 +1,23 @@
+id: ikeda-2019
+title: "Cosmology of Lorentz fiber-bundle induced scalar-tensor theories"
+authors:
+  - "Satoshi Ikeda"
+  - "Emmanuel N. Saridakis"
+  - "Panayiotis C. Stavrinos"
+  - "Alkiviadis Triantafyllopoulos"
+year: 2019
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.100.124035
+arxiv: "1907.10950"
+source: https://arxiv.org/abs/1907.10950
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 44
+cites_seeds: [barcelo-2011]
+relevance: media

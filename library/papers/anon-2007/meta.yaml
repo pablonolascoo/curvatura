@@ -1,0 +1,20 @@
+id: anon-2007
+title: "Traversable wormholes: Minimum violation of the null energy condition revisited"
+authors:
+  - "О. Б. Заславский"
+year: 2007
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.76.044017
+arxiv: "0707.1487"
+source: https://arxiv.org/abs/0707.1487
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 38
+cites_seeds: [ford-roman-1996]
+relevance: media

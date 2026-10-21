@@ -1,0 +1,24 @@
+id: richarte-2017
+title: "Relativistic Bose-Einstein condensates thin-shell wormholes"
+authors:
+  - "Martín G. Richarte"
+  - "Ines Godonou Salako"
+  - "J. P. Morais Graça"
+  - "Hooman Moradpour"
+  - "Ali Övgün"
+year: 2017
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.96.084022
+arxiv: "1710.05886"
+source: https://arxiv.org/abs/1710.05886
+language: en
+subsystems: [G, S]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 59
+cites_seeds: [lobo-visser-2004]
+relevance: media

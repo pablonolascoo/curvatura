@@ -1,0 +1,20 @@
+id: fernandes-2023
+title: "Rotating black holes in semiclassical gravity"
+authors:
+  - "Pedro G. S. Fernandes"
+year: 2023
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.108.l061502
+arxiv: "2305.10382"
+source: https://arxiv.org/abs/2305.10382
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [santiago-2022]
+relevance: media

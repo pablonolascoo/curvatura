@@ -1,0 +1,22 @@
+id: kunz-2017
+title: "Einstein-Maxwell-Chern-Simons Black Holes"
+authors:
+  - "Jutta Kunz"
+  - "Jose Luis Blázquez-Salcedo"
+  - "Francisco Navarro-Lérida"
+  - "Eugen Radu"
+year: 2017
+venue: "Journal of Physics: Conference Series 942, 012003 (2017)"
+doi: 10.1088/1742-6596/942/1/012003
+arxiv: "1709.09552"
+source: https://arxiv.org/abs/1709.09552
+language: en
+subsystems: [G, E]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,19 @@
+id: fleming-2001
+title: "Uses of a Quantum Master Inequality"
+authors:
+  - "Gordon N. Fleming"
+year: 2001
+venue: "arXiv:physics/0106077"
+doi: null
+arxiv: "physics/0106077"
+source: https://arxiv.org/abs/physics/0106077
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

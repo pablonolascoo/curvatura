@@ -1,0 +1,21 @@
+id: teo-2002
+title: "Quantum interest in two dimensions"
+authors:
+  - "Edward Teo"
+  - "K. F. Wong"
+year: 2002
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.66.064007
+arxiv: "gr-qc/0206066"
+source: https://arxiv.org/abs/gr-qc/0206066
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [alcubierre-1994]
+relevance: media

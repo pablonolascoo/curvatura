@@ -1,0 +1,20 @@
+id: senovilla-2022
+title: "The influence of Penrose’s singularity theorem in general relativity"
+authors:
+  - "José M. M. Senovilla"
+year: 2022
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-022-03038-8
+arxiv: "2206.13925"
+source: https://arxiv.org/abs/2206.13925
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+relevance: media

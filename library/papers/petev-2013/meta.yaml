@@ -1,0 +1,27 @@
+id: petev-2013
+title: "Blackbody Emission from Light Interacting with an Effective Moving Dispersive Medium"
+authors:
+  - "M. Petev"
+  - "Niclas Westerberg"
+  - "David Moss"
+  - "E. Rubino"
+  - "Cristina Rimoldi"
+  - "Sergio L. Cacciatori"
+  - "F. Belgiorno"
+  - "Daniele Faccio"
+year: 2013
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.111.043902
+arxiv: "1303.5967"
+source: https://arxiv.org/abs/1303.5967
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 42
+cites_seeds: [barcelo-2011]
+relevance: media

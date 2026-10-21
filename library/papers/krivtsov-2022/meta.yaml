@@ -1,0 +1,20 @@
+id: krivtsov-2022
+title: "Dynamics of matter and energy"
+authors:
+  - "Anton M. Krivtsov"
+year: 2022
+venue: "ZAMM ‐ Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik"
+doi: 10.1002/zamm.202100496
+arxiv: null
+source: https://doi.org/10.1002/zamm.202100496
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [alcubierre-1994, finazzi-2009]
+relevance: media

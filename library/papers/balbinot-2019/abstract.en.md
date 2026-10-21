@@ -1,0 +1,1 @@
+Phonon creation inside the horizons of acoustic black holes is investigated using two simple toy models. It is shown that, unlike what occurs in the exterior regions, the spectrum is not thermal. This non-thermality is due to the anomalous scattering that occurs in the interior regions.

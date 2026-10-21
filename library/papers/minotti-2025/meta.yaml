@@ -1,0 +1,21 @@
+id: minotti-2025
+title: "A new theory of tensor-scalar gravity coupled to Aharonov—Bohm electrodynamics"
+authors:
+  - "Fernando O. Minotti"
+  - "Giovanni Modanese"
+year: 2025
+venue: "Modern Physics Letters A"
+doi: 10.1142/s0217732325500233
+arxiv: "2408.05230"
+source: https://arxiv.org/abs/2408.05230
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

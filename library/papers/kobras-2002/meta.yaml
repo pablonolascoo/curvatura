@@ -1,0 +1,22 @@
+id: kobras-2002
+title: "General relativistic image-based rendering"
+authors:
+  - "Daniel Kobras"
+  - "Daniel Weiskopf"
+  - "H. Ruder"
+year: 2002
+venue: "The Visual Computer"
+doi: 10.1007/s003710100145
+arxiv: null
+source: https://doi.org/10.1007/s003710100145
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [alcubierre-1994]
+relevance: media

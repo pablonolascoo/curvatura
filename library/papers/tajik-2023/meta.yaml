@@ -1,0 +1,32 @@
+id: tajik-2023
+title: "Experimental observation of curved light-cones in a quantum field simulator"
+authors:
+  - "Mohammadamin Tajik"
+  - "Marek Gluza"
+  - "Nicolas Sebe"
+  - "Philipp Schüttelkopf"
+  - "Federica Cataldini"
+  - "João Sabino"
+  - "Frederik Møller"
+  - "Si-Cong Ji"
+  - "Sebastian Erne"
+  - "Giacomo Guarnieri"
+  - "Spyros Sotiriadis"
+  - "Jens Eisert"
+  - "Jörg Schmiedmayer"
+year: 2023
+venue: "Proceedings of the National Academy of Sciences"
+doi: 10.1073/pnas.2301287120
+arxiv: null
+source: https://doi.org/10.1073/pnas.2301287120
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 35
+cites_seeds: [barcelo-2011]
+relevance: media

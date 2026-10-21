@@ -1,0 +1,20 @@
+id: rham-2019
+title: "The Speed of Gravity"
+authors:
+  - "Claudia de Rham"
+  - "Andrew J. Tolley"
+year: 2019
+venue: "Phys. Rev. D 101, 063518 (2020)"
+doi: 10.1103/physrevd.101.063518
+arxiv: "1909.00881"
+source: https://arxiv.org/abs/1909.00881
+language: en
+subsystems: [G, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

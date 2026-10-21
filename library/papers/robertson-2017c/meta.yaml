@@ -1,0 +1,22 @@
+id: robertson-2017c
+title: "Controlling and observing nonseparability of phonons created in time-dependent 1D atomic Bose condensates"
+authors:
+  - "Scott Robertson"
+  - "Florent Michel"
+  - "Renaud Parentani"
+year: 2017
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.95.065020
+arxiv: "1611.03904"
+source: https://arxiv.org/abs/1611.03904
+language: en
+subsystems: [G, D]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 27
+cites_seeds: [barcelo-2011]
+relevance: media

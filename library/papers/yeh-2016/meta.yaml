@@ -1,0 +1,21 @@
+id: yeh-2016
+title: "Subvacuum effects in quantum critical theories from a holographic approach"
+authors:
+  - "Chen-Pin Yeh"
+  - "Da-Shin Lee"
+year: 2016
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.93.126006
+arxiv: "1510.05778"
+source: https://arxiv.org/abs/1510.05778
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

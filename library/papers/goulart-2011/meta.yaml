@@ -1,0 +1,23 @@
+id: goulart-2011
+title: "Hidden geometries in nonlinear theories: a novel aspect of analogue gravity"
+authors:
+  - "E Goulart"
+  - "M Novello"
+  - "F. T. Falciano"
+  - "Júnior D. Toniato"
+year: 2011
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/28/24/245008
+arxiv: "1108.6067"
+source: https://arxiv.org/abs/1108.6067
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [barcelo-2011]
+relevance: media

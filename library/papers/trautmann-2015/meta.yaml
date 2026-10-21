@@ -1,0 +1,20 @@
+id: trautmann-2015
+title: "Quantum simulation of the dynamical Casimir effect with trapped ions"
+authors:
+  - "Nils Trautmann"
+  - "Philipp Hauke"
+year: 2015
+venue: "arXiv:1512.00990"
+doi: 10.1088/1367-2630/18/4/043029
+arxiv: "1512.00990"
+source: https://arxiv.org/abs/1512.00990
+language: en
+subsystems: [E, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

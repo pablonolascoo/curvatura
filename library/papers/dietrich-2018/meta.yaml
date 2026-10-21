@@ -1,0 +1,21 @@
+id: dietrich-2018
+title: "Full 3D Numerical Relativity Simulations of Neutron Star -- Boson Star Collisions with BAM"
+authors:
+  - "Tim Dietrich"
+  - "Serguei Ossokine"
+  - "Katy Clough"
+year: 2018
+venue: "arXiv:1807.06959"
+doi: 10.1088/1361-6382/aaf43e
+arxiv: "1807.06959"
+source: https://arxiv.org/abs/1807.06959
+language: en
+subsystems: [D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,20 @@
+id: balbinot-2021
+title: "Quantum correlations across the horizon in acoustic and gravitational Black Holes"
+authors:
+  - "Roberto Balbinot"
+  - "Alessandro Fabbri"
+year: 2021
+venue: "Phys. Rev. D105, 045010 (2022)"
+doi: 10.1103/physrevd.105.045010
+arxiv: "2107.00702"
+source: https://arxiv.org/abs/2107.00702
+language: en
+subsystems: [Q, M, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

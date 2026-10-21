@@ -1,0 +1,20 @@
+id: almasri-2020
+title: "Restoring classical energy conditions at quantized level"
+authors:
+  - "M. W. AlMasri"
+year: 2020
+venue: "arXiv (Cornell University)"
+doi: null
+arxiv: "2005.09182"
+source: https://arxiv.org/abs/2005.09182
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

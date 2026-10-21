@@ -1,0 +1,19 @@
+id: low-1998
+title: "Speed Limits in General Relativity"
+authors:
+  - "Robert J Low"
+year: 1998
+venue: "Class.Quant.Grav. 16 (1999) 543-549"
+doi: 10.1088/0264-9381/16/2/016
+arxiv: "gr-qc/9812067"
+source: https://arxiv.org/abs/gr-qc/9812067
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

@@ -1,0 +1,25 @@
+id: konye-2022
+title: "Horizon physics of quasi-one-dimensional tilted Weyl cones on a lattice"
+authors:
+  - "Viktor Könye"
+  - "Corentin Morice"
+  - "Corentin Morice"
+  - "Ali G. Moghaddam"
+  - "Jeroen van den Brink"
+  - "Jasper van Wezel"
+year: 2022
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.4.033237
+arxiv: "2206.04138"
+source: https://arxiv.org/abs/2206.04138
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 22
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,24 @@
+id: morice-2021
+title: "Synthetic gravitational horizons in low-dimensional quantum matter"
+authors:
+  - "Corentin Morice"
+  - "Ali G. Moghaddam"
+  - "Corentin Morice"
+  - "Jasper van Wezel"
+  - "Jeroen van den Brink"
+year: 2021
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.3.l022022
+arxiv: "2104.03875"
+source: https://arxiv.org/abs/2104.03875
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 35
+cites_seeds: [barcelo-2011]
+relevance: media

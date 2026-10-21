@@ -1,0 +1,22 @@
+id: busch-2014d
+title: "Spectrum and entanglement of phonons in quantum fluids of light"
+authors:
+  - "Xavier Busch"
+  - "Iacopo Carusotto"
+  - "Renaud Parentani"
+year: 2014
+venue: "Physical Review A"
+doi: 10.1103/physreva.89.043819
+arxiv: "1311.3507"
+source: https://arxiv.org/abs/1311.3507
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 55
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,25 @@
+id: bossard-2023
+title: "How to create analogue black hole or white fountain horizons and LASER cavities in experimental free surface hydrodynamics?"
+authors:
+  - "Alexis Bossard"
+  - "Nicolas James"
+  - "Aucouturier, Camille"
+  - "Johan Fourdrinoy"
+  - "Scott Robertson"
+  - "Germain Rousseaux"
+year: 2023
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2307.11022
+arxiv: "2307.11022"
+source: https://arxiv.org/abs/2307.11022
+language: en
+subsystems: [G, D, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

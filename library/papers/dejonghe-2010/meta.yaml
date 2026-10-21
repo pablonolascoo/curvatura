@@ -1,0 +1,22 @@
+id: dejonghe-2010
+title: "Discontinuous quantum evolutions in the presence of closed timelike curves"
+authors:
+  - "Richard DeJonghe"
+  - "Kimberly Frey"
+  - "Tom D. Imbo"
+year: 2010
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.81.087501
+arxiv: "0908.2655"
+source: https://arxiv.org/abs/0908.2655
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [alcubierre-1994]
+relevance: media

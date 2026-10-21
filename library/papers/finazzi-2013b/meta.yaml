@@ -1,0 +1,20 @@
+id: finazzi-2013b
+title: "Entangled phonons in atomic Bose-Einstein condensates"
+authors:
+  - "Stefano Finazzi"
+  - "Iacopo Carusotto"
+year: 2013
+venue: "Phys. Rev. A 90, 033607 (2014)"
+doi: 10.1103/physreva.90.033607
+arxiv: "1309.3414"
+source: https://arxiv.org/abs/1309.3414
+language: en
+subsystems: [E, Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

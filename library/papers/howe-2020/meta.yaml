@@ -1,0 +1,20 @@
+id: howe-2020
+title: "Advanced Propulsion: Pulsed, Fusion, Antimatter and Breakthrough Physics"
+authors:
+  - "Steven D. Howe"
+year: 2020
+venue: "Elsevier eBooks"
+doi: 10.1016/b978-0-12-819725-7.00022-2
+arxiv: null
+source: https://doi.org/10.1016/b978-0-12-819725-7.00022-2
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

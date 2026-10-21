@@ -1,0 +1,20 @@
+id: peacock-1998
+title: "Superluminal Transformations in Spacetimes of Definite Metric"
+authors:
+  - "Kent A. Peacock"
+year: 1998
+venue: "Springer eBooks"
+doi: 10.1007/978-94-017-0990-3_27
+arxiv: "2308.03796"
+source: https://arxiv.org/abs/2308.03796
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

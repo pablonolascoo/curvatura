@@ -1,0 +1,24 @@
+id: chatrchyan-2021
+title: "Analog cosmological reheating in an ultracold Bose gas"
+authors:
+  - "Aleksandr Chatrchyan"
+  - "Kevin T. Geier"
+  - "Markus K. Oberthaler"
+  - "Jürgen Berges"
+  - "Philipp Hauke"
+year: 2021
+venue: "Physical Review A"
+doi: 10.1103/physreva.104.023302
+arxiv: "2008.02290"
+source: https://arxiv.org/abs/2008.02290
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 27
+cites_seeds: [barcelo-2011]
+relevance: media

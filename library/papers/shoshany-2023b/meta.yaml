@@ -1,0 +1,21 @@
+id: shoshany-2023b
+title: "Wormhole Time Machines and Multiple Histories"
+authors:
+  - "Barak Shoshany"
+  - "Jared Wogan"
+year: 2023
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-023-03094-8
+arxiv: "2110.02448"
+source: https://arxiv.org/abs/2110.02448
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994]
+relevance: media

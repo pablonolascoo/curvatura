@@ -1,0 +1,22 @@
+id: luca-2022
+title: "Gravity from thermodynamics: optimal transport and negative effective dimensions"
+authors:
+  - "G. Bruno De Luca"
+  - "Nicolò De Ponti"
+  - "Andrea Mondino"
+  - "Alessandro Tomasiello"
+year: 2022
+venue: "SciPost Phys. 15, 039 (2023)"
+doi: 10.21468/scipostphys.15.2.039
+arxiv: "2212.02511"
+source: https://arxiv.org/abs/2212.02511
+language: en
+subsystems: [G, E]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

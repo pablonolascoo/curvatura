@@ -1,0 +1,21 @@
+id: jacquet-2015
+title: "Quantum vacuum emission from a refractive-index front"
+authors:
+  - "Maxime J. Jacquet"
+  - "Friedrich König"
+year: 2015
+venue: "Physical Review A"
+doi: 10.1103/physreva.92.023851
+arxiv: "1504.07427"
+source: https://arxiv.org/abs/1504.07427
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 29
+cites_seeds: [barcelo-2011]
+relevance: media

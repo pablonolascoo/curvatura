@@ -1,0 +1,26 @@
+id: rubino-2012
+title: "Soliton-induced relativistic-scattering and amplification"
+authors:
+  - "E. Rubino"
+  - "Antonio Lotti"
+  - "F. Belgiorno"
+  - "Sergio L. Cacciatori"
+  - "A. Couairon"
+  - "Ulf Leonhardt"
+  - "Daniele Faccio"
+year: 2012
+venue: "Scientific Reports"
+doi: 10.1038/srep00932
+arxiv: "1211.0256"
+source: https://arxiv.org/abs/1211.0256
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 55
+cites_seeds: [barcelo-2011]
+relevance: media

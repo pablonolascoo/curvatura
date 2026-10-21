@@ -1,0 +1,20 @@
+id: froning-2000
+title: "Theoretical and experimental investigations of gravity modification by specially conditioned EM radiation"
+authors:
+  - "H. D. Froning"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1290903
+arxiv: null
+source: https://doi.org/10.1063/1.1290903
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,20 @@
+id: vollick-2000
+title: "Quantum inequalities in curved two-dimensional spacetimes"
+authors:
+  - "Dan N. Vollick"
+year: 2000
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.61.084022
+arxiv: "gr-qc/0001009"
+source: https://arxiv.org/abs/gr-qc/0001009
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 40
+cites_seeds: [pfenning-ford-1997]
+relevance: media

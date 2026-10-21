@@ -1,0 +1,20 @@
+id: ford-2003
+title: "The Classical Singularity Theorems and Their Quantum Loopholes"
+authors:
+  - "Lawrence H. Ford"
+year: 2003
+venue: "International Journal of Theoretical Physics"
+doi: 10.1023/a:1025754515197
+arxiv: "gr-qc/0301045"
+source: https://arxiv.org/abs/gr-qc/0301045
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 31
+cites_seeds: [pfenning-ford-1997]
+relevance: media

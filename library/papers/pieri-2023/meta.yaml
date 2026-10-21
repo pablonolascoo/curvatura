@@ -1,0 +1,19 @@
+id: pieri-2023
+title: "Hyperwave: Hyper-Fast Communication within General Relativity"
+authors:
+  - "Lorenzo Pieri"
+year: 2023
+venue: "arXiv:2311.12069"
+doi: null
+arxiv: "2311.12069"
+source: https://arxiv.org/abs/2311.12069
+language: en
+subsystems: [G, C, M]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

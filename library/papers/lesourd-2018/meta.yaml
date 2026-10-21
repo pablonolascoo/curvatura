@@ -1,0 +1,20 @@
+id: lesourd-2018
+title: "A remark on the energy conditions for Hawking’s area theorem"
+authors:
+  - "Martin Lesourd"
+year: 2018
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-018-2377-1
+arxiv: "1711.06480"
+source: https://arxiv.org/abs/1711.06480
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [ford-roman-1996]
+relevance: media

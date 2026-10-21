@@ -1,0 +1,22 @@
+id: bennett-1995
+title: "Report on the NASA/JPL Workshop on advanced quantum/relativity theory propulsion"
+authors:
+  - "Gary L. Bennett"
+  - "Robert L. Forward"
+  - "Robert Frisbee"
+year: 1995
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.1995-2599
+arxiv: null
+source: https://doi.org/10.2514/6.1995-2599
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [alcubierre-1994]
+relevance: media

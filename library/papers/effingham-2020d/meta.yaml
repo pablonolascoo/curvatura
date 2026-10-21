@@ -1,0 +1,20 @@
+id: effingham-2020d
+title: "The Grandfather Paradox"
+authors:
+  - "Nikk Effingham"
+year: 2020
+venue: "book-chapter"
+doi: 10.1093/oso/9780198842507.003.0008
+arxiv: null
+source: https://doi.org/10.1093/oso/9780198842507.003.0008
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

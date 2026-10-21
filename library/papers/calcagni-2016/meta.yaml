@@ -1,0 +1,20 @@
+id: calcagni-2016
+title: "ABC of multi-fractal spacetimes and fractional sea turtles"
+authors:
+  - "Gianluca Calcagni"
+year: 2016
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-016-4021-0
+arxiv: "1602.01470"
+source: https://arxiv.org/abs/1602.01470
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 30
+cites_seeds: [finazzi-2009]
+relevance: media

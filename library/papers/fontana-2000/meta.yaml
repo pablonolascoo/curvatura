@@ -1,0 +1,20 @@
+id: fontana-2000
+title: "Gravitational radiation and its application to space travel"
+authors:
+  - "Giorgio Fontana"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1290910
+arxiv: "physics/0110042"
+source: https://arxiv.org/abs/physics/0110042
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [alcubierre-1994]
+relevance: media

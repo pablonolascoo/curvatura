@@ -1,0 +1,1 @@
+We develop a method for constructing complete gradient Ricci solitons realized as fiber bundles endowed with warped metrics, and we establish necessary and sufficient conditions for their existence. As an application, we present new examples of complete gradient steady and shrinking Ricci solitons obtained via quotients by isometric group actions

@@ -1,0 +1,21 @@
+id: cordova-2017b
+title: "Bounds on OPE Coefficients from Interference Effects in the Conformal Collider"
+authors:
+  - "Clay Cordova"
+  - "Juan Maldacena"
+  - "Gustavo J. Turiaci"
+year: 2017
+venue: "arXiv:1710.03199"
+doi: 10.1007/jhep11(2017)032
+arxiv: "1710.03199"
+source: https://arxiv.org/abs/1710.03199
+language: en
+subsystems: [C, Q]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,19 @@
+id: stichel-2018
+title: "Analytical solutions for two inhomogeneous cosmological models with energy flow and dynamical curvature"
+authors:
+  - "P. C. Stichel"
+year: 2018
+venue: "Phys. Rev. D 98, 104022 (2018)"
+doi: 10.1103/physrevd.98.104022
+arxiv: "1805.08459"
+source: https://arxiv.org/abs/1805.08459
+language: en
+subsystems: [C, S, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,21 @@
+id: gravel-2004
+title: "Simple and double walled Krasnikov tubes: I. Tubes with low masses"
+authors:
+  - "Pierre Gravel"
+  - "Jean-Luc Plante"
+year: 2004
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/21/4/l01
+arxiv: null
+source: https://doi.org/10.1088/0264-9381/21/4/l01
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 28
+cites_seeds: [vandenbroeck-1999]
+relevance: alta

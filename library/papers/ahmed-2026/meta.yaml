@@ -1,0 +1,21 @@
+id: ahmed-2026
+title: "Simpson-Visser regularization of the quantum Oppenheimer-Snyder-Datt black hole"
+authors:
+  - "Faizuddin Ahmed"
+  - "Ahmad Al-Badawi"
+  - "İzzet Sakallı"
+year: 2026
+venue: "arXiv:2610.02266"
+doi: null
+arxiv: "2610.02266"
+source: https://arxiv.org/abs/2610.02266
+language: en
+subsystems: [C, D, Q]
+kind: restriccion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

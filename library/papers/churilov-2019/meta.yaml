@@ -1,0 +1,21 @@
+id: churilov-2019
+title: "Scattering of surface shallow water waves on a draining bathtub vortex"
+authors:
+  - "Semyon Churilov"
+  - "Yury Stepanyants"
+year: 2019
+venue: "Physical Review Fluids"
+doi: 10.1103/physrevfluids.4.034704
+arxiv: "1810.09796"
+source: https://arxiv.org/abs/1810.09796
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [barcelo-2011]
+relevance: media

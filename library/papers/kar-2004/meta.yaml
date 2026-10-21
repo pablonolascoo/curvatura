@@ -1,0 +1,22 @@
+id: kar-2004
+title: "Quantifying energy condition violations in traversable wormholes"
+authors:
+  - "Sayan Kar"
+  - "Naresh Dadhich"
+  - "Matt Visser"
+year: 2004
+venue: "Pramana"
+doi: 10.1007/bf02705207
+arxiv: "gr-qc/0405103"
+source: https://arxiv.org/abs/gr-qc/0405103
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 147
+cites_seeds: [vandenbroeck-1999]
+relevance: media

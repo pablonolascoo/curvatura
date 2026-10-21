@@ -1,0 +1,20 @@
+id: faccio-2015
+title: "A matter of gravity"
+authors:
+  - "Daniele Faccio"
+year: 2015
+venue: "Nature Physics"
+doi: 10.1038/nphys3480
+arxiv: null
+source: https://doi.org/10.1038/nphys3480
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

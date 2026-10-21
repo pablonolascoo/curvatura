@@ -1,0 +1,22 @@
+id: sarma-2013
+title: "Pure radiation metric with stable closed timelike curves"
+authors:
+  - "Debojit Sarma"
+  - "Mahadev Patgiri"
+  - "Faizuddin Ahmed"
+year: 2013
+venue: "General Relativity and Gravitation"
+doi: 10.1007/s10714-013-1633-7
+arxiv: null
+source: https://doi.org/10.1007/s10714-013-1633-7
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [krasnikov-1998]
+relevance: media

@@ -1,0 +1,21 @@
+id: suvorova-2019
+title: "Reconstructing Gravitational Wave Core-Collapse Supernova Signals with Dynamic Time Warping"
+authors:
+  - "Sofia Suvorova"
+  - "Jade Powell"
+  - "Andrew Melatos"
+year: 2019
+venue: "Phys. Rev. D 99, 123012 (2019)"
+doi: 10.1103/physrevd.99.123012
+arxiv: "1901.02535"
+source: https://arxiv.org/abs/1901.02535
+language: en
+subsystems: [D, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

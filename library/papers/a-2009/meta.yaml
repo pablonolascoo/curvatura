@@ -1,0 +1,20 @@
+id: a-2009
+title: "The Mystical Formula and The Mystery of Khronos"
+authors:
+  - "Orfeu Bertolami A"
+year: 2009
+venue: "Springer eBooks"
+doi: 10.1007/978-90-481-3475-5_11
+arxiv: "0801.3994"
+source: https://arxiv.org/abs/0801.3994
+language: en
+subsystems: [G]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [krasnikov-1998, lobo-visser-2004]
+relevance: media

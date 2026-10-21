@@ -1,0 +1,20 @@
+id: genta-2023
+title: "Is a solar system-scale civilization a precursor to going interstellar?"
+authors:
+  - "Giancarlo Genta"
+year: 2023
+venue: "Elsevier eBooks"
+doi: 10.1016/b978-0-323-91360-7.00002-1
+arxiv: null
+source: https://doi.org/10.1016/b978-0-323-91360-7.00002-1
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

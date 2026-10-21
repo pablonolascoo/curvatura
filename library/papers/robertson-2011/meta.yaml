@@ -1,0 +1,21 @@
+id: robertson-2011
+title: "The Death of Rocket Science in the 21st Century"
+authors:
+  - "Glen A. Robertson"
+  - "Darryl W. Webb"
+year: 2011
+venue: "Physics Procedia"
+doi: 10.1016/j.phpro.2011.08.029
+arxiv: null
+source: https://doi.org/10.1016/j.phpro.2011.08.029
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,25 @@
+id: cheng-2026c
+title: "Quantum simulation of oscillatory Unruh effect with superposed trajectories"
+authors:
+  - "Xu Cheng"
+  - "Yue Li"
+  - "Zehua Tian"
+  - "Xingyu Zhao"
+  - "Xi Qin"
+  - "Yiheng Lin"
+year: 2026
+venue: "Science China Physics Mechanics and Astronomy"
+doi: 10.1007/s11433-025-2841-0
+arxiv: null
+source: https://doi.org/10.1007/s11433-025-2841-0
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

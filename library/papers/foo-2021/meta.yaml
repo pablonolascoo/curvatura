@@ -1,0 +1,22 @@
+id: foo-2021
+title: "Relativistic Bohmian trajectories of photons via weak measurements"
+authors:
+  - "Joshua Foo"
+  - "Estelle Asmodelle"
+  - "Austin P. Lund"
+  - "Timothy C. Ralph"
+year: 2021
+venue: "Nature Communications 13, 4002 (2022)"
+doi: 10.1038/s41467-022-31608-6
+arxiv: "2108.05169"
+source: https://arxiv.org/abs/2108.05169
+language: en
+subsystems: [G, C]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

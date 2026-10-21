@@ -1,0 +1,22 @@
+id: bishop-2022
+title: "Billiard-ball paradox for a quantum wave packet"
+authors:
+  - "Lachlan G. Bishop"
+  - "Timothy C. Ralph"
+  - "Fabio Costa"
+year: 2022
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ac8198
+arxiv: "2205.05399"
+source: https://arxiv.org/abs/2205.05399
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

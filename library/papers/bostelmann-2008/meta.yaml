@@ -1,0 +1,20 @@
+id: bostelmann-2008
+title: "Quantum Inequalities from Operator Product Expansions"
+authors:
+  - "Henning Bostelmann"
+  - "Christopher J. Fewster"
+year: 2008
+venue: "Commun.Math.Phys.292:761-795,2009"
+doi: 10.1007/s00220-009-0853-x
+arxiv: "0812.4760"
+source: https://arxiv.org/abs/0812.4760
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

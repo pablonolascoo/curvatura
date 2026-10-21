@@ -1,0 +1,21 @@
+id: ghosh-2009
+title: "Confinement of test particles in warped spacetimes"
+authors:
+  - "Suman Ghosh"
+  - "Hemwati Nandan"
+  - "Sayan Kar"
+year: 2009
+venue: "Phys.Rev.D82:024040,2010"
+doi: 10.1103/physrevd.82.024040
+arxiv: "0904.2321"
+source: https://arxiv.org/abs/0904.2321
+language: en
+subsystems: [G, M]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

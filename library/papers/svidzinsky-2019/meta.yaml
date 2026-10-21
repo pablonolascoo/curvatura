@@ -1,0 +1,20 @@
+id: svidzinsky-2019
+title: "Excitation of a uniformly moving atom through vacuum fluctuations"
+authors:
+  - "Anatoly A. Svidzinsky"
+year: 2019
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.1.033027
+arxiv: null
+source: https://doi.org/10.1103/physrevresearch.1.033027
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 23
+cites_seeds: [barcelo-2011]
+relevance: media

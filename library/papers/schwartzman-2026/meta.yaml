@@ -1,0 +1,22 @@
+id: schwartzman-2026
+title: "Multi-Boundary Many-Body Quantum Teleportation"
+authors:
+  - "Tal Schwartzman"
+  - "Antonio F. Rotundo"
+  - "Raz Monsonego"
+  - "Shira Chapman"
+year: 2026
+venue: "arXiv:2609.03053"
+doi: null
+arxiv: "2609.03053"
+source: https://arxiv.org/abs/2609.03053
+language: en
+subsystems: [G, E, D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

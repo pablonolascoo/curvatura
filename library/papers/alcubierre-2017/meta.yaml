@@ -1,0 +1,21 @@
+id: alcubierre-2017
+title: "Warp Drive Basics"
+authors:
+  - "Miguel Alcubierre"
+  - "Francisco S. N. Lobo"
+year: 2017
+venue: "Fundamental theories of physics"
+doi: 10.1007/978-3-319-55182-1_11
+arxiv: null
+source: https://doi.org/10.1007/978-3-319-55182-1_11
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 27
+cites_seeds: [krasnikov-1998, lobo-visser-2004, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+relevance: alta

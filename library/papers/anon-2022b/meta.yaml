@@ -1,0 +1,20 @@
+id: anon-2022b
+title: "Capillary-wave warp-drive"
+authors:
+  - "В. А. Александров"
+year: 2022
+venue: "Письма в журнал технической физики"
+doi: 10.21883/tpl.2022.14.55119.18899
+arxiv: null
+source: https://doi.org/10.21883/tpl.2022.14.55119.18899
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: alta

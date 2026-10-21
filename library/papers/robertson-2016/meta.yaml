@@ -1,0 +1,21 @@
+id: robertson-2016
+title: "Scattering of gravity waves in subcritical flows over an obstacle"
+authors:
+  - "Scott Robertson"
+  - "Florent Michel"
+  - "Renaud Parentani"
+year: 2016
+venue: "Phys. Rev. D 93, 124060 (2016)"
+doi: 10.1103/physrevd.93.124060
+arxiv: "1604.07253"
+source: https://arxiv.org/abs/1604.07253
+language: en
+subsystems: [V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

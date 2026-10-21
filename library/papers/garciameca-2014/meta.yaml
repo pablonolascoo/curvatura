@@ -1,0 +1,25 @@
+id: garciameca-2014
+title: "Transformational acoustic metamaterials based on pressure gradients"
+authors:
+  - "Carlos García‐Meca"
+  - "Sante Carloni"
+  - "Carlos Barceló"
+  - "Gil Jannes"
+  - "José Sánchez‐Dehesa"
+  - "Alejandro Martı́nez"
+year: 2014
+venue: "Physical Review B"
+doi: 10.1103/physrevb.90.024310
+arxiv: "1409.5773"
+source: https://arxiv.org/abs/1409.5773
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

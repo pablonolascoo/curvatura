@@ -1,0 +1,25 @@
+id: raj-2019
+title: "Influence of Gravitational Shielding on Time Dilation"
+authors:
+  - "A. Stanley Raj"
+  - "Sohan Jheeta"
+  - "Daniel"
+  - "Arun Krishna"
+  - "Joseph Pious"
+  - "Hudson Oliver"
+year: 2019
+venue: "Sci"
+doi: 10.3390/sci1020045
+arxiv: null
+source: https://doi.org/10.3390/sci1020045
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

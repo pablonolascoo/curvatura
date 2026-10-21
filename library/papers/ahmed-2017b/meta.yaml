@@ -1,0 +1,20 @@
+id: ahmed-2017b
+title: "Cylindrically symmetric pure radiation space-time and closed timelike geodesics"
+authors:
+  - "Faizuddin Ahmed"
+year: 2017
+venue: "Progress of Theoretical and Experimental Physics"
+doi: 10.1093/ptep/ptx041
+arxiv: null
+source: https://doi.org/10.1093/ptep/ptx041
+language: en
+subsystems: [G, M]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [krasnikov-1998]
+relevance: media

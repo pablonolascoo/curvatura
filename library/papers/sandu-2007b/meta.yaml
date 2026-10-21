@@ -1,0 +1,21 @@
+id: sandu-2007b
+title: "Sonic Electromagnetic Gravitational Spacecraft"
+authors:
+  - "Constantin Sandu"
+  - "Dan Brasoveanu"
+year: 2007
+venue: "AIAA SPACE Conference & Exposition"
+doi: 10.2514/6.2007-6203
+arxiv: null
+source: https://doi.org/10.2514/6.2007-6203
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

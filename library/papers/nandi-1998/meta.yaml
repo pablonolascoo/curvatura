@@ -1,0 +1,23 @@
+id: nandi-1998
+title: "Brans-Dicke wormholes in the Jordan and Einstein frames"
+authors:
+  - "Kamal Kanti Nandi"
+  - "Basana Bhattacharjee"
+  - "S. M. K. Alam"
+  - "John Cyril Evans"
+year: 1998
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.57.823
+arxiv: "0906.0181"
+source: https://arxiv.org/abs/0906.0181
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 146
+cites_seeds: [ford-roman-1996]
+relevance: media

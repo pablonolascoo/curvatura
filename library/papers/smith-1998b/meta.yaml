@@ -1,0 +1,20 @@
+id: smith-1998b
+title: "The problems of backward time travel"
+authors:
+  - "Nicholas J. J. Smith"
+year: 1998
+venue: "Endeavour"
+doi: 10.1016/s0160-9327(98)01154-5
+arxiv: null
+source: https://doi.org/10.1016/s0160-9327(98)01154-5
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [alcubierre-1994]
+relevance: media

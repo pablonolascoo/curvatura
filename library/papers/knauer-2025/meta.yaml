@@ -1,0 +1,28 @@
+id: knauer-2025
+title: "A tornado-based laboratory model for Keplerian flows"
+authors:
+  - "Stefan Knauer"
+  - "Stefan Schütt"
+  - "Mario Flock"
+  - "F. Scharmer"
+  - "S Haag"
+  - "N. Fahrenkamp"
+  - "André Melzer"
+  - "Daniel M. Siegel"
+  - "Peter Manz"
+year: 2025
+venue: "Monthly Notices of the Royal Astronomical Society Letters"
+doi: 10.1093/mnrasl/slaf070
+arxiv: null
+source: https://doi.org/10.1093/mnrasl/slaf070
+language: en
+subsystems: [G]
+kind: experimental
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

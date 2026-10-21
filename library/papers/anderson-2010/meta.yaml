@@ -1,0 +1,21 @@
+id: anderson-2010
+title: "Ray trajectories for Alcubierre spacetime"
+authors:
+  - "Tom H. Anderson"
+  - "Tom G. Mackay"
+  - "Akhlesh Lakhtakia"
+year: 2010
+venue: "Journal of Optics 13, 055107 (2011)"
+doi: 10.1088/2040-8978/13/5/055107
+arxiv: "1101.0044"
+source: https://arxiv.org/abs/1101.0044
+language: en
+subsystems: [G, C]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

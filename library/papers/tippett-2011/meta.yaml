@@ -1,0 +1,20 @@
+id: tippett-2011
+title: "Gravitational lensing as a mechanism for effective cloaking"
+authors:
+  - "Benjamin K. Tippett"
+year: 2011
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.84.104034
+arxiv: "1108.3793"
+source: https://arxiv.org/abs/1108.3793
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

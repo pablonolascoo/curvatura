@@ -1,0 +1,21 @@
+id: gielen-2016
+title: "Quantum Cosmology from Group Field Theory Condensates: a Review"
+authors:
+  - "Steffen Gielen"
+  - "Lorenzo Sindoni"
+year: 2016
+venue: "Symmetry Integrability and Geometry Methods and Applications"
+doi: 10.3842/sigma.2016.082
+arxiv: "1602.08104"
+source: https://arxiv.org/abs/1602.08104
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-SA-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 122
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,22 @@
+id: tsokaros-2022
+title: "Self-gravitating disks around rapidly spinning, tilted black holes: General relativistic simulations"
+authors:
+  - "Antonios Tsokaros"
+  - "Milton Ruiz"
+  - "Stuart L. Shapiro"
+  - "Vasileios Paschalidis"
+year: 2022
+venue: "arXiv:2209.04454"
+doi: 10.1103/physrevd.106.104010
+arxiv: "2209.04454"
+source: https://arxiv.org/abs/2209.04454
+language: en
+subsystems: [D, V]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

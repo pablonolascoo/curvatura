@@ -1,0 +1,20 @@
+id: tanaka-2019
+title: "Dynamical Casimir effect in dissipative optomechanical cavity interacting with photonic crystal"
+authors:
+  - "Satoshi Tanaka"
+  - "Kazuki Kanki"
+year: 2019
+venue: "arXiv:1912.11608"
+doi: null
+arxiv: "1912.11608"
+source: https://arxiv.org/abs/1912.11608
+language: en
+subsystems: [E, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

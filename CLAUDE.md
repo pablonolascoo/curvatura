@@ -19,7 +19,11 @@ Commit y push juntos. Mensajes `tipo(ámbito): resumen`.
 | `solvers/cpp` | Núcleo C++20 header-only. | `make -C solvers/cpp test` |
 | `solvers/matlab` | MATLAB/Octave. | Manual |
 | `packages/formula` | Motor de fórmulas TS. | `bun --filter '@curvatura/formula' test` |
+| `solvers/rust` | Núcleo Rust: nativo (app) y WASM (web). | `cargo test --release --manifest-path solvers/rust/Cargo.toml` |
 | `apps/web` | Next.js 16, export estático, i18n es/en/fr por diccionarios. | `bun --filter web build` |
+| `apps/desktop` | Tauri 2. Empaqueta `apps/web/out` y Pyodide local. | `bun run desktop:build` |
+| `library/equations` | Ecuaciones vivas (DSL + símbolos + cálculo). | build de la web |
+| `library/rag` | Índice RAG y servidor MCP. | `python3 -I library/rag/build.py` |
 
 ## Reglas
 
@@ -27,7 +31,7 @@ Commit y push juntos. Mensajes `tipo(ámbito): resumen`.
 - Next.js 16 tiene cambios: lee `node_modules/next/dist/docs/` antes de usar una API.
 - Sin proxy ni middleware: la web es `output: "export"`. Idioma por segmento `[lang]`.
 - Textos de la web en `apps/web/src/dictionaries/*.json`. Los tres idiomas siempre a la vez.
-- Diseño: `DESIGN.md`. Three.js: skills en `.claude/skills/threejs-*`.
+- Diseño: `DESIGN.md` (minimalist-ui, obligatorio). Three.js: skills en `.claude/skills/threejs-*`.
 - Papers: texto completo solo con licencia abierta (`library/taxonomy.yaml`).
 - No desplegar sin orden explícita. Despliegue: `bun run deploy` (requiere `.cloudflare.env`).
 - Toda cifra en la web sale de un cálculo o de una cita.

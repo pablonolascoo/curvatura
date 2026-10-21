@@ -64,3 +64,13 @@ describe("MathML", () => {
     expect(toMathML(parse("sigma*R"))).toContain("σ");
   });
 });
+
+describe("relaciones e índices", () => {
+  test("≥ y superíndices", () => {
+    const m = toMathML(parse("T_mu_nu*k__mu*k__nu >= 0"));
+    expect(m).toContain("<mo>≥</mo>");
+    expect(m).toContain("<msup");
+    expect(toMathML(parse("K_ij*K__ij"))).toContain("<msup");
+    expect(toMathML(parse("x_a__b"))).toContain("<msubsup");
+  });
+});

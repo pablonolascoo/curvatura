@@ -1,0 +1,22 @@
+id: oliveira-2018
+title: "Ergoregion instability of a rotating quantum system"
+authors:
+  - "Leandro A. Oliveira"
+  - "Luis J. Garay"
+  - "Luís C. B. Crispino"
+year: 2018
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.97.124063
+arxiv: "1807.07649"
+source: https://arxiv.org/abs/1807.07649
+language: en
+subsystems: [G, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+relevance: media

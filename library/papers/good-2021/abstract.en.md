@@ -1,0 +1,1 @@
+A new solution for an analytic spectrum of particle creation by an accelerating mirror (dynamical Casimir effect) is given. It is the first model to simultaneously radiate thermally and emit a finite number of particles.

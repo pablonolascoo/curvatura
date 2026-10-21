@@ -1,0 +1,20 @@
+id: cordova-2017
+title: "Universal Bounds on Operator Dimensions from the Average Null Energy Condition"
+authors:
+  - "Clay Cordova"
+  - "Kenan Diab"
+year: 2017
+venue: "arXiv:1712.01089"
+doi: 10.1007/jhep02(2018)131
+arxiv: "1712.01089"
+source: https://arxiv.org/abs/1712.01089
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

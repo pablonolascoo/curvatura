@@ -1,0 +1,21 @@
+id: anastopoulos-2020
+title: "Quantum superposition of two gravitational cat states"
+authors:
+  - "C Anastopoulos"
+  - "B. L. Hu"
+year: 2020
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/abbe6f
+arxiv: "2007.06446"
+source: https://arxiv.org/abs/2007.06446
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 57
+cites_seeds: [barcelo-2011]
+relevance: media

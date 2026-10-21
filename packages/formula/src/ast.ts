@@ -4,7 +4,9 @@ export type Node =
   | { k: "neg"; a: Node }
   | { k: "bin"; op: "+" | "-" | "*" | "/" | "^"; a: Node; b: Node }
   | { k: "call"; fn: string; args: Node[] }
-  | { k: "eq"; a: Node; b: Node };
+  | { k: "eq"; a: Node; b: Node; rel?: Rel };
+
+export type Rel = "=" | ">=" | "<=" | "~";
 
 export const num = (v: number): Node => ({ k: "num", v });
 export const sym = (name: string): Node => ({ k: "sym", name });

@@ -1,0 +1,20 @@
+id: stone-2013
+title: "An analogue of Hawking radiation in the quantum Hall effect"
+authors:
+  - "Michael Stone"
+year: 2013
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/30/8/085003
+arxiv: "1209.2317"
+source: https://arxiv.org/abs/1209.2317
+language: en
+subsystems: [G, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 32
+cites_seeds: [barcelo-2011]
+relevance: media

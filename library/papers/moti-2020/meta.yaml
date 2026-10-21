@@ -1,0 +1,21 @@
+id: moti-2020
+title: "Traversability of quantum improved wormhole solution"
+authors:
+  - "R. Moti"
+  - "Ali Shojai"
+year: 2020
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.101.124042
+arxiv: "2006.06190"
+source: https://arxiv.org/abs/2006.06190
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 18
+cites_seeds: [ford-roman-1996]
+relevance: media

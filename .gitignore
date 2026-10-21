@@ -1,34 +1,37 @@
-# Dependencias y builds
-node_modules/
-.next/
-out/
-dist/
-build/
-*.tsbuildinfo
-next-env.d.ts
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-.pytest_cache/
-
-# Secretos y entorno
-.env*
 !.env.example
-.dev.vars
-.cloudflare.env
-.mcp.json
-
 # Cloudflare
-.wrangler/
-
+# Dependencias y builds
 # Generado por la web
-apps/web/public/library/
-
-# Sistema
-.DS_Store
-
 # Local de Claude Code
+# Python
+# Secretos y entorno
+# Sistema
+*.pyc
+*.tsbuildinfo
+.DS_Store
 .claude/launch.json
 .claude/settings.local.json
+.cloudflare.env
+.dev.vars
+.env*
+.mcp.json
+.next/
+.pytest_cache/
+.venv/
+.wrangler/
+__pycache__/
+apps/desktop/src-tauri/gen/
+apps/desktop/src-tauri/target/
+apps/web/public/library/
+apps/web/public/py/
+apps/web/public/pyodide/
+apps/web/public/search/
+apps/web/public/wasm/
+build/
+dist/
+library/tools/.harvest-done
+next-env.d.ts
+node_modules/
+out/
+solvers/rust/target/

@@ -1,0 +1,21 @@
+id: liberati-2014
+title: "Astrophysical Constraints on Planck Scale Dissipative Phenomena"
+authors:
+  - "Stefano Liberati"
+  - "Luca Maccione"
+year: 2014
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.112.151301
+arxiv: "1309.7296"
+source: https://arxiv.org/abs/1309.7296
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 57
+cites_seeds: [barcelo-2011]
+relevance: media

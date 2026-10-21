@@ -1,0 +1,20 @@
+id: ibarra-2022
+title: "Un viaje por el tiempo"
+authors:
+  - "José Rubén Morones Ibarra"
+year: 2022
+venue: "Ingenierias"
+doi: 10.29105/ingenierias25.92-56
+arxiv: null
+source: https://doi.org/10.29105/ingenierias25.92-56
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,1 @@
+Some standard results on the initial value problem of general relativity in matter are reviewed. These results are applied first to show that in a well defined sense, finite perturbations in the gravitational field travel no faster than light, and second to show that it is impossible to construct a warp drive as considered by Alcubierre (1994) in the absence of exotic matter.

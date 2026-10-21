@@ -1,0 +1,27 @@
+id: chen-2026
+title: "Direct Product Flow Matching: Decoupling Radial and Angular Dynamics for Few-Shot Adaptation"
+authors:
+  - "Hongxu Chen"
+  - "Yanghao Wang"
+  - "Bowei Zhu"
+  - "Hongxiang Li"
+  - "Zhen Wang"
+  - "Ziqi Jiang"
+  - "Lin Li"
+  - "Rui Liu"
+  - "Long Chen"
+year: 2026
+venue: "arXiv:2605.05054"
+doi: null
+arxiv: "2605.05054"
+source: https://arxiv.org/abs/2605.05054
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

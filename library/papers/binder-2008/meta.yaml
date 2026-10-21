@@ -1,0 +1,21 @@
+id: binder-2008
+title: "Friedmann Propulsion in an Flat Holographic Universe"
+authors:
+  - "Bernd R. Binder"
+  - "Mohamed S. El-Genk"
+year: 2008
+venue: "AIP conference proceedings"
+doi: 10.1063/1.2844954
+arxiv: null
+source: https://doi.org/10.1063/1.2844954
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

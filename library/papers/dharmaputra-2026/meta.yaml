@@ -1,0 +1,21 @@
+id: dharmaputra-2026
+title: "Acoustic Black Hole Damper for Thermoacoustic Instability Control in a Hydrogen Combustor"
+authors:
+  - "Bayu Dharmaputra"
+  - "Klejsi Curumi"
+  - "Nicolas Noiray"
+year: 2026
+venue: "arXiv:2603.28231"
+doi: 10.1016/j.jsv.2026.120083
+arxiv: "2603.28231"
+source: https://arxiv.org/abs/2603.28231
+language: en
+subsystems: [S, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

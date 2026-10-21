@@ -1,0 +1,21 @@
+id: ford-2007
+title: "Energy density-flux correlations in an unusual quantum state and in the vacuum"
+authors:
+  - "Lawrence H. Ford"
+  - "Thomas A. Roman"
+year: 2007
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.76.064012
+arxiv: "0706.1970"
+source: https://arxiv.org/abs/0706.1970
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [krasnikov-1998, pfenning-ford-1997]
+relevance: media

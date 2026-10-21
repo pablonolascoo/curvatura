@@ -1,0 +1,25 @@
+id: anderson-2023
+title: "The WARP Reactor Concept"
+authors:
+  - "Michael G. Anderson"
+  - "James K. Walters"
+  - "E. Anaya"
+  - "Don. A. Max"
+  - "W. A. Stygar"
+  - "Anthony J. Link"
+year: 2023
+venue: "IEEE Pulsed Power Conference (PPC)"
+doi: 10.1109/ppc47928.2023.10310793
+arxiv: "2306.06133"
+source: https://arxiv.org/abs/2306.06133
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [lentz-2021]
+relevance: media

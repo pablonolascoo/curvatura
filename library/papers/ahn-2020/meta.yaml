@@ -1,0 +1,23 @@
+id: ahn-2020
+title: "Holographic teleportation in higher dimensions"
+authors:
+  - "Byoungjoon Ahn"
+  - "Yongjun Ahn"
+  - "Sang-Eon Bak"
+  - "Viktor Jahnke"
+  - "Keun-Young Kim"
+year: 2020
+venue: "arXiv:2011.13807"
+doi: 10.1007/jhep07(2021)219
+arxiv: "2011.13807"
+source: https://arxiv.org/abs/2011.13807
+language: en
+subsystems: [G, C, Q]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

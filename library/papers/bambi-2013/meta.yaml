@@ -1,0 +1,20 @@
+id: bambi-2013
+title: "Rotating regular black holes"
+authors:
+  - "Cosimo Bambi"
+  - "Leonardo Modesto"
+year: 2013
+venue: "Phys.Lett.B721:329-334,2013"
+doi: 10.1016/j.physletb.2013.03.025
+arxiv: "1302.6075"
+source: https://arxiv.org/abs/1302.6075
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

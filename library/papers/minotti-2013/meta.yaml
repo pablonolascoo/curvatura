@@ -1,0 +1,20 @@
+id: minotti-2013
+title: "Scalar-tensor theories and asymmetric resonant cavities"
+authors:
+  - "Fernando O. Minotti"
+year: 2013
+venue: "Gravitation and Cosmology"
+doi: 10.1134/s0202289313030080
+arxiv: "1302.5690"
+source: https://arxiv.org/abs/1302.5690
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [lobo-visser-2004]
+relevance: media

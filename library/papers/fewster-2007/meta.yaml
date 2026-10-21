@@ -1,0 +1,21 @@
+id: fewster-2007
+title: "Quantum energy inequalities for the non-minimally coupled scalar field"
+authors:
+  - "Christopher J. Fewster"
+  - "Lutz W. Osterbrink"
+year: 2007
+venue: "Journal of Physics A Mathematical and Theoretical"
+doi: 10.1088/1751-8113/41/2/025402
+arxiv: "0708.2450"
+source: https://arxiv.org/abs/0708.2450
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 56
+cites_seeds: [pfenning-ford-1997]
+relevance: media

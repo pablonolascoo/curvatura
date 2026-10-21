@@ -1,0 +1,22 @@
+id: martincaro-2024
+title: "Classical and quantum field theory in a box with moving boundaries: A numerical study of the Dynamical Casimir Effect"
+authors:
+  - "Alberto García Martín-Caro"
+  - "Gerardo García-Moreno"
+  - "Javier Olmedo"
+  - "Jose M. Sánchez Velázquez"
+year: 2024
+venue: "Phys. Rev. D 110, 025007 (2024)"
+doi: 10.1103/physrevd.110.025007
+arxiv: "2404.06166"
+source: https://arxiv.org/abs/2404.06166
+language: en
+subsystems: [G, E, D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

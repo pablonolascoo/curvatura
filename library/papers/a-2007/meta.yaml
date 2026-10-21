@@ -1,0 +1,23 @@
+id: a-2007
+title: "Construction of a 3D wormhole supported by phantom energy"
+authors:
+  - "Farook Rahaman A"
+  - "Mehedi Kalam"
+  - "B. Bhui"
+  - "S Chakraborty"
+year: 2007
+venue: "Physica Scripta"
+doi: 10.1088/0031-8949/76/1/010
+arxiv: "0705.1058"
+source: https://arxiv.org/abs/0705.1058
+language: en
+subsystems: [G]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 32
+cites_seeds: [alcubierre-1994]
+relevance: media

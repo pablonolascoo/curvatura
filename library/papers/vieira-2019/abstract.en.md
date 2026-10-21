@@ -1,0 +1,1 @@
+In this work we consider the exact solution of the Klein-Gordon equation describing a massless scalar field in the spacetime of a four dimensional canonical acoustic black hole, which is given in terms of the general Heun function, to investigate the interesting phenomena related to the resonant frequencies.

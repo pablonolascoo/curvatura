@@ -1,0 +1,21 @@
+id: motazedifard-2015
+title: "An analogue model for controllable Casimir radiation in a nonlinear cavity with amplitude-modulated pumping: Generation and quantum statistical properties"
+authors:
+  - "Ali Motazedifard"
+  - "M. H. Naderi"
+  - "R. Roknizadeh"
+year: 2015
+venue: "J. Opt. Soc. Am. B 32, 1555(2015)"
+doi: 10.1364/josab.32.001555
+arxiv: "1505.01863"
+source: https://arxiv.org/abs/1505.01863
+language: en
+subsystems: [E, D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: graham-2007
+title: "Achronal averaged null energy condition"
+authors:
+  - "Noah Graham"
+  - "Ken D. Olum"
+year: 2007
+venue: "Phys.Rev.D76:064001,2007"
+doi: 10.1103/physrevd.76.064001
+arxiv: "0705.3193"
+source: https://arxiv.org/abs/0705.3193
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

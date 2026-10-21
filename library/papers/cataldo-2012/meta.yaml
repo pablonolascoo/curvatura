@@ -1,0 +1,21 @@
+id: cataldo-2012
+title: "Two-fluid evolving Lorentzian wormholes"
+authors:
+  - "Mauricio Cataldo"
+  - "Sérgio del Campo"
+year: 2012
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.85.104010
+arxiv: "1204.0753"
+source: https://arxiv.org/abs/1204.0753
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 44
+cites_seeds: [lobo-visser-2004]
+relevance: media

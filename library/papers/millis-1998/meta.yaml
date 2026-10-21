@@ -1,0 +1,20 @@
+id: millis-1998
+title: "Breakthrough propulsion physics workshop preliminary results"
+authors:
+  - "Marc G. Millis"
+year: 1998
+venue: "AIP conference proceedings"
+doi: 10.1063/1.54913
+arxiv: null
+source: https://doi.org/10.1063/1.54913
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994]
+relevance: media

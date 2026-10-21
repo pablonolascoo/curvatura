@@ -1,0 +1,20 @@
+id: carot-2005
+title: "Hydrodynamics in Class B Warped Spacetimes"
+authors:
+  - "J. Carot"
+  - "L. A. Nunez"
+year: 2005
+venue: "Phys.Rev. D72 (2005) 084005"
+doi: 10.1103/physrevd.72.084005
+arxiv: "gr-qc/0507066"
+source: https://arxiv.org/abs/gr-qc/0507066
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

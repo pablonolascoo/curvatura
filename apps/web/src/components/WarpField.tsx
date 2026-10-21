@@ -57,17 +57,22 @@ const VERT = /* glsl */ `
 
 const FRAG = /* glsl */ `
   uniform vec3 uFg;
-  uniform vec3 uAccent;
+  uniform vec3 uRed;
+  uniform vec3 uBlue;
   uniform float uPeak;
   uniform float uBase;
+  uniform float uFill;
   varying float vH;
   varying float vDist;
 
   void main() {
+    // Rojo: contracción (θ < 0, delante). Azul: expansión (θ > 0, detrás).
     float k = smoothstep(0.08, 0.85, abs(vH) / uPeak);
-    vec3 col = mix(uFg, uAccent, k);
+    vec3 col = mix(uFg, vH < 0.0 ? uRed : uBlue, k);
     float fade = 1.0 - smoothstep(0.55, 1.0, vDist);
     float a = mix(uBase, 1.0, k) * fade;
+    // Relleno: solo los lóbulos, en pastel (alfa bajo); la malla de tinta va encima.
+    if (uFill > 0.5) { col = vH < 0.0 ? uRed : uBlue; a = 0.16 * k * fade; }
     gl_FragColor = vec4(col, a);
   }
 `;
@@ -131,8 +136,10 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
       uXs: { value: 0 },
       uPeak: { value: Math.max(0.2, (params.v * params.sigma) / 2) },
       uBase: { value: 0.16 },
-      uFg: { value: cssColor("--fg", "#ecebe6") },
-      uAccent: { value: cssColor("--accent", "#f2a33a") },
+      uFill: { value: 0 },
+      uFg: { value: cssColor("--ink", "#111111") },
+      uRed: { value: cssColor("--red", "#9f2f2d") },
+      uBlue: { value: cssColor("--blue", "#1f6c9f") },
     };
     uniforms.current = u;
 
@@ -145,8 +152,15 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
     });
     const geometry = gridGeometry(3.2, 72, 220);
     const mesh = new THREE.LineSegments(geometry, material);
+    // Superficie de relleno con los mismos uniformes (salvo uFill).
+    const fillMaterial = material.clone();
+    fillMaterial.uniforms = { ...u, uFill: { value: 1 } };
+    fillMaterial.side = THREE.DoubleSide;
+    const fillGeometry = new THREE.PlaneGeometry(6.4, 6.4, 220, 220);
+    const fill = new THREE.Mesh(fillGeometry, fillMaterial);
+    fill.renderOrder = -1;
     const group = new THREE.Group();
-    group.add(mesh);
+    group.add(fill, mesh);
     scene.add(group);
 
     const resize = () => {
@@ -159,6 +173,7 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
       camera.fov = width < 768 ? 44 : 32;
       const wide = width >= 768;
       mesh.position.set(wide ? offset[0] : 0, wide ? offset[1] : 0, 0);
+      fill.position.copy(mesh.position);
       camera.updateProjectionMatrix();
       renderer.render(scene, camera);
     };
@@ -176,9 +191,10 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
 
     const scheme = window.matchMedia("(prefers-color-scheme: dark)");
     const onScheme = () => {
-      u.uBase.value = scheme.matches ? 0.16 : 0.26;
-      u.uFg.value = cssColor("--fg", "#ecebe6");
-      u.uAccent.value = cssColor("--accent", "#f2a33a");
+      u.uBase.value = scheme.matches ? 0.14 : 0.16;
+      u.uFg.value = cssColor("--ink", "#111111");
+      u.uRed.value = cssColor("--red", "#9f2f2d");
+      u.uBlue.value = cssColor("--blue", "#1f6c9f");
       renderer.render(scene, camera);
     };
     scheme.addEventListener("change", onScheme);
@@ -222,6 +238,8 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
       document.removeEventListener("visibilitychange", onVisibility);
       geometry.dispose();
       material.dispose();
+      fillGeometry.dispose();
+      fillMaterial.dispose();
       renderer.dispose();
       renderer.domElement.remove();
       uniforms.current = null;

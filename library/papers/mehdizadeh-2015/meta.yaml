@@ -1,0 +1,22 @@
+id: mehdizadeh-2015
+title: "Einstein-Gauss-Bonnet traversable wormholes satisfying the weak energy condition"
+authors:
+  - "Mohammad Reza Mehdizadeh"
+  - "M. Kord Zangeneh"
+  - "Francisco S. N. Lobo"
+year: 2015
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.91.084004
+arxiv: "1501.04773"
+source: https://arxiv.org/abs/1501.04773
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 239
+cites_seeds: [lobo-visser-2004]
+relevance: media

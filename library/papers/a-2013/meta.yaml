@@ -1,0 +1,20 @@
+id: a-2013
+title: "Zen and the Art of Space-Time Manufacturing"
+authors:
+  - "Orfeu Bertolami A"
+year: 2013
+venue: "Springer Link (Chiba Institute of Technology)"
+doi: 10.1051/epjconf/20135802001/pdf
+arxiv: null
+source: https://doi.org/10.1051/epjconf/20135802001/pdf
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [lobo-visser-2004]
+relevance: media

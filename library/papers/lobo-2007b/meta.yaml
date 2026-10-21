@@ -1,0 +1,20 @@
+id: lobo-2007b
+title: "Nature of time and causality in Physics"
+authors:
+  - "Francisco S. N. Lobo"
+year: 2007
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.0710.0428
+arxiv: "0710.0428"
+source: https://arxiv.org/abs/0710.0428
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [lobo-visser-2004]
+relevance: media

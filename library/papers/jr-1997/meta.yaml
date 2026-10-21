@@ -1,0 +1,23 @@
+id: jr-1997
+title: "Inertia reduction - and possibly impulsion - by conditioning electromagnetic fields"
+authors:
+  - "H. Froning, Jr."
+  - "Terence William Barrett"
+  - "H. Froning, Jr."
+  - "Terence William Barrett"
+year: 1997
+venue: "AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit"
+doi: 10.2514/6.1997-3170
+arxiv: null
+source: https://doi.org/10.2514/6.1997-3170
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

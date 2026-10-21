@@ -1,0 +1,21 @@
+id: bermudez-2018
+title: "Resonant Hawking radiation as an instability"
+authors:
+  - "David Bermúdez"
+  - "Ulf Leonhardt"
+year: 2018
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aaf435
+arxiv: "1808.02210"
+source: https://arxiv.org/abs/1808.02210
+language: en
+subsystems: [G, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,20 @@
+id: abreu-2008
+title: "Quantum Interest in (3+1) dimensional Minkowski space"
+authors:
+  - "Gabriel Abreu"
+  - "Matt Visser"
+year: 2008
+venue: "Physical Review D 79 (2009) 065004"
+doi: 10.1103/physrevd.79.065004
+arxiv: "0808.1931"
+source: https://arxiv.org/abs/0808.1931
+language: en
+subsystems: [G, C]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

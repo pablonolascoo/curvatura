@@ -1,0 +1,20 @@
+id: ribeiro-2025
+title: "Energy conservation and quantum backreaction in Bose-Einstein condensates"
+authors:
+  - "Caio C. Holanda Ribeiro"
+year: 2025
+venue: "Physical Review A"
+doi: 10.1103/physreva.111.023306
+arxiv: "2408.15455"
+source: https://arxiv.org/abs/2408.15455
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

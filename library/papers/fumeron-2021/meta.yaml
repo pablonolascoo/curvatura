@@ -1,0 +1,22 @@
+id: fumeron-2021
+title: "Geometric theory of topological defects: methodological developments and new trends"
+authors:
+  - "Sébastien Fumeron"
+  - "Bertrand Berche"
+  - "Fernando Moraes"
+year: 2021
+venue: "Liquid Crystals Reviews"
+doi: 10.1080/21680396.2022.2163515
+arxiv: "2301.01050"
+source: https://arxiv.org/abs/2301.01050
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

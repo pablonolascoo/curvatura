@@ -1,0 +1,20 @@
+id: schlemmer-2008
+title: "Local Thermal Equilibrium States and Quantum Energy Inequalities"
+authors:
+  - "Jan Schlemmer"
+  - "Rainer Verch"
+year: 2008
+venue: "AnnalesHenriPoincare9:945-978,2008"
+doi: 10.1007/s00023-008-0380-x
+arxiv: "0802.2151"
+source: https://arxiv.org/abs/0802.2151
+language: en
+subsystems: [G, C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: friedman-1997
+title: "Topological censorship and chronology protection."
+authors:
+  - "John L. Friedman"
+year: 1997
+venue: "Gravitation and Cosmology"
+doi: 10.1007/978-94-011-5812-1_26
+arxiv: null
+source: https://doi.org/10.1007/978-94-011-5812-1_26
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [ford-roman-1996]
+relevance: media

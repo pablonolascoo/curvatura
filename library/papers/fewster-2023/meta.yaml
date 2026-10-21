@@ -1,0 +1,21 @@
+id: fewster-2023
+title: "Quantum energy inequalities along stationary worldlines"
+authors:
+  - "Christopher J. Fewster"
+  - "Jacob Thompson"
+year: 2023
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ace233
+arxiv: "2301.01698"
+source: https://arxiv.org/abs/2301.01698
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994, pfenning-ford-1997]
+relevance: media

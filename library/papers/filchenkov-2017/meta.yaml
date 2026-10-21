@@ -1,0 +1,21 @@
+id: filchenkov-2017
+title: "Galaxy travel via Alcubierre's warp drive"
+authors:
+  - "M. L. Fil’chenkov"
+  - "Yu. P. Laptev"
+year: 2017
+venue: "Acta Astronautica"
+doi: 10.1016/j.actaastro.2017.07.011
+arxiv: null
+source: https://doi.org/10.1016/j.actaastro.2017.07.011
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [krasnikov-1998, lobo-visser-2004, pfenning-ford-1997]
+relevance: alta

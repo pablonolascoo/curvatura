@@ -1,0 +1,20 @@
+id: tromp-2026
+title: "Metric-free gravitation from geometrical defects"
+authors:
+  - "Jeroen Tromp"
+year: 2026
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/ae3a30
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/ae3a30
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

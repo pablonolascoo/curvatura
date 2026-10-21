@@ -1,0 +1,13 @@
+id: alcubierre-metric
+paper: alcubierre-1994
+subsystem: G
+title: { es: Métrica de Alcubierre, en: Alcubierre metric, fr: Métrique d'Alcubierre }
+expr: "ds^2 = -dt^2 + (dx - v_s*f(r_s)*dt)^2 + dy^2 + dz^2"
+symbols:
+  v_s: { group: velocity, es: Velocidad de la burbuja, en: Bubble velocity, fr: Vitesse de la bulle }
+  r_s: { group: geometry, es: Distancia al centro de la burbuja, en: Distance to the bubble centre, fr: Distance au centre de la bulle }
+  ds: { group: geometry, es: Intervalo de espaciotiempo, en: Spacetime interval, fr: Intervalle d'espace-temps }
+note:
+  es: El espacio se desplaza con velocidad v_s f(r_s). Dentro de la burbuja f = 1 y el interior viaja en caída libre.
+  en: Space is shifted with velocity v_s f(r_s). Inside the bubble f = 1 and the interior moves in free fall.
+  fr: L'espace est décalé à la vitesse v_s f(r_s). Dans la bulle f = 1 et l'intérieur est en chute libre.

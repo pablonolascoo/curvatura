@@ -1,0 +1,21 @@
+id: kuhnel-2014
+title: "Astrophysical Bose-Einstein condensates and superradiance"
+authors:
+  - "Florian Kühnel"
+  - "Cornelius Rampf"
+year: 2014
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.90.103526
+arxiv: "1408.0790"
+source: https://arxiv.org/abs/1408.0790
+language: en
+subsystems: [G]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

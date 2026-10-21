@@ -1,0 +1,22 @@
+id: barcelo-2010b
+title: "Semiclassical instability of warp drives"
+authors:
+  - "Carlos Barceló"
+  - "Stefano Finazzi"
+  - "Stefano Liberati"
+year: 2010
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/229/1/012018
+arxiv: null
+source: https://doi.org/10.1088/1742-6596/229/1/012018
+language: en
+subsystems: [G, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [finazzi-2009, lobo-visser-2004, pfenning-ford-1997, vandenbroeck-1999]
+relevance: alta

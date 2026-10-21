@@ -1,0 +1,19 @@
+id: wall-2009
+title: "Proving the Achronal Averaged Null Energy Condition from the Generalized Second Law"
+authors:
+  - "Aron C. Wall"
+year: 2009
+venue: "Phys.Rev.D81:024038,2010"
+doi: 10.1103/physrevd.81.024038
+arxiv: "0910.5751"
+source: https://arxiv.org/abs/0910.5751
+language: en
+subsystems: [C, D, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

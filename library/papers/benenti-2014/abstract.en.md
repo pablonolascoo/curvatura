@@ -1,0 +1,1 @@
+We study the fundamental limitations of cooling to absolute zero for a qubit, interacting with a single mode of the electromagnetic field. Our results show that the dynamical Casimir effect, which is unavoidable in any finite-time thermodynamic cycle, forbids the attainability of the absolute zero of temperature, even in the limit of an infinite number of cycles.

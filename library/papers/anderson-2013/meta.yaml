@@ -1,0 +1,23 @@
+id: anderson-2013
+title: "Hawking radiation correlations in Bose-Einstein condensates using quantum field theory in curved space"
+authors:
+  - "Paul R. Anderson"
+  - "Roberto Balbinot"
+  - "Alessandro Fabbri"
+  - "Renaud Parentani"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.87.124018
+arxiv: "1301.2081"
+source: https://arxiv.org/abs/1301.2081
+language: en
+subsystems: [G, Q]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 26
+cites_seeds: [barcelo-2011]
+relevance: media

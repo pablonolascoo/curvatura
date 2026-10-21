@@ -1,0 +1,20 @@
+id: hsiang-2008
+title: "Decoherence and Recoherence in Model Quantum Systems"
+authors:
+  - "Jen-Tsung Hsiang"
+  - "L. H. Ford"
+year: 2008
+venue: "Int. J. Mod. Phys. A24, 1705 (2009)"
+doi: 10.1142/s0217751x09045273
+arxiv: "0811.1596"
+source: https://arxiv.org/abs/0811.1596
+language: en
+subsystems: [C, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

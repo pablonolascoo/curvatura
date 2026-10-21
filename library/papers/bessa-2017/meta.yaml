@@ -1,0 +1,23 @@
+id: bessa-2017
+title: "Quantum Brownian motion in an analog Friedmann-Robertson-Walker geometry"
+authors:
+  - "C. H. G. Béssa"
+  - "V. B. Bezerra"
+  - "E. R. Bezerra de Mello"
+  - "Herondy F. Santana Mota"
+year: 2017
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.95.085020
+arxiv: "1703.06525"
+source: https://arxiv.org/abs/1703.06525
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [barcelo-2011]
+relevance: media

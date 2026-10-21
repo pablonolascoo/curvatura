@@ -1,0 +1,23 @@
+id: lim-2007
+title: "Supersymmetry in 5d Gravity"
+authors:
+  - "C. S. Lim"
+  - "Tomoaki Nagasawa"
+  - "Satoshi Ohya"
+  - "Kazuki Sakamoto"
+  - "Makoto Sakamoto"
+year: 2007
+venue: "Phys.Rev.D77:045020,2008"
+doi: 10.1103/physrevd.77.045020
+arxiv: "0710.0170"
+source: https://arxiv.org/abs/0710.0170
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

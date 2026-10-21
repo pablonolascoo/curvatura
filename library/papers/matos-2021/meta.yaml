@@ -1,0 +1,22 @@
+id: matos-2021
+title: "Quantum Vacuum Sagnac Effect"
+authors:
+  - "Guilherme C. Matos"
+  - "Reinaldo de Melo e Souza"
+  - "Paulo A. Maia Neto"
+  - "François Impens"
+year: 2021
+venue: "Phys. Rev. Lett. 127, 270401 (2021)"
+doi: 10.1103/physrevlett.127.270401
+arxiv: "2112.01957"
+source: https://arxiv.org/abs/2112.01957
+language: en
+subsystems: [E, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

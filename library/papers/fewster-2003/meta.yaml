@@ -1,0 +1,21 @@
+id: fewster-2003
+title: "A quantum weak energy inequality for spin-one fields in curved space–time"
+authors:
+  - "Christopher J. Fewster"
+  - "Michael J. Pfenning"
+year: 2003
+venue: "Journal of Mathematical Physics"
+doi: 10.1063/1.1602554
+arxiv: "gr-qc/0303106"
+source: https://arxiv.org/abs/gr-qc/0303106
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 83
+cites_seeds: [krasnikov-1998]
+relevance: media

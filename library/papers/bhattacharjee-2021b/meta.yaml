@@ -1,0 +1,21 @@
+id: bhattacharjee-2021b
+title: "Surface tension and instability in the hydrodynamic white hole of a circular hydraulic jump"
+authors:
+  - "Jayanta K. Bhattacharjee"
+  - "Arnab Ray"
+year: 2021
+venue: "Physical Review Fluids"
+doi: 10.1103/physrevfluids.6.104801
+arxiv: "2012.13123"
+source: https://arxiv.org/abs/2012.13123
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

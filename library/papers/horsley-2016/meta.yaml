@@ -1,0 +1,21 @@
+id: horsley-2016
+title: "Negative frequencies in wave propagation: A microscopic model"
+authors:
+  - "S. A. R. Horsley"
+  - "S. Bugler-Lamb"
+year: 2016
+venue: "Physical Review A"
+doi: 10.1103/physreva.93.063828
+arxiv: "1601.05636"
+source: https://arxiv.org/abs/1601.05636
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [barcelo-2011]
+relevance: media

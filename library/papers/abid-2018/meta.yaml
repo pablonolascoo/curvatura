@@ -1,0 +1,20 @@
+id: abid-2018
+title: "Autowarp: Learning a Warping Distance from Unlabeled Time Series Using Sequence Autoencoders"
+authors:
+  - "Abubakar Abid"
+  - "James Zou"
+year: 2018
+venue: "arXiv:1810.10107"
+doi: null
+arxiv: "1810.10107"
+source: https://arxiv.org/abs/1810.10107
+language: en
+subsystems: [G]
+kind: experimental
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

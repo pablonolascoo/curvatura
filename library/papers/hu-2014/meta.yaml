@@ -1,0 +1,20 @@
+id: hu-2014
+title: "Gravitational decoherence, alternative quantum theories and semiclassical gravity"
+authors:
+  - "B. L. Hu"
+year: 2014
+venue: "Journal of Physics Conference Series"
+doi: 10.1088/1742-6596/504/1/012021
+arxiv: "1402.6584"
+source: https://arxiv.org/abs/1402.6584
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 30
+cites_seeds: [barcelo-2011]
+relevance: media

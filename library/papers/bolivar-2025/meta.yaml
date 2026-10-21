@@ -1,0 +1,22 @@
+id: bolivar-2025
+title: "Warp bubble geometries with anisotropic fluids: A piecewise analytical approach"
+authors:
+  - "Nelson Enrique Bolivar"
+  - "Gabriel Abellán"
+  - "Ivaylo T. Vasilev"
+year: 2025
+venue: "Annals of Physics"
+doi: 10.1016/j.aop.2025.170147
+arxiv: null
+source: https://doi.org/10.1016/j.aop.2025.170147
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, lentz-2021, lobo-visser-2004, santiago-2022]
+relevance: alta

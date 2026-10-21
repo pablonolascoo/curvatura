@@ -1,0 +1,20 @@
+id: ourabah-2023
+title: "On the collective properties of quantum media"
+authors:
+  - "Kamel Ourabah"
+year: 2023
+venue: "The European Physical Journal Plus"
+doi: 10.1140/epjp/s13360-022-03641-3
+arxiv: "2209.06110"
+source: https://arxiv.org/abs/2209.06110
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+relevance: media

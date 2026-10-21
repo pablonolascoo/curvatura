@@ -1,0 +1,20 @@
+id: davis-2001
+title: "Wormhole-Stargates: Tunneling Through The Cosmic Neighborhood"
+authors:
+  - "Eric W. Davis"
+year: 2001
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W2160349436
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

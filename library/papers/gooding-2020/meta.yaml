@@ -1,0 +1,26 @@
+id: gooding-2020
+title: "Interferometric Unruh Detectors for Bose-Einstein Condensates"
+authors:
+  - "Cisco Gooding"
+  - "Steffen Biermann"
+  - "Sebastian Erne"
+  - "Jorma Louko"
+  - "William George Unruh"
+  - "Jörg Schmiedmayer"
+  - "Silke Weinfurtner"
+year: 2020
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.125.213603
+arxiv: "2007.07160"
+source: https://arxiv.org/abs/2007.07160
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 91
+cites_seeds: [barcelo-2011]
+relevance: media

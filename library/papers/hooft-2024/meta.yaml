@@ -1,0 +1,44 @@
+id: hooft-2024
+title: "The sounds of science—a symphony for many instruments and voices: part II"
+authors:
+  - "Gerard ’t Hooft"
+  - "William D. Phillips"
+  - "Anton Zeilinger"
+  - "Roland E. Allen"
+  - "Jim Baggott"
+  - "François R. Bouchet"
+  - "Solange M G Cantanhede"
+  - "Lázaro A.M. Castanedo"
+  - "Ana Marı́a Cetto"
+  - "A. A. Coley"
+  - "Bryan J. Dalton"
+  - "Peyman Fahimi"
+  - "Sharon E. R. Franks"
+  - "Alex Frañó"
+  - "Edward S. Fry"
+  - "S. Goldfarb"
+  - "Karlheinz Langanke"
+  - "Cherif  Farid Matta"
+  - "D.V. Nanopoulos"
+  - "Chad Orzel"
+  - "Sam Patrick"
+  - "Viraj A. A. Sanghai"
+  - "Iván K. Schuller"
+  - "Oleg Shpyrko"
+  - "Suzy Lidström"
+year: 2024
+venue: "Physica Scripta"
+doi: 10.1088/1402-4896/ad2abe
+arxiv: "2404.11724"
+source: https://arxiv.org/abs/2404.11724
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media

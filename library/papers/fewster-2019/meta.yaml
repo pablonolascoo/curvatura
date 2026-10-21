@@ -1,0 +1,21 @@
+id: fewster-2019
+title: "Quantum strong energy inequalities"
+authors:
+  - "Christopher J. Fewster"
+  - "Eleni-Alexandra Kontou"
+year: 2019
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.99.045001
+arxiv: "1809.05047"
+source: https://arxiv.org/abs/1809.05047
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 26
+cites_seeds: [pfenning-ford-1997]
+relevance: media

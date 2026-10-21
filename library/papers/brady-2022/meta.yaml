@@ -1,0 +1,21 @@
+id: brady-2022
+title: "Symplectic circuits, entanglement, and stimulated Hawking radiation in analog gravity"
+authors:
+  - "Anthony J. Brady"
+  - "Ivan Agullo"
+  - "Dimitrios Kranas"
+year: 2022
+venue: "arXiv:2209.11317"
+doi: 10.1103/physrevd.106.105021
+arxiv: "2209.11317"
+source: https://arxiv.org/abs/2209.11317
+language: en
+subsystems: [D, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

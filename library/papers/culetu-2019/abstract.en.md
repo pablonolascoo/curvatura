@@ -1,0 +1,1 @@
+Few comments upon Gonzalez-Fernandez and Camacho paper (arXiv: 1904.02299) are pointed out. We bring evidences that the analogue gravity recipe does not work for a BEC in an anisotropic harmonic-oscillator trap. The analogy with an accelerated observer does not seem to be realistic. Some loopholes related to the physical units are emphasized.

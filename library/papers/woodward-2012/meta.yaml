@@ -1,0 +1,20 @@
+id: woodward-2012
+title: "Making Starships and Stargates"
+authors:
+  - "James F. Woodward"
+year: 2012
+venue: "Springer eBooks"
+doi: 10.1007/978-1-4614-5623-0
+arxiv: null
+source: https://doi.org/10.1007/978-1-4614-5623-0
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [alcubierre-1994]
+relevance: media

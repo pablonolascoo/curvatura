@@ -1,0 +1,1 @@
+We calculate (using zeta function regularization) the Casimir energy of the rotating Nambu-Goto string with the Gauss-Bonnet term in the action and point-like masses at the ends. The resulting value turns out to be negative for all values of the parameters of the model.

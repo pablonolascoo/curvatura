@@ -1,0 +1,20 @@
+id: ford-1996
+title: "Restrictions on Negative Energy Density in Flat Spacetime"
+authors:
+  - "L. H. Ford"
+  - "Thomas A. Roman"
+year: 1996
+venue: "Phys.Rev. D55 (1997) 2082-2089"
+doi: 10.1103/physrevd.55.2082
+arxiv: "gr-qc/9607003"
+source: https://arxiv.org/abs/gr-qc/9607003
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

@@ -1,0 +1,20 @@
+id: lombardo-2012
+title: "Dynamics of an Acoustic Black Hole as an Open Quantum System"
+authors:
+  - "Fernando C. Lombardo"
+  - "Gustavo J. Turiaci"
+year: 2012
+venue: "arXiv:1208.0198"
+doi: 10.1103/physrevd.87.084028
+arxiv: "1208.0198"
+source: https://arxiv.org/abs/1208.0198
+language: en
+subsystems: [Q, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

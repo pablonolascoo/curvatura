@@ -1,0 +1,23 @@
+id: panah-2026
+title: "Optical and thermodynamic signatures of Lorentz symmetry breaking in bumblebee AdS black holes"
+authors:
+  - "B. Eslam Panah"
+  - "Abdullah Güvendi"
+  - "Semra Gürtaş Doğan"
+  - "Omar Mustafa"
+year: 2026
+venue: "Chinese Journal of Physics"
+doi: 10.1016/j.cjph.2026.07.024
+arxiv: "2607.15827"
+source: https://arxiv.org/abs/2607.15827
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+relevance: media

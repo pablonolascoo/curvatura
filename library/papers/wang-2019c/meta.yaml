@@ -1,0 +1,23 @@
+id: wang-2019c
+title: "Unconventional Cavity Optomechanics: Nonlinear Control of Phonons in the Acoustic Quantum Vacuum"
+authors:
+  - "Xin Wang"
+  - "Wei Qin"
+  - "Adam Miranowicz"
+  - "Salvatore Savasta"
+  - "Franco Nori"
+year: 2019
+venue: "Phys. Rev. A 100, 063827 (2019)"
+doi: 10.1103/physreva.100.063827
+arxiv: "1902.09910"
+source: https://arxiv.org/abs/1902.09910
+language: en
+subsystems: [E, D, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

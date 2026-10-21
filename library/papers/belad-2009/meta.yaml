@@ -1,0 +1,22 @@
+id: belad-2009
+title: "Improved CHAID algorithm for document structure modelling"
+authors:
+  - "Abdel Belaı̈d"
+  - "T. Moinel"
+  - "Yves Rangoni"
+year: 2009
+venue: "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+doi: 10.1117/12.839794
+arxiv: null
+source: https://doi.org/10.1117/12.839794
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+relevance: media

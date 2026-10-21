@@ -1,0 +1,21 @@
+id: hauser-2020
+title: "Time travel paradoxes and multiple histories"
+authors:
+  - "Jacob Hauser"
+  - "Barak Shoshany"
+year: 2020
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.102.064062
+arxiv: "1911.11590"
+source: https://arxiv.org/abs/1911.11590
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

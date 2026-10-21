@@ -1,0 +1,1 @@
+I demonstrate that, under certain circumstances, regions of negative energy density can undergo gravitational collapse into a black hole. The resultant exterior black hole spacetimes necessarily have negative mass and non-trivial topology. A full theory of quantum gravity, in which topology-changing processes take place, could give rise to such spacetimes.

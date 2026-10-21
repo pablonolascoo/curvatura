@@ -1,0 +1,22 @@
+id: kouretsis-2012
+title: "Covariant kinematics and gravitational bounce in Finsler space-times"
+authors:
+  - "Alexandros P. Kouretsis"
+  - "M. Stathakopoulos"
+  - "Panayiotis C. Stavrinos"
+year: 2012
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.86.124025
+arxiv: "1208.1673"
+source: https://arxiv.org/abs/1208.1673
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 53
+cites_seeds: [barcelo-2011]
+relevance: media

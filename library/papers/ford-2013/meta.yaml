@@ -1,0 +1,21 @@
+id: ford-2013
+title: "Negative energy seen by accelerated observers"
+authors:
+  - "Lawrence H. Ford"
+  - "Thomas A. Roman"
+year: 2013
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.87.085001
+arxiv: "1302.2859"
+source: https://arxiv.org/abs/1302.2859
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [pfenning-ford-1997]
+relevance: media

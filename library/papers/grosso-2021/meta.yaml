@@ -1,0 +1,22 @@
+id: grosso-2021
+title: "The quantum Otto cycle in a superconducting cavity in the non-adiabatic regime"
+authors:
+  - "Nicolás F. Del Grosso"
+  - "Fernando C. Lombardo"
+  - "Francisco D. Mazzitelli"
+  - "Paula I. Villar"
+year: 2021
+venue: "Phys. Rev. A 105, 022202 (2022)"
+doi: 10.1103/physreva.105.022202
+arxiv: "2111.15311"
+source: https://arxiv.org/abs/2111.15311
+language: en
+subsystems: [E, D]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

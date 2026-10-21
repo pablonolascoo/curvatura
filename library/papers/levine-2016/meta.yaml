@@ -1,0 +1,19 @@
+id: levine-2016
+title: "A Holographic Dual of the Quantum Inequalities"
+authors:
+  - "Adam R. Levine"
+year: 2016
+venue: "arXiv:1605.05751"
+doi: null
+arxiv: "1605.05751"
+source: https://arxiv.org/abs/1605.05751
+language: en
+subsystems: [C, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

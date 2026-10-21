@@ -1,0 +1,22 @@
+id: gheibi-2018
+title: "Magnetoacoustic and Alfvénic black holes"
+authors:
+  - "Akbar Gheibi"
+  - "Hossein Safari"
+  - "D. E. Innes"
+year: 2018
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-018-6109-1
+arxiv: null
+source: https://doi.org/10.1140/epjc/s10052-018-6109-1
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

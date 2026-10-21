@@ -1,0 +1,21 @@
+id: sedov-2017
+title: "Artificial gravity effect on spin-polarized exciton-polaritons"
+authors:
+  - "E. S. Sedov"
+  - "Alexey Vitalievich Kavokin"
+year: 2017
+venue: "Scientific Reports"
+doi: 10.1038/s41598-017-10137-z
+arxiv: "1609.08907"
+source: https://arxiv.org/abs/1609.08907
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

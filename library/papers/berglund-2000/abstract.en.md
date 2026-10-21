@@ -1,0 +1,1 @@
+We study the relativistic dynamics of brane probes in singular warped spacetimes and establish limits for such analysis. The behavior of the semiclassical brane probe wave functions implies that unitarity boundary conditions can be imposed at the singularity.

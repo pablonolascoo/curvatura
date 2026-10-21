@@ -1,0 +1,1 @@
+We investigate scalar and tensor fields in the brane model solution for the 5D space-time with standing gravitational waves in the bulk and show that even in the case of increasing warp factor there exist normalizable zero modes localized on the brane.

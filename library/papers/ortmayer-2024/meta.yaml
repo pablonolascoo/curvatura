@@ -1,0 +1,21 @@
+id: ortmayer-2024
+title: "Molecular dynamics study of the sonic horizon of microscopic Laval nozzles"
+authors:
+  - "Helmut Ortmayer"
+  - "Robert E. Zillich"
+year: 2024
+venue: "Physical review. E"
+doi: 10.1103/physreve.109.065104
+arxiv: "2306.17641"
+source: https://arxiv.org/abs/2306.17641
+language: en
+subsystems: [G, D]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

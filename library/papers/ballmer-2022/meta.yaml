@@ -1,0 +1,35 @@
+id: ballmer-2022
+title: "Snowmass2021 Cosmic Frontier White Paper: Future Gravitational-Wave Detector Facilities"
+authors:
+  - "Stefan W. Ballmer"
+  - "Rana Adhikari"
+  - "Leonardo Badurina"
+  - "Duncan A. Brown"
+  - "Swapan Chattopadhyay"
+  - "Matthew Evans"
+  - "Peter Fritschel"
+  - "Evan Hall"
+  - "Jason M. Hogan"
+  - "Karan Jani"
+  - "Tim Kovachy"
+  - "Kevin Kuns"
+  - "Ariel Schwartzman"
+  - "Daniel Sigg"
+  - "Bram Slagmolen"
+  - "Salvatore Vitale"
+  - "Christopher Wipf"
+year: 2022
+venue: "arXiv:2203.08228"
+doi: null
+arxiv: "2203.08228"
+source: https://arxiv.org/abs/2203.08228
+language: en
+subsystems: [D, V]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

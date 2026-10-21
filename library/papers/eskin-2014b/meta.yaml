@@ -1,0 +1,20 @@
+id: eskin-2014b
+title: "Nonstationary analogue black holes"
+authors:
+  - "Gregory Eskin"
+year: 2014
+venue: "Inverse Problems"
+doi: 10.1088/0266-5611/30/12/125007
+arxiv: "1306.0149"
+source: https://arxiv.org/abs/1306.0149
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,24 @@
+id: armata-2016
+title: "Dynamical Casimir-Polder force between an excited atom and a conducting wall"
+authors:
+  - "Federico Armata"
+  - "Ruggero Vasile"
+  - "Pablo Barcellona"
+  - "Stefan Yoshi Buhmann"
+  - "Lucia Rizzuto"
+  - "Roberto Passante"
+year: 2016
+venue: "Phys. Rev. A 94, 042511 (2016)"
+doi: 10.1103/physreva.94.042511
+arxiv: "1606.07013"
+source: https://arxiv.org/abs/1606.07013
+language: en
+subsystems: [E, D]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

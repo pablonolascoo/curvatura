@@ -1,0 +1,21 @@
+id: l-2011
+title: "Computational Aero Elastic Modelling of Airframes and Turbo Machinery"
+authors:
+  - "Hari Prasanth L."
+  - "S. Vivek"
+year: 2011
+venue: "Applied Mechanics and Materials"
+doi: 10.4028/www.scientific.net/amm.110-116.2612
+arxiv: null
+source: https://doi.org/10.4028/www.scientific.net/amm.110-116.2612
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

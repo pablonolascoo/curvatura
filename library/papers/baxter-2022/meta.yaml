@@ -1,0 +1,20 @@
+id: baxter-2022
+title: "The voyage of 600 years"
+authors:
+  - "Stephen B. Baxter"
+year: 2022
+venue: "book-chapter"
+doi: 10.1093/oso/9780192897985.003.0003
+arxiv: null
+source: https://doi.org/10.1093/oso/9780192897985.003.0003
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

@@ -1,0 +1,21 @@
+id: lopez-2026
+title: "Quantum optomechanics with arbitrary mirror displacement: nonlinear Langevin equation with non-Markovian back-action noises"
+authors:
+  - "Adrian E. Rubio Lopez"
+  - "Hing-Tong Cho"
+  - "Bei-Lok Hu"
+year: 2026
+venue: "arXiv:2608.29429"
+doi: null
+arxiv: "2608.29429"
+source: https://arxiv.org/abs/2608.29429
+language: en
+subsystems: [E, D, M]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

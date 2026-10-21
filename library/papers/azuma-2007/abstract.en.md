@@ -1,0 +1,1 @@
+The soliton technique is applied to the 5D static Einstein-Maxwell equations, and an infinite number of solutions are explicitly obtained. We study the rod structure of 2-soliton solutions and we show that the 5D Reissner-Nordstrom solution and the 5D Majumdar-Papapetrou solution are included as the 2-soliton solutions.

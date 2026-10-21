@@ -1,0 +1,25 @@
+id: frion-2023
+title: "Bayesian analysis of a Unified Dark Matter model with transition: can it alleviate the $H_{0}$ tension?"
+authors:
+  - "Emmanuel Frion"
+  - "David Camarena"
+  - "Leonardo Giani"
+  - "Tays Miranda"
+  - "Daniele Bertacca"
+  - "Valerio Marra"
+  - "Oliver F. Piattella"
+year: 2023
+venue: "The Open Journal of Astrophysics, Volume 7, 2024"
+doi: 10.21105/astro.2307.06320
+arxiv: "2307.06320"
+source: https://arxiv.org/abs/2307.06320
+language: en
+subsystems: [C]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

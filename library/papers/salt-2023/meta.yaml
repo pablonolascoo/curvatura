@@ -1,0 +1,22 @@
+id: salt-2023
+title: "Thin-shell wormholes constructed via polytropic surgery"
+authors:
+  - "Mustafa Saltı"
+  - "Oktay Aydogdu A"
+  - "Pramit Rej"
+year: 2023
+venue: "Chinese Journal of Physics"
+doi: 10.1016/j.cjph.2023.09.002
+arxiv: null
+source: https://doi.org/10.1016/j.cjph.2023.09.002
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [ford-roman-1996]
+relevance: media

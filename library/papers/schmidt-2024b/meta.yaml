@@ -1,0 +1,21 @@
+id: schmidt-2024b
+title: "Analog model for scalar dynamics in a Kerr–Sen background"
+authors:
+  - "Alexandre G. M. Schmidt"
+  - "Matheus E. Pereira"
+year: 2024
+venue: "Journal of Mathematical Physics"
+doi: 10.1063/5.0228996
+arxiv: null
+source: https://doi.org/10.1063/5.0228996
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

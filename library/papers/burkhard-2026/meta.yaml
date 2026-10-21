@@ -1,0 +1,25 @@
+id: burkhard-2026
+title: "Stimulated Hawking effect and quasinormal mode resonance in a polariton simulator of field theory on curved spacetime"
+authors:
+  - "Mattheus Burkhard"
+  - "Malte Kroj"
+  - "Kévin Falque"
+  - "Alberto Bramati"
+  - "Iacopo Carusotto"
+  - "Maxime J. Jacquet"
+year: 2026
+venue: "Comptes Rendus Physique"
+doi: 10.5802/crphys.278
+arxiv: "2511.12339"
+source: https://arxiv.org/abs/2511.12339
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,22 @@
+id: kosior-2018
+title: "Unruh effect for interacting particles with ultracold atoms"
+authors:
+  - "Arkadiusz Kosior"
+  - "Maciej Lewenstein"
+  - "Alessio Celi"
+year: 2018
+venue: "SciPost Physics"
+doi: 10.21468/scipostphys.5.6.061
+arxiv: "1804.11323"
+source: https://arxiv.org/abs/1804.11323
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 43
+cites_seeds: [barcelo-2011]
+relevance: media

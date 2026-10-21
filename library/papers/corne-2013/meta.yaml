@@ -1,0 +1,20 @@
+id: corne-2013
+title: "Minimally-Constrained Canonical Quantization of Geometrodynamics"
+authors:
+  - "Matthew Corne"
+year: 2013
+venue: "NCSU Libraries Repository (North Carolina State University Libraries)"
+doi: null
+arxiv: null
+source: https://openalex.org/W2523014849
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [krasnikov-1998, lobo-visser-2004]
+relevance: media

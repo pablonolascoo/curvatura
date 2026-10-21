@@ -1,0 +1,36 @@
+id: weiskopf-2006c
+title: "Visualization in the Einstein Year 2005: A Case Study on Explanatory and Illustrative Visualization of Relativity and Astrophysics"
+authors:
+  - "Daniel Weiskopf"
+  - "Marc P. Borchers"
+  - "T. Ertl"
+  - "Martin Falk"
+  - "Oliver Fechtig"
+  - "R. Frank"
+  - "Frank Grave"
+  - "Andrew Peter King"
+  - "U. Kraus"
+  - "Thomas Müller"
+  - "Hans-Peter Nollert"
+  - "I.R. Mendez"
+  - "H. Ruder"
+  - "Corvin Zahn"
+  - "M. Zatloukal"
+  - "Tobias Schafhitzel"
+  - "S. Schar"
+year: 2006
+venue: "conference-paper"
+doi: 10.1109/vis.2005.120
+arxiv: null
+source: https://doi.org/10.1109/vis.2005.120
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 10
+cites_seeds: [alcubierre-1994]
+relevance: media

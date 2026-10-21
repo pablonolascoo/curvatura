@@ -1,0 +1,21 @@
+id: chen-2022b
+title: "Derivation of a Theoretical Reactionless Drive, Using the Abraham-Lorentz Force (SAE Paper 2022-01-0054)"
+authors:
+  - "Ed Chen"
+  - "Tara Cronin"
+year: 2022
+venue: "SAE technical papers on CD-ROM/SAE technical paper series"
+doi: 10.4271/2022-01-0054
+arxiv: null
+source: https://doi.org/10.4271/2022-01-0054
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [lobo-visser-2004]
+relevance: media

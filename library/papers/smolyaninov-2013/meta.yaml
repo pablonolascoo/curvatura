@@ -1,0 +1,19 @@
+id: smolyaninov-2013
+title: "Analogue gravity in hyperbolic metamaterials"
+authors:
+  - "Igor I. Smolyaninov"
+year: 2013
+venue: "Phys. Rev. A 88, 033843 (2013)"
+doi: 10.1103/physreva.88.033843
+arxiv: "1307.8431"
+source: https://arxiv.org/abs/1307.8431
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

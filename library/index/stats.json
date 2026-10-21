@@ -1,0 +1,10 @@
+{
+  "papers": 3287,
+  "chunks": 5689,
+  "by_kind": {
+    "paper": 5607,
+    "equation": 12,
+    "doc": 58,
+    "note": 12
+  }
+}

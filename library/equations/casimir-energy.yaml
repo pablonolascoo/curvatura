@@ -1,0 +1,24 @@
+id: casimir-energy
+paper: casimir-1948
+subsystem: E
+title: { es: Energía de Casimir entre placas, en: Casimir energy between plates, fr: Énergie de Casimir entre plaques }
+expr: "rho_C = -(pi^2*hbar*c) / (720*a^4)"
+symbols:
+  rho_C: { group: energy, es: Densidad de energía entre las placas, en: Energy density between the plates, fr: Densité d'énergie entre les plaques }
+  a: { group: geometry, es: Separación entre placas, en: Plate separation, fr: Séparation des plaques }
+  hbar: { group: constant, es: Constante de Planck reducida, en: Reduced Planck constant, fr: Constante de Planck réduite }
+  c: { group: constant, es: Velocidad de la luz, en: Speed of light, fr: Vitesse de la lumière }
+compute:
+  result: "-(pi^2*hbar*c) / (720*a^4)"
+  unit: "J/m³"
+  inputs:
+    a: { min: 1e-9, max: 1e-6, default: 1e-8, unit: m, log: true }
+  constants: [hbar, c]
+  also:
+    label: { es: Presión, en: Pressure, fr: Pression }
+    expr: "-(pi^2*hbar*c) / (240*a^4)"
+    unit: Pa
+note:
+  es: Única fuente de energía negativa medida en laboratorio. Compárala con lo que pide la pared de la burbuja.
+  en: The only laboratory-measured source of negative energy. Compare it with what the bubble wall demands.
+  fr: Seule source d'énergie négative mesurée en laboratoire. Comparez-la à ce qu'exige la paroi de la bulle.

@@ -1,0 +1,22 @@
+id: garcia-2012
+title: "Generic spherically symmetric dynamic thin-shell traversable wormholes in standard general relativity"
+authors:
+  - "Nadiezhda Montelongo García"
+  - "Francisco S. N. Lobo"
+  - "Matt Visser"
+year: 2012
+venue: "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields"
+doi: 10.1103/physrevd.86.044026
+arxiv: "1112.2057"
+source: https://arxiv.org/abs/1112.2057
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 212
+cites_seeds: [lobo-visser-2004]
+relevance: media

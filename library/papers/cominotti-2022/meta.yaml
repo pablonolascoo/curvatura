@@ -1,0 +1,27 @@
+id: cominotti-2022
+title: "Observation of Massless and Massive Collective Excitations with Faraday Patterns in a Two-Component Superfluid"
+authors:
+  - "Riccardo Cominotti"
+  - "Anna Berti"
+  - "A. Farolfi"
+  - "Alessandro Zenesini"
+  - "Giacomo Lamporesi"
+  - "Iacopo Carusotto"
+  - "Alessio Recati"
+  - "G. Ferrari"
+year: 2022
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.128.210401
+arxiv: "2112.09880"
+source: https://arxiv.org/abs/2112.09880
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 55
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,23 @@
+id: malik-2024d
+title: "$f(R, T)$ Gravity Bouncing Universe with Cosmological Parameters"
+authors:
+  - "Adnan Malik"
+  - "Tayyaba Naz"
+  - "Aimen Rauf"
+  - "M. Farasat Shamir"
+  - "Z. Yousaf"
+year: 2024
+venue: "Eur. Phys. J. Plus 139 (2024) 276"
+doi: 10.1140/epjp/s13360-024-05006-4
+arxiv: "2403.15847"
+source: https://arxiv.org/abs/2403.15847
+language: en
+subsystems: [C, E, D]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

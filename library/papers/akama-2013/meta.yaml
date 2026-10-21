@@ -1,0 +1,21 @@
+id: akama-2013
+title: "Dynamical foundations of the brane-induced gravity"
+authors:
+  - "Keiichi Akama"
+  - "Takashi Hattori"
+year: 2013
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/0264-9381/30/20/205002
+arxiv: "1309.3090"
+source: https://arxiv.org/abs/1309.3090
+language: en
+subsystems: [G]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [barcelo-2011]
+relevance: media

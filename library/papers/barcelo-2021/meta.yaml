@@ -1,0 +1,21 @@
+id: barcelo-2021
+title: "Analogue gravity simulation of superpositions of spacetimes"
+authors:
+  - "Carlos Barceló"
+  - "Luis J. Garay"
+  - "Gerardo García-Moreno"
+year: 2021
+venue: "Eur.Phys.J.C 82 (2022) 8, 727"
+doi: 10.1140/epjc/s10052-022-10702-5
+arxiv: "2104.15078"
+source: https://arxiv.org/abs/2104.15078
+language: en
+subsystems: [G, Q, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

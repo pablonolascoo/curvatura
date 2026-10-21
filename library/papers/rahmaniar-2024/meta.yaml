@@ -1,0 +1,22 @@
+id: rahmaniar-2024
+title: "Deep learning and quantum algorithms approach to investigating the feasibility of wormholes: A review"
+authors:
+  - "Wahyu Rahmaniar"
+  - "Bilal Ramzan"
+  - "Alfian Ma’arif"
+year: 2024
+venue: "Astronomy and Computing"
+doi: 10.1016/j.ascom.2024.100802
+arxiv: null
+source: https://doi.org/10.1016/j.ascom.2024.100802
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [alcubierre-1994, krasnikov-1998]
+relevance: media

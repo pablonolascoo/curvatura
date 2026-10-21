@@ -1,0 +1,20 @@
+id: lobo-2020
+title: "Elasticidade do espaço-tempo"
+authors:
+  - "Matheus Pereira Lobo"
+year: 2020
+venue: "preprint"
+doi: 10.31219/osf.io/nbca8
+arxiv: null
+source: https://doi.org/10.31219/osf.io/nbca8
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+relevance: media

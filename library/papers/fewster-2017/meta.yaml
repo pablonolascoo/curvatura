@@ -1,0 +1,20 @@
+id: fewster-2017
+title: "Quantum Energy Inequalities"
+authors:
+  - "Christopher J. Fewster"
+year: 2017
+venue: "Fundamental theories of physics"
+doi: 10.1007/978-3-319-55182-1_10
+arxiv: null
+source: https://doi.org/10.1007/978-3-319-55182-1_10
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 20
+cites_seeds: [pfenning-ford-1997]
+relevance: media

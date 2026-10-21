@@ -1,0 +1,18 @@
+id: einstein-coupling
+paper: morris-thorne-1988
+subsystem: E
+title: { es: Ecuaciones de Einstein, en: Einstein equations, fr: Équations d'Einstein }
+expr: "G_mu_nu = kappa * T_mu_nu"
+symbols:
+  G_mu_nu: { group: geometry, es: Tensor de Einstein (curvatura), en: Einstein tensor (curvature), fr: Tenseur d'Einstein (courbure) }
+  T_mu_nu: { group: energy, es: Tensor energía-momento, en: Stress-energy tensor, fr: Tenseur énergie-impulsion }
+  kappa: { group: constant, es: Acoplamiento 8πG/c⁴, en: Coupling 8πG/c⁴, fr: Couplage 8πG/c⁴ }
+compute:
+  result: "8*pi*G/c^4"
+  unit: "m/J"
+  inputs: {}
+  constants: [G, c]
+note:
+  es: κ ≈ 2·10⁻⁴³ m/J. Curvar el espacio de forma apreciable exige densidades de energía gigantescas.
+  en: κ ≈ 2·10⁻⁴³ m/J. Curving space appreciably requires enormous energy densities.
+  fr: κ ≈ 2·10⁻⁴³ m/J. Courber l'espace de façon appréciable exige des densités d'énergie énormes.

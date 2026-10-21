@@ -1,0 +1,1 @@
+We study the Dynamical Casimir Effect (DCE) due to an Abelian gauge field in 2+1 dimensions, in the presence of semitransparent, zero-width mirrors, which may move or deform in a time-dependent way. We obtain general expressions for the probability of motion-induced pair creation, which we render in a more explicit form, for some relevant states of motion.

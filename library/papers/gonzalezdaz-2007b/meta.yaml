@@ -1,0 +1,20 @@
+id: gonzalezdaz-2007b
+title: "Superluminal warp drive"
+authors:
+  - "Pedro F. González-Dı́az"
+year: 2007
+venue: "Physics Letters B"
+doi: 10.1016/j.physletb.2007.08.008
+arxiv: null
+source: https://doi.org/10.1016/j.physletb.2007.08.008
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [krasnikov-1998, lobo-visser-2004, natario-2002, pfenning-ford-1997]
+relevance: alta

@@ -1,0 +1,23 @@
+id: ge-2019
+title: "Acoustic black holes in curved spacetime and emergence of analogue Minkowski metric"
+authors:
+  - "Xian-Hui Ge"
+  - "Mikio Nakahara"
+  - "Sang-Jin Sin"
+  - "Yu Tian"
+  - "Shao-Feng Wu"
+year: 2019
+venue: "Phys. Rev. D 99, 104047 (2019)"
+doi: 10.1103/physrevd.99.104047
+arxiv: "1902.11126"
+source: https://arxiv.org/abs/1902.11126
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: media

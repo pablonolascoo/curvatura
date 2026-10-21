@@ -1,0 +1,21 @@
+id: garattini-2025e
+title: "Hot Casimir wormholes"
+authors:
+  - "Remo Garattini"
+  - "Mir Faizal"
+year: 2025
+venue: "Journal of Cosmology and Astroparticle Physics"
+doi: 10.1088/1475-7516/2025/01/081
+arxiv: "2403.15174"
+source: https://arxiv.org/abs/2403.15174
+language: en
+subsystems: [G]
+kind: fuente
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [ford-roman-1996]
+relevance: media

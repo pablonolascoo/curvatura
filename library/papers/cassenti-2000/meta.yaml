@@ -1,0 +1,20 @@
+id: cassenti-2000
+title: "Engineering warp drives"
+authors:
+  - "Brice N. Cassenti"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1290909
+arxiv: null
+source: https://doi.org/10.1063/1.1290909
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [vandenbroeck-1999]
+relevance: alta

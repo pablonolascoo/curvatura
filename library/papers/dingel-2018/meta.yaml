@@ -1,0 +1,22 @@
+id: dingel-2018
+title: "Optical analogue between relativistic Thomas effect in special relativity and phase response of the photonic integrated circuits-based all-pass filter"
+authors:
+  - "Benjamin B. Dingel"
+  - "Aria Buenaventura"
+  - "Koji Murakawa"
+year: 2018
+venue: "Journal of Modern Optics"
+doi: 10.1080/09500340.2018.1502826
+arxiv: null
+source: https://doi.org/10.1080/09500340.2018.1502826
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+relevance: media

@@ -1,0 +1,21 @@
+id: castorina-2012
+title: "Symmetry Restoration by Acceleration"
+authors:
+  - "P. Castorina"
+  - "Marco Finocchiaro"
+year: 2012
+venue: "Journal of Modern Physics"
+doi: 10.4236/jmp.2012.311209
+arxiv: "1207.3677"
+source: https://arxiv.org/abs/1207.3677
+language: en
+subsystems: [G, D]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 25
+cites_seeds: [barcelo-2011]
+relevance: media

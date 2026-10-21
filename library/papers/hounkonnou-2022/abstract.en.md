@@ -1,0 +1,1 @@
+We study the Hamiltonian dynamics of a spaceship in the background of Alcubierre and Gödel metrics. We derive the Hamiltonian vector fields governing the system evolution, construct and discuss related recursion operators generating the constants of motion. Besides, we characterize relevant master symmetries.

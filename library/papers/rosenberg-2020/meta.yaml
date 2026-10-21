@@ -1,0 +1,20 @@
+id: rosenberg-2020
+title: "Optical analogues of black-hole horizons"
+authors:
+  - "Yuval Rosenberg"
+year: 2020
+venue: "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences"
+doi: 10.1098/rsta.2019.0232
+arxiv: "2002.04216"
+source: https://arxiv.org/abs/2002.04216
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 36
+cites_seeds: [barcelo-2011]
+relevance: media

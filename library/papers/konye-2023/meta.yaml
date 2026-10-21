@@ -1,0 +1,26 @@
+id: konye-2023
+title: "Anisotropic optics and gravitational lensing of tilted Weyl fermions"
+authors:
+  - "Viktor Könye"
+  - "Lotte Mertens"
+  - "Corentin Morice"
+  - "Corentin Morice"
+  - "Ali G. Moghaddam"
+  - "Jasper van Wezel"
+  - "Jeroen van den Brink"
+year: 2023
+venue: "Physical review. B./Physical review. B"
+doi: 10.1103/physrevb.107.l201406
+arxiv: "2210.16145"
+source: https://arxiv.org/abs/2210.16145
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 18
+cites_seeds: [barcelo-2011]
+relevance: media

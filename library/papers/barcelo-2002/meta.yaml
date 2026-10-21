@@ -1,0 +1,20 @@
+id: barcelo-2002
+title: "Braneworld physics from the analog-gravity perspective: finiteness effects"
+authors:
+  - "Carlos Barcelo"
+  - "Antonio Campos"
+year: 2002
+venue: "Phys.Lett. B563 (2003) 217-223"
+doi: 10.1016/s0370-2693(03)00646-4
+arxiv: "hep-th/0206217"
+source: https://arxiv.org/abs/hep-th/0206217
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: baja

@@ -1,0 +1,20 @@
+id: tishin-2026
+title: "An effective scaling framework for non-adiabatic mode dynamics"
+authors:
+  - "A. M. Tishin"
+year: 2026
+venue: "Chaos Solitons & Fractals"
+doi: 10.1016/j.chaos.2026.118839
+arxiv: "2605.13376"
+source: https://arxiv.org/abs/2605.13376
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+relevance: media

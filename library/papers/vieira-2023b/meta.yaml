@@ -1,0 +1,20 @@
+id: vieira-2023b
+title: "Quasibound states of analytic black-hole configurations in three and four dimensions"
+authors:
+  - "H. S. Vieira"
+year: 2023
+venue: "Physical review. D/Physical review. D."
+doi: 10.1103/physrevd.107.104011
+arxiv: "2212.13590"
+source: https://arxiv.org/abs/2212.13590
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

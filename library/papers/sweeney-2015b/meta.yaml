@@ -1,0 +1,20 @@
+id: sweeney-2015b
+title: "Gravity for Warp Speed"
+authors:
+  - "John F. Sweeney"
+year: 2015
+venue: "viXra"
+doi: null
+arxiv: null
+source: https://openalex.org/W55625675
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+relevance: media

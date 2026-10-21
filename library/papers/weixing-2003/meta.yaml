@@ -1,0 +1,22 @@
+id: weixing-2003
+title: "Quantum Inequality for Negative Energy Density States of Massive Dirac Field in Four-Dimensional Spacetime"
+authors:
+  - "Shu Wei-Xing"
+  - "Wu Pun-Xun"
+  - "Hongwei Yu"
+year: 2003
+venue: "Chinese Physics Letters"
+doi: 10.1088/0256-307x/20/12/005
+arxiv: null
+source: https://doi.org/10.1088/0256-307x/20/12/005
+language: en
+subsystems: [G, C]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+relevance: media

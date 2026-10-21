@@ -1,0 +1,21 @@
+id: marolf-2002
+title: "Stringy negative-tension branes and the second law of thermodynamics"
+authors:
+  - "Donald M. Marolf"
+  - "Simon F Ross"
+year: 2002
+venue: "Journal of High Energy Physics"
+doi: 10.1088/1126-6708/2002/04/008
+arxiv: "hep-th/0202091"
+source: https://arxiv.org/abs/hep-th/0202091
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [alcubierre-1994]
+relevance: media

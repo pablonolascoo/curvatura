@@ -1,0 +1,24 @@
+id: helmerich-2024b
+title: "Warp Factory: A Numerical Toolkit for the Analysis and Optimization of Warp Drive Geometries"
+authors:
+  - "Christopher Helmerich"
+  - "Jared Fuchs"
+  - "Alexey Bobrick"
+  - "Brandon Melcher"
+  - "Luke Sellers"
+  - "Gianni Martire"
+year: 2024
+venue: "arXiv:2404.10855"
+doi: 10.2514/6.2023-0553
+arxiv: "2404.10855"
+source: https://arxiv.org/abs/2404.10855
+language: en
+subsystems: [G, C, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+relevance: alta

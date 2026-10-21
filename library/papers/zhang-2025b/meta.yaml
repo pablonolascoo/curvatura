@@ -1,0 +1,22 @@
+id: zhang-2025b
+title: "The Information Loss Problem and Hawking Radiation as Tunneling"
+authors:
+  - "Baocheng Zhang"
+  - "Christian Corda"
+  - "Qing-yu Cai"
+year: 2025
+venue: "Entropy"
+doi: 10.3390/e27020167
+arxiv: "2502.09924"
+source: https://arxiv.org/abs/2502.09924
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+relevance: media

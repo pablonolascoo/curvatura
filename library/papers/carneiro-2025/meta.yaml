@@ -1,0 +1,23 @@
+id: carneiro-2025
+title: "On Nanocones as Gravitational Analog Systems"
+authors:
+  - "F. L. Carneiro"
+  - "B. C. C. Carneiro"
+  - "David L. Azevedo"
+  - "S. C. Ulhoa"
+year: 2025
+venue: "Annalen der Physik"
+doi: 10.1002/andp.202400448
+arxiv: "2406.05544"
+source: https://arxiv.org/abs/2406.05544
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+relevance: media
