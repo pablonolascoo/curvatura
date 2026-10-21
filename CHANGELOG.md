@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.1.0 · 2026-10-21
+
 ### Añadido
 - Guion del proyecto (`ROADMAP.md`) y especificación de los nueve subsistemas (`docs/subsistemas/`).
 - Biblioteca: 23 fichas, 20 verificadas contra arXiv; resúmenes originales y traducciones al español y francés.
