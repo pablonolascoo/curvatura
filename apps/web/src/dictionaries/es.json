@@ -348,7 +348,8 @@
     "error": "No se pudo cargar la valoración",
     "onWeb": "Valorar en la web",
     "loading": "Cargando…",
-    "saved": "Guardado."
+    "saved": "Guardado.",
+    "soon": "Las valoraciones se abrirán en cuanto se active el inicio de sesión con ORCID."
   },
   "account": {
     "title": "Cuenta",

@@ -10,10 +10,11 @@ type Datos = {
   menciones: { nombre: string; orcid: string; base: string | null }[];
   mia: { estrellas: number; mencion: number } | null;
   usuario: { nombre: string; mencion: string } | null;
+  orcid?: boolean;
 };
 type Labels = {
   title: string; votes: string; yours: string; login: string; honor: string; honorGive: string; honorGiven: string;
-  honorHow: string; honorList: string; error: string; onWeb: string; loading: string; saved: string;
+  honorHow: string; honorList: string; error: string; onWeb: string; loading: string; saved: string; soon: string;
 };
 
 function Estrellas({ valor, size = 18, label }: { valor: number; size?: number; label: string }) {
@@ -78,6 +79,8 @@ export function Rating({ paper, lang, labels }: { paper: string; lang: string; l
 
       {app ? (
         <a href={`${SITE_URL}${volver}`} className="inline-flex h-10 w-max items-center rounded-md border border-line px-4 text-sm text-fg hover:border-line-strong">{labels.onWeb}</a>
+      ) : !d.usuario && d.orcid === false ? (
+        <p className="text-sm text-muted">{labels.soon}</p>
       ) : !d.usuario ? (
         <a href={loginUrl(volver)} className="inline-flex h-10 w-max items-center gap-2 rounded-md bg-[var(--ink)] px-4 text-sm font-medium text-[var(--bg)] active:scale-[0.98]">
           {labels.login}

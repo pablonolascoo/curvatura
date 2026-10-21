@@ -198,7 +198,7 @@ async function api(req: Request, env: Env, ctx: ExecutionContext): Promise<Respo
       env.DB.prepare(`SELECT u.nombre, u.id AS orcid, u.mencion_base AS base FROM valoraciones v JOIN usuarios u ON u.id = v.usuario WHERE v.paper = ?1 AND v.mencion = 1 AND u.mencion = 'aprobada' ORDER BY v.fecha`).bind(paper),
       env.DB.prepare(`SELECT estrellas, mencion FROM valoraciones WHERE paper = ?1 AND usuario = ?2`).bind(paper, yo?.id ?? ""),
     ]);
-    return json({ resumen: agg.results[0], menciones: menciones.results, mia: mia.results[0] ?? null, usuario: yo ? { nombre: yo.nombre, mencion: yo.mencion } : null });
+    return json({ resumen: agg.results[0], menciones: menciones.results, mia: mia.results[0] ?? null, usuario: yo ? { nombre: yo.nombre, mencion: yo.mencion } : null, orcid: !!(env.ORCID_CLIENT_ID && env.ORCID_CLIENT_SECRET) });
   }
 
   if (p === "/api/valoraciones" && req.method === "POST") {

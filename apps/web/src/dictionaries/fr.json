@@ -348,7 +348,8 @@
     "error": "Impossible de charger l'évaluation",
     "onWeb": "Évaluer sur le site",
     "loading": "Chargement…",
-    "saved": "Enregistré."
+    "saved": "Enregistré.",
+    "soon": "Les évaluations ouvriront dès que la connexion ORCID sera activée."
   },
   "account": {
     "title": "Compte",

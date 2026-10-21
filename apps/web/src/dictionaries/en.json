@@ -348,7 +348,8 @@
     "error": "Could not load the rating",
     "onWeb": "Rate on the website",
     "loading": "Loading…",
-    "saved": "Saved."
+    "saved": "Saved.",
+    "soon": "Ratings open as soon as ORCID sign-in is enabled."
   },
   "account": {
     "title": "Account",
