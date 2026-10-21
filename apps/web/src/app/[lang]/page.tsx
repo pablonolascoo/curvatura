@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppleLogo, ArrowUpRight, LinuxLogo, Minus, Plus, WindowsLogo } from "@phosphor-icons/react/dist/ssr";
 import { ButtonLink } from "@/components/ButtonLink";
+import { JsonLd } from "@/components/JsonLd";
+import { AUTHOR, SITE } from "@/lib/site";
 import { EntryAccordion } from "@/components/EntryAccordion";
 import { Marquee } from "@/components/Marquee";
 import { MiniField } from "@/components/MiniField";
@@ -53,8 +55,20 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const obstacles = getObstacles(lang);
   const eqLabels = { result: t.equations.result, source: t.equations.source, inputs: t.equations.inputs };
 
+  const ld = [
+    { "@context": "https://schema.org", "@type": "WebSite", name: "Curvatura", url: `${SITE}/${lang}/`, inLanguage: lang, description: t.meta.description,
+      potentialAction: { "@type": "SearchAction", target: `${SITE}/${lang}/buscar/?q={q}`, "query-input": "required name=q" } },
+    { "@context": "https://schema.org", "@type": "ResearchProject", name: "Curvatura", url: `${SITE}/${lang}/`, description: t.meta.description,
+      founder: { "@type": "Person", ...AUTHOR }, keywords: "warp drive, Alcubierre metric, energy conditions, general relativity",
+      license: "https://polyformproject.org/licenses/noncommercial/1.0.0/" },
+    { "@context": "https://schema.org", "@type": "Dataset", name: `${t.library.title} · Curvatura`, url: `${SITE}/${lang}/biblioteca/`,
+      description: t.library.body, creator: { "@type": "Person", ...AUTHOR }, license: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      size: `${papers.length} papers`, isAccessibleForFree: true },
+  ];
+
   return (
     <>
+      <JsonLd data={ld} />
       {/* Portada */}
       <section className="relative isolate overflow-hidden border-b border-line">
         <FadeOnLeave className="absolute inset-0 -z-10">

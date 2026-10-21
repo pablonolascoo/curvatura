@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SearchPanel } from "@/components/SearchPanel";
 import { getDictionary, hasLocale } from "@/lib/i18n";
+import { alternates } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/buscar">): Promise<Metadata> {
   const { lang } = await params;
-  return hasLocale(lang) ? { title: getDictionary(lang).search.title } : {};
+  return hasLocale(lang) ? { title: getDictionary(lang).search.title, alternates: alternates(lang, "buscar/") } : {};
 }
 
 export default async function Search({ params }: PageProps<"/[lang]/buscar">) {

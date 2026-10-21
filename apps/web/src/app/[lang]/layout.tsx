@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { RevealObserver } from "@/components/RevealObserver";
 import { LOCALES, getDictionary, hasLocale } from "@/lib/i18n";
 import { APP_VERSION } from "@/lib/version";
+import { AUTHOR, SITE, alternates } from "@/lib/site";
 import "../globals.css";
 
 const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-newsreader", style: ["normal", "italic"], display: "swap" });
@@ -20,10 +21,17 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang);
   return {
+    metadataBase: new URL(SITE),
     title: { default: t.meta.title, template: `%s · ${t.meta.title}` },
     description: t.meta.description,
-    alternates: { languages: Object.fromEntries(LOCALES.map((l) => [l, `/${l}/`])) },
-    openGraph: { title: t.meta.title, description: t.meta.description, locale: lang, type: "website" },
+    applicationName: "Curvatura",
+    authors: [AUTHOR],
+    creator: AUTHOR.name,
+    keywords: ["warp drive", "Alcubierre", "motor de curvatura", "general relativity", "energy conditions", "Natário", "Fuchs", "analogue gravity"],
+    alternates: alternates(lang),
+    openGraph: { title: t.meta.title, description: t.meta.description, locale: lang, type: "website", siteName: "Curvatura", images: [{ url: "/og.png", width: 1200, height: 630, alt: t.meta.title }] },
+    twitter: { card: "summary_large_image", title: t.meta.title, description: t.meta.description, images: ["/og.png"] },
+    robots: { index: true, follow: true },
     other: { "app-version": APP_VERSION },
   };
 }

@@ -8,14 +8,16 @@ import { equationView, equationsForPaper } from "@/lib/equations";
 import { LOCALES, LOCALE_NAMES, getDictionary, hasLocale, type Locale } from "@/lib/i18n";
 import { citation, getPaper, getStaticIds, getVersions, isOpenLicense } from "@/lib/library";
 import { renderMarkdown } from "@/lib/markdown";
+import { JsonLd } from "@/components/JsonLd";
+import { SITE, alternates } from "@/lib/site";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => LOCALES.flatMap((lang) => [...getStaticIds()].map((id) => ({ lang, id })));
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/biblioteca/[id]">): Promise<Metadata> {
-  const { id } = await params;
+  const { lang, id } = await params;
   const p = getPaper(id);
-  return p ? { title: p.title, description: citation(p) } : {};
+  return p ? { title: p.title, description: citation(p), alternates: alternates(lang, `biblioteca/${id}/`) } : {};
 }
 
 const NAMES: Record<string, string> = { ...LOCALE_NAMES, de: "Deutsch", it: "Italiano", ru: "Русский" };
@@ -46,8 +48,17 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
     ["", <span key="v" className={p.verified ? "text-fg" : "text-yellow"}>{p.verified ? t.library.verified : t.library.unverified}</span>],
   ];
 
+  const ld = {
+    "@context": "https://schema.org", "@type": "ScholarlyArticle", headline: p.title, name: p.title,
+    author: p.authors.map((name) => ({ "@type": "Person", name })), datePublished: String(p.year),
+    isPartOf: { "@type": "Periodical", name: p.venue }, url: `${SITE}/${lang}/biblioteca/${p.id}/`,
+    sameAs: [p.source, p.doi ? `https://doi.org/${p.doi}` : null].filter(Boolean), inLanguage: p.language,
+    ...(p.doi ? { identifier: { "@type": "PropertyValue", propertyID: "DOI", value: p.doi } } : {}),
+    license: isOpenLicense(p) ? `https://spdx.org/licenses/${p.license}.html` : undefined,
+  };
   return (
     <article className="mx-auto grid max-w-6xl gap-14 px-4 pb-24 pt-32 md:px-8 md:pt-40 lg:grid-cols-12">
+      <JsonLd data={ld} />
       <header className="grid content-start gap-8 lg:col-span-4">
         <Link href={`/${lang}/biblioteca/`} className="inline-flex w-max items-center gap-2 text-sm text-muted hover:text-fg">
           <ArrowLeft size={16} weight="light" aria-hidden /> {t.library.back}

@@ -27,6 +27,9 @@ const eqPapers = new Set(
 );
 const staticIds: string[] = [];
 mkdirSync(path.join(PUB, "library/p"), { recursive: true });
+// Fichas agrupadas por la inicial del id (≈36 archivos en vez de miles: límite de archivos de Workers).
+const shards = new Map<string, Record<string, unknown>>();
+const shardOf = (id: string) => (/^[a-z0-9]/.test(id) ? id[0] : "_");
 
 let figs = 0;
 const rows: unknown[] = [];
@@ -47,11 +50,13 @@ for (const id of readdirSync(PAPERS)) {
     const mm = /^abstract\.([a-z]{2})\.md$/.exec(f);
     if (mm) abstracts[mm[1]] = readFileSync(path.join(dir, f), "utf8").trim();
   }
-  writeFileSync(path.join(PUB, "library/p", `${id}.json`), JSON.stringify({
+  const sh = shards.get(shardOf(id)) ?? {};
+  shards.set(shardOf(id), sh);
+  sh[id] = ({
     id, title: m.title, authors: m.authors ?? [], year: m.year, venue: m.venue, doi: m.doi ?? null, arxiv: m.arxiv ?? null,
     source: m.source, license: m.license, subsystems: m.subsystems ?? [], kind: m.kind, verified: !!m.verified,
     relevance: m.relevance ?? "media", language: m.language ?? "en", cited_by: m.cited_by ?? 0, abstracts,
-  }));
+  });
   rows.push({
     st: isStatic ? 1 : 0,
     id,
@@ -67,6 +72,7 @@ for (const id of readdirSync(PAPERS)) {
     r: m.relevance === "alta" ? 2 : m.relevance === "baja" ? 0 : 1,
   });
 }
+for (const [k, v] of shards) writeFileSync(path.join(PUB, "library/p", `${k}.json`), JSON.stringify(v));
 writeFileSync(path.join(PUB, "library/index.json"), JSON.stringify(rows));
 writeFileSync(path.join(PUB, "library/static-ids.json"), JSON.stringify(staticIds));
 
@@ -96,5 +102,69 @@ const walk = (d: string, rel: string) => {
 };
 walk(path.join(PUB, "py/curvatura"), "curvatura");
 writeFileSync(path.join(PUB, "py/manifest.json"), JSON.stringify(pyFiles));
+
+// ── SEO, GEO y AEO: sitemap, robots y llms.txt ───────────────────────────────
+const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://curvatura.consultora-bim.workers.dev").replace(/\/$/, "");
+const LANGS = ["es", "en", "fr"];
+const today = new Date().toISOString().slice(0, 10);
+const pages = ["", "ecuaciones/", "laboratorio/", "biblioteca/", "buscar/", "notas/"];
+const notes = existsSync(path.join(import.meta.dir, "../content/notas"))
+  ? [...new Set(readdirSync(path.join(import.meta.dir, "../content/notas")).map((f) => f.replace(/\.(es|en|fr)\.md$/, "")))]
+  : [];
+const urls = [
+  ...pages.map((p) => ({ p, pri: p === "" ? "1.0" : "0.8" })),
+  ...notes.map((n) => ({ p: `notas/${n}/`, pri: "0.6" })),
+  ...staticIds.map((id) => ({ p: `biblioteca/${id}/`, pri: "0.5" })),
+];
+const xml = urls
+  .map(({ p, pri }) =>
+    LANGS.map((l) =>
+      `<url><loc>${SITE}/${l}/${p}</loc><lastmod>${today}</lastmod><priority>${pri}</priority>` +
+      LANGS.map((a) => `<xhtml:link rel="alternate" hreflang="${a}" href="${SITE}/${a}/${p}"/>`).join("") +
+      `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}/es/${p}"/></url>`).join(""))
+  .join("\n");
+writeFileSync(path.join(PUB, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${xml}\n</urlset>\n`);
+writeFileSync(path.join(PUB, "robots.txt"), [
+  "# Contenido abierto para investigación: buscadores y asistentes de IA son bienvenidos.",
+  "User-agent: *", "Allow: /", "Disallow: /pyodide/", "",
+  ...["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"].flatMap((b) => [`User-agent: ${b}`, "Allow: /", ""]),
+  `Sitemap: ${SITE}/sitemap.xml`, "",
+].join("\n"));
+
+const readYaml = (f: string) => YAML.parse(readFileSync(f, "utf8"));
+const eqDir = path.join(REPO, "library/equations");
+const eqs = readdirSync(eqDir).filter((f) => f.endsWith(".yaml") && f !== "constants.yaml").map((f) => readYaml(path.join(eqDir, f)));
+const obst = existsSync(path.join(import.meta.dir, "../content/obstaculos/en.yaml")) ? readYaml(path.join(import.meta.dir, "../content/obstaculos/en.yaml")) as { id: string; title: string; status: string; summary: string; subsystem: string }[] : [];
+const core = rows.filter((r) => (r as { r: number }).r === 2).length;
+const llms = [
+  "# Curvatura",
+  "",
+  "> Open research programme (Spanish, English, French) to take the warp drive from general relativity to engineering. It contains a classified library of warp-drive and energy-condition papers, verified computations (Python, Rust/WebAssembly, C++), machine-readable key equations, and a synthesis of what currently prevents building a useful warp drive. Author: Pablo Nolasco. Code: PolyForm Noncommercial 1.0.0; content: CC BY-NC-SA 4.0.",
+  "",
+  "Key facts:",
+  "- The Alcubierre metric (1994) is an exact solution but requires negative Eulerian energy density in the bubble wall: rho_E = -v_s^2 rho^2 (df/dr_s)^2 / (32 pi r_s^2) in G = c = 1.",
+  "- Total energy reduces to E = -(v_s^2/12) ∫ r^2 f'(r)^2 dr ≈ -v_s^2 R^2 sigma / 36 for thin walls (reproduced in Python, C++, Rust and the web engine: E = -0.223342 for v = 1, R = 1, sigma = 8).",
+  "- Generic warp drives violate the null energy condition (Santiago, Schuster & Visser 2022). Only subluminal, positive-energy, massive, constant-velocity shells are currently supported (Fuchs et al. 2024: 2.365 Jupiter masses between R1 = 10 m and R2 = 20 m).",
+  `- Library: ${rows.length} papers from arXiv and the OpenAlex citation graph, ${core} of core relevance; full text only for CC BY / CC0 papers.`,
+  "",
+  "## Main pages",
+  ...LANGS.map((l) => `- [Home (${l})](${SITE}/${l}/): overview, live metric, nine subsystems, obstacles, roadmap`),
+  `- [Key equations](${SITE}/en/ecuaciones/): animated, computable equations with their source paper`,
+  `- [Lab](${SITE}/en/laboratorio/): Rust/WebAssembly core, Python (Pyodide) and formula engine in the browser`,
+  `- [Library](${SITE}/en/biblioteca/): searchable, classified paper library`,
+  `- [Search](${SITE}/en/buscar/): full-text search with exact citations`,
+  "",
+  "## What prevents building a warp drive",
+  ...obst.map((o) => `- ${o.title} (${o.subsystem}, ${o.status}): ${o.summary}`),
+  "",
+  "## Key equations",
+  ...eqs.map((e: { id: string; title: { en: string }; expr: string; paper: string }) => `- ${e.title.en}: \`${e.expr}\` (source: ${SITE}/en/biblioteca/${e.paper}/)`),
+  "",
+  "## Optional",
+  `- [Sitemap](${SITE}/sitemap.xml)`,
+  "- [Source code](https://github.com/pablonolascoo/curvatura)",
+  "",
+].join("\n");
+writeFileSync(path.join(PUB, "llms.txt"), llms);
 
 console.log(`sync-library: ${rows.length} papers (${staticIds.length} con página estática), figuras de ${figs}, paquete Python copiado`);

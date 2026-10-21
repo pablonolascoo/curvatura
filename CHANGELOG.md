@@ -4,6 +4,11 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+### Añadido
+- SEO, GEO y AEO: canónicas y hreflang, sitemap, robots abierto a buscadores y asistentes de IA, llms.txt, datos estructurados (WebSite, ResearchProject, Dataset, ScholarlyArticle), favicon e imagen para redes.
+- App de escritorio: firma estable y actualizaciones automáticas firmadas.
+- Skills de venta, psicología de venta y SEO/GEO/AEO en el equipo.
+
 ## Alcubierre v0.1.0 · 2026-10-21
 
 ### Añadido

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { LOCALES, formatDate, getDictionary, hasLocale } from "@/lib/i18n";
 import { renderMarkdown } from "@/lib/markdown";
+import { alternates } from "@/lib/site";
 import { getNote, getNoteSlugs } from "@/lib/notes";
 
 export const dynamicParams = false;
@@ -13,7 +14,7 @@ export const generateStaticParams = () =>
 export async function generateMetadata({ params }: PageProps<"/[lang]/notas/[slug]">): Promise<Metadata> {
   const { lang, slug } = await params;
   const n = hasLocale(lang) ? getNote(slug, lang) : null;
-  return n ? { title: n.title, description: n.summary } : {};
+  return n ? { title: n.title, description: n.summary, alternates: alternates(lang, `notas/${slug}/`), openGraph: { type: "article", publishedTime: n.date } } : {};
 }
 
 export default async function NotePage({ params }: PageProps<"/[lang]/notas/[slug]">) {

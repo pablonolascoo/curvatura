@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LibraryBrowser } from "@/components/LibraryBrowser";
 import { getDictionary, hasLocale } from "@/lib/i18n";
+import { alternates } from "@/lib/site";
 import { getPapers } from "@/lib/library";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/biblioteca">): Promise<Metadata> {
   const { lang } = await params;
-  return hasLocale(lang) ? { title: getDictionary(lang).library.title } : {};
+  return hasLocale(lang) ? { title: getDictionary(lang).library.title, alternates: alternates(lang, "biblioteca/") } : {};
 }
 
 export default async function Library({ params }: PageProps<"/[lang]/biblioteca">) {

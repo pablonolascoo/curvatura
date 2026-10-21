@@ -4,10 +4,11 @@ import { CoreLab } from "@/components/lab/CoreLab";
 import { FormulaLab } from "@/components/lab/FormulaLab";
 import { PythonLab } from "@/components/lab/PythonLab";
 import { getDictionary, hasLocale } from "@/lib/i18n";
+import { alternates } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/laboratorio">): Promise<Metadata> {
   const { lang } = await params;
-  return hasLocale(lang) ? { title: getDictionary(lang).lab.title } : {};
+  return hasLocale(lang) ? { title: getDictionary(lang).lab.title, alternates: alternates(lang, "laboratorio/") } : {};
 }
 
 export default async function Lab({ params }: PageProps<"/[lang]/laboratorio">) {

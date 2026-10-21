@@ -36,8 +36,9 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
         if (ids.includes(id)) location.replace(`/${lang}/biblioteca/${id}/`); // tiene página completa
       })
       .catch(() => {});
-    fetch(`/library/p/${id}.json`)
+    fetch(`/library/p/${/^[a-z0-9]/.test(id) ? id[0] : "_"}.json`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(labels.empty))))
+      .then((all: Record<string, Paper>) => all[id] ?? Promise.reject(new Error(labels.empty)))
       .then((d: Paper) => {
         setP(d);
         document.title = `${d.title} · Curvatura`;

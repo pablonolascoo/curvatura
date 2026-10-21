@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { formatDate, getDictionary, hasLocale } from "@/lib/i18n";
+import { alternates } from "@/lib/site";
 import { getNotes } from "@/lib/notes";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/notas">): Promise<Metadata> {
   const { lang } = await params;
-  return hasLocale(lang) ? { title: getDictionary(lang).notes.title } : {};
+  return hasLocale(lang) ? { title: getDictionary(lang).notes.title, alternates: alternates(lang, "notas/") } : {};
 }
 
 export default async function Notes({ params }: PageProps<"/[lang]/notas">) {

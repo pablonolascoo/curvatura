@@ -35,3 +35,6 @@ next-env.d.ts
 node_modules/
 out/
 solvers/rust/target/
+apps/web/public/sitemap.xml
+apps/web/public/robots.txt
+apps/web/public/llms.txt

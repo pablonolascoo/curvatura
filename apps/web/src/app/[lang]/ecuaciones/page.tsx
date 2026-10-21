@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import { LiveEquation } from "@/components/LiveEquation";
 import { equationView, getEquations } from "@/lib/equations";
 import { getDictionary, hasLocale } from "@/lib/i18n";
+import { alternates } from "@/lib/site";
 import { paperHref } from "@/lib/library";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/ecuaciones">): Promise<Metadata> {
   const { lang } = await params;
-  return hasLocale(lang) ? { title: getDictionary(lang).nav.equations } : {};
+  return hasLocale(lang) ? { title: getDictionary(lang).nav.equations, alternates: alternates(lang, "ecuaciones/") } : {};
 }
 
 export default async function Equations({ params }: PageProps<"/[lang]/ecuaciones">) {
