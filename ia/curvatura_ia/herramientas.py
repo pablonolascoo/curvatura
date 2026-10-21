@@ -54,7 +54,7 @@ N = lambda d, **kw: {"type": "integer", "description": d, **kw}  # noqa: E731
              "español o inglés. Cada resultado trae `cita` y `url` para atribuir. Lanza varias consultas con "
              "palabras distintas si la primera no basta.",
              q=S("consulta"), k=N("número de resultados", default=10),
-             tipos={"type": "array", "items": {"type": "string", "enum": ["resumen", "texto", "ecuacion", "figura", "tabla", "referencia", "patente", "doc"]},
+             tipos={"type": "array", "items": {"type": "string", "enum": ["ficha", "resumen", "texto", "ecuacion", "figura", "tabla", "referencia", "patente", "doc"]},
                     "description": "filtrar por tipo de fragmento", "opcional": True},
              anio_min=N("año mínimo", opcional=True), anio_max=N("año máximo", opcional=True),
              subsistema=S("subsistema A–I/G/V del proyecto", opcional=True), paper=S("limitar a un paper (id)", opcional=True))

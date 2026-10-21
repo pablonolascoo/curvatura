@@ -29,7 +29,7 @@ sys.path.insert(0, str(TOOLS.parent / "rag"))
 import latex2md as L  # noqa: E402
 from common import read_meta  # noqa: E402
 
-VERSION = 2
+VERSION = 3
 MATH_ENVS = r"equation|align|gather|multline|eqnarray|flalign|alignat|displaymath|split"
 SECCION = re.compile(r"\\(section|subsection|subsubsection|paragraph)\*?\s*(?:\[[^\]]*\])?\s*\{")
 MATH = re.compile(
@@ -41,6 +41,20 @@ IMG_EXT = (".png", ".jpg", ".jpeg", ".pdf", ".eps", ".ps")
 
 
 # ---------------------------------------------------------------- utilidades
+
+_ACENTOS = {"'": "\u0301", "`": "\u0300", "^": "\u0302", '"': "\u0308", "~": "\u0303", "c": "\u0327", "v": "\u030c", "=": "\u0304"}
+
+
+def acentos(s: str) -> str:
+    """\\'a, \\"o, \\~n, \\c{c}, {\\'e}… a caracteres Unicode; «\\ » a espacio."""
+    import unicodedata
+
+    def rep(m: re.Match) -> str:
+        return unicodedata.normalize("NFC", m.group(2) + _ACENTOS[m.group(1)])
+    s = re.sub(r"\{?\\(['`^\"~=]|c |v )\s*\{?([A-Za-z])\}?\}?", lambda m: rep(re.match(r"(.)(.)", m.group(1).strip() + m.group(2))), s)
+    s = re.sub(r"\\([cv])(?:\{([A-Za-z])\}|\s+([A-Za-z]))", lambda m: unicodedata.normalize("NFC", (m.group(2) or m.group(3)) + _ACENTOS[m.group(1)]), s)
+    s = re.sub(r"\\([io])\b", r"\1", s)
+    return re.sub(r"\\ ", " ", s)
 
 
 def texto_plano(s: str) -> str:
@@ -56,7 +70,7 @@ def texto_plano(s: str) -> str:
             t = re.sub(r"\\label\{[^}]*\}", "", t)
             t = re.sub(r"\\begin\{(itemize|enumerate|description)\}|\\end\{(itemize|enumerate|description)\}", "\n", t)
             t = t.replace("\\item", "\n- ")
-            out.append(L.clean_text(t))
+            out.append(L.clean_text(acentos(t)))
     return re.sub(r"[ \t]+", " ", " ".join(out)).strip()
 
 
@@ -163,11 +177,11 @@ def desde_latex(pid: str, src: Path) -> dict:
     body = TABLA.sub(tabla, body)
 
     # Secciones y ecuaciones.
-    cortes = [(0, 0, "Introducción" if not SECCION.search(body[:200]) else "")]
+    cortes = [(0, 0, "Inicio")]
     for ms in SECCION.finditer(body):
         titulo, _ = L.braced(body, ms.end() - 1)
         nivel = {"section": 1, "subsection": 2, "subsubsection": 3, "paragraph": 4}[ms.group(1)]
-        cortes.append((ms.start(), nivel, L.clean_text(titulo)))
+        cortes.append((ms.start(), nivel, L.clean_text(acentos(titulo))))
     cortes.append((len(body), 0, ""))
 
     secciones, ecuaciones = [], []
@@ -200,7 +214,7 @@ def desde_latex(pid: str, src: Path) -> dict:
             secciones.append({"title": titulo, "level": nivel, "text": texto})
 
     return {"source": "latex", "abstract": resumen, "sections": secciones, "equations": ecuaciones,
-            "figures": figuras, "tables": tablas, "references": [{"key": k, "text": v} for k, v in refs.items()]}
+            "figures": figuras, "tables": tablas, "references": [{"key": k, "text": acentos(v)} for k, v in refs.items()]}
 
 
 # ---------------------------------------------------------------- PDF

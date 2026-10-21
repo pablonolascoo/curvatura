@@ -8,6 +8,7 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 - IA de investigación (`ia/`): descarga del texto completo de cada paper (LaTeX de arXiv o PDF en acceso abierto), análisis de secciones, ecuaciones con contexto, figuras, tablas y referencias, y base vectorial multimodal local (LanceDB: texto multilingüe con multilingual-e5-large y figuras con SigLIP 2), con búsqueda híbrida y atribución en cada fragmento.
 - Agente con RAG, laboratorio y subagentes recursivos; lluvia de ideas multiagente (documentalista, ideadores con técnicas distintas, abogado del diablo, formulista, síntesis). Terminal, web local, servidor MCP para Claude Code; Anthropic o modelos locales compatibles con OpenAI.
 - Laboratorio de fórmulas (`curvatura-lab`): igualdades (symengine, 50 dígitos, SymPy), unidades, cotas rigurosas con Arb, demostraciones con Z3, evaluación con numba, tensor de Einstein con symengine y descubrimiento de fórmulas.
+- Fichas de análisis por paper escritas por IA (`library/papers/<id>/analisis.yaml`), empezando por los 233 de relevancia alta.
 - Vigilancia de patentes (Google Patents sin clave; EPO, USPTO y Lens con clave) e índice público en `library/patentes/`. Vigilancia diaria local y semanal en GitHub Actions.
 - Skills: `formulas`, `investigar`, `lluvia-de-ideas`, `primeros-principios-fisica`, `auditoria-teoremas`, `triz-espaciotiempo`, y 17 de terceros (MIT) de pensamiento lateral, TRIZ, hipótesis y crítica. Subagentes `investigador`, `ideador`, `abogado-del-diablo` y `formulista`.
 

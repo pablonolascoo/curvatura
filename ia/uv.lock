@@ -590,6 +590,7 @@ dependencies = [
     { name = "pillow" },
     { name = "pyarrow" },
     { name = "pypdfium2" },
+    { name = "pyyaml" },
 ]
 
 [package.optional-dependencies]
@@ -620,6 +621,7 @@ requires-dist = [
     { name = "pillow", specifier = ">=11" },
     { name = "pyarrow", specifier = ">=18" },
     { name = "pypdfium2", specifier = ">=5" },
+    { name = "pyyaml", specifier = ">=6" },
     { name = "rapidocr", marker = "extra == 'pdf'", specifier = ">=3.10" },
     { name = "sentence-transformers", marker = "extra == 'gpu'", specifier = ">=5" },
     { name = "torch", marker = "extra == 'gpu'", specifier = ">=2.8" },

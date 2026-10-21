@@ -30,7 +30,7 @@ import sys
 import time
 from pathlib import Path
 
-from .rutas import ANALISIS, DATOS, FIGURAS, LIB, PATENTES, REPO, VECTORES
+from .rutas import ANALISIS, DATOS, FIGURAS, LIB, PAPERS as PAPERS_DIR, PATENTES, REPO, VECTORES
 
 MODELOS = {
     "calidad": ("intfloat/multilingual-e5-large", 1024, "query: ", "passage: "),
@@ -178,6 +178,10 @@ def filas_paper(a: dict) -> tuple[list[dict], list[dict]]:
     if a.get("abstract") and not a.get("abstracts"):
         out.append({**base, "tipo": "resumen", "seccion": "Resumen", "idioma": a.get("language", "en"), "n": 0,
                     "latex": "", "texto": f"{titulo}. {a['abstract']}"})
+    ficha = PAPERS_DIR / a["id"] / "analisis.yaml"
+    if ficha.exists():  # ficha de análisis escrita por IA (aportación, supuestos, resultados, limitaciones…)
+        out.append({**base, "tipo": "ficha", "seccion": "Análisis", "idioma": "es", "n": 0, "latex": "",
+                    "texto": f"Análisis de «{titulo}» (generado por IA).\n{ficha.read_text()[:6000]}"})
     for s in a.get("sections") or []:
         for i, t in enumerate(trozos(s.get("text") or "")):
             out.append({**base, "tipo": "texto", "seccion": s.get("title") or "", "idioma": a.get("language", "en"),
@@ -246,7 +250,11 @@ def filas_docs() -> list[dict]:
 
 
 def _huella(p: Path) -> str:
-    return hashlib.sha1(p.read_bytes()).hexdigest()[:16]
+    h = hashlib.sha1(p.read_bytes())
+    ficha = PAPERS_DIR / p.stem / "analisis.yaml"  # si cambia la ficha, se vuelve a vectorizar el paper
+    if ficha.exists():
+        h.update(ficha.read_bytes())
+    return h.hexdigest()[:16]
 
 
 def _escribir(tabla: str, filas: list[dict], claves: set[str], vectores, conexion) -> None:
@@ -281,6 +289,14 @@ def main() -> int:
     fuentes = [(p.stem, p, "paper") for p in sorted(ANALISIS.glob("*.json"))] + \
               [("patente:" + p.stem, p, "patente") for p in sorted(PATENTES.glob("*.json"))]
     pend = [(k, p, tipo) for k, p, tipo in fuentes if (not ids or k in ids) and estado.get(k) != _huella(p)]
+
+    def prioridad(x):  # lo más relevante primero: la base es útil antes de terminar
+        try:
+            r = json.loads(x[1].read_text()).get("relevance" if x[2] == "paper" else "relevancia")
+        except Exception:
+            r = None
+        return {"alta": 0, "media": 1}.get(r, 2) if x[2] == "paper" else 1
+    pend.sort(key=prioridad)
     print(f"{len(pend)} fuentes por vectorizar · modelo {MODELO_TEXTO}", flush=True)
 
     if not ids and (rehacer or "docs" not in estado) and not solo_img:

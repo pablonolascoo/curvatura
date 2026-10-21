@@ -11,6 +11,7 @@ Todo funciona en local, en macOS, Windows y Linux.
 | Corpus | Descarga la fuente LaTeX de cada paper de arXiv (o el PDF en acceso abierto) a `datos/corpus/`. Respeta el ritmo que pide arXiv (una petición cada 3 s). | `curvatura-ia corpus` |
 | Análisis | Saca de cada paper secciones, ecuaciones con su contexto, figuras (PNG), tablas y referencias a `datos/analisis/<id>.json`. | `curvatura-ia analizar` |
 | Patentes | Vigila patentes relacionadas (propulsión sin propelente, inercia, gravedad, Casimir, F03H, B64G 1/409…). Guarda ficha, reivindicaciones y dibujos. | `curvatura-ia patentes` |
+| Fichas | Una ficha de análisis por paper escrita por IA (aportación, supuestos, resultados, ecuaciones clave, limitaciones, obstáculos que ataca, relación con otros papers, ideas abiertas) en `library/papers/<id>/analisis.yaml`. Es pública y se vectoriza. | `curvatura-ia fichas generar` |
 | Vectores | Base multimodal LanceDB en `datos/vectores/`: texto, ecuaciones, pies de figura, patentes y docs (multilingüe), y las imágenes en un espacio texto↔imagen. Búsqueda híbrida (vectores + palabras). | `curvatura-ia vectorizar` |
 | Laboratorio | Igualdades, unidades, cotas rigurosas, demostraciones con Z3, evaluación de millones de puntos, tensores desde la métrica y descubrimiento de fórmulas. | `curvatura-lab …` |
 | Agente | Responde con citas, usa el laboratorio y abre subagentes en paralelo que pueden abrir otros. | `curvatura-ia preguntar "…"` |

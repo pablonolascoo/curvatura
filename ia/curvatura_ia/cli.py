@@ -3,6 +3,7 @@
   estado                         qué hay en la base
   vigilar                        ciclo completo: papers nuevos → corpus → análisis → patentes → vectores
   corpus | analizar | vectorizar | patentes     cada paso por separado (admiten sus propias opciones)
+  fichas contexto|generar|validar               ficha de análisis por paper escrita por IA
   buscar "consulta" [--tipo ecuacion] [--k 10]  búsqueda directa, sin modelo de lenguaje
   figuras "descripción"                         búsqueda de figuras
   preguntar "pregunta"           agente con RAG, laboratorio y subagentes recursivos
@@ -73,7 +74,7 @@ def main(argv: list[str] | None = None) -> int:
     if orden == "estado":
         from .buscar import estado
         print(json.dumps(estado(), ensure_ascii=False, indent=2))
-    elif orden in ("corpus", "analizar", "vectorizar", "patentes"):
+    elif orden in ("corpus", "analizar", "vectorizar", "patentes", "fichas"):
         import importlib
         return importlib.import_module(f"curvatura_ia.{orden}").main()
     elif orden == "vigilar":
