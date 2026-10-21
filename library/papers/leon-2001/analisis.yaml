@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Demuestra que en la métrica canónica o warp de 5D (teoría espacio-tiempo-materia) la sección de espacio-tiempo se vuelve singular para algún valor finito de la coordenada extra. La singularidad es geométrica en 5D pero aparece como física en 4D."
+tipo: teorema
+supuestos:
+  - "Espacio de 5D con ecuaciones de campo de vacío R_AB = 0 y métrica canónica con factor warp Omega = (y/L)^2."
+  - "Hipótesis de trabajo: las singularidades 4D vienen de separar el espacio-tiempo de las otras dimensiones."
+  - "Coordenadas gaussianas normales; se excluye y = 0, que es singular en 5D."
+resultados:
+  - "La traza chi del tensor de variación de la métrica cumple una desigualdad de Raychaudhuri, y 1/chi es monótona con pendiente al menos 1/8."
+  - "Por tanto chi diverge y el determinante de la métrica 4D se anula en un valor finito z0 de la coordenada extra, con -g proporcional a |z - z0|^a, 0 < a <= 8."
+  - "La curvatura escalar diverge como 1/(z - z0)^2, con densidad de energía y presión divergentes vistas desde 4D."
+  - "El resultado vale para un factor warp arbitrario Omega(y) finito y positivo, así que no depende de la elección concreta."
+ecuaciones_clave:
+  - n: 4
+    latex: 'd\mathcal{S}^2=\frac{y^2}{L^2}g_{\mu\nu}(x^\rho,y)dx^\mu dx^\nu+\epsilon\,dy^2'
+    significado: "Métrica canónica de 5D con factor warp cuadrático."
+  - n: 13
+    latex: '\frac{\partial}{\partial z}\chi^{\alpha}_{\alpha}+\frac{1}{2}\chi_{\mu}^{\nu}\chi^{\mu}_{\nu}=0'
+    significado: "Ecuación de campo en forma síncrona, análoga a la de Raychaudhuri."
+  - n: 16
+    latex: '\frac{\partial}{\partial z}\left(\frac{1}{\chi^{\alpha}_{\alpha}}\right)\geq\frac{1}{8}'
+    significado: "Desigualdad que fuerza la divergencia de chi en z finito."
+  - n: 18
+    latex: 'R=\frac{\epsilon}{L^2}\left[12-3z\chi^{\alpha}_{\alpha}+\frac{1}{4}z^2\left((\chi^{\alpha}_{\alpha})^2-\chi_{\alpha}^{\beta}\chi^{\alpha}_{\beta}\right)\right]'
+    significado: "Curvatura escalar del espacio-tiempo físico."
+limitaciones:
+  - "El artículo trata métricas de Kaluza-Klein tipo warp en 5D, no propulsión warp; su relación con la biblioteca es solo el nombre de la métrica."
+  - "La singularidad es un artefacto de las coordenadas canónicas en 5D y puede eliminarse con otro sistema de coordenadas."
+  - "La hipótesis de que toda singularidad 4D es inducida solo se contrasta en este contexto."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Comprobar la hipótesis en otras clases de métricas de dimensión superior."
+  - "Estudiar qué cambio de coordenadas elimina la singularidad en 5D y cómo se interpreta la materia inducida."

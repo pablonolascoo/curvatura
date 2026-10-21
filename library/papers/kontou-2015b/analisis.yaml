@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Demuestra que un campo escalar libre, mínimamente acoplado, cumple la condición de energía nula promediada sobre geodésicas nulas acrónicas en espaciotiempos de curvatura pequeña. La prueba usa desigualdades cuánticas con proyección nula."
+tipo: teorema
+supuestos:
+  - "Campo escalar cuántico libre y mínimamente acoplado, con la geodésica nula acrónica rodeada de un entorno tubular cuya curvatura procede de una fuente clásica."
+  - "Curvatura pequeña: el cálculo llega solo a primer orden en el tensor de Ricci y sus derivadas."
+  - "Resultado de partida de Fewster y Smith para la desigualdad cuántica con potencial de fondo, y desarrollo de Hadamard del propagador."
+  - "Trayectoria sin aceleración adaptada con coordenadas normales de Fermi."
+resultados:
+  - "Se deduce una desigualdad cuántica proyectada en el tiempo para un campo escalar en espacio plano con potencial de fondo."
+  - "Se calcula la cota de la desigualdad cuántica sobre una geodésica en un espaciotiempo con curvatura pequeña, a primer orden en Ricci y derivadas."
+  - "Se obtiene la cota de la desigualdad cuántica proyectada sobre una dirección nula para una trayectoria temporal general."
+  - "A partir de ella se prueba la condición de energía nula promediada acrónica en espaciotiempos de curvatura pequeña."
+ecuaciones_clave:
+  - n: 4
+    latex: '\int_\gamma T_{ab} \ell^a \ell^b d\lambda \geq 0'
+    significado: "Condición de energía nula promediada a lo largo de una geodésica nula completa."
+  - n: 2
+    latex: '\int_{-\infty}^\infty d\tau\,f(t) T_{ab}(w(t)) V^a V^b > - B'
+    significado: "Forma general de una desigualdad cuántica con función de muestreo f y cota B."
+  - n: 36
+    latex: '\int_{-\infty}^\infty d\tau\,g(t)^2 \langle T^{\text{ren}}_{00} \rangle (t,0) \geq -B'
+    significado: "Desigualdad cuántica en el caso de potencial de fondo."
+  - n: 37
+    latex: 'B = \int_0^\infty\frac{d\xi}{\pi}\hat F(-\xi,\xi) +\int_{-\infty}^\infty dt\,g^2(t) (Q-CV_{,ii})'
+    significado: "Cota de la desigualdad en función de la transformada de Fourier del núcleo F y de términos de renormalización."
+limitaciones:
+  - "Solo para curvatura pequeña, a primer orden; no cubre curvaturas fuertes como las de una burbuja warp."
+  - "Limitado a un campo escalar libre mínimamente acoplado y a geodésicas acrónicas."
+  - "Las cotas dependen de la elección de función de muestreo y de la renormalización."
+obstaculos: [1, 3, 13]
+relacion:
+  - paper: kontou-2014
+    como: "extiende"
+  - paper: kontou-2015
+    como: "extiende"
+  - paper: kontou-2012
+    como: "extiende"
+  - paper: graham-2007
+    como: "extiende"
+  - paper: ford-roman-1996
+    como: "aplica"
+ideas_abiertas:
+  - "Extender la prueba a curvatura fuerte y a otros campos."
+  - "Eliminar la hipótesis de curvatura pequeña para aplicar el resultado a geometrías con exotismo como las burbujas warp."

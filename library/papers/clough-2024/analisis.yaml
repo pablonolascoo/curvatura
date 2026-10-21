@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Simula en relatividad numérica el colapso de una burbuja de Alcubierre sostenida por un fluido con ecuación de estado rígida. Calcula la señal de ondas gravitatorias y los flujos de energía de la materia."
+tipo: simulacion
+supuestos:
+  - "Datos iniciales de Alcubierre con lapso 1, métrica espacial plana y desplazamiento -v_s f(r_s), con f tipo tanh."
+  - "Materia efectiva con tensor energía-impulso obtenido de las ecuaciones de Einstein y evolución de ρ y S_i con presión media y cizalla amortiguada."
+  - "Evolución 3+1 con un código de relatividad numérica, con validación y convergencia en el apéndice."
+resultados:
+  - "Primeras formas de onda numéricamente consistentes del colapso de una burbuja warp."
+  - "Se emite primero una onda de materia con energía negativa, seguida de ondas alternas positivas y negativas."
+  - "El flujo de ondas gravitatorias es positivo todo el tiempo y el flujo neto de energía es negativo, con lo que la masa final del volumen aumenta."
+  - "Para una nave de 1 km la señal ronda 300 kHz, muy por encima de los detectores actuales."
+  - "A 1 Mpc la amplitud de la deformación es parecida a la sensibilidad máxima de LIGO."
+ecuaciones_clave:
+  - n: 4
+    latex: '\alpha = 1, \quad \gamma_{ij} = \delta_{ij}, \quad \beta^i = \left(0, 0, -v_s f(r_s)\right)'
+    significado: "Datos iniciales de la métrica de Alcubierre en forma 3+1."
+  - n: 6
+    latex: 'f(r_s) = \frac{\tanh(\sigma (r_s +R) )-\tanh(\sigma (r_s -R) )}{2 \tanh(\sigma R)}'
+    significado: "Función de forma de la burbuja, con radio R y grosor de pared 1/σ."
+  - n: 14
+    latex: '\bar{p} = \frac{\rho}{3} - \frac{1}{24\pi} \left( \frac{D^2\alpha}{\alpha} + K_{ij} K^{ij} + K^2 \right)'
+    significado: "Presión media impuesta por la restricción y la ecuación de estado de la materia efectiva."
+  - n: 17
+    latex: 'F = \int_{\partial\Sigma} \sqrt{\gamma} ~T^i_0 s_i dA'
+    significado: "Flujo de energía de la materia a través de la frontera del dominio."
+limitaciones:
+  - "La ecuación de estado y la preparación de la materia son ad hoc, sin descripción fluida general."
+  - "El propio texto avisa de que las formas de onda son específicas del modelo y este tiene problemas teóricos conocidos."
+  - "Solo se evolucionan velocidades subluminales, con v hasta 1."
+obstaculos: [1, 5, 7, 12]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: fell-heisenberg-2021
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si el comportamiento depende de la ecuación de estado con una descripción fluida consistente."
+  - "Simular velocidades superiores a 1 y ver si aparecen regiones elípticas."
+  - "Caracterizar mejor la memoria gravitatoria de la señal con más resolución."

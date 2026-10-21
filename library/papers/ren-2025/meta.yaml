@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2509.00166
 language: en
 subsystems: [G, D, Q, V]
 kind: analogo
-license: unknown
+license: CC-BY-NC-ND-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

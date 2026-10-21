@@ -16,5 +16,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: media
 countries: [PR]
+relevance_manual: media  # métricas de Kaluza-Klein en 5D, relación indirecta

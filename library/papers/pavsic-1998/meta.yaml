@@ -16,5 +16,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: media
 countries: [SI]
+relevance_manual: media  # oscilador pseudoeuclídeo y constante cosmológica, relación indirecta

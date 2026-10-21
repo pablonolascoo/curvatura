@@ -1,0 +1,24 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Texto de divulgación que revisa agujeros de gusano, viaje en el tiempo y propulsión warp como vías para fijar límites físicos a la tecnología. Concluye que las soluciones warp son probablemente no físicas porque exigen mucha masa negativa."
+tipo: revision
+supuestos:
+  - "Cualquier geometría es solución de la relatividad general; la cuestión es si la materia necesaria es compatible con la física conocida."
+  - "La materia exótica implica densidades de masa o energía negativas."
+  - "Se juzga la viabilidad con teoría cuántica de campos y con estabilidad de la geometría."
+resultados:
+  - "La métrica de Alcubierre permite viajar aparentemente más rápido que la luz sin que la nave supere la luz localmente."
+  - "El principal obstáculo, ya señalado por Alcubierre, es una gran concentración de masa negativa."
+  - "Los agujeros de gusano transitables necesitan materia exótica; el efecto Casimir muestra energía negativa, pero muy débil y en un volumen pequeño."
+  - "Una aceleración constante de 1 g permitiría un viaje de ida y vuelta al centro galáctico en algo más de 40 años de tiempo propio."
+ecuaciones_clave: []
+limitaciones:
+  - "Es un texto divulgativo sin cálculos ni ecuaciones."
+  - "Trata la propulsión warp en un solo párrafo, sin detalle técnico."
+  - "Las conclusiones sobre inviabilidad se enuncian sin demostración en el texto."
+obstaculos: [1, 3, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si hay estados cuánticos que eviten la inestabilidad semiclásica."
+  - "Explorar variantes de la idea de Alcubierre que sigan abiertas a la investigación."

@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula y representa los invariantes de curvatura de la métrica de Natário con aceleración, independientes de coordenadas. Muestra la estructura de la burbuja: un puerto plano en el centro, una estela dinámica y estructuras internas."
+tipo: simulacion
+supuestos:
+  - "Métrica de Natário con aceleración constante a, con desplazamiento X de las ecuaciones (5) y función de forma n(r_s) basada en tanh."
+  - "Cuatro invariantes independientes: el escalar de Ricci R, r_1, r_2 y w_2, calculados con una tétrada nula."
+  - "Parámetros variados: tiempo, aceleración, grosor de la piel σ y radio de la burbuja ρ."
+resultados:
+  - "El escalar de Ricci tiene el mayor efecto sobre el espaciotiempo exterior; es constante fuera del puerto y de la estela."
+  - "Los otros invariantes tienden a espacio plano fuera de esas regiones."
+  - "w_2 alcanza las mayores magnitudes y empieza a mostrar rugosidades en el interior de la estela tras 100 s."
+  - "Cambiar el grosor de la piel no modifica la forma ni la magnitud; duplicar el radio duplica el tamaño del puerto."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2=-dt^2+\sum_{i=1}^{3}(dx^i-X^i dt)^2'
+    significado: "Métrica de Natário con campo vectorial de desplazamiento X."
+  - n: 5
+    latex: 'X_t=2n(r_s) a r_s \cos{\theta}, \quad X_{r_s}=2[2n(r_s)^2+r_sn^{\prime}(r_s)]at\cos{\theta}'
+    significado: "Componentes del campo de desplazamiento del Natário acelerado."
+  - n: 6
+    latex: 'n(r_s)=\frac{1}{2}\Bigg[1-\frac{1}{2}\Big(1-\tanh[\sigma(r_s-\rho)]\Big)\Bigg]'
+    significado: "Función de forma con radio ρ y grosor σ."
+limitaciones:
+  - "El trabajo es descriptivo: no calcula energía ni comprueba condiciones de energía."
+  - "Los invariantes se leen en gráficas, sin cotas analíticas."
+  - "El efecto del grosor de la piel solo se observa en el rango explorado."
+obstaculos: [2, 13]
+relacion:
+  - paper: natario-2002
+    como: "aplica"
+  - paper: mattingly-2020
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Usar los invariantes para trazar rutas de navegación alrededor de la nave."
+  - "Probar otros conjuntos de invariantes, como los de Cartan o Witten."

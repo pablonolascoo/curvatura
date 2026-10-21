@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Extiende los warp drives de tipo Alcubierre-Natário a una clase infinita usando cartas de Martel-Poisson sobre Minkowski y AdS, con hipersuperficies espaciales cónicas, y analiza su expansión y la violación de la condición de energía nula."
+tipo: solucion
+supuestos:
+  - "Se usan las cartas de Martel-Poisson, parecidas a la forma de Painlevé-Gullstrand débil, con un parámetro ajustable epsilon y velocidad en el infinito v_inf."
+  - "El análisis detallado se hace en tres dimensiones, donde la hipersuperficie espacial es un cono con defecto cónico en el origen."
+  - "La burbuja se incrusta en forma ADM con lapso 1, desplazamiento que mezcla el flujo de fondo y la velocidad de la burbuja, y función de forma tipo tanh."
+  - "Se estudia lejos del origen y los observadores eulerianos están en caída libre."
+resultados:
+  - "Todos los warp drives de la clase en Minkowski y en defectos cónicos tienen densidades de energía negativas localizadas en la pared de la burbuja."
+  - "Todos violan la condición de energía nula, y con ello las demás condiciones de energía."
+  - "La energía necesaria escala hacia arriba o hacia abajo respecto a la de Alcubierre según el tipo de incrustación, a orden dominante."
+  - "La expansión y la densidad muestran escalados nuevos debidos a las huellas globales de los defectos cónicos."
+  - "En AdS las cartas de Painlevé-Gullstrand habituales no existen, y estas construcciones son la única opción."
+ecuaciones_clave:
+  - n: 7
+    latex: 'ds^2 =-dT^2 + \frac{1}{\epsilon^2}\left(dr + \sqrt{\epsilon^2-1}\, dT \right)^2 +r^2 d\phi^2'
+    significado: "Carta de Martel-Poisson para Minkowski en tres dimensiones con parámetro epsilon."
+  - n: 8
+    latex: 'ds^2_{C_\epsilon} =\frac{1}{\epsilon^2}dr^2 +r^2 d\phi^2, \quad 0\leq \phi < 2 \pi'
+    significado: "Métrica espacial cónica inducida en T = constante."
+  - n: 15
+    latex: 'f(r_s)=\frac{\tanh [\sigma(r_s+R)]-\tanh [\sigma(r_s-R)]}{2 \tanh (\sigma R)}'
+    significado: "Función de forma de la burbuja."
+  - n: 18
+    latex: 'K_{ij} = \frac{1}{2}\partial_T \gamma_{ij} -\frac{1}{2}\left(\gamma_{kj}D_i N^k + \gamma_{ik} D_j N^k \right)'
+    significado: "Curvatura extrínseca de las hipersuperficies, de la que sale la expansión."
+limitaciones:
+  - "El análisis es sobre todo en tres dimensiones; las dimensiones superiores solo se esbozan."
+  - "No se analiza el entorno del defecto cónico en el origen."
+  - "Todas las soluciones violan la condición de energía nula, así que no resuelven el problema de la energía negativa."
+  - "El tensor de energía-momento puede no ser de tipo I de Hawking-Ellis, lo que complica el uso del método estándar."
+obstaculos: [1, 4, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: bobrick-martire-2021
+    como: "compara"
+  - paper: santiago-2022
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar dimensiones D mayor o igual que 4 con conos generalizados, por ejemplo cartas de agujeros negros."
+  - "Considerar fondos esféricos con deformación (warped) que solo cubren parte del espaciotiempo."

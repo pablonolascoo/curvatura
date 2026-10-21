@@ -1,0 +1,19 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, estudia las trayectorias de rayos de luz en el espaciotiempo de Alcubierre."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre como fondo para rayos de luz (según el título)."
+resultados:
+  - "Calcula trayectorias de rayos en la métrica de Alcubierre (según el título); no se conocen cifras."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
+  - "Sin resumen no se pueden precisar el método ni las conclusiones."
+obstaculos: [4]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar cómo los rayos revelan la estructura de horizontes de la burbuja."

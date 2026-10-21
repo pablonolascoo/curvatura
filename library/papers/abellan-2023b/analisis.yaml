@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve numéricamente la métrica warp en coordenadas esféricas con fluido anisótropo y término de constante cosmológica, y evalúa las condiciones de energía y la masa total de la solución."
+tipo: simulacion
+supuestos:
+  - "Métrica esférica ds^2 = -dt^2 + (dr - beta dt)^2 + r^2 dOmega^2 con función de forma beta."
+  - "Materia: fluido anisótropo con presiones radial y transversal, más un término tipo constante cosmológica."
+  - "Ecuación de estado politrópica extendida p_r = K rho^gamma + epsilon rho en el caso anisótropo."
+  - "Soluciones de onda viajera beta(t,r) = f(r_s) v_s además del régimen completo dependiente del tiempo."
+resultados:
+  - "Con el término cosmológico aparece un compromiso entre las condiciones de energía débil y fuerte."
+  - "La condición de energía dominante se cumple siempre en este modelo."
+  - "La condición de energía nula exige que la función de forma beta no crezca con el tiempo."
+  - "Hay regiones del espaciotiempo donde las condiciones de energía se cumplen al menos en parte."
+  - "En algunos ejemplos la masa total calculada con la densidad numérica se mantiene positiva durante toda la evolución."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2 = -dt^2 + (dr - \beta dt)^2 + r^2 d\Omega^2'
+    significado: "Métrica warp esférica con función de forma beta."
+  - n: 9
+    latex: '\beta \left(\beta+2r \frac{\partial \beta}{\partial r}\right) = 8\pi r^2 \rho^{(e)}'
+    significado: "Ecuación de Einstein para la densidad efectiva de energía."
+  - n: 25
+    latex: '\Theta = 2\frac{\beta}{r} + \frac{\partial\beta}{\partial r}'
+    significado: "Expansión de los observadores eulerianos."
+  - n: 31
+    latex: '\rho_{\text{warp}} = \frac{\beta}{8 \pi r^2} \left(\beta+2r \frac{\partial \beta}{\partial r}\right) - \rho_\Lambda'
+    significado: "Densidad de energía de la burbuja warp."
+limitaciones:
+  - "Las soluciones son numéricas y dependen de condiciones iniciales y parámetros elegidos."
+  - "La ecuación de estado politrópica es un ansatz empírico, no se deriva de un modelo de materia."
+  - "Solo se estudia simetría esférica."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: abellan-2023
+    como: "extiende"
+  - paper: natario-2002
+    como: "compara"
+ideas_abiertas:
+  - "Buscar valores de los parámetros que den masa positiva y condiciones de energía satisfechas en la mayor región posible."
+  - "Dotar al fluido anisótropo de un modelo de materia con origen físico."

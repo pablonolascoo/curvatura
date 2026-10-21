@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la estabilidad cuántica del warp bilidimensional superlumínico al prolongarlo más allá del horizonte con un encaje en un espacio de Misner. El interior de la burbuja pasa a ser una región con curvas temporales cerradas y el tensor de energía-momento renormalizado no diverge."
+tipo: solucion
+supuestos:
+  - "Warp de Alcubierre en dos dimensiones con velocidad aparente v_0 mayor que c y f(r) de tanh con parámetros sigma y R."
+  - "Extensión máxima mediante el encaje en un espacio de Minkowski tridimensional con la topología del espacio de Misner (interior de la burbuja múltiplemente conexo)."
+  - "Vacío de Li-Gott o espacio de Misner tridimensional modificado como estado cuántico."
+resultados:
+  - "El interior de la burbuja se convierte en una región no cronal con curvas temporales cerradas."
+  - "El tensor de energía-momento renormalizado de un campo conforme no diverge ni siquiera sobre el horizonte de cronología (Cauchy), a diferencia del resultado de Hiscock sin identificación."
+  - "El horizonte encierra curvas temporales cerradas solo a escalas cercanas a la longitud de Planck, de modo que se cumple la desigualdad de Ford de energía negativa y tiempo."
+  - "Se halla una conexión entre el warp bidimensional superlumínico y los kinks gravitatorios bidimensionales, que permite generalizar la métrica a una no estática descrita en dos parches de coordenadas."
+  - "Con curvas temporales cerradas, el observador del centro podría contribuir a crear y controlar la burbuja."
+ecuaciones_clave:
+  - n: 5
+    latex: 'A(r)=1-v_0^2\left(1-f(r)\right)^2'
+    significado: "Función métrica del warp bidimensional en forma tipo Schwarzschild."
+  - n: 24
+    latex: '-v^2+w^2+x^2=v_0^{-2}'
+    significado: "Hiperboloide en el que se encaja el warp bidimensional en un espacio de Minkowski 3D."
+  - n: 26
+    latex: 'v=v_0^{-1}\sqrt{A(r)}\sinh(v_0 \tau)'
+    significado: "Parametrización del encaje (junto con la ecuación 27 para w y la 28 para x)."
+  - n: 34
+    latex: '(\tau,r)\leftrightarrow (\tau+\frac{nb}{v_0},r)'
+    significado: "Identificación tipo Misner que vuelve múltiplemente conexa la región interior."
+limitaciones:
+  - "El tratamiento es bidimensional; la extensión a 3+1 dimensiones no se resuelve."
+  - "El resultado depende de aceptar la identificación tipo Misner y los estados de vacío elegidos."
+  - "La ausencia de divergencia contrasta con las conclusiones generales sobre protección de la cronología y no se verifica de forma independiente."
+obstaculos: [3, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "corrige"
+  - paper: everett-1996
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si el comportamiento regular del tensor de energía-momento sobrevive en 3+1 dimensiones."
+  - "Profundizar la relación entre el warp y los kinks gravitatorios."

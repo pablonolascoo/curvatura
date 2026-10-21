@@ -1,0 +1,33 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone un dispositivo óptico de dos capas paralelas con índices de refracción opuestos que no refleja la luz y que recuerda a un truncamiento del espacio, al que llaman warp drive electromagnético."
+tipo: propuesta
+supuestos:
+  - "Dos capas paralelas de espesor a con índices de refracción n_1 en la capa -a<x<0 y n_2 en la capa 0<x<a."
+  - "La condición clave es n_1 = -n_2, con refracción negativa en una de las capas."
+  - "Se calcula la transmisión y reflexión de ondas planas con ángulos theta y phi en cada interfaz, y se suman las reflexiones múltiples."
+resultados:
+  - "Los coeficientes de transmisión y reflexión en cada interfaz son T = 2 cos(theta)/(cos(theta)+cos(phi)) y R = (cos(theta)-cos(phi))/(cos(theta)+cos(phi))."
+  - "Sumando todas las reflexiones múltiples, la amplitud total transmitida B_tot es igual a 1: no hay reflexión neta ni pérdida de eficiencia de transmisión."
+  - "Los autores afirman que los índices no necesitan valores grandes, lo que haría la guía de campos electromagnéticos sin reflexión realizable en la práctica."
+  - "La onda pasa de una capa a la otra como si el espacio entre ellas se truncara, y de ahí la analogía con un warp drive."
+ecuaciones_clave:
+  - n: 2
+    latex: 'n_1=-n_2'
+    significado: "Condición de índices opuestos que da transmisión perfecta."
+  - n: 3
+    latex: 'T(\theta,\phi)=\frac{E_t}{E_i}=\frac{2\cos \theta}{\cos \theta+\cos \phi}'
+    significado: "Coeficiente de transmisión de amplitud en una interfaz."
+  - n: 4
+    latex: 'R(\theta,\phi)=\frac{E_r}{E_i}=\frac{\cos \theta-\cos \phi}{\cos \theta+\cos \phi}'
+    significado: "Coeficiente de reflexión de amplitud en una interfaz."
+  - n: 8
+    latex: 'B_{tot}=T(\theta,\phi)\left\{\sum_{n=0}^{\infty}R^{2n}(\phi,\theta)\right\}T(\phi,\theta)=1'
+    significado: "Suma de las transmisiones múltiples que da transmisión total sin reflexión."
+limitaciones:
+  - "Es una analogía óptica: no hay curvatura del espaciotiempo ni energía negativa de relatividad general."
+  - "Ficha hecha con el resumen y las ecuaciones; el contexto no incluye el texto del cuerpo del artículo."
+  - "La viabilidad con metamateriales reales no se demuestra con datos experimentales ni se analizan las pérdidas."
+obstaculos: [14]
+relacion: []
+ideas_abiertas:
+  - "Construir un prototipo con metamateriales y medir la transmisión sin reflexión."

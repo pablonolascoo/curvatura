@@ -1,0 +1,49 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve las ecuaciones de Einstein para la geometría de Alcubierre con polvo sin presión como fuente. Todas las soluciones resultan ser de vacío y conectan la métrica con la ecuación de Burgers."
+tipo: teorema
+supuestos:
+  - "Métrica de Alcubierre con lapso 1, desplazamiento beta^1 = -v_s f(r_s) y 3-métrica plana."
+  - "Fuente de polvo: tensor de energía-momento T = mu u u, con presión nula, y observadores eulerianos de 4-velocidad u."
+  - "Condiciones de compatibilidad entre las componentes de las ecuaciones de Einstein, con beta dependiente de t y x."
+resultados:
+  - "Toda solución de las ecuaciones de Einstein de esta geometría con polvo sin presión es de vacío: la densidad mu se anula."
+  - "Las ecuaciones se reducen a que la derivada de beta respecto a y y z sea cero, es decir, el problema depende solo de t y x."
+  - "La ecuación restante es la de Burgers, que describe ondas de choque en un fluido no viscoso."
+  - "Esas ondas de choque se comportan como ondas planas."
+  - "La densidad de energía euleriana de la métrica de Alcubierre original es no positiva en todo punto."
+ecuaciones_clave:
+  - n: 3
+    latex: '\alpha = 1, \quad \beta^1 = - v_s(t)f[r_s(t)], \quad \beta^2 = \beta^3 = 0, \quad \gamma_{ij} = \delta_{ij}'
+    significado: "Elecciones de Alcubierre para lapso, desplazamiento y métrica espacial."
+  - n: 15
+    latex: 'T_{\alpha \beta} u^\alpha u^\beta = - \frac{v_s^2}{16 \pi}\frac{y^2 + z^2}{r_s^2}\left(\frac{\partial f}{\partial r_s}\right)^2 \leq 0'
+    significado: "Densidad de energía euleriana de Alcubierre, siempre no positiva."
+  - n: 24
+    latex: '\frac{\partial^2 \beta}{\partial t \partial x} + \beta \frac{\partial^2 \beta}{\partial x^2} + \left(\frac{\partial \beta}{\partial x}\right)^2 = 0'
+    significado: "Ecuación que queda de las ecuaciones de Einstein con fuente de polvo."
+  - n: 35
+    latex: '\frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} = 0'
+    significado: "Ecuación de Burgers no viscosa a la que se reducen las ecuaciones."
+limitaciones:
+  - "Solo considera polvo sin presión; otros fluidos o campos no se estudian."
+  - "Las soluciones resultan ser de vacío, de modo que no proporcionan una fuente para la burbuja."
+  - "Trabajo analítico sin estimación de energía total ni de viabilidad física."
+obstaculos: [1, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: ford-roman-1996
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+ideas_abiertas:
+  - "Explorar otras fuentes de materia, como fluidos con presión, para la geometría de Alcubierre."
+  - "Estudiar las ondas de choque de Burgers en el marco de la métrica warp."

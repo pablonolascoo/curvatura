@@ -1,0 +1,47 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Reexamina la inestabilidad cuántica de las burbujas warp superlumínicas cuando se viola la invariancia de Lorentz a muy alta energía mediante relaciones de dispersión. Muestra que la inestabilidad persiste, con distinto carácter según el signo de la dispersión."
+tipo: solucion
+supuestos:
+  - "Modelo 1+1 dimensiones con la métrica de Alcubierre y velocidad v_0 mayor que c, ignorando las direcciones transversales."
+  - "Campo escalar sin masa con dispersión cuártica, superlumínica o sublumínica, y un marco preferente dado por un campo unitario tipo éter u = (1, V)."
+  - "Régimen de separación de escalas, con la gravedad superficial kappa mucho menor que la escala de dispersión Lambda."
+  - "Estado in sin partículas entrantes; coeficientes de Bogoliubov obtenidos por fórmulas de conexión WKB."
+resultados:
+  - "La divergencia ultravioleta queda regulada por la dispersión, pero las burbujas warp siguen siendo inestables."
+  - "Con dispersión sublumínica aparece un láser de agujero negro que amplifica exponencialmente el flujo emitido."
+  - "Con dispersión superlumínica, los efectos infrarrojos producen un crecimiento lineal del flujo con el tiempo."
+  - "La energía emitida escala como Lambda por kappa al cuadrado por T en el caso estudiado."
+  - "Los resultados sugieren que la cronología podría seguir protegida aun violando la invariancia de Lorentz."
+ecuaciones_clave:
+  - n: 2
+    latex: 'ds^2=-c^2 dt^2+\left[dX-V(X)dt\right]^2'
+    significado: "Métrica warp 1+1 en el sistema de la burbuja con V(X) = v_0 (f(X) - 1)."
+  - n: 3
+    latex: 'S_\pm=\frac{1}{2}\int d^2 x \sqrt{-g}\left[g^{\mu\nu}\partial_{\mu}\phi\partial_{\nu}\phi \pm \frac{(h^{\mu\nu}\partial_{\mu}\partial_{\nu}\phi)^2}{\Lambda^2}\right]'
+    significado: "Acción del campo escalar con dispersión cuártica, superlumínica (+) o sublumínica (-)."
+  - n: 5
+    latex: '(\omega-V k_\omega)^2=k_\omega^2\pm\frac{k_\omega^4}{\Lambda^2}\equiv\Omega_\pm^2'
+    significado: "Relación de dispersión a frecuencia de Killing fija."
+  - n: 15
+    latex: '{\cal E} \propto \Lambda \int_{1/T}{d}\omega \left[\bar n^{(u)}_\omega +\bar n^{(1)}_{-\omega}\right]\propto \Lambda \kappa^2 T'
+    significado: "Energía emitida, que crece linealmente con el tiempo T."
+limitaciones:
+  - "Trabajo en 1+1 dimensiones; no se resuelve el caso 3+1."
+  - "El resultado depende de la elección del marco preferente y de la forma cuártica de la dispersión."
+  - "Cálculo en aproximación de escalas separadas, con comprobación numérica solo parcial."
+  - "No se evalúa la reacción sobre la geometría de la burbuja."
+obstaculos: [4, 5, 10]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: finazzi-2009
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si otras formas de dispersión o de marco preferente eliminan la inestabilidad."
+  - "Reproducir el fenómeno en análogos de laboratorio con fluidos o condensados."

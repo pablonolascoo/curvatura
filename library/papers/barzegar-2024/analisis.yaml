@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Critica que las métricas warp actuales usan la relatividad general solo de forma elemental, con restricciones fuertes. Propone el concepto de warp inclinado (T-Warp) con velocidad espacial covariante, aceleración, vorticidad y curvatura espacial."
+tipo: critica
+supuestos:
+  - "Descomposición 3+1 con lapso N, desplazamiento y cuadrivelocidad inclinada respecto a la normal."
+  - "Relatividad general clásica; la descripción de burbujas extendidas se deja para trabajos futuros."
+  - "Se llaman R-Warp a los modelos restringidos (Alcubierre, Natário) y T-Warp a la propuesta inclinada."
+resultados:
+  - "Los modelos R-Warp imponen flujo ortogonal a las hojas, lapso y desplazamiento prefijados, Ricci espacial nulo y velocidad dependiente de coordenadas."
+  - "En R-Warp la velocidad covariante, la aceleración y la vorticidad son nulas, así que la nave no tiene movimiento físico covariante."
+  - "En T-Warp la inclinación implica velocidad covariante, aceleración, vorticidad y curvatura espacial en general."
+  - "El factor de Lorentz covariante diverge cuando la cuadrivelocidad inclinada se vuelve de tipo luz."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2 = -(N^2 - N^kN_k)dt^2 + 2N_i\,dx^i dt + h_{ij}dx^i dx^j'
+    significado: "Línea de elemento en forma 3+1 con lapso N y desplazamiento N^i."
+  - n: 4
+    latex: 'u = \gamma(v)(n + v),\quad \gamma(v)=(1-v^\mu v_\mu)^{-1/2}'
+    significado: "Cuadrivelocidad inclinada respecto a la normal con velocidad covariante v."
+  - n: 6
+    latex: 'v = \frac{1}{N}(N + V)'
+    significado: "Relación entre velocidad covariante y velocidad de coordenadas."
+  - n: 13
+    latex: '\mathcal R = 16\pi G\epsilon + 2\Lambda - 2\,\mathrm{II}(\theta)'
+    significado: "Restricción hamiltoniana sobre la curvatura espacial."
+limitaciones:
+  - "Es un programa conceptual: no hay solución explícita de T-Warp ni cifras de energía."
+  - "No se describe todavía el mecanismo físico que genera la burbuja."
+obstaculos: [2, 7, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "critica"
+  - paper: natario-2002
+    como: "critica"
+  - paper: santiago-2022
+    como: "critica"
+  - paper: alcubierre-2017
+    como: "compara"
+ideas_abiertas:
+  - "Obtener ecuaciones de evolución, restricciones y leyes de conservación para el campo warp inclinado."
+  - "Vincular las variables de T-Warp con magnitudes que la nave pueda controlar."

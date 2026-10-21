@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Simula numéricamente una burbuja de Alcubierre de masa ADM nula que atraviesa la atmósfera terrestre y estima las firmas radiativas del choque. A velocidades relativistas la luminosidad supera el teravatio."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre estática durante la simulación, con función de forma de tangentes hiperbólicas."
+  - "Se ignora el término fuente de la geometría y no hay reacción de la materia sobre la métrica."
+  - "Fluido relativista con ecuación de estado de Taub-Mathews, resuelto con refinamiento adaptativo de malla."
+  - "Resultados válidos solo para espacio-tiempos de masa ADM nula (Alcubierre, Van den Broeck, Lentz)."
+resultados:
+  - "Una burbuja a escala de avión que se mueve a velocidades relativistas produce luminosidades superiores a un teravatio."
+  - "Por encima de aproximadamente el 10 % de c, el paso por la atmósfera daría un resplandor intenso y característico."
+  - "Una burbuja en reposo o lenta no genera luminosidades tan extremas."
+  - "Se simulan velocidades de 0.1 a 0.75 c, radios de 25 a 100 m y temperaturas del flujo incidente entre 1e-3 y 1e-6 en unidades de masa en reposo."
+  - "Por encima de la rodilla relativista (k_B T_e cercana a 0.2 MeV) la luminosidad escala como v_s al cubo; en régimen no relativista, como rho al cuadrado por R al cubo."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = -dt^2 + (dx - v_s f(r_s) dt)^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre usada como fondo de la simulación."
+  - n: 2
+    latex: 'f(x) = \frac{ \tanh{\left(\sigma (x + R)\right)} - \tanh{\left(\sigma ( x - R)\right)}}{2 \tanh{\left(\sigma R\right)}}'
+    significado: "Función de forma de la burbuja con radio R y grosor de pared 1/sigma."
+  - n: 12
+    latex: '[ \rho W v_s] = [\rho h W^2 v_s^2 + p] = [\rho h W^2 v_s] = 0'
+    significado: "Condiciones de salto de Rankine-Hugoniot en el choque."
+  - n: 13
+    latex: 'k_{B} T_{\text{stag}} \sim (W_1 - 1) m_u c^2'
+    significado: "Temperatura de la zona de estancamiento en términos del factor de Lorentz del flujo incidente."
+limitaciones:
+  - "No cubre geometrías de masa ADM no nula, cuyo comportamiento sería distinto."
+  - "La métrica estática y sin término fuente simplifica la interacción real con la materia de la pared."
+  - "Los autores asocian el estudio a fenómenos anómalos no identificados; el análisis es especulativo en ese punto."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+  - paper: lentz-2021
+    como: "aplica"
+  - paper: bobrick-martire-2021
+    como: "compara"
+ideas_abiertas:
+  - "Repetir el cálculo con burbujas de masa ADM no nula, incluidas velocidades subrelativistas."
+  - "Usar la firma de brillo como criterio observacional para limitar la propulsión warp cerca de la Tierra."

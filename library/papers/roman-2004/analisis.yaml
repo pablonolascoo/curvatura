@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Ensayo de revisión sobre condiciones de energía y agujeros de gusano, centrado en las desigualdades cuánticas que limitan la energía negativa. Resume sus consecuencias para agujeros de gusano, motores warp y máquinas del tiempo."
+tipo: revision
+supuestos:
+  - "Campos cuánticos libres en estados de Hadamard, con función de muestreo suave de anchura tau_0."
+  - "Las cotas cuánticas, deducidas en espacio plano, valen en espacio curvo para tiempos de muestreo suficientemente pequeños."
+  - "Se considera la materia exótica como fuente de agujeros de gusano y de warp drives."
+resultados:
+  - "Las condiciones de energía débil y nula se violan incluso para campos libres en Minkowski; las promediadas se cumplen allí, pero se violan en algunos espacios curvos y con fronteras."
+  - "La desigualdad cuántica acota la energía negativa por -C hbar / (c^3 tau_0^4): cuanto más negativa, menos dura."
+  - "Para agujeros de gusano, la garganta mide a lo sumo unos miles de longitudes de Planck, o bien la energía negativa se confina a una banda muy fina; problemas similares afectan a los warp drives."
+  - "Superponer N campos relaja la cota por un factor N; para una garganta de 1 m hacen falta unos 10^62 campos."
+  - "No existen desigualdades cuánticas puramente espaciales en 4D ni a lo largo de geodésicas nulas en 4D, aunque sí en 2D."
+ecuaciones_clave:
+  - n: 1
+    latex: 'T_{\mu\nu}u^\mu u^\nu\geq 0'
+    significado: "Condición de energía débil."
+  - n: 4
+    latex: '\int_{-\infty}^{\infty}T_{\mu\nu}K^\mu K^\nu\,d\lambda\geq 0'
+    significado: "Condición de energía nula promediada (ANEC)."
+  - n: 5
+    latex: '\hat\rho=\int_{-\infty}^{\infty}\rho f(\tau)d\tau\geq-\frac{C\hbar}{c^3\tau_0^4}'
+    significado: "Desigualdad cuántica para la densidad de energía muestreada."
+  - n: 6
+    latex: '\hat\rho\geq-\frac{NC\hbar}{c^3\tau_0^4}'
+    significado: "Cota con N campos."
+limitaciones:
+  - "Las desigualdades cuánticas solo están demostradas para campos libres, no para campos con interacción."
+  - "Es una revisión de divulgación técnica que apunta a problemas abiertos sin resolverlos."
+  - "Existen contraejemplos con campos interactuantes que dan energía negativa estática, como el modelo de Olum y Graham."
+obstaculos: [3, 1, 4, 9]
+relacion:
+  - paper: ford-roman-1996
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: morris-thorne-1988
+    como: "compara"
+  - paper: visser-2003
+    como: "compara"
+ideas_abiertas:
+  - "Encontrar desigualdades cuánticas promediadas en el espacio-tiempo en 4D."
+  - "Demostrar las desigualdades cuánticas para campos con interacción."
+  - "Decidir si la conjetura de protección de la cronología es cierta."

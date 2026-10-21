@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Define de forma estricta los atajos espaciotemporales (burbuja de Alcubierre, tubo de Krasnikov, agujeros de gusano) y argumenta que las desigualdades cuánticas no los prohíben. Lo apoya con ejemplos explícitos."
+tipo: critica
+supuestos:
+  - "Un atajo es un espacio-tiempo globalmente hiperbólico obtenido de Minkowski sustituyendo un cilindro plano, de modo que puntos separados espacialmente quedan conectados causalmente."
+  - "Aproximación semiclásica: tensor de la materia clásica (que cumple la condición de energía débil) más el valor esperado del tensor cuántico."
+  - "Se usa la desigualdad cuántica de Ford y Roman, cuya validez en espacio curvo no está demostrada en general."
+resultados:
+  - "La desigualdad cuántica no implica siempre densidades de energía grandes: la estimación depende de suponer que los tensores de Riemann y de Einstein son del mismo orden."
+  - "Densidades grandes no llevan necesariamente a una energía negativa total grande, ya que se puede reducir el volumen con geometrías sin simetría esférica."
+  - "El agujero de gusano tipo portal (sin simetría esférica) reduce la energía negativa total en unos 35 órdenes de magnitud."
+  - "Con un truco tipo Van Den Broeck se estima que bastarían del orden de 10^-3 g de materia exótica, con una función de forma distinta a la original."
+  - "Una energía total grande puede carecer de significado físico, como la energía del campo cerca de una carga puntual."
+ecuaciones_clave:
+  - n: 5
+    latex: 'G_{\mu\nu}t^\mu t^\nu\geqslant 0\quad\forall\ \text{timelike}\ \bm{t}'
+    significado: "Condición de energía débil."
+  - n: 9
+    latex: '\bar{\varrho}_\chi\geqslant -A\Delta^{-4}'
+    significado: "Desigualdad cuántica para la densidad de energía promediada sobre una geodésica."
+  - n: 10
+    latex: '\Delta\lesssim \ell\equiv\left(\max|R_{\alpha\beta\gamma\delta}|\right)^{-1/2}'
+    significado: "El tiempo de muestreo está acotado por la escala de curvatura."
+  - n: 13
+    latex: 'E_{\rm tot}^-\equiv\int_{\Xi}|\varrho|\,d^3x'
+    significado: "Cantidad total de energía negativa en la región exótica."
+limitaciones:
+  - "Las estimaciones son aproximadas, y la desigualdad cuántica se usa fuera de su dominio demostrado."
+  - "Los atajos creados necesitan un tiempo de construcción grande (por ejemplo 99 años para llegar a 100 años luz en 1 año)."
+  - "No se da un mecanismo para generar la materia exótica; solo se muestra que no está excluida."
+obstaculos: [3, 1, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "critica"
+  - paper: everett-roman-1997
+    como: "aplica"
+  - paper: broeck-1999
+    como: "corrige"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Demostrar o refutar la desigualdad cuántica en espacios curvos."
+  - "Explorar sistemas de campos que la violen, como el de dos campos escalares cerca de una pared de dominio."

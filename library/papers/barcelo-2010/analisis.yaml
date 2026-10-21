@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Ensayo divulgativo que repasa el límite de la velocidad de la luz en relatividad general y resume un cálculo semiclásico. Concluye que la reacción cuántica desestabiliza las burbujas warp formadas desde espacio plano cuando alcanzan velocidades superlumínicas."
+tipo: revision
+supuestos:
+  - "Métrica de Alcubierre en 1+1 dimensiones, con la burbuja creada a partir de espacio plano."
+  - "Campo escalar sin masa tratado con la aproximación semiclásica y el tensor de energía-momento renormalizado del caso bidimensional."
+  - "Horizontes que se forman en un tiempo finito cuando la velocidad de la burbuja supera la de la luz."
+resultados:
+  - "La geometría warp requiere materia exótica que viola las condiciones de energía débil y dominante, incluso a velocidades subluminales."
+  - "Al formarse los horizontes, la densidad de energía medida por la nave contiene un término dinámico que crece exponencialmente con el tiempo."
+  - "Esa divergencia desestabiliza la burbuja: la reacción cuántica impide mantener un warp superlumínico creado desde espacio plano."
+  - "Se sugiere que esto es un nuevo éxito del postulado de la luz, de modo que la reacción cuántica protegería el límite de velocidad."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-c^2 dt^2+\left[dx-v(r)dt\right]^2+dy^2+dz^2'
+    significado: "Métrica de la burbuja warp con v(r) = v_c f(r)."
+  - n: 9
+    latex: 'T_{UU} = -\frac{1}{12\pi}C^{1/2}\partial_U^2 C^{-1/2},\quad T_{UW}=\frac{1}{96\pi}C\,R'
+    significado: "Tensor de energía-momento renormalizado de un campo escalar sin masa en 1+1 dimensiones."
+  - n: 14
+    latex: '\rho_{\rm dyn}\equiv\frac{1}{48\pi}\frac{f(u)}{\left(1+\bar{v}\right)^2}'
+    significado: "Parte dinámica de la densidad de energía, que gobierna la inestabilidad cerca del horizonte."
+  - n: 16
+    latex: '\rho=\frac{e^{-2\kappa_1 t}}{48\pi}\left[3{\left(\frac{A_2}{A_1}\right)}^2-2\frac{A_3}{A_1}\right] + A +{\cal O}\left(r-r_1\right)'
+    significado: "Comportamiento de la densidad de energía en el horizonte, con dependencia exponencial en el tiempo."
+limitaciones:
+  - "Modelo en 1+1 dimensiones; la extensión a 3+1 se discute pero no se calcula en este texto."
+  - "Es un ensayo de síntesis: el cálculo detallado está en trabajos previos de los autores."
+  - "La conclusión depende de crear la burbuja desde espacio plano; otras configuraciones no se analizan."
+obstaculos: [1, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: hiscock-1997
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si la inestabilidad semiclásica persiste en 3+1 dimensiones."
+  - "Analizar si geometrías no creadas desde espacio plano escapan de la divergencia."

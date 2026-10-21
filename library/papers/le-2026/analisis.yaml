@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone criterios para verificar las condiciones de energía en burbujas warp para todo observador admisible. Los expresa como desigualdades matriciales lineales 4x4 mediante el lema S, sin clasificación de Hawking-Ellis ni límite de rapidez."
+tipo: propuesta
+supuestos:
+  - "El tensor energía-impulso se obtiene de la métrica por las ecuaciones de Einstein, con diferenciación automática."
+  - "Rebanadas planas con lapso unidad para los resultados sobre momento y vorticidad del desplazamiento."
+  - "Cuatro geometrías comparadas con parámetros iguales: Alcubierre, Van den Broeck, Natário y el perfil irrotacional de Rodal."
+resultados:
+  - "Las condiciones nula, débil y fuerte son una desigualdad matricial 4x4 y la dominante requiere dos pruebas."
+  - "La evaluación por intervalos da cotas globales que establecen la violación de la condición de energía nula en las cuatro paredes."
+  - "El momento euleriano se anula para todo desplazamiento liso de R^3 con vorticidad acotada solo si es un gradiente más una rotación rígida."
+  - "Para el perfil de Rodal, la lectura euleriana pierde cerca del 73% de las violaciones débiles muestreadas en la pared."
+  - "Hay regiones de tipo IV en las paredes de Alcubierre y Natário; la de Rodal es de tipo I en todas partes."
+ecuaciones_clave:
+  - n: 19
+    latex: 'T_{ab}u^au^b=\gamma^2 q(w),\qquad q(w)=\rho_n-2\,b\!\cdot\!w+w^{\mathsf T}Sw'
+    significado: "Contracción con un observador de velocidad w, base de la prueba por el lema S."
+  - n: 20
+    latex: 'M(\sigma)\;=\;\widehat T+\sigma\,\eta\;=\; \begin{pmatrix} \rho_n-\sigma & -b^{\mathsf T}\\[2pt] -b & S+\sigma\,\mathbb{1}\end{pmatrix}'
+    significado: "Matriz cuya semidefinición positiva certifica la condición para todo observador."
+  - n: 12
+    latex: '\Delta = (\rho_n + S_\parallel)^2 - 4|j|^2 < 0'
+    significado: "Discriminante que identifica el tipo IV de Hawking-Ellis."
+  - n: 32
+    latex: 'j\equiv0 \iff \beta=\nabla\phi+\Omega\times\mathbf{x}'
+    significado: "El momento euleriano se anula solo para un gradiente más rotación rígida."
+limitaciones:
+  - "El análisis se limita al tensor inducido por cada métrica; no trata la realizabilidad de la materia."
+  - "Las propiedades causales globales y las desigualdades cuánticas en espacio curvo requieren análisis adicional."
+  - "Los tipos numéricos y fracciones muestreadas son distintos de las cotas por intervalos."
+obstaculos: [1, 3, 13]
+relacion:
+  - paper: santiago-2022
+    como: "compara"
+  - paper: natario-2002
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+  - paper: barzegar-2026
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Extender los certificados a desigualdades cuánticas en espaciotiempo curvo."
+  - "Aplicar las pruebas a configuraciones de cáscara de energía positiva."

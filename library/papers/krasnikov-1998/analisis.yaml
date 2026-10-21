@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia si un viajero que modifica la geometría puede llegar antes que un fotón o hacer un viaje de ida y vuelta arbitrariamente corto. Demuestra que la ida no se acelera en espacio-tiempos globalmente hiperbólicos, pero la ida y vuelta sí."
+tipo: teorema
+supuestos:
+  - "Geometría clásica; no se impone ninguna ecuación concreta a la materia."
+  - "Principio de causalidad total: los dos espacio-tiempos comparados divergen solo por un evento S, tras la acción del piloto."
+  - "Espacio-tiempos globalmente hiperbólicos para la proposición principal."
+resultados:
+  - "Proposición 1: en espacio-tiempos globalmente hiperbólicos que divergen por S, el viajero no puede adelantar su llegada al destino."
+  - "Aun así, la ida y vuelta puede hacerse en un tiempo terrestre arbitrariamente corto, como muestran un ejemplo de motor warp 1+1 y uno de agujero de gusano."
+  - "Estos vehículos se interpretan como raíces cuadradas de una máquina del tiempo; combinando dos se obtiene una curva temporal cerrada."
+  - "Los del primer tipo requieren violar la condición de energía débil; con desigualdades cuánticas se cita una estimación de 1e32 masas galácticas de energía negativa."
+ecuaciones_clave:
+  - n: 7
+    latex: 'ds^2=-dt^2+[dx-v_sf(r_s)dt]^2'
+    significado: "Métrica de Alcubierre en 1+1 dimensiones usada como ejemplo de viaje hiperrápido."
+  - n: 9
+    latex: 'ds^2=-(dt-dx)(dt+k(t,x)dx)'
+    significado: "Métrica 1+1 del motor warp de Krasnikov, con conos de luz más abiertos en la región interior."
+  - n: 1
+    latex: 'F_i \equiv \mathrm{Bd}\,(J^+(S_i))\cap \mathcal{D}_i, \quad R_i \equiv \mathrm{Bd}\,(J^+(F_i))\cap \mathcal{E}_i'
+    significado: "Puntos de llegada y regreso más tempranos permitidos por la barrera de la luz."
+limitaciones:
+  - "Resultados formales sobre estructura causal; no calcula la materia necesaria."
+  - "La condición de divergencia por S se declara provisional."
+  - "La estimación de energía negativa es una cita de otro trabajo y depende de la geometría."
+obstaculos: [1, 3, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "critica"
+  - paper: everett-1996
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+ideas_abiertas:
+  - "Buscar geometrías de este tipo que reduzcan la energía negativa necesaria."
+  - "Explorar otras condiciones de relación entre los dos espacio-tiempos, más o menos restrictivas."

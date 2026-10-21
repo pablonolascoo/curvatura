@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Reduce las desigualdades cuánticas y la conjetura del interés cuántico a un problema de estados ligados de un pseudohamiltoniano unidimensional. Con ello demuestra una versión de la conjetura del interés cuántico en el espacio de Minkowski (3+1)."
+tipo: teorema
+supuestos:
+  - "Espacio de Minkowski plano, campo escalar sin masa con acoplo mínimo y observador temporal geodésico."
+  - "Se trabaja en el límite de campo de prueba, sin curvatura de fondo."
+  - "La función de peso f(t) es arbitraria; se estudian gaussianas y una clase genérica de funciones de prueba."
+resultados:
+  - "Las desigualdades cuánticas equivalen a que el operador (-1)^m D^{2m} + V no tenga autovalores negativos."
+  - "Si la integral de V es negativa, existe un estado ligado, lo que contradice las desigualdades cuánticas."
+  - "Por tanto la parte positiva de la densidad de energía debe compensar con exceso a la negativa, para pulsos de forma arbitraria y no solo deltas."
+  - "El resultado vale para dimensiones pares arbitrarias, con m=1 en (1+1) y m=2 en (3+1)."
+ecuaciones_clave:
+  - n: 2
+    latex: 'I_{\psi,w}\geq-\frac{1}{24\pi}\oint\frac{(w^{\prime}(t))^2}{w(t)}\,\mathrm{d}t'
+    significado: "Cota de Flanagan en (1+1) para la densidad de energía promediada con peso w."
+  - n: 10
+    latex: '\left<f|  \left\{  (-1)^mD^{2m}+ V \right\}  |f\right>\geq0'
+    significado: "Las desigualdades cuánticas como no negatividad del pseudohamiltoniano con potencial V proporcional a T00."
+  - n: 17
+    latex: '\oint V(x)_+ \; \mathrm{d}x > \oint V(x)_-   \; \mathrm{d}x'
+    significado: "Condición de interés cuántico: la parte positiva del potencial supera a la negativa."
+  - n: 20
+    latex: '\oint\left<\,T_{00}^{ren}(t,0)\,\right>_+ \; \mathrm{d}x > \oint\left<\,T_{00}^{ren}(t,0)\,\right>_-   \; \mathrm{d}x'
+    significado: "Traducción a la energía renormalizada: la energía positiva excede a la negativa."
+limitaciones:
+  - "No incluye curvatura del espaciotiempo ni se formula con la condición de energía nula."
+  - "Se pierde la información fina sobre el intervalo entre el pulso negativo y el positivo."
+  - "Solo prueba una versión de la conjetura, no una cota cuantitativa del interés cuántico."
+obstaculos: [3, 1]
+relacion:
+  - paper: flanagan-1997
+    como: "extiende"
+  - paper: fewster-1998
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Extender el argumento a espaciotiempos curvos en (3+1) y usar la condición de energía nula."
+  - "Aplicarlo a la energía negativa de una burbuja warp para acotar el intervalo entre pulsos."

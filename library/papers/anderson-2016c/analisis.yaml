@@ -1,0 +1,17 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Por el título, estudia las trayectorias de rayos de luz en el espaciotiempo de Alcubierre."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre como fondo geométrico (según el título)."
+  - "Propagación de rayos como geodésicas nulas (inferido del título)."
+resultados:
+  - "Sin resumen: no se puede indicar qué trayectorias se obtienen."
+  - "El título sugiere un análisis de la estructura causal vista por los rayos."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título: no hay resumen ni texto en la biblioteca."
+  - "Sin texto disponible, no se pueden citar cifras ni ecuaciones."
+obstaculos: [4]
+relacion: []
+ideas_abiertas:
+  - "Leer el paper completo y completar esta ficha."

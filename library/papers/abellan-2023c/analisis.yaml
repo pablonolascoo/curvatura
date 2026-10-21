@@ -1,0 +1,30 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Escribe la métrica de Alcubierre en coordenadas esféricas y resuelve las ecuaciones de Einstein para un fluido perfecto y para un fluido anisótropo con constante cosmológica, analizando las condiciones de energía."
+tipo: solucion
+supuestos:
+  - "Simetría esférica con métrica ds2 = -(1-β2)dt2 - 2β dt dr + dr2 + r2 dΩ2 y observadores eulerianos."
+  - "Fluido perfecto o fluido anisótropo (presiones radial y tangencial), sin flujo de calor."
+  - "Caso estacionario: β depende solo de r y existe un vector de Killing temporal."
+resultados:
+  - "En el caso independiente del tiempo aparece la ecuación de estado p = -ρ (presión radial = -densidad)."
+  - "Con p = -ρ se cumplen las condiciones de energía débil, dominante y nula si ρ ≥ 0."
+  - "La condición de energía fuerte exige densidad negativa (ρ ≤ 0) con presión positiva."
+  - "La métrica propuesta no admite disipación de calor."
+ecuaciones_clave: []
+limitaciones:
+  - "El texto con PDF no incluye lista numerada de ecuaciones; por eso no se citan."
+  - "Solo se analiza el caso estacionario con detalle y con observadores eulerianos."
+  - "No se estudia la estabilidad de la cáscara ni la energía total necesaria."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Añadir disipación, flujo de calor y campos electromagnéticos al modelo esférico."
+  - "Estudiar la ecuación de estado p = -ρ como estabilizador de la geometría."

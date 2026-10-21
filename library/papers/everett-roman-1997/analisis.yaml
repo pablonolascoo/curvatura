@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza y generaliza a cuatro dimensiones la métrica de Krasnikov, un tubo plano que abre los conos de luz a lo largo de la ruta de la nave. Muestra que requiere energía negativa en capas muy finas, y que dos tubos permiten construir una máquina del tiempo."
+tipo: solucion
+supuestos:
+  - "Métrica de Krasnikov en 2D extendida a 3+1 con simetría axial y radio máximo del tubo rho_max, usando funciones escalón suavizadas por tanh."
+  - "El tubo se construye a lo largo de la trayectoria de ida de una nave, en un espacio inicialmente plano."
+  - "Se aplica una desigualdad cuántica de tipo Ford y Roman sobre una trayectoria geodésica."
+resultados:
+  - "A diferencia de la burbuja de Alcubierre, el tubo se puede crear desde la nave, porque se construye dentro de su cono de luz futuro."
+  - "El tiempo de ida a la estrella no se acorta, pero el de ida y vuelta, medido por relojes en la Tierra, puede hacerse arbitrariamente corto."
+  - "Un solo tubo no genera curvas temporales cerradas, pero un sistema de dos tubos no solapados sí permite una máquina del tiempo."
+  - "El tensor de energía-momento viola la condición de energía débil, con densidad del orden de menos 1/(8 pi epsilon^2) en la pared, siendo epsilon el espesor."
+  - "La desigualdad cuántica exige un espesor de pared poco realista y una energía negativa total muy grande."
+ecuaciones_clave:
+  - n: 4
+    latex: 'ds^2 = - (dt - dx) (dt + k(x,t) dx)'
+    significado: "Métrica de Krasnikov en dos dimensiones con función de forma k."
+  - n: 10
+    latex: 'k(t,x,\rho) \equiv 1- (2 - \delta)\theta_{\epsilon} (\rho_{max}- \rho)\theta_{\epsilon} (t - x - \rho)[\theta_{\epsilon} (x) - \theta_{\epsilon}(x + \epsilon - D)]'
+    significado: "Función k de la extensión a 3+1 dimensiones."
+  - n: 13
+    latex: '\frac{\tau_0}{\pi}\int_{-\infty}^{\infty}\frac{\langle T_{\mu\nu}u^\mu u^\nu\rangle d\tau}{\tau^2+\tau_0^2}\geq-\frac{3}{32\pi^2\tau_0^4}'
+    significado: "Desigualdad cuántica sobre la densidad de energía a lo largo de una geodésica."
+  - n: 28
+    latex: 'T_{\hat t \hat t} \approx -\frac{1}{8 \pi \epsilon^2}'
+    significado: "Densidad de energía negativa en la pared del tubo, que crece al estrechar el espesor."
+limitaciones:
+  - "El cálculo explícito de energía usa una forma concreta de k; otras formas no se exploran."
+  - "No se resuelve cómo generar la energía negativa necesaria."
+  - "El argumento de la máquina del tiempo exige dos tubos; no se estudia su estabilidad."
+obstaculos: [1, 3, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: everett-1996
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "aplica"
+  - paper: ford-roman-1996
+    como: "aplica"
+ideas_abiertas:
+  - "Buscar variantes del tubo con menor energía negativa total."
+  - "Estudiar si la protección de la cronología evita la construcción de dos tubos."

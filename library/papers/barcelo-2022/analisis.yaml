@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza la inestabilidad semiclásica del warp de Alcubierre en 2+1 dimensiones o más mediante geodésicas nulas. Concluye que burbujas con forma aerodinámica pueden ser estables."
+tipo: simulacion
+supuestos:
+  - "Campo cuántico de materia en la burbuja de Alcubierre, tratado de forma semiclásica."
+  - "Función de velocidad v(x,y) suave y burbuja en 2+1 dimensiones."
+  - "El desplazamiento al azul infinito en puntos aislados se usa como indicador de inestabilidad."
+resultados:
+  - "En 1+1 dimensiones la pared frontal actúa como un horizonte interno puro y la densidad de energía crece como e^{2κt}."
+  - "En 2+1 dimensiones o más solo hay puntos aislados donde las geodésicas se acumulan, y la acumulación total de energía es finita."
+  - "Formas aerodinámicas y trayectorias con pequeños cambios de dirección reducen la acumulación de energía."
+  - "La burbuja interpola entre un punto de horizonte interno (frente) y uno externo (parte trasera)."
+ecuaciones_clave:
+  - n: 3
+    latex: '\rho=\expval{T_{\mu\nu}}u^\mu u^\nu\sim e^{2\kappa t}'
+    significado: "Crecimiento exponencial de la densidad de energía cuántica cerca del horizonte interno."
+  - n: 4
+    latex: '\text{d} s^2=-\text{d} t^2+[\text{d} x+v(x,y)\text{d} t]^2+\text{d} y^2'
+    significado: "Métrica de la burbuja warp en 2+1 dimensiones."
+  - n: 6
+    latex: 'v(x,0)=1+\kappa (x-x_1)+\cdots'
+    significado: "Desarrollo de la velocidad cerca del punto inestable sobre el eje, con gravedad superficial κ."
+  - n: 14
+    latex: '\eta_\pm=\frac{\kappa}{2}\left(\sqrt{1+8\frac{\xi}{\kappa^2}}\pm 1\right)'
+    significado: "Exponentes que controlan la dispersión de geodésicas transversales cerca del punto inestable."
+limitaciones:
+  - "No demuestra que el warp sea viable; solo retira un obstáculo semiclásico."
+  - "El análisis cuántico es cualitativo, basado en geodésicas y no en un cálculo completo del tensor de energía-momento."
+  - "No aborda la energía negativa necesaria ni la materia que sostiene la burbuja."
+obstaculos: [4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "corrige"
+  - paper: clark-1999
+    como: "extiende"
+ideas_abiertas:
+  - "Calcular el tensor de energía-momento cuántico completo en 2+1 y 3+1 dimensiones."
+  - "Optimizar formas y trayectorias de la burbuja para minimizar la energía acumulada."

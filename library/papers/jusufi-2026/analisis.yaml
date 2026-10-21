@@ -1,0 +1,50 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye una geometría de Alcubierre inspirada en la longitud de punto cero de la dualidad T de cuerdas. Identifica el perfil warp con la fracción de masa acumulada complementaria de una fuente difuminada y obtiene energía y expansión en forma cerrada."
+tipo: propuesta
+supuestos:
+  - "El perfil f(r_s) = 1 - r_s^3/(r_s^2 + l^2)^{3/2} con l^2 = R^2 + l_0^2 es un ansatz efectivo, no una derivación de ecuaciones de campo corregidas por cuerdas."
+  - "La longitud de punto cero es l_0 = 2 pi sqrt(alpha'), y R es una escala macroscópica del perfil."
+  - "Velocidad constante v_s y métrica de Alcubierre con observadores eulerianos."
+resultados:
+  - "La métrica es C^2 en el centro de la burbuja y suave en el resto; el tensor de Riemann es finito."
+  - "La densidad de energía euleriana es no positiva, nula en el eje y en el centro; con l = 100 m y v_s = c vale unos 3,7e37 J/m^3 en valor absoluto."
+  - "La energía total es E = -(15 pi/1024) v_s^2 l, es decir unos -5,6e44 J para l = 100 m y v_s = c."
+  - "Al ser l mayor o igual que l_0, el límite R tendiendo a 0 a v_s fijo no diverge: |E| tiende a (15 pi/1024) v_s^2 l_0."
+  - "La superficie de límite estacionario no es un horizonte nulo, así que no se asigna área ni entropía."
+ecuaciones_clave:
+  - n: 10
+    latex: 'f(r_s)=1-\frac{m(r_s)}{M}=1-\frac{r_s^3}{(r_s^2+\ell^2)^{3/2}}'
+    significado: "Perfil warp inspirado en la dualidad T, a partir de la masa acumulada de la fuente difuminada."
+  - n: 26
+    latex: '\rho_E(r_s,\theta) = -\frac{9 v_s^2}{32\pi}\frac{\ell^4 r_s^4 \sin^2\theta}{(r_s^2+\ell^2)^{5}}'
+    significado: "Densidad de energía euleriana del perfil, no positiva y toroidal."
+  - n: 31
+    latex: 'E = -\frac{15\pi}{1024} v_s^2 \ell \approx -0.046\, v_s^2 \ell'
+    significado: "Energía negativa total en forma cerrada."
+  - n: 37
+    latex: '\theta(r_s,\Delta x)=-\frac{3v_s\ell^2r_s\Delta x}{(r_s^2+\ell^2)^{5/2}}'
+    significado: "Expansión de York del volumen de los observadores eulerianos."
+limitaciones:
+  - "El ansatz no sale de ecuaciones de campo corregidas por cuerdas, y l^2 = R^2 + l_0^2 es una interpolación."
+  - "El límite clásico l_0 tendiendo a 0 es un perfil grueso y suave, no el sombrero de copa de Alcubierre; no regulariza el límite de pared fina a radio fijo."
+  - "Sigue haciendo falta materia exótica; la condición de energía débil se viola en la pared."
+  - "No hay cálculo del tensor de energía-impulso renormalizado, así que no se afirma estabilidad semiclásica ni una desigualdad cuántica modificada."
+  - "La métrica es C^2 pero no C^3 en el centro, lo que complica la renormalización por separación de puntos."
+obstaculos: [1, 3, 5, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: hiscock-1997
+    como: "compara"
+  - paper: finazzi-2009
+    como: "compara"
+  - paper: santiago-2022
+    como: "aplica"
+ideas_abiertas:
+  - "Difuminar directamente una cáscara de Alcubierre de radio finito para obtener un grosor mínimo calculable."
+  - "Calcular el tensor de energía-impulso renormalizado con la función de dos puntos modificada por la dualidad T."
+  - "Derivar la desigualdad cuántica correspondiente con ese propagador."

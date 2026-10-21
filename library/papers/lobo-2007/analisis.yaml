@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Capítulo de revisión sobre soluciones exóticas de la relatividad general: agujeros de gusano atravesables, la métrica warp de Alcubierre, el tubo de Krasnikov y espaciotiempos con curvas temporales cerradas. Analiza sus violaciones de las condiciones de energía."
+tipo: revision
+supuestos:
+  - "Se resuelve la ecuación de Einstein en sentido inverso: se elige una métrica exótica y se deduce la materia que la sostiene."
+  - "Agujero de gusano estático y esféricamente simétrico con funciones de forma b(r) y de corrimiento al rojo Phi(r)."
+  - "Warp tratado con la métrica de Alcubierre y su versión linealizada en la velocidad."
+resultados:
+  - "Estas soluciones requieren materia exótica con un tensor de energía-momento que viola la condición de energía nula."
+  - "En el warp de Alcubierre se violan las condiciones de energía débil y nula; se aplican a él las desigualdades cuánticas."
+  - "El viaje superlumínico efectivo se asocia siempre a energía negativa significativa; se discute además el tubo de Krasnikov en 2D y su generalización a 4D."
+  - "Tanto el warp como el tubo de Krasnikov pueden generar curvas temporales cerradas, y los agujeros de gusano pueden convertirse en máquinas del tiempo."
+  - "Se revisan también agujeros de gusano rotantes, evolutivos, con cáscaras finas y con expansión cósmica acelerada."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-e^{2\Phi(r)}dt^2+\frac{dr^2}{1-b(r)/r}+r^2(d\theta^2+\sin^2\theta d\phi^2)'
+    significado: "Métrica de Morris y Thorne para un agujero de gusano estático y esférico."
+  - n: 23
+    latex: '\rho(r)=\frac{1}{8\pi}\frac{b^{\prime}}{r^2},\quad \tau(r)=\frac{1}{8\pi}\left[\frac{b}{r^3}-2\left(1-\frac{b}{r}\right)\frac{\Phi^{\prime}}{r}\right]'
+    significado: "Densidad de energía y tensión radial que sostienen la geometría."
+  - n: 30
+    latex: '\xi =\frac{\tau-\rho}{|\rho|}=\frac{b/r-b^{\prime}- 2r(1-b/r)\Phi^{\prime}}{|b^{\prime}|}'
+    significado: "Función de exoticidad: es positiva en la garganta, lo que indica violación de la condición de energía nula."
+  - n: 32
+    latex: '\xi(r_0) =\frac{\tau_0-\rho_0}{|\rho_0|}>0'
+    significado: "Condición de exoticidad evaluada en la garganta."
+limitaciones:
+  - "Ficha basada sobre todo en el resumen y en la estructura del capítulo; las secciones de warp no vienen desarrolladas en el texto disponible."
+  - "Las soluciones se presentan como experimentos mentales, no como diseños realizables."
+  - "Mucho del contenido se centra en agujeros de gusano y no en propulsión warp."
+obstaculos: [1, 3, 4, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Reducir la cantidad de materia exótica mediante cáscaras finas o geometrías alternativas."
+  - "Estudiar mecanismos que impidan las curvas temporales cerradas que generan estas soluciones."

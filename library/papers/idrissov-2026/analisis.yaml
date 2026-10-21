@@ -1,0 +1,46 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula de forma analítica la estabilidad radial de una cáscara delgada de materia ordinaria con interior plano y exterior de Schwarzschild, el modelo más simple de warp subluminal. Halla un radio mínimo exacto para que una cáscara causal sea estable."
+tipo: teorema
+supuestos:
+  - "Cáscara delgada esféricamente simétrica; el interior es plano y el exterior es Schwarzschild, unidos por condiciones de empalme de Israel."
+  - "Perturbaciones solo radiales y tratamiento isentrópico."
+  - "Materia causal: velocidad del sonido en la pared menor o igual que la de la luz."
+resultados:
+  - "La cáscara cumple todas las condiciones de energía habituales salvo muy cerca del horizonte (fuera de a = 25M/12)."
+  - "Con materia causal solo puede ser estable fuera de a_crit = 2,3703931 M."
+  - "La velocidad crítica del sonido es la pendiente de la secuencia estática, para cualquier par de métricas de fondo."
+  - "Con un agujero negro dentro, el radio crítico crece con su masa, así que el interior plano es el caso más favorable."
+  - "A a0 = 25M, β_crit^2 es menor que 0,02: una burbuja grande y de poca masa es estable radialmente para casi cualquier pared rígida."
+ecuaciones_clave:
+  - n: 4
+    latex: '\sigma = -\frac{1}{4\pi a}\left[\sqrt{f_{+}+\dot a^{2}}-\sqrt{f_{-}+\dot a^{2}}\right]'
+    significado: "Densidad superficial de energía de la cáscara a partir de las condiciones de empalme."
+  - n: 15
+    latex: '\beta^{2}_{\rm crit}(s)=\frac{1+s+s^{2}-3s^{3}}{4s^{2}\left(1+3s\right)}'
+    significado: "Cuadrado de la velocidad crítica del sonido para la estabilidad radial."
+  - n: 18
+    latex: '\beta^{2}_{\rm crit}=\left.\frac{\mathrm{d} p_{0}}{\mathrm{d}\sigma_{0}}\right|_{\rm static\ sequence}'
+    significado: "El umbral de estabilidad es la pendiente de la secuencia estática."
+  - n: 21
+    latex: '\frac{a_{\rm crit}}{M}=\frac{2}{1-s_{\ast}^{2}}=2.3703931'
+    significado: "Radio crítico mínimo para una cáscara causal estable."
+limitaciones:
+  - "Solo estabilidad radial: se sabe que estas cáscaras son inestables frente a perturbaciones no radiales."
+  - "Trata un fluido perfecto; una pared con rigidez de cizalla no está cubierta."
+  - "La estabilidad radial no basta para la viabilidad física del warp."
+obstaculos: [6, 7, 8]
+relacion:
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: natario-2002
+    como: "compara"
+  - paper: santiago-2022
+    como: "aplica"
+  - paper: schuster-2022
+    como: "aplica"
+  - paper: fuchs-2024
+    como: "aplica"
+ideas_abiertas:
+  - "Comprobar si una pared con rigidez de cizalla estabiliza los modos no radiales."
+  - "Aplicar el formalismo a un interior de de Sitter, como en las gravastares."
+  - "Repetir el análisis a entropía fija en el enfoque termodinámico."

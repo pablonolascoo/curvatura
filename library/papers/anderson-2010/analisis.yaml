@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Simula el espaciotiempo de Alcubierre con un medio de Tamm (metamaterial) y calcula las trayectorias de rayos de luz en óptica geométrica, mostrando cómo la burbuja desvía y enfoca la luz."
+tipo: simulacion
+supuestos:
+  - "La métrica de Alcubierre se representa como un medio material en espacio plano mediante el formalismo de Tamm."
+  - "El medio es asintóticamente idéntico al vacío, con parámetros constitutivos continuos en las coordenadas espaciales."
+  - "Régimen de óptica geométrica, con transformación de Lorentz al sistema de la burbuja."
+  - "Función de forma con perfil tipo tanh, con radio R y grosor de transición controlado por sigma."
+resultados:
+  - "Se identifican direcciones de propagación evanescentes en la región del medio que equivale a la burbuja warp, sobre todo perpendiculares a la velocidad y a alta velocidad."
+  - "Las trayectorias de los rayos son muy sensibles al módulo y a la dirección de la velocidad de la burbuja."
+  - "Dependen poco del grosor de la zona de transición entre la burbuja y el fondo."
+  - "Para rayos que viajan en la dirección de la burbuja, esta actúa como una lente de enfoque, más marcada a alta velocidad."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = - c_0^2 dt^2 + \left[ dx - v_s f(r_s) c_0 dt \right]^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre en el sistema de referencia de la burbuja."
+  - n: 2
+    latex: 'f (r_s) = \frac{\tanh \left[ \sigma \left( r_s + R \right) \right] - \tanh \left[ \sigma \left( r_s - R \right) \right] }{ 2 \tanh \left( \sigma R \right) }'
+    significado: "Función de forma de la burbuja, con valor 1 en el origen y decaimiento a 0 lejos."
+  - n: 9
+    latex: '\gamma_{\ell m} = \sqrt{-g} \, \frac{g^{\ell m}}{g_{00}}, \quad \Gamma_m = \frac{g_{0m}}{g_{00}}'
+    significado: "Parámetros constitutivos del medio de Tamm que imita la métrica."
+limitaciones:
+  - "Analogía óptica: no resuelve las ecuaciones de Einstein ni aborda la energía negativa de la burbuja."
+  - "Solo óptica geométrica; no estudia el régimen de ondas completo."
+  - "La realización con metamaterial nanoestructurado se propone, no se construye."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: smolyaninov-2010
+    como: "compara"
+  - paper: clark-1999
+    como: "compara"
+ideas_abiertas:
+  - "Fabricar un metamaterial con los parámetros calculados y medir el efecto de lente."
+  - "Estudiar el régimen más allá de la óptica geométrica en el medio de Tamm."

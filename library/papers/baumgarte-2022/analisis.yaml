@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Compara en relatividad numérica las condiciones de foliación que evitan choques de gauge, propuestas por Alcubierre, con la foliación 1+log. Concluye que son una alternativa viable en estabilidad y precisión. No trata propulsión warp."
+tipo: simulacion
+supuestos:
+  - "Formulación BSSN en coordenadas polares esféricas con formalismo de métrica de referencia."
+  - "Condición de Bona-Massó con f(alpha) = 1 + kappa/alpha^2, con kappa = 1 y kappa = 2/3, frente a 1+log, f = 2/alpha."
+  - "Condición de desplazamiento tipo Gamma-driver."
+  - "Diferencias finitas de octavo orden e integración Runge-Kutta de cuarto orden."
+resultados:
+  - "En el pulso de gauge, 1+log forma un frente cada vez más empinado y un pico en la curvatura media que no se resuelven; las foliaciones que evitan choques no lo desarrollan."
+  - "Con kappa = 1 las condiciones coinciden con 1+log cerca de lapso unidad hasta los dos primeros términos del desarrollo."
+  - "En casos con agujeros negros el lapso puede volverse negativo en algunas regiones sin afectar a la estabilidad."
+  - "Se evolucionan los ejemplos hasta tiempos tan tardíos como con 1+log y con errores numéricos similares."
+  - "Presentan más dinámica de gauge, con oscilaciones más largas, y algo mayores con kappa = 2/3."
+ecuaciones_clave:
+  - n: 1
+    latex: '(\partial_t - \beta^i \partial_i)\,\alpha = - \alpha^2 f(\alpha) K'
+    significado: "Condición de foliación de Bona-Massó para el lapso."
+  - n: 2
+    latex: 'f(\alpha) = \frac{2}{\alpha}'
+    significado: "Elección 1+log, habitual en relatividad numérica."
+  - n: 3
+    latex: 'f(\alpha) = 1 + \frac{\kappa}{\alpha^2}'
+    significado: "Elección que evita choques, propuesta por Alcubierre."
+  - n: 11
+    latex: '\alpha(\gamma) = \left( \frac{\gamma}{\gamma_0} \left(\alpha_0 + \kappa \right) - \kappa \right)^{1/2}'
+    significado: "Lapso en función del determinante de la métrica espacial sin desplazamiento."
+limitaciones:
+  - "Solo problemas de libro de texto: agujeros negros, estrellas relativistas y colapso de polvo."
+  - "No se simula ninguna burbuja warp ni espacio-tiempo con materia exótica."
+  - "Más dinámica de gauge y lapso negativo en algunas regiones."
+  - "Las oscilaciones tardan más en amortiguarse, sobre todo con kappa = 2/3."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Probar estas foliaciones en evoluciones numéricas de espacio-tiempos warp."
+  - "Estudiar sistemáticamente la elección del parámetro kappa."

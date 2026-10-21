@@ -17,5 +17,6 @@ translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
-relevance: alta
+relevance: media
 countries: [MX]
+relevance_manual: media  # estrellas de bosones rotantes, relación indirecta

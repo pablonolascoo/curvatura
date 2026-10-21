@@ -1,0 +1,28 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Reexamina la burbuja de Alcubierre dentro de una teoría de la espuma cuántica (Process Physics) y explora si la autointeracción del espacio podría estabilizar la frontera sin materia exótica."
+tipo: propuesta
+supuestos:
+  - "El espacio es un sistema cuántico (espuma cuántica) cuyo flujo se describe a escala gruesa con un campo de velocidades v(r,t)."
+  - "La dinámica del flujo incluye un término de autointeracción con una constante adimensional que el autor identifica con la constante de estructura fina."
+  - "La burbuja se modela como un campo de velocidades propagante dentro de una métrica de flujo, y la dinámica de GR corresponde a la ecuación (2)."
+resultados:
+  - "Con la dinámica equivalente a la relatividad general, la densidad de materia en la capa límite de la burbuja resulta negativa en algunas regiones, es decir, materia exótica."
+  - "La densidad de materia efectiva (el efecto de materia oscura) de la nueva dinámica también es negativa en algunas zonas, pero se interpreta como autointeracción del espacio, no como materia."
+  - "La forma de burbuja usada no satisface la ecuación con autointeracción, porque la densidad requerida y la inducida no coinciden."
+  - "Evolucionada sin materia, la burbuja se degrada: aparecen ondas de choque en el frente que se propagan hacia el interior y destruyen la burbuja."
+ecuaciones_clave: []
+limitaciones:
+  - "El contexto no incluye las ecuaciones numeradas, así que la ficha se basa en el texto y las figuras descritas."
+  - "La teoría de la espuma cuántica y sus afirmaciones sobre materia oscura y la constante de estructura fina no son de consenso."
+  - "No se encuentra una burbuja estable; solo se evoluciona la forma inicial con la ecuación (2) y sin materia."
+  - "La ecuación con autointeracción es muy no lineal y no se resuelve, ni analítica ni numéricamente."
+obstaculos: [1, 5, 7, 8, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "critica"
+ideas_abiertas:
+  - "Encontrar una forma modificada de la burbuja que sea solución estable de la ecuación con autointeracción."
+  - "Evolucionar numéricamente la burbuja con la dinámica completa para ver si emerge una forma estable."
+  - "Si no hay soluciones naturales, buscar burbujas estabilizables con materia no exótica o campos electromagnéticos."

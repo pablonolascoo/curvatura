@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve las ecuaciones de Einstein completas para la métrica de Alcubierre con materia anisótropa y muestra que la densidad de energía no tiene por qué ser negativa. Lo extiende a warps cilíndricos y esféricos."
+tipo: solucion
+supuestos:
+  - "Contenido de materia descrito por un fluido anisótropo con presiones distintas en x, y, z."
+  - "Función de forma general en coordenadas cartesianas, cilíndricas y esféricas."
+  - "Observador euleriano para definir la densidad de energía."
+resultados:
+  - "En coordenadas cartesianas, la densidad de energía depende de la diferencia de presiones tangenciales: ρ = (p_y - p_z)/2 en los casos estudiados."
+  - "Con polvo o fluido isótropo, la densidad y las magnitudes asociadas son idénticamente nulas, por lo que el problema de la energía negativa no aparece."
+  - "En el warp cilíndrico a lo largo de z se obtiene una relación análoga a la cartesiana."
+  - "En el warp cilíndrico radial y el esférico, la densidad de energía no resulta obligatoriamente negativa."
+ecuaciones_clave:
+  - n: 2
+    latex: '\rho = \frac{1}{8\pi} G_{\mu\nu}u^\mu u^\nu'
+    significado: "Densidad de energía medida por el observador euleriano a partir del tensor de Einstein."
+  - n: 8
+    latex: 'T^{00} = \frac{G^{00}}{8\pi} = -\frac{1}{32\pi} v_s^2 \Bigg(\frac{df}{dr_s}\Bigg)^2 \frac{y^2 + z^2}{r^2_s} = \rho'
+    significado: "Densidad de energía negativa de la métrica de Alcubierre original."
+  - n: 9
+    latex: '\rho = -\frac{1}{32\pi} \Bigg[ \left( \frac{\partial\beta}{\partial y} \right)^2 + \left( \frac{\partial\beta}{\partial z} \right)^2\Bigg]'
+    significado: "Densidad de energía en función de la función de desplazamiento β general."
+  - n: 15
+    latex: '\rho = \frac{1}{2} (p_y - p_z)'
+    significado: "Con las ecuaciones completas, la densidad queda ligada a la diferencia de presiones tangenciales."
+limitaciones:
+  - "Solo se examina la densidad medida por el observador euleriano, no todas las condiciones de energía."
+  - "No se discute el origen físico del fluido anisótropo ni su estabilidad."
+  - "No se estudian los efectos cuánticos ni la energía total necesaria."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "critica"
+  - paper: santospereira-2020
+    como: "extiende"
+ideas_abiertas:
+  - "Comprobar qué condiciones de energía cumple el fluido anisótropo obtenido."
+  - "Buscar fuentes materiales reales con la anisotropía de presiones necesaria."

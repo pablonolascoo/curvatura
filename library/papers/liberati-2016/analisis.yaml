@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa un mecanismo preventivo de protección de la cronología: la reacción cuántica de la materia desestabiliza los warp drives superlumínicos, también con ruptura de la invariancia de Lorentz a altas energías."
+tipo: revision
+supuestos:
+  - "Cálculo analítico en 1+1 dimensiones con métrica tipo Alcubierre, ecuaciones (1) y (2), con una burbuja superlumínica que forma horizontes."
+  - "Campo escalar cuántico sin masa en teoría cuántica de campos en espaciotiempo curvo, con el tensor de energía-momento renormalizado (RSET)."
+  - "Para el caso con ruptura de Lorentz se usa una relación de dispersión modificada con escala M_LIV, tomada del orden de la masa de Planck."
+resultados:
+  - "Un observador en el centro de la burbuja mide un flujo térmico a la temperatura de Hawking T_H = kappa_1 / 2 pi, con densidad aproximada pi T_H^2 / 12."
+  - "En el horizonte negro las divergencias de los términos estático y dinámico se cancelan y la contribución transitoria decae de forma exponencial."
+  - "Cerca del horizonte blanco la densidad de energía crece exponencialmente con el tiempo y acaba divergiendo."
+  - "En el horizonte de Cauchy el RSET también diverge por el desplazamiento al azul infinito, pero esa divergencia no es concluyente por el teorema de Kay, Radzikowski y Wald."
+  - "Ni la ruptura de la invariancia de Lorentz estabiliza los warp drives superlumínicos, según el trabajo de Coutant y colaboradores que se resume."
+ecuaciones_clave:
+  - n: 2
+    latex: 'ds^2=-c^2 dt^2+\left[dr-\bar{v}(r)dt\right]^2, \qquad \bar{v}=v-v_c'
+    significado: "Métrica 1+1 de la burbuja en el sistema de su centro."
+  - n: 8
+    latex: '\rho_{\rm st}\equiv-\frac{1}{24\pi}\left[\frac{\left(\bar{v}^4-\bar{v}^2+2\right)}{\left(1-\bar{v}^2\right)^2}\bar{v}\,^{\prime 2}+\dots\right]'
+    significado: "Parte estática de la densidad de energía del RSET."
+  - n: 9
+    latex: '\rho_{{\rm dyn}}\equiv\frac{1}{48\pi}\frac{{\cal F}(u)}{\left(1+\bar{v}\right)^2}, \quad {\cal F}(u)\equiv\frac{3\ddot{p}^2(u)-2\dot{p}(u)\,\dddot{p}(u)}{\dot{p}^2(u)}'
+    significado: "Parte dinámica del RSET, dominada por la derivada schwarziana de la relación entre coordenadas nulas."
+  - n: 16
+    latex: '(\omega-V k_{\omega})^2=k_{\omega}^2\pm\frac{k_{\omega}^4}{M_{\rm LIV}^2}\equiv\Omega_\pm^2'
+    significado: "Relación de dispersión con ruptura de Lorentz en el fondo de la burbuja."
+limitaciones:
+  - "El cálculo es en 1+1 dimensiones; la extensión a 3+1 no se demuestra aquí."
+  - "Es un artículo de revisión de trabajos previos con colaboradores; no desarrolla todos los pasos."
+  - "Aplica a warp drives superlumínicos con horizontes, no a los subluminales."
+  - "La divergencia en el horizonte de Cauchy no es concluyente."
+obstaculos: [4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: finazzi-2009
+    como: "extiende"
+  - paper: visser-2002
+    como: "compara"
+ideas_abiertas:
+  - "Buscar inestabilidades semiclásicas parecidas en otros espaciotiempos que permiten viaje superlumínico, como los agujeros de gusano atravesables."

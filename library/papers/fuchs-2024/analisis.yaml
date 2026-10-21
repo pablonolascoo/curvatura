@@ -1,0 +1,50 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye numéricamente un warp drive subluminal de velocidad constante que cumple todas las condiciones de energía, añadiendo un vector de desplazamiento interior a una cáscara de materia estable con masa ADM positiva."
+tipo: simulacion
+supuestos:
+  - "Se parte de una cáscara de materia esférica y estable, con interior plano y exterior de Schwarzschild, construida en el sistema comóvil con la métrica de la ecuación (16)."
+  - "La cáscara tiene presión anisótropa (tipo tensión de aro), densidad constante entre R1 y R2 suavizada, y se resuelve de forma iterativa con la ecuación TOV."
+  - "El desplazamiento beta_warp se añade solo al interior, entre R1 y R2 conecta con el exterior donde vale 0, y el interior se mantiene plano."
+  - "Se evalúan las condiciones de energía con observadores eulerianos usando la herramienta Warp Factory."
+resultados:
+  - "Se obtiene la primera solución subluminal de velocidad constante que da transporte geodésico como la métrica de Alcubierre y cumple NEC, WEC, DEC y SEC."
+  - "Un desplazamiento interior de beta_warp = 0.02 no viola ninguna condición de energía, aunque los autores indican que probablemente no es un límite máximo."
+  - "La densidad de energía casi no cambia respecto a la cáscara en movimiento; el desplazamiento introduce densidad de momento positiva y negativa que forma un patrón de circulación."
+  - "El desplazamiento no se reduce a una transformación de coordenadas, lo que se comprueba con la diferencia de tiempos de tránsito de rayos de luz."
+  - "La masa de la cáscara está limitada por R_shell > 2GM/c^2 para evitar un horizonte, lo que limita la densidad de energía disponible."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = -\alpha^2 dt^2 + \gamma_{ij} (dx^i + \beta^i dt)(dx^j + \beta^j dt)'
+    significado: "Descomposición 3+1 de la métrica con lapso, métrica espacial y desplazamiento."
+  - n: 19
+    latex: '\rho^\prime(r) = \begin{cases} 0 & 0 \leq r \leq R_1 \\ \frac{3}{4\pi}\frac{M}{R_2^3-R_1^3} & R_1 \leq r \leq R_2 \\ 0 & R_2 \leq r < \infty \end{cases}'
+    significado: "Densidad de partida de la cáscara, constante entre los radios R1 y R2."
+  - n: 25
+    latex: '\frac{d a}{dr} = G\left(\frac{m}{c^2 r^2} +\frac{4\pi r}{c^4} \tilde{P}\right)\left(1-\frac{2Gm}{c^2 r}\right)^{-1}'
+    significado: "Ecuación para la función métrica temporal a(r) de la cáscara."
+  - n: 26
+    latex: 'g^{warp}_{01} = g_{01} - S_{warp}(r)\left(g_{01} + \beta_{warp}\right)'
+    significado: "Modificación del término cruzado de la métrica que introduce el desplazamiento interior."
+limitaciones:
+  - "Solo velocidad constante y subluminal; no resuelve la aceleración."
+  - "La velocidad lograda (beta_warp = 0.02) es baja y la relación masa-velocidad requerida es grande."
+  - "La solución es numérica, con errores de diferencias finitas, interpolación y discretización."
+  - "Acelerar moviendo el centro de coordenadas reintroduciría energía negativa, igual que el Schwarzschild Drive."
+obstaculos: [1, 2, 6, 7, 8, 12, 13]
+relacion:
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: santiago-2022
+    como: "compara"
+  - paper: schuster-2023
+    como: "compara"
+ideas_abiertas:
+  - "Optimizar los perfiles radiales de densidad, presión y desplazamiento para reducir la masa necesaria, posiblemente en órdenes de magnitud."
+  - "Estudiar la aceleración sin romper las condiciones de energía, por ejemplo con transferencia de momento, emisión de masa o radiación gravitatoria."
+  - "Explorar espaciotiempos no vacíos con condiciones de contorno distintas de Schwarzschild."

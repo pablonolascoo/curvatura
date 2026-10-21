@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone generar una burbuja de Alcubierre alterando localmente el radio de una dimensión extra. El cambio modificaría la energía de Casimir inducida por la ruptura de supersimetría en una brana y, con ella, la constante cosmológica local."
+tipo: propuesta
+supuestos:
+  - "Nuestro universo es una 3-brana de espesor finito en un bulk de dimensiones extra, con variedad M4 x T^n."
+  - "La supersimetría está rota en la brana y no en el bulk."
+  - "Una civilización avanzada podría modificar localmente el radio a de la dimensión extra."
+resultados:
+  - "El desplazamiento de la energía de Casimir es proporcional a (delta/a)^n, donde delta es el espesor de la brana y a el radio extra."
+  - "La constante cosmológica efectiva en M4 queda ligada al radio de la dimensión extra."
+  - "Cambiar a por a' produce un desplazamiento local de la constante cosmológica, con la forma de la ecuación 8."
+  - "Una región de inflación y otra de contracción a ambos lados de la nave imitarían la burbuja de Alcubierre."
+ecuaciones_clave:
+  - n: 5
+    latex: '\delta\rho_v^{(4)} \cong \kappa_n\frac{m^2}{a^2}\frac{\pi^{n/2}\,\Gamma(n)}{2^{n-1}\,\Gamma(n/2)}\left(\frac{\delta}{a}\right)^n'
+    significado: "Densidad de energía de Casimir renormalizada, integrada sobre el volumen extra."
+  - n: 7
+    latex: 'R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}+\Lambda g_{\mu\nu}=8\pi G\,T_{\mu\nu}'
+    significado: "Ecuaciones de Einstein con constante cosmológica, que recoge la energía de Casimir."
+  - n: 8
+    latex: '\Delta\Lambda \cong \kappa_n\frac{m^2}{a^2}\frac{\pi^{n/2}\,\Gamma(n)\,\delta^n}{2^{n-1}\,\Gamma(n/2)}\left[\left(\frac{1}{a}\right)^n-\left(\frac{1}{a\prime}\right)^n\right]'
+    significado: "Desplazamiento local de la constante cosmológica al cambiar el radio de a a a'."
+limitaciones:
+  - "No se da ningún mecanismo para modificar el radio de la dimensión extra."
+  - "No se calculan magnitudes numéricas ni la energía necesaria."
+  - "No se comprueba que la burbuja resultante cumpla las ecuaciones de Einstein de forma consistente."
+  - "Modelo muy especulativo, basado en un campo escalar y su compañero supersimétrico."
+obstaculos: [3, 9, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+ideas_abiertas:
+  - "Estimar el cambio de radio necesario para una burbuja de tamaño de nave."
+  - "Estudiar la estabilidad de la dimensión extra al modificarla localmente."

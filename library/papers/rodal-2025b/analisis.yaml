@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza el warp drive de Natário de expansión nula con invariantes de curvatura en el formalismo 3+1: demuestra que es de tipo I de Petrov y compara sus amplitudes con las de Alcubierre."
+tipo: critica
+supuestos:
+  - "Métrica de Natário en forma ADM con lapso 1, métrica espacial plana y campo de desplazamiento X de divergencia nula."
+  - "Invariantes usados: escalar de Einstein G, invariantes de Ricci cuadrático r1 y cúbico r2, e invariante de Weyl I."
+  - "Clasificación de Petrov con el formalismo de Newman-Penrose y matriz Q de direcciones nulas principales."
+  - "Cálculos y gráficos con Mathematica sobre una función de forma con tanh y parámetros de radio y pared."
+resultados:
+  - "El espaciotiempo de Natário es de tipo I de Petrov, lo que no encaja con un producto alabeado de clase B (solo tipos D u O), contra lo afirmado por Mattingly y colaboradores."
+  - "Para parámetros idénticos, los invariantes de curvatura de Natário son unas 35 veces mayores que los de Alcubierre."
+  - "El invariante de Weyl desempeña un papel significativo por la localización brusca de la función de forma, y los estudios previos lo habían ignorado."
+  - "La densidad de momento es la magnitud física que gobierna la orientación de la trayectoria, por encima de los cambios de volumen del espacio."
+  - "El autor señala que los cálculos de Mattingly y colaboradores subestiman las amplitudes de los invariantes en 21 órdenes de magnitud."
+ecuaciones_clave:
+  - n: 8
+    latex: 'I \equiv C_{\alpha\beta\gamma\delta} C^{\alpha\beta\gamma\delta}'
+    significado: "Invariante de Weyl cuadrático."
+  - n: 9
+    latex: 'r_{1} \equiv \widehat{R}_{\alpha}^{\:\:\:{\beta}}\widehat{R}_{\beta}^{\:\:\:{\alpha}}'
+    significado: "Invariante cuadrático de Ricci sin traza."
+  - n: 10
+    latex: 'K = I+2 \, r_{1} +\frac{1}{6} G^2'
+    significado: "Escalar de Kretschmann como suma de contribuciones de Weyl, Ricci y Einstein."
+  - n: 12
+    latex: 'ds^2 = -dt^2 + \left(dx - X\, dt\right)^2 + \left(dy - Y\, dt\right)^2 + \left(dz - Z\,dt\right)^2'
+    significado: "Métrica warp de tipo Natário en forma 3+1."
+limitaciones:
+  - "Análisis de curvatura sobre una geometría dada; no propone una materia concreta que la genere."
+  - "Los resultados numéricos dependen de la función de forma elegida y de sus parámetros."
+  - "Las comparaciones de amplitud se hacen con parámetros idénticos, no con soluciones optimizadas."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: natario-2002
+    como: "critica"
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: mattingly-2021
+    como: "critica"
+ideas_abiertas:
+  - "Estudiar si los modos tipo onda gravitacional que permite el tipo I de Petrov se propagan en la burbuja."
+  - "Repetir el análisis de invariantes para soluciones de energía positiva como las de cáscara."

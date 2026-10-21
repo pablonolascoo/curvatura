@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone de forma cualitativa configuraciones de laboratorio con cavidades perforadas para violar la condición de energía nula promediada, y una métrica compuesta (agujero de gusano, warp drive y tubo de Krasnikov) para probarla."
+tipo: propuesta
+supuestos:
+  - "La violación de ANEC se busca con placas de cavidades perforadas y asimétricas bajo efecto Casimir, con trayectorias de rayos no simétricas."
+  - "Se supone que la energía negativa producida puede guiarse, acumularse y concentrarse con esquemas de síntesis constructiva y de efecto Casimir dinámico."
+  - "La métrica propuesta combina el warp drive de Alcubierre con el truco de Van Den Broeck y modificaciones tipo Krasnikov unidas a un agujero de gusano dinámico asimétrico."
+  - "El texto reconoce que es sobre todo cualitativo y que no existe una teoría estándar de densidades de energía negativa."
+resultados:
+  - "El autor afirma que las estructuras de tipo agujero de gusano atravesable, warp drive y tubo de Krasnikov estarían al alcance de la tecnología actual."
+  - "Propone un prototipo experimental de laboratorio y un esquema con ecuaciones para verificarlo, en el apartado de la ecuación (7)."
+  - "Discute cómo se podría obtener más energía negativa mediante colisión de ondas y trampas, incluso en una boca repulsiva de un agujero de gusano."
+  - "Un cálculo basado en Fewster y Roman indica, para un agujero de gusano estático de Kuhfittig, una distancia radial propia mayor o igual que unas 62 137 millas."
+ecuaciones_clave: []
+limitaciones:
+  - "El contexto no incluye las ecuaciones numeradas, así que la ficha se basa en el texto."
+  - "El propio autor describe el trabajo como mayormente cualitativo, sin cálculos que respalden la afirmación de viabilidad tecnológica."
+  - "No hay diseño con cifras de energía, masa ni tamaños que muestren cantidades suficientes de energía negativa."
+  - "La conclusión de que está al alcance de la tecnología actual contradice las cotas conocidas y no se sostiene con datos."
+obstaculos: [1, 3, 8, 9, 13, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+  - paper: everett-roman-1997
+    como: "aplica"
+  - paper: ford-roman-1996
+    como: "compara"
+  - paper: graham-2005
+    como: "compara"
+  - paper: fewster-2003
+    como: "compara"
+ideas_abiertas:
+  - "Calcular con rigor la energía negativa que dan las placas perforadas y comprobar si cumple las desigualdades cuánticas."
+  - "Diseñar un experimento de laboratorio que verifique la violación de ANEC con cavidades asimétricas."

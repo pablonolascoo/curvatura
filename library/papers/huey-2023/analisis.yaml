@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye modelos de juguete de warp subluminal y superlumínico uniendo espacio-tiempos distintos mediante membranas finas con fluido perfecto. Muestra que el modelo superlumínico cumple la condición de energía débil en todo punto."
+tipo: solucion
+supuestos:
+  - "Espacio-tiempo quimérico: regiones de tipo Lambda-K, Minkowski y Minkowski modificado, unidas por membranas de codimensión 1."
+  - "Simetría plana: las membranas son infinitas en las direcciones paralelas, y no compactas."
+  - "Tensor energía-impulso de las membranas de fluido perfecto, ajustado para membranas superlumínicas, con condiciones de empalme de Israel."
+  - "No se consideran efectos cuánticos ni estabilidad."
+resultados:
+  - "La discontinuidad de curvatura extrínseca en la membrana produce una aceleración aparente en cada región, ajustable con los parámetros."
+  - "La condición de energía débil se cumple en todo el espacio-tiempo en ambos modelos, y la ecuación de estado queda en el rango [-1, 1]."
+  - "El modelo logra una trayectoria global efectivamente superlumínica con trayectoria local temporal para el pasajero."
+  - "El argumento de Olum no se aplica porque las membranas no son compactas, y el singular en las uniones modifica la ecuación de Raychaudhuri."
+  - "Se especula con una transición de subluminal a superlumínico cambiando lentamente el cociente de los parámetros del fondo."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^{2}=A\left((dx^{0})^{2}-(dx^{1})^{2}\right)-B\,d\vec{x}^{2}'
+    significado: "Forma de la métrica del fondo con simetría plana."
+  - n: 5
+    latex: 'B_H=\left(\frac{-K}{\kappa\rho_{\Lambda}}\frac{2(N+1)}{N}\right)^{\frac{2}{N+1}}'
+    significado: "Valor de B en el horizonte del espacio Lambda-K."
+  - n: 25
+    latex: 'S^{\mu}_{\nu}=\zeta\left\{(\rho+p)u^{\mu}u_{\nu}-(u^{\alpha}u_{\alpha})p\,h^{\mu}_{\nu}\right\}'
+    significado: "Tensor energía-impulso de la membrana, válido también si es superlumínica."
+limitaciones:
+  - "Las membranas no son compactas, lo que evita los teoremas de imposibilidad pero no es realista."
+  - "El espacio Lambda-K usa una constante K negativa, lo que podría interpretarse como masa efectiva negativa, aunque la singularidad se descarta."
+  - "No se estudian efectos cuánticos, estabilidad ni cómo crear las condiciones iniciales."
+  - "Las condiciones de energía distintas de la débil (por ejemplo la dominante) no se cumplen necesariamente."
+obstaculos: [1, 7, 8, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: olum-1998
+    como: "critica"
+  - paper: lentz-2021
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+  - paper: debenedictis-2018
+    como: "compara"
+ideas_abiertas:
+  - "Construir modelos con membranas compactas que sigan cumpliendo la condición de energía débil."
+  - "Estudiar la estabilidad y la formación del modelo, y el mecanismo de transición de subluminal a superlumínico."

@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia una burbuja de Alcubierre en el campo de un agujero negro de Schwarzschild, siguiendo el esquema de Ellis. Muestra que el campo del agujero negro puede reducir la violación de la condición de energía nula y de la débil."
+tipo: solucion
+supuestos:
+  - "Burbuja de Alcubierre incrustada en el exterior de Schwarzschild, escrito con el desplazamiento de Painlevé-Gullstrand N = sqrt(R_G/r) x^i/r."
+  - "Desplazamiento combinado N^i = (1-f) N^i_b - f v_s^i."
+  - "Para la termodinámica, burbuja mucho menor que el horizonte y movimiento muy lento, con ley del área de la entropía."
+resultados:
+  - "Si la burbuja cruza el horizonte a velocidad subluminal, el horizonte queda efectivamente ausente dentro de ella."
+  - "Con la burbuja yendo hacia el agujero negro y a velocidad suficiente, la densidad de energía negativa requerida disminuye."
+  - "La reducción aparece cuando |v| > (1/2) sqrt(R_G/r)."
+  - "Una burbuja superlumínica que sale del agujero produce un efecto de agujero blanco: solo sobrevive la geodésica saliente."
+  - "En termodinámica surgen paradojas: la absorción total podría reducir la masa y la entropía, y una burbuja grande elimina el horizonte."
+ecuaciones_clave:
+  - n: 9
+    latex: '\rho \ = \ -\frac{f^{\prime 2}v^2}{32\pi G}\left(\frac{y^2+z^2}{r^2_s}\right)'
+    significado: "Densidad de energía euleriana de la burbuja de Alcubierre en espacio plano."
+  - n: 20
+    latex: 'N^i \ = \ \sqrt{\frac{R_G}{r}}\frac{x^i}{r} \rightarrow (1-f(r_s))\sqrt{\frac{R_G}{r}}\frac{x^i}{r}-f(r_s)v^i_s'
+    significado: "Desplazamiento del agujero negro combinado con el de la burbuja."
+  - n: 23
+    latex: '-\frac{1}{32\pi G}\left(v+\sqrt{\frac{R_G}{r}}\right)^2f^{\prime 2}\left(\frac{y^2+z^2}{r^2_s}\right)'
+    significado: "Densidad de energía con el campo del agujero negro; la velocidad efectiva se reduce."
+  - n: 40
+    latex: '|v| \ > \frac{1}{2}\sqrt{\frac{R_G}{r}}'
+    significado: "Condición de velocidad para que el campo del agujero negro alivie la violación."
+limitaciones:
+  - "El alivio de las violaciones es parcial: sigue haciendo falta energía negativa."
+  - "La termodinámica usa aproximaciones fuertes y deja paradojas sin resolver."
+  - "No hay una fuente material concreta ni análisis de estabilidad."
+obstaculos: [1, 4, 5, 14]
+relacion:
+  - paper: ellis-2004
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: schuster-2023
+    como: "compara"
+  - paper: white-2021
+    como: "compara"
+ideas_abiertas:
+  - "Explorar burbujas microscópicas en cavidades Casimir aprovechando la reducción de energía negativa."
+  - "Resolver las paradojas termodinámicas de una burbuja que cruza el horizonte."

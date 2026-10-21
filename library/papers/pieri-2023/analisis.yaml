@@ -1,0 +1,47 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Explora el límite de radio pequeño de la burbuja de Alcubierre, donde la energía negativa total baja a la de un rayo. Propone aceleración con una distribución tubular de energía negativa externa y detección de partículas emitidas al frenar, como base de comunicación superlumínica."
+tipo: propuesta
+supuestos:
+  - "Métrica de Alcubierre con burbuja superlumínica de radio cercano a la longitud de Planck y pared de grosor del orden de la longitud de Planck."
+  - "La energía negativa se genera desde fuera, en un tubo (Hypertube), dispuesta de antemano a lo largo de la trayectoria."
+  - "Las partículas de prueba no modifican de forma apreciable la densidad de energía de la pared."
+  - "Se acepta la violación puntual de las condiciones de energía, localizada por el pequeño tamaño."
+resultados:
+  - "La energía total crece con el cuadrado del radio; con v = 1,15c, R = 1,01 L_P y grosor L_P resulta E del orden de -2 x 10^8 J."
+  - "Esa energía es unos 70 órdenes de magnitud menor que la de la burbuja de Alcubierre original y comparable a la de un rayo."
+  - "El grosor cumple las desigualdades cuánticas, con escala mínima del orden de L_P."
+  - "La aceleración se controla desde fuera cambiando el perfil de energía negativa en el tubo, lo que evita el problema de control desde el interior."
+  - "Al frenar la burbuja desaparece el horizonte y las partículas capturadas salen en la dirección de movimiento, con fuerte corrimiento al azul."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+(dx-v_sf(r_s)dt)^2+dy^2+dz^2'
+    significado: "Métrica de Alcubierre."
+  - n: 6
+    latex: 'E=-\frac{1}{12}v^2\left(\frac{R^2}{\Delta}+\frac{\Delta}{12}\right)'
+    significado: "Energía negativa total de la burbuja en función del radio R y del grosor de pared Delta."
+  - n: 9
+    latex: 'E_{cas}=-k\frac{A}{d^3}'
+    significado: "Energía de Casimir entre placas de área A separadas d, con la constante k de la ecuación 10."
+  - n: 8
+    latex: 'E\approx -2\cdot 10^{8}\ \mathrm{J}'
+    significado: "Estimación de la energía para el radio mínimo."
+limitaciones:
+  - "No se discute la densidad de energía negativa, que sería enorme al concentrarse en una región diminuta."
+  - "Quedan retos de ingeniería importantes para generar ráfagas cortas y para la detección práctica."
+  - "Depende de resultados numéricos previos sobre la interacción de partículas con la burbuja."
+  - "Opera a escala de Planck, donde la relatividad general clásica no es fiable."
+obstaculos: [3, 1, 4, 9, 10, 2]
+relacion:
+  - paper: broeck-1999
+    como: "compara"
+  - paper: olum-1998
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "aplica"
+  - paper: gauthier-2002
+    como: "aplica"
+  - paper: lentz-2021
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar la generación de la distribución tubular de energía negativa con dispositivos tipo Casimir."
+  - "Cuantificar la señal de partículas de alta energía emitida al frenar y su detección."

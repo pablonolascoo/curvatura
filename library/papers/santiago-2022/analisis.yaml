@@ -1,0 +1,53 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Demuestra que todos los warp de la clase genérica de Natário violan la condición de energía nula. Con ello también violan las condiciones débil, fuerte y dominante, y refuta las propuestas recientes de warps con energía positiva."
+tipo: teorema
+supuestos:
+  - "Línea de universo warp genérica con lapso unidad, métrica espacial plana y vector de flujo v^i suave y acotado, junto con sus derivadas."
+  - "Observadores eulerianos, con vorticidad nula, y curvatura extrínseca K_ij = v_(i,j)."
+  - "Warp localizado: las derivadas de v^i decaen con rapidez en el infinito espacial."
+  - "El caso trivial del espacio de Minkowski queda excluido."
+resultados:
+  - "Los warps de Alcubierre, de expansión nula de Natário y de vorticidad nula de Lentz y Fell-Heisenberg violan la condición de energía nula."
+  - "Con la energía nula violada, quedan violadas también las condiciones débil, fuerte y dominante."
+  - "Para todo warp genérico se viola la condición de energía fuerte, por el teorema de focalización de Raychaudhuri."
+  - "La densidad euleriana es una divergencia espacial; si es positiva en un sitio, es negativa en otro."
+  - "Las propuestas de Lentz, Bobrick-Martire y Fell-Heisenberg fallan: Lentz no resuelve las ecuaciones de Einstein y las otras dos tienen perfiles no viables."
+  - "En gravedad modificada, los warps razonables seguirían violando la condición de convergencia nula."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = - dt^2 + \delta_{ij} \left( dx^i - v^i(x,y,z,t)\, dt\right) \left( dx^j - v^j(x,y,z,t)\, dt\right)'
+    significado: "Línea de universo warp genérica de Natário, con vector de flujo v^i."
+  - n: 3
+    latex: 'K_{ij} = v_{(i,j)}'
+    significado: "Curvatura extrínseca de las rebanadas espaciales planas."
+  - n: 35
+    latex: '\rho = \frac{G_{nn}}{8\pi} = \frac{1}{16\pi} \left( K^2-\mathrm{tr}(K^2) \right)'
+    significado: "Densidad de energía medida por los observadores eulerianos."
+  - n: 45
+    latex: '\bar p = \frac{1}{3} T_{ij}\delta^{ij} = \frac{1}{24\pi} \left( -2 \mathcal{L}_n K -\frac{1}{2} K^2 - \frac{3}{2} \mathrm{tr}(K^2)\right)'
+    significado: "Presión media, que junto con la densidad permite escribir las condiciones de energía."
+limitaciones:
+  - "El resultado vale para la clase de Natário, con lapso unidad y espacio plano; otros casos se tratan por separado."
+  - "Exige localización del campo warp y una cota sobre las derivadas de v^i."
+  - "Es un resultado en relatividad general; la escapatoria queda en gravedad modificada, materia cuántica o singularidades."
+  - "No propone una solución; las opciones que menciona tienen sus propios inconvenientes."
+obstaculos: [1, 11, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: lentz-2021
+    como: "critica"
+  - paper: bobrick-martire-2021
+    como: "critica"
+  - paper: fell-heisenberg-2021
+    como: "critica"
+  - paper: low-1998
+    como: "extiende"
+  - paper: alcubierre-2017
+    como: "extiende"
+ideas_abiertas:
+  - "Analizar si warps de gravedad modificada pueden satisfacer la condición de convergencia nula."
+  - "Estudiar warps con lapso no unidad o con rebanadas espaciales conformemente planas."
+  - "Explorar si la física cuántica macroscópica ofrece una vía a la violación necesaria."

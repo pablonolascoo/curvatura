@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula geodésicas de partículas nulas y masivas que interactúan con una burbuja de Alcubierre de velocidad constante o variable. Obtiene el aumento de energía de las partículas y el efecto de las aceleraciones de la burbuja."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre con función de forma de tangentes hiperbólicas y trayectorias de burbuja de velocidad constante o variable (sigmoide y gaussiana generalizada)."
+  - "Partículas de prueba que siguen geodésicas, con velocidades iniciales entre -c y c respecto al sistema de origen y destino."
+  - "Burbujas globalmente subluminales y superlumínicas."
+resultados:
+  - "Las partículas nulas dan resultados equivalentes a los de partículas masivas con velocidad cercana a más o menos c."
+  - "Con velocidad constante, las partículas en las regiones N+, N- y B+ se desplazan al azul en un factor b = 1 - v_s v_p en la nave y salen por el lado opuesto con su velocidad y energía originales."
+  - "Las partículas con v_p positiva en la región P+ ganan energía y velocidad extremas y quedan bloqueadas en el tiempo, con muy poco tiempo propio dentro de la burbuja."
+  - "Una burbuja que acelera da un impulso de velocidad a las partículas internas, que crece o decrece según se muevan hacia delante o hacia atrás; la materia euleriana no se ve afectada."
+  - "La magnitud del impulso escala con la aceleración o desaceleración de la burbuja."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^{2} = -dt^{2} + (dx - v_{s}(t)f(r_{s})dt)^{2} + dy^{2} + dz^{2}'
+    significado: "Métrica de Alcubierre."
+  - n: 2
+    latex: 'f(r_{s}) = \frac{tanh(\sigma(r_{s} + R)) - tanh(\sigma(r_{s} - R))}{2tanh(\sigma R)}'
+    significado: "Función de forma de la burbuja."
+  - n: 7
+    latex: '\frac{d^{2}x^{\alpha}}{d\lambda^{2}} + \Gamma^{\alpha}_{\beta\gamma} \frac{dx^{\beta}}{d\lambda}\frac{dx^{\gamma}}{d\lambda} = 0'
+    significado: "Ecuación geodésica que gobierna a las partículas de prueba."
+  - n: 12
+    latex: 'b = 1-v_{s}v_{p}'
+    significado: "Desplazamiento al azul de una partícula en la nave para burbuja de velocidad constante."
+limitaciones:
+  - "Partículas de prueba sin reacción sobre la métrica."
+  - "Integración numérica de geodésicas; no se calcula la energía de la burbuja ni la materia exótica."
+  - "Las burbujas variables siguen trayectorias paramétricas elegidas por los autores."
+obstaculos: [2, 10]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+ideas_abiertas:
+  - "Considerar partículas con interacción más allá de geodésicas, como campos o fluidos."
+  - "Estudiar la radiación que generan las partículas bloqueadas en el tiempo al salir de la burbuja."

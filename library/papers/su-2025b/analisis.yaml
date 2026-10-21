@@ -1,0 +1,27 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone un casco de nave hecho de placas metálicas Alconi-Cr-Alconi con estructura hexagonal que, según los autores, absorbería energía de Casimir negativa del vacío para formar una burbuja warp. El planteamiento es especulativo y no se contrasta con un cálculo de relatividad general."
+tipo: propuesta
+supuestos:
+  - "La energía de Casimir tiene propiedades de materia exótica (fotones negativos a 0,00206 K) encerrada por una esfera de luz de fotones positivos en el casco."
+  - "Una estructura de capas Alconi (0,3 nm), Cr (0,1 nm), Alconi (0,3 nm) puede conectarse con el campo de Casimir cósmico."
+  - "Se usan distribuciones de Boltzmann y el teorema del virial sobre los átomos Al, Co y Ni para fijar el espaciado."
+  - "Si se acepta la teoría de Alcubierre, se supone que no hay razón física para que no se pueda realizar."
+resultados:
+  - "El espaciado propuesto entre átomos de Cr es de unos 1,167 nm, depositados en unas seis pasadas de evaporación."
+  - "La energía superficial estimada de la placa a escala nanométrica es de unos 0,12 J/m^2 según los autores."
+  - "Los autores concluyen que el diseño hexagonal (panal concéntrico) podría reducir mucho la energía negativa que necesita la nave."
+  - "Afirman que este casco produciría una burbuja de espacio-tiempo de energía negativa y una velocidad aparente mayor que c sin violar la relatividad especial."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha sin ecuaciones numeradas: el texto extraído del PDF no permite citar ecuaciones fiables."
+  - "No se calcula el tensor energía-impulso ni se comprueba que la configuración produzca la métrica de Alcubierre."
+  - "Se citan afirmaciones sin verificar, como una supuesta demostración de viabilidad por la NASA, y la conexión con la energía del vacío no se justifica con teoría de campos."
+  - "Las magnitudes de energía de Casimir de un casco finito no se comparan con las necesarias para la burbuja."
+  - "El texto trae poca verificación y varias frases poco claras; todo debe contrastarse con el paper."
+obstaculos: [9, 3, 1]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Calcular con teoría cuántica de campos la energía negativa realmente extraíble de ese tipo de placas."
+  - "Comprobar si la energía negativa alcanzada cabe dentro de las desigualdades cuánticas."

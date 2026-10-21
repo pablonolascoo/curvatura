@@ -1,0 +1,29 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Deriva desigualdades cuánticas generales sobre la densidad de energía negativa de campos escalares y electromagnéticos en espaciotiempos estáticos curvos. Las aplica al warp de Alcubierre y concluye que la energía negativa total necesaria supera con creces la masa del universo visible."
+tipo: cota
+supuestos:
+  - "Espaciotiempos estáticos curvos con campos cuánticos libres, escalar y electromagnético."
+  - "Desigualdad cuántica escrita con el operador de ondas euclídeo actuando sobre la función de Green euclídea."
+  - "Límite de tiempo de muestreo corto, con expansión de la función de Green a distancias pequeñas."
+resultados:
+  - "En el límite de muestreo corto la desigualdad cuántica se reduce a la forma del espacio plano con términos subdominantes que dependen de la geometría."
+  - "Se hallan formas exactas para Robertson-Walker estático en 3 y 4 dimensiones, plano con espejos perfectos, Rindler, de Sitter estático y exterior de un agujero negro."
+  - "Aplicadas al warp de Alcubierre, las desigualdades limitan estrictamente el grosor de la región de energía negativa."
+  - "Con esas restricciones, la energía negativa total requerida supera unas cien mil millones de veces la masa del universo visible."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el resumen: el texto del cuerpo y las ecuaciones no figuran en el contexto disponible."
+  - "Las cotas son para campos libres en espaciotiempos estáticos."
+  - "El resultado sobre el warp depende de la forma concreta de la métrica de Alcubierre."
+obstaculos: [3]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "extiende"
+  - paper: ford-roman-1996
+    como: "extiende"
+  - paper: everett-roman-1997
+    como: "compara"
+ideas_abiertas:
+  - "Buscar geometrías warp con paredes que cumplan las desigualdades con menos energía negativa."

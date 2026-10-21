@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia con detalle las geodésicas nulas y temporales de la métrica de Alcubierre, con una ecuación de geodésicas no afín y el efecto de lente por la ecuación de Jacobi. Incluye una aplicación interactiva en Java para ver el viaje."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre con f(r) tipo tanh y velocidad constante de la burbuja."
+  - "Geodésicas integradas numéricamente en forma no afín, con transporte paralelo de la base de Sachs."
+  - "Observadores: el viajero comóvil, un observador estático exterior y partículas inyectadas."
+resultados:
+  - "La vista desde el puente se deforma de modo parecido a la aberración relativista, pero más suave en la dirección del movimiento."
+  - "Para velocidades mayores que la de la luz hay un horizonte de sucesos tras la burbuja, sin región negra, y la parte trasera se ve muy oscura por el corrimiento al rojo."
+  - "Un observador estático exterior ve rayos muy desviados y posibles imágenes múltiples."
+  - "Las estrellas conservan su forma puntual, a diferencia de las líneas alargadas del cine."
+  - "Las partículas lanzadas desde dentro se frenan o aceleran según su ángulo y sufren precesión geodésica."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = -c^2dt^2+\left[dx-vf(r)dt\right]^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre."
+  - n: 7
+    latex: '1+z_f = \frac{\omega_{\mbox{src}}}{\omega_{\mbox{obs}}} = \frac{g_{\mu\nu}u_{\mbox{src}}^{\mu}k^{\nu}}{g_{\mu\nu}u_{\mbox{obs}}^{\mu}k^{\nu}}'
+    significado: "Corrimiento al rojo entre fuente y observador."
+  - n: 22
+    latex: '\frac{d^2x^{\mu}}{d\sigma^2}+\Gamma_{\nu\rho}^{\mu}\frac{dx^{\nu}}{d\sigma}\frac{dx^{\rho}}{d\sigma} = -\frac{1}{\zeta(\sigma)}\frac{d\zeta(\sigma)}{d\sigma}\frac{dx^{\mu}}{d\sigma}'
+    significado: "Ecuación de geodésicas no afín que se integra en el tiempo coordenado."
+  - n: 8
+    latex: '\frac{D^2Y_i^{\mu}}{d\lambda^2} = R^{\mu}_{\nu\rho\sigma}k^{\nu}k^{\rho}Y_i^{\sigma}'
+    significado: "Ecuación de Jacobi para el haz de rayos y el efecto de lente."
+limitaciones:
+  - "No trata la materia exótica: la propia introducción reconoce que el modelo no es físicamente viable."
+  - "Es un estudio de visualización y didáctico, sin reacción de la métrica."
+  - "Solo velocidad constante y función de forma concreta."
+obstaculos: [4, 10, 12]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: clark-1999
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "compara"
+ideas_abiertas:
+  - "Añadir aceleración de la burbuja a la integración de geodésicas."
+  - "Ver cómo cambia la imagen con otras funciones de forma, por ejemplo la de Natário."

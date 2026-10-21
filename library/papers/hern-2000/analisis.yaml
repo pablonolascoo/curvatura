@@ -1,0 +1,33 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Demuestra que el corte armónico del lapso en cosmologías de Kasner y Gowdy T3 acaba, salvo casos especiales, en singularidades de coordenadas. Esto limita el tiempo de las simulaciones de relatividad numérica."
+tipo: teorema
+supuestos:
+  - "Formulación 3+1 con lapso N y corte armónico dado por □T = 0."
+  - "Foliaciones 'planares' de Minkowski, Kasner y Gowdy T3."
+  - "Simulaciones numéricas de Kasner para ver la aproximación a la singularidad."
+resultados:
+  - "Los cortes armónicos planares de Minkowski cubren siempre todo el espaciotiempo."
+  - "En Kasner y Gowdy T3 los cortes armónicos terminan en singularidades de coordenadas en condiciones razonablemente generales."
+  - "Estas singularidades son soluciones exactas, no se evitan cambiando el método numérico."
+  - "La pérdida de convergencia de la solución numérica delata la singularidad de coordenadas."
+ecuaciones_clave:
+  - n: 4
+    latex: '\Box T = g^{\mu\nu}\nabla_\mu\nabla_\nu T = 0'
+    significado: "Condición armónica que define el corte temporal."
+  - n: 5
+    latex: 'g^{\mu\nu}(\nabla_\mu T)(\nabla_\nu T) = -1/N^2'
+    significado: "Relación entre el lapso y el gradiente de la coordenada temporal armónica."
+  - n: 13
+    latex: 'T_{,tt} - T_{,xx} + t^{-1}T_{,t} = 0'
+    significado: "Ecuación armónica de T en el espaciotiempo de Kasner."
+  - n: 28
+    latex: 't_{\text{sing}} \propto (k_0/k)^2'
+    significado: "Escala del tiempo en que aparece la singularidad de coordenadas."
+limitaciones:
+  - "Solo trata la condición armónica simple, no los cortes armónicos generalizados."
+  - "Es de relatividad numérica y cosmología; no trata directamente métricas warp."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Usar el lapso del corte armónico generalizado para controlar la foliación y evitar estas singularidades."
+  - "Comprobar si estas patologías de gauge aparecen en evoluciones numéricas de burbujas warp."

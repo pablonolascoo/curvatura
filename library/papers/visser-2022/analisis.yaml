@@ -1,0 +1,17 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la masa ADM en espaciotiempos de motor warp, según indica el título."
+tipo: solucion
+supuestos:
+  - "Espaciotiempos warp asintóticamente planos donde se define la masa ADM."
+resultados:
+  - "Sin resultados verificables en el contexto: solo se dispone del título."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título: sin resumen ni texto."
+  - "El tipo asignado es una conjetura a partir del título."
+obstaculos: [2, 6]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Relacionar la masa ADM con el momento y la energía exigidos a la burbuja."

@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Formaliza qué significa que una burbuja warp tenga masa y que se mueva respecto a las estrellas fijas, usando la masa ADM. Calcula de forma explícita el tensor energía-impulso de warp drives de Natário con vorticidad nula y confirma la violación de las condiciones de energía."
+tipo: teorema
+supuestos:
+  - "Warp drives de Natário genéricos: tres hojas planas, lapso unidad y campo de flujo v^i(t, x) asintóticamente plano."
+  - "Caso de vorticidad nula: v = gradiente de un potencial Phi, con una geometría base estática trasladada por x_*(t)."
+  - "Tres formas de masa: carga útil dentro de la burbuja, masa de la propia burbuja (warp negro) o masa de fondo externa."
+  - "No se exige hiperbolicidad global, para poder discutir problemas de causalidad."
+resultados:
+  - "La carga útil es más sencilla de lo que se suele suponer: se obtiene uniendo con una función bump una métrica masiva y una métrica warp."
+  - "Al activar el campo warp solo cambian las componentes espaciales del tensor energía-impulso, de forma lineal en la velocidad v_*."
+  - "La presión media vale p_media = p_0 - (1/(12 pi)) v_*^k d_k laplaciano(Phi)."
+  - "Para el warp basado en Schwarzschild en coordenadas de Painlevé-Gullstrand, rho = 0 con T_ij distinto de cero, por lo que se viola la condición de energía dominante, y también la nula, débil y fuerte."
+  - "Se confirma que las condiciones nula, débil, fuerte y dominante se violan en todas las subclases (Alcubierre, expansión nula y vorticidad nula)."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+\delta_{ij}(dx^i-v^i(t,\vec{x})dt)(dx^j-v^j(t,\vec{x})dt)'
+    significado: "Métrica de Natário genérica con campo de flujo v."
+  - n: 15
+    latex: 'ds^2=-dt^2+\delta_{ij}\left(dx^i-\nabla^i\Phi(\vec{x}-\vec{x}_*(t))dt\right)\left(dx^j-\nabla^j\Phi(\vec{x}-\vec{x}_*(t))dt\right)'
+    significado: "Warp drive de vorticidad nula como traslación de una geometría base."
+  - n: 31
+    latex: '\rho=\rho_0;\ f_i=0;\ T_{ij}=(T_0)_{ij}+\frac{1}{8\pi}v_*^k(t)\partial_k\left[\Phi_{,ij}-\nabla^2\Phi\,\delta_{ij}\right]'
+    significado: "Tensor energía-impulso del warp de vorticidad nula."
+  - n: 43
+    latex: '\bar{p}=\frac{1}{3}\delta^{ij}T_{ij}=-\frac{1}{12\pi}v_*^k(t)\partial_k\nabla^2\Phi'
+    significado: "Presión media del warp basado en Schwarzschild."
+limitaciones:
+  - "El análisis se restringe a la clase de Natário con lapso unidad y hojas planas."
+  - "Hay un compromiso entre tratabilidad y generalidad: las generalizaciones dificultan definir la burbuja."
+  - "No se estudia el horizonte no compacto del warp superlumínico, que queda para trabajo futuro."
+obstaculos: [1, 6, 13, 4]
+relacion:
+  - paper: natario-2001
+    como: "extiende"
+  - paper: santiago-2022
+    como: "extiende"
+  - paper: lentz-2021
+    como: "critica"
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Generalizar la noción de burbuja warp relajando el lapso unidad o la planitud de las hojas espaciales."
+  - "Estudiar el horizonte no compacto de un warp superlumínico."

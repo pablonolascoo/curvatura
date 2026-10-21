@@ -1,0 +1,17 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, propone una cáscara de energía positiva más ligera cuyas condiciones de energía se certifican para todo observador."
+tipo: propuesta
+supuestos:
+  - "Cáscara de energía positiva tipo warp (según el título)."
+resultados:
+  - "Afirma, según el título, certificar todas las condiciones de energía para cualquier observador; no se verifica aquí."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
+  - "El alcance de la certificación y la masa concreta no constan en el texto disponible."
+obstaculos: [6, 7, 13]
+relacion:
+  - paper: fuchs-2024
+    como: "extiende"
+ideas_abiertas:
+  - "Verificar de forma independiente la certificación de las condiciones de energía."

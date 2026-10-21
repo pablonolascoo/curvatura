@@ -1,0 +1,27 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una burbuja warp en un universo brana, con interacción brana-volumen. La velocidad del hiperimpulso suma la velocidad sobre la brana y la del volumen."
+tipo: propuesta
+supuestos:
+  - "Métrica de burbuja con un término Y(r) que representa la interacción entre brana y volumen."
+  - "Interior de la burbuja plano (Y tiende a 0) y función de forma tipo tanh como en Alcubierre."
+  - "Espacio circundante plano y burbuja con simetría esférica."
+resultados:
+  - "La métrica propuesta se reduce a la de Alcubierre cuando se desprecia el término de volumen."
+  - "La traza de la curvatura extrínseca distingue contracción delante y expansión detrás de la burbuja."
+  - "La velocidad del hiperimpulso es la suma de la velocidad sobre la brana y la velocidad del volumen."
+  - "El grosor de la pared (parámetro σ) influye en la geometrodinámica de la transición."
+ecuaciones_clave: []
+limitaciones:
+  - "El resumen y el texto no calculan la energía total ni resuelven las condiciones de energía."
+  - "La expresión de densidad de energía se toma de Lobo y Visser, sin contenido nuevo de materia."
+  - "No hay cifras numéricas ni simulaciones; es un desarrollo formal."
+  - "El contexto no incluye la lista de ecuaciones, así que no se destacan ecuaciones concretas."
+obstaculos: [1, 7, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "aplica"
+ideas_abiertas:
+  - "Calcular la energía necesaria en la versión con brana y compararla con la de Alcubierre."
+  - "Especificar la función Y(r) a partir de un modelo de brana concreto."

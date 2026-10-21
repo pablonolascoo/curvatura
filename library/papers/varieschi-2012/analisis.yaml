@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza la métrica de Alcubierre en gravedad conforme en lugar de relatividad general. Con una función de forma adecuada, la condición de energía débil no se viola en un amplio rango de velocidades, incluidas las superlumínicas."
+tipo: solucion
+supuestos:
+  - "Gravedad conforme de Weyl, con ecuaciones W_{mu nu} = T_{mu nu}/(4 alpha_g), es la extensión correcta de la relatividad general."
+  - "Métrica de Alcubierre sin cambios, con función de forma tipo Alcubierre (tangentes hiperbólicas) o tipo Hartle, 1-(r_s/R)^m con m=4."
+  - "Observadores eulerianos y cálculo simbólico del tensor energía-impulso con un programa de Mathematica."
+resultados:
+  - "Con la función de forma de Hartle, la densidad de energía T^00 no viola la condición de energía débil para un amplio rango de velocidades, incluido v_s mayor o igual que c."
+  - "La condición de energía fuerte se cumple siempre, y la dominante se viola en la parte central de la burbuja."
+  - "Para v_s = c, R = 1 y alpha_g = 3.29e82 erg s, la energía total estimada es 6.12e92 erg, unas 3.4e38 masas solares."
+  - "Esta estimación depende críticamente de alpha_g, mal conocida; podría reducirse en muchos órdenes de magnitud."
+ecuaciones_clave:
+  - n: 5
+    latex: 'W_{\mu\nu}=\frac{1}{4\alpha_{g}}\ T_{\mu\nu}'
+    significado: "Ecuación de campo de la gravedad conforme: tensor de Bach igual al tensor energía-impulso."
+  - n: 13
+    latex: 'f(r_{s})=\begin{Bmatrix}1-\left(\frac{r_{s}}{R}\right)^{m} & ;\ r_{s}<R\\ 0 & ;\ r_{s}>R\end{Bmatrix}'
+    significado: "Función de forma de Hartle, que evita la violación de la condición de energía débil."
+  - n: 15
+    latex: 'T^{\mu\nu}n_{\mu}n_{\nu}=T^{00}=-\frac{1}{8\pi}\frac{v_{s}^{2}\rho^{2}}{4r_{s}^{2}}\left(\frac{df}{dr_{s}}\right)^{2}'
+    significado: "Densidad de energía euleriana en relatividad general, siempre negativa, para comparar."
+  - n: 18
+    latex: 'E=6.12\times10^{92}\ \operatorname{erg}=6.81\times10^{71}\ \operatorname{g}=3.42\times10^{38}M_{\odot}'
+    significado: "Estimación de la energía total para una burbuja razonable a la velocidad de la luz."
+limitaciones:
+  - "El resultado depende de que la gravedad conforme sea correcta, y de un valor de alpha_g que solo se estima macroscópicamente."
+  - "La condición de energía dominante se viola en la zona central de la burbuja."
+  - "La función de forma de Hartle no es suave en el borde, lo que implica derivadas con deltas de Dirac."
+  - "La energía estimada es enorme con el único valor disponible de alpha_g."
+obstaculos: [1, 11, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Buscar funciones de forma más eficientes que reduzcan la energía necesaria."
+  - "Precisar el valor de alpha_g y su relación con el valor microscópico."

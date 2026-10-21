@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia qué ocurre al invertir el signo del vector desplazamiento en la métrica de Alcubierre. Muestra que, con un ansatz adecuado, las componentes {22} y {33} de las ecuaciones de Einstein se descomponen formalmente en ecuaciones de tipo Burgers viscosa y de tipo calor."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre en forma ADM con lapso 1, desplazamiento β = -v_s f y métrica espacial plana."
+  - "Un ansatz matemático para descomponer las componentes G_22 y G_33; las constantes no vienen de un tensor energía-impulso concreto."
+  - "Condición transversal que obliga a que β dependa solo de t y x, es decir β(t,x)."
+resultados:
+  - "El cambio β a -β modifica la estructura reducida de las ecuaciones, por lo que no es un cambio cosmético."
+  - "Aparece una estructura de tipo calor y una constante análoga a un coeficiente de difusividad en la dinámica reducida del desplazamiento."
+  - "Con Λ = 0 y T_22 = T_33 = 0 se obtienen reducciones de vacío en las componentes elegidas."
+  - "Esto no implica que el espaciotiempo sea plano globalmente, porque solo se anulan algunas componentes de Einstein."
+ecuaciones_clave:
+  - n: 3
+    latex: '\alpha = 1, \quad \beta^1 = \beta= - v_s(t)f\left[r_s(t)\right], \quad \beta^2 = \beta^3 = 0, \quad \gamma_{ij} = \delta_{ij}'
+    significado: "Datos ADM de la métrica de Alcubierre."
+  - n: 10
+    latex: '\rho = T^{\mu\nu}n_\mu n_\nu = -\frac{1}{32\pi} \left[\left( \frac{\partial \beta}{\partial y} \right)^2 + \left( \frac{\partial \beta}{\partial z} \right)^2\right]'
+    significado: "Densidad de energía euleriana, negativa o nula."
+  - n: 12
+    latex: '\bar{\beta} = - \beta = v_s(t) f[r_s(t)]'
+    significado: "Inversión del signo del desplazamiento."
+  - n: 21
+    latex: '\frac{\partial \bar{\beta}}{\partial t} + \frac{1}{2} \frac{\partial}{\partial x} \left(\bar{\beta}^2\right) = h(t) + \bar{\Lambda} x'
+    significado: "Ecuación de tipo Burgers para el desplazamiento reducido."
+limitaciones:
+  - "La difusividad aparece por el ansatz y no debe leerse como física sin un modelo de materia."
+  - "Con β(t,x) la función reguladora pierde su dependencia esférica, y los resultados son reducciones de dimensión menor."
+  - "No se resuelve el sistema completo de Einstein: faltan las otras componentes y las ligaduras hamiltoniana y de momento."
+obstaculos: [1, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: santospereira-2025
+    como: "extiende"
+ideas_abiertas:
+  - "Estudiar numéricamente si el sistema reducido da configuraciones localizadas, estables o de tipo choque."
+  - "Buscar hipótesis menos restrictivas que conserven un perfil esférico de la burbuja."

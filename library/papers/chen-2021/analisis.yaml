@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone simular con iones atrapados una partícula de Dirac que se mueve a velocidad superlumínica en la métrica de Alcubierre. El esquema permite observar el cono de luz inclinado y el Zitterbewegung."
+tipo: propuesta
+supuestos:
+  - "Métrica de Alcubierre en 1+1 dimensiones con velocidad v_s(t) dada."
+  - "Ecuación de Dirac en espacio-tiempo curvo, reducida a un hamiltoniano mapeable a un ion atrapado."
+  - "Ion atrapado con acoplamiento espín-oscilador mediante láseres, con la coordenada del ion proporcional a la de la partícula simulada."
+resultados:
+  - "La velocidad de la partícula simulada está en el intervalo A·c(v_s ± 1), en acuerdo con la relatividad general."
+  - "El Zitterbewegung persiste con propagación superlumínica y es medible."
+  - "La oscilación depende de la masa m pero no del parámetro v_s."
+  - "El esquema se puede extender a la ecuación de Dirac en otros espacios-tiempos exóticos."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=c^2dt^2-\left[dx-v_s(t)dt\right]^2-dy^2-dz^2'
+    significado: "Métrica de Alcubierre con signatura (+,-,-,-)."
+  - n: 2
+    latex: '\frac{1}{c} \frac{dx}{dt}=v_s(t)\pm1'
+    significado: "Conos de luz inclinados: la velocidad de la luz queda desplazada por v_s."
+  - n: 5
+    latex: 'H=cA\hat{P}\sigma_z+cA\hat{P} v_s(t)-mc^2\sigma_x'
+    significado: "Hamiltoniano de Dirac en la métrica de Alcubierre que se simula con el ion."
+  - n: 12
+    latex: '\frac{d^2}{dt^2}\langle \hat{x}(t) \rangle =-\frac{2mc^3}{\hbar}\left\langle e^{2iH_\text{flat}t/\hbar}\sigma_y\right\rangle'
+    significado: "Ecuación del Zitterbewegung, independiente de v_s."
+limitaciones:
+  - "Es un análogo en 1+1 dimensiones: no reproduce la dinámica gravitatoria ni la materia que sostiene la burbuja."
+  - "Los resultados son numéricos y propuestos, sin experimento realizado."
+  - "El análogo no valida la viabilidad física del warp."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: finazzi-2009
+    como: "compara"
+ideas_abiertas:
+  - "Realizar el experimento con iones atrapados."
+  - "Extender el simulador a otras métricas exóticas y a más dimensiones."

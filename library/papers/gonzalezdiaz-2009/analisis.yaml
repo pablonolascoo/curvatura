@@ -1,0 +1,28 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Muestra una dualidad T entre motores warp bidimensionales y universos bebé correlacionados por pares. La creación de un motor warp equivale a un squeezing del espacio-tiempo e implica violar las desigualdades de Bell."
+tipo: propuesta
+supuestos:
+  - "Un motor warp bidimensional se expresa como un pequeño universo de de Sitter localizado."
+  - "La nucleación de universos bebé en pares correlacionados equivale a un squeezing del espacio-tiempo."
+  - "Los universos de Tolman-Hawking y de Giddings-Strominger son los universos bebé de referencia."
+resultados:
+  - "Existe una simetría de dualidad T entre los motores warp bidimensionales y esos universos bebé correlacionados en pares."
+  - "La nucleación de motores warp viola las desigualdades de Bell, con entrelazamiento, complementariedad y colapso de la función de onda."
+  - "Se generaliza a universos en aceleración con energía oscura o fantasma: su creación también equivale a squeezing y a violar las desigualdades de Bell."
+ecuaciones_clave:
+  - n: 16
+    latex: 'ds^2 = -d\theta^2 + R_0^{d2} \cosh^2 \left(\frac{\theta}{R_0^d}\right)'
+    significado: "Métrica de de Sitter en forma hiperbólica a la que se reduce el motor warp bidimensional."
+  - n: 17
+    latex: 'C=\frac{\langle a^{\dagger}aa^{\dagger}a\rangle}{\langle a^{\dagger}aa^{\dagger}a\rangle+ \langle\left(a^{\dagger}\right)^2\left(a\right)^2\rangle} \geq 0.707'
+    significado: "Cota sobre el parámetro C asociada a la violación de las desigualdades de Bell en estados con squeezing."
+  - n: 14
+    latex: 'ds^2 = -2{\rm dc}^2\left(\frac{\sqrt{2}t}{R_0^d}\right)dt +R_0^{d2}{\rm nc}^2\left(\frac{\sqrt{2}t}{R_0^d}\right)d\rho^2'
+    significado: "Métrica del universo de de Sitter pequeño en funciones elípticas de Jacobi."
+limitaciones:
+  - "El contexto solo incluye el resumen, la introducción breve y las ecuaciones; el texto de las demostraciones falta."
+  - "Es un resultado formal en dos dimensiones; no trata la viabilidad de un motor warp en 3+1."
+obstaculos: [3]
+relacion: []
+ideas_abiertas:
+  - "Comprobar en el texto completo cómo se construye la dualidad T y la violación de Bell."

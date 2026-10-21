@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, revisa el estado de la ingeniería de la métrica y sus implicaciones para el warp drive."
+tipo: revision
+supuestos:
+  - "No consta en el contexto disponible: solo se dispone del título y de los datos bibliográficos."
+resultados:
+  - "El título indica una revisión de la ingeniería de la métrica aplicada al warp drive en 2003; no se conoce su contenido."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título y los metadatos; no hay resumen ni texto del paper."
+  - "Todo el contenido debe verificarse con el documento original."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Leer el paper para extraer las propuestas y límites que presenta."

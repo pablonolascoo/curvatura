@@ -1,0 +1,33 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Extiende la mecánica de Bohm con geometrodinámica: las partículas que atraviesan una barrera de potencial siguen geodésicas de un espaciotiempo tipo Alcubierre. El modelo reproduce el efecto Hartman con un mecanismo geométrico de autorregulación."
+tipo: propuesta
+supuestos:
+  - "Mecánica de Bohm: ψ = √ρ exp(iS) con potencial cuántico Q."
+  - "Las trayectorias son geodésicas de una métrica de tipo Alcubierre que depende del potencial cuántico."
+  - "Barrera rectangular de anchura a y altura V0."
+resultados:
+  - "Se obtienen expresiones analíticas para el potencial cuántico, la dinámica y el tiempo de túnel."
+  - "Para barreras estrechas, el tiempo de túnel depende de la anchura."
+  - "Para barreras anchas, el tiempo satura a un valor constante: efecto Hartman."
+  - "La saturación se interpreta como autorregulación: Q ajusta la distorsión del espaciotiempo, con causalidad preservada pese a la propagación superlumínica efectiva."
+ecuaciones_clave:
+  - n: 10
+    latex: 'Q \equiv -\hbar^{2}(\nabla^{2}\sqrt{\rho})/(2m\sqrt{\rho})'
+    significado: "Potencial cuántico de Bohm."
+  - n: 12
+    latex: '0 = d_{t}^{2}x^{\mu} + \Gamma^{\mu}_{\alpha\beta}d_{t}x^{\alpha}d_{t}x^{\beta}'
+    significado: "Ecuación geodésica para las trayectorias de las partículas."
+  - n: 20
+    latex: 'd_{t}x^{i} = \frac{\hbar g^{ij}}{m\sqrt{|g|}}\partial_{j}S'
+    significado: "Ecuación guía que une velocidad y fase en la métrica."
+limitaciones:
+  - "El modelo necesita densidades de energía negativas, análogas al efecto Casimir."
+  - "Sin verificación experimental; la propuesta es teórica."
+  - "Las predicciones chocan con medidas recientes de tiempos de permanencia en barreras, que el texto cita."
+obstaculos: [3, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Contrastar el modelo en cavidades optomecánicas o heteroestructuras de grafeno."
+  - "Buscar conexiones con fases geométricas como la de Berry."

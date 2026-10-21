@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una métrica de relatividad general en formalismo 3+1 que permite a una nave viajar a velocidad arbitraria, expandiendo el espacio detrás y contrayéndolo delante. Muestra que exige materia exótica."
+tipo: solucion
+supuestos:
+  - "Lapso unidad, 3-métrica plana y vector de desplazamiento proporcional a una función de forma f(r_s) con forma de sombrero de copa."
+  - "La nave se mueve a lo largo del eje x con trayectoria arbitraria x_s(t) y velocidad v_s(t)."
+  - "Unidades G = c = 1."
+resultados:
+  - "Las hipersuperficies son planas y los observadores eulerianos están en caída libre; la curvatura reside en el desplazamiento no uniforme."
+  - "La expansión de los elementos de volumen es positiva detrás de la nave y negativa delante."
+  - "La nave sigue una geodésica temporal con tiempo propio igual al tiempo coordenado, sin dilatación temporal ni aceleración propia."
+  - "El viaje de ida dura T ≈ 2 raíz(D/a) en la aproximación del texto, tan pequeño como se quiera aumentando a."
+  - "La densidad de energía medida por observadores eulerianos es negativa en todo punto, por lo que se violan las condiciones de energía débil, dominante y fuerte."
+ecuaciones_clave:
+  - n: 2
+    latex: '\alpha = 1, \quad \beta^x = -v_s(t) f(r_s(t)), \quad \beta^y=\beta^z=0, \quad \gamma_{ij}=\delta_{ij}'
+    significado: "Definición de la métrica de Alcubierre en variables 3+1."
+  - n: 4
+    latex: 'f(r_s) = \frac{\tanh(\sigma(r_s+R)) - \tanh(\sigma(r_s-R))}{2\tanh(\sigma R)}'
+    significado: "Función de forma de la burbuja, de radio R y anchura de pared controlada por sigma."
+  - n: 10
+    latex: '\theta = v_s \frac{x_s}{r_s} \frac{df}{dr_s}'
+    significado: "Expansión de los volúmenes eulerianos: contracción delante y expansión detrás."
+  - n: 17
+    latex: 'T^{\alpha\beta} n_\alpha n_\beta = -\frac{1}{8\pi}\frac{v_s^2 \rho^2}{4 r_s^2}\left(\frac{df}{dr_s}\right)^2'
+    significado: "Densidad de energía euleriana, siempre negativa."
+limitaciones:
+  - "Requiere materia exótica; el artículo solo apunta al efecto Casimir como posible justificación."
+  - "No se calcula la cantidad total de energía ni se propone un mecanismo para generar la distorsión."
+  - "Las fuerzas de marea son grandes en la pared de la burbuja."
+  - "El autor menciona que probablemente pueden construirse curvas temporales cerradas con una idea similar, sin demostrarlo."
+obstaculos: [1, 3, 4]
+relacion: []
+ideas_abiertas:
+  - "Cómo crear y controlar una región con la distribución de densidad de energía negativa requerida."
+  - "Si ideas análogas permiten construir espaciotiempos con curvas temporales cerradas."

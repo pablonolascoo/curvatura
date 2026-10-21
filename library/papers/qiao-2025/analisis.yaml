@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone convertir el tensor electromagnético en tensor de Weyl con una fórmula postulada, para comprimir el espacio delante de la nave y expandirlo detrás sin materia exótica. Estima unos 4,9e6 J para una burbuja de 20 m de diámetro."
+tipo: propuesta
+supuestos:
+  - "Una transformación gauge de semejanza generalizada relaciona el tensor electromagnético F con la 2-forma de curvatura."
+  - "El tensor de Weyl se obtiene de F mediante C = kappa (F F - F F), con kappa un coeficiente de eficiencia de conversión."
+  - "En el estado inicial sin influencias externas, el tensor de Ricci sería nulo."
+  - "Estimación con v = 2c, radio de unos 10 m, espesor de pared de 1 m y eta de orden 1/mu_0."
+resultados:
+  - "La fórmula postulada conserva las simetrías y la ausencia de traza del tensor de Weyl, según la comprobación del texto."
+  - "Un cálculo numérico muestra la función de forma creciendo en la proa y decreciendo en la popa, con curvatura total positiva delante y negativa detrás."
+  - "Controlar el tensor de Weyl equivale a controlar la curvatura extrínseca, vía la descomposición ADM."
+  - "La estimación da una densidad de energía de unos 3,2e33 J/m^3 y una energía de unos 4,9e6 J, frente a unos 1e62 J del modelo clásico."
+  - "La velocidad superlumínica por sí sola no produce curvas temporales cerradas; haría falta una topología no trivial."
+ecuaciones_clave: []
+limitaciones:
+  - "La fórmula que une F y el tensor de Weyl se postula; el texto no la deriva de las ecuaciones de Einstein."
+  - "El texto reconoce que Alcubierre con T no nula implica Ricci no nulo, y aun así plantea Ricci nulo en el estado inicial."
+  - "La energía sale de un análisis dimensional con eta de orden 1/mu_0, no de un cálculo de la fuente."
+  - "No se da un mecanismo ni un campo electromagnético concreto que logre esa curvatura."
+  - "La reducción de unos 1e62 J a unos 5 MJ no se verifica con otros métodos."
+obstaculos: [1, 7, 11, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lentz-2021
+    como: "compara"
+  - paper: bobrick-martire-2021
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si la fórmula C = kappa (F F - F F) es compatible con las ecuaciones de Einstein-Maxwell."
+  - "Calcular el tensor de energía-impulso total de la burbuja propuesta y revisar las condiciones de energía."
+  - "Diseñar una configuración electromagnética concreta que produzca el perfil de curvatura buscado."

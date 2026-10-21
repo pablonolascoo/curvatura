@@ -1,0 +1,32 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Obtiene soluciones analíticas de la ecuación de Dirac en secciones 1+1 de las métricas de Alcubierre, Gödel y Kerr, mediante un cambio de coordenadas a una métrica conformemente plana."
+tipo: solucion
+supuestos:
+  - "Secciones de dimensión 1+1 de cada métrica; para Alcubierre se toma el límite de pared muy fina (sigma tendiendo a infinito) dentro de la burbuja."
+  - "Partícula sin masa en la sección de Alcubierre y Gödel, con paquete de ondas inicial gaussiano."
+  - "Se busca un cambio de coordenadas que deje la métrica conformemente plana, con psi = Omega^(-1/2) phi."
+resultados:
+  - "Para Alcubierre y Gödel el factor conforme es Omega^2 = 1: la solución curva coincide con la de Minkowski y solo cambia la transformación de coordenadas."
+  - "En Alcubierre, al aumentar v_s la pendiente de la trayectoria del paquete gaussiano disminuye, es decir, la velocidad aumenta."
+  - "La técnica se extiende a métricas no estáticas (Omega dependiente del tiempo), con el mismo resultado: se recupera la ecuación de Dirac de Minkowski."
+ecuaciones_clave:
+  - n: 8
+    latex: 'ds^2 = -(1-v_s^2)dt^2+dx^2-2v_sdxdt'
+    significado: "Sección 1+1 de la métrica de Alcubierre dentro de la burbuja."
+  - n: 9
+    latex: 'dt=d\bar{t}, \quad dx=d\bar{x}+v_sd\bar{t}'
+    significado: "Cambio de coordenadas que convierte la métrica en la de Minkowski."
+  - n: 3
+    latex: 'i\bigg(\partial_t+\frac{\dot{\Omega}}{2\Omega}\bigg)\psi=-i\sigma_x\bigg(\partial_x+\frac{\Omega^\prime}{2\Omega}\bigg)\psi+\sigma_z\Omega m\psi'
+    significado: "Ecuación de Dirac 1+1 en una métrica conformemente plana con factor Omega."
+limitaciones:
+  - "Solo secciones 1+1; no se resuelve el caso completo en 3+1."
+  - "No se calcula materia exótica ni energía; el trabajo es de mecánica cuántica relativista en fondo fijo."
+  - "La solución en Alcubierre usa el límite sigma tendiendo a infinito y el interior de la burbuja."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Aplicar el método a otras métricas exóticas conformemente planas en 1+1."
+  - "Usar los simuladores cuánticos de la ecuación de Dirac para reproducir estas soluciones en laboratorio."

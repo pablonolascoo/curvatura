@@ -1,0 +1,22 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Catalogo cualitativo de los efectos físicos que tendría modificar los coeficientes g_00 y g_11 de la métrica alrededor de una nave. Lo presenta como un enfoque de relatividad general para ingenieros, y lo vincula con motores warp y agujeros de gusano."
+tipo: revision
+supuestos:
+  - "Existe una tecnología capaz de controlar el tensor métrico, sin precisar el mecanismo."
+  - "Se compara el espaciotiempo alterado con uno sin alterar, medido por un observador remoto."
+  - "Los efectos se leen como un índice de refracción variable del vacío."
+resultados:
+  - "Tabla de efectos para g_00 > 1 y g_11 < 1: relojes más rápidos, desplazamiento al azul, estados de energía elevados y reglas que se expanden."
+  - "La velocidad efectiva de la luz vista desde fuera es c sqrt(g_00/(-g_11)), y puede superar c sin violarla localmente."
+  - "La masa efectiva disminuye y aparece un efecto tipo antigravedad en la tabla."
+  - "Se predicen efectos observables: brillo por desplazamiento al azul, curvatura de rayos de luz, desaparición aparente y percepción alterada del tiempo."
+ecuaciones_clave: []
+limitaciones:
+  - "El texto original no tiene numeración de ecuaciones utilizable en la ficha; es cualitativo."
+  - "Reconoce que las densidades de energía requeridas exceden en muchos órdenes de magnitud la ingeniería actual."
+  - "No resuelve ni verifica una métrica concreta ni las condiciones de energía, y varias consecuencias sobre observadores son especulativas."
+obstaculos: [2, 14]
+relacion: []
+ideas_abiertas:
+  - "Buscar firmas observables de un espaciotiempo alterado, como el desplazamiento al azul o la lente gravitatoria."
+  - "Usar metamateriales y medios ópticos como análogos de laboratorio de la métrica modificada."

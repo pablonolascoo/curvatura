@@ -1,0 +1,26 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone placas de Casimir a escala molecular, siguiendo la idea de Ridgely, para obtener energía negativa macroscópica que sostenga wormholes y warp drives. Es una propuesta cualitativa, sin cálculos finales."
+tipo: propuesta
+supuestos:
+  - "Placas planas conductoras paralelas, cuadradas o circulares, a escala nanométrica."
+  - "Muchas placas (de cientos a miles de millones) separadas entre picómetros y nanómetros sumarían energía negativa suficiente."
+  - "Las placas deben ser ligeras, finas, muy conductoras y a baja temperatura, con fricción mínima."
+resultados:
+  - "Resume el resultado de Ridgely: la energía de Casimir entre placas crece como el área y decrece con la separación."
+  - "Enumera criterios de diseño: forma, masa de los constituyentes, planitud, ligereza, delgadez, conductividad, fricción y temperatura."
+  - "Afirma, sin mostrar el cálculo, que un número alcanzable de placas daría la energía negativa necesaria."
+ecuaciones_clave: []
+limitaciones:
+  - "No incluye el cálculo prometido de la energía total; se remite a un trabajo posterior."
+  - "No justifica cómo apilar o fabricar placas con esas separaciones."
+  - "No aborda la geometría de la burbuja ni la distribución espacial de la energía negativa."
+  - "Las ecuaciones de la extracción de texto son ilegibles, así que no se destacan."
+obstaculos: [3, 9]
+relacion:
+  - paper: ridgely-2000
+    como: "extiende"
+  - paper: vandenbroeck-1999
+    como: "compara"
+ideas_abiertas:
+  - "Calcular el número de placas y la energía negativa total para una burbuja concreta."
+  - "Estudiar el efecto de la temperatura y de la masa de los constituyentes en la fuerza de Casimir."

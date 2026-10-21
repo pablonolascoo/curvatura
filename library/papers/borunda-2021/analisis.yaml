@@ -1,0 +1,17 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Por el título, es un texto divulgativo que presenta avances recientes que mejoran las perspectivas del viaje más rápido que la luz con burbujas de curvatura."
+tipo: revision
+supuestos:
+  - "Texto de divulgación sobre propulsión warp (según el título)."
+  - "Se apoya en resultados de otros autores (inferido del título)."
+resultados:
+  - "Sin texto: no se pueden identificar los avances concretos que menciona."
+  - "No aporta resultados propios comprobables desde la ficha."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título: no hay resumen ni texto en la biblioteca."
+  - "Sin texto disponible, no se pueden citar cifras ni ecuaciones."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Leer el paper completo y completar esta ficha."

@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1410.1833
 language: en
 subsystems: [V]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: [es, fr]
 verified: true

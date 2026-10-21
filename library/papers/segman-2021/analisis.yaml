@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone campos de desplazamiento tipo gradiente, inspirados en Lentz, con una geometría de nave parabólica o gaussiana que da densidad de energía euleriana positiva."
+tipo: propuesta
+supuestos:
+  - "Métrica ds^2 = -dt^2 + (dx - X dt)^2 + (dy - Y dt)^2 + (dz - Z dt)^2 con espacio plano y desplazamiento (X,Y,Z) = gradiente de una función Psi(r), siguiendo a Lentz."
+  - "La densidad de energía euleriana se calcula como E = (1/16 pi)(theta^2 - K_ij K^ij), con la curvatura espacial nula."
+  - "Dos perfiles: Psi = a v r (1 - r)^p con p = 1 y p = 2 sobre 0 <= r <= 1, y un perfil gaussiano Psi = a v e^{-b r^2}, nulos fuera."
+  - "Se interpreta la geometría de la nave como una función madre tipo wavelet que se puede trasladar, escalar y rotar."
+resultados:
+  - "Con la forma de Alcubierre la densidad de energía es negativa en todas partes, según la ecuación (10)."
+  - "Para p = 1 la expansión es theta = -6 a v, independiente del radio, y la densidad de energía vale 3 a^2 v^2 / (2 pi), positiva en todo el interior."
+  - "Para p = 2 la densidad es cero en el centro y crece hacia el borde, con un máximo en r = 1 que se da en la ecuación (22)."
+  - "Para el perfil gaussiano la densidad en el centro es positiva, y se hace nula en el borde cuando b = 3/4; para b mayor o r > 1 resulta negativa."
+ecuaciones_clave:
+  - n: 2
+    latex: 'E = T_{ab}n^a n^b = \frac{1}{16\pi}\left( {}^{(3)}R + K^2 - K_{ij}K^{ij} \right)'
+    significado: "Densidad de energía euleriana en términos de la curvatura extrínseca."
+  - n: 12
+    latex: '\Psi(r) = a v r (1 - r)^p \quad (0 \le r \le 1)'
+    significado: "Perfil de la función potencial del desplazamiento con p igual a 1 o 2."
+  - n: 25
+    latex: '\Psi(r) = a v e^{-b r^2}'
+    significado: "Perfil gaussiano alternativo del desplazamiento."
+limitaciones:
+  - "Solo se examina la densidad de energía euleriana; no se comprueban las otras condiciones de energía ni las densidades de momento y presiones."
+  - "El perfil con p = 1 tiene un vértice en r = 0 y el perfil está truncado en r = 1, lo que puede dar singularidades de curvatura no tratadas."
+  - "No se estudia la geodésica, el transporte de pasajeros ni la masa total ADM."
+  - "El texto incluye afirmaciones especulativas sin soporte (nave con forma de platillo, desaparición de la nave para los observadores eulerianos)."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: lentz-2021
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar las condiciones de energía débil, nula y dominante, con las densidades de momento y presiones, para estos perfiles."
+  - "Calcular la masa total y la regularidad de la métrica en r = 0 y r = 1."

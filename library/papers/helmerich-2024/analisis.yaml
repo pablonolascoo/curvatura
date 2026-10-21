@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Presenta Warp Factory, una herramienta numérica en MATLAB que evalúa las ecuaciones de Einstein y las condiciones de energía de métricas warp arbitrarias. La aplica a cuatro métricas conocidas."
+tipo: simulacion
+supuestos:
+  - "Métrica dada en formalismo 3+1 y observadores eulerianos con tétradas ortonormales."
+  - "Condiciones de energía comprobadas con un muestreo numérico de campos de vectores nulos y temporales."
+  - "Derivadas calculadas por diferencias finitas en una malla."
+resultados:
+  - "Se evalúan las métricas de Alcubierre, Van Den Broeck, Bobrick-Martire de tiempo modificado y una inspirada en Lentz, con sus componentes de tensión-energía y escalares de la métrica."
+  - "Tener densidad de energía no negativa para el observador euleriano no basta: la métrica inspirada en Lentz viola la condición de energía débil para otros observadores temporales."
+  - "Las violaciones pueden venir de densidad negativa o de presiones y momento mayores que la densidad."
+  - "Todas las métricas muestran contracción delante y expansión detrás, con cizalla a lo largo de las fronteras del vector de desplazamiento."
+ecuaciones_clave:
+  - n: 2
+    latex: 'T_{\hat{\mu}\hat{\nu}} = T_{\mu\nu} e^{\mu}_{\hat{\mu}} e^{\nu}_{\hat{\nu}}'
+    significado: "Proyección del tensor de energía-momento sobre la tétrada del observador."
+  - n: 17
+    latex: '\Xi_{N}(X) = T_{\hat{\mu}\hat{\nu}}(X) k^{\hat{\mu}} k^{\hat{\nu}} \ge 0 \ \ \forall \ \  k^{\hat{\mu}}'
+    significado: "Condición de energía nula evaluada sobre vectores nulos muestreados."
+  - n: 18
+    latex: '\Xi_{W}(X) = T_{\hat{\mu}\hat{\nu}}(X) V^{\hat{\mu}} V^{\hat{\nu}} \ge 0 \ \ \forall \ \  V^{\hat{\mu}}'
+    significado: "Condición de energía débil evaluada sobre vectores temporales muestreados."
+  - n: 24
+    latex: '\theta = g^{\mu\nu}\theta_{\mu\nu}'
+    significado: "Escalar de expansión del flujo de observadores."
+limitaciones:
+  - "El muestreo de observadores es finito, así que no demuestra el cumplimiento universal de las condiciones."
+  - "Hay errores numéricos de borde de malla, discretización, truncación y redondeo, discutidos en el apéndice."
+  - "No propone una solución física nueva; evalúa métricas existentes."
+obstaculos: [1, 12, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: natario-2002
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+ideas_abiertas:
+  - "Usar la herramienta para explorar métricas nuevas donde el análisis analítico no es viable."
+  - "Reducir el error numérico y mejorar el muestreo de observadores."

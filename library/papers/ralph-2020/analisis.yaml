@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Presenta una métrica global con curvas temporales cerradas inmersa en Minkowski. Representa una burbuja de Alcubierre con trayectoria circular sobre una plataforma giratoria."
+tipo: propuesta
+supuestos:
+  - "Coordenadas cilíndricas giratorias con velocidad angular omega y burbuja de Alcubierre en trayectoria circular de radio constante r_s."
+  - "Se supone que la materia exótica necesaria puede producirse; no se analiza su realizabilidad."
+  - "Condición necesaria para trayectorias temporales hacia atrás: (v_s + 1) omega r < -1."
+resultados:
+  - "La métrica global combina rotación y burbuja y permite que una partícula parta y llegue en espacio plano."
+  - "Localmente, para un observador en la plataforma, la métrica toma la forma de la de Alcubierre tras un impulso (boost) tangencial."
+  - "El tiempo propio y el tiempo coordenado de una vuelta completa se calculan en forma cerrada, y el tiempo coordenado puede hacerse negativo si la condición se cumple."
+  - "Con una aceleración parcial de la burbuja se obtiene un viaje de ida y vuelta con viaje único, sin cambiar de marco entre dos burbujas como en Everett."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-(1-\omega^2r^2)dt^2+2\omega r\,r\,d\phi\,dt+r^2d\phi^2+dr^2+dz^2'
+    significado: "Espacio plano en coordenadas cilíndricas giratorias."
+  - n: 3
+    latex: 'ds^2=-(1-f^2v_s^2)dt^2-2fv_s\,r\,d\phi\,dt+r^2d\phi^2+dr^2+dz^2'
+    significado: "Burbuja de Alcubierre con trayectoria circular."
+  - n: 6
+    latex: 'v_c=\frac{(v_s\pm1)(1-\omega^2r^2)}{1+(v_s\pm1)\omega r}'
+    significado: "Velocidad tangencial de la luz en la métrica combinada."
+  - n: 15
+    latex: 't_f=\frac{2\pi r_s(1+v_s\omega r_s)}{v_s(1-\omega^2r_s^2)}'
+    significado: "Tiempo coordenado de una vuelta completa de la burbuja."
+limitaciones:
+  - "No se analiza la viabilidad física de la materia exótica requerida."
+  - "No se estudia la estabilidad ni las condiciones de energía de la métrica."
+  - "Las curvas temporales cerradas exigen velocidades de la plataforma y de la burbuja muy altas."
+obstaculos: [1, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: everett-1996
+    como: "extiende"
+ideas_abiertas:
+  - "Estudiar campos cuánticos que interactúan con estas curvas temporales cerradas."
+  - "Analizar la validez de la métrica frente a la conjetura de protección de la cronología."

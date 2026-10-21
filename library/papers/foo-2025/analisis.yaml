@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Muestra que las trayectorias medias de partículas cuánticas en Schwarzschild, obtenidas con medidas débiles, coinciden con las líneas de flujo de la corriente de probabilidad. Esas trayectorias equivalen a geodésicas nulas clásicas en un espacio-tiempo híbrido Schwarzschild-Alcubierre."
+tipo: solucion
+supuestos:
+  - "Teoría cuántica de campos en espacio-tiempo curvo con campo escalar de Klein-Gordon en Schwarzschild."
+  - "Velocidades definidas por valores débiles de momento y energía, con la corriente de Klein-Gordon como equivalente."
+  - "Se adopta un enfoque tipo mecánica bohmiana, con una métrica guía que depende de la función de onda."
+resultados:
+  - "Triple equivalencia: velocidad por valores débiles, flujo de la corriente de probabilidad y geodésica nula en la métrica híbrida."
+  - "El parámetro v_s del tipo Alcubierre se obtiene a partir de la razón de corrientes j^1/j^0."
+  - "Se extiende el análisis a dos fotones, con métrica guía dependiente de la función de onda conjunta."
+  - "La métrica híbrida es compatible con las predicciones de la teoría cuántica en espacio-tiempo curvo."
+ecuaciones_clave:
+  - n: 2
+    latex: 'v(t,r)=f(r)\frac{\langle\hat{p}_w\rangle}{\langle\hat{H}_w\rangle}'
+    significado: "Velocidad de la partícula como cociente de valores débiles de momento y energía."
+  - n: 6
+    latex: 'v(t,r)=f(r)\frac{j^1(t,r^\star)}{j^0(t,r^\star)}'
+    significado: "La misma velocidad escrita con la corriente de probabilidad de Klein-Gordon."
+  - n: 7
+    latex: 'ds^2=-(1-v_s^2)f(r)dt^2+f(r)^{-1}dr^2-2v_s\,dr\,dt'
+    significado: "Métrica híbrida Schwarzschild-Alcubierre."
+  - n: 8
+    latex: '\frac{dr}{dt}=f(r)\left(v_s+\mathrm{sgn}(j^1/j^0)\right)'
+    significado: "Geodésica nula en la métrica híbrida."
+limitaciones:
+  - "El uso del espacio-tiempo de Alcubierre es una herramienta de interpretación y no una propuesta de propulsión."
+  - "El análisis es unidimensional radial."
+  - "La métrica guía depende de la función de onda y no es una solución física con fuente de materia."
+obstaculos: []
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Extender la construcción a espacio-tiempos en más dimensiones y a otros tipos de partículas."
+  - "Estudiar si la métrica guía puede contrastarse con un experimento de medidas débiles."

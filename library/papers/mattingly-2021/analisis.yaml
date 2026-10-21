@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Tesis que calcula y representa los invariantes de curvatura de Carminati y McLenaghan para agujeros de gusano transitables y para las métricas warp de Alcubierre y Natário. Revela estructura interna de la burbuja que otros escalares no muestran."
+tipo: simulacion
+supuestos:
+  - "Espaciotiempos de clase B1, con cuatro invariantes independientes: R, r1, r2 y w2."
+  - "Warp con velocidad constante, y warp de Natário con aceleración constante, en formalismo ADM con lapso unidad."
+  - "Unidades naturales con c = 1; la pendiente 1 en x frente a t equivale a velocidad de la luz."
+resultados:
+  - "Los invariantes de los agujeros de gusano confirman que son transitables y permiten distinguirlos."
+  - "El agujero de gusano de cáscara fina de Schwarzschild muestra un corrimiento al rojo importante que lo diferencia del agujero negro clásico."
+  - "Los invariantes de Alcubierre y de Natário a velocidad constante no tienen singularidades."
+  - "En todas las burbujas aparece una zona plana en el centro, apta para viajar, y espacio asintóticamente plano fuera."
+  - "La burbuja deja una estela dinámica y tiene estructura interna rica."
+  - "El warp de Natário con aceleración constante contiene una singularidad de curvatura a lo largo del ángulo polar."
+ecuaciones_clave:
+  - n: 1
+    latex: 'G^{\mu\nu}=\frac{8\pi G}{c^4}T^{\mu\nu}'
+    significado: "Ecuaciones de Einstein, resueltas a la inversa para hallar la fuente de materia de una geometría dada."
+  - n: 21
+    latex: 'r_1 := \Phi_{AB\dot{A}\dot{B}}\,\Phi^{AB\dot{A}\dot{B}} = \frac{1}{4} S_\alpha^\beta S_\beta^\alpha'
+    significado: "Invariante de Carminati-McLenaghan formado con el Ricci sin traza."
+  - n: 45
+    latex: 'g_{\mu\nu}=\begin{pmatrix} -N^2-N_i N_j g^{ij} & N_j \\ N_i & g_{ij} \end{pmatrix}'
+    significado: "Métrica en formalismo ADM con lapso N y vector de desplazamiento N_i, base de las métricas warp."
+limitaciones:
+  - "Estudio descriptivo de la curvatura; no analiza la energía necesaria ni las condiciones de energía."
+  - "Las funciones de los invariantes son enormes y su cálculo puede tardar días o meses."
+  - "La singularidad del warp de Natário acelerado queda sin explicar y requiere más estudio."
+  - "Solo un barrido limitado de velocidad, grosor de pared y radio."
+obstaculos: [1, 8, 13]
+relacion:
+  - paper: mattingly-2020
+    como: "extiende"
+ideas_abiertas:
+  - "Estudiar la singularidad de curvatura del warp de Natário acelerado a lo largo del ángulo polar."
+  - "Usar los invariantes para cartografiar el espaciotiempo alrededor de la nave y ayudar a la navegación."

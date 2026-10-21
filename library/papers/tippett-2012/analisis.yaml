@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una burbuja localizada de curvatura del espaciotiempo, de tipo warp, como modelo para interpretar un relato de ficción de H. P. Lovecraft. Calcula numéricamente sus efectos visuales y la materia que exigiría, que resulta exótica."
+tipo: propuesta
+supuestos:
+  - "Métrica sencilla con interior hiperbólico, ds^2 = -dτ^2 + dr^2 + sinh^2(r) dΩ, y exterior de vacío."
+  - "Función de transición H(r,t) de tipo tanh con parámetros A (grosor) y W (radio), y burbuja con velocidad b."
+  - "Es un ejercicio de interpretación de una fuente literaria, de carácter humorístico y didáctico."
+resultados:
+  - "La geometría reproduce cualitativamente fenómenos del relato, como ángulos y horizonte anómalos, mediante lente gravitatoria no euclidiana."
+  - "Dentro de la burbuja el tensor energía-impulso es aproximadamente (1/8π) diag(3,1,1,1)."
+  - "El modelo requiere una densidad de energía negativa en el interior, es decir materia exótica."
+  - "Una civilización capaz de fabricar esa materia podría construir también motores warp y dispositivos de ocultación."
+ecuaciones_clave:
+  - n: 2
+    latex: 'H(r,t)\equiv\frac{1-\tanh(A\left(\sqrt{b^{2}t^{2}+r^{2}}-W\right))}{2}'
+    significado: "Función que une el interior hiperbólico con el exterior de vacío."
+  - n: 4
+    latex: 'ds^{2}=-d\tau^{2}+dr^{2}+\sinh^{2}(r)d\Omega'
+    significado: "Geometría interior de la burbuja."
+  - n: 5
+    latex: 'T_{b}^{a}\approx\frac{1}{8\pi}\left(\begin{array}{cccc} 3 & 0 & 0 & 0\\ 0 & 1 & 0 & 0\\ 0 & 0 & 1 & 0\\ 0 & 0 & 0 & 1 \end{array}\right)'
+    significado: "Tensor energía-impulso aproximado del interior."
+limitaciones:
+  - "No es un estudio físico de un propulsor: el objetivo es interpretar un texto de ficción."
+  - "La materia necesaria es no física y no se ofrece mecanismo de formación ni de estabilidad."
+  - "Solo se calculan efectos cualitativos numéricos, sin cifras de energía."
+obstaculos: [1, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: tippett-2011
+    como: "extiende"
+ideas_abiertas:
+  - "Calcular la energía total de una burbuja con interior hiperbólico."

@@ -1,0 +1,35 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Ensayo que defiende la ingeniería inversa de métricas y cuestiona el uso de las condiciones de energía como único criterio de fisicidad. Lo ilustra con la métrica análoga del sumidero de bañera."
+tipo: critica
+supuestos:
+  - "Cualquier métrica es solución de alguna ecuación de Einstein, con el tensor de energía-momento definido por el tensor de Einstein."
+  - "Las condiciones de energía puntuales dependen de observadores y del vínculo entre geometría y materia."
+  - "Fluido ideal irrotacional, tipo vórtice, como ejemplo de espacio-tiempo análogo."
+resultados:
+  - "Las condiciones de energía son útiles para teoremas matemáticos, pero su violación es solo una señal de alerta, no un veredicto de fisicidad."
+  - "En el vórtice irrotacional, el tensor de Einstein efectivo da G_μν V^μ V^ν = -(A²+B²)/(r⁴ ρ c_s) para el observador comóvil, así que viola la condición de energía débil efectiva aunque el fluido real es físico."
+  - "Para espacio-tiempos análogos, que tienen marco privilegiado, las condiciones de energía pierden sentido como criterio."
+  - "Defiende los modelos de juguete diseñados a propósito, aunque violen la fisicidad, para estudiar fenómenos concretos."
+ecuaciones_clave:
+  - n: 3
+    latex: '\Box \phi_1 \mathrel{\mathop:}= \frac{1}{\sqrt{-g_{\text{eff}}}}\partial_\mu \left( \sqrt{-g_{\text{eff}}} \, g^{\mu\nu}_{\text{eff}} \partial_\nu \phi_1 \right)'
+    significado: "Ecuación de Laplace-Beltrami que siguen las ondas sonoras en la métrica efectiva."
+  - n: 4
+    latex: '\forall \text{~four-velocities~} W: \quad T_{\mu\nu} W^\mu W^\nu \geq 0?'
+    significado: "Condición de energía débil, que debe valer para todos los observadores."
+  - n: 6
+    latex: 'G^{\text{eff}}_{\mu\nu} V^\mu V^\nu = -\frac{A^2+B^2}{r^4 \rho c_{\text{s}}}'
+    significado: "El vórtice irrotacional viola la condición de energía débil efectiva para un observador."
+limitaciones:
+  - "Es un ensayo de opinión; no presenta cálculos nuevos sobre warp drives."
+  - "Los ejemplos son de gravedad análoga, no de burbujas warp."
+  - "Algunas ecuaciones del contexto están truncadas."
+obstaculos: [13]
+relacion:
+  - paper: santiago-2022
+    como: "compara"
+  - paper: kontou-2020
+    como: "compara"
+ideas_abiertas:
+  - "Definir criterios de fisicidad adecuados al propósito de cada modelo de juguete."
+  - "Usar la ingeniería inversa de métricas para estudiar horizontes atrapados y órbitas."

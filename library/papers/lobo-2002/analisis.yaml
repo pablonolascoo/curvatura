@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Repasa agujeros de gusano, el warp de Alcubierre y el tubo de Krasnikov como soluciones que violan la condición de energía débil. Explica el teorema de Olum y la necesidad de definir bien el viaje superlumínico."
+tipo: revision
+supuestos:
+  - "Relatividad general con la condición de energía débil (WEC) como criterio."
+  - "Definición de viaje superlumínico como modificación de la métrica que conecta puntos causalmente desconectados."
+  - "Métrica warp con perfil f(r) tipo tanh."
+resultados:
+  - "La densidad de energía euleriana del warp es negativa: T_{μν}U^μU^ν = -(1/32π)(v2 ρ2/r2)(df/dr)2 < 0."
+  - "El tubo de Krasnikov en 2D permite viajes de ida rápidos y vuelta lenta, con violación de WEC."
+  - "Se discute el teorema de Olum: el viaje superlumínico exige violar la WEC."
+  - "Se pueden construir métricas que parecen superlumínicas pero son Minkowski plano."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+d\rho^2+\rho^2 d\phi^2+(dz-vf\,dt)^2'
+    significado: "Métrica de Alcubierre en coordenadas cilíndricas."
+  - n: 3
+    latex: 'f(r)=\frac{\tanh(\sigma(r+R))-\tanh(\sigma(r-R))}{2\tanh(\sigma R)}'
+    significado: "Función de forma de la burbuja."
+  - n: 11
+    latex: 'T_{\mu\nu}U^{\mu}U^{\nu}=-\frac{1}{32\pi}\frac{v^2\rho^2}{r^2}\left(\frac{df}{dr}\right)^2<0'
+    significado: "Densidad de energía negativa vista por observadores eulerianos."
+  - n: 19
+    latex: 'ds^2=-(dt-dx)(dt+k(t,x)dx)'
+    significado: "Métrica del tubo de Krasnikov en 2D."
+limitaciones:
+  - "Es un texto de revisión; no aporta soluciones nuevas."
+  - "No extiende el teorema de Olum a espaciotiempos con curvas temporales cerradas."
+obstaculos: [1, 3, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: olum-1998
+    como: "aplica"
+  - paper: krasnikov-1998
+    como: "compara"
+  - paper: ford-roman-1996
+    como: "aplica"
+ideas_abiertas:
+  - "Generalizar el teorema de Olum a espaciotiempos con curvas temporales cerradas."
+  - "Dar una definición de viaje superlumínico válida en casos con CTC."

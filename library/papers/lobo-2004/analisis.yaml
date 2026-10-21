@@ -1,0 +1,49 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Aplica la gravedad linealizada a la burbuja warp con velocidades no relativistas. Muestra que la violación de las condiciones de energía es propia de la geometría y no solo de la superluminalidad, y limita mucho la velocidad de la burbuja."
+tipo: solucion
+supuestos:
+  - "Límite de campo débil con velocidad de la burbuja v mucho menor que 1 y perturbación h_{\\mu\\nu} pequeña."
+  - "Una nave de masa finita en el origen, en lugar de una partícula de prueba sin masa."
+  - "Cuantificador de integral de volumen para medir la cantidad total de violación de las condiciones de energía."
+  - "Función de forma con tangentes hiperbólicas, con radio R y parámetro sigma inverso al grosor de la pared."
+resultados:
+  - "La condición de energía débil se viola para toda v; la densidad de energía es negativa en una región toroidal alrededor del eje de movimiento."
+  - "La cantidad de materia que viola la condición de energía es aproximadamente -v^2 R^2 sigma."
+  - "La condición de energía nula promediada sobre las direcciones +z y -z también se viola para toda v."
+  - "Al orden lineal en v, la integral de volumen de la energía nula da la masa de la nave; las violaciones aparecen a orden v^2."
+  - "Comparar con la masa de la nave da una cota muy baja para v^2, de modo que la burbuja debería ir a velocidades absurdamente bajas."
+ecuaciones_clave:
+  - n: 3
+    latex: 'T_{\mu\nu} U^{\mu} U^{\nu}= -\frac{v^2}{32\pi}\left[\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2\right]<0'
+    significado: "Densidad de energía del warp de Alcubierre, negativa en todo punto."
+  - n: 4
+    latex: 'M_\mathrm{warp} = \int \rho_\mathrm{warp}\, d^3 x = -\frac{v^2}{12}\int \left(\frac{df}{dr}\right)^2 r^2\, dr'
+    significado: "Cuantificador de integral de volumen: cantidad de energía negativa localizada en la pared de la burbuja."
+  - n: 15
+    latex: '\int T_{\hat{\mu}\hat{\nu}} U^{\hat{\mu}} U^{\hat{\nu}}\, d^3 x = M_{\rm ship} - v^2 R^2 \sigma + \int O(\Phi^2)\, d^3 x'
+    significado: "Energía total con nave de masa finita: masa de la nave menos el término de la burbuja."
+  - n: 16
+    latex: 'v^2 \leq \frac{M_{\rm ship}}{R_\mathrm{ship}}\,\frac{R_\mathrm{ship}\,\Delta}{R^2}'
+    significado: "Cota superior a la velocidad de la burbuja para que la energía no sea negativa."
+limitaciones:
+  - "Solo régimen de campo débil, hasta segundo orden en v."
+  - "No se estudia directamente la burbuja relativista de campo fuerte."
+  - "La conclusión de inutilidad tecnológica supone que el campo fuerte parte de Minkowski y pasa por el régimen débil."
+  - "Es una versión corta; no se aportan cifras numéricas concretas de la cota."
+obstaculos: [1, 2, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Aplicar el cuantificador de integral de volumen a la burbuja de campo fuerte."
+  - "Buscar geometrías en las que la masa de la nave compense la energía negativa de la pared."

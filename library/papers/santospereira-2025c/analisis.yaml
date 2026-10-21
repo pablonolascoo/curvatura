@@ -1,0 +1,48 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Tesis doctoral que acopla la métrica de Alcubierre a fuentes de materia (polvo, fluido perfecto, fluido anisótropo, polvo cargado y constante cosmológica) y resuelve las ecuaciones de Einstein. Conecta algunas soluciones con ondas de choque de tipo Burgers."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre en formalismo ADM, con el vector de desplazamiento beta como función de t y de una coordenada espacial."
+  - "Fuentes de materia: polvo, fluido perfecto, fluido casi perfecto con presiones anisótropas, polvo cargado y fluido perfecto con constante cosmológica."
+  - "Se imponen las ecuaciones de Einstein y la divergencia nula del tensor de energía-impulso."
+resultados:
+  - "Con polvo, la densidad de materia sale nula y aparece una solución de vacío ligada a una ecuación de tipo Burgers con un término que solo depende del tiempo."
+  - "La suma de dos presiones estáticas puede dar soluciones de onda de choque en la ecuación de Burgers."
+  - "Con fluido perfecto hay cuatro soluciones; dos coinciden con las de vacío del polvo, y otras dos tienen p = 3 mu y exigen mu negativa si beta es real."
+  - "Con densidad positiva, el desplazamiento es complejo en esos casos y no viola las condiciones de energía."
+  - "Con fluido anisótropo, dos soluciones cumplen todas las condiciones de energía si el parámetro de presión A es positivo y beta está acotado."
+  - "Con polvo cargado, según la intensidad de los campos eléctrico y magnético, se pueden respetar las condiciones de energía o violarse las dominante y nula."
+ecuaciones_clave:
+  - n: 3
+    latex: 'G_{\mu\nu} + \Lambda g_{\mu\nu} \equiv R_{\mu \nu} - \frac{1}{2}R \,g_{\mu \nu} + \Lambda g_{\mu\nu} = \kappa T_{\mu\nu}'
+    significado: "Ecuaciones de Einstein con constante cosmológica, usadas con cada fuente."
+  - n: 43
+    latex: 'ds^2 = -\alpha^2 dt^2 + \gamma_{ij} (dx^i + \beta^i dt)(dx^j + \beta^j dt)'
+    significado: "Métrica en formalismo ADM, con lapso alpha y desplazamiento beta, base de la métrica de Alcubierre."
+limitaciones:
+  - "El texto de la biblioteca solo muestra las primeras 45 ecuaciones de 456; las ecuaciones de resultados no se pueden citar con su número."
+  - "Varias soluciones son de vacío o exigen desplazamiento complejo, y su interpretación física queda abierta."
+  - "El propio texto indica que el mecanismo de la ecuación de Burgers debe estudiarse más a fondo."
+  - "No se analiza la estabilidad ni el origen físico de las fuentes anisótropas."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: santospereira-2020
+    como: "extiende"
+  - paper: santospereira-2021b
+    como: "extiende"
+  - paper: santospereira-2021c
+    como: "extiende"
+  - paper: santospereira-2021d
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+  - paper: natario-2002
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar si la ecuación de Burgers con término temporal puede describir la formación de la burbuja."
+  - "Dar significado físico al desplazamiento complejo de las soluciones de fluido."
+  - "Analizar la estabilidad de las soluciones con fluido anisótropo."

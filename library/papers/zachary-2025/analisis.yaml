@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una plataforma de laboratorio (QIX) para generar densidades de energía negativa localizadas mediante teleportación cuántica de energía y detectar su curvatura semiclásica. Estima relaciones señal-ruido con relojes atómicos, interferometría y sensores inerciales."
+tipo: propuesta
+supuestos:
+  - "Gravedad semiclásica: el valor esperado del tensor energía-impulso renormalizado es la fuente de las ecuaciones de Einstein."
+  - "Régimen de campo débil con ecuación de Einstein linealizada y gauge armónico."
+  - "Cada unidad de teleportación cuántica de energía produce un pulso gaussiano de densidad de energía negativa."
+  - "La señal de N unidades entrelazadas se suma de forma lineal, con curvatura por par del orden de 10^-36 m^-2."
+resultados:
+  - "La respuesta de curvatura se modela como dR = -8 pi G <T_00>, y se simulan perfiles espaciales para un par, una red sin sincronizar y otra sincronizada."
+  - "Con un suelo de ruido de unos 10^-35 m^-2, la relación señal-ruido supera 1 con redes modestas de N entre 10 y 100 unidades en las estimaciones del autor."
+  - "La deformación (strain) esperada es del orden de 10^-35, muy por debajo de la sensibilidad actual de LIGO."
+  - "Se propone un marco especulativo, el canal de compresión cuántica de curvatura, como alternativa experimental a las geometrías warp."
+ecuaciones_clave:
+  - n: 1
+    latex: 'G_{\mu\nu}(x)=8\pi G\langle T_{\mu\nu}(x)\rangle'
+    significado: "Ecuaciones de Einstein semiclásicas."
+  - n: 3
+    latex: '\langle T_{00}(x,t)\rangle\approx-\epsilon\exp\left(-\frac{(x-x_0)^2}{2\sigma^2}-\frac{(t-t_0)^2}{2\tau^2}\right)'
+    significado: "Pulso gaussiano de densidad de energía negativa de un protocolo de teleportación cuántica de energía."
+  - n: 13
+    latex: '\delta R(x)=-8\pi G\langle T_{00}(x)\rangle'
+    significado: "Perturbación de curvatura escalar en régimen débil y estático."
+  - n: 9
+    latex: '\mathrm{SNR}=\frac{\delta R(N)}{\sigma_R}'
+    significado: "Relación señal-ruido de la detección de curvatura."
+limitaciones:
+  - "El texto es un borrador: varias secciones llevan marcas de trabajo pendiente y las estimaciones son de orden de magnitud."
+  - "No se calcula el tensor energía-impulso del protocolo con teoría cuántica de campos, solo se supone un pulso gaussiano."
+  - "Las amplitudes de curvatura son diminutas, y la detección depende de suponer ruido idealizado y coherencia perfecta."
+  - "El canal de compresión de curvatura es una especulación sin desarrollo cuantitativo."
+obstaculos: [3, 14, 13]
+relacion:
+  - paper: hotta-2008
+    como: "aplica"
+ideas_abiertas:
+  - "Calcular el tensor energía-impulso renormalizado de un protocolo de teleportación de energía realista."
+  - "Comparar la energía negativa generada con las desigualdades cuánticas."
+  - "Incluir decoherencia y ruido técnico en el modelo de señal-ruido."

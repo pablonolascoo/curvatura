@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Muestra que los sistemas de gravedad análoga solo pueden simular geometrías con curvas temporales cerradas si no hay un horizonte cronológico, y construye geometrías con dos burbujas warp que las contienen."
+tipo: teorema
+supuestos:
+  - "El sistema análogo vive en un laboratorio con estructura minkowskiana (o galileana en el límite no relativista) y la métrica efectiva viene de un fluido, como en la ecuación (1)."
+  - "Se estudian geometrías tipo Gödel, Misner y regiones warp generalizadas que no son soluciones de las ecuaciones de Einstein con un tensor de energía-momento dado."
+  - "Se analiza principalmente un sistema acústico donde la velocidad del fluido inclina los conos de sonido."
+resultados:
+  - "Configuraciones con curvas temporales cerradas (CTC) sin horizonte cronológico, como Gödel, sí se pueden reproducir en un sistema análogo."
+  - "En todos los ejemplos con horizonte cronológico, algún parámetro físico del sistema análogo debe divergir en el horizonte."
+  - "Suavizar esas divergencias destruye la descripción lorentziana regular que justifica la analogía."
+  - "Se identifica un mecanismo de protección de la cronología en gravedad análoga, parecido al de Hawking."
+  - "Se construyen geometrías con CTC a partir de dos configuraciones warp, utilizables en análisis teóricos y experimentales."
+ecuaciones_clave:
+  - n: 1
+    latex: 'g^{\mu\nu}=\frac{\mu}{\rho_0 c} \left( \begin{array}{c|c} -1 & -v^i \\ \hline -v^j & c^2 h^{ij}-v^i v^j \end{array} \right)'
+    significado: "Métrica acústica efectiva en función de la velocidad del fluido y de la velocidad del sonido."
+  - n: 14
+    latex: 'ds^2 = -dt^2 + \delta_{ij} c^{-2} \left( dx^{i} - v^{i} dt\right) \left(dx^{j} - v^{j} dt\right)'
+    significado: "Forma tipo Alcubierre de la métrica análoga con perfil de velocidad v."
+  - n: 15
+    latex: 'v^{i} (t, x^i) = \delta^{i}_{\ x} u (t) f \left( \sqrt{ \left(x-x(t)\right)^2 + y^2 + z^2 }\right)'
+    significado: "Perfil de velocidad de la burbuja warp con velocidad u(t) y función de forma f."
+  - n: 17
+    latex: 'g_{\mu \nu} = \eta_{\mu \nu} + b_{\mu \nu}'
+    significado: "Métrica de una burbuja como perturbación de la métrica de Minkowski."
+limitaciones:
+  - "Las geometrías warp con CTC se construyen sin resolver las ecuaciones de Einstein ni identificar la materia que las sostiene."
+  - "El análisis detallado se centra en sistemas acústicos y BEC, no cubre todas las analogías posibles."
+  - "No se propone ni realiza un experimento concreto."
+obstaculos: [4, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+ideas_abiertas:
+  - "Usar las geometrías de dos burbujas warp como banco de pruebas teórico y de laboratorio para la protección de la cronología."
+  - "Estudiar qué papel juegan los efectos semiclásicos cerca de la formación del horizonte cronológico en el sistema análogo."

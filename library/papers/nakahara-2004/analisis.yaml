@@ -1,0 +1,32 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone acortar un algoritmo cuántico añadiendo una puerta extra W, llamada warp-drive, que acerca la matriz unitaria a la identidad. Lo demuestra teórica y experimentalmente con el algoritmo de Grover de dos qubits en RMN."
+tipo: experimento
+supuestos:
+  - "El tiempo de las operaciones de un qubit es despreciable frente al de las operaciones de dos qubits, ya que omega_1 es mucho mayor que J."
+  - "El espacio relevante es el cociente SU(4)/(SU(2) x SU(2)), con la descomposición de Cartan de la álgebra su(4)."
+  - "Las puertas warp-drive se eligen entre matrices de permutación de la base binaria, de modo que la salida original se deduce por cálculo clásico."
+resultados:
+  - "La compacidad del grupo unitario garantiza que existe una puerta warp-drive que reduce el tiempo de ejecución."
+  - "Para el algoritmo de Grover U_10, el tiempo óptimo es 1/J con W_0, W_1 y W_2, y 1/(2J) con W_3, W_4 y W_5."
+  - "El experimento en RMN usa cloroformo marcado con carbono 13 con J = 215,5 Hz y el tiempo se reduce a la mitad."
+  - "El número de pulsos baja de 10 a 4, y el espectro con W_4 U_10 es más nítido que con U_10."
+  - "No existe una warp-drive universal, pero sí un conjunto finito de transformaciones simples que acortan cualquier algoritmo."
+ecuaciones_clave:
+  - n: 1
+    latex: 'U_{\rm alg} = {\mathcal{T}} \exp \left[-\frac{i}{\hbar}\int_0^T {\mathcal{H}}(\gamma(t)) dt\right]'
+    significado: "Algoritmo cuántico como matriz unitaria ordenada en el tiempo."
+  - n: 4
+    latex: '[ \mathfrak{k}, \mathfrak{k}] \subset \mathfrak{k}, \quad [ \mathfrak{p}, \mathfrak{k}] \subset \mathfrak{p}, \quad [ \mathfrak{p}, \mathfrak{p}] \subset \mathfrak{k}'
+    significado: "Relaciones de conmutación que definen la descomposición de Cartan."
+  - n: 12
+    latex: 'W_0=I_4, \ W_1=U_{\rm CNOT}^{12}, \ W_2=U_{\rm CNOT}^{21}, \ W_3=U_{\rm SWAP}, \ W_4=U_{\rm CNOT}^{12}U_{\rm CNOT}^{21}, \ W_5=U_{\rm CNOT}^{21}U_{\rm CNOT}^{12}'
+    significado: "Permutaciones candidatas a puerta warp-drive."
+limitaciones:
+  - "El término warp-drive es una analogía con atajos entre puntos remotos; el artículo no trata gravedad ni relatividad."
+  - "Solo se demuestra para dos qubits en RMN, con permutaciones como puertas extra."
+  - "No hay puerta universal que reduzca el tiempo de cualquier algoritmo."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Hallar un conjunto universal de puertas warp-drive para más qubits."
+  - "Aplicar la técnica a otras implementaciones de ordenadores cuánticos."

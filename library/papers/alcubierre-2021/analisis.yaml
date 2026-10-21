@@ -1,0 +1,49 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Capítulo de revisión sobre la métrica de Alcubierre y el tubo de Krasnikov. Repasa la violación de las condiciones de energía, los horizontes, las curvas temporales cerradas y las desigualdades cuánticas."
+tipo: revision
+supuestos:
+  - "Relatividad general con G = c = 1 y burbuja esférica con función de forma f(r) de tipo tanh."
+  - "Para el análisis lineal, nave de masa finita con velocidad no relativista v << 1."
+  - "Tubo de Krasnikov modificado a lo largo de la trayectoria de la nave, con propagación radial limitada por causalidad."
+resultados:
+  - "La densidad de energía medida por observadores eulerianos es negativa en todo punto y se reparte en una región toroidal."
+  - "La condición de energía nula se viola para todo v, incluso promediando sobre las direcciones +z y -z."
+  - "Con la cota cuántica, el grosor de la pared queda limitado a unas 10^2 veces la longitud de Planck por v_b, y la energía a unos -3 x 10^20 masas galácticas por v_b."
+  - "En el límite lineal, la energía neta del campo de warp no puede superar la masa de la nave, lo que impone velocidades muy bajas."
+  - "Una burbuja superlumínica tiene horizonte: los fotones emitidos hacia delante no alcanzan el borde, así que la nave no puede crearla ni controlarla."
+  - "El tubo de Krasnikov permite un viaje de ida y vuelta arbitrariamente corto medido desde el origen, y dos tubos generan curvas temporales cerradas."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+dx^2+dy^2+\left[dz-v(t)\,f(x,y,z-z_0(t))\,dt\right]^2'
+    significado: "Métrica de Alcubierre en coordenadas cartesianas."
+  - n: 8
+    latex: 'T_{\mu\nu}U^{\mu}U^{\nu}=-\frac{1}{32\pi}\frac{v^2(x^2+y^2)}{r^2}\left(\frac{df}{dr}\right)^2<0'
+    significado: "Densidad de energía euleriana, siempre negativa."
+  - n: 11
+    latex: 'M_{\rm warp}\approx -v^2R^2\sigma'
+    significado: "Estimación de la energía total negativa de la burbuja con el cuantificador de volumen."
+  - n: 27
+    latex: 'v^2R^2\sigma\leq M_{\rm ship}'
+    significado: "Condición para que la energía neta del campo de warp no exceda la masa de la nave."
+  - n: 37
+    latex: 'ds^2=-(dt-dx)(dt+k(t,x)dx)'
+    significado: "Métrica bidimensional de Krasnikov."
+limitaciones:
+  - "Los resultados son de juguete teórico: se tratan como experimentos mentales y no como tecnología."
+  - "El análisis lineal solo vale para velocidades bajas."
+  - "La nave se modela como partícula de prueba en gran parte del capítulo."
+obstaculos: [1, 3, 4, 2]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "aplica"
+  - paper: natario-2002
+    como: "compara"
+  - paper: everett-1996
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "aplica"
+ideas_abiertas:
+  - "Hallar un mecanismo causal para crear la burbuja sin violar el horizonte, por ejemplo con tubos tipo Krasnikov."
+  - "Reducir la energía negativa necesaria sin recurrir a funciones de lapso extremas."

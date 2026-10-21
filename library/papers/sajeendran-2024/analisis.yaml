@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Modifica la métrica de Alcubierre rotante de Ralph y Chang haciendo que la rotación dependa de las coordenadas, de modo que una familia de curvas temporales cerradas pasa a ser geodésicas circulares."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre dinámica con rotación efectiva omega dentro de la burbuja, plana fuera de ella."
+  - "Se impone una dependencia omega(r) (por ejemplo lineal) para equilibrar las fuerzas de marea del movimiento de la burbuja sobre una trayectoria."
+  - "La velocidad de la burbuja depende del tiempo propio de la partícula, v_s(tau), con un perfil de tanh que la enciende en el intervalo entre tau_1 y tau_2."
+  - "Una dependencia omega(tau,r) adicional permite que la trayectoria siga siendo geodésica mientras cambia v_s."
+resultados:
+  - "La trayectoria de Ralph y Chang es una curva temporal cerrada pero no una geodésica, porque requiere aceleración radial no nula."
+  - "Con omega(r) adecuada, la curva circular es geodésica; en un ejemplo la condición de que la partícula viaje al pasado exige v_m mayor que 3/2."
+  - "La partícula entra y sale en espacio plano y vive en la curva cerrada durante un intervalo finito de tiempo propio."
+  - "La dependencia de v_s con el tiempo propio equivale a una dependencia de las coordenadas globales (t, phi), por lo que un agente externo podría controlarla, como en el argumento de Krasnikov."
+  - "Se presenta una métrica de Alcubierre periódicamente identificada, con topología no trivial, apta para estudiar teoría cuántica de campos en viajes en el tiempo."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2 = -\frac{1 - (\omega r + f v_s)^2}{1 - \omega^2 r^2} dt^2 - \frac{2\left(f v_s + \omega r f^2 v_s^2 + \omega^2 r^2 f v_s\right)}{1 - \omega^2 r^2} r d\phi dt + \frac{\left(1 + f v_s \omega r\right)^2 - \omega^2 r^2}{1 - \omega^2 r^2} r^2 d\phi^2 + dr^2 + dz^2'
+    significado: "Métrica de Alcubierre rotante en coordenadas del laboratorio."
+  - n: 7
+    latex: 'a^\mu=u^\nu \nabla_\nu u^\mu=\left( 0,0,-\frac{\omega(\omega r_s+2v_s)}{1-\omega^2 r_s^2},0 \right)'
+    significado: "Aceleración de la curva de Ralph y Chang, no nula en la dirección radial."
+  - n: 10
+    latex: 'v_s=-\frac{\omega^2 r_s+\omega\omega^\prime r_s^2}{2\omega+\omega^\prime r_s+\omega^2\omega^\prime r_s^3}'
+    significado: "Condición para que la curva circular sea geodésica con rotación dependiente de r."
+  - n: 16
+    latex: 'v_s(\tau)=\frac{v_m}{2}\left( \tanh\left( k(\tau-\tau_1) \right)-\tanh\left( k(\tau-\tau_2) \right) \right)'
+    significado: "Perfil temporal de la velocidad de la burbuja."
+limitaciones:
+  - "Los autores admiten que la realizabilidad física de la métrica es cuestionable."
+  - "No se estudian el tensor de energía-momento ni las condiciones de energía de la métrica modificada."
+  - "Requiere un agente de control externo o un flujo interno ad hoc, sin una fuente de materia concreta."
+  - "Solo trata trayectorias circulares en el modelo de partícula libre."
+obstaculos: [1, 4]
+relacion:
+  - paper: ralph-2020
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: krasnikov-1998
+    como: "aplica"
+  - paper: everett-roman-1997
+    como: "aplica"
+ideas_abiertas:
+  - "Usar la métrica como fondo para modelos clásicos y cuánticos de viaje en el tiempo."
+  - "Formular teoría cuántica de campos en la métrica de Alcubierre periódicamente identificada."

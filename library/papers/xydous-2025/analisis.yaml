@@ -1,0 +1,14 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Plantea cómo llegar a motores warp inerciales desde la ingeniería, según su título. No se dispone de texto ni resumen."
+tipo: propuesta
+supuestos:
+  - "Ficha hecha solo con el título y los metadatos."
+resultados:
+  - "Sin resumen ni texto en el contexto: no se pueden extraer resultados."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; verificar todo con el paper."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Completar la ficha cuando haya texto o resumen disponible."

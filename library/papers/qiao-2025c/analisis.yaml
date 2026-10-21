@@ -1,0 +1,19 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone o analiza una nave del tiempo basada en un warp drive, según indica el título. Solo se dispone del título y los metadatos; la ficha no recoge su contenido."
+tipo: propuesta
+supuestos:
+  - "No consta en el contexto disponible; el título apunta a una nave del tiempo con tecnología warp."
+  - "Cita la métrica de Alcubierre entre sus referencias de la biblioteca."
+resultados:
+  - "No hay resumen ni texto en el contexto, por lo que no se pueden extraer resultados."
+  - "Por el título, probablemente relaciona el warp con curvas temporales cerradas, sin confirmarlo."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título y los metadatos, sin resumen."
+  - "Conviene leer el artículo antes de usar cualquier afirmación."
+obstaculos: [4]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Completar la ficha con el resumen y el texto del artículo."

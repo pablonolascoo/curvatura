@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula y representa invariantes escalares de curvatura del espacio-tiempo de Alcubierre y los interpreta con el tensor de energía-momento. Critica las gráficas de Mattingly y colaboradores, que subestiman los invariantes en 8 a 16 órdenes de magnitud."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre con su función de forma habitual."
+  - "En 4 dimensiones, los tensores de Einstein y de Ricci sin traza coinciden, así que los invariantes de Ricci se leen como invariantes del tensor de energía-momento."
+  - "Los invariantes estudiados son el escalar de Weyl I, la traza G de Einstein y los invariantes cuadrático r1 y cúbico r2 del tensor sin traza."
+resultados:
+  - "Los invariantes r1, r2 e I requieren cuatro capas concéntricas de un fluido anisótropo para formar la burbuja."
+  - "El escalar G de Einstein requiere dos capas concéntricas; algunas capas son esféricas y otras con forma de media luna, y varias desaparecen en la dirección del movimiento."
+  - "La curvatura invariante del warp a velocidad c es comparable a la del horizonte de un agujero negro de Schwarzschild con la masa de Saturno."
+  - "Mattingly y colaboradores truncan los invariantes entre 8 y 16 órdenes de magnitud, de forma arbitraria según el autor."
+ecuaciones_clave:
+  - n: 10
+    latex: 'r_{1} \equiv \widehat{R}_{\alpha}^{\:\:\:{\beta}}\widehat{R}_{\beta}^{\:\:\:{\alpha}} = \widehat{G}_{\alpha}^{\:\:\:{\beta}}\widehat{G}_{\beta}^{\:\:\:{\alpha}} \quad \text{for } n = 4'
+    significado: "Invariante cuadrático del tensor de Ricci (o de Einstein) sin traza."
+  - n: 12
+    latex: 'K = I+2 \:{r}_{1} +\frac{1}{6} {G}^2 \quad \text{for } n = 4'
+    significado: "Descomposición del escalar de Kretschmann en Weyl, invariante r1 y traza de Einstein."
+  - n: 13
+    latex: 'r_{2} \equiv \widehat{R}_{\alpha}^{\:\:\:{\beta}}\widehat{R}_{\beta}^{\:\:\:{\gamma}} \widehat{R}_{\gamma}^{\:\:\:{\alpha}}= \widehat{G}_{\alpha}^{\:\:\:{\beta}}\widehat{G}_{\beta}^{\:\:\:{\gamma}} \widehat{G}_{\gamma}^{\:\:\:{\alpha}} \quad \text{for } n = 4'
+    significado: "Invariante cúbico del tensor sin traza."
+limitaciones:
+  - "El análisis es de la métrica de Alcubierre original, sin materia física que la sostenga."
+  - "La interpretación en capas de fluido anisótropo es cualitativa y se basa en la distribución de los invariantes."
+  - "El estudio no calcula la energía total ni verifica condiciones de energía."
+obstaculos: [7, 13]
+relacion:
+  - paper: mattingly-2021
+    como: "critica"
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: hiscock-1997
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: bobrick-martire-2021
+    como: "compara"
+ideas_abiertas:
+  - "Aplicar los mismos invariantes a métricas de warp físicas, como las de Bobrick-Martire."
+  - "Determinar qué fluido anisótropo reproduce las cuatro capas."

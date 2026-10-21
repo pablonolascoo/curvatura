@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa la cinemática del warp de Alcubierre en formalismo 3+1 y formula las ecuaciones de Einstein para métricas tipo Natário con velocidad de una componente. Propone un marco lagrangiano que enlaza los campos warp con la cosmología relativista."
+tipo: propuesta
+supuestos:
+  - "Foliación 3+1 con lapso N = 1 y vector de desplazamiento con una sola componente (movimiento R)."
+  - "Método G de Synge: se impone una forma de la solución o una condición a lo largo de geodésicas."
+  - "Correspondencia directa entre gravedad newtoniana y relatividad general para describir la dinámica."
+resultados:
+  - "En el modelo de Alcubierre los cambios del perfil de velocidad quedan suprimidos, salvo una amplitud dada externamente."
+  - "Con velocidad constante a lo largo de geodésicas, el campo warp es genéricamente inestable y se desarrollan cáusticas."
+  - "Se analizan la aceleración y la vorticidad en coordenadas, con ilustraciones de dos soluciones de ejemplo."
+  - "El marco con curvatura espacial incluye soluciones exactas de la clase II de Szekeres."
+ecuaciones_clave:
+  - n: 3
+    latex: 'N = 1 \ , \quad N^x = - V^x \ , \quad N^y = N^z = 0'
+    significado: "Elección de lapso y desplazamiento que define la clase de métricas tipo warp con una componente."
+  - n: 7
+    latex: 'W(r_S({t,\bm x})) = \frac{\tanh{(\sigma(r_S + R))}-\tanh{(\sigma(r_S-R))}}{2 \tanh{(\sigma R)}}'
+    significado: "Perfil de forma de Alcubierre para la velocidad de la burbuja."
+  - n: 9
+    latex: '\Theta = \mathrm{Tr}(\Theta_{ij}) = v_S(t) \frac{\partial W(r_S(t,{\bm x}))}{\partial r_S(t,{\bm x})} \Big( \frac{x-x_S(t)}{r_S(t,{\bm x})} \Big)'
+    significado: "Expansión del campo de velocidades del warp."
+  - n: 18
+    latex: 'u_{\mu} {T}^{\mu\nu}_{;\nu} = 0 \quad \Leftrightarrow \quad \dot\epsilon + \Theta (\epsilon + p) = - a_\mu q^\mu - q^\mu_{\ ; \mu} - \pi^{\mu\nu}\sigma_{\mu\nu}'
+    significado: "Ley de conservación de la energía para el tensor de energía-momento con observadores del flujo."
+limitaciones:
+  - "El marco ortogonal al flujo se presenta como un paso intermedio hacia flujos inclinados más realistas."
+  - "La inestabilidad se muestra para un caso concreto de condición geodésica."
+  - "No se especifica una fuente de materia física que sostenga la burbuja."
+  - "No se calcula la energía total ni se verifican las condiciones de energía."
+obstaculos: [5, 7, 11]
+relacion:
+  - paper: natario-2002
+    como: "extiende"
+  - paper: rodal-2025b
+    como: "compara"
+ideas_abiertas:
+  - "Extender el análisis a flujos inclinados con materia física."
+  - "Estudiar la estabilidad de los campos warp y la emisión de ondas gravitacionales."
+  - "Usar la teoría lagrangiana de perturbaciones para dinámica warp con curvatura espacial."

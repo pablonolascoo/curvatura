@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye una métrica explícita de doble warp drive con lapso no unitario que contiene una geodésica temporal cerrada. Da un modelo matemático preciso de cómo el viaje superlumínico permite viajar al pasado."
+tipo: solucion
+supuestos:
+  - "Métrica warp generalizada con lapso N distinto de 1 y desplazamiento beta, con soporte compacto."
+  - "Transición geodésica de marco de reposo: el espaciotiempo es plano para t <= 0 y t >= T_flat, y el pasajero pasa de reposo a velocidad u."
+  - "Dos warp drives pegados, donde el segundo se mueve respecto al marco del primero con velocidad relativa u suficientemente grande."
+  - "Convención de signo del desplazamiento opuesta a la habitual, de modo que los pasajeros se mueven con velocidad beta."
+resultados:
+  - "El lapso no unitario permite que el warp drive cambie de marco de referencia de forma puramente geométrica, sin fuerzas externas."
+  - "Las dos burbujas pegadas contienen una geodésica temporal cerrada: una partícula de prueba vuelve a su propio pasado siguiendo geodésicas."
+  - "Es el primer modelo de este tipo formulado con dos warp drives."
+  - "El lapso no unitario no evita la violación de la condición de energía débil: en la clase tipo Natário esa violación sigue siendo inevitable bajo condiciones razonables."
+  - "El argumento de la violación no usa la forma de la burbuja, solo curvatura intrínseca nula y curvatura extrínseca no nula."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^{2}=-dt^{2}+dx^{2}+dy^{2}+(dz-fv\,dt)^{2}'
+    significado: "Métrica de Alcubierre con velocidad en la dirección z."
+  - n: 3
+    latex: 'ds^{2}=-N^{2}dt^{2}+\gamma_{ij}(dx^{i}-\beta^{i}dt)(dx^{j}-\beta^{j}dt)'
+    significado: "Métrica ADM general con lapso N, usada para la generalización."
+  - n: 9
+    latex: 'ds^{2}=-N^{2}dt^{2}+\delta_{ij}(dx^{i}-\beta^{i}dt)(dx^{j}-\beta^{j}dt)'
+    significado: "Warp drive con lapso no unitario y 3-métrica plana."
+  - n: 17
+    latex: 'b(t)\equiv-u\lambda^{2}\partial_{t}a, \quad \lambda\equiv(1-u^{2}(1-a)^{2})^{-1/2}'
+    significado: "Funciones que fijan la pendiente del lapso para que la transición de marco sea geodésica."
+limitaciones:
+  - "El lapso no unitario no elimina la energía negativa; la condición de energía débil se viola."
+  - "La construcción necesita que beta sea C^2 y decaiga más rápido que r^(-1/2); sin esas hipótesis la demostración no vale."
+  - "Es un modelo matemático de curvas cerradas, sin discusión de estabilidad ni de cómo crear esas burbujas."
+obstaculos: [1, 4, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: everett-1996
+    como: "extiende"
+  - paper: santiago-2022
+    como: "aplica"
+  - paper: lobo-2010
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar si algún mecanismo de protección de la cronología impide pegar dos warp drives así."
+  - "Analizar el caso en que la rotación del desplazamiento y la densidad euleriana se anulan, donde la condición de energía débil no se viola necesariamente."

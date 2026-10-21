@@ -1,0 +1,46 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Verifica la violación no perturbativa de las condiciones de energía en los warp drives de Alcubierre y Natário y la estudia en gravedad linealizada con una nave de masa finita. Concluye que la violación persiste a velocidades arbitrariamente bajas."
+tipo: teorema
+supuestos:
+  - "Métricas de solo desplazamiento (espacio plano, lapso unidad) con G = c = 1."
+  - "Gravedad linealizada con velocidad no relativista de la burbuja v << 1, a primer y segundo orden en v."
+  - "La nave es un objeto de masa finita en el centro de la burbuja, con campo de Poisson Phi."
+  - "Cuantificador de integral de volumen para medir la cantidad total de materia que viola las condiciones."
+resultados:
+  - "Ambas métricas violan la condición de energía débil y la nula de forma exacta; la densidad euleriana es negativa en todo punto."
+  - "La violación aparece incluso a velocidades arbitrariamente bajas, así que no es un efecto de alta velocidad."
+  - "Observadores con impulso (boost) a lo largo de z miden densidad de energía negativa a orden v, aunque los eulerianos midan casi cero."
+  - "La energía neta negativa del campo de warp es del orden de -v^2 R^2 sigma y debe ser una fracción apreciable de la masa de la nave."
+  - "El warp drive débil sería un propulsor sin masa de reacción, que se mueve por su interacción con la geometría."
+ecuaciones_clave:
+  - n: 3
+    latex: '\nabla\cdot\vec{\beta}(x,y,z)=0'
+    significado: "Condición de expansión nula del warp drive de Natário."
+  - n: 4
+    latex: 'ds^2=-dt^2+dx^2+dy^2+\left[dz-v(t)f(x,y,z-z_0(t))dt\right]^2'
+    significado: "Métrica de Alcubierre."
+  - n: 11
+    latex: 'T_{\hat{\mu}\hat{\nu}}U^{\hat{\mu}}U^{\hat{\nu}}=-\frac{1}{32\pi}\frac{v^2(x^2+y^2)}{r^2}\left[\frac{df}{dr}\right]^2<0'
+    significado: "Densidad de energía euleriana negativa en la métrica de Alcubierre."
+  - n: 14
+    latex: 'M_{\rm warp}\approx -v^2R^2\sigma'
+    significado: "Estimación de la energía negativa total de la burbuja."
+limitaciones:
+  - "El análisis lineal solo es preciso para velocidades bajas y campos débiles."
+  - "No se trata el origen de la materia exótica ni su estabilidad."
+  - "Los problemas de causalidad y de horizontes superlumínicos se evitan, no se resuelven."
+obstaculos: [1, 3, 2, 6]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: olum-1998
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+  - paper: everett-1996
+    como: "compara"
+ideas_abiertas:
+  - "Buscar geometrías con masa de la nave y energía del campo compatibles a velocidades útiles."
+  - "Comprobar si la propulsión sin masa de reacción puede conciliarse con la conservación del momento."

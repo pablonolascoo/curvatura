@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza las condiciones de empalme de Darmois entre un interior de Alcubierre y un exterior de Minkowski. El desplazamiento debe cumplir una ecuación de Burgers no viscosa, lo que liga el warp con ondas de choque."
+tipo: teorema
+supuestos:
+  - "Hipersuperficie Σ que une el interior de Alcubierre con el exterior plano."
+  - "Gauge en que el desplazamiento no depende de y ni de z."
+  - "Primera y segunda formas fundamentales continuas en Σ (condiciones de Darmois)."
+resultados:
+  - "La primera forma fundamental exige β = 0 en Σ, un caso trivial."
+  - "La segunda forma fundamental da una ecuación de Burgers no viscosa con velocidad c(β̄) = β̄ - β̄³."
+  - "Los casos β = ±1 o ±i dejan la métrica plana o no física."
+  - "No todas las componentes de Ricci y Riemann se anulan en Σ: la geometría warp no es globalmente plana."
+ecuaciones_clave:
+  - n: 1
+    latex: '(\partial\beta/\partial y)^2+(\partial\beta/\partial z)^2=0'
+    significado: "Condición de gauge: el desplazamiento solo depende de x y t."
+  - n: 17
+    latex: 'K_{00}^-=\frac{\partial\bar\beta}{\partial t}+(\bar\beta-\bar\beta^3)\frac{\partial\bar\beta}{\partial x}=0'
+    significado: "Segunda forma fundamental: ecuación de Burgers del empalme."
+  - n: 19
+    latex: 'c(\bar\beta)=\bar\beta-\bar\beta^3'
+    significado: "Velocidad característica de la ecuación de Burgers."
+  - n: 20
+    latex: '0<|\bar\beta|<1\ \text{on}\ \Sigma'
+    significado: "Rango del desplazamiento en la hipersuperficie de empalme."
+limitaciones:
+  - "El resultado depende del gauge β(x,t), que reduce la generalidad."
+  - "No calcula densidades de energía ni condiciones de energía."
+  - "No se estudia numéricamente la formación de ondas de choque."
+obstaculos: [8, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: santospereira-2020
+    como: "extiende"
+ideas_abiertas:
+  - "Estudiar el papel de la gravedad superficial que aparece en la pared de la burbuja."
+  - "Analizar las ondas de choque de Burgers en simulaciones dinámicas de warp."

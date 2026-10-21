@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa soluciones de las ecuaciones de Einstein con la métrica de Alcubierre original y fuentes de polvo, fluido perfecto, fluido anisótropo y fluido perfecto con constante cosmológica. Conecta algunas con ondas de choque de la ecuación de Burgers."
+tipo: revision
+supuestos:
+  - "Métrica de Alcubierre original en formalismo 3+1, con lapso igual a 1 y vector de desplazamiento beta = v_s f."
+  - "Tensores energía-impulso simples: polvo, fluido perfecto y fluido anisótropo con flujo de calor."
+  - "Caso con constante cosmológica Lambda en las ecuaciones de Einstein con fluido perfecto."
+resultados:
+  - "El polvo lleva a soluciones de vacío con densidad nula, que cumplen trivialmente la condición de energía débil."
+  - "Las soluciones de vacío se rigen por la ecuación de Burgers, lo que vincula la burbuja warp con ondas de choque."
+  - "Algunas soluciones del fluido anisótropo se consideran no físicas, y en otras el vector de desplazamiento resulta complejo."
+  - "Con Lambda positiva y suficientemente grande, la densidad de energía de la burbuja podría ser positiva y no violar la condición de energía débil."
+  - "Se concluye que crear la burbuja requiere formas de materia más complejas que el polvo, con términos fuera de la diagonal en el tensor energía-impulso."
+ecuaciones_clave:
+  - n: 14
+    latex: '\frac{\partial}{\partial x}\left[\frac{\partial \beta}{\partial t} + \frac{1}{2} \frac{\partial}{\partial x}(\beta^2)\right] = - 64 \pi B'
+    significado: "Ecuación de Einstein con fuente anisótropa que relaciona el desplazamiento con la ecuación de Burgers."
+  - n: 19
+    latex: '\frac{\partial \beta}{\partial t} + \frac{1}{2}\frac{\partial}{\partial x} (\beta^2) = h(t)'
+    significado: "Ecuación de Burgers viscosa para el vector de desplazamiento."
+  - n: 25
+    latex: 'T^{\mu \nu} u_\mu u_\nu = \alpha^2 T^{00} = G^{00} = - \frac{v_s^2 \rho^2}{4 r_s^2} \left(\frac{df}{dr_s}\right)^2'
+    significado: "Densidad de energía para observadores eulerianos en la métrica original de Alcubierre, siempre no positiva."
+  - n: 28
+    latex: 'T_{\alpha \beta} \, u^\alpha u^\beta = \Lambda - \frac{1}{4} \left[\left(\frac{\partial \beta}{\partial y} \right)^2 + \left(\frac{\partial \beta}{\partial z} \right)^2\right]'
+    significado: "Densidad de energía euleriana con constante cosmológica."
+limitaciones:
+  - "Es una revisión de resultados previos de los propios autores; el análisis detallado está en sus artículos."
+  - "La cota sobre Lambda necesaria no se evalúa en términos físicos concretos en el texto disponible."
+  - "No se analiza la estabilidad de la burbuja ni la masa ADM."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: lentz-2021
+    como: "compara"
+  - paper: bobrick-martire-2021
+    como: "compara"
+ideas_abiertas:
+  - "Buscar fuentes de materia más complejas que den burbujas con densidad de energía positiva."
+  - "Aclarar la conexión entre la burbuja warp y las ondas de choque descritas por Burgers."

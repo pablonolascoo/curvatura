@@ -1,0 +1,35 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone que una civilización avanzada podría variar el radio de una dimensión extra para ajustar localmente la constante cosmológica. Crearía así una expansión y contracción del espacio alrededor de la nave, y estima la energía necesaria y un límite máximo de velocidad."
+tipo: propuesta
+supuestos:
+  - "Modelo de dimensiones extra tipo ADD, con la energía de vacío de Casimir de los gravitones como constante cosmológica."
+  - "Se supone que se puede manipular localmente el radio R de la dimensión extra; los autores no explican cómo."
+  - "Cálculos de orden de magnitud con H proporcional a 1/R^2 y a la raíz de Λ."
+resultados:
+  - "La energía de vacío escala como Λ ∝ 1/R^4 y H ∝ 1/R^2."
+  - "Para que el espacio se expanda a la velocidad de la luz, H debe aumentar un factor 10^26 y el radio extra reducirse un factor 10^13."
+  - "La constante cosmológica local tendría que multiplicarse por 10^52, hasta unos 10^42 J/m^3."
+  - "Para una nave de 1000 m^3, la energía equivale a unos 10^28 kg de antimateria, aproximadamente la masa de Júpiter."
+  - "El límite de velocidad por la longitud de Planck pediría unos 10^99 kg de antimateria."
+ecuaciones_clave:
+  - n: 17
+    latex: '\left< E_{vac} \right> =\Lambda \propto \frac{1}{R^4}'
+    significado: "La energía de vacío de Casimir actúa como constante cosmológica y depende del radio extra."
+  - n: 19
+    latex: 'H \propto \frac{1}{R^2}'
+    significado: "El ritmo de expansión depende del radio de la dimensión extra."
+  - n: 28
+    latex: 'R_c=10^{-13}R'
+    significado: "Reducción necesaria del radio extra para expansión local a la velocidad de la luz."
+  - n: 29
+    latex: '\Lambda_c=10^{52}\Lambda=10^{42}J/m^3'
+    significado: "Valor local de la constante cosmológica requerido."
+limitaciones:
+  - "Los propios autores califican los cálculos de muy aproximados."
+  - "No se explica cómo manipular localmente una dimensión extra."
+  - "No se estudia una métrica concreta ni las condiciones de energía, y la energía total es astronómica."
+obstaculos: [1, 9, 11]
+relacion: []
+ideas_abiertas:
+  - "Calcular la energía necesaria para modificar localmente una dimensión extra."
+  - "Repetir el cálculo en modelos de dimensión extra curvada, como Randall-Sundrum."

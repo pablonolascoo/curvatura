@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye haces tractores, repulsores y de tensión en relatividad general a partir del campo warp genérico de Natário. Demuestra que todos violan la condición de energía nula, y con ella las demás condiciones puntuales."
+tipo: teorema
+supuestos:
+  - "Métrica ds^2 = -dt^2 + δ_ij (dx^i - v^i dt)(dx^j - v^j dt) con campo de velocidades v^i(t,x,y,z) tipo haz."
+  - "Perfiles concretos: gaussiano y funciones de soporte compacto (bump)."
+  - "Casos especiales: Alcubierre modificado, expansión nula y vorticidad nula."
+resultados:
+  - "La densidad euleriana es ρ = (1/16π)(K^2 - tr K^2), y su integral es -(1/32π) ∫ ω·ω ≤ 0."
+  - "El flujo de momento está dado por (1/16π) rot(rot v), y la fuerza sobre el haz por integrales de G_zz."
+  - "Los haces tractores, repulsores y de tensión violan la condición de energía nula, y por tanto todas las condiciones puntuales clásicas."
+  - "Cualquier ecuación de movimiento que se reescriba como condición de convergencia produce un tensor efectivo que viola la condición de energía nula."
+ecuaciones_clave:
+  - n: 9
+    latex: 'ds^2 = - dt^2 + \delta_{ij} \; \left( dx^i - v^i(t,x,y,z)\, dt\right) \; \left( dx^j - v^j(t,x,y,z) \,dt\right)'
+    significado: "Métrica warp genérica con campo de velocidades v."
+  - n: 11
+    latex: '\rho = {G_{nn}\over 8\pi} = {1\over16\pi} \left( K^2-\operatorname{tr}(K^2) \right)'
+    significado: "Densidad de energía euleriana a partir de la curvatura extrínseca K."
+  - n: 13
+    latex: 'f_i = {G_{ni}\over 8\pi}={1\over 16\pi} \left( \operatorname{curl} (\operatorname{curl} \vec v) \right)_i'
+    significado: "Flujo de momento de la fuente."
+  - n: 17
+    latex: '\int \rho\;d^3 x = - {1\over32\pi} \int (\vec\omega \cdot \vec\omega) \;d^3 x \leq 0'
+    significado: "La energía euleriana integrada es negativa y depende de la vorticidad."
+limitaciones:
+  - "El resultado se refiere a condiciones puntuales clásicas, que los autores no consideran física fundamental."
+  - "Los perfiles gaussianos y de soporte compacto son ejemplos y no agotan todas las configuraciones."
+  - "No se estudia la realizabilidad material ni la estabilidad de los haces."
+obstaculos: [1, 13]
+relacion:
+  - paper: natario-2002
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: santiago-2022
+    como: "compara"
+ideas_abiertas:
+  - "Discutir si las condiciones de energía son diagnósticos útiles aunque no fundamentales."
+  - "Explorar fuentes materiales o de campo que den la fuerza del haz sin violar la condición de energía nula."

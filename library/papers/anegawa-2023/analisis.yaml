@@ -1,0 +1,35 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia cómo ondas de choque débiles y tempranas modifican la complejidad holográfica de de Sitter. Halla que el tiempo crítico de divergencia siempre aumenta si la onda cumple la condición de energía nula promediada."
+tipo: solucion
+supuestos:
+  - "Espaciotiempo BTZ y de Sitter de tres dimensiones, con ondas de choque descritas por un tensor de energía-momento proporcional a una delta."
+  - "Perturbación pequeña y temprana, en un límite de doble escala (t_w grande, E/M pequeño, producto fijo)."
+  - "Complejidad holográfica definida como volumen y evaluada en el parche de Wheeler-DeWitt anclado en el horizonte estirado."
+  - "Para dos ondas de choque, solución perturbativa a primer orden en la intensidad y condición de Dray-'t Hooft-Redmount en la intersección."
+resultados:
+  - "En BTZ la onda de choque produce un retardo temporal constante alpha > 0 en el horizonte."
+  - "En de Sitter el desplazamiento es el opuesto (avance temporal beta), aunque causalmente consistente: la onda encoge el universo y conecta los parches izquierdo y derecho."
+  - "La condición de energía nula promediada exige alpha > 0 y beta > 0, y en de Sitter implica que la masa disminuye tras la onda."
+  - "El tiempo crítico en que diverge la complejidad de de Sitter es siempre mayor con ondas de choque, es decir, el crecimiento hiperrápido se retrasa."
+ecuaciones_clave:
+  - n: 11
+    latex: 'T_{VV}=\frac{\alpha}{4 \pi G_N}\delta(V)'
+    significado: "Tensor de energía-momento de la onda de choque en el horizonte de BTZ, con alpha positivo por la condición de energía nula promediada."
+  - n: 44
+    latex: 'T_{UU}=\frac{\beta}{4\pi G_N }\delta(U)'
+    significado: "Onda de choque en el horizonte cosmológico de de Sitter."
+  - n: 45
+    latex: 'ds^2=\frac{-4\ell^2 dUdV}{(1-UV)^2}-4 \ell^2\beta  \delta(U)dU^2+L^2 \left( \frac{1+UV}{1-UV} \right)^2 d\phi^2'
+    significado: "Métrica de de Sitter con la onda de choque, con desplazamiento de signo opuesto al de BTZ."
+  - n: 28
+    latex: '(r_c^2-8G_N \ell^2 M_t)(r_c^2-8G_N \ell^2 (M - E)) =(r_c^2-8G_N \ell^2 M)^2'
+    significado: "Condición de Dray-'t Hooft-Redmount en la intersección de dos ondas de choque."
+limitaciones:
+  - "Trabajo de holografía y complejidad, sin relación directa con motores de curvatura; solo la condición de energía nula promediada conecta con el tema."
+  - "Resultados en tres dimensiones y para perturbaciones pequeñas; las dobles ondas solo a primer orden."
+  - "La conexión con propulsión warp no se discute en el texto."
+obstaculos: [1]
+relacion: []
+ideas_abiertas:
+  - "Extender el análisis a dimensiones superiores y a perturbaciones grandes."
+  - "Estudiar si el retraso del crecimiento hiperrápido se mantiene con otras definiciones de complejidad."

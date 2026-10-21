@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia los warp drives de Alcubierre y de Van Den Broeck en la teoría de Einstein-Cartan. Muestra que el espín, mediante la torsión, permite cumplir las condiciones de energía débil y nula."
+tipo: solucion
+supuestos:
+  - "Teoría de Einstein-Cartan (variedad U4 de Riemann-Cartan) con un fluido de Weyssenhoff como fuente de espín."
+  - "Velocidad de la nave constante en los cálculos explícitos."
+  - "La nave está en una región prácticamente vacía, así que la torsión no altera su trayectoria geodésica."
+  - "Estructura auxiliar de la materia que hace el tensor energía-impulso compatible algebraicamente con la métrica warp."
+resultados:
+  - "Con espín como fuente, la materia que sostiene la burbuja puede respetar la condición de energía débil y, por tanto, la nula."
+  - "Se derivan límites que minimizan el espín necesario, buscando el peor caso sobre observadores con impulso (boost) longitudinal."
+  - "Para parámetros razonables (por ejemplo P = 3 fm, sigma = 8 fm^-1) hacen falta densidades de momento angular de espín muy grandes por metro cúbico."
+  - "El warp de Van Den Broeck exige una densidad de espín mucho mayor, aunque repartida en una región mucho menor."
+ecuaciones_clave:
+  - n: 12
+    latex: 'G^{\mu\nu}\left(\{\}\right)-\kappa^{2}s^2\left(-2u^{\mu}u^{\nu}-g^{\mu\nu}\right)=\kappa\mathcal{T}^{\mu\nu}'
+    significado: "Ecuaciones de campo con fluido de Weyssenhoff: el espín añade un término cuadrático efectivo."
+  - n: 14
+    latex: 'ds^{2}=-dt^{2}+\left[dz-v_{s}(t)f(x,y,z-z_{s}(t))dt\right]^{2}+dx^{2}+dy^{2}'
+    significado: "Métrica de Alcubierre."
+  - n: 17
+    latex: 'G_{\mu\nu}u^{\mu}u^{\nu}=\kappa\mathcal{T}_{\mu\nu}u^{\mu}u^{\nu}=-\frac{v_{s}^{2}}{4}\left[(\partial_{x}f)^{2}+(\partial_{y}f)^{2}\right]'
+    significado: "Densidad de energía negativa para observadores eulerianos en relatividad general."
+  - n: 37
+    latex: 'ds^{2}=-dt^{2}+B^{2}(r_{s})\left[\left(dz-v_{s}f\,dt\right)^{2}+dx^{2}+dy^{2}\right]'
+    significado: "Métrica de Van Den Broeck."
+limitaciones:
+  - "Las densidades de espín necesarias son enormes y no se propone cómo lograrlas."
+  - "Se supone velocidad constante; el caso con aceleración solo se razona por un lema."
+  - "Requiere una materia auxiliar con estructura específica sin modelo microscópico."
+obstaculos: [1, 7, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: broeck-1999
+    como: "aplica"
+ideas_abiertas:
+  - "Buscar sistemas físicos con espín alineado a gran densidad que realicen el fluido de Weyssenhoff requerido."
+  - "Extender el análisis a otras geometrías warp y a otras condiciones de energía."

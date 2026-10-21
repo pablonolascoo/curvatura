@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Da una prueba independiente, con la ecuación de Raychaudhuri y sin teoría de Morse, de que el resultado de Gao y Wald sobre viajes aparentemente superlumínicos vale en gravedades generales, salvo que exista una línea nula. Es el enunciado no publicado de Galloway."
+tipo: teorema
+supuestos:
+  - "Espaciotiempo sin geodésicas nulas inextensibles con imagen acrónica (sin línea nula)."
+  - "Teoría de gravedad y materia arbitrarias, no solo relatividad general con condiciones nula y genérica nula."
+  - "Argumento de continuidad sobre puntos conjugados de geodésicas nulas."
+resultados:
+  - "Se prueba un lema de continuidad válido sin depender del modelo de gravedad ni de la materia."
+  - "El lema extiende el enunciado de Gao-Wald: sin línea nula, no hay ganancia de tiempo aparente."
+  - "Teorema 1: sin línea nula y con superficie de Cauchy compacta, no hay horizontes de partículas."
+  - "Se discuten consecuencias para problemas de causalidad."
+ecuaciones_clave:
+  - n: 8
+    latex: '\frac{d^2G_{\gamma}}{d\lambda^2}=-\frac{1}{2}\left[\sigma_{\mu\nu}\sigma^{\mu\nu}+R_{\mu\nu}k^\mu k^\nu\right]G_{\gamma}'
+    significado: "Ecuación para el determinante de Jacobi G a lo largo de la geodésica nula."
+  - n: 13
+    latex: '\frac{d\theta_\gamma}{d\lambda}+\frac{\theta_\gamma^2}{2}=-\sigma_{\mu\nu}\sigma^{\mu\nu}-R_{\mu\nu}k^\mu k^\nu'
+    significado: "Ecuación de Raychaudhuri para geodésicas nulas."
+  - n: 4
+    latex: '\det\left(A_\mu^\nu(\lambda_0)\right)=0'
+    significado: "Condición de punto conjugado."
+limitaciones:
+  - "No se calculan cifras de ninguna burbuja concreta."
+  - "La generalización completa se apoya en un argumento cualitativo de continuidad."
+  - "El resultado se aplica solo a espaciotiempos sin línea nula."
+obstaculos: [1, 4, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: olum-1998
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+ideas_abiertas:
+  - "Probar el lema de continuidad para gravedades generales con teoría de Morse."
+  - "Aplicar el resultado a la existencia de curvas temporales cerradas."

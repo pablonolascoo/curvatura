@@ -1,0 +1,28 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Libro blanco divulgativo, con tono humorístico, que explica la geometría TARDIS de los autores, una burbuja de curvatura que recorre una curva cerrada en el espacio-tiempo. Repasa antes la burbuja de Alcubierre, el agujero de gusano de Morris-Thorne y el cilindro de Tipler."
+tipo: revision
+supuestos:
+  - "Lector sin formación técnica en relatividad general."
+  - "La TARDIS es una burbuja con interior y exterior de vacío plano, separados por una cáscara de curvatura."
+  - "Los sucesos dentro de la burbuja deben cumplir la autoconsistencia de Novikov."
+resultados:
+  - "Una sucesión de burbujas de Alcubierre puede, en principio, llevar a un viajero al pasado."
+  - "La métrica de Alcubierre exige materia que viola las condiciones de energía clásicas."
+  - "La TARDIS lleva a un viajero por un círculo cerrado en el espacio-tiempo, con aceleración constante para quien va dentro."
+  - "Desde fuera se ven dos burbujas que aparecen juntas, se separan a velocidad superlumínica, frenan, se acercan y se aniquilan; una evoluciona hacia el futuro y otra hacia el pasado."
+  - "Cortar y pegar segmentos de TARDIS permite unir dos puntos arbitrarios del espacio-tiempo, y una media TARDIS llevaría a un universo de antimateria."
+ecuaciones_clave: []
+limitaciones:
+  - "Es un texto divulgativo sin demostraciones; remite al artículo original para los detalles de la métrica."
+  - "La TARDIS exige materia exótica que viola las condiciones de energía clásicas."
+  - "No se estiman energías ni se discute la estabilidad de la burbuja."
+  - "Los peligros de salir por el lado equivocado se mencionan, pero no se cuantifican."
+obstaculos: [1, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: everett-1996
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar con las desigualdades cuánticas si una TARDIS podría sostenerse físicamente."
+  - "Analizar el control causal de una burbuja que recorre una curva cerrada."

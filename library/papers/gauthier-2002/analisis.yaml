@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, obtiene nuevas cotas inferiores para la energía de un warp drive."
+tipo: cota
+supuestos:
+  - "No se pueden determinar: solo se dispone del título."
+resultados:
+  - "No se pueden determinar: no hay resumen ni texto disponible."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
+  - "Todo el contenido debe verificarse con el paper original."
+obstaculos: [1, 3]
+relacion: []
+ideas_abiertas:
+  - "Completar la ficha cuando se disponga del resumen o del texto completo."

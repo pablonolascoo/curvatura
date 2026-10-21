@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone introducir una función de lapso arbitraria A(ct,ρ) en la métrica de Alcubierre. Afirma que así se reduce tanto como se quiera la energía negativa total y revisa las desigualdades cuánticas con ese lapso."
+tipo: propuesta
+supuestos:
+  - "Métrica de Alcubierre modificada con un lapso A(ct,ρ) en g_00, con g_00 = A^2 - [v_s g(ρ)]^2."
+  - "Desigualdades cuánticas de tipo Ford-Roman con función de muestreo lorentziana, adaptadas al lapso."
+  - "El lapso es un recurso matemático; los autores admiten que no conocen un mecanismo en cuatro dimensiones para fijar N>1."
+resultados:
+  - "La energía total E = -(v_s^2 c^4/12G) ∫ ρ^2 (dg/dρ)^2 A^-4 dρ decrece al aumentar A."
+  - "Una cota sobre el grosor de la pared: Δ ≤ 10^2 (v/c) l_Pl A_0, según el análisis con desigualdades cuánticas."
+  - "Las desigualdades cuánticas son poco adecuadas en espacio curvo, aunque modificarlas reduce también las restricciones."
+  - "Propone un truco matemático, con N=2 y un espaciotiempo AdS de cinco dimensiones, para mantener la burbuja en régimen superlumínico."
+ecuaciones_clave:
+  - n: 7
+    latex: 'g_{00}={A(\rho)^2-[v_s(r)\;g(\rho)]^2}, \quad g_{01}=g_{10}=-v_s\;g(\rho), \quad g_{11}=g_{22}=g_{33}=-1'
+    significado: "Métrica con lapso arbitrario A añadido a la de Alcubierre."
+  - n: 12
+    latex: 'T^{00}=-{v_s\over 4}{c^4\over 8\pi G}\left({dg\over d\rho}\right)^2{\{\sin(\theta)\}^2\over \{(A(ct,\rho)\}^4}'
+    significado: "Densidad de energía, reducida por el factor A^-4."
+  - n: 36
+    latex: 'E=-v_s^2{c^4\over 12G}\int_0^\infty\rho^2\left({dg\over d\rho}\right)^2\left(\frac{1}{A^4}\right)d\rho'
+    significado: "Energía total negativa de la burbuja con lapso."
+  - n: 32
+    latex: '\Delta\leq 10^2(v/c)l_{Pl}A_0'
+    significado: "Cota al grosor de la pared por las desigualdades cuánticas."
+limitaciones:
+  - "No se ofrece un mecanismo físico que fije el lapso A; los autores lo califican de recurso matemático."
+  - "Sigue violándose la condición de energía nula."
+  - "El tratamiento de las desigualdades cuánticas en espacio curvo es aproximado."
+obstaculos: [1, 3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: olum-1998
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: hiscock-1997
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+ideas_abiertas:
+  - "Identificar un mecanismo físico en cuatro dimensiones que produzca un lapso mayor que 1."
+  - "Explorar correcciones poscondicionadas de la relatividad general en las que una burbuja sea más plausible."

@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, es un libro divulgativo en alemán sobre el warp drive, que se describe como surfear las ondas del espacio-tiempo."
+tipo: revision
+supuestos:
+  - "Según el título, los autores son Tajmar y Zitt y el tema es el warp drive."
+resultados:
+  - "No se pueden extraer resultados: el contexto solo trae el título y los autores."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; el texto no estaba disponible."
+  - "Libro de Springer, no un artículo con resultados originales verificables aquí."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Consultar el libro para ver qué tratamiento da al warp drive."

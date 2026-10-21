@@ -1,0 +1,47 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Clasifica las métricas warp actuales en el formalismo 3+1 y revisa críticamente la literatura. Señala errores de aplicación de la relatividad general y prueba varios teoremas de imposibilidad nuevos."
+tipo: critica
+supuestos:
+  - "Topología trivial R^4 y descomposición 3+1 con lapso N, desplazamiento y métrica espacial h."
+  - "Burbuja warp definida por un campo vectorial W, en línea con Natário, y espaciotiempo asintóticamente plano."
+  - "Materia descrita como fluido con cuadrivelocidad u, con ecuaciones de conservación de energía, momento y masa en reposo."
+resultados:
+  - "Los modelos se agrupan en tipos con restricciones distintas: ortogonales al flujo (S-Warp) y restringidos (R-Warp), con casos de expansión nula, sin vorticidad o sin cizalla."
+  - "Rechaza la hiperbolicidad global que Alcubierre atribuyó a toda métrica ADM con h definida positiva; hacen falta hipótesis adicionales."
+  - "La energía total ingenua de los modelos R-Warp es ambigua, y la energía ADM sale nula aplicando bien la definición."
+  - "Detecta errores en Lentz, Bobrick y Martire, Fell y Heisenberg, y Fuchs y otros, entre ellos soluciones que no resuelven las ecuaciones de Einstein."
+  - "Concluye que justificar una burbuja física es muy difícil, no solo por la violación de las condiciones de energía."
+ecuaciones_clave:
+  - n: 8
+    latex: 'ds^2 = - \left( N^2 - N^k N_k \right) dt^2 + 2 N_i \, dx^i \, dt + h_{ij} \, dx^i dx^j'
+    significado: "Métrica en forma ADM 3+1, base de toda la clasificación."
+  - n: 13
+    latex: '\bm v = \frac{1}{N} \left( \bm N + \bm V \right)'
+    significado: "Velocidad del fluido medida por el observador euleriano en función de desplazamiento y velocidad de coordenadas."
+  - n: 28
+    latex: 'T_{\mu\nu} = E \, n_\mu n_\nu + 2 \, J_{(\mu} n_{\nu)} + S_{\mu\nu}'
+    significado: "Descomposición euleriana del tensor energía-impulso en densidad de energía E, flujo J y tensiones S."
+  - n: 34
+    latex: '\dot\epsilon + \theta \left( \epsilon + p \right) + a_\alpha q^\alpha + \nabla_\alpha q^\alpha + \pi^{\alpha\beta} \sigma_{\alpha\beta} = 0'
+    significado: "Conservación de la energía en el sistema en reposo del fluido, con expansión, aceleración y cizalla."
+limitaciones:
+  - "Es una revisión crítica: no propone un motor warp viable."
+  - "Muchos resultados dependen de hipótesis como la planitud asintótica y la hiperbolicidad global."
+  - "Las críticas a otros autores deberían contrastarse con sus trabajos originales."
+obstaculos: [1, 4, 6, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "corrige"
+  - paper: natario-2002
+    como: "compara"
+  - paper: lentz-2021
+    como: "critica"
+  - paper: bobrick-martire-2021
+    como: "critica"
+  - paper: fuchs-2024
+    como: "critica"
+  - paper: visser-2021
+    como: "extiende"
+ideas_abiertas:
+  - "Probar la hiperbolicidad global y la planitud asintótica en cada modelo concreto antes de afirmar propiedades físicas."
+  - "Reformular el mecanismo de la burbuja de forma matemática, ya que la expansión puede ser nula."

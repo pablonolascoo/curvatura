@@ -1,0 +1,19 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Simplifica el espacio-tiempo warp para hacerlo estacionario y con distorsión unidimensional estática, y estudia en él la propagación de fotones con la acción de Drummond y Hathrell."
+tipo: simulacion
+supuestos:
+  - "Espacio-tiempo warp estacionario con distorsión unidimensional y estática."
+  - "Campo de fotones sobre ese fondo, con la acción de Drummond y Hathrell que incluye acoplamiento a la curvatura."
+resultados:
+  - "Analiza los efectos de la velocidad sobre la propagación de los fotones en ese fondo."
+  - "Discute las limitaciones del modelo simplificado."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el resumen."
+  - "El modelo estacionario simplificado no equivale a una burbuja warp dinámica."
+obstaculos: [5]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Contrastar los resultados con el texto completo del paper."

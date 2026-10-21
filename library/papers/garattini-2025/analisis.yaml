@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Inserta una burbuja warp en un universo de de Sitter, generalizando la idea de Ellis de incrustarla en un fondo de agujero negro. Muestra que si la burbuja se mueve radialmente a la velocidad de la expansión, su densidad de energía es no negativa."
+tipo: solucion
+supuestos:
+  - "Métrica de la clase Natário (lapso 1 y 3-métrica plana) y procedimiento de incrustación de Ellis cambiando el vector de desplazamiento."
+  - "De Sitter escrito en coordenadas de Painlevé-Gullstrand, con desplazamiento N^i = -(r/L) x^i/r y L = 1/H."
+  - "Burbuja que se mueve radialmente a velocidad v = r_0/L, es decir, la de la expansión."
+  - "Desplazamiento irrotacional (gradiente de una función) y que no decae en el infinito."
+resultados:
+  - "La densidad de energía euleriana es positiva definida y se escribe como la densidad de vacío de de Sitter más una divergencia total que promedia cero."
+  - "Las condiciones de energía débil y nula se cumplen salvo términos de divergencia que promedian cero; la nula queda saturada en ese límite."
+  - "La burbuja es una redistribución de la energía del vacío: una zona con densidad cero rodeada de una cáscara con exceso."
+  - "Para mantener la condición la burbuja debe acelerar, con r(t) = r_i e^{Ht}."
+  - "Solo puede moverse en dirección radial, de modo que elegir rumbo exige partir del centro del universo; la utilidad para viajar es muy limitada."
+ecuaciones_clave:
+  - n: 6
+    latex: '\rho = \frac{1}{16\pi G}\left(\partial_i(N_i\partial_jN_j-N_j\partial_jN_i)-\frac{1}{4}(\partial_iN_j-\partial_jN_i)^2\right)'
+    significado: "Densidad de energía euleriana de una métrica de tipo Natário."
+  - n: 15
+    latex: 'N^i = -\frac{r}{L}\frac{x^i}{r}'
+    significado: "Desplazamiento de de Sitter en coordenadas de Painlevé-Gullstrand."
+  - n: 20
+    latex: '\rho = (1-f)^2\frac{3}{8\pi GL^2}-\frac{r_sf^{\prime}(1-f)}{4\pi GL^2}'
+    significado: "Densidad de energía de la burbuja cuando v = r_0/L, sin el término negativo."
+  - n: 34
+    latex: '\rho+\beta^2T_{ij}n^in^j = \left(1-\beta^2\right)\frac{3}{8\pi GL^2}+\nabla_\mu V^\mu+\beta^2n^in^j\nabla_\mu Y^\mu_{ij}'
+    significado: "Condición de energía débil para un observador con velocidad beta, positiva salvo divergencias."
+limitaciones:
+  - "La burbuja solo se mueve en la dirección radial, a la velocidad exacta de la expansión."
+  - "Solo recorre distancias mucho menores que su distancia inicial al centro del universo."
+  - "Las condiciones de energía se satisfacen solo salvo términos de divergencia total cuya media es cero."
+  - "No se discute cómo se formaría la inhomogeneidad de energía de vacío."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "aplica"
+  - paper: lentz-2021
+    como: "compara"
+ideas_abiertas:
+  - "Aplicar el resultado a modelos de energía oscura como fluido oscuro o quintaesencia."
+  - "Realizar el análogo en cavidades Casimir y en sistemas de gravedad análoga."

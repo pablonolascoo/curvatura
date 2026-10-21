@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia el oscilador armónico en un espacio pseudoeuclídeo, donde las componentes de signatura negativa dan energía negativa estable. Con campos escalares de signatura (+...-...) la energía del vacío y la constante cosmológica se anulan, y aparece materia exótica estable."
+tipo: propuesta
+supuestos:
+  - "Métrica del espacio de campos con igual número de signaturas positivas y negativas."
+  - "Estado de vacío definido por la aniquilación c_x|0> = 0 y c_y|0> = 0, sin exigir energía positiva."
+  - "La energía negativa se acopla a la gravedad con signo contrario al de la materia ordinaria."
+resultados:
+  - "El oscilador pseudoeuclídeo (+ -) puede tener energía negativa pero es estable, pues la partícula describe una curva cerrada alrededor del origen."
+  - "La energía de punto cero de la componente positiva cancela la de la negativa: el vacío tiene energía cero."
+  - "Para un sistema de campos escalares con métrica de signatura (+ + + ... - - -) la densidad de energía del vacío y la constante cosmológica son exactamente cero."
+  - "La teoría predice excitaciones estables de energía negativa (materia exótica), fuentes de campos gravitatorios repulsivos."
+  - "Esa materia sería necesaria para máquinas del tiempo y para el warp drive de Alcubierre."
+ecuaciones_clave:
+  - n: 1
+    latex: 'L = \frac{1}{2}(\dot x^2 - \dot y^2) - \frac{\omega^2}{2}(x^2 - y^2)'
+    significado: "Lagrangiano del oscilador bidimensional pseudoeuclídeo."
+  - n: 12
+    latex: 'H = \omega (c_x^{\dagger} c_x - c_y^{\dagger} c_y)'
+    significado: "Hamiltoniano ordenado normalmente, con energía de punto cero nula."
+  - n: 14
+    latex: 'E = \omega (n_x - n_y)'
+    significado: "Espectro de energías: puede ser positivo o negativo."
+  - n: 24
+    latex: 'H = \omega \left( a^{\mu \dagger} a_{\mu} + \frac{d}{2} \right), \quad d = \eta^{\mu \nu} \eta_{\mu \nu}'
+    significado: "Caso general con métrica arbitraria: la energía de punto cero es proporcional a la traza d, que se anula si hay igual número de signos."
+limitaciones:
+  - "El papel del warp y de las máquinas del tiempo solo se menciona como motivación, sin construir geometría."
+  - "La materia de energía negativa se acopla a la gravedad con signo invertido; es una hipótesis que el texto propone contrastar experimentalmente."
+  - "Planteamiento formal de teoría cuántica de campos, sin estimación de magnitudes."
+obstaculos: [1, 3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Diseñar experimentos que contrasten el acoplamiento gravitatorio invertido de la materia de energía negativa."
+  - "Extender el esquema a campos espinoriales y de Maxwell, como se esboza en el texto."

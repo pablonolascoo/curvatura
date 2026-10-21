@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone simular con una matriz de SQUID en una línea de transmisión superconductora cortes 1+1 de espacio-tiempos exóticos: warp de Alcubierre, Gödel y Kerr extremo. El flujo magnético imita el perfil de la velocidad de la luz."
+tipo: propuesta
+supuestos:
+  - "Métrica reducida 1+1 de la forma ds² = -c(r,t)² dt² + dr², donde solo importa el perfil de la velocidad de la luz."
+  - "Flujos magnéticos DC y AC sobre la matriz de SQUID controlan la velocidad efectiva de propagación."
+  - "Para el warp se simula un espacio-tiempo 'tipo Alcubierre' con el mismo perfil de velocidad de la luz, no la métrica exacta."
+resultados:
+  - "El flujo DC reduce la velocidad de fondo y el flujo AC, localizado en una región móvil, simula la burbuja y su superluminalidad respecto a esa velocidad de fondo."
+  - "La velocidad de la luz en el warp es c_s = c + v_s, así que c_s > v_s siempre."
+  - "Las restricciones matemáticas y técnicas limitan la velocidad máxima simulable del warp y el tamaño del universo de Gödel."
+  - "En Kerr extremo con θ = 0, el flujo debe valer φ/φ0 = π/2 cerca del horizonte, lo que haría crecer demasiado la impedancia."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-c^2(r,t)dt^2+dr^2'
+    significado: "Corte 1+1 del espacio-tiempo, determinado por el perfil de la velocidad de la luz."
+  - n: 4
+    latex: 'c^2(\phi_{ext})=c_0^2|\cos\frac{\pi\phi_{ext}}{\phi_0}|'
+    significado: "Velocidad efectiva de propagación en la matriz de SQUID en función del flujo externo."
+  - n: 20
+    latex: 'c_s= c+v_s'
+    significado: "Velocidad local de la luz dentro de la burbuja de Alcubierre."
+  - n: 21
+    latex: '\widetilde{c}^2(r,t)=\left(1+\frac{v_s}{c}\right)^2'
+    significado: "Perfil de velocidad de la luz normalizado que el flujo debe reproducir en el warp."
+limitaciones:
+  - "Solo simula la propagación de la luz en una dimensión; no reproduce la dinámica gravitatoria ni la energía negativa."
+  - "Los flujos permitidos están acotados (el argumento del arcocoseno debe estar en [-1, 1]), lo que limita v_s."
+  - "Es una propuesta teórica, sin experimento realizado."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Realizar el experimento con circuitos superconductores y medir la propagación."
+  - "Buscar la región óptima de parámetros que permita velocidades de burbuja mayores."

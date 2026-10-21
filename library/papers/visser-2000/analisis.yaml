@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Muestra que campos escalares clásicos, de apariencia inofensiva, violan las condiciones de energía SEC, NEC y ANEC. Abre la puerta a wormholes, warp drives y máquinas del tiempo."
+tipo: revision
+supuestos:
+  - "Campo escalar con acoplamiento no mínimo ξ al escalar de Ricci y potencial V(φ), acoplado a la gravedad."
+  - "Se reescribe el tensor de energía-momento efectivo mediante una transformación conforme de las ecuaciones de Einstein."
+  - "Las condiciones de energía se evalúan con vectores temporales y nulos genéricos."
+resultados:
+  - "El ANEC, la más débil de las condiciones en uso, puede violarse con campos escalares clásicos, lo que anula los teoremas de singularidades, masa positiva y censura."
+  - "La condición para violar la energía depende del valor del campo respecto a la escala de Planck: se requiere φ² > κ/(ξ(1-4ξ)), por ejemplo φ² > 16κ para el valor conforme."
+  - "Existe una familia de tres parámetros de soluciones exactas de Einstein con campo escalar conforme; un subespacio de dos dimensiones son wormholes transitables."
+  - "Se citan dos salidas: aprender a vivir con la violación de las condiciones de energía o corregir la teoría."
+ecuaciones_clave:
+  - n: 8
+    latex: '\kappa \; G_{ab} = T^\phi_{ab} + f(\phi) \; T^{\mathrm{matter}}_{ab}'
+    significado: "Ecuaciones de Einstein con el campo escalar y la materia ordinaria acoplada."
+  - n: 15
+    latex: 'G^{\mathrm{eff}}_{\mathrm{Newton}}(\phi) = G_{\mathrm{Newton}}  \; f(\phi)\; {\kappa \over\kappa-\xi\phi^2}'
+    significado: "Constante gravitatoria efectiva dependiente del campo escalar."
+  - n: 23
+    latex: '{T}_{ab} \; k^a \;  k^b \geq 0'
+    significado: "Condición de energía nula."
+  - n: 32
+    latex: '\xi(1-4\xi)\; \phi^2 > \kappa'
+    significado: "Condición sobre el valor del campo para que se viole la condición de energía."
+limitaciones:
+  - "El texto es una revisión breve; el warp drive se menciona solo como consecuencia de violar condiciones de energía."
+  - "Se simplifica a acoplamiento conforme y potencial nulo por sencillez algebraica."
+  - "La conclusión de que existen campos super-Planckianos en el wormhole no se traduce a energía concreta para un warp."
+obstaculos: [1, 3, 7]
+relacion: []
+ideas_abiertas:
+  - "Buscar soluciones de wormhole con acoplamientos más generales y sin simetría esférica."
+  - "Decidir si hay que corregir las condiciones de energía o aceptar su violación."

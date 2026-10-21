@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Integra numéricamente las geodésicas nulas en la métrica de Alcubierre para obtener la aberración y el corrimiento al rojo que vería un observador en el centro de la burbuja. Encuentra estructuras tipo horizonte cuando la velocidad warp supera c."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre con perfil f(r) tipo tanh y velocidad warp constante v."
+  - "Fotones sin interacción, observador en reposo en el centro de la burbuja."
+  - "Integración numérica de las ecuaciones geodésicas nulas en el plano x-y."
+resultados:
+  - "Para v > 1, las estrellas del hemisferio delantero aparecen más cerca de la dirección de movimiento, como en la aberración relativista."
+  - "Detrás de la nave se forma una región cónica de la que ninguna señal llega a la nave, un horizonte efectivo."
+  - "Delante hay otra región cónica a la que la nave no puede enviar señales."
+  - "El horizonte trasero aparece a v = 1 y su semiángulo crece hacia 90 grados cuando v diverge."
+  - "Para fotones en el eje, el cociente de energías es E0/E∞ = 1 ± v."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^{2} = -dt^{2} + \left( dx - v_{s} f(r_{s})\, dt \right)^{2} + dy^{2} + dz^{2}'
+    significado: "Métrica de Alcubierre."
+  - n: 3
+    latex: 'f(r) = \frac{\tanh[\sigma(r + R)] - \tanh[\sigma(r - R)]}{2\tanh[\sigma R]}'
+    significado: "Función de forma de la burbuja con radio R y grosor de pared 1/σ."
+  - n: 18
+    latex: '\tan(\theta_{0}) = \frac{p^{y}}{p^{x}-v\,p^{t}}'
+    significado: "Ángulo aparente del fotón para el observador del centro."
+  - n: 26
+    latex: '\frac{E_{0}}{E_{\infty}} = 1 \pm v'
+    significado: "Corrimiento de energía de fotones en el eje."
+limitaciones:
+  - "Solo se estudia propagación clásica de fotones, sin materia ni campos cuánticos."
+  - "La conclusión sobre divergencia de energía del vacío en 4D es una expectativa, no un cálculo."
+  - "No se analiza cómo ve la burbuja un observador lejano."
+obstaculos: [4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: hiscock-1997
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+  - paper: vandenbroeck-1999
+    como: "compara"
+ideas_abiertas:
+  - "Calcular el tensor de energía-momento del vacío cuántico en 4D para estos horizontes."
+  - "Estudiar la imagen que ve un observador lejano al paso de la burbuja."

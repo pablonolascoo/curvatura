@@ -1,0 +1,30 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa las objeciones a la geometría de Alcubierre y concluye que las burbujas superlumínicas son poco plausibles, mientras que las subluminales siguen abiertas."
+tipo: revision
+supuestos:
+  - "Métrica de Alcubierre con función de forma f de soporte compacto."
+  - "Validez de las desigualdades cuánticas de Ford y Roman para campos escalares y electromagnéticos."
+  - "Relatividad general más teoría cuántica de campos en espacio-tiempo curvo."
+resultados:
+  - "Con la desigualdad cuántica, una burbuja de 100 m de radio requiere al menos 6.2e62 v_s kg de energía negativa, unos diez órdenes de magnitud por encima de la masa del universo visible."
+  - "Con una métrica modificada (factor de expansión espacial B), la energía total baja a escala estelar y se respeta la desigualdad cuántica."
+  - "Aun así, las densidades de energía siguen siendo enormes y aparecen estructuras a pocos órdenes de magnitud de la escala de Planck."
+  - "En el caso superlumínico, parte de la materia exótica se mueve de forma taquiónica respecto al cono de luz local."
+ecuaciones_clave: []
+limitaciones:
+  - "El argumento taquiónico y la singularidad desnuda se citan como trabajo no publicado."
+  - "La divergencia de fluctuaciones de Hiscock se calculó solo en 1+1 dimensiones."
+  - "Las ecuaciones numeradas no se extrajeron del texto."
+obstaculos: [1, 3, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "critica"
+  - paper: pfenning-ford-1997
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+ideas_abiertas:
+  - "Construir un espacio-tiempo parecido a la burbuja subluminal sin densidades de energía negativas."
+  - "Obtener parte de la energía negativa de las fluctuaciones del vacío inducidas por la propia curvatura."

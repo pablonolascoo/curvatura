@@ -1,0 +1,30 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone que una civilización con motores warp de energía positiva, subluminales o superlumínicos, emitiría tecnofirmas detectables. Plantea un programa de simulación para buscarlas en señales electromagnéticas, de partículas y gravitacionales."
+tipo: propuesta
+supuestos:
+  - "Los motores warp de energía positiva son más viables de lo que se pensaba, con fuentes basadas en física clásica conocida."
+  - "Una civilización interplanetaria o interestelar los usaría y sus viajes generarían emisiones por procesos intrínsecos y extrínsecos."
+resultados:
+  - "Se argumenta que habría emisiones en tres tipos de mensajeros: electromagnético, partículas y ondas gravitacionales."
+  - "Se propone un programa de simulación con detalle suficiente para buscar esas firmas con análisis coordinados en varios observatorios."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el resumen y la lista de referencias; el texto del cuerpo no estaba disponible."
+  - "No constan cifras de luminosidad ni umbrales de detección en el contexto."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+  - paper: hiscock-1997
+    como: "compara"
+  - paper: everett-1996
+    como: "compara"
+  - paper: finazzi-2009
+    como: "compara"
+ideas_abiertas:
+  - "Simular las emisiones de una burbuja warp en cada mensajero."
+  - "Coordinar búsquedas entre observatorios electromagnéticos, de partículas y de ondas gravitacionales."

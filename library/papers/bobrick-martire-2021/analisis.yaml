@@ -1,0 +1,47 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Define una clase general de espaciotiempos warp como cáscaras de materia que se mueven inercialmente y construye la primera familia subluminal esférica de energía positiva, además de optimizaciones de la métrica de Alcubierre."
+tipo: solucion
+supuestos:
+  - "Un warp drive es una región exterior plana asintóticamente que encierra una región compacta con la curvatura (la cáscara) y un interior de pasajeros."
+  - "Las soluciones subluminales esféricas se analizan en el sistema comóvil con la métrica de la ecuación (5) y materia con densidad y presión."
+  - "Las soluciones superluminales no pueden ser esféricas, por lo que se tratan con simetría axial."
+  - "Las densidades de energía se miden con observadores eulerianos."
+resultados:
+  - "Cualquier warp drive, incluido el de Alcubierre, es una cáscara de material normal o exótico que se mueve inercialmente, así que requiere propulsión."
+  - "Se presenta el primer modelo general de warp drives subluminales esféricos con energía positiva."
+  - "Se construyen soluciones superluminales que satisfacen las desigualdades cuánticas."
+  - "Aplanar la métrica de Alcubierre reduce la energía negativa necesaria en dos órdenes de magnitud."
+  - "Se introduce un espaciotiempo warp en el que la capacidad espacial y el ritmo del tiempo interior se eligen de forma controlada."
+ecuaciones_clave:
+  - n: 3
+    latex: 'T^{00}=-\frac{1}{8\pi}\frac{\rho^2 v_s^2}{4r_s^2}\left(\frac{{\rm d} f}{{\rm d} r_s}\right)^2'
+    significado: "Densidad de energía euleriana de la métrica de Alcubierre, siempre negativa."
+  - n: 4
+    latex: '\frac{\tau_0}{\pi}\int_{-\infty}^{\infty}\frac{\langle T_{\mu\nu}u^\mu u^\nu\rangle}{\tau^2+\tau_0^2}{\rm d}\tau\ge -\frac{3}{32\pi^2\tau_0^4}'
+    significado: "Desigualdad cuántica de Ford y Roman usada como criterio para las soluciones superluminales."
+  - n: 6
+    latex: 'w(r)=\frac{1}{8\pi r^2}\left(1-\left(\frac{r}{\Lambda(r)}\right)^\prime\right)'
+    significado: "Densidad de energía de la solución esférica en función de la función métrica Lambda."
+  - n: 7
+    latex: '\Lambda(r)=\frac{1}{1-\frac{2}{r}\int_0^r 4\pi w(r^\prime) r^{\prime 2}{\rm d}r^{\prime}}'
+    significado: "Relación entre la función métrica radial y la masa encerrada."
+limitaciones:
+  - "Las masas necesarias para las soluciones de energía positiva siguen siendo enormes."
+  - "Las soluciones superluminales no esféricas no se resuelven de forma cerrada y no se muestra cómo acelerar la cáscara."
+  - "No se estudia la estabilidad de la cáscara ni su formación dinámica."
+obstaculos: [1, 2, 3, 6, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: vandenbroeck-1999
+    como: "corrige"
+  - paper: natario-2002
+    como: "compara"
+  - paper: lentz-2021
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "compara"
+ideas_abiertas:
+  - "Probar las soluciones de energía positiva con experimentos de gravedad análoga."
+  - "Estudiar con relatividad numérica la aceleración de la cáscara y las soluciones superluminales."
+  - "Buscar miembros óptimos de la clase en términos de energía total."

@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve las ecuaciones de Einstein con constante cosmológica para la métrica de Alcubierre con polvo cargado como fuente. Expresa las condiciones de energía en función de los campos eléctrico y magnético."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre con β = v_s(t) f(r_s)."
+  - "Fuente: polvo cargado, con tensor de energía-momento de polvo más el electromagnético."
+  - "Campos E y B con componentes generales, y casos particulares como x = 0 con E1 = 0, o B3 = B2 = 0."
+resultados:
+  - "Las condiciones de energía pueden cumplirse tanto con densidad de materia positiva como negativa, según los campos."
+  - "En un caso particular se violan a la vez las condiciones de energía dominante y nula."
+  - "La divergencia nula del tensor electromagnético hace que la densidad de materia sea negativa y proporcional a la densidad de energía magnética en algunos casos."
+  - "En esos casos β depende solo de (t, y, z) y no aparece la ecuación de Burgers de trabajos previos."
+  - "Se obtiene una relación entre la densidad de energía eléctrica y la constante cosmológica."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = - (1 - \beta^2) dt^2 - 2 \beta(r_s,t) dx \, dt + dx^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre en forma de desplazamiento."
+  - n: 11
+    latex: 'T_{\alpha\beta} = \frac{1}{4\pi}\left(\frac{1}{4} g_{\alpha\beta}F_{\gamma\nu}F^{\gamma\nu}- g^{\gamma\nu}F_{\alpha\gamma}F_{\beta \nu}\right)'
+    significado: "Tensor de energía-momento del campo electromagnético."
+  - n: 12
+    latex: 'T^{\alpha\beta} = T^{\text{(dust)}} + T^{\text{(elec)}} = \frac{\mu}{4\pi} u^\alpha u^\beta + \frac{1}{4\pi}\left(\frac{1}{4}g^{\alpha\beta}F_{\nu\sigma}F^{\nu\sigma}- F^{\alpha\nu}F^\beta{}_\nu\right)'
+    significado: "Fuente total: polvo cargado más campo electromagnético."
+limitaciones:
+  - "No se resuelve por completo la ecuación para β; queda una ecuación eikonal que lleva a una ecuación de ondas."
+  - "Se usan elecciones simplificadas de los campos y de observador."
+  - "No se estima la energía total ni la estabilidad."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: santospereira-2020
+    como: "extiende"
+ideas_abiertas:
+  - "Resolver la ecuación eikonal para obtener explícitamente β."
+  - "Estudiar el efecto de los campos electromagnéticos en la dinámica de la burbuja."

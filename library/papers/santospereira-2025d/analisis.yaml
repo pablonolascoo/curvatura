@@ -1,0 +1,19 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Compara el cálculo del tensor de Einstein de la métrica de Alcubierre hecho por dos modelos de IA, Deepseek-V3 y GPT, según indica el título. Solo se dispone del título y los metadatos."
+tipo: critica
+supuestos:
+  - "No consta en el contexto disponible; el título indica que se evalúan cálculos de física generados por IA."
+  - "Cita la métrica de Alcubierre entre sus referencias de la biblioteca."
+resultados:
+  - "No hay resumen ni texto en el contexto, por lo que no se pueden extraer resultados."
+  - "No se puede saber qué modelo acierta ni con qué precisión."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título y los metadatos, sin resumen."
+  - "Conviene leer el artículo antes de usar cualquier afirmación."
+obstaculos: []
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Completar la ficha con el resumen y el texto del artículo."

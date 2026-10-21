@@ -1,0 +1,38 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Usa el problema de valores iniciales de la relatividad general para mostrar que las perturbaciones finitas del campo gravitatorio no superan la velocidad de la luz. Demuestra que sin materia exótica no se puede construir un warp drive."
+tipo: teorema
+supuestos:
+  - "Materia descrita por un sistema hiperbólico simétrico cuasilineal con conos de rayos dentro del cono de luz."
+  - "Materia físicamente razonable: evolución hiperbólica simétrica y tensor de energía-momento que cumple la condición de energía dominante; en caso contrario es exótica."
+  - "Decidir construir un warp se modela como cambiar los datos iniciales en la región K = J+(p) de una superficie de Cauchy."
+resultados:
+  - "Perturbaciones finitas de los datos iniciales en K no alteran el dominio de dependencia de la parte restante, de modo que ninguna influencia gravitatoria se propaga más rápido que la luz."
+  - "Con materia razonable no se puede alcanzar antes un punto de la línea de universo de una estrella: no existe un warp que permita viajar más rápido que la luz."
+  - "Para que el warp sea efectivo, el cono de rayos de la materia tendría que salir del cono de luz, lo que exige violar la condición de energía dominante."
+  - "Confirma la sospecha de Alcubierre de que hace falta materia exótica para construir un warp drive."
+  - "Aplicación lateral: tras caer dentro del horizonte aparente, el exterior de un agujero negro no cambia salvo que la materia sea exótica."
+ecuaciones_clave:
+  - n: 1
+    latex: 'D_bK^b_{\;\;a} - D_aK^b_{\;\;b} = 0, \quad {}^{(3)}R +(K^a_{\;\;a})^2 - K_{ab}K^{ab} = 0'
+    significado: "Ligaduras de los datos iniciales en el vacío."
+  - n: 2
+    latex: 'A^{\alpha}\nabla_{\alpha}\mathbf{u} +B\mathbf{u} = \mathbf{c}'
+    significado: "Sistema hiperbólico simétrico cuasilineal que describe la evolución de la materia."
+  - n: 3
+    latex: 'D_bK^b_{\;\;a} - D_aK^b_{\;\;b} = -8\pi J_b, \quad {}^{(3)}R +(K^a_{\;\;a})^2 - K_{ab}K^{ab} = 16\pi\rho'
+    significado: "Ligaduras con materia, con densidad de energía rho y corriente J."
+limitaciones:
+  - "El resultado depende de modelar la decisión de construir el warp como un cambio de datos iniciales, definición que puede discutirse."
+  - "No cuantifica cuánta materia exótica hace falta ni cómo obtenerla."
+  - "Deja abierta la posibilidad de acortar el viaje de ida y vuelta, que se remite al trabajo de Krasnikov."
+obstaculos: [1, 4, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+ideas_abiertas:
+  - "Precisar qué condición de energía mínima separa la materia exótica de la razonable."
+  - "Extender el argumento a viajes de ida y vuelta, como en el tubo de Krasnikov."

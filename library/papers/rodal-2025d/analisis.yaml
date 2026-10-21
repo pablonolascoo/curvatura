@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Refuta los motores warp de bajo consumo que sustituyen la constante de acoplo gravitatorio por un campo κ(x) fijado por un metamaterial. Muestra que fallan por razones teóricas y por datos experimentales."
+tipo: critica
+supuestos:
+  - "Ecuación de campo G^{μν} = κ(x) T^{μν} con κ(x) prescrito y no dinámico."
+  - "La versión dinámica de κ es una teoría escalar-tensorial tipo Brans-Dicke con parámetro ω."
+  - "Los límites experimentales de Sistema Solar, púlsares, balanza de torsión y láser lunar se aplican sin cambios."
+resultados:
+  - "Un κ(x) no dinámico choca con la identidad de Bianchi contraída y obliga a ∇_μ T^{μν} distinto de cero, violando la conservación local."
+  - "Si κ es dinámico, aparece una fuerza escalar de largo alcance que rompe el principio de equivalencia fuerte."
+  - "Los datos de Sistema Solar y púlsares limitan |γ - 1| a unos 10^-5 o menos, y Cassini da |γ - 1| < 2,3·10^-5."
+  - "Un salto de κ exige una capa δ de energía-impulso; incluso perfiles graduales quedan excluidos por torsión, láser lunar y Doppler de sondas."
+  - "No se conoce una métrica warp analítica en gravedad escalar-tensorial."
+ecuaciones_clave:
+  - n: 2
+    latex: '0=\nabla_\mu G^{\mu\nu} =\nabla_\mu\!\bigl[\kappa(x)T^{\mu\nu}\bigr] =(\partial_\mu\kappa)\,T^{\mu\nu} +\kappa\,\nabla_\mu T^{\mu\nu}'
+    significado: "Un acoplo no constante obliga a que la materia no se conserve."
+  - n: 3
+    latex: '\kappa(x)\equiv \frac{\kappa_0}{\phi(x)}'
+    significado: "Versión dinámica del acoplo mediante un campo escalar φ."
+  - n: 6
+    latex: '\frac{\Delta a}{a}= \frac{U_{\text{self}}}{mc^{2}} \,\frac{1}{2+\omega}'
+    significado: "Efecto Nordtvedt: violación de la equivalencia fuerte por autoenergía."
+  - n: 17
+    latex: 'V(r)\;=\; -\frac{G\,m_{1}m_{2}}{r}\, \bigl[1+\alpha\,e^{-r/\lambda}\bigr]'
+    significado: "Potencial de quinta fuerza tipo Yukawa, acotado por experimentos."
+limitaciones:
+  - "La crítica se dirige a propuestas concretas de acoplo variable y no cierra todas las rutas con gravedad modificada."
+  - "Algunas conclusiones cuantitativas dependen de elegir un modelo tipo Brans-Dicke."
+  - "No descarta mecanismos de apantallamiento especiales, que el autor considera poco prácticos."
+obstaculos: [11, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Comprobar si algún mecanismo de apantallamiento permite un acoplo local variable compatible con los datos."
+  - "Buscar una métrica warp en gravedad escalar-tensorial."

@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve las ecuaciones de Einstein con constante cosmológica para la métrica de Alcubierre con fluido perfecto como fuente. Analiza las condiciones de energía y generaliza sus soluciones previas de polvo."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre con lapso unidad y desplazamiento beta = v_s f(r_s) en la dirección del movimiento."
+  - "Fuente de fluido perfecto con densidad mu y presión p, y constante cosmológica Lambda; el polvo es el caso p = 0."
+  - "Observadores eulerianos y velocidad v_s dependiente del tiempo, con función de forma de tipo tanh."
+resultados:
+  - "Hay dos tipos de solución, cada una con dos subcasos; los subcasos 1b y 2b requieren Lambda = p = mu = 0 y conectan la métrica con ondas de choque mediante la ecuación de Burgers."
+  - "En los subcasos 1a y 2a el desplazamiento depende solo del tiempo y de una coordenada transversal (y o z)."
+  - "El desplazamiento en la dirección del movimiento crea un acoplo que exige términos fuera de la diagonal en el tensor de la fuente."
+  - "Con Lambda positiva y suficientemente grande podrían cumplirse las condiciones de energía débil y dominante."
+  - "Los autores concluyen que la masa negativa quizá no sea un requisito estricto para velocidades superlumínicas globales, y que se necesita materia más compleja que el polvo."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2=-\left[1-v_s(t)^2f(r_s)^2\right]dt^2-v_s(t)f(r_s)\,dx\,dt+dx^2+dy^2+dz^2'
+    significado: "Métrica de Alcubierre en la forma usada en el artículo."
+  - n: 22
+    latex: 'T_{\alpha\beta}u^\alpha u^\beta=\Lambda-\frac{v_s^2}{16\pi}\frac{y^2+z^2}{r_s^2}\left(\frac{\partial f}{\partial r_s}\right)^2'
+    significado: "Densidad de energía euleriana con constante cosmológica."
+  - n: 23
+    latex: 'T_{\alpha\beta}=(\mu+p)u_\alpha u_\beta+p\,g_{\mu\nu}'
+    significado: "Tensor energía-impulso del fluido perfecto."
+limitaciones:
+  - "No se prueba que la configuración compleja de materia necesaria pueda realizarse."
+  - "Las soluciones de polvo y de los subcasos b son de vacío, sin una fuente material real."
+  - "No se estudian estabilidad, horizontes ni efectos cuánticos."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Hallar una distribución concreta de materia con términos fuera de la diagonal que sostenga la burbuja."
+  - "Explorar otros fluidos más complejos para obtener soluciones estables."

@@ -1,0 +1,26 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Aplica numérica de líneas de mundo a una cavidad de Casimir con pilares en el plano medio. La distribución de energía negativa resultante se parece cualitativamente a la que exige la métrica de Alcubierre."
+tipo: simulacion
+supuestos:
+  - "Modelo de vacío dinámico: la energía de vacío negativa de la cavidad no es isótropa y se concentra en el plano medio."
+  - "Campo escalar real con potencial de fondo que representa la geometría, calculado con numérica de líneas de mundo."
+  - "Cavidad de unos 4 micras con pilares de unas 1 micra; modelo de juguete de una esfera de 1 micra de diámetro en un cilindro de 4 micras."
+resultados:
+  - "El pilar no se apantalla a sí mismo: eleva en un factor de 3 a 5 la densidad de energía de vacío negativa respecto a la cavidad sin pilar."
+  - "La estructura del campo alrededor del pilar se parece cualitativamente al T^00 de la métrica de Alcubierre."
+  - "Una esfera de 1 micra en un cilindro de 4 micras da una densidad de Casimir toroidal que se correlaciona bien con la requerida por Alcubierre."
+  - "Para una cavidad de 4 micras, el potencial electrostático previsto en el plano medio es de unos 0,7 mV."
+  - "Se propone un experimento en chip que mida un cambio en el tiempo de tránsito de un pulso de electrones o fotones."
+ecuaciones_clave: []
+limitaciones:
+  - "La correlación con Alcubierre es cualitativa; no hay cálculo de la métrica ni de la curvatura generada."
+  - "La cavidad da una distribución lineal en forma de varilla, mientras que la burbuja de Alcubierre es toroidal."
+  - "El modelo de vacío dinámico es una conjetura de los autores y el experimento propuesto no se ha realizado."
+  - "No se estiman la energía total ni la escala de Casimir necesarias para una burbuja útil."
+obstaculos: [3, 9, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Medir un cambio en el tiempo de tránsito en una matriz de esferas dentro de cilindros."
+  - "Calcular la métrica asociada a la distribución de energía obtenida con la numérica de líneas de mundo."

@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resuelve las ecuaciones de Einstein para la métrica de Alcubierre con un fluido perfecto y con un fluido perfecto parametrizado (PPF) como fuente, y estudia las condiciones de energía y los casos con densidad de materia positiva."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre con lapso 1, métrica espacial plana y desplazamiento beta = v_s(t) f(r_s); se trabajan casos con beta dependiente de (y,t) o de (z,t)."
+  - "Fuente 1: fluido perfecto con densidad mu y presión p. Fuente 2: PPF, con mu, cinco presiones (A, B, C, D, p) y un parámetro de densidad de momento D."
+  - "Se impone divergencia nula del tensor de energía-momento y se evalúan las condiciones de energía débil, dominante, fuerte y nula."
+resultados:
+  - "El polvo lleva a la ecuación de Burgers (ondas de choque en un fluido no viscoso), pero también a una solución de vacío."
+  - "Dos de los cuatro subcasos del fluido perfecto reducen la solución al vacío o al polvo."
+  - "Los casos 1a y 2a comparten la ecuación de estado p = 3 mu, pero exigen densidad de materia negativa si beta es real."
+  - "Otras soluciones del fluido perfecto permiten densidad de materia positiva, pero a costa de una función reguladora compleja."
+  - "Para el PPF se obtienen soluciones que indican que podrían crearse velocidades warp con densidad de materia positiva."
+ecuaciones_clave:
+  - n: 3
+    latex: 'ds^2 = -\left[1 - v_s(t)^2 f(r_s)^2\right]dt^2 - v_s(t) f(r_s)\,dx\,dt + dx^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre en la forma usada en el trabajo."
+  - n: 11
+    latex: 'T_{\alpha\beta} = \begin{pmatrix} \mu + \beta^2 p & - \beta p & 0 & 0 \\ - \beta p & p & 0 & 0 \\ 0 & 0 & p & 0 \\ 0 & 0 & 0 & p \end{pmatrix}'
+    significado: "Tensor de energía-momento del fluido perfecto en la métrica warp."
+  - n: 13
+    latex: 'p = 3 \mu'
+    significado: "Ecuación de estado que aparece en los casos 1a y 2a."
+limitaciones:
+  - "Las soluciones con densidad positiva requieren una función reguladora compleja o no resuelven el problema de condiciones de energía."
+  - "El PPF es un modelo tentativo sin derivación microscópica, y se interpreta como un fluido anisótropo con flujo de calor."
+  - "Los casos 1b y 2b del PPF se descartan por no reducirse al fluido perfecto."
+  - "No se estudia la estabilidad ni la formación de la burbuja."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: santospereira-2020
+    como: "extiende"
+ideas_abiertas:
+  - "Explorar cómo la ecuación de Burgers asociada a la función reguladora conecta la burbuja con ondas de choque."
+  - "Buscar una función reguladora real con densidad positiva en el PPF."

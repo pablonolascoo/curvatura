@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, estudia tubos de Krasnikov de pared simple y doble: microtubos primordiales y homogeneización."
+tipo: teorema
+supuestos:
+  - "No consta en el contexto disponible: solo se dispone del título y de los datos bibliográficos."
+resultados:
+  - "El título indica un análisis de microtubos primordiales y de su homogeneización en tubos de Krasnikov; no se conocen sus resultados."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título y los metadatos; no hay resumen ni texto del paper."
+  - "Todo el contenido debe verificarse con el documento original."
+obstaculos: [4]
+relacion: []
+ideas_abiertas:
+  - "Leer el paper para precisar qué se demuestra sobre la homogeneización de los tubos."

@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2303.04641
 language: en
 subsystems: [C, E]
 kind: experimental
-license: unknown
+license: CC0-1.0
 fulltext: false
 translations: [es, fr]
 verified: true

@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia geodésicas de partículas masivas en el warp de Alcubierre subluminal como modelo de polvo y escombros interestelares. Propone un 'escudo deflector' modificando el campo y ofrece una herramienta de visualización de código abierto."
+tipo: simulacion
+supuestos:
+  - "Burbuja de Alcubierre subluminal, con perfil de pared suavizado."
+  - "Partículas masivas como modelo de polvo, meteoros y planetas errantes."
+  - "Referencia de seguridad: choques a 10 % de c o menos respecto a la nave."
+resultados:
+  - "Las geodésicas de partículas se frenan o desvían en la burbuja estándar, lo que da una protección modesta."
+  - "Una partícula de 10⁻⁹ kg a 10 % de c golpea con la energía cinética de una bola de bolos (6 kg) a Mach 1."
+  - "La burbuja de Alcubierre y la de Natário protegen algo, pero no lo bastante para viajar con seguridad."
+  - "Pequeñas modificaciones del campo pueden desviar partículas sin acelerarlas en exceso."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+dz^2+dy^2+(dx-f\,v\,dt)^2'
+    significado: "Métrica de Alcubierre."
+  - n: 6
+    latex: 'p^\mu=E(n^\mu+V^\mu)'
+    significado: "Cuadrimomento de la partícula respecto a los observadores eulerianos."
+  - n: 18
+    latex: '\frac{dV^x}{dt}=-u\,V^x\left[1-(V^x)^2\right]\theta^\prime(r;R,\sigma)'
+    significado: "Aceleración de la partícula por el gradiente del perfil de la burbuja."
+limitaciones:
+  - "No se calcula la energía necesaria para el escudo deflector."
+  - "No se tratan las desigualdades cuánticas ni la estabilidad de la modificación."
+  - "El espacio de parámetros apenas se explora, según los autores."
+obstaculos: [10]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: clark-1999
+    como: "extiende"
+  - paper: santiago-2022
+    como: "aplica"
+ideas_abiertas:
+  - "Estudiar el escudo con grosor y posición independientes de la pared de la burbuja."
+  - "Calcular el coste energético de la deflexión de partículas."

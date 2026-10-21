@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la radiación de Hawking de una burbuja de Alcubierre eterna con el método túnel cuántico. Analiza además los modos cuasinormales de un campo escalar masivo, que resultan estables."
+tipo: solucion
+supuestos:
+  - "Solución de burbuja de Alcubierre eterna (EAWD) con función de forma f(r) = 1/cosh(r/a)."
+  - "Horizontes en r_h = ∓a ln(β + sqrt(β^2 - 1)), con β = α/(α-1) > 1."
+  - "Partículas vectoriales y escalares masivas en aproximación WKB."
+resultados:
+  - "La temperatura de Hawking es T_H = κ/2π = v0 f'(r_h)/2π, igual para partículas vectoriales y escalares masivas."
+  - "La temperatura es proporcional a la velocidad de la burbuja."
+  - "Con efectos del principio de incertidumbre generalizado (GUP), la temperatura de Hawking disminuye."
+  - "Los modos cuasinormales de perturbaciones escalares masivas cumplen las condiciones de estabilidad: solo hay modos estables."
+ecuaciones_clave:
+  - n: 9
+    latex: '\bar{v}(r)=\alpha c \left[ \frac{1}{\cosh(r/a)}-1 \right]'
+    significado: "Perfil de velocidad de la burbuja eterna, en el sistema de la nave."
+  - n: 10
+    latex: 'r_{h}=r_{1,2}=\mp a \ln\left( \beta+\sqrt{\beta^{2}-1} \right)'
+    significado: "Posición de los horizontes."
+  - n: 23
+    latex: '\kappa_{1,2}=\frac{\mathrm{d}v(r)}{\mathrm{d}r}|_{r_{h}=r_{1,2}}=\pm \frac{ c(\alpha-1)\sqrt{\beta^{2}-1}}{a \beta}\equiv\pm\kappa'
+    significado: "Gravedad superficial de los horizontes."
+  - n: 29
+    latex: 'T_{H}=\frac{\kappa}{2 \pi}=v_{0} \frac{f^{\prime}(r_{h})}{2\pi}'
+    significado: "Temperatura de Hawking de la burbuja."
+limitaciones:
+  - "No se aborda la energía negativa necesaria ni la reacción sobre la métrica."
+  - "Los modos cuasinormales son analíticos y para un caso particular del espaciotiempo."
+  - "Los autores dejan para trabajo futuro el factor de cuerpo gris."
+obstaculos: [4, 5, 14]
+relacion:
+  - paper: alcubierre-2017
+    como: "aplica"
+  - paper: hiscock-1997
+    como: "extiende"
+  - paper: finazzi-2009
+    como: "compara"
+ideas_abiertas:
+  - "Calcular el factor de cuerpo gris y la tasa de emisión de la burbuja eterna."
+  - "Comparar con el análogo de horizontes en sistemas de laboratorio."

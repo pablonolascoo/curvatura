@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Construye espacios-tiempo con singularidades desnudas lineales (hilos) que cumplen la condición de energía débil donde están bien definidos y permiten viaje superlumínico efectivo paralelo al hilo. Con dos hilos en movimiento relativo se generan curvas temporales cerradas."
+tipo: solucion
+supuestos:
+  - "Hilo recto o anular con métrica estática de simetría cilíndrica, F = 1 + (1/r - 1/R)^n dentro de r <= R y plano fuera."
+  - "Las singularidades no están bien definidas, por lo que la condición de energía débil allí queda sin definir, aunque no se viola de forma explícita."
+  - "Dos hilos que se mueven uno respecto al otro, con un cohete relativista que sigue una trayectoria en lazo."
+resultados:
+  - "El tensor energía-impulso del hilo cumple la condición de energía débil en todas las regiones bien definidas."
+  - "La velocidad de coordenada de la luz a lo largo del hilo es mayor que 1, lo que da un atajo efectivo entre regiones lejanas."
+  - "Con dos hilos en movimiento relativo, el suceso final precede al inicial si beta > 2/(k + 1/k), con k la razón de velocidades de la luz."
+  - "Las curvas temporales cerradas no entran en las singularidades y pueden quedar en regiones de campo débil."
+  - "La masa por unidad de longitud diverge al acercarse al eje, por lo que se proponen variantes con hilo en anillo o con tapa hemisférica para longitud finita."
+ecuaciones_clave:
+  - n: 2
+    latex: 'c_{path}=\sqrt{\left|\frac{\mathbf{g}_{tt}}{\mathbf{g}_{33}}\right|}'
+    significado: "Velocidad de coordenada de la luz a lo largo de una dirección."
+  - n: 4
+    latex: 'ds^2=-\mathcal{F}\,dt^2+\frac{1}{\mathcal{F}}\,dr^2+dz^2+r^2\,d\phi^2'
+    significado: "Métrica del hilo de luz rápida."
+  - n: 22
+    latex: '\beta>\frac{2}{k+\frac{1}{k}}\ \Rightarrow\ \Delta t_{AC}<0'
+    significado: "Condición para que el cohete regrese al pasado en el marco S."
+  - n: 17
+    latex: '\lim_{r^\prime\to 0}\left(\frac{mass}{length}\right)=\infty'
+    significado: "Divergencia de la masa por unidad de longitud en el eje."
+limitaciones:
+  - "Las singularidades desnudas hacen que el modelo no sea físico en el eje y que la condición de energía débil sea indefinida allí."
+  - "El hilo recto tiene masa y longitud infinitas; las variantes de longitud finita añaden complejidad."
+  - "No se estudia la estabilidad ni cómo se formaría un hilo."
+obstaculos: [1, 4, 5]
+relacion:
+  - paper: olum-1998
+    como: "critica"
+ideas_abiertas:
+  - "Comprobar si la protección de la cronología de Hawking excluye estas configuraciones cuánticamente."
+  - "Buscar versiones sin singularidades que conserven la condición de energía débil y el atajo."

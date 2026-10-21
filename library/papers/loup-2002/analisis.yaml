@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una función A de tipo Pfenning a trozos, preprogramada y independiente de la velocidad, para que la región de control de la nave quede causalmente conectada incluso en régimen superlumínico. Con ello se resolvería el problema del control de la burbuja."
+tipo: propuesta
+supuestos:
+  - "Métrica de Alcubierre modificada con un factor A en el lapso (tipo ESAA), en dos dimensiones."
+  - "A vale 1 dentro y fuera, y toma un valor grande kappa_L en la pared de la burbuja, entre R menos Delta/2 y R más Delta/2."
+  - "La materia exótica que fija A está preprogramada y no cambia cuando la nave pasa de subluminal a superluminal."
+  - "No se da una fuente física para A; se deja para trabajos futuros."
+resultados:
+  - "Con velocidad subluminal no hay horizontes, porque la función de horizonte H es positiva."
+  - "A velocidad luminal aparece un horizonte más allá de R más Delta/2, que desconecta esa zona de la nave."
+  - "A velocidad superluminal el horizonte aparece en el mismo sitio, pero la región entre R menos Delta/2 y R más Delta/2 sigue conectada a la nave."
+  - "La nave puede frenar porque la zona de control de la velocidad queda dentro de la parte conectada."
+  - "La región desconectada de la nave no depende de la velocidad de esta."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-A^2dt^2+[dx-v_sf(r_s)dt]^2'
+    significado: "Métrica warp bidimensional con factor A en el lapso."
+  - n: 13
+    latex: 'H(r_s)= A^2-(v_s{\cal S}(r_s))^2'
+    significado: "Función de horizonte de tipo Hiscock en el sistema de la nave."
+  - n: 23
+    latex: 'T^{00}=-\frac{v_s^2}{4}\frac{1}{8\pi}\left(\frac{d{\cal S}(r_s)}{dr_s}\right)^2\left(\frac{\sigma}{r_s}\right)^2\frac{1}{A^4}'
+    significado: "Densidad de energía, reducida por el factor 1/A^4 al aumentar A."
+  - n: 39
+    latex: 'A=\left(\frac{1+\tanh[\sigma(r_s-R)]^2}{2}\right)^{R/\Delta}'
+    significado: "Forma continua propuesta para A, grande en la pared y 1 fuera."
+limitaciones:
+  - "No se da la fuente física ni el mecanismo que mantiene A independiente de la velocidad."
+  - "El modelo es bidimensional y la demostración es cualitativa."
+  - "Valores muy grandes de A pueden afectar a la curvatura y reducir la velocidad, según el propio texto."
+  - "La materia exótica sigue siendo necesaria en la pared y más allá."
+obstaculos: [1, 4, 7]
+relacion:
+  - paper: hiscock-1997
+    como: "extiende"
+  - paper: pfenning-1998
+    como: "aplica"
+  - paper: loup-2001
+    como: "extiende"
+ideas_abiertas:
+  - "Identificar un tensor de energía-impulso que realice la función A preprogramada."
+  - "Comprobar la propuesta en tres dimensiones espaciales."

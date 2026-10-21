@@ -1,0 +1,21 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisión de bibliografía (tesis de grado) sobre agujeros negros, teoremas de singularidad y estructura global del espaciotiempo, que cierra con una discusión breve de curvas temporales cerradas y warp drives."
+tipo: revision
+supuestos:
+  - "Convenciones del libro de Wald: signatura (-+++) y notación de índices abstractos."
+  - "Se deducen las métricas de Schwarzschild y Reissner-Nordström y se asume la métrica de Kerr."
+  - "La estructura causal se trata con superficies de Cauchy e hiperbolicidad global."
+resultados:
+  - "Deduce la métrica de Schwarzschild con el teorema de Birkhoff y construye las coordenadas de Kruskal y el diagrama de Penrose."
+  - "Deduce la métrica de Reissner-Nordström y discute sus casos subextremal, extremal y sobreextremal."
+  - "Define los grados de causalidad (causal, causalidad fuerte, establemente causal) y el espaciotiempo globalmente hiperbólico."
+  - "Revisa teoremas de singularidad, la estructura asintótica, la definición de agujero negro y el teorema del área de Hawking."
+ecuaciones_clave: []
+limitaciones:
+  - "El texto disponible llega solo hasta el capítulo 3; la parte sobre curvas temporales cerradas y warp drives no aparece, así que no se puede valorar."
+  - "Es una revisión de literatura sin resultados originales."
+  - "Ficha hecha con el resumen y los primeros capítulos."
+obstaculos: [4]
+relacion: []
+ideas_abiertas:
+  - "Usar la estructura causal y las superficies de Cauchy como base para analizar horizontes en burbujas warp."

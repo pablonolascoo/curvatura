@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Contrasta una desigualdad cuántica para luz comprimida con datos publicados de amplificadores paramétricos ópticos. Concluye que los datos la violan, lo que cuestiona su base."
+tipo: experimento
+supuestos:
+  - "Se usa la desigualdad cuántica para luz comprimida de Marecki, que acota la varianza del campo eléctrico promediada con una ventana temporal f(t)."
+  - "Se toman como fuentes de datos experimentos publicados con amplificación paramétrica óptica y detección homodina equilibrada."
+  - "Se prueban varias ventanas temporales: gaussiana, lorentziana al cuadrado y trapezoidal."
+resultados:
+  - "La compresión de la varianza del vacío alcanzada en tres décadas llega a -15 dB."
+  - "Para la ventana gaussiana, todos los datos menos uno violan la desigualdad cuántica; con la lorentziana al cuadrado, la violan casi todos con la versión propia y la mitad con la de Marecki."
+  - "Un modelo de amplificador paramétrico ideal es consistente con todos los datos, y prevé que la compresión no dura más de medio ciclo."
+  - "Ninguna ventana razonable probada da una desigualdad con la forma y los valores adecuados para los datos."
+ecuaciones_clave:
+  - n: 1
+    latex: '\hat{\rho}\equiv\frac{t_{o}}{\pi}\int_{-\infty}^{+\infty}\frac{\langle T_{oo}\rangle}{t^{2}+t_{o}^{2}}dt \geqslant -\frac{3}{16\pi^{2}}\frac{\hbar c}{(ct_{o})^{4}}'
+    significado: "Desigualdad cuántica de Ford y Roman para la densidad de energía con ventana lorentziana."
+  - n: 3
+    latex: '<\Delta>_A \equiv \int_{-\infty}^{+\infty}f(t)dt(<E^{2}(x,t)>_A-<E^{2}(x,t)>_{vac})'
+    significado: "Varianza del campo eléctrico, promediada con la ventana f(t), relativa al vacío."
+  - n: 9
+    latex: 'R(\omega_{o}t_{o})=10Log_{10}[Erf(\sqrt{2}\omega_{o}t_{o})]'
+    significado: "Compresión máxima permitida en dB para ventana gaussiana."
+  - n: 11
+    latex: 'R(\omega_{o}t_{o})=10Log_{10}(1-e^{-2\omega_{o}t_{o}})'
+    significado: "Compresión máxima permitida en dB para ventana lorentziana al cuadrado."
+limitaciones:
+  - "No hay prueba de que la cota de Marecki sea la mejor posible."
+  - "La función espectral del aparato puede entrar en conflicto con la ventana temporal elegida."
+  - "Meta-análisis de datos publicados; la relación entre la ventana y el tiempo de observación real es una interpretación de los autores."
+obstaculos: [3, 14]
+relacion: []
+ideas_abiertas:
+  - "Probar otras formas de ventana temporal o formulaciones de la desigualdad cuántica."
+  - "Desarrollar una teoría de desigualdades cuánticas aplicable a experimentos con fuentes y fronteras."

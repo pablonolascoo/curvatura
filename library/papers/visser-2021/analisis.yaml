@@ -1,0 +1,44 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Formula haces tractores, repulsores y de esfuerzo dentro de la relatividad general como variantes de la métrica warp y demuestra que violan todas las condiciones de energía puntuales."
+tipo: teorema
+supuestos:
+  - "Ingeniería inversa de la métrica: se especifica la métrica y se obtiene el tensor de energía-momento por derivación en lugar de resolver las ecuaciones de Einstein."
+  - "Métrica warp genérica ds^2 = -dt^2 + delta_ij (dx^i - v^i dt)(dx^j - v^j dt), con lapso 1, espacio plano y campo de flujo v^i."
+  - "Para un haz en la dirección z se toma un flujo con funciones envolventes k(t,z) y v(t,z)."
+  - "Se usan observadores eulerianos y la fuerza neta se define con la integral de T_zz sobre una sección transversal del haz."
+resultados:
+  - "Los haces tractores, repulsores y de esfuerzo se obtienen modificando la noción de warp drive."
+  - "Todas las condiciones de energía puntuales clásicas se violan, con argumentos genéricos que se aplican también a configuraciones warp con condiciones adicionales."
+  - "La densidad euleriana es rho = (1/16 pi){div(v K - (v·grad)v) - (1/2) omega^2}, con omega la vorticidad; su integral es negativa o nula si la vorticidad no se anula."
+  - "Con la integral de rho + p_medio se obtiene un término negativo de vorticidad más una derivada temporal de la traza, que se anula para campos que decaen."
+  - "Incluso en teorías de gravedad modificada, estos sistemas violan la condición de convergencia nula y la de convergencia temporal."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = - dt^2 + \delta_{ij}\left(dx^i - v^i(t,\vec x)\,dt\right)\left(dx^j - v^j(t,\vec x)\,dt\right)'
+    significado: "Métrica warp genérica con campo de flujo v^i."
+  - n: 7
+    latex: 'K_{ij} = v_{(i,j)}'
+    significado: "Curvatura extrínseca como parte simétrica de la derivada del flujo."
+  - n: 11
+    latex: '\rho = \frac{G_{nn}}{8\pi} = \frac{1}{16\pi}\left\{ \nabla\cdot\{ \vec v\,K - (\vec v \cdot\nabla) \vec v\} - \frac{1}{2}\, (\vec\omega \cdot \vec\omega)\right\}'
+    significado: "Densidad de energía euleriana, con un término de divergencia y otro de vorticidad."
+  - n: 18
+    latex: '\rho+\bar p = \frac{1}{24\pi} \left( -2 \mathcal{L}_n K + K^2 - 3 \operatorname{tr}(K^2)\right)'
+    significado: "Combinación usada para la condición de energía nula promediada sobre el volumen."
+limitaciones:
+  - "El argumento es genérico e independiente de la materia, pero deja sin resolver cómo se sostendría físicamente la distribución."
+  - "Se trata de una exploración de lo que una civilización arbitrariamente avanzada podría hacer, no de algo realizable."
+  - "No se cuantifican las energías ni las fuerzas del haz con valores numéricos."
+obstaculos: [1, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: santiago-2022
+    como: "extiende"
+ideas_abiertas:
+  - "Analizar las condiciones de energía en teorías de gravedad modificada para estas métricas."
+  - "Estudiar condiciones de energía promediadas y cotas cuánticas para los haces."

@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2308.03796
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: CC-BY-NC-ND-4.0
 fulltext: false
 translations: []
 verified: false

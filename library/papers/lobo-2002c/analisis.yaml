@@ -1,0 +1,19 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, trata la violación de la condición de energía débil asociada al viaje superlumínico."
+tipo: revision
+supuestos:
+  - "Métricas de viaje superlumínico con violación de la condición de energía débil (según el título)."
+resultados:
+  - "Analiza, según el título, la violación de la condición de energía débil en geometrías superlumínicas."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
+  - "Sin resumen no se conocen los ejemplos ni las cifras."
+obstaculos: [1, 3]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: everett-roman-1997
+    como: "compara"
+ideas_abiertas:
+  - "Cuantificar la materia exótica necesaria en cada geometría."

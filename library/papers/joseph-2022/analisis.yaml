@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Acopla la métrica de Alcubierre a un campo escalar cuántico en gravedad cuántica bohmiana. El requisito de materia exótica se convierte en una ecuación de onda conformal de cuarto orden para la densidad cuántica."
+tipo: propuesta
+supuestos:
+  - "Gravedad cuántica bohmiana: gravedad clásica en geometría de Weyl con un campo escalar cuántico de de Broglie-Bohm."
+  - "La métrica de Alcubierre es el fondo y la energía exótica la aporta el término cuántico T^qm(Ω)."
+  - "Se usa el vector u de los observadores eulerianos."
+resultados:
+  - "La densidad de energía necesaria, proporcional a v_s2 (y2+z2) (df/dr_s)2, se iguala al término cuántico."
+  - "Resulta una ecuación diferencial de cuarto orden en la raíz de la densidad cuántica ρ."
+  - "Esa ecuación admite soluciones extra, como funciones hiperbólicas de la densidad, que no aparecen en la teoría cuántica usual."
+  - "Si se encuentra una densidad ρ que cumpla la ecuación, se resolvería el problema de la materia exótica en este marco."
+ecuaciones_clave:
+  - n: 4
+    latex: '\Omega^2=\exp\left(\frac{\hbar^2}{m^2}\frac{\nabla_\mu\nabla^\mu\sqrt{\rho}}{\sqrt{\rho}}\right)'
+    significado: "Factor conforme de Weyl determinado por el potencial cuántico."
+  - n: 16
+    latex: 'T_{\mu\nu}u^\mu u^\nu=-\frac{v_s^2(y^2+z^2)}{4r_s^2}\left(\frac{df}{dr_s}\right)^2'
+    significado: "Densidad de energía euleriana requerida por la métrica de Alcubierre."
+  - n: 23
+    latex: '\Box Q+\tfrac14\nabla_\sigma Q\nabla^\sigma Q+\mathrm{Alc}(x,y,z)=0'
+    significado: "Ecuación para el potencial cuántico Q que sustituye a la materia exótica."
+  - n: 26
+    latex: '\Box\left(\frac{\Box\sqrt{\rho}}{\sqrt{\rho}}\right)+\frac{m^2}{\hbar^2}\mathrm{Alc}(x,y,z)=0'
+    significado: "Ecuación de cuarto orden en la densidad cuántica, tras una simplificación."
+limitaciones:
+  - "No se halla ninguna densidad cuántica concreta que cumpla la ecuación."
+  - "La reducción a un modelo simple se hace con aproximaciones, no con la ecuación completa."
+  - "No se verifican las condiciones de energía ni la energía total."
+obstaculos: [1, 3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Hallar una densidad cuántica exacta que resuelva la ecuación de cuarto orden."
+  - "Comprobar si esa solución respeta las desigualdades cuánticas."

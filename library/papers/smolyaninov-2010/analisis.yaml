@@ -1,0 +1,35 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone un modelo de laboratorio de la métrica de Alcubierre con metamateriales magnetoeléctricos. Muestra que el rango de parámetros del material limita la velocidad warp emulable a un máximo de c/4."
+tipo: propuesta
+supuestos:
+  - "Las ecuaciones de Maxwell en un espacio-tiempo curvo equivalen a las de un medio magnetoeléctrico con permitividad, permeabilidad y acoplo dados por la métrica."
+  - "Métrica de Alcubierre en 1+1 dimensiones con índice de refracción de fondo n_inf."
+  - "Se exige estabilidad termodinámica del material: el acoplo magnetoeléctrico está acotado por la raíz de (epsilon-1)(mu-1)."
+resultados:
+  - "Las condiciones del medio equivalente son epsilon y mu iguales a h^(-1/2) y un acoplo g_x no nulo, determinados por v_0 y f."
+  - "La cota de estabilidad impide la burbuja en vacío, pero un medio material permite un modelo estable al menos a velocidades subluminales."
+  - "La velocidad máxima emulable es v_0 = c/4."
+  - "Los materiales magnetoeléctricos comunes (Cr2O3, multiferroicos) tienen susceptibilidades dos órdenes de magnitud por debajo del límite, por lo que no sirven."
+  - "Metamateriales magnetoeléctricos perfectos y no recíprocos, basados en anillos resonantes abiertos o estructuras tipo fishnet, podrían alcanzarlo."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2 = -(c^2 - v^2) dt^2 - 2 v dx dt + dx^2 + dy^2 + dz^2'
+    significado: "Métrica de Alcubierre con v = v_0 f(r). La forma exacta en el PDF no se extrajo; ecuación reconstruida del texto."
+  - n: 6
+    latex: '\varepsilon = \mu = h^{-1/2}'
+    significado: "Parámetros del medio equivalente en términos de h = g_00. Reconstruida a partir del texto."
+  - n: 10
+    latex: '\frac{v_0 \tilde f(\tilde x)}{c} \leq 1-\frac{1}{n_\infty}'
+    significado: "Cota de estabilidad termodinámica de la velocidad emulable. Reconstruida a partir del texto."
+limitaciones:
+  - "Las ecuaciones no se extrajeron fiablemente del PDF; las de la lista son reconstrucciones y deben verificarse."
+  - "Modelo en 1+1 dimensiones para evitar complicaciones matemáticas."
+  - "Hay que romper simetrías espaciales y de inversión temporal y compensar las pérdidas del metamaterial."
+  - "Es un análogo óptico: no resuelve la energía negativa de la burbuja real."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Diseñar un metamaterial no recíproco y bianisótropo que alcance el límite de acoplo."
+  - "Usar el modelo para estudiar en laboratorio la física de una burbuja warp que acelera gradualmente."

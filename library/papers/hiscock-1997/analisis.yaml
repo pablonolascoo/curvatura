@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula el tensor energía-impulso de un campo escalar cuántico conforme en una reducción bidimensional de la métrica de Alcubierre. Encuentra que diverge en el horizonte cuando la velocidad aparente supera la de la luz."
+tipo: solucion
+supuestos:
+  - "Campo escalar sin masa, conformemente invariante y espectador, que no genera la métrica warp."
+  - "Velocidad constante v0 y reducción a 2D sobre el eje de simetría y=z=0."
+  - "Estado cuántico estático y asintóticamente vacío (tipo Boulware), con constantes de integración C1 = C2 + [A'(r0)]^2 = 0."
+resultados:
+  - "Para v0 < 1 el tensor energía-impulso es finito en todas partes."
+  - "Para v0 > 1 aparece un horizonte de sucesos en A(r0) = 0, es decir f(r0) = 1 - 1/v0, y la densidad de energía diverge ahí."
+  - "Ninguna elección de la función de forma f evita la divergencia dominante."
+  - "El horizonte tiene temperatura natural T = v0 f'(r0)/(2π), que no coincide con la del vacío asintótico."
+  - "La reacción de la métrica probablemente impediría alcanzar velocidades aparentes superiores a la de la luz."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+(dx-vf(r)dt)^2+dy^2+dz^2'
+    significado: "Métrica de Alcubierre."
+  - n: 12
+    latex: 'ds^2 = - A(r) d\tau^2 +{1 \over A(r)} dr^2'
+    significado: "Forma estática 2D, con A(r) = 1 - v0^2 (1 - f)^2."
+  - n: 24
+    latex: '\langle\rho\rangle \sim {-(f^{\prime})^2 \over {48 \pi}} \left[ f - \left(1-{1 \over v_0}\right)\right]^{-2}'
+    significado: "Divergencia de la densidad de energía cerca del horizonte."
+  - n: 25
+    latex: 'T_{Hawking} = {\kappa \over {2\pi}} = {A^{\prime}(r_0) \over {4\pi}} = v_0{f^{\prime}(r_0) \over {2\pi}}'
+    significado: "Temperatura natural del horizonte."
+limitaciones:
+  - "Cálculo en dos dimensiones; haría falta uno en cuatro para confirmar la divergencia."
+  - "Solo para velocidad constante y campo escalar conforme."
+  - "Depende del estado de vacío elegido; el autor discute estados regulares pero los ve difíciles de preparar."
+obstaculos: [4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Repetir el cálculo en cuatro dimensiones para ver si la divergencia persiste."
+  - "Estudiar si se puede simular un estado regular en el horizonte, a distancias grandes de la nave."

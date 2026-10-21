@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula el mínimo exacto de energía negativa euleriana que exige la burbuja de Natário de expansión nula. Demuestra una cota inferior con constante 1/4 y la relaciona con un flujo de Stokes entre esferas concéntricas."
+tipo: cota
+supuestos:
+  - "Lapso unidad, rebanada plana, desplazamiento estacionario y de divergencia nula."
+  - "Interior plano de radio R y ajuste exacto a una corriente exterior uniforme de velocidad v en R+Δ."
+  - "Magnitud acotada: la integral de volumen de Lobo y Visser de la densidad de energía euleriana."
+resultados:
+  - "La densidad euleriana es 16πρ_E = -|σ|^2, siempre no positiva, con σ la cizalla."
+  - "Para pared fina, E_min ~ v^2 R^4/(4Δ^3), con constante 1/4 óptima."
+  - "Es dos potencias de R/Δ mayor que la estimación anterior v^2 R^2/Δ, aplicada a Natário y Alcubierre."
+  - "La corriente de retorno por la pared domina la energía: su cizalla tangencial aporta E_perp ~ v^2R^4/Δ^3."
+  - "El minimizador es un flujo de Stokes y tiende a un cúbico de mínima curvatura; el quíntico canónico queda un 43% por encima."
+ecuaciones_clave:
+  - n: 3
+    latex: '16\pi\rho_{\rm E} \;=\; {}^{(3)}R + K^{2} - K_{ij}K^{ij} \;=\; -\,\bigl|\sigma(\mathbf{X})\bigr|^{2}\;\le\;0'
+    significado: "Restricción hamiltoniana: la densidad euleriana es menos la cizalla al cuadrado."
+  - n: 4
+    latex: '\mathcal{E}_{\mathrm{LV}}[\mathbf{X}] \;\equiv\; -\!\int_{\Sigma_t} \rho_{\rm E}\,\mathrm{d}^{3}x'
+    significado: "Energía negativa de Lobo y Visser sobre la rebanada plana."
+  - n: 16
+    latex: '\mathcal{E}_{\mathrm{LV}}\;\ge\; \frac{v^{2}R^{4}}{60\,\Delta^{3}}\, \frac{1}{\bigl(1+\tfrac{\Delta}{2R}\bigr)\bigl(1+\tfrac{\Delta}{R}\bigr)^{2}}'
+    significado: "Cota inferior analítica, válida para todo desplazamiento admisible."
+  - n: 28
+    latex: '\mathcal{E}_{\min} =\frac{v^{2}R^{4}}{\Delta^{3}}\,c_{\min}(q),\qquad c_{\min}(q)=\frac{3qS}{4P}'
+    significado: "Mínimo exacto en forma cerrada para cualquier razón de aspecto q."
+limitaciones:
+  - "Solo vale para lapso unidad, rebanada plana, régimen estacionario y divergencia exactamente nula."
+  - "La cantidad depende de la rebanada y del observador, y no es la masa ADM."
+  - "No fija ecuación de estado ni fuente microscópica, y no aplica a las cáscaras de energía positiva."
+obstaculos: [1, 3, 7, 13]
+relacion:
+  - paper: natario-2002
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "corrige"
+  - paper: alcubierre-1994
+    como: "compara"
+  - paper: santiago-2021
+    como: "compara"
+ideas_abiertas:
+  - "Extender la cota a colas no compactas y a lapso distinto de uno."
+  - "Obtener cotas análogas para cada invariante de curvatura por separado."

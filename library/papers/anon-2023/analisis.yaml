@@ -1,0 +1,25 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone de forma cualitativa que el potencial fractal de la llamada ecuación de McGinty podría contraer y expandir el espaciotiempo como una burbuja warp de tipo Alcubierre."
+tipo: propuesta
+supuestos:
+  - "La ecuación de McGinty incluye un potencial fractal V(y,t') con parámetros V0, L y s."
+  - "Ajustar esos parámetros permitiría deformar el espaciotiempo de forma análoga a una burbuja de Alcubierre."
+  - "Se plantean simulaciones matemáticas y experimentos de laboratorio como vía de verificación."
+resultados:
+  - "El texto afirma que las simulaciones generan regiones locales de compresión y expansión del espaciotiempo al modular V0, L y s."
+  - "Afirma que sostener la burbuja requiere una energía muy grande y que el sistema es sensible a los parámetros."
+  - "Afirma haber observado anomalías espaciales y efectos de dilatación temporal, sin dar cifras ni datos."
+  - "Discute los obstáculos de energía, materia exótica, seguridad y ética."
+ecuaciones_clave: []
+limitaciones:
+  - "No presenta ecuaciones numeradas ni cálculos verificables con la relatividad general."
+  - "Las afirmaciones de simulaciones y detecciones experimentales no incluyen datos, métodos ni cifras."
+  - "No muestra cómo el potencial fractal entra en el tensor de energía-momento ni calcula condiciones de energía."
+  - "Las referencias son sobre todo genéricas y la propia ecuación de McGinty procede de trabajo del mismo autor."
+obstaculos: [1, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Derivar con relatividad general el tensor de energía-momento asociado al potencial fractal."
+  - "Publicar el código y los datos de las simulaciones para poder reproducirlas."

@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Tesis doctoral sobre fenómenos de gravedad análoga en condensados de Bose-Einstein. Un capítulo muestra, con técnicas de gravedad análoga, que las burbujas warp superlumínicas son semiclásicamente inestables por flujo de tipo Hawking."
+tipo: solucion
+supuestos:
+  - "La métrica de Alcubierre se escribe en forma de fluido, como una métrica acústica con velocidad v = v_0 f(r)."
+  - "Aproximación de óptica geométrica para la propagación de rayos en geometrías dinámicas."
+  - "Campo escalar sin masa y tensor de energía-impulso renormalizado calculado en 1+1 dimensiones."
+  - "Creación de la burbuja a partir de Minkowski con un factor de conmutación en la velocidad."
+resultados:
+  - "Una burbuja warp que pasa de espacio plano a velocidad superlumínica desarrolla un horizonte negro y otro blanco."
+  - "Recupera a tiempos tardíos la misma relación exponencial entre coordenadas afines que un colapso gravitatorio, y un observador dentro de la burbuja recibe un flujo tipo Hawking."
+  - "El centro de la burbuja se comporta como la región asintótica de un agujero negro: el término estático de la densidad de energía se anula y solo queda la radiación."
+  - "Cerca del horizonte de Cauchy, la densidad de energía renormalizada diverge a tiempos tardíos."
+  - "Un cálculo numérico confirma estos resultados con un perfil de velocidad a trozos."
+ecuaciones_clave:
+  - n: 5
+    latex: '-(c^2-v^2)\,\dd t^2-2\bv\cdot\dd\bx\,\dd t+\dd\bx\cdot\dd\bx=0'
+    significado: "Cono nulo de una métrica acústica en forma de fluido, la misma estructura que la métrica de Alcubierre."
+  - n: 38
+    latex: '\kappa\equiv\frac{g_{\rm H}}{c_{\rm H}}=\left.\frac{\partial|c-v|}{\partial n}\right|_{\rm H}'
+    significado: "Gravedad superficial del horizonte, que fija la temperatura de la radiación."
+  - n: 45
+    latex: '\dd s^2=\Omega^2\left[-(c^2-v^2)\,\dd t^2-2v\,\dd x\,\dd t+\dd x^2\right]'
+    significado: "Métrica acústica 1+1 que sirve de modelo del warp unidimensional."
+limitaciones:
+  - "El texto de la biblioteca muestra solo las primeras 45 ecuaciones de 567; las del capítulo warp no se pueden citar con su número."
+  - "El cálculo exacto se hace en 1+1 dimensiones con un perfil de velocidad a trozos."
+  - "No se incluye la reacción de la métrica por la energía renormalizada."
+  - "La tesis mezcla temas distintos; solo un capítulo trata la propulsión warp."
+obstaculos: [4, 5, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: finazzi-2009
+    como: "extiende"
+  - paper: everett-1996
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar la reacción de la métrica sobre el warp por la energía renormalizada."
+  - "Reproducir el horizonte warp en un condensado de Bose-Einstein."

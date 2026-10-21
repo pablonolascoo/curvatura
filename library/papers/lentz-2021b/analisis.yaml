@@ -1,0 +1,50 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resume el solitón warp hiperrápido de Lentz con densidad de energía euleriana no negativa y lo sitúa en la literatura. Responde a las críticas sobre su validez y enumera los retos pendientes."
+tipo: revision
+supuestos:
+  - "Espaciotiempos de clase Natário: lapso unidad y 3-métrica plana, con toda la curvatura en el vector de desplazamiento."
+  - "Desplazamiento como gradiente de un potencial phi que satisface una ecuación de onda lineal con fuente rho."
+  - "Dependencia de las fuentes en el plano (x,y) mediante la norma l1 y condición de que los signos de la densidad de fuente y de su gradiente coincidan."
+  - "Unidades G = c = 1."
+resultados:
+  - "El solitón cumple la condición de energía débil incluso a velocidades superlumínicas; es el primer ejemplo con energía positiva."
+  - "La energía total sigue la estimación de Pfenning y Ford: E_tot ~ C v_s^2 R^2 / w, con C de orden uno."
+  - "Para R = 100 m y w = 1 m, la masa equivalente es de unas pocas décimas de masa solar por v_s^2, del mismo orden que un Alcubierre del mismo tamaño."
+  - "Las pruebas de Olum y de Lobo y Crawford sobre la necesidad de violar la condición de energía nula no se aplican, porque sus precondiciones no se cumplen en este solitón."
+  - "La objeción de Santiago y colaboradores no vale, ya que la divergencia total exige suavidad que el solitón no tiene en x = 0 e y = 0."
+ecuaciones_clave:
+  - n: 5
+    latex: '8 \pi E = \frac{1}{2}\left(- K^i_j K^j_i + K^2 \right)'
+    significado: "Restricción hamiltoniana que da la densidad de energía euleriana."
+  - n: 10
+    latex: 'N_i = \partial_i \phi'
+    significado: "Desplazamiento irrotacional reducido a un potencial."
+  - n: 11
+    latex: '\partial_x^2 \phi +\partial_y^2 \phi -\frac{2}{v_h^2} \partial_z^2 \phi = \rho'
+    significado: "Ecuación de onda que define el potencial a partir de la fuente rho."
+  - n: 16
+    latex: 'E = \frac{1}{16 \pi} \left( \partial_i \left(N_i \partial_j N_j - N_j \partial_j N_i \right) - \frac{1}{2} \omega_i \omega_i \right)'
+    significado: "Descomposición de Santiago y colaboradores en divergencia total más término negativo."
+limitaciones:
+  - "El coste energético sigue siendo de masas solares; harían falta decenas de órdenes de magnitud de ahorro."
+  - "Quedan por resolver la condición de energía dominante, los horizontes y un mecanismo de creación."
+  - "El texto es un resumen; las demostraciones completas están en el artículo original de Lentz."
+  - "No se analiza el ciclo completo de creación, aceleración y frenado."
+obstaculos: [1, 4, 7, 13]
+relacion:
+  - paper: lentz-2021
+    como: "extiende"
+  - paper: natario-2002
+    como: "aplica"
+  - paper: pfenning-ford-1997
+    como: "aplica"
+  - paper: olum-1998
+    como: "critica"
+  - paper: bobrick-martire-2021
+    como: "compara"
+  - paper: fell-heisenberg-2021
+    como: "compara"
+ideas_abiertas:
+  - "Modificar los métodos de ahorro de energía conocidos para que cumplan la condición de energía débil."
+  - "Ampliar la clase de Natário para suavizar la geometría y las fuentes."
+  - "Modelar el ciclo completo de vida de un warp físico."

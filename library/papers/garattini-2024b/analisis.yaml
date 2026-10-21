@@ -1,0 +1,46 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Establece una correspondencia entre el agujero de gusano de Morris-Thorne y una métrica warp, que generaliza el resultado de Ellis para Schwarzschild. Concluye que un agujero de gusano transitable por humanos no admite una burbuja warp sin singularidad física, y viceversa."
+tipo: teorema
+supuestos:
+  - "Métrica warp de tipo Natário con lapso N = 1 y vector de desplazamiento N^i, generalizada a curvatura intrínseca no nula."
+  - "Agujero de gusano de Morris-Thorne con condiciones de ensanchamiento, garganta y ausencia de horizonte."
+  - "Burbuja incrustada con función de forma f que vale 1 en el interior y 0 lejos."
+resultados:
+  - "Una transformación análoga a las coordenadas de Painlevé-Gullstrand lleva la métrica de Morris-Thorne a una forma warp con beta = sqrt(1 - e^{2Phi})."
+  - "El factor g(r) es singular en la garganta si el gusano es transitable y no tiene horizonte."
+  - "El escalar de Ricci contiene términos divergentes que no se anulan para f distinta de cero, de modo que la singularidad es real."
+  - "Un gusano con horizonte puede ser atravesado por la burbuja, porque el horizonte no se nota en su interior."
+  - "Un warp esférico, visto como onda entrante o saliente, resulta libre de singularidad pero depende de una función arbitraria lambda."
+ecuaciones_clave:
+  - n: 16
+    latex: '-dT^2+(g(r)dr+\beta(r)dT)^2+r^2d\Omega^2'
+    significado: "Métrica de Morris-Thorne reescrita en forma warp tras la transformación tipo Painlevé-Gullstrand."
+  - n: 17
+    latex: '\beta = \sqrt{1-e^{2\Phi}}'
+    significado: "Función de desplazamiento asociada al corrimiento al rojo del gusano."
+  - n: 18
+    latex: 'g(r) = \frac{e^\Phi}{\sqrt{1-\frac{b}{r}}}'
+    significado: "Factor de forma que diverge en la garganta si no hay horizonte."
+  - n: 22
+    latex: 'N^i=\left(1-f(\vec{r},T)\right)\frac{\beta}{g}\frac{x^i}{r}-f(\vec{r},T)v^i_s(T)'
+    significado: "Vector de desplazamiento tras incrustar la burbuja warp en el fondo del gusano."
+limitaciones:
+  - "El teorema de imposibilidad tiene tres escapatorias: coordenadas modificadas, cirugía del gusano y que la singularidad no implique incompletitud geodésica."
+  - "La función lambda y el corte rho_0 que eliminan la singularidad no tienen significado físico claro."
+  - "No se calcula el tensor de energía-impulso de las configuraciones resultantes."
+  - "No se analiza la estabilidad ni la energía necesaria."
+obstaculos: [1, 4, 8]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: ellis-2004
+    como: "extiende"
+  - paper: morris-thorne-1988
+    como: "aplica"
+  - paper: vandenbroeck-1999
+    como: "compara"
+ideas_abiertas:
+  - "Comprobar si las geodésicas son discontinuas en la intersección entre la cáscara de la burbuja y la garganta."
+  - "Dar significado físico, mediante el tensor de energía-impulso, a las funciones lambda y rho_0."

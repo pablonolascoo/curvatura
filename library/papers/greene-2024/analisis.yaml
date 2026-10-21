@@ -1,0 +1,22 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Afirma haber simulado una burbuja warp con energía positiva, a partir del marco de Lentz, y haber hallado un comportamiento anisótropo que permitiría orientar el campo."
+tipo: simulacion
+supuestos:
+  - "Se parte del marco de Lentz de solución con energía positiva."
+  - "Distribución de energía no uniforme con perfil gaussiano modulado por una onda."
+resultados:
+  - "Muestra figuras del efecto warp en los planos XY, YZ y XZ."
+  - "Declara estabilidad y viabilidad de la burbuja con energía positiva, sin cifras de energía ni de estabilidad."
+  - "Declara menor demanda de energía por el ajuste direccional, sin cuantificarla."
+ecuaciones_clave: []
+limitaciones:
+  - "Texto muy breve: sin derivaciones, sin tensor de energía-momento ni comprobación de condiciones de energía."
+  - "La ecuación del campo usa símbolos (v, ε) que no aparecen en la fórmula; no es una métrica de relatividad general."
+  - "Las afirmaciones de estabilidad y ahorro energético no están respaldadas por datos en el texto."
+obstaculos: [1, 7, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+ideas_abiertas:
+  - "Comprobar con un tensor de energía-momento completo si la burbuja anisótropa cumple las condiciones de energía."
+  - "Reproducir las simulaciones con código abierto y cuantificar la energía."

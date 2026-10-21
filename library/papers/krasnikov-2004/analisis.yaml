@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Cuestiona que las desigualdades cuánticas descarten wormholes y warp drives. Sostiene con un contraejemplo en de Sitter 2D que la desigualdad necesaria para generalizar el argumento falla."
+tipo: critica
+supuestos:
+  - "Campo escalar libre sin masa en el espacio de de Sitter bidimensional, simplemente conexo."
+  - "Se promedia la densidad de energía sobre un intervalo de tiempo propio, con una función de muestreo."
+  - "Estados cuánticos 'razonables' y espacio-tiempos 'razonables' sin definir con más detalle."
+resultados:
+  - "Generalizar el resultado de Ford y Roman exige una desigualdad ligeramente distinta de la original, que además debe valer para todos los estados razonables."
+  - "La nueva desigualdad se rompe incluso en el caso más simple, el campo sin masa en de Sitter 2D."
+  - "Por tanto no hay base para esperar que los atajos requieran densidades de energía de escala de Planck."
+  - "Se argumenta que una gran disparidad de escalas no es en sí un criterio para descartar un espacio-tiempo."
+ecuaciones_clave:
+  - n: 2
+    latex: '-\overline{\rho}\mathcal T^d \lesssim 1'
+    significado: "Forma heurística de la desigualdad cuántica: cota a la energía negativa promediada en un tiempo T."
+  - n: 7
+    latex: '\rho_f(\omega)> -{\mathcal T}^{-d}\quad\qquad\forall\,{\mathcal T}\lesssim\mathcal T_R,\quad\forall\,\text{reasonable } \omega'
+    significado: "Desigualdad necesaria para generalizar a otros espacio-tiempos, válida en escalas menores que la de curvatura."
+  - n: 15
+    latex: 'ds^2=\frac{\alpha^2}{\sin^2(\mu-\nu)}\,\mathrm{d}\mu\mathrm{d}\nu'
+    significado: "Métrica de de Sitter 2D usada en el contraejemplo."
+limitaciones:
+  - "El contraejemplo usa un promedio con función de muestreo no suave; Fewster mostró después que queda fuera del alcance de las desigualdades."
+  - "El caso es bidimensional y sin masa; no cubre directamente el warp en 3+1 dimensiones."
+  - "La conclusión de que estos objetos no son tan poco físicos es cualitativa."
+obstaculos: [3]
+relacion:
+  - paper: ford-roman-1996
+    como: "critica"
+  - paper: pfenning-ford-1997
+    como: "critica"
+  - paper: everett-roman-1997
+    como: "critica"
+ideas_abiertas:
+  - "Determinar qué clase de funciones de muestreo permite un contraejemplo válido."
+  - "Comprobar las cotas cuánticas en espacio-tiempos curvos con 3+1 dimensiones y masa."

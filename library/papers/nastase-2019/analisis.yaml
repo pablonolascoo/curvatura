@@ -1,0 +1,35 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Presenta un modelo con una segunda coordenada temporal compacta que permite viaje superlumínico causal sobre un fondo FLRW, modificando localmente el radio de ese tiempo. Es una prueba de principio, no una construcción."
+tipo: propuesta
+supuestos:
+  - "Espacio-tiempo de 5 dimensiones con un segundo tiempo compactificado y derivadas respecto a él nulas."
+  - "Un campo 3-forma con intensidad F(4) que se acopla al valor esperado m de campos de materia que se supone variable."
+  - "Cuatro postulados físicos sobre el segundo tiempo, derivados de supuestos razonables."
+resultados:
+  - "El aumento de g_{0'0'} cerca de la trayectoria da una violación aparente de Lorentz con v_max^2 - 1 = g_{0'0'}."
+  - "Para un observador en movimiento respecto al sistema cósmico, esa violación vale g_{0'0'}/gamma^2."
+  - "La superluminosidad no puede convertirse en curvas temporales cerradas, al menos para v_max menor o igual que raíz de 2."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-|g_{00}|dt^2-|g_{0^\prime0^\prime}|dt^{\prime 2}+g_{ij}dx^idx^j'
+    significado: "Métrica con dos coordenadas temporales."
+  - n: 39
+    latex: 'v^2_{\rm max}=\frac{d\vec{x}^2}{dt^2}=1+g_{0^\prime0^\prime}\frac{dt^{\prime 2}}{dt^2}=1+g_{0^\prime0^\prime}'
+    significado: "Velocidad máxima aparente en función de la componente del segundo tiempo."
+  - n: 42
+    latex: '\tilde v_{\rm max}^2-1=\frac{g_{0^\prime0^\prime}}{\gamma^2}=\frac{v^2_{\rm max}-1}{\gamma^2}'
+    significado: "Violación aparente de Lorentz vista desde un sistema en movimiento."
+  - n: 2
+    latex: 'S=\frac{M^3_{\rm Pl,5}}{2}\int d^5x \sqrt{+g^{(5)}}R^{(5)}+\frac{M^3}{2}\int d^5x\sqrt{+g^{(5)}}f\left|\frac{1}{4!}F_{(4)MNPQ}F_{(4)}^{MNPQ}-m^2\right|+\int \sqrt{+g^{(5)}} {\cal L}_{\rm matter}'
+    significado: "Acción del modelo con el término de la 3-forma."
+limitaciones:
+  - "No se explica cómo construir un g_{0'0'} macroscópico alrededor de la trayectoria de una nave."
+  - "La ausencia de bucles temporales se demuestra solo para v_max menor o igual que raíz de 2."
+  - "Las implicaciones experimentales se comentan solo de forma cualitativa."
+obstaculos: [1, 4, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Hallar un mecanismo concreto que aumente el valor esperado m de la materia a lo largo de la trayectoria."
+  - "Extender la prueba de causalidad a velocidades máximas mayores que raíz de 2."

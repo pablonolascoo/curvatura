@@ -1,0 +1,27 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Artículo divulgativo, sin matemáticas, que presenta una forma de generar la burbuja warp modificando el tamaño de una dimensión extra. La constante cosmológica local, regulada por esa dimensión, produciría la expansión y la contracción del espacio."
+tipo: propuesta
+supuestos:
+  - "La constante cosmológica procede de la energía de punto cero de los modos de gravitón en dimensiones extra, como en el modelo ADD."
+  - "Se puede alterar localmente el radio de una dimensión extra compacta alrededor de la nave."
+  - "La energía negativa necesaria se asocia a efectos tipo Casimir en esa dimensión compacta."
+resultados:
+  - "Reducir el radio de la dimensión extra hincha el espacio y expandirla lo contrae, por un efecto de cizalladura dimensional; así se obtiene una burbuja expansiva atrás y contractiva delante."
+  - "Estimación temprana: para una nave de 1000 m^3, la propulsión superlumínica costaría unos 10^45 J, comparable a la energía en reposo de Júpiter."
+  - "Con una dimensión extra reducida a la longitud de Planck, el límite de velocidad sería de 10^32 c, aunque alcanzarlo exigiría más energía que la del universo observable."
+  - "Hay una discrepancia entre las predicciones de la relatividad general y de la teoría cuántica de campos sobre el signo de la expansión, que se menciona como tema pendiente."
+ecuaciones_clave: []
+limitaciones:
+  - "Texto de divulgación: las matemáticas están en un artículo previo de los autores en JBIS."
+  - "Las cifras de energía son estimaciones tempranas, sin derivación en este texto."
+  - "No hay mecanismo concreto para variar localmente el radio de una dimensión extra."
+  - "Se reconoce una discrepancia entre las predicciones de relatividad general y de teoría cuántica de campos."
+obstaculos: [1, 3, 9, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: obousy-2007
+    como: "extiende"
+ideas_abiertas:
+  - "Resolver la discrepancia entre relatividad general y teoría cuántica de campos sobre el efecto de la dimensión extra."
+  - "Buscar cómo reducir el coste energético de 10^45 J."

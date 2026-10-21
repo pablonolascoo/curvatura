@@ -1,0 +1,18 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Responde a la objeción de Coule de que la materia del warp debe ser superlumínica, situando el sistema dentro de su propio campo warp. Plantea que la propagación ultrarrápida del campo warp no debe descartarse sin más investigación."
+tipo: propuesta
+supuestos:
+  - "El sistema generador forma parte de la carga útil, dentro de su propio campo warp."
+  - "La objeción de Low limita la velocidad con que un campo warp 'desnudo' se propaga por el fondo."
+resultados:
+  - "Se evita que la materia del warp tenga que ser superlumínica respecto al fondo."
+  - "La propagación de este tipo de onda gravitacional no es un problema trivial."
+  - "La propagación ultrarrápida del campo warp no debería descartarse sin más investigación."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el resumen."
+  - "No se ofrece un cálculo que pruebe la propagación superlumínica del campo."
+obstaculos: [2, 4]
+relacion: []
+ideas_abiertas:
+  - "Estudiar si un campo warp desnudo puede propagarse más rápido que la luz sobre el fondo."

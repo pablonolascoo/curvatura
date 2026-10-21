@@ -1,0 +1,40 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Refuta el supuesto contraejemplo de Krasnikov a las desigualdades cuánticas de energía en el espacio de de Sitter 2D. Demuestra que las cotas de espacio plano valen como aproximación en escalas cortas en cualquier espacio-tiempo 2D globalmente hiperbólico."
+tipo: critica
+supuestos:
+  - "Campo escalar libre, sin masa y con acoplamiento mínimo en espacio-tiempo 2D globalmente hiperbólico."
+  - "Estados de Hadamard y funciones de muestreo suaves, no negativas y de soporte compacto."
+  - "Entornos tipo diamante conformes a todo el espacio de Minkowski."
+resultados:
+  - "La cota absoluta en 2D es: integral de ρ·G ≥ -(1/24π)·∫[G'^2/G + G(a^2 + R)]."
+  - "Para escalas de muestreo τ0 menores que unas 10^-3 veces la escala geométrica, domina el término de espacio plano."
+  - "Krasnikov usó la función característica de un intervalo, que no es suave y queda fuera del alcance de las desigualdades; su cota efectiva es menos infinito."
+  - "Krasnikov calculó mal T_uv: perdió un factor -1/2 y cometió un error algebraico."
+ecuaciones_clave:
+  - n: 1
+    latex: '\int_\gamma \langle T_{ab}(\gamma(\tau))\rangle_\omega u^a u^b G(\tau) d\tau \ge - \frac{1}{24\pi}\int_{-\infty}^\infty \frac{G''(\tau)^2}{G(\tau)} d\tau'
+    significado: "Desigualdad cuántica de energía en Minkowski 2D para el campo sin masa."
+  - n: 5
+    latex: '\int_\gamma \langle T_{ab}(\gamma(\tau))\rangle_\omega u^a u^b G(\tau) d\tau \ge - \frac{1}{24\pi}\int_{-\infty}^\infty \left[\frac{G''(\tau)^2}{G(\tau)} +G(\tau) \left(a^a a_a + R\right)\right] d\tau'
+    significado: "Cota absoluta en espacio-tiempo curvo 2D con correcciones por aceleración y curvatura escalar."
+  - n: 7
+    latex: '\int_\gamma \langle T_{ab}(\gamma(\tau))\rangle_\omega u^a u^b G_{\tau_0}(\tau) d\tau \ge -\frac{A+B}{24\pi}-\frac{C}{24\pi\tau_0^2}'
+    significado: "Con muestreo escalado, el término de espacio plano C/τ0^2 domina cuando τ0 es pequeño."
+  - n: 13
+    latex: '\rho=-\frac{\coth^2 (2\tau/\alpha)}{6\pi\alpha^2}'
+    significado: "Densidad de energía corregida en de Sitter 2D en función del tiempo propio."
+limitaciones:
+  - "El resultado es solo para dimensión 2 y campos sin masa; en dimensión mayor queda un pequeño hueco."
+  - "No resuelve el posible aporte anómalo del estado de referencia en dimensiones superiores."
+  - "No trata directamente el warp drive; sostiene las cotas usadas por Ford y Pfenning."
+obstaculos: [3]
+relacion:
+  - paper: krasnikov-2004
+    como: "critica"
+  - paper: pfenning-ford-1997
+    como: "aplica"
+  - paper: ford-roman-1996
+    como: "aplica"
+ideas_abiertas:
+  - "Cerrar el hueco para dimensión mayor que dos con cotas absolutas explícitas."
+  - "Cuantificar cómo afecta la escala geométrica a las cotas aplicadas a burbujas warp."

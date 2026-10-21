@@ -1,0 +1,22 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisión cualitativa de cuatro estrategias para viajes al espacio profundo: viaje superlumínico con motor warp, hibernación, rejuvenecimiento, naves generacionales y criogenia. Resume ventajas e inconvenientes de cada una en una tabla."
+tipo: revision
+supuestos:
+  - "El viaje a exoplanetas lejanos exige avances en propulsión y en la longevidad humana."
+  - "El motor warp se considera una solución especulativa de las ecuaciones de Einstein, tipo métrica de Alcubierre."
+resultados:
+  - "El motor warp contrae el espacio delante y lo expande detrás; la nave no sufre dilatación temporal y no viola la relatividad."
+  - "Ventajas citadas: sin escombros espaciales y sin límite de velocidad. Inconvenientes: no hay forma conocida de crear la distorsión, se requieren energías enormes y no hay modo de entrar o salir de la burbuja."
+  - "Hibernación, rejuvenecimiento, naves generacionales y criogenia se presentan con sus riesgos fisiológicos, éticos y de coste."
+ecuaciones_clave: []
+limitaciones:
+  - "Texto divulgativo sin cálculos ni ecuaciones sobre el motor warp."
+  - "Trata el warp en un solo apartado breve y sin análisis cuantitativo de energía."
+  - "Gran parte del contenido es biomédico y queda fuera del ámbito de la física de curvatura."
+obstaculos: [1]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Combinar propulsión avanzada con tecnologías de estasis y rejuvenecimiento para misiones interestelares."
+  - "Cómo entrar y salir de una burbuja warp, citado como problema abierto."

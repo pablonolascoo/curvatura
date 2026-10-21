@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa el estado de la propulsión warp, según indica el título. No hay más texto disponible."
+tipo: revision
+supuestos:
+  - "Se parte de las métricas warp existentes."
+resultados:
+  - "Sin resultados verificables en el contexto: solo se dispone del título."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título: sin resumen ni texto."
+  - "El tipo asignado es una conjetura a partir del título."
+obstaculos: []
+relacion: []
+ideas_abiertas:
+  - "Contrastar su estado del arte con la literatura posterior."

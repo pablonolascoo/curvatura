@@ -1,0 +1,32 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estima dos obstáculos para una nave dentro de una burbuja de Alcubierre superlumínica: la presión de polvo y fotones interestelares y la fuerza de distorsión por la curvatura."
+tipo: solucion
+supuestos:
+  - "Métrica de Alcubierre con velocidad aparente v_s constante y nave dentro de la burbuja."
+  - "Polvo interestelar y fotones tratados como partículas que siguen las geodésicas de la métrica."
+  - "Gravedad clásica, sin efectos cuánticos."
+resultados:
+  - "La presión por colisión con fotones y partículas de polvo crece de forma proporcional a v_s."
+  - "La fuerza de distorsión tiene una componente radial que escala como v_s^2 y una longitudinal que escala como v_s^4."
+  - "La distorsión se minimiza colocando la nave en el centro de la burbuja."
+  - "La presión de colisión es subdominante frente a la fuerza de distorsión."
+ecuaciones_clave: []
+limitaciones:
+  - "No se estudia la estabilidad cuántica ni clásica de la burbuja."
+  - "Se supone velocidad de burbuja constante; no se tratan aceleraciones."
+  - "No se consideran otras formas de materia, como materia oscura o energía oscura."
+  - "El contexto no incluye la lista de ecuaciones, por eso no se citan."
+obstaculos: [2, 10]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: mcmonigal-2012
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+ideas_abiertas:
+  - "Estudiar burbujas con velocidad variable y sus aceleraciones."
+  - "Analizar la colisión cuando la nave no está en el centro."
+  - "Comprobar la estabilidad clásica y cuántica de la burbuja con estas fuerzas."

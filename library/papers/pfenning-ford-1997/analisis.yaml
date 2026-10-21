@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Aplica las desigualdades cuánticas a la métrica de Alcubierre y deduce que la pared de la burbuja debe ser muy fina, de unos cientos de longitudes de Planck. La energía negativa total necesaria resulta físicamente inalcanzable."
+tipo: cota
+supuestos:
+  - "Desigualdad cuántica de Ford y Roman para un campo escalar sin masa en Minkowski, aplicada a observadores con tiempo de muestreo menor que el radio de curvatura local."
+  - "Burbuja de velocidad aproximadamente constante durante el muestreo y observador geodésico que cruza el ecuador de la burbuja."
+  - "Función de forma aproximada por tramos con pared de grosor Delta, suficiente para estimar órdenes de magnitud."
+resultados:
+  - "El grosor de la pared queda acotado por Delta menor o igual que unas 10^2 v_b longitudes de Planck para alpha = 1/10."
+  - "Para una burbuja de 100 m de radio, la energía negativa total es al menos 6.2e65 v_b gramos, unas 3e20 masas galácticas por v_b, unos diez órdenes de magnitud sobre la masa del universo visible."
+  - "Con pared de 1 m, ignorando la desigualdad, la energía sería de un cuarto de masa solar."
+  - "Una burbuja del tamaño de la longitud de onda Compton del electrón requeriría del orden de -400 masas solares."
+  - "Para el campo electromagnético, la pared puede ser un factor raíz de 2 más gruesa; para campos masivos, aún más fina."
+ecuaciones_clave:
+  - n: 8
+    latex: '\langle T^{\mu\nu}u_\mu u_\nu\rangle = \langle T^{00} \rangle = {1\over 8\pi}G^{00} = -{1\over 8\pi}{v_s^2(t) \rho^2 \over 4 r_s^2(t) }\left(d f(r_s)\over dr_s\right)^2'
+    significado: "Densidad de energía negativa de la burbuja de Alcubierre para el observador euleriano."
+  - n: 9
+    latex: '{\tau_0\over\pi}\int_{-\infty}^\infty {{\langle T_{\mu\nu}u^\mu u^\nu\rangle}\over{\tau^2 + \tau_0^2}}d\tau\geq -{3\over{32\pi^2 \tau_0^4}}'
+    significado: "Desigualdad cuántica de Ford y Roman para campo escalar sin masa."
+  - n: 23
+    latex: '\Delta \leq 10^2\, v_b\; L_{Planck}'
+    significado: "Cota al grosor de la pared de la burbuja."
+  - n: 27
+    latex: 'E = - {1\over 12} v_b^2\left( {R^2 \over\Delta}+{\Delta\over 12}\right)'
+    significado: "Energía total negativa en la pared para la función de forma por tramos."
+limitaciones:
+  - "Estimación de orden de magnitud con función de forma aproximada y un parámetro libre alpha."
+  - "La desigualdad cuántica se extrapola a un espacio-tiempo curvo mientras el muestreo sea menor que el radio de curvatura."
+  - "Se supone un campo escalar cuantizado como fuente de la energía negativa."
+obstaculos: [3, 1, 9]
+relacion:
+  - paper: alcubierre-1994
+    como: "critica"
+  - paper: ford-roman-1996
+    como: "aplica"
+ideas_abiertas:
+  - "Buscar geometrías de burbuja que reduzcan la energía total manteniendo la desigualdad cuántica."
+  - "Estudiar burbujas microscópicas, donde la diferencia de escalas es menor."

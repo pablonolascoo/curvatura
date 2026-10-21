@@ -1,0 +1,33 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Modifica la métrica de Alcubierre con un factor conforme B(r) que da una burbuja de superficie microscópica y volumen interior grande. Reduce la energía negativa total a unas pocas masas solares y respeta la desigualdad cuántica."
+tipo: solucion
+supuestos:
+  - "Métrica ds^2 = -dt^2 + B^2(r_s)[(dx - v_s f dt)^2 + dy^2 + dz^2] con velocidad v_s constante y lapso 1."
+  - "B es dos veces diferenciable, igual a 1 + alpha en el interior, y vale 1 fuera; el grosor de la pared no baja de unas 100 longitudes de Planck por la desigualdad cuántica."
+  - "Valores elegidos: alpha = 10^17, radio de la burbuja de unos 3e-15 m y un bolsillo interior de 200 m de diámetro."
+  - "Energía medida por observadores eulerianos integrada sobre la hipersuperficie t = 0, como en Pfenning y Ford."
+resultados:
+  - "La energía en la pared de la burbuja (región IV) es de unos 6,3e29 v_s kg, mucho menor que los 10^62 kg de un Alcubierre macroscópico."
+  - "En la región de transición II, con n = 80, la energía negativa es de unos -1,4e30 kg y la positiva de 4,9e30 kg, es decir, unas pocas masas solares."
+  - "La masa negativa total es del orden de unas pocas masas solares, con una cantidad comparable de energía positiva."
+  - "La nueva geometría cumple la desigualdad cuántica y conserva las ventajas de la de Alcubierre."
+  - "Con esto el warp drive pasa a la escala de masa de los agujeros de gusano atravesables grandes."
+ecuaciones_clave: []
+limitaciones:
+  - "Las ecuaciones no se extrajeron bien del texto, por eso no se listan."
+  - "Persisten el problema de la energía que se mueve de forma taquiónica y la energía negativa de la pared."
+  - "Los parámetros elegidos son arbitrarios, con detalles a escala de femtómetros y cerca de la longitud de Planck."
+  - "El propio autor señala inconvenientes de la nueva geometría en la última sección."
+obstaculos: [1, 3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "corrige"
+  - paper: pfenning-ford-1997
+    como: "corrige"
+  - paper: krasnikov-1998
+    como: "compara"
+  - paper: everett-roman-1997
+    como: "compara"
+ideas_abiertas:
+  - "Modificar la geometría para eliminar la energía que se mueve a velocidad taquiónica."
+  - "Reducir aún más la energía y la masa negativa de la región de transición."

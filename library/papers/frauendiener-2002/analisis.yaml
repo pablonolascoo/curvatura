@@ -1,0 +1,31 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la estabilidad numérica de discretizaciones de sistemas axisimétricos, incluido el método cartoon de Alcubierre y colaboradores. Ofrece una guía para descartar discretizaciones inestables."
+tipo: simulacion
+supuestos:
+  - "Método de líneas con integradores temporales habituales y ecuación de ondas axisimétrica lineal en espacio plano."
+  - "Simetría axial tratada con el grupo de rotaciones y condiciones de simetría sobre los tensores."
+  - "Estabilidad juzgada por el espectro de las matrices de la discretización frente a las regiones de estabilidad del integrador."
+resultados:
+  - "Las discretizaciones tienden a ser inestables salvo que el término derivado y el término 1/x se traten de forma compatible."
+  - "La aparición de asas y valores propios aislados en el espectro indica un esquema malo, con modos de malla que se inestabilizan."
+  - "El método cartoon equivale a implementar la axisimetría en coordenadas adaptadas, con la ventaja de extenderse fácilmente a 3D."
+  - "Los esquemas 1c y 3a funcionan bien con la ecuación de ondas, pero producen inestabilidades lentas con las ecuaciones conformes cuasilineales."
+ecuaciones_clave:
+  - n: 6
+    latex: '{\mathcal L}_\xi T = 0'
+    significado: "Condición de axisimetría: la derivada de Lie del tensor a lo largo del campo de Killing es nula."
+  - n: 7
+    latex: '\dot T = F(\partial_a T,T,t,\mathbf{x})'
+    significado: "Forma general del sistema de evolución al que se aplica el método de líneas."
+  - n: 8
+    latex: 'T(\mathbf{x}) = T(g\cdot\mathbf{x})'
+    significado: "Invariancia del campo bajo la acción del grupo de rotaciones."
+limitaciones:
+  - "No es una solución definitiva; sirve para descartar esquemas, no para fijar uno óptimo."
+  - "El análisis del espectro es lineal; las inestabilidades no lineales pueden aparecer más tarde."
+  - "No trata el warp drive ni energía exótica; es una referencia numérica para código axisimétrico."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Buscar esquemas cuyos valores propios tengan parte real nula exacta, no solo hasta el redondeo."
+  - "Probar los esquemas con las ecuaciones de campo conformes completas."

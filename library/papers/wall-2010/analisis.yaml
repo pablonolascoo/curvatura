@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Usa la segunda ley generalizada de la termodinámica (GSL) para demostrar un teorema de singularidades cuántico, con la noción de superficie atrapada cuántica. Excluye también los motores warp asintóticos, los agujeros de gusano atravesables y las masas negativas."
+tipo: teorema
+supuestos:
+  - "Espaciotiempo globalmente hiperbólico, con aproximación semiclásica solo en regiones de baja curvatura."
+  - "La GSL en su versión de grano fino, S_gen = A/(4ħG) + S_out, se toma como premisa en vez de la condición de energía nula."
+  - "Motor warp asintótico: región compacta D cuya propagación de luz se adelanta en tiempo finito respecto a los rayos que la rodean."
+resultados:
+  - "El espaciotiempo es nulamente geodésicamente incompleto dentro de agujeros negros y en universos FRW espacialmente infinitos."
+  - "En espaciotiempos asintóticamente planos, la GSL prohíbe motores warp, agujeros de gusano atravesables, masas ADM negativas y curvas temporales cerradas."
+  - "Un objeto de masa negativa produciría un adelanto de Shapiro y serviría como motor warp, por lo que queda excluido."
+  - "Para soluciones asintóticamente de Schwarzschild en 4D, masa positiva implica que no hay motor warp, por el retraso de Shapiro logarítmicamente divergente."
+  - "Se incluye una demostración de la segunda ley ordinaria de grano grueso."
+ecuaciones_clave:
+  - n: 1
+    latex: 'T_{ab} k^a k^b \ge 0'
+    significado: "Condición de energía nula, que la GSL sustituye como premisa."
+  - n: 8
+    latex: 'S_\mathrm{gen} = S_{\mathrm{H}} + S_\mathrm{out}'
+    significado: "Entropía generalizada: horizonte más exterior."
+  - n: 9
+    latex: 'S_{\mathrm{H}} = \frac{A}{4 \hbar G}'
+    significado: "Entropía del horizonte en función del área."
+  - n: 17
+    latex: '\theta^{(M)} \ge \theta^{(N)}'
+    significado: "Monotonía de la expansión de la superficie atrapada cuántica."
+limitaciones:
+  - "La GSL solo está demostrada en regímenes limitados, y podrían formularse otras versiones."
+  - "Exige globalmente hiperbólico y planitud asintótica nula; contraejemplos como la burbuja de nada de Kaluza-Klein quedan fuera."
+  - "La extensión a gravedad cuántica completa es especulativa."
+obstaculos: [1, 3, 4]
+relacion:
+  - paper: olum-1998
+    como: "extiende"
+  - paper: graham-2007
+    como: "compara"
+  - paper: wall-2009
+    como: "extiende"
+ideas_abiertas:
+  - "Comprobar si el teorema se mantiene en una teoría completa de gravedad cuántica."
+  - "Estudiar casos con planitud asintótica nula débil, donde fallan las hipótesis."

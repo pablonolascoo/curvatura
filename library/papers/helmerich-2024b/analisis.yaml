@@ -1,0 +1,50 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Presenta Warp Factory, una herramienta en MATLAB que resuelve las ecuaciones de Einstein sobre una malla, evalúa condiciones de energía y escalares, y optimiza métricas warp con un algoritmo genético."
+tipo: simulacion
+supuestos:
+  - "Las ecuaciones de campo se resuelven con diferencias finitas centrales de segundo y cuarto orden sobre una malla espaciotemporal, en CPU o GPU."
+  - "Las métricas se parametrizan con lapso, desplazamiento, términos espaciales y de cizalladura (formalismo 6+4)."
+  - "El tensor de energía-momento se transforma al sistema euleriano y las condiciones de energía se evalúan con observadores nulos y temporales."
+  - "La optimización perturba la métrica con gaussianas aleatorias (Monte Carlo) y un algoritmo genético, usando la violación de la NEC como función de aptitud."
+resultados:
+  - "La métrica de Lentz, propuesta como libre de violaciones de la WEC, sigue violándola al analizarla sobre el espacio de observadores temporales."
+  - "La violación de las condiciones viene de la densidad de energía negativa euleriana o de presiones y momentos mayores que la densidad."
+  - "Comprobar solo que la densidad euleriana no sea negativa no basta para decidir si una métrica es física."
+  - "El volumen de pasajeros influye poco en la energía necesaria y en las violaciones."
+  - "En un ejemplo con Alcubierre (radio de pasajeros 20 m, 0,5c, sigma 0,1) la aptitud pasa de 7,2e44 a 2,1e44, una mejora de un factor 3."
+ecuaciones_clave:
+  - n: 8
+    latex: '\rho_E = T_{\mu\nu}n^\mu n^\nu'
+    significado: "Densidad de energía medida por el observador euleriano."
+  - n: 17
+    latex: '\nu_{NEC}(\textbf{X}) = T_{ab}(\textbf{X}) k^a k^b \ge 0'
+    significado: "Condición de energía nula evaluada en cada punto con vectores nulos."
+  - n: 20
+    latex: '\rho_{WEC}(\textbf{X}) = T_{ab}(\textbf{X}) X^a X^b \ge 0'
+    significado: "Condición de energía débil con vectores temporales."
+  - n: 24
+    latex: '\theta_{\mu\nu} = P^\alpha_\mu P^\beta_\nu \nabla_{(\alpha} U_{\beta)}'
+    significado: "Tensor de expansión asociado al campo de observadores definido por el lapso y el desplazamiento."
+limitaciones:
+  - "Solo implementa las condiciones de energía nula y débil, no la dominante ni la fuerte."
+  - "La optimización es costosa y los resultados mostrados son una demostración, no una solución física."
+  - "Los resultados dependen de la resolución de la malla y de la precisión del esquema de diferencias finitas."
+  - "Las comparaciones de las métricas conocidas son numéricas, no demostraciones analíticas."
+obstaculos: [1, 12, 13]
+relacion:
+  - paper: bobrick-martire-2021
+    como: "aplica"
+  - paper: santiago-2022
+    como: "compara"
+  - paper: lentz-2021
+    como: "critica"
+  - paper: vandenbroeck-1999
+    como: "aplica"
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: natario-2002
+    como: "compara"
+ideas_abiertas:
+  - "Implementar las condiciones de energía dominante y fuerte."
+  - "Usar el módulo de optimización para buscar métricas con menos violación de la NEC y menos masa."
+  - "Muestrear todos los observadores nulos y temporales en cualquier análisis de la fisicalidad de una métrica."

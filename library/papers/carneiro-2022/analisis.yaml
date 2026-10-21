@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la conservación de la energía total del espaciotiempo de Alcubierre en el equivalente teleparalelo de la relatividad general (TEGR). Sostiene que la energía total, gravitatoria más fuente, se conserva y que la energía negativa depende del observador."
+tipo: solucion
+supuestos:
+  - "Teleparalelismo (TEGR) con una tétrada que define el observador, tanto estático como en caída libre."
+  - "Métrica de Alcubierre con función de forma f_s(r_s), por ejemplo tanh o gaussiana."
+  - "Se incluye el flujo de energía del propio campo gravitatorio en el balance."
+resultados:
+  - "La energía total (campo gravitatorio más fuente) se conserva incluso con movimiento acelerado."
+  - "La energía y el flujo gravitatorio dependen del sistema de referencia, estático o en caída libre."
+  - "Un observador estático mide energía positiva de la fuente; el euleriano, negativa."
+  - "Los autores sugieren que la energía negativa puede ser un problema de referencia."
+ecuaciones_clave:
+  - n: 13
+    latex: '\partial_{\lambda}\left[ee^{a}\,_{\mu}\left(t^{\lambda\mu}+T^{\lambda\mu}\right)\right]=0'
+    significado: "Ley de conservación de la energía-momento total, gravitatoria más materia, en TEGR."
+  - n: 20
+    latex: 'ds^{2}=\big(f_{s}^{2}v_{s}^{2}-1\big) \, dt^{2}+dx^{2}+dy^{2}+dz^2-2f_{s}v_{s}dtdz'
+    significado: "Métrica de Alcubierre."
+  - n: 25
+    latex: 'T^{00}=2kG^{00}=-\frac{k}{2}\rho^{2} v_{s}^{2} \left(\frac{f^{\prime}_{s}}{r_{s}}\right)^{2}\leq 0'
+    significado: "Densidad de energía de la fuente en el sistema euleriano, siempre negativa."
+  - n: 15
+    latex: 'P^{a}\equiv\int_{V}{d^{3}x\,ee^{a}\,_{\mu}\left(t^{0\mu}+T^{0\mu}\right)}'
+    significado: "Cuadrimomento total del volumen V."
+limitaciones:
+  - "El resultado depende de la elección de tétrada, y TEGR no es invariante bajo cambios de tétrada."
+  - "Los propios autores aceptan que solo un observador estático da medidas fiables."
+  - "No resuelve el problema de la fuente física ni el de las condiciones de energía en relatividad general."
+obstaculos: [1, 2, 3, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: santiago-2021
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "compara"
+ideas_abiertas:
+  - "Aclarar qué observador mide la energía física relevante en una burbuja acelerada."
+  - "Aplicar el balance teleparalelo a las burbujas de Natário y de energía positiva."

@@ -1,0 +1,48 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Descompone el vector de desplazamiento en parte irrotacional y solenoidal y da una interpretación geométrica de la energía euleriana. Con ella construye un solitón superlumínico con densidad de energía euleriana positiva y semidefinida."
+tipo: solucion
+supuestos:
+  - "Espacio-tiempo globalmente hiperbólico con foliación 3+1, métrica espacial plana y lapso unidad."
+  - "Desplazamiento N = gradiente de un potencial phi más un campo solenoidal omega."
+  - "Potencial phi de clase C2 al menos, para evitar discontinuidades no físicas."
+  - "Se parte de la geometría y se calcula la fuente mediante las ecuaciones de Einstein; no se modela la materia."
+resultados:
+  - "Para la parte irrotacional la densidad euleriana es una suma de menores 2x2 de la hessiana de phi, y es positiva si no hay puntos de silla muy curvados."
+  - "Se presenta una configuración superlumínica con energía euleriana positiva semidefinida y momento euleriano nulo."
+  - "La energía máxima estimada es del orden de 3,2 x 10^26 kg/m^3 y la total de unos 9,25 x 10^43 J."
+  - "La energía total es cuatro órdenes de magnitud menor que la energía en reposo del Sol (1,78 x 10^47 J)."
+  - "La condición de energía débil completa se viola en regiones compactas por los momentos principales, y la dominante también."
+ecuaciones_clave:
+  - n: 11
+    latex: '\vec{N}(x,y,z)=\vec{\partial}\phi(x,y,z)+\vec{\omega}(x,y,z)'
+    significado: "Descomposición del desplazamiento en parte irrotacional y solenoidal."
+  - n: 13
+    latex: '16\pi\rho=2(h_1+h_2+h_3)-2\langle\mathcal{J},\mathcal{H}\rangle_F-\langle\mathcal{J},\mathcal{J}\rangle_F+\frac{1}{2}|\vec{\nabla}\times\vec{\omega}|^2'
+    significado: "Densidad de energía euleriana en función de la hessiana de phi y del jacobiano de omega."
+  - n: 19
+    latex: '8\pi\rho=h_1+h_2+h_3,\quad \vec{p}=0'
+    significado: "Caso irrotacional: energía dada por menores de la hessiana y momento nulo."
+  - n: 20
+    latex: 'h_1+h_2+h_3\geq 0'
+    significado: "Condición de energía euleriana no negativa."
+limitaciones:
+  - "La condición de energía débil completa se viola en regiones compactas de la distribución."
+  - "La densidad máxima es astronómica y probablemente colapsaría en un agujero negro."
+  - "No se resolvió la ecuación en derivadas parciales no lineal; no se estudia la fuente material."
+  - "No se resuelven los horizontes ni los problemas de causalidad, y la nave solo sería superlumínica si se controla la distribución de energía."
+obstaculos: [1, 4, 7, 13]
+relacion:
+  - paper: lentz-2021
+    como: "extiende"
+  - paper: natario-2002
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: debenedictis-2018
+    como: "compara"
+  - paper: hiscock-1997
+    como: "compara"
+ideas_abiertas:
+  - "Construir un solver específico para la ecuación no lineal del sector irrotacional."
+  - "Buscar configuraciones que minimicen la energía maximizando el desplazamiento central."
+  - "Encontrar una fuente material física que genere la configuración."

@@ -17,7 +17,7 @@ source: https://arxiv.org/abs/2301.09410
 language: en
 subsystems: [E]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: [es, fr]
 verified: true

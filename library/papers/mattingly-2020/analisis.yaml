@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula y representa los invariantes de curvatura de las métricas de Alcubierre y Natário a velocidad constante. Al no depender de coordenadas, muestran la estructura geométrica de la burbuja sin distorsiones de mapeo."
+tipo: simulacion
+supuestos:
+  - "Warp drives de Alcubierre y de Natário a velocidad constante."
+  - "Invariantes de curvatura calculados con el formalismo de Newman-Penrose y la base nula de cada métrica."
+  - "Función de forma tipo tanh con parámetros de velocidad, grosor de pared (σ) y radio (ρ)."
+resultados:
+  - "Los invariantes no tienen singularidades de curvatura en ninguna de las dos geometrías."
+  - "En ambos casos hay un 'puerto seguro' interior y un espacio asintóticamente plano fuera."
+  - "En r = ρ los invariantes presentan máximos o mínimos locales que marcan la pared de la burbuja."
+  - "En Alcubierre la burbuja aparece como dos valles de estructura sencilla; en Natário, con picos y estructura interna rica."
+  - "El Natário a velocidad constante no tiene estela ni curvatura constante; serían rasgos del caso acelerado."
+ecuaciones_clave:
+  - n: 5
+    latex: 'ds^2=-dt^2+(dx-v_s f(r_s)\,dt)^2+dy^2+dz^2'
+    significado: "Métrica de Alcubierre."
+  - n: 6
+    latex: 'f(r_s)=\frac{\tanh\sigma(r_s+\rho)-\tanh\sigma(r_s-\rho)}{2\tanh\sigma\rho}'
+    significado: "Función de forma de la burbuja."
+  - n: 3
+    latex: 'ds^2=-dt^2+\sum_{\alpha=1}^{3}(dx^\alpha-X^\alpha dt)^2'
+    significado: "Forma general de Natário con campo vectorial X."
+limitaciones:
+  - "Solo velocidad constante; no se estudia la aceleración."
+  - "No se calculan densidades de energía ni condiciones de energía."
+  - "La ausencia de singularidades de curvatura no prueba que no haya horizonte causal."
+obstaculos: [4, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: natario-2002
+    como: "aplica"
+ideas_abiertas:
+  - "Repetir el análisis con velocidad variable para ver la estela del Natário acelerado."
+  - "Buscar una transformación de coordenadas que quite la discontinuidad causal."

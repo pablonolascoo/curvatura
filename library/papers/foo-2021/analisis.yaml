@@ -1,0 +1,36 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Deduce la velocidad y las trayectorias bohmianas relativistas de fotones en un interferómetro Michelson-Sagnac mediante medidas débiles. Propone una métrica de Alcubierre modificada que reproduciría esas trayectorias."
+tipo: propuesta
+supuestos:
+  - "Mecánica bohmiana de una sola partícula con aproximación óptica, frecuencia mucho mayor que la anchura del paquete de ondas (k0 >> sigma)."
+  - "Fotón descrito por la ecuación de Klein-Gordon con densidad positiva en ese régimen."
+  - "Velocidad definida operacionalmente como cociente de valores débiles de momento y energía."
+resultados:
+  - "La ecuación de velocidad cumple la continuidad cuántica y la regla relativista de adición de velocidades."
+  - "En zonas de interferencia destructiva la velocidad coordenada del fotón puede superar c o anularse, con inversión de sentido."
+  - "Se propone una métrica de Alcubierre en 1+1 dimensiones donde v_s depende del cociente de corriente y densidad de Klein-Gordon, de modo que la velocidad de la luz coordenada coincide con la bohmiana."
+  - "Cuando la densidad de Klein-Gordon se vuelve negativa aparecen trayectorias hacia atrás en el tiempo, coherentes con esa negatividad."
+ecuaciones_clave:
+  - n: 10
+    latex: 'V(x,t) = \frac{j_{K}(x,t)}{\rho_{K} (x,t)}'
+    significado: "Velocidad bohmiana relativista como cociente de la corriente y la densidad de Klein-Gordon."
+  - n: 13
+    latex: "V'(x,t) = \\frac{V(x,t) - v}{1 - v V(x,t)}"
+    significado: "Regla relativista de adición de velocidades para la velocidad bohmiana."
+  - n: 26
+    latex: 'ds^2 = - (1 - v_s^2) dt^2 - 2 v_s dx dt + dx^2'
+    significado: "Métrica de Alcubierre en 1+1 dimensiones usada para reproducir las trayectorias."
+  - n: 27
+    latex: 'v_s = \left( \left| \frac{j_{K}}{\rho_{K}} \right| - 1 \right) \text{sgn} \left( \frac{j_{K}}{\rho_{K}} \right)'
+    significado: "Velocidad de la burbuja que hace que la velocidad coordenada de la luz sea j_K/rho_K."
+limitaciones:
+  - "La teoría de una partícula es válida solo en la aproximación óptica; fuera de ella haría falta una teoría de campos bohmiana."
+  - "La métrica se propone como analogía en 1+1 dimensiones; no se calcula la materia exótica necesaria."
+  - "El trabajo no trata la propulsión warp; la métrica sirve para interpretar trayectorias cuánticas."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Extender la teoría a campos bohmianos con número de partículas no conservado."
+  - "Estudiar el significado físico de las trayectorias hacia atrás en el tiempo."

@@ -1,0 +1,15 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Según el título, propone un warp drive con expansión nula. No hay resumen ni texto disponible."
+tipo: solucion
+supuestos:
+  - "Según el título, la métrica propuesta tiene expansión nula del volumen."
+resultados:
+  - "No se pueden extraer resultados: el contexto solo trae el título."
+ecuaciones_clave: []
+limitaciones:
+  - "Ficha hecha solo con el título; el texto no estaba disponible."
+  - "No se puede comprobar el contenido frente al artículo publicado de Natário de 2002."
+obstaculos: [1, 13]
+relacion: []
+ideas_abiertas:
+  - "Comparar este preprint con la versión publicada de 2002."

@@ -1,0 +1,37 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia la dinámica hamiltoniana de una nave en las métricas de Alcubierre y de Gödel. Deriva los campos vectoriales hamiltonianos, los operadores de recursión y las simetrías maestras que generan constantes del movimiento."
+tipo: solucion
+supuestos:
+  - "Nave tratada como partícula de prueba con hamiltoniano geodésico H = (1/2) g^{mu nu} p_mu p_nu en la métrica de Alcubierre."
+  - "Variables canónicas (q, p) con la forma simpléctica estándar y límite de sombrero de copa de f(r_s) cuando sigma tiende a infinito."
+  - "Se usa el teorema de De Filippo y colaboradores sobre operadores de recursión de torsión de Nijenhuis nula para la integrabilidad."
+resultados:
+  - "Se obtienen el hamiltoniano, su campo vectorial y la ecuación de Hamilton-Jacobi separable con soluciones explícitas para la acción W."
+  - "Con parametrizaciones adecuadas, la nave obedece la misma dinámica en Alcubierre y en Gödel; solo cambia la relación entre coordenadas originales y nuevas."
+  - "Se construyen operadores de recursión que generan las constantes del movimiento."
+  - "Se demuestra una estructura bi-hamiltoniana y se calculan cantidades conservadas con simetrías maestras."
+  - "El hamiltoniano permanece constante a lo largo de las trayectorias, lo que expresa la conservación de la energía."
+ecuaciones_clave:
+  - n: 7
+    latex: 'ds^{2} = - dt^{2} + (dx - v_{s}f(r_{s})dt)^{2} + dy^{2} + dz^{2}'
+    significado: "Métrica de Alcubierre de partida."
+  - n: 16
+    latex: '\mathcal{H}_{A} =\frac{1}{2}\left( -p_{1}^{2} - v_{s}p_{1}p_{2} + (1 - v_{s}^{2})p_{2}^{2} + p_{3}^{2} + p_{4}^{2} \right)'
+    significado: "Hamiltoniano de la nave en la métrica con f = 1."
+  - n: 23
+    latex: 'E = \frac{1}{2}\left\{-\left(\frac{\partial W}{\partial q^{1}}\right)^{2} - 2v_{s}\frac{\partial W}{\partial q^{1}}\frac{\partial W}{\partial q^{2}} + (1 - v_{s}^{2})\left(\frac{\partial W}{\partial q^{2}}\right)^{2} + \cdots\right\}'
+    significado: "Ecuación de Hamilton-Jacobi estacionaria separable."
+  - n: 2
+    latex: 'T = \sum_{i =1}^{n}x_{i}\left(\frac{\partial}{\partial{x_{i}}} \otimes dx_{i} + \frac{\partial}{\partial{x_{n+i}}} \otimes dx_{n+i}\right)'
+    significado: "Forma general del operador de recursión en R^{2n}."
+limitaciones:
+  - "Análisis matemático de una partícula de prueba; no aborda la materia que sostiene la geometría ni la energía necesaria."
+  - "Usa el límite de sombrero de copa (f = 1 dentro de la burbuja) y no el perfil suave completo."
+  - "No conecta los resultados con condiciones de energía ni con la viabilidad física del warp."
+obstaculos: []
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Extender los resultados mediante el corchete de Poisson generalizado y los campos bi-hamiltonianos propuestos."
+  - "Aplicar el método a otras métricas warp con perfiles suaves."

@@ -1,0 +1,33 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Analiza las ecuaciones ADM linealizadas para explicar los modos de calibre seculares que Alcubierre y Schutz hallaron al evolucionar ondas numéricamente. Muestra cómo surgen de los datos iniciales y de los errores de ligadura y cómo se controlan."
+tipo: solucion
+supuestos:
+  - "Ecuaciones 3+1 (ADM) del vacío linealizadas en torno al espacio plano, con lapso 1 y desplazamiento nulo."
+  - "Perturbación h_ab descompuesta en parte transversa y sin traza, parte longitudinal y traza independiente."
+  - "Datos que decaen en el infinito mediante condición de contorno mixta y sin singularidades en el dominio."
+resultados:
+  - "La traza de la perturbación solo surge de modos longitudinales y crece como h = a(x) + b(x) t, lo que reproduce los modos crecientes de Alcubierre y Schutz."
+  - "Las componentes transversas sin traza obedecen una ecuación de ondas sin fuente y viajan a velocidad uno; las longitudinales tienen velocidad cero."
+  - "La curvatura extrínseca sin traza se escribe como una onda más un término fijado por la traza K mediante el operador inverso del laplaciano."
+  - "Los modos de calibre y de error de ligadura aparecen de forma directa y quedan controlados en cualquier discretización convergente y bien planteada."
+ecuaciones_clave:
+  - n: 3
+    latex: 'R = 0, \quad \dot{h} = -2K, \quad \dot{K} = R'
+    significado: "Sistema linealizado de ligaduras y evolución con lapso 1 y desplazamiento 0."
+  - n: 7
+    latex: 'h_{mn} = h^{TT}_{mn} + h^{L}_{mn} + \frac{1}{3}\delta_{mn}h^{*}'
+    significado: "Descomposición de la perturbación en parte transversa sin traza, longitudinal y traza."
+  - n: 14
+    latex: 'h = a(x^i) + b(x^i)t'
+    significado: "Solución para la traza: crecimiento lineal en el tiempo, no propagante."
+  - n: 27
+    latex: '2\nabla^{2}\psi = K'
+    significado: "Potencial escalar que fija la parte longitudinal de la curvatura extrínseca bajo la ligadura de momento."
+limitaciones:
+  - "Solo análisis linealizado en espacio plano; el caso no lineal y las geometrías curvas no se tratan."
+  - "Trata la elección de calibre y la numérica de relatividad numérica, sin relación directa con la física del warp."
+  - "Con lapso 1 y desplazamiento 0 fijos; otros calibres no se exploran."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Extender el análisis de modos de calibre a calibres dinámicos y al régimen no lineal."

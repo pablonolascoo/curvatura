@@ -1,0 +1,22 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Resume el estado del arte de la propulsión revolucionaria según el volumen de 2009 del AIAA. Incluye una breve valoración de wormholes y warp drives, con una tabla de estado y pasos de investigación futura."
+tipo: revision
+supuestos:
+  - "Se apoya en las afirmaciones del volumen de 739 páginas del AIAA (2009), sin análisis propio nuevo."
+  - "Las propuestas se clasifican por tipo (teoría, experimento, conversión de energía) y por nivel de madurez."
+resultados:
+  - "Los wormholes y warp drives se consideran teóricamente viables en relatividad general, pero con requisitos de energía negativa enormes."
+  - "El warp de menor energía no es superlumínico: con unos 10^46 julios de energía negativa, una burbuja de unos 100 m solo alcanza un 1 % de la velocidad de la luz."
+  - "Un wormhole del mismo tamaño y energía sí permitiría paso superlumínico, por lo que el warp es mucho menos eficiente."
+  - "No hay avances inminentes y varios experimentos anómalos no se confirman."
+ecuaciones_clave: []
+limitaciones:
+  - "Es una revisión de divulgación técnica; no aporta cálculos propios."
+  - "El texto se obtuvo de un PDF y solo hay datos cualitativos de la sección de warp."
+  - "Cifras como los 10^46 J se citan del volumen del AIAA, no se derivan aquí."
+obstaculos: [1, 3, 6]
+relacion: []
+ideas_abiertas:
+  - "Estudiar los requisitos mínimos de energía negativa para wormholes y warp drives."
+  - "Considerar el ritmo finito de ensamblado de las distribuciones de energía."
+  - "Revisar la conservación del momento para observadores remotos en espacios asintóticamente planos."

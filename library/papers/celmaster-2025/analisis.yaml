@@ -1,0 +1,45 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Demuestra que el warp drive de Lentz viola la condición de energía débil en el marco euleriano, contra lo afirmado por Lentz. Identifica errores en su derivación y comprueba que una versión modificada también la viola."
+tipo: critica
+supuestos:
+  - "Métricas de Natário en formalismo ADM con hipersuperficies planas y vector de desplazamiento N = gradiente de un potencial."
+  - "Potencial hiperbólico con fuente romboidal que depende de s = |x| + |y| y de z, reconstruida a partir de la figura de Lentz."
+  - "Energía finita exigida mediante condiciones de cancelación lineal y de acotación del dominio de la fuente."
+resultados:
+  - "El cálculo directo del tensor energía-impulso de Lentz en el marco euleriano da regiones con densidad de energía negativa."
+  - "El potencial de Lentz no es solución de su propia ecuación diferencial, y un error de signo explica parte de la discrepancia."
+  - "La desigualdad de derivadas del desplazamiento que usa Lentz es falsa en general, y su teorema falla en x = 0 o y = 0."
+  - "Aparecen términos con deltas de Dirac que contribuyen de forma notable a la energía total."
+  - "Una versión modificada, más fiel a las igualdades y desigualdades de Lentz, sigue violando la condición de energía débil."
+ecuaciones_clave:
+  - n: 5
+    latex: '8\pi E=\frac{1}{2}\left(-K_{i}^{j}K_{j}^{i}+K^{2}\right)'
+    significado: "Densidad de energía euleriana en función de la curvatura extrínseca."
+  - n: 6
+    latex: '\partial_{x}^{2}\tilde{\phi}+\partial_{y}^{2}\tilde{\phi}-\frac{2}{v_{h}^{2}}\partial_{z}^{2}\tilde{\phi}=\tilde{\rho}'
+    significado: "Ecuación diferencial hiperbólica de Lentz para el potencial."
+  - n: 16
+    latex: 'E=\frac{1}{8\pi}\left[T(x,y,z)+U(x,y,z)\right]'
+    significado: "Densidad de energía de las geometrías de potencial hiperbólico, con términos de deltas en T."
+  - n: 18
+    latex: 'U(x,y,z)=\left(\rho(s,z)+2\partial_{z}^{2}\phi\right)\partial_{z}^{2}\phi-2\left(\partial_{z}\partial_{s}\phi\right)^{2}'
+    significado: "Parte regular de la densidad de energía."
+limitaciones:
+  - "La fuente romboidal se reconstruye a partir de una figura porque Lentz no da una definición analítica."
+  - "El campo de desplazamiento no es diferenciable en algunas regiones, lo que queda fuera de las hipótesis de los teoremas de imposibilidad."
+  - "El análisis se limita a la condición de energía débil en el marco euleriano."
+obstaculos: [1, 13, 7]
+relacion:
+  - paper: lentz-2021
+    como: "critica"
+  - paper: natario-2002
+    como: "aplica"
+  - paper: fell-heisenberg-2021
+    como: "compara"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: olum-1998
+    como: "compara"
+ideas_abiertas:
+  - "Decidir si existe alguna geometría tipo Natário con desplazamiento suave que cumpla la condición de energía débil."
+  - "Estudiar el efecto de las deltas de Dirac en la energía total y si pueden regularizarse."

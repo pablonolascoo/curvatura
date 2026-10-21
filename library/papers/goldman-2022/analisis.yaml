@@ -1,0 +1,22 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Ensayo de preguntas abiertas sobre si una burbuja warp podría atravesar un agujero de gusano y si combinar ambos resolvería problemas comunes del viaje superlumínico."
+tipo: propuesta
+supuestos:
+  - "Existen soluciones de las ecuaciones de Einstein tanto de burbuja warp como de agujero de gusano."
+  - "Ambas estructuras se mantienen estables durante el trayecto."
+resultados:
+  - "Resume los problemas de la burbuja: materia exótica, radiación en el horizonte y aislamiento causal."
+  - "Plantea preguntas sobre compatibilidad y estabilidad mutua, sin respuestas."
+ecuaciones_clave: []
+limitaciones:
+  - "El autor declara no ser físico teórico y no aporta cálculos."
+  - "Ensayo cualitativo sin resultados verificables."
+obstaculos: [1, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: finazzi-2009
+    como: "aplica"
+ideas_abiertas:
+  - "Buscar una solución de las ecuaciones de Einstein que contenga burbuja y agujero de gusano a la vez."
+  - "Estudiar si salir del agujero de gusano podría frenar la burbuja sin daño."

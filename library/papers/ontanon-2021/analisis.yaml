@@ -1,0 +1,34 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Calcula datos iniciales de estrellas de bosones rotantes para relatividad numérica, con diferencias finitas y métodos de Newton globales. Añade una sexta variable de regularización en el eje, que permite estudiar campos escalares muy concentrados."
+tipo: simulacion
+supuestos:
+  - "Espacio axisimétrico cuasi-isótropo con descomposición 3+1, métrica espacial con funciones A y H y desplazamiento Ω."
+  - "Campo escalar complejo Φ = φ e^{-i(ωt - lφ)} que cumple las ecuaciones de Einstein-Klein-Gordon."
+  - "Malla cartesiana bidimensional en (ρ, z) con discretización de cuarto orden y solucionador directo disperso PARDISO."
+resultados:
+  - "Genera datos para números de rotación l entre 0 y 6, con convergencia de cuarto orden en resolución y de tercer orden en la frontera."
+  - "Masas máximas M_max = 0,633 (l=0), 1,316 (l=1) y 2,216 (l=2), en unidades de m_P^2/m, que coinciden con la literatura previa."
+  - "Para l mayor que 2 se obtienen masas máximas y frecuencias mínimas nuevas."
+  - "Estudiar campos de gran amplitud y localizados solo es posible con la sexta variable de regularización."
+ecuaciones_clave:
+  - n: 7
+    latex: 'dl^2 = \gamma_{ij}\,dx^i\,dx^j = A(\rho,\,z)\,(d\rho^2 + dz^2) + \rho^2\,H(\rho,\,z)\,d\varphi^2'
+    significado: "Métrica espacial axisimétrica cuasi-isótropa."
+  - n: 8
+    latex: '\Phi(t,\,\rho,\,z,\,\varphi) = \phi(\rho,\,z)\,e^{-i(\omega t - l \varphi)}'
+    significado: "Ansatz del campo escalar rotante con frecuencia ω y número azimutal l."
+  - n: 13
+    latex: '\left( \nabla^2 - m^2\right)\,\Phi = 0'
+    significado: "Ecuación de Klein-Gordon acoplada a la gravedad."
+  - n: 28
+    latex: '0 < \omega < \frac{m}{\hbar}'
+    significado: "Rango de frecuencias de estados ligados."
+limitaciones:
+  - "El trabajo trata de estrellas de bosones, no de burbujas warp; su relación con el tema es sobre todo metodológica."
+  - "Solo datos iniciales estacionarios, sin evolución temporal."
+  - "Se necesitan altas resoluciones para campos de gran amplitud cerca del eje."
+obstaculos: [12]
+relacion: []
+ideas_abiertas:
+  - "Estudiar con evolución temporal los nuevos conjuntos de alta amplitud."
+  - "Aplicar los métodos de Newton globales a datos iniciales de otros espaciotiempos exóticos."

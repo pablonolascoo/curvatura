@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Halla una clase de espaciotiempos warp con límite newtoniano y lo calcula. El método se aplica también a Schwarzschild y a los modelos de Friedmann-Robertson-Walker planos."
+tipo: solucion
+supuestos:
+  - "Observadores eulerianos en caída libre y corte espacial con curvatura extrínseca K_ij."
+  - "Espaciotiempo newtoniano: métrica con campo de velocidades v irrotacional (v = ∇ψ)."
+  - "Burbuja con velocidad u(t) y función de forma suave f entre 0 y 1."
+resultados:
+  - "El potencial newtoniano φ tiene un término de aceleración (solo si u cambia) y un término estacionario presente siempre que el warp está activo."
+  - "Fuera de la pared de la burbuja hay vacío y, sin aceleración, campo gravitatorio nulo."
+  - "En la pared hay puntos con ∇²φ < 0: R_00 < 0 y se viola la condición de energía fuerte."
+  - "En el límite newtoniano eso equivale a una densidad de masa negativa que genera el campo."
+ecuaciones_clave:
+  - n: 10
+    latex: 'g=-dt\otimes dt+\delta_{ij}(dx^i-v^i dt)\otimes(dx^j-v^j dt)'
+    significado: "Métrica de tipo warp con campo de velocidades v."
+  - n: 12
+    latex: 'K=\tfrac12\pounds_n\gamma=\tfrac12(D_iv_j+D_jv_i)\,dx^i\otimes dx^j'
+    significado: "Curvatura extrínseca de las hojas espaciales."
+  - n: 14
+    latex: '\frac{\partial\mathbf{v}}{\partial t}+(\mathbf{v}\cdot\nabla)\mathbf{v}=-\nabla\phi'
+    significado: "Ecuación de Euler para el campo de velocidades con potencial φ."
+  - n: 16
+    latex: 'R_{00}=\nabla^2\phi'
+    significado: "Componente temporal de Ricci igual al laplaciano del potencial newtoniano."
+limitaciones:
+  - "Las expresiones del warp concreto (Ec. 33-37) se apoyan en trabajos previos del autor."
+  - "Se trabaja en el régimen newtoniano, sin incluir la dinámica relativista completa."
+obstaculos: [1, 7]
+relacion:
+  - paper: natario-2002
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: lobo-visser-2004
+    como: "compara"
+ideas_abiertas:
+  - "Usar el límite newtoniano para interpretar la burbuja como campo gravitatorio."
+  - "Estudiar el potencial de burbujas aceleradas con materia más realista."

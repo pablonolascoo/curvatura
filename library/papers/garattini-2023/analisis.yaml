@@ -1,0 +1,41 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Generaliza la métrica warp de Natário a fondos esféricos estáticos arbitrarios, en la línea de Ellis. Muestra que el campo de un agujero negro puede reducir la energía negativa necesaria y propone un análogo con condensado de Bose-Einstein."
+tipo: propuesta
+supuestos:
+  - "Fondo estático con simetría esférica con función de lapso y masa generales."
+  - "Coordenadas de tipo Painlevé-Gullstrand generalizadas, con lapso N=1 y observadores eulerianos en caída libre."
+  - "Burbuja subluminal en el caso de Schwarzschild."
+resultados:
+  - "Se necesita la presencia de un horizonte para evitar una singularidad al pasar a coordenadas cartesianas."
+  - "En Schwarzschild, el horizonte sería efectivamente ausente para observadores dentro de la burbuja subluminal."
+  - "El campo gravitatorio externo puede disminuir la energía negativa requerida; no se cuantifica en el resumen."
+  - "Un condensado de Bose-Einstein con un solitón en el perfil de velocidad imitaría el cruce de un horizonte."
+ecuaciones_clave:
+  - n: 3
+    latex: '\beta^i = (1-f(r_s))\beta^i_{out}(\vec{r},t)+f(r_s)\beta^i_{in}(t)'
+    significado: "Vector de desplazamiento de la burbuja sobre un fondo, mezclado por la función de forma f."
+  - n: 17
+    latex: '\beta = -\sqrt{1-e^{2\Phi(r)}}'
+    significado: "Desplazamiento del fondo esférico generalizado en coordenadas tipo Painlevé-Gullstrand."
+  - n: 25
+    latex: '\rho = \frac{1}{16\pi G}\left(K^2-K_{ij}K^{ij}\right)'
+    significado: "Densidad de energía euleriana a partir de la curvatura extrínseca."
+  - n: 28
+    latex: '\rho = -\frac{1}{32\pi G}\left((\partial_yN^x)^2+(\partial_zN^x)^2\right)'
+    significado: "Densidad de energía negativa para el desplazamiento en la dirección de avance."
+limitaciones:
+  - "El análogo con condensado es una propuesta; no se presenta ningún experimento."
+  - "La reducción de energía negativa se muestra para configuraciones concretas, no como solución completa."
+obstaculos: [3, 4, 14]
+relacion:
+  - paper: natario-2002
+    como: "extiende"
+  - paper: ellis-2004
+    como: "extiende"
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: finazzi-2009
+    como: "aplica"
+ideas_abiertas:
+  - "Explorar métricas warp con curvatura intrínseca para reducir la materia exótica."
+  - "Realizar el análogo con condensado de Bose-Einstein con velocidad del sonido variable."

@@ -1,0 +1,42 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Propone una clase de métricas tipo warp en forma de ondas o cáscaras esféricas y planas que atraviesan el horizonte de un agujero negro de dentro hacia fuera. Comprueba que campos escalares, vectoriales y fermiónicos evolucionan sin singularidades."
+tipo: propuesta
+supuestos:
+  - "Métrica de Schwarzschild en coordenadas de Kruskal con el término warp añadido, dependiente de βt - x."
+  - "Límite de onda plana para estudiar los campos físicos en la métrica resultante."
+  - "La función f(u,y,z) debe cumplir condiciones que anulan ciertas componentes del tensor de Einstein."
+resultados:
+  - "La onda warp puede salir del agujero negro en un tiempo propio finito y en dirección de radio creciente."
+  - "En el límite de onda plana, f=[s(u)y+σ(u)z+ε(u)]^2 deja un tensor de Einstein proporcional a s^2+σ^2."
+  - "Los campos escalar, vectorial y fermiónico evolucionan sin singularidades al cruzar la onda, con configuraciones tipo solitón (kinks)."
+  - "El límite de escala de Planck podría evaporar singularidades y permitir escapar a partículas e información, lo que lleva a plantear la conjetura EPR=WD."
+ecuaciones_clave:
+  - n: 8
+    latex: 'ds^2=\frac{2M}{r}e^{1-r/2M}\left[dt^2+\frac{1}{4}f(\beta t-x,r)(\beta dt-dx)^2-dx^2\right] - r^2d\Omega^2'
+    significado: "Métrica warp sobre la de Schwarzschild en coordenadas de Kruskal."
+  - n: 9
+    latex: 'ds^2=dt^2+\frac{1}{4}f(\beta t-x,y,z)(\beta dt-dx)^2-dx^2-dy^2-dz^2'
+    significado: "Límite de onda plana de la métrica warp."
+  - n: 20
+    latex: 'f=[s(u)y+\sigma(u)z+\varepsilon(u)]^2'
+    significado: "Forma general de f que resuelve las condiciones sobre el tensor de Einstein."
+  - n: 22
+    latex: 'R= \frac{ 8\eta(1-\eta)(s^2+\sigma^2) } { [f\eta+4(1-\eta)]^2 }'
+    significado: "Escalar de curvatura de la métrica de onda plana."
+limitaciones:
+  - "El autor reconoce que se desconoce cómo fijar el estado inicial de movimiento de la onda warp."
+  - "No se sabe si estas soluciones se pueden realizar en la naturaleza."
+  - "Hace falta materia exótica que viole las condiciones de energía, y la parte de Planck y EPR=WD es muy especulativa."
+obstaculos: [1, 4]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: lobo-visser-2004
+    como: "compara"
+  - paper: krasnikov-1998
+    como: "compara"
+  - paper: santiago-2022
+    como: "compara"
+ideas_abiertas:
+  - "Determinar cómo preparar el estado inicial de una onda warp dentro del horizonte."
+  - "Analizar si la configuración esférica concreta importa para salir del agujero negro."

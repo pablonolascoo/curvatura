@@ -1,0 +1,39 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Busca mezclas de dos o tres fluidos exóticos cuyo tensor de energía-momento reproduzca el de la métrica de Alcubierre. Cuantifica densidades, presiones, masas y ecuación de estado frente a la velocidad warp."
+tipo: simulacion
+supuestos:
+  - "Métrica de Alcubierre original con sigma = 8 y R = 1, muestreada en r entre 0,01 R y 2,5 R."
+  - "El tensor de Einstein se descompone en una base ortogonal por fluido, con mezclas de 2 o 3 fluidos."
+  - "Sistema infradeterminado resuelto con descomposición en valores singulares y optimización de una función objetivo con pesos elegidos heurísticamente."
+  - "Se evita que las celdas de la malla sean más masivas que un agujero negro estático de su tamaño."
+resultados:
+  - "Fluidos exóticos pueden dar el mismo tensor de energía-momento que la métrica de Alcubierre."
+  - "Las densidades y presiones mínimas son siempre negativas y la violación de la condición de energía nula es mayor con 2 fluidos, unos 10 órdenes de magnitud respecto a 3."
+  - "Aparecen leyes de potencias entre las magnitudes físicas y la velocidad warp."
+  - "Las ecuaciones de estado no son exóticas para velocidades menores de 0,004 c; con ecuaciones exóticas se sostendrían velocidades de hasta 2200 c."
+  - "El factor de Lorentz máximo usado es de unos 5e6, para v = 1,5 c."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-dt^2+(v(1-f)dt+dX)^2+d\rho^2+\rho^2 d\varphi^2'
+    significado: "Métrica de Alcubierre en coordenadas cilíndricas, tomada como punto de partida."
+  - n: 3
+    latex: '\sum_{\alpha,i}\epsilon_i^\alpha (e_{i,\alpha})^\mu (e_{i,\alpha})^\nu=\frac{G^{\mu\nu}}{8\pi}'
+    significado: "Ecuación de Einstein para una mezcla de fluidos independientes, cada uno con su base ortogonal."
+  - n: 7
+    latex: 'J(j)=\xi_m(\mathrm{MAEOS}(j)-1/9)+\xi_{os}(\mathrm{overflows}_j+SC_j)+\xi_r(7-\mathrm{rank}([e\otimes e]_j))-\mathrm{NECV}(j)'
+    significado: "Función objetivo que se minimiza para elegir la solución de fluidos."
+  - n: 10
+    latex: '\frac{8\pi}{3}\max_j\left(R_{cell,M_j}^2\sum_i\epsilon_i^t\right)<1'
+    significado: "Condición para que ninguna celda sea más masiva que un agujero negro de su tamaño."
+limitaciones:
+  - "Los pesos de la función objetivo se eligieron de forma heurística y no se exploraron variaciones."
+  - "Solo se estudian mezclas de 2 y 3 fluidos y solo las configuraciones con rango 7 de la matriz."
+  - "Resultados numéricos sobre una malla, sin estudio de dinámica ni estabilidad de los fluidos."
+  - "No se discute cómo realizar físicamente esos fluidos exóticos."
+obstaculos: [1, 3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Explorar otras elecciones de la función objetivo y más fluidos."
+  - "Estudiar la evolución y estabilidad de las mezclas de fluidos propuestas."

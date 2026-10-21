@@ -1,0 +1,47 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Revisa de forma informal una demostración variacional de una versión de la conjetura del interés cuántico en el espacio de Minkowski (3+1). Reduce las desigualdades cuánticas a la ausencia de estados ligados de un hamiltoniano unidimensional."
+tipo: teorema
+supuestos:
+  - "Campo escalar sin masa en espacio plano de Minkowski (3+1)."
+  - "Densidad de energía renormalizada medida por un observador temporal a lo largo de una línea de universo."
+  - "Las desigualdades cuánticas se reescriben como un problema de autovalores con potencial V igual a la densidad de energía renormalizada."
+resultados:
+  - "Las desigualdades cuánticas equivalen a que el hamiltoniano H = P^{2m} + V no tenga autovalores negativos."
+  - "Para m = 2 (caso 3+1) se extiende el teorema de Simon a la ecuación de Schrödinger biarmónica mediante funciones de prueba."
+  - "Si la integral de V es cero, la ausencia de estado ligado exige V = 0 en todo punto."
+  - "Conclusión: o la densidad de energía es nula a lo largo de la línea de universo, o su integral es positiva, algo más fuerte que la condición de energía débil promediada."
+  - "La parte positiva de la densidad de energía debe compensar con creces la parte negativa."
+ecuaciones_clave:
+  - n: 4
+    latex: '\oint \left<\,T_{00}^{ren}(t,0)\,\right>_{\psi}\,|f(t)|^2\,dt\geq-\frac{1}{c_m}\oint|D^{m}f(t)|^2\,dt'
+    significado: "Desigualdad cuántica general en espacio-tiempo de dimensión 2m, con f normalizada."
+  - n: 7
+    latex: 'H=(-1)^mD^{2m}+c_m\,V'
+    significado: "Hamiltoniano cuya positividad equivale a las desigualdades cuánticas."
+  - n: 13
+    latex: '\frac{d^4}{dx^4}\,\varphi(x)+V(x)\,\varphi(x)=E\,\varphi(x)'
+    significado: "Ecuación de Schrödinger biarmónica, asociada al caso (3+1)."
+  - n: 25
+    latex: '\oint \left<\,T_{00}^{ren}(t,0)\,\right>_{\psi}\,dt >0'
+    significado: "Resultado de interés cuántico: la energía neta a lo largo de la línea de universo es positiva."
+limitaciones:
+  - "Solo espacio plano de Minkowski y campo escalar sin masa; no hay espacio-tiempo curvo."
+  - "Es una revisión informal; los detalles técnicos de la demostración se remiten a otro trabajo."
+  - "No analiza directamente métricas warp concretas, solo menciona que las desigualdades limitan estos fenómenos."
+obstaculos: [1, 3]
+relacion:
+  - paper: abreu-2008
+    como: "extiende"
+  - paper: flanagan-1997
+    como: "aplica"
+  - paper: fewster-1998
+    como: "aplica"
+  - paper: fewster-2000
+    como: "aplica"
+  - paper: teo-2002
+    como: "aplica"
+  - paper: alcubierre-1994
+    como: "compara"
+ideas_abiertas:
+  - "Extender la conjetura del interés cuántico a espacio-tiempos curvos."
+  - "Aplicar la cota de interés cuántico a perfiles de energía negativa de burbujas warp."

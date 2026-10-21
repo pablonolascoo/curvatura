@@ -1,0 +1,43 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Estudia el caso realista de un warp superlumínico creado a partir de un espaciotiempo plano. Calcula el tensor de energía-momento renormalizado de un campo cuántico y concluye que la geometría es inestable por reacción semiclásica."
+tipo: solucion
+supuestos:
+  - "Campo cuántico sin masa en geometría warp dinámica, en aproximación de óptica geométrica."
+  - "Modelo 1+1 de la métrica de Alcubierre con perfil f(r)=1/cosh(r/a)."
+  - "Burbuja superlumínica creada con un encendido exponencial rápido de escala τ."
+resultados:
+  - "La burbuja tiene horizonte negro (parte trasera) y blanco (parte delantera)."
+  - "Un observador en el centro recibe un flujo térmico de partículas de Hawking."
+  - "Ese flujo es extremadamente alto si la materia exótica cumple desigualdades cuánticas."
+  - "El tensor de energía-momento crece exponencialmente en el tiempo cerca y sobre la pared frontal."
+  - "Se concluye que las geometrías warp son inestables ante la reacción semiclásica."
+ecuaciones_clave:
+  - n: 1
+    latex: 'ds^2=-c^2 dt^2+\left[dx-v(r)dt\right]^2+dy^2+dz^2'
+    significado: "Métrica warp con velocidad v(r)=v0 f(r)."
+  - n: 9
+    latex: '\kappa_{1,2}=\left.\frac{dv(r)}{dr}\right|_{r=r_{1,2}}=\pm\frac{c(\alpha-1)\sqrt{\beta^2-1}}{a\beta}'
+    significado: "Gravedad superficial en los horizontes."
+  - n: 15
+    latex: 'v(r,t)=v_0\delta(t)f(r)'
+    significado: "Warp dinámico que se enciende desde el espaciotiempo plano."
+  - n: 16
+    latex: '\delta(t)=e^{t/\tau}\ (t<0),\quad \delta(t)=1\ (t\geq 0)'
+    significado: "Perfil temporal de creación de la burbuja."
+limitaciones:
+  - "Análisis en 1+1 dimensiones y con geometría óptica; la extensión a 3+1 se supone."
+  - "No se resuelve la reacción completa sobre la métrica, solo se infiere su signo."
+  - "No incluye el caso subluminal."
+obstaculos: [3, 4, 5]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
+  - paper: hiscock-1997
+    como: "extiende"
+  - paper: pfenning-ford-1997
+    como: "compara"
+  - paper: lobo-visser-2004
+    como: "compara"
+ideas_abiertas:
+  - "Resolver la reacción semiclásica completa en 3+1 y ver si frena el crecimiento."
+  - "Comprobar si el horizonte blanco puede evitarse con otros perfiles de creación."

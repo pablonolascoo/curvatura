@@ -1,0 +1,26 @@
+generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
+aportacion: "Sostiene que el interferómetro warp de White-Juday no puede detectar las distorsiones del espacio-tiempo producidas por un campo eléctrico de laboratorio. Atribuye cualquier señal a efectos locales, como la refracción del aire."
+tipo: critica
+supuestos:
+  - "Campo eléctrico estático de 10^6 V/m entre placas paralelas (100 kV en un hueco de 0,1 m), valor supuesto porque la literatura no lo especifica."
+  - "Detección por microlente gravitacional con trayectoria de 10 m y radio de 0,1 m."
+  - "Aire seco sin CO2 en el laboratorio, con modelo de refracción de primer orden."
+resultados:
+  - "Densidad de energía del campo: 4,4 J/m^3."
+  - "Distorsión estática del espacio-tiempo: 9,2e-43 m^-2, no resoluble por ninguna técnica conocida."
+  - "Radio de Schwarzschild 1,92e-23 m, radio de Einstein 8,76e-12 m y diámetro angular 1,81e-6 segundos de arco, tres órdenes por debajo de la resolución de unos 1e-3 segundos de arco."
+  - "Detectarlo exigiría un campo del orden de 10^12 V/m."
+  - "Una diferencia de 1 grado C en el aire desvía el haz 31,7 angstrom; solo con incidencias mayores de unos 17 grados sería comparable a la longitud de onda."
+ecuaciones_clave: []
+limitaciones:
+  - "El modelo de refracción es de primer orden; un gradiente variable en tiempo y espacio daría desviaciones menores."
+  - "El campo eléctrico exacto del experimento no se conoce y se estima de forma generosa."
+  - "No se evalúa el tensor de energía-impulso completo."
+  - "No se mide nada: es un análisis de órdenes de magnitud."
+obstaculos: [1, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+ideas_abiertas:
+  - "Repetir el experimento en vacío para eliminar la refracción del aire."
+  - "Estudiar el aire ionizado entre las placas y su interacción con el láser."
