@@ -33,6 +33,7 @@ const shardOf = (id: string) => (/^[a-z0-9]/.test(id) ? id[0] : "_");
 
 let figs = 0;
 const rows: unknown[] = [];
+const usedFlags = new Set<string>();
 for (const id of readdirSync(PAPERS)) {
   const dir = path.join(PAPERS, id);
   const metaFile = path.join(dir, "meta.yaml");
@@ -56,8 +57,13 @@ for (const id of readdirSync(PAPERS)) {
     id, title: m.title, authors: m.authors ?? [], year: m.year, venue: m.venue, doi: m.doi ?? null, arxiv: m.arxiv ?? null,
     source: m.source, license: m.license, subsystems: m.subsystems ?? [], kind: m.kind, verified: !!m.verified,
     relevance: m.relevance ?? "media", language: m.language ?? "en", cited_by: m.cited_by ?? 0, abstracts,
+    countries: m.countries ?? [], titles: existsSync(path.join(dir, "titles.yaml")) ? YAML.parse(readFileSync(path.join(dir, "titles.yaml"), "utf8")) : null,
   });
+  for (const c of m.countries ?? []) usedFlags.add(String(c).toLowerCase());
+  const titles = existsSync(path.join(dir, "titles.yaml")) ? YAML.parse(readFileSync(path.join(dir, "titles.yaml"), "utf8")) : null;
   rows.push({
+    te: titles?.es ?? null,
+    tf: titles?.fr ?? null,
     st: isStatic ? 1 : 0,
     id,
     t: m.title,
@@ -70,8 +76,14 @@ for (const id of readdirSync(PAPERS)) {
     c: m.cited_by ?? 0,
     ab: existsSync(path.join(dir, "abstract.en.md")) ? 1 : 0,
     r: m.relevance === "alta" ? 2 : m.relevance === "baja" ? 0 : 1,
+    f: m.countries ?? [],
   });
 }
+// Banderas circulares (flag-icons, MIT): solo las de los países presentes.
+const FLAGS = path.join(path.dirname(require.resolve("flag-icons/package.json")), "flags/1x1");
+rmSync(path.join(PUB, "flags"), { recursive: true, force: true });
+mkdirSync(path.join(PUB, "flags"), { recursive: true });
+for (const c of usedFlags) if (existsSync(path.join(FLAGS, `${c}.svg`))) cpSync(path.join(FLAGS, `${c}.svg`), path.join(PUB, "flags", `${c}.svg`));
 for (const [k, v] of shards) writeFileSync(path.join(PUB, "library/p", `${k}.json`), JSON.stringify(v));
 writeFileSync(path.join(PUB, "library/index.json"), JSON.stringify(rows));
 writeFileSync(path.join(PUB, "library/static-ids.json"), JSON.stringify(staticIds));

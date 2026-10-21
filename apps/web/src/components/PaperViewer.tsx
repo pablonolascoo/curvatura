@@ -3,16 +3,17 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowUpRight } from "@phosphor-icons/react";
+import { Flags } from "./Flags";
 
 type Paper = {
   id: string; title: string; authors: string[]; year: number; venue: string; doi: string | null; arxiv: string | null;
   source: string; license: string; subsystems: string[]; kind: string; verified: boolean; relevance: string; language: string;
-  cited_by: number; abstracts: Record<string, string>;
+  cited_by: number; abstracts: Record<string, string>; countries?: string[]; titles?: Record<string, string> | null;
 };
 
 type Labels = {
   back: string; source: string; license: string; subsystem: string; kind: string; verified: string; unverified: string;
-  abstract: string; noAbstract: string; noFulltext: string; translation: string; original: string; loading: string; empty: string;
+  abstract: string; noAbstract: string; noFulltext: string; translation: string; original: string; loading: string; empty: string; country: string;
   kinds: Record<string, string>;
 };
 
@@ -60,6 +61,7 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
     [labels.source, <a key="s" href={p.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-fg underline decoration-line-strong underline-offset-4">{p.arxiv ? `arXiv:${p.arxiv}` : p.doi ?? p.source}<ArrowUpRight size={14} weight="bold" aria-hidden /></a>],
     ["DOI", p.doi ? <a key="d" href={`https://doi.org/${p.doi}`} target="_blank" rel="noreferrer" className="break-all text-fg underline decoration-line-strong underline-offset-4">{p.doi}</a> : "-"],
     [labels.license, <span key="l" className="font-mono">{p.license}</span>],
+    ...(p.countries?.length ? [[labels.country, <Flags key="f" codes={p.countries} lang={lang} max={6} withNames />] as [string, React.ReactNode]] : []),
     [labels.subsystem, <span key="ss" className="font-mono">{p.subsystems.join(" ")}</span>],
     [labels.kind, labels.kinds[p.kind] ?? p.kind],
     ["", <span key="v" className={`tag ${p.verified ? "tag-green" : "tag-yellow"}`}>{p.verified ? labels.verified : labels.unverified}</span>],
@@ -73,7 +75,8 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
         </Link>
         <div className="grid gap-4">
           <span className="font-mono text-sm text-muted">{p.year}</span>
-          <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{p.title}</h1>
+          <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{p.titles?.[lang] ?? p.title}</h1>
+          {p.titles?.[lang] && p.titles[lang] !== p.title && <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>}
           <p className="text-fg-2">{p.authors.join(", ")}</p>
           <p className="text-sm text-muted">{p.venue}</p>
         </div>

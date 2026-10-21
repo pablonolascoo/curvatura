@@ -1,9 +1,12 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Play } from "@phosphor-icons/react";
 
-type Labels = { python: string; pythonBody: string; run: string; running: string; loadPython: string; pythonSize: string; output: string; presets: string; loading: string };
+type Labels = {
+  python: string; pythonBody: string; run: string; running: string; loadPython: string; pythonSize: string; output: string; presets: string; loading: string;
+  native: string; browser: string; installNative: string; installingNative: string; nativeBody: string;
+};
 
 const CDN = "https://cdn.jsdelivr.net/pyodide/v0.27.7/full/";
 let PYODIDE = CDN;
@@ -41,7 +44,11 @@ for p in [(0.05, 0.02, 0), (0.3, 0.9, 0), (1.0, 0.1, 0), (2.5, 0.1, 0)]:
 };
 
 type Py = { runPythonAsync: (code: string) => Promise<unknown>; setStdout: (o: { batched: (s: string) => void }) => void; setStderr: (o: { batched: (s: string) => void }) => void; FS: { mkdirTree: (p: string) => void; writeFile: (p: string, d: string) => void }; loadPackage: (p: string[]) => Promise<void> };
-declare global { interface Window { loadPyodide?: (o: { indexURL: string }) => Promise<Py> } }
+type Invoke = <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>;
+declare global { interface Window { loadPyodide?: (o: { indexURL: string }) => Promise<Py>; __TAURI__?: { core?: { invoke: Invoke } } } }
+
+/** Dentro de la app de escritorio hay Python nativo (uv + CPython 3.12 en la carpeta de la app). */
+const tauri = (): Invoke | null => (typeof window !== "undefined" ? window.__TAURI__?.core?.invoke ?? null : null);
 
 async function boot(onLog: (s: string) => void): Promise<Py> {
   // La app de escritorio lleva Pyodide dentro (public/pyodide); la web usa el CDN.
@@ -70,6 +77,30 @@ async function boot(onLog: (s: string) => void): Promise<Py> {
 
 export function PythonLab({ labels }: { labels: Labels }) {
   const py = useRef<Py | null>(null);
+  const [motor, setMotor] = useState<"browser" | "native">("browser");
+  const [nativo, setNativo] = useState<null | { instalado: boolean }>(null);
+  useEffect(() => {
+    const inv = tauri();
+    if (!inv) return;
+    inv<{ instalado: boolean }>("python_info").then((i) => { setNativo(i); if (i.instalado) setMotor("native"); }, (e) => setOut(String(e)));
+  }, []);
+
+  const instalarNativo = async () => {
+    const inv = tauri();
+    if (!inv) return;
+    setState("loading");
+    setOut(labels.installingNative + "\n");
+    try {
+      const log = await inv<string>("python_setup");
+      setOut(log.split("\n").slice(-12).join("\n"));
+      setNativo({ instalado: true });
+      setMotor("native");
+    } catch (e) {
+      setOut(`Error: ${String(e)}`);
+    } finally {
+      setState("idle");
+    }
+  };
   const [state, setState] = useState<"idle" | "loading" | "ready" | "running">("idle");
   const [code, setCode] = useState(PRESETS["Einstein → ρ_E"]);
   const [out, setOut] = useState("");
@@ -93,6 +124,20 @@ export function PythonLab({ labels }: { labels: Labels }) {
   };
 
   const run = async () => {
+    const inv = tauri();
+    if (motor === "native" && inv) {
+      setState("running");
+      setOut("");
+      try {
+        const r = await inv<{ salida: string; ok: boolean; segundos: number }>("python_run", { codigo: code });
+        setOut(`${r.salida}\n· ${r.segundos.toFixed(2)} s · Python nativo`);
+      } catch (e) {
+        setOut(`Error: ${String(e)}`);
+      } finally {
+        setState("ready");
+      }
+      return;
+    }
     const p = await ensure();
     if (!p) return;
     setState("running");
@@ -113,9 +158,19 @@ export function PythonLab({ labels }: { labels: Labels }) {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div className="grid gap-2">
           <h3 className="font-serif text-2xl tracking-[-0.02em]">{labels.python}</h3>
-          <p className="max-w-[60ch] text-sm text-muted">{labels.pythonBody} {state === "idle" && labels.pythonSize}</p>
+          <p className="max-w-[60ch] text-sm text-muted">{motor === "native" ? labels.nativeBody : <>{labels.pythonBody} {state === "idle" && labels.pythonSize}</>}</p>
         </div>
         <div className="flex flex-wrap gap-2">
+          {nativo && (
+            <div role="radiogroup" aria-label={labels.python} className="flex rounded-md border border-line p-0.5">
+              {(["native", "browser"] as const).map((m) => (
+                <button key={m} type="button" role="radio" aria-checked={motor === m} onClick={() => setMotor(m)}
+                  className={`rounded px-3 py-1 text-sm ${motor === m ? "bg-[var(--ink)] text-[var(--bg)]" : "text-muted hover:text-fg"}`}>
+                  {m === "native" ? labels.native : labels.browser}
+                </button>
+              ))}
+            </div>
+          )}
           {Object.keys(PRESETS).map((k) => (
             <button key={k} type="button" onClick={() => setCode(PRESETS[k])} className="rounded-md border border-line bg-surface px-3 py-1.5 text-sm text-muted hover:text-fg">{k}</button>
           ))}
@@ -129,10 +184,16 @@ export function PythonLab({ labels }: { labels: Labels }) {
         <button type="button" onClick={run} disabled={state === "loading" || state === "running"}
           className="inline-flex h-11 items-center gap-2 rounded-md bg-[var(--ink)] px-5 text-[15px] font-medium text-[var(--bg)] transition-transform active:scale-[0.98] disabled:opacity-60">
           <Play size={16} weight="fill" aria-hidden />
-          {state === "idle" ? labels.loadPython : state === "loading" ? labels.loading : state === "running" ? labels.running : labels.run}
+          {motor === "native" ? (state === "running" ? labels.running : labels.run) : state === "idle" ? labels.loadPython : state === "loading" ? labels.loading : state === "running" ? labels.running : labels.run}
         </button>
         <span className="text-xs text-muted"><kbd>⌘</kbd> <kbd>Enter</kbd></span>
-        <span className="tag tag-green ml-auto">Pyodide · CPython 3.12</span>
+        {nativo && motor === "native" && !nativo.instalado && (
+          <button type="button" onClick={instalarNativo} disabled={state === "loading"}
+            className="inline-flex h-11 items-center gap-2 rounded-md border border-line bg-surface px-4 text-sm text-fg hover:border-line-strong disabled:opacity-60">
+            {state === "loading" ? labels.installingNative : labels.installNative}
+          </button>
+        )}
+        <span className="tag tag-green ml-auto">{motor === "native" ? "CPython 3.12 · nativo" : "Pyodide · CPython 3.12"}</span>
       </div>
       <div className="grid gap-2">
         <span className="text-xs uppercase tracking-[0.05em] text-muted">{labels.output}</span>

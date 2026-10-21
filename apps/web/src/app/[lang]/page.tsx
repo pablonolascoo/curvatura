@@ -16,7 +16,8 @@ import { MetricLab } from "@/components/MetricLab";
 import { WarpField } from "@/components/WarpField";
 import { equationView, getEquation } from "@/lib/equations";
 import { getDictionary, hasLocale } from "@/lib/i18n";
-import { getPapers, isOpenLicense, paperHref } from "@/lib/library";
+import { getPapers, isOpenLicense, localTitle, paperHref } from "@/lib/library";
+import { Flags } from "@/components/Flags";
 import { getObstacles } from "@/lib/obstacles";
 
 const RELEASES = "https://github.com/pablonolascoo/curvatura/releases/latest";
@@ -289,8 +290,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <li key={p.id} className="reveal" style={{ ["--i" as string]: i }}>
                 <Link href={paperHref(lang, p.id)} className="group grid gap-1 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
                   <span className="font-mono text-sm text-muted md:col-span-1">{p.year}</span>
-                  <span className="text-lg text-fg transition-colors group-hover:text-fg-2 md:col-span-8" dangerouslySetInnerHTML={{ __html: renderTitle(p.title) }} />
-                  <span className="text-sm text-muted md:col-span-3 md:text-right">
+                  <span className="text-lg text-fg transition-colors group-hover:text-fg-2 md:col-span-8" dangerouslySetInnerHTML={{ __html: renderTitle(localTitle(p, lang)) }} />
+                  <span className="flex items-center gap-3 text-sm text-muted md:col-span-3 md:justify-end">
+                    <Flags codes={p.countries ?? []} lang={lang} max={3} />
                     {p.authors.length > 2 ? `${p.authors[0].split(" ").at(-1)} et al.` : p.authors.map((a) => a.split(" ").at(-1)).join(", ")}
                   </span>
                 </Link>

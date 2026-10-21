@@ -6,6 +6,14 @@ description = "Núcleo numérico de Curvatura: campos de Alcubierre, energía y 
 license-file = "../../LICENSE"
 publish = false
 
+[features]
+default = []
+# Paralelo en todos los núcleos (app de escritorio). La web usa WebAssembly de un hilo.
+parallel = ["dep:rayon"]
+
+[dependencies]
+rayon = { version = "1", optional = true }
+
 [lib]
 crate-type = ["cdylib", "rlib"]
 

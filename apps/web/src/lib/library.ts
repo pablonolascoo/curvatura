@@ -22,7 +22,17 @@ export type Paper = {
   fulltext: boolean | "source";
   translations: string[];
   verified: boolean;
+  countries?: string[];
+  relevance?: string;
 };
+
+/** Títulos traducidos (titles.yaml) o null. */
+export function getTitles(id: string): Record<string, string> | null {
+  const f = path.join(ROOT, id, "titles.yaml");
+  return existsSync(f) ? (YAML.parse(readFileSync(f, "utf8")) as Record<string, string>) : null;
+}
+
+export const localTitle = (p: Paper, lang: string) => getTitles(p.id)?.[lang] ?? p.title;
 
 const OPEN = new Set(["CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "public-domain"]);
 

@@ -220,7 +220,11 @@
     "loading": "Cargando…",
     "onlyOpen": "Solo texto completo",
     "relevance": "Incluir baja relevancia",
-    "core": "Núcleo del tema"
+    "core": "Núcleo del tema",
+    "country": "País",
+    "countries": "países",
+    "byCountry": "Por país",
+    "translated": "Títulos traducidos"
   },
   "notes": {
     "title": "Notas",
@@ -286,7 +290,12 @@
     "presets": "Ejemplos",
     "clickHint": "Pulsa sobre el mapa",
     "contraction": "Contracción",
-    "expansion": "Expansión"
+    "expansion": "Expansión",
+    "native": "Nativo",
+    "browser": "Navegador",
+    "installNative": "Instalar Python nativo",
+    "installingNative": "Instalando Python 3.12, numpy, sympy, scipy y matplotlib…",
+    "nativeBody": "Python 3.12 instalado en la carpeta de la app, con el paquete physics/. Más rápido que el navegador y sin límite de memoria."
   },
   "search": {
     "title": "Buscar",

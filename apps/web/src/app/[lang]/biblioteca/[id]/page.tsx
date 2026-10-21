@@ -6,7 +6,8 @@ import { LiveEquation } from "@/components/LiveEquation";
 import { PaperTabs, type Tab } from "@/components/PaperTabs";
 import { equationView, equationsForPaper } from "@/lib/equations";
 import { LOCALES, LOCALE_NAMES, getDictionary, hasLocale, type Locale } from "@/lib/i18n";
-import { citation, getPaper, getStaticIds, getVersions, isOpenLicense } from "@/lib/library";
+import { citation, getPaper, getStaticIds, getTitles, getVersions, isOpenLicense } from "@/lib/library";
+import { Flags } from "@/components/Flags";
 import { renderMarkdown } from "@/lib/markdown";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE, alternates } from "@/lib/site";
@@ -43,6 +44,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
     [t.library.source, <a key="s" href={p.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-fg underline decoration-line-strong underline-offset-4">{p.arxiv ? `arXiv:${p.arxiv}` : p.doi}<ArrowUpRight size={14} weight="light" aria-hidden /></a>],
     ["DOI", p.doi ? <a key="d" href={`https://doi.org/${p.doi}`} target="_blank" rel="noreferrer" className="break-all text-fg underline decoration-line-strong underline-offset-4">{p.doi}</a> : "-"],
     [t.library.license, <span key="l" className="font-mono">{p.license}</span>],
+    ...(p.countries?.length ? [[t.library.country, <Flags key="f" codes={p.countries} lang={lang} max={6} withNames />] as [string, React.ReactNode]] : []),
     [t.library.subsystem, <span key="ss" className="font-mono">{p.subsystems.join(" ")}</span>],
     [t.library.kind, t.library.kinds[p.kind as keyof typeof t.library.kinds] ?? p.kind],
     ["", <span key="v" className={p.verified ? "text-fg" : "text-yellow"}>{p.verified ? t.library.verified : t.library.unverified}</span>],
@@ -65,7 +67,8 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
         </Link>
         <div className="grid gap-4">
           <span className="font-mono text-sm text-muted">{p.year}</span>
-          <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{p.title}</h1>
+          <h1 className="font-serif text-[clamp(1.9rem,3.2vw,2.6rem)] leading-[1.1] tracking-[-0.02em]">{getTitles(p.id)?.[lang] ?? p.title}</h1>
+          {getTitles(p.id)?.[lang] && getTitles(p.id)?.[lang] !== p.title && <p lang={p.language} className="font-serif text-lg italic text-muted">{p.title}</p>}
           <p className="text-fg-2">{p.authors.join(", ")}</p>
           <p className="text-sm text-muted">{p.venue}</p>
         </div>

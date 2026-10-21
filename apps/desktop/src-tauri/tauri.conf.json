@@ -65,7 +65,13 @@
         "depends": []
       }
     },
-    "createUpdaterArtifacts": true
+    "createUpdaterArtifacts": true,
+    "externalBin": [
+      "binaries/uv"
+    ],
+    "resources": {
+      "../../../physics/curvatura/": "python/curvatura/"
+    }
   },
   "plugins": {
     "updater": {

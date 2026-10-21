@@ -72,6 +72,26 @@ pub fn field_plane(p: &Params, half: f64, n: usize, theta: &mut [f64], rho: &mut
     }
 }
 
+/// Igual que [`field_plane`] pero repartiendo las filas entre todos los núcleos (feature `parallel`).
+#[cfg(feature = "parallel")]
+pub fn field_plane_par(p: &Params, half: f64, n: usize, theta: &mut [f64], rho: &mut [f64]) {
+    use rayon::prelude::*;
+    assert!(theta.len() >= n * n && rho.len() >= n * n, "búferes demasiado pequeños");
+    let step = if n > 1 { 2.0 * half / (n as f64 - 1.0) } else { 0.0 };
+    theta[..n * n]
+        .par_chunks_mut(n)
+        .zip(rho[..n * n].par_chunks_mut(n))
+        .enumerate()
+        .for_each(|(j, (tr, rr))| {
+            let y = -half + step * j as f64;
+            for i in 0..n {
+                let x = -half + step * i as f64;
+                tr[i] = expansion(x, y, 0.0, p, 0.0);
+                rr[i] = energy_density(x, y, 0.0, p, 0.0);
+            }
+        });
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -95,6 +115,19 @@ mod tests {
         let p = Params { v: 0.5, r: 1.0, sigma: 4.0 };
         assert!(expansion(1.0, 0.0, 0.0, &p, 0.0) < 0.0);
         assert!(expansion(-1.0, 0.0, 0.0, &p, 0.0) > 0.0);
+    }
+
+    #[cfg(feature = "parallel")]
+    #[test]
+    fn parallel_matches_serial() {
+        let p = Params { v: 1.2, r: 1.0, sigma: 5.0 };
+        let n = 300;
+        let (mut a, mut b) = (vec![0.0; n * n], vec![0.0; n * n]);
+        let (mut c, mut d) = (vec![0.0; n * n], vec![0.0; n * n]);
+        field_plane(&p, 2.5, n, &mut a, &mut b);
+        field_plane_par(&p, 2.5, n, &mut c, &mut d);
+        assert_eq!(a, c);
+        assert_eq!(b, d);
     }
 
     #[test]

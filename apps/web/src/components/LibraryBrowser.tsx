@@ -3,12 +3,13 @@
 import Link from "next/link";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { MagnifyingGlass } from "@phosphor-icons/react";
+import { Flags } from "./Flags";
 
-type Row = { st: 0 | 1; id: string; t: string; a: string[]; y: number; v: string; k: string; s: string[]; o: 0 | 1; c: number; ab: 0 | 1; r: 0 | 1 | 2 };
+type Row = { st: 0 | 1; te: string | null; tf: string | null; f: string[]; id: string; t: string; a: string[]; y: number; v: string; k: string; s: string[]; o: 0 | 1; c: number; ab: 0 | 1; r: 0 | 1 | 2 };
 
 type Labels = {
   search: string; all: string; subsystem: string; kind: string; empty: string; fulltext: string;
-  kinds: Record<string, string>; count: string; relevance: string; core: string; sort: string; recent: string; cited: string; more: string; loading: string; onlyOpen: string;
+  kinds: Record<string, string>; count: string; relevance: string; core: string; country: string; sort: string; recent: string; cited: string; more: string; loading: string; onlyOpen: string;
 };
 
 const SUBSYSTEMS = ["G", "C", "E", "S", "D", "Q", "M", "P", "V"];
@@ -25,10 +26,10 @@ function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; chi
 
 /** Lee y escribe los filtros en la URL (?q=&s=&k=&o=&sort=) para poder enlazarlos. */
 function useUrlState() {
-  const [st, setSt] = useState({ q: "", s: "", k: "", o: false, all: false, core: false, sort: "recent" as "recent" | "cited" });
+  const [st, setSt] = useState({ q: "", s: "", k: "", c: "", o: false, all: false, core: false, sort: "recent" as "recent" | "cited" });
   useEffect(() => {
     const u = new URLSearchParams(window.location.search);
-    setSt({ q: u.get("q") ?? "", s: u.get("s") ?? "", k: u.get("k") ?? "", o: u.get("o") === "1", all: u.get("all") === "1", core: u.get("core") === "1", sort: u.get("sort") === "cited" ? "cited" : "recent" });
+    setSt({ q: u.get("q") ?? "", s: u.get("s") ?? "", k: u.get("k") ?? "", c: u.get("c") ?? "", o: u.get("o") === "1", all: u.get("all") === "1", core: u.get("core") === "1", sort: u.get("sort") === "cited" ? "cited" : "recent" });
   }, []);
   const update = (patch: Partial<typeof st>) =>
     setSt((prev) => {
@@ -37,6 +38,7 @@ function useUrlState() {
       if (next.q) u.set("q", next.q);
       if (next.s) u.set("s", next.s);
       if (next.k) u.set("k", next.k);
+      if (next.c) u.set("c", next.c);
       if (next.o) u.set("o", "1");
       if (next.all) u.set("all", "1");
       if (next.core) u.set("core", "1");
@@ -59,17 +61,24 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
       .then(setRows, (e: Error) => setError(e.message));
   }, []);
-  useEffect(() => setLimit(PAGE), [query, st.s, st.k, st.o, st.all, st.core, st.sort]);
+  useEffect(() => setLimit(PAGE), [query, st.s, st.k, st.c, st.o, st.all, st.core, st.sort]);
 
   const list = useMemo(() => {
     if (!rows) return [];
     const words = query.split(/\s+/).filter(Boolean);
     return rows
       .filter((r) => (!st.s || r.s.includes(st.s)) && (!st.k || r.k === st.k) && (!st.o || r.o) && (st.all || r.r > 0) && (!st.core || r.r === 2)
-        && words.every((w) => `${r.t} ${r.a.join(" ")} ${r.y} ${r.v}`.toLowerCase().includes(w)))
+        && (!st.c || r.f?.includes(st.c))
+        && words.every((w) => `${r.t} ${r.te ?? ""} ${r.tf ?? ""} ${r.a.join(" ")} ${r.y} ${r.v}`.toLowerCase().includes(w)))
       .sort((a, b) => (st.sort === "cited" ? b.c - a.c || b.y - a.y : b.y - a.y || b.c - a.c));
   }, [rows, query, st]);
   const kinds = useMemo(() => [...new Set((rows ?? []).map((r) => r.k))].sort(), [rows]);
+  const countries = useMemo(() => {
+    const n = new Map<string, number>();
+    for (const r of rows ?? []) for (const c of r.f ?? []) n.set(c, (n.get(c) ?? 0) + 1);
+    return [...n.entries()].sort((a, b) => b[1] - a[1]).slice(0, 14).map(([c]) => c);
+  }, [rows]);
+  const title = (r: Row) => (lang === "es" ? r.te : lang === "fr" ? r.tf : null) ?? r.t;
 
   return (
     <div className="grid gap-10">
@@ -100,6 +109,19 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
             ))}
           </div>
         </div>
+        {countries.length > 0 && (
+          <div className="grid gap-3">
+            <span className="text-xs uppercase tracking-[0.05em] text-muted">{labels.country}</span>
+            <div className="flex flex-wrap gap-2">
+              <Chip on={!st.c} onClick={() => set({ c: "" })}>{labels.all}</Chip>
+              {countries.map((c) => (
+                <Chip key={c} on={st.c === c} onClick={() => set({ c: st.c === c ? "" : c })}>
+                  <span className="inline-flex items-center gap-2"><Flags codes={[c]} lang={lang} size={16} /><span className="font-mono text-xs">{c}</span></span>
+                </Chip>
+              ))}
+            </div>
+          </div>
+        )}
         <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
           <label className="flex cursor-pointer items-center gap-2 text-fg-2">
             <input type="checkbox" checked={st.o} onChange={(e) => set({ o: e.target.checked })} className="size-4 accent-[var(--ink)]" />
@@ -137,8 +159,11 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
                 <Link href={r.st ? `/${lang}/biblioteca/${r.id}/` : `/${lang}/biblioteca/ver/?id=${encodeURIComponent(r.id)}`} className="group grid gap-1.5 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
                   <span className="font-mono text-sm text-muted md:col-span-1">{r.y}</span>
                   <span className="grid gap-1 md:col-span-8">
-                    <span className="text-[1.05rem] text-fg group-hover:text-fg-2">{r.t}</span>
-                    <span className="line-clamp-1 text-sm text-muted">{r.a.join(", ")}</span>
+                    <span className="text-[1.05rem] text-fg group-hover:text-fg-2">{title(r)}</span>
+                    <span className="flex min-w-0 items-center gap-3 text-sm text-muted">
+                      <Flags codes={r.f ?? []} lang={lang} />
+                      <span className="line-clamp-1">{r.a.join(", ")}</span>
+                    </span>
                   </span>
                   <span className="flex flex-wrap items-center gap-1.5 md:col-span-3 md:justify-end">
                     {r.r === 2 && <span className="tag tag-blue">{labels.core}</span>}

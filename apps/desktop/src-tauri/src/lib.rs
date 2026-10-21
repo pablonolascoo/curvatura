@@ -5,6 +5,9 @@
 //! estos comandos permiten cálculos grandes sin el límite de memoria del navegador.
 
 use curvatura_core::alcubierre::{self, Params};
+use std::path::PathBuf;
+use tauri::Manager;
+use tauri_plugin_shell::ShellExt;
 use curvatura_core::geodesic;
 use serde::Serialize;
 
@@ -36,7 +39,7 @@ fn field_plane(v: f64, r: f64, sigma: f64, half: f64, n: usize) -> Result<Field,
         return Err(format!("n fuera de rango (1..=4096): {n}"));
     }
     let (mut theta, mut rho) = (vec![0.0; n * n], vec![0.0; n * n]);
-    alcubierre::field_plane(&Params { v, r, sigma }, half, n, &mut theta, &mut rho);
+    alcubierre::field_plane_par(&Params { v, r, sigma }, half, n, &mut theta, &mut rho); // todos los núcleos
     Ok(Field { theta, rho })
 }
 
@@ -96,6 +99,96 @@ async fn buscar_actualizacion(app: tauri::AppHandle) -> Result<(), String> {
     app.restart();
 }
 
+// ── Python nativo ───────────────────────────────────────────────────────────
+// La app lleva `uv` dentro (sidecar). La primera vez instala en la carpeta de datos de la app un
+// Python 3.12 propio con numpy, sympy y scipy; el paquete `curvatura` va como recurso. No toca el
+// Python del sistema ni necesita permisos de administrador.
+
+const PAQUETES: &[&str] = &["numpy", "sympy", "scipy", "matplotlib"];
+
+fn datos(app: &tauri::AppHandle) -> Result<PathBuf, String> {
+    app.path().app_data_dir().map(|d| d.join("python")).map_err(|e| e.to_string())
+}
+
+fn python_bin(base: &std::path::Path) -> PathBuf {
+    if cfg!(windows) { base.join("venv").join("Scripts").join("python.exe") } else { base.join("venv").join("bin").join("python") }
+}
+
+#[derive(Serialize)]
+struct PythonInfo {
+    instalado: bool,
+    ruta: String,
+}
+
+#[tauri::command]
+fn python_info(app: tauri::AppHandle) -> Result<PythonInfo, String> {
+    let base = datos(&app)?;
+    let bin = python_bin(&base);
+    Ok(PythonInfo { instalado: bin.exists() && base.join(".listo").exists(), ruta: bin.display().to_string() })
+}
+
+async fn uv(app: &tauri::AppHandle, base: &std::path::Path, args: &[&str]) -> Result<String, String> {
+    let out = app
+        .shell()
+        .sidecar("uv")
+        .map_err(|e| e.to_string())?
+        .args(args)
+        .env("UV_PYTHON_INSTALL_DIR", base.join("interpretes"))
+        .env("UV_CACHE_DIR", base.join("cache"))
+        .output()
+        .await
+        .map_err(|e| e.to_string())?;
+    let texto = format!("{}{}", String::from_utf8_lossy(&out.stdout), String::from_utf8_lossy(&out.stderr));
+    if out.status.success() { Ok(texto) } else { Err(texto) }
+}
+
+#[tauri::command]
+async fn python_setup(app: tauri::AppHandle) -> Result<String, String> {
+    let base = datos(&app)?;
+    std::fs::create_dir_all(&base).map_err(|e| e.to_string())?;
+    let venv = base.join("venv");
+    let venv_s = venv.display().to_string();
+    let mut log = uv(&app, &base, &["venv", "--python", "3.12", "--seed", &venv_s]).await?;
+    let py = python_bin(&base).display().to_string();
+    let mut args = vec!["pip", "install", "--python", py.as_str()];
+    args.extend_from_slice(PAQUETES);
+    log += &uv(&app, &base, &args).await?;
+    std::fs::write(base.join(".listo"), env!("CARGO_PKG_VERSION")).map_err(|e| e.to_string())?;
+    Ok(log)
+}
+
+#[derive(Serialize)]
+struct Ejecucion {
+    salida: String,
+    ok: bool,
+    segundos: f64,
+}
+
+#[tauri::command]
+async fn python_run(app: tauri::AppHandle, codigo: String, limite_s: Option<u64>) -> Result<Ejecucion, String> {
+    let base = datos(&app)?;
+    let py = python_bin(&base);
+    if !py.exists() {
+        return Err("Python nativo no está instalado todavía.".into());
+    }
+    let recursos = app.path().resource_dir().map_err(|e| e.to_string())?.join("python");
+    let script = base.join("ultimo.py");
+    std::fs::write(&script, codigo).map_err(|e| e.to_string())?;
+    let t0 = std::time::Instant::now();
+    let mut cmd = tokio::process::Command::new(&py);
+    cmd.arg(&script).env("PYTHONPATH", &recursos).env("MPLBACKEND", "Agg").current_dir(&base).kill_on_drop(true);
+    let limite = std::time::Duration::from_secs(limite_s.unwrap_or(600));
+    let out = tokio::time::timeout(limite, cmd.output())
+        .await
+        .map_err(|_| format!("Se superó el límite de {} s", limite.as_secs()))?
+        .map_err(|e| e.to_string())?;
+    Ok(Ejecucion {
+        salida: format!("{}{}", String::from_utf8_lossy(&out.stdout), String::from_utf8_lossy(&out.stderr)),
+        ok: out.status.success(),
+        segundos: t0.elapsed().as_secs_f64(),
+    })
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -103,6 +196,7 @@ pub fn run() {
         .plugin(tauri_plugin_updater::Builder::new().build())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_process::init())
+        .plugin(tauri_plugin_shell::init())
         .setup(|app| {
             if !cfg!(debug_assertions) {
                 let handle = app.handle().clone();
@@ -117,7 +211,7 @@ pub fn run() {
             }
             Ok(())
         })
-        .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, trace_geodesic])
+        .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, trace_geodesic, python_info, python_setup, python_run])
         .run(tauri::generate_context!())
         .expect("error al iniciar Curvatura");
 }

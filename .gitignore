@@ -38,3 +38,5 @@ solvers/rust/target/
 apps/web/public/sitemap.xml
 apps/web/public/robots.txt
 apps/web/public/llms.txt
+apps/desktop/src-tauri/binaries/
+apps/web/public/flags/
