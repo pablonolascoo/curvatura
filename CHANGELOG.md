@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.1.2 · 2026-10-21
+
 ### Añadido
 - Títulos de los 3367 papers traducidos al español, inglés y francés; papers en chino y de instituciones chinas.
 - País de los autores (OpenAlex) con banderas en círculo y filtro por país en la biblioteca.
