@@ -1,0 +1,16 @@
+id: unruh-1981
+title: "Experimental black-hole evaporation?"
+authors:
+  - "W. G. Unruh"
+year: 1981
+venue: "Physical Review Letters 46, 1351"
+doi: 10.1103/PhysRevLett.46.1351
+arxiv: null
+source: https://doi.org/10.1103/PhysRevLett.46.1351
+language: en
+subsystems: [V]
+kind: analogo
+license: publisher
+fulltext: false
+translations: []
+verified: false  # library/tools/verify.py lo pasa a true

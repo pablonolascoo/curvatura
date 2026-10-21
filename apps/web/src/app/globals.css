@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+/*
+ * Curvatura · sistema visual
+ * Fondo casi negro frío, texto hueso, un único acento: la línea D del sodio (589 nm).
+ * Radios: botones en píldora, superficies 28px con núcleo interior concéntrico.
+ */
+:root {
+  --bg: #f3f4f2;
+  --bg-2: #e9eae7;
+  --surface: #fbfbfa;
+  --fg: #121316;
+  --fg-2: #3a3c41;
+  --muted: #5e6167;
+  --line: rgb(18 19 22 / 0.1);
+  --line-strong: rgb(18 19 22 / 0.18);
+  --accent: #9a5205;
+  --accent-soft: rgb(154 82 5 / 0.1);
+  --glass: rgb(251 251 250 / 0.72);
+  --shadow: 0 30px 80px -40px rgb(40 34 20 / 0.28);
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0c0e;
+    --bg-2: #101115;
+    --surface: #14161a;
+    --fg: #ecebe6;
+    --fg-2: #c5c4bf;
+    --muted: #8d8f93;
+    --line: rgb(236 235 230 / 0.08);
+    --line-strong: rgb(236 235 230 / 0.16);
+    --accent: #f2a33a;
+    --accent-soft: rgb(242 163 58 / 0.12);
+    --glass: rgb(16 17 21 / 0.66);
+    --shadow: 0 30px 80px -40px rgb(0 0 0 / 0.7);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0b0c0e;
+  --bg-2: #101115;
+  --surface: #14161a;
+  --fg: #ecebe6;
+  --fg-2: #c5c4bf;
+  --muted: #8d8f93;
+  --line: rgb(236 235 230 / 0.08);
+  --line-strong: rgb(236 235 230 / 0.16);
+  --accent: #f2a33a;
+  --accent-soft: rgb(242 163 58 / 0.12);
+  --glass: rgb(16 17 21 / 0.66);
+  --shadow: 0 30px 80px -40px rgb(0 0 0 / 0.7);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --ease-premium: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+html {
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+a, button, input, label { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 70;
+  transform: translateY(-200%);
+  border-radius: 999px;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.6rem 1.1rem;
+  font-size: 0.875rem;
+}
+.skip-link:focus-visible { transform: none; }
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Grano fijo: una sola capa, sin repintar al hacer scroll. */
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* Matemáticas: MathML nativo, generado por @curvatura/formula y Temml. */
+math {
+  font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math;
+  font-size: 1.08em;
+}
+math[display="block"] {
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  padding-block: 0.25em;
+}
+[data-sym] {
+  transition: color 0.5s var(--ease);
+}
+[data-active] {
+  color: var(--accent);
+}
+.math-error {
+  color: var(--accent);
+  text-decoration: underline wavy;
+}
+
+/* Revelado de entrada. Sin JS o con movimiento reducido, todo visible. */
+.reveal {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(2.5rem);
+    filter: blur(8px);
+    transition:
+      opacity 0.9s var(--ease-out),
+      transform 0.9s var(--ease-out),
+      filter 0.9s var(--ease-out);
+    transition-delay: calc(var(--i, 0) * 70ms);
+  }
+  .js .reveal.is-in {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+/* Prosa de papers y notas. */
+.prose-paper {
+  color: var(--fg-2);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 72ch;
+}
+.prose-paper h1,
+.prose-paper h2,
+.prose-paper h3 {
+  color: var(--fg);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 2.4em 0 0.8em;
+  font-weight: 500;
+}
+.prose-paper h1 { font-size: 2rem; margin-top: 0; }
+.prose-paper h2 { font-size: 1.5rem; }
+.prose-paper h3 { font-size: 1.2rem; }
+.prose-paper p,
+.prose-paper ul,
+.prose-paper ol,
+.prose-paper blockquote,
+.prose-paper table,
+.prose-paper figure { margin: 1em 0; }
+.prose-paper ul { list-style: disc; padding-left: 1.4em; }
+.prose-paper ol { list-style: decimal; padding-left: 1.4em; }
+.prose-paper a { color: var(--fg); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.prose-paper blockquote { border-left: 2px solid var(--accent); padding-left: 1em; color: var(--muted); }
+.prose-paper img { border-radius: 16px; background: #fff; margin: 1.5em 0 0.5em; max-width: 100%; height: auto; }
+.prose-paper table { display: block; overflow-x: auto; font-size: 0.92em; border-collapse: collapse; }
+.prose-paper th, .prose-paper td { padding: 0.4em 0.8em; border-bottom: 1px solid var(--line); text-align: left; }
+.prose-paper code { font-family: var(--font-mono); font-size: 0.9em; }
+.prose-paper strong { color: var(--fg); font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

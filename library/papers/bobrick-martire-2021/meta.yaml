@@ -1,0 +1,17 @@
+id: bobrick-martire-2021
+title: "Introducing physical warp drives"
+authors:
+  - "Alexey Bobrick"
+  - "Gianni Martire"
+year: 2021
+venue: "Classical and Quantum Gravity 38, 105009"
+doi: 10.1088/1361-6382/abdf6e
+arxiv: "2102.06824"
+source: https://arxiv.org/abs/2102.06824
+language: en
+subsystems: [G, E, S]
+kind: solucion
+license: arxiv-nonexclusive  # versión de revista: comprobar licencia del editor
+fulltext: false
+translations: [es, fr]
+verified: true

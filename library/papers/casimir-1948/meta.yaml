@@ -1,0 +1,16 @@
+id: casimir-1948
+title: "On the attraction between two perfectly conducting plates"
+authors:
+  - "H. B. G. Casimir"
+year: 1948
+venue: "Proc. Kon. Ned. Akad. Wetensch. 51, 793"
+doi: null
+arxiv: null
+source: 
+language: en
+subsystems: [E]
+kind: fundamento
+license: publisher
+fulltext: false
+translations: []
+verified: false  # library/tools/verify.py lo pasa a true

@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Curvatura",
+    "description": "Programa abierto de investigación para llevar el motor de curvatura de la relatividad general a la ingeniería."
+  },
+  "nav": {
+    "engine": "Motor",
+    "metric": "Métrica",
+    "roadmap": "Hoja de ruta",
+    "library": "Biblioteca",
+    "notes": "Notas",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "language": "Idioma",
+    "home": "Inicio",
+    "skip": "Saltar al contenido",
+    "label": "Principal"
+  },
+  "hero": {
+    "title": "Mover el espacio, no la nave.",
+    "sub": "Un programa abierto para llevar el motor de curvatura de la relatividad general a la ingeniería.",
+    "primary": "Ver el motor",
+    "secondary": "Biblioteca",
+    "canvas": "Expansión de los elementos de volumen en una burbuja de Alcubierre, calculada en tiempo real."
+  },
+  "manifesto": "En 1994 Miguel Alcubierre demostró que la relatividad general admite una burbuja que viaja más rápido que la luz sin que nada en su interior lo haga. El precio era energía negativa en cantidades imposibles. Treinta años después existen soluciones con energía positiva. Este proyecto empieza ahí.",
+  "metric": {
+    "eyebrow": "Alcubierre, 1994",
+    "title": "Una métrica, tres parámetros.",
+    "body": "Mueve los parámetros. Cada valor se calcula con el motor de fórmulas del proyecto, sin tablas precalculadas.",
+    "velocity": "Velocidad",
+    "radius": "Radio",
+    "wall": "Pared",
+    "shape": "Función de forma",
+    "density": "Densidad de energía",
+    "energy": "Energía total",
+    "jupiter": "masas de Júpiter",
+    "geometric": "unidades geométricas",
+    "note": "R en metros, σ en m⁻¹, v en fracciones de c. El signo negativo es el problema central."
+  },
+  "engine": {
+    "title": "Nueve subsistemas.",
+    "body": "El motor se divide como cualquier máquina: qué produce, de qué se alimenta, cómo se sostiene y cómo se prueba.",
+    "items": [
+      {
+        "code": "G",
+        "name": "Geometría",
+        "question": "¿Qué métrica queremos producir?",
+        "state": "Familias conocidas",
+        "eq": "theta = v_s * x_s / r_s * diff(f(r_s), r_s)"
+      },
+      {
+        "code": "C",
+        "name": "Condiciones de energía",
+        "question": "¿Qué tensor energía-momento exige y es admisible?",
+        "state": "Violaciones identificadas",
+        "eq": "rho_E = -(v_s^2 * rho^2) / (32*pi*r_s^2) * diff(f(r_s), r_s)^2"
+      },
+      {
+        "code": "E",
+        "name": "Fuente",
+        "question": "¿Qué materia real produce ese tensor?",
+        "state": "Abierto",
+        "eq": "G_mu_nu = 8*pi*T_mu_nu"
+      },
+      {
+        "code": "S",
+        "name": "Estructura",
+        "question": "¿Cómo se confina y soporta la cáscara?",
+        "state": "Por empezar",
+        "eq": "p_t - p_r = r/2 * diff(p_r, r)"
+      },
+      {
+        "code": "D",
+        "name": "Dinámica y control",
+        "question": "¿Cómo se acelera, se guía y se detiene?",
+        "state": "Abierto",
+        "eq": "x_s = x_0 + v_s * t"
+      },
+      {
+        "code": "Q",
+        "name": "Estabilidad semiclásica",
+        "question": "¿Sobrevive a los efectos cuánticos?",
+        "state": "Resultados negativos en régimen supraluminal",
+        "eq": "rho_min = -C / tau^4"
+      },
+      {
+        "code": "M",
+        "name": "Medio",
+        "question": "¿Qué ocurre con las partículas del entorno?",
+        "state": "Por empezar",
+        "eq": "E_f = E_i * gamma * (1 + beta)"
+      },
+      {
+        "code": "P",
+        "name": "Potencia",
+        "question": "¿Cuál es el balance de masa y energía?",
+        "state": "Estimaciones publicadas",
+        "eq": "E = -v_s^2 * R^2 * sigma / 36"
+      },
+      {
+        "code": "V",
+        "name": "Verificación",
+        "question": "¿Cómo se demuestra cada afirmación?",
+        "state": "En construcción",
+        "eq": "ds^2 = -c_s^2*dt^2 + (dx - v*dt)^2"
+      }
+    ]
+  },
+  "history": {
+    "title": "Treinta años de geometría.",
+    "items": [
+      {
+        "year": "1994",
+        "title": "La burbuja",
+        "text": "Alcubierre escribe una solución exacta con velocidad arbitraria y energía negativa en la pared.",
+        "paper": "alcubierre-1994"
+      },
+      {
+        "year": "1997",
+        "title": "El límite cuántico",
+        "text": "Pfenning y Ford acotan el grosor de la pared. La energía sube a órdenes cosmológicos.",
+        "paper": "pfenning-ford-1997"
+      },
+      {
+        "year": "1999",
+        "title": "Menos energía",
+        "text": "Van Den Broeck reduce el requisito muchos órdenes de magnitud cambiando la geometría interior.",
+        "paper": "vandenbroeck-1999"
+      },
+      {
+        "year": "2021",
+        "title": "Motores físicos",
+        "text": "Bobrick y Martire separan lo imposible de lo difícil: burbujas subluminales con masa.",
+        "paper": "bobrick-martire-2021"
+      },
+      {
+        "year": "2024",
+        "title": "Energía positiva",
+        "text": "Fuchs y colaboradores publican una solución de velocidad constante que cumple las condiciones de energía.",
+        "paper": "fuchs-2024"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Hoja de ruta.",
+    "body": "Cada fase tiene un criterio de salida medible. No se avanza sin cumplirlo.",
+    "current": "En curso",
+    "next": "Siguiente",
+    "later": "Pendiente",
+    "phases": [
+      {
+        "name": "Biblioteca",
+        "text": "Catalogar, verificar y traducir todo lo publicado. Ecuaciones en formato máquina."
+      },
+      {
+        "name": "Cálculo verificado",
+        "text": "Reproducir cada resultado publicado con error relativo menor que 10⁻⁶ y test automático."
+      },
+      {
+        "name": "Espacio de diseño",
+        "text": "Optimizar familias de métricas: masa mínima, energía positiva, tensión acotada."
+      },
+      {
+        "name": "Fuentes físicas",
+        "text": "Encontrar materia con ecuación de estado real que produzca la métrica."
+      },
+      {
+        "name": "Dinámica",
+        "text": "Simular arranque y frenado en relatividad numérica, con su firma en ondas gravitacionales."
+      },
+      {
+        "name": "Análogo de laboratorio",
+        "text": "Construir una burbuja acústica en un canal hidráulico y medirla."
+      },
+      {
+        "name": "Prototipo",
+        "text": "Diseño preliminar revisable por terceros, solo si existe una fuente viable."
+      }
+    ]
+  },
+  "library": {
+    "title": "Biblioteca",
+    "body": "Cada paper con su fuente, su licencia y su traducción. Texto completo cuando la licencia lo permite.",
+    "cta": "Abrir la biblioteca",
+    "search": "Buscar por título, autor o año…",
+    "all": "Todos",
+    "subsystem": "Subsistema",
+    "kind": "Tipo",
+    "empty": "Ningún paper coincide con el filtro.",
+    "count": "papers",
+    "abstract": "Resumen",
+    "fulltext": "Texto completo",
+    "original": "Original",
+    "source": "Fuente original",
+    "license": "Licencia",
+    "verified": "Verificado contra arXiv",
+    "unverified": "Pendiente de verificar",
+    "noFulltext": "La licencia de este paper no permite reproducir el texto completo. Se ofrecen cita, resumen y enlace a la fuente.",
+    "noAbstract": "Sin resumen disponible. Consulta la fuente original.",
+    "translation": "Traducción del proyecto Curvatura.",
+    "back": "Volver a la biblioteca",
+    "kinds": {
+      "solucion": "Solución",
+      "restriccion": "Restricción",
+      "fuente": "Fuente",
+      "numerico": "Numérico",
+      "experimental": "Experimental",
+      "analogo": "Análogo",
+      "fundamento": "Fundamento"
+    }
+  },
+  "notes": {
+    "title": "Notas",
+    "body": "Avances, decisiones y errores del proyecto.",
+    "read": "Leer",
+    "back": "Volver a notas",
+    "empty": "Todavía no hay notas en este idioma."
+  },
+  "footer": {
+    "title": "Se construye en abierto.",
+    "body": "Código, cálculos y biblioteca en un único repositorio.",
+    "cta": "Contribuir en GitHub",
+    "license": "Código bajo PolyForm Noncommercial 1.0.0. Contenidos bajo CC BY-NC-SA 4.0. Uso comercial bajo licencia del autor.",
+    "credit": "Pablo Nolasco, 2026"
+  }
+}

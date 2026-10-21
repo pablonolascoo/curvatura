@@ -1,0 +1,18 @@
+id: santiago-2022
+title: "Generic warp drives violate the null energy condition"
+authors:
+  - "Jessica Santiago"
+  - "Sebastian Schuster"
+  - "Matt Visser"
+year: 2022
+venue: "Physical Review D 105, 064038"
+doi: 10.1103/PhysRevD.105.064038
+arxiv: "2105.03079"
+source: https://arxiv.org/abs/2105.03079
+language: en
+subsystems: [C]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

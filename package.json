@@ -1,0 +1,13 @@
+{
+  "name": "curvatura",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "bun --filter web dev",
+    "build": "bun --filter web build",
+    "test": "bun --filter '@curvatura/formula' test && uv --directory physics run pytest -q && make -C solvers/cpp test",
+    "deploy": "bun scripts/deploy.ts"
+  },
+  "packageManager": "bun@1.3.4"
+}

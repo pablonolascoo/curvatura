@@ -1,0 +1,18 @@
+id: barcelo-2011
+title: "Analogue gravity"
+authors:
+  - "Carlos Barceló"
+  - "Stefano Liberati"
+  - "Matt Visser"
+year: 2011
+venue: "Living Reviews in Relativity 14, 3"
+doi: 10.12942/lrr-2011-3
+arxiv: "gr-qc/0505065"
+source: https://arxiv.org/abs/gr-qc/0505065
+language: en
+subsystems: [V]
+kind: analogo
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

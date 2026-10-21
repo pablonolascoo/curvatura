@@ -1,0 +1,34 @@
+# Dependencias y builds
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secretos y entorno
+.env*
+!.env.example
+.dev.vars
+.cloudflare.env
+.mcp.json
+
+# Cloudflare
+.wrangler/
+
+# Generado por la web
+apps/web/public/library/
+
+# Sistema
+.DS_Store
+
+# Local de Claude Code
+.claude/launch.json
+.claude/settings.local.json

@@ -1,0 +1,21 @@
+id: helmerich-2024
+title: "Analyzing warp drive spacetimes with Warp Factory"
+authors:
+  - "Christopher Helmerich"
+  - "Jared Fuchs"
+  - "Alexey Bobrick"
+  - "Luke Sellers"
+  - "Brandon Melcher"
+  - "Gianni Martire"
+year: 2024
+venue: "Classical and Quantum Gravity 41, 095009"
+doi: null
+arxiv: "2404.03095"
+source: https://arxiv.org/abs/2404.03095
+language: en
+subsystems: [C, V]
+kind: numerico
+license: CC-BY-4.0
+fulltext: source
+translations: [es, fr]
+verified: true

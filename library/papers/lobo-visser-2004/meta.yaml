@@ -1,0 +1,17 @@
+id: lobo-visser-2004
+title: "Fundamental limitations on 'warp drive' spacetimes"
+authors:
+  - "Francisco S. N. Lobo"
+  - "Matt Visser"
+year: 2004
+venue: "Classical and Quantum Gravity 21, 5871"
+doi: 10.1088/0264-9381/21/24/011
+arxiv: "gr-qc/0406083"
+source: https://arxiv.org/abs/gr-qc/0406083
+language: en
+subsystems: [C, P]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

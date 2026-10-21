@@ -1,0 +1,14 @@
+# Clasificación de la biblioteca
+subsystems: [G, C, E, S, D, Q, M, P, V]
+kinds:
+  solucion: Solución exacta o familia de métricas
+  restriccion: Límite o teorema de imposibilidad
+  fuente: Modelo de materia o energía
+  numerico: Simulación o herramienta de cálculo
+  experimental: Medida o experimento
+  analogo: Gravedad análoga
+  fundamento: Resultado base de física
+licenses:
+  open: [CC-BY-4.0, CC-BY-SA-4.0, CC0-1.0, public-domain]
+  restricted: [arxiv-nonexclusive, publisher, unknown]
+# Solo las licencias "open" permiten texto completo y traducción en el repo.

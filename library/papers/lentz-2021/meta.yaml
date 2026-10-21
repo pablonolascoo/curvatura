@@ -1,0 +1,16 @@
+id: lentz-2021
+title: "Breaking the warp barrier: hyper-fast solitons in Einstein-Maxwell-plasma theory"
+authors:
+  - "Erik W. Lentz"
+year: 2021
+venue: "Classical and Quantum Gravity 38, 075015"
+doi: 10.1088/1361-6382/abe692
+arxiv: "2006.07125"
+source: https://arxiv.org/abs/2006.07125
+language: en
+subsystems: [G, E]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

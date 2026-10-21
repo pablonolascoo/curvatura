@@ -1,0 +1,17 @@
+id: morris-thorne-1988
+title: "Wormholes in spacetime and their use for interstellar travel: a tool for teaching general relativity"
+authors:
+  - "Michael S. Morris"
+  - "Kip S. Thorne"
+year: 1988
+venue: "American Journal of Physics 56, 395"
+doi: 10.1119/1.15620
+arxiv: null
+source: https://doi.org/10.1119/1.15620
+language: en
+subsystems: [C, E]
+kind: fundamento
+license: publisher
+fulltext: false
+translations: []
+verified: false  # library/tools/verify.py lo pasa a true

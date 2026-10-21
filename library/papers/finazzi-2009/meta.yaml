@@ -1,0 +1,18 @@
+id: finazzi-2009
+title: "Semiclassical instability of dynamical warp drives"
+authors:
+  - "Stefano Finazzi"
+  - "Stefano Liberati"
+  - "Carlos Barceló"
+year: 2009
+venue: "Physical Review D 79, 124017"
+doi: 10.1103/PhysRevD.79.124017
+arxiv: "0904.0141"
+source: https://arxiv.org/abs/0904.0141
+language: en
+subsystems: [Q]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

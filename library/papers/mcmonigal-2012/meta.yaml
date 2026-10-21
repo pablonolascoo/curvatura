@@ -1,0 +1,18 @@
+id: mcmonigal-2012
+title: "Alcubierre warp drive: on the matter of matter"
+authors:
+  - "Brendan McMonigal"
+  - "Geraint F. Lewis"
+  - "Philip O'Byrne"
+year: 2012
+venue: "Physical Review D 85, 064024"
+doi: 10.1103/PhysRevD.85.064024
+arxiv: "1202.5708"
+source: https://arxiv.org/abs/1202.5708
+language: en
+subsystems: [M]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

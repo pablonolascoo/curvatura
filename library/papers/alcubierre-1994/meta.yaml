@@ -1,0 +1,16 @@
+id: alcubierre-1994
+title: "The warp drive: hyper-fast travel within general relativity"
+authors:
+  - "Miguel Alcubierre"
+year: 1994
+venue: "Classical and Quantum Gravity 11, L73"
+doi: 10.1088/0264-9381/11/5/001
+arxiv: "gr-qc/0009013"
+source: https://arxiv.org/abs/gr-qc/0009013
+language: en
+subsystems: [G, C]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

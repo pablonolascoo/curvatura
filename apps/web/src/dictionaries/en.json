@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Curvatura",
+    "description": "An open research programme to take the warp drive from general relativity to engineering."
+  },
+  "nav": {
+    "engine": "Engine",
+    "metric": "Metric",
+    "roadmap": "Roadmap",
+    "library": "Library",
+    "notes": "Notes",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Language",
+    "home": "Home",
+    "skip": "Skip to content",
+    "label": "Main"
+  },
+  "hero": {
+    "title": "Move space, not the ship.",
+    "sub": "An open programme to take the warp drive from general relativity to engineering.",
+    "primary": "See the engine",
+    "secondary": "Library",
+    "canvas": "Expansion of volume elements around an Alcubierre bubble, computed in real time."
+  },
+  "manifesto": "In 1994 Miguel Alcubierre showed that general relativity allows a bubble that travels faster than light while nothing inside it does. The price was negative energy in impossible amounts. Thirty years later there are solutions with positive energy. This project starts there.",
+  "metric": {
+    "eyebrow": "Alcubierre, 1994",
+    "title": "One metric, three parameters.",
+    "body": "Move the parameters. Every value is computed by the project's own formula engine, with no precomputed tables.",
+    "velocity": "Velocity",
+    "radius": "Radius",
+    "wall": "Wall",
+    "shape": "Shape function",
+    "density": "Energy density",
+    "energy": "Total energy",
+    "jupiter": "Jupiter masses",
+    "geometric": "geometric units",
+    "note": "R in metres, σ in m⁻¹, v as a fraction of c. The negative sign is the central problem."
+  },
+  "engine": {
+    "title": "Nine subsystems.",
+    "body": "The engine is broken down like any machine: what it produces, what feeds it, what holds it together and how it is tested.",
+    "items": [
+      {
+        "code": "G",
+        "name": "Geometry",
+        "question": "Which metric do we want to produce?",
+        "state": "Known families",
+        "eq": "theta = v_s * x_s / r_s * diff(f(r_s), r_s)"
+      },
+      {
+        "code": "C",
+        "name": "Energy conditions",
+        "question": "Which stress-energy tensor does it require, and is it admissible?",
+        "state": "Violations identified",
+        "eq": "rho_E = -(v_s^2 * rho^2) / (32*pi*r_s^2) * diff(f(r_s), r_s)^2"
+      },
+      {
+        "code": "E",
+        "name": "Source",
+        "question": "Which real matter produces that tensor?",
+        "state": "Open",
+        "eq": "G_mu_nu = 8*pi*T_mu_nu"
+      },
+      {
+        "code": "S",
+        "name": "Structure",
+        "question": "How is the shell confined and supported?",
+        "state": "Not started",
+        "eq": "p_t - p_r = r/2 * diff(p_r, r)"
+      },
+      {
+        "code": "D",
+        "name": "Dynamics and control",
+        "question": "How does it accelerate, steer and stop?",
+        "state": "Open",
+        "eq": "x_s = x_0 + v_s * t"
+      },
+      {
+        "code": "Q",
+        "name": "Semiclassical stability",
+        "question": "Does it survive quantum effects?",
+        "state": "Negative results in the superluminal regime",
+        "eq": "rho_min = -C / tau^4"
+      },
+      {
+        "code": "M",
+        "name": "Medium",
+        "question": "What happens to the surrounding particles?",
+        "state": "Not started",
+        "eq": "E_f = E_i * gamma * (1 + beta)"
+      },
+      {
+        "code": "P",
+        "name": "Power",
+        "question": "What is the mass and energy budget?",
+        "state": "Published estimates",
+        "eq": "E = -v_s^2 * R^2 * sigma / 36"
+      },
+      {
+        "code": "V",
+        "name": "Verification",
+        "question": "How is every claim demonstrated?",
+        "state": "Under construction",
+        "eq": "ds^2 = -c_s^2*dt^2 + (dx - v*dt)^2"
+      }
+    ]
+  },
+  "history": {
+    "title": "Thirty years of geometry.",
+    "items": [
+      {
+        "year": "1994",
+        "title": "The bubble",
+        "text": "Alcubierre writes an exact solution with arbitrary velocity and negative energy in the wall.",
+        "paper": "alcubierre-1994"
+      },
+      {
+        "year": "1997",
+        "title": "The quantum bound",
+        "text": "Pfenning and Ford bound the wall thickness. The energy rises to cosmological orders.",
+        "paper": "pfenning-ford-1997"
+      },
+      {
+        "year": "1999",
+        "title": "Less energy",
+        "text": "Van Den Broeck lowers the requirement by many orders of magnitude by reshaping the interior geometry.",
+        "paper": "vandenbroeck-1999"
+      },
+      {
+        "year": "2021",
+        "title": "Physical drives",
+        "text": "Bobrick and Martire separate the impossible from the hard: subluminal bubbles with mass.",
+        "paper": "bobrick-martire-2021"
+      },
+      {
+        "year": "2024",
+        "title": "Positive energy",
+        "text": "Fuchs and collaborators publish a constant-velocity solution that satisfies the energy conditions.",
+        "paper": "fuchs-2024"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Roadmap.",
+    "body": "Every phase has a measurable exit criterion. Nothing moves forward until it is met.",
+    "current": "In progress",
+    "next": "Next",
+    "later": "Pending",
+    "phases": [
+      {
+        "name": "Library",
+        "text": "Catalogue, verify and translate everything published. Equations in machine-readable form."
+      },
+      {
+        "name": "Verified computation",
+        "text": "Reproduce every published result with relative error below 10⁻⁶ and an automated test."
+      },
+      {
+        "name": "Design space",
+        "text": "Optimise metric families: minimum mass, positive energy, bounded stress."
+      },
+      {
+        "name": "Physical sources",
+        "text": "Find matter with a real equation of state that produces the metric."
+      },
+      {
+        "name": "Dynamics",
+        "text": "Simulate start and stop in numerical relativity, with their gravitational-wave signature."
+      },
+      {
+        "name": "Laboratory analogue",
+        "text": "Build an acoustic bubble in a water channel and measure it."
+      },
+      {
+        "name": "Prototype",
+        "text": "Preliminary design open to third-party review, only if a viable source exists."
+      }
+    ]
+  },
+  "library": {
+    "title": "Library",
+    "body": "Every paper with its source, its licence and its translation. Full text when the licence allows it.",
+    "cta": "Open the library",
+    "search": "Search by title, author or year…",
+    "all": "All",
+    "subsystem": "Subsystem",
+    "kind": "Type",
+    "empty": "No paper matches the filter.",
+    "count": "papers",
+    "abstract": "Abstract",
+    "fulltext": "Full text",
+    "original": "Original",
+    "source": "Original source",
+    "license": "Licence",
+    "verified": "Verified against arXiv",
+    "unverified": "Pending verification",
+    "noFulltext": "This paper's licence does not allow reproducing the full text. Citation, abstract and a link to the source are provided.",
+    "noAbstract": "No abstract available. See the original source.",
+    "translation": "Translation by the Curvatura project.",
+    "back": "Back to the library",
+    "kinds": {
+      "solucion": "Solution",
+      "restriccion": "Constraint",
+      "fuente": "Source",
+      "numerico": "Numerical",
+      "experimental": "Experimental",
+      "analogo": "Analogue",
+      "fundamento": "Foundation"
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "body": "Progress, decisions and mistakes.",
+    "read": "Read",
+    "back": "Back to notes",
+    "empty": "No notes in this language yet."
+  },
+  "footer": {
+    "title": "Built in the open.",
+    "body": "Code, computations and library in a single repository.",
+    "cta": "Contribute on GitHub",
+    "license": "Code under PolyForm Noncommercial 1.0.0. Content under CC BY-NC-SA 4.0. Commercial use under licence from the author.",
+    "credit": "Pablo Nolasco, 2026"
+  }
+}

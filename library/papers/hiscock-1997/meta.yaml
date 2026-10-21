@@ -1,0 +1,16 @@
+id: hiscock-1997
+title: "Quantum effects in the Alcubierre warp drive spacetime"
+authors:
+  - "William A. Hiscock"
+year: 1997
+venue: "Classical and Quantum Gravity 14, L183"
+doi: 10.1088/0264-9381/14/11/002
+arxiv: "gr-qc/9707024"
+source: https://arxiv.org/abs/gr-qc/9707024
+language: en
+subsystems: [Q]
+kind: restriccion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

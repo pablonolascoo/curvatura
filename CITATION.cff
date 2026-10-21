@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si usas este proyecto en investigación, cítalo así."
+title: "Curvatura: programa abierto de ingeniería del motor de curvatura"
+authors:
+  - family-names: Nolasco
+    given-names: Pablo
+    alias: pablonolascoo
+repository-code: "https://github.com/pablonolascoo/curvatura"
+license: LicenseRef-PolyForm-Noncommercial-1.0.0
+version: 0.1.0
+date-released: 2026-10-21
+keywords: [warp drive, general relativity, Alcubierre metric, energy conditions, analogue gravity]

@@ -1,0 +1,10 @@
+{
+  "name": "@curvatura/formula",
+  "version": "0.1.0",
+  "description": "Motor de fórmulas de Curvatura: parser, evaluación compilada, derivación simbólica y render MathML.",
+  "type": "module",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "bun test", "typecheck": "tsc --noEmit" },
+  "devDependencies": { "typescript": "^5.9.3", "@types/bun": "^1.3.0" }
+}

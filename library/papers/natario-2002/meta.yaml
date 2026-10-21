@@ -1,0 +1,16 @@
+id: natario-2002
+title: "Warp drive with zero expansion"
+authors:
+  - "José Natário"
+year: 2002
+venue: "Classical and Quantum Gravity 19, 1157"
+doi: 10.1088/0264-9381/19/6/308
+arxiv: "gr-qc/0110086"
+source: https://arxiv.org/abs/gr-qc/0110086
+language: en
+subsystems: [G]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

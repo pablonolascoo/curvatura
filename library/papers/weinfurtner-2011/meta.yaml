@@ -1,0 +1,20 @@
+id: weinfurtner-2011
+title: "Measurement of stimulated Hawking emission in an analogue system"
+authors:
+  - "Silke Weinfurtner"
+  - "Edmund W. Tedford"
+  - "Matthew C. J. Penrice"
+  - "William G. Unruh"
+  - "Gregory A. Lawrence"
+year: 2011
+venue: "Physical Review Letters 106, 021302"
+doi: 10.1103/PhysRevLett.106.021302
+arxiv: "1008.1911"
+source: https://arxiv.org/abs/1008.1911
+language: en
+subsystems: [V]
+kind: experimental
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

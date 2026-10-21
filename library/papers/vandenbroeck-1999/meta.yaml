@@ -1,0 +1,16 @@
+id: vandenbroeck-1999
+title: "A 'warp drive' with more reasonable total energy requirements"
+authors:
+  - "Chris Van Den Broeck"
+year: 1999
+venue: "Classical and Quantum Gravity 16, 3973"
+doi: 10.1088/0264-9381/16/12/314
+arxiv: "gr-qc/9905084"
+source: https://arxiv.org/abs/gr-qc/9905084
+language: en
+subsystems: [G, P]
+kind: solucion
+license: arxiv-nonexclusive
+fulltext: false
+translations: [es, fr]
+verified: true

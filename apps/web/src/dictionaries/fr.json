@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Curvatura",
+    "description": "Un programme de recherche ouvert pour faire passer la propulsion par distorsion de la relativité générale à l'ingénierie."
+  },
+  "nav": {
+    "engine": "Moteur",
+    "metric": "Métrique",
+    "roadmap": "Feuille de route",
+    "library": "Bibliothèque",
+    "notes": "Notes",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "language": "Langue",
+    "home": "Accueil",
+    "skip": "Aller au contenu",
+    "label": "Principale"
+  },
+  "hero": {
+    "title": "Déplacer l'espace, pas le vaisseau.",
+    "sub": "Un programme ouvert pour faire passer la propulsion par distorsion de la relativité générale à l'ingénierie.",
+    "primary": "Voir le moteur",
+    "secondary": "Bibliothèque",
+    "canvas": "Expansion des éléments de volume autour d'une bulle d'Alcubierre, calculée en temps réel."
+  },
+  "manifesto": "En 1994, Miguel Alcubierre a montré que la relativité générale admet une bulle qui voyage plus vite que la lumière sans que rien à l'intérieur ne le fasse. Le prix était une énergie négative en quantités impossibles. Trente ans plus tard, il existe des solutions à énergie positive. Ce projet commence là.",
+  "metric": {
+    "eyebrow": "Alcubierre, 1994",
+    "title": "Une métrique, trois paramètres.",
+    "body": "Modifiez les paramètres. Chaque valeur est calculée par le moteur de formules du projet, sans tables précalculées.",
+    "velocity": "Vitesse",
+    "radius": "Rayon",
+    "wall": "Paroi",
+    "shape": "Fonction de forme",
+    "density": "Densité d'énergie",
+    "energy": "Énergie totale",
+    "jupiter": "masses de Jupiter",
+    "geometric": "unités géométriques",
+    "note": "R en mètres, σ en m⁻¹, v en fraction de c. Le signe négatif est le problème central."
+  },
+  "engine": {
+    "title": "Neuf sous-systèmes.",
+    "body": "Le moteur se décompose comme toute machine : ce qu'il produit, ce qui l'alimente, ce qui le tient et comment on le teste.",
+    "items": [
+      {
+        "code": "G",
+        "name": "Géométrie",
+        "question": "Quelle métrique voulons-nous produire ?",
+        "state": "Familles connues",
+        "eq": "theta = v_s * x_s / r_s * diff(f(r_s), r_s)"
+      },
+      {
+        "code": "C",
+        "name": "Conditions d'énergie",
+        "question": "Quel tenseur énergie-impulsion exige-t-elle, et est-il admissible ?",
+        "state": "Violations identifiées",
+        "eq": "rho_E = -(v_s^2 * rho^2) / (32*pi*r_s^2) * diff(f(r_s), r_s)^2"
+      },
+      {
+        "code": "E",
+        "name": "Source",
+        "question": "Quelle matière réelle produit ce tenseur ?",
+        "state": "Ouvert",
+        "eq": "G_mu_nu = 8*pi*T_mu_nu"
+      },
+      {
+        "code": "S",
+        "name": "Structure",
+        "question": "Comment la coque est-elle confinée et soutenue ?",
+        "state": "À commencer",
+        "eq": "p_t - p_r = r/2 * diff(p_r, r)"
+      },
+      {
+        "code": "D",
+        "name": "Dynamique et contrôle",
+        "question": "Comment accélère-t-elle, se dirige-t-elle et s'arrête-t-elle ?",
+        "state": "Ouvert",
+        "eq": "x_s = x_0 + v_s * t"
+      },
+      {
+        "code": "Q",
+        "name": "Stabilité semi-classique",
+        "question": "Résiste-t-elle aux effets quantiques ?",
+        "state": "Résultats négatifs en régime supraluminique",
+        "eq": "rho_min = -C / tau^4"
+      },
+      {
+        "code": "M",
+        "name": "Milieu",
+        "question": "Qu'arrive-t-il aux particules environnantes ?",
+        "state": "À commencer",
+        "eq": "E_f = E_i * gamma * (1 + beta)"
+      },
+      {
+        "code": "P",
+        "name": "Puissance",
+        "question": "Quel est le bilan de masse et d'énergie ?",
+        "state": "Estimations publiées",
+        "eq": "E = -v_s^2 * R^2 * sigma / 36"
+      },
+      {
+        "code": "V",
+        "name": "Vérification",
+        "question": "Comment chaque affirmation est-elle démontrée ?",
+        "state": "En construction",
+        "eq": "ds^2 = -c_s^2*dt^2 + (dx - v*dt)^2"
+      }
+    ]
+  },
+  "history": {
+    "title": "Trente ans de géométrie.",
+    "items": [
+      {
+        "year": "1994",
+        "title": "La bulle",
+        "text": "Alcubierre écrit une solution exacte à vitesse arbitraire avec une énergie négative dans la paroi.",
+        "paper": "alcubierre-1994"
+      },
+      {
+        "year": "1997",
+        "title": "La borne quantique",
+        "text": "Pfenning et Ford bornent l'épaisseur de la paroi. L'énergie atteint des ordres cosmologiques.",
+        "paper": "pfenning-ford-1997"
+      },
+      {
+        "year": "1999",
+        "title": "Moins d'énergie",
+        "text": "Van Den Broeck réduit l'exigence de nombreux ordres de grandeur en modifiant la géométrie intérieure.",
+        "paper": "vandenbroeck-1999"
+      },
+      {
+        "year": "2021",
+        "title": "Moteurs physiques",
+        "text": "Bobrick et Martire séparent l'impossible du difficile : des bulles subluminiques avec masse.",
+        "paper": "bobrick-martire-2021"
+      },
+      {
+        "year": "2024",
+        "title": "Énergie positive",
+        "text": "Fuchs et ses collaborateurs publient une solution à vitesse constante qui respecte les conditions d'énergie.",
+        "paper": "fuchs-2024"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Feuille de route.",
+    "body": "Chaque phase a un critère de sortie mesurable. Rien n'avance tant qu'il n'est pas rempli.",
+    "current": "En cours",
+    "next": "Suivante",
+    "later": "En attente",
+    "phases": [
+      {
+        "name": "Bibliothèque",
+        "text": "Cataloguer, vérifier et traduire tout ce qui est publié. Équations sous forme lisible par machine."
+      },
+      {
+        "name": "Calcul vérifié",
+        "text": "Reproduire chaque résultat publié avec une erreur relative inférieure à 10⁻⁶ et un test automatique."
+      },
+      {
+        "name": "Espace de conception",
+        "text": "Optimiser des familles de métriques : masse minimale, énergie positive, contrainte bornée."
+      },
+      {
+        "name": "Sources physiques",
+        "text": "Trouver une matière à équation d'état réelle qui produise la métrique."
+      },
+      {
+        "name": "Dynamique",
+        "text": "Simuler démarrage et arrêt en relativité numérique, avec leur signature en ondes gravitationnelles."
+      },
+      {
+        "name": "Analogue de laboratoire",
+        "text": "Construire une bulle acoustique dans un canal hydraulique et la mesurer."
+      },
+      {
+        "name": "Prototype",
+        "text": "Conception préliminaire soumise à revue externe, seulement si une source viable existe."
+      }
+    ]
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "body": "Chaque article avec sa source, sa licence et sa traduction. Texte intégral lorsque la licence le permet.",
+    "cta": "Ouvrir la bibliothèque",
+    "search": "Rechercher par titre, auteur ou année…",
+    "all": "Tous",
+    "subsystem": "Sous-système",
+    "kind": "Type",
+    "empty": "Aucun article ne correspond au filtre.",
+    "count": "articles",
+    "abstract": "Résumé",
+    "fulltext": "Texte intégral",
+    "original": "Original",
+    "source": "Source originale",
+    "license": "Licence",
+    "verified": "Vérifié sur arXiv",
+    "unverified": "Vérification en attente",
+    "noFulltext": "La licence de cet article ne permet pas de reproduire le texte intégral. Citation, résumé et lien vers la source sont fournis.",
+    "noAbstract": "Pas de résumé disponible. Consultez la source originale.",
+    "translation": "Traduction du projet Curvatura.",
+    "back": "Retour à la bibliothèque",
+    "kinds": {
+      "solucion": "Solution",
+      "restriccion": "Contrainte",
+      "fuente": "Source",
+      "numerico": "Numérique",
+      "experimental": "Expérimental",
+      "analogo": "Analogue",
+      "fundamento": "Fondement"
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "body": "Avancées, décisions et erreurs du projet.",
+    "read": "Lire",
+    "back": "Retour aux notes",
+    "empty": "Pas encore de notes dans cette langue."
+  },
+  "footer": {
+    "title": "Construit en ouvert.",
+    "body": "Code, calculs et bibliothèque dans un seul dépôt.",
+    "cta": "Contribuer sur GitHub",
+    "license": "Code sous PolyForm Noncommercial 1.0.0. Contenus sous CC BY-NC-SA 4.0. Usage commercial sous licence de l'auteur.",
+    "credit": "Pablo Nolasco, 2026"
+  }
+}
