@@ -177,6 +177,23 @@ def t_evaluar(formula, valores):
             "media": float(fin.mean()) if fin.size else None, "muestra": [float(x) for x in r[:: max(1, r.size // 20)][:20]]}
 
 
+@herramienta("lab_barrido", "Barrido masivo de parámetros (hasta 8 variables y miles de millones de puntos) en la GPU "
+             "(Metal, DirectX 12, Vulkan) o en todos los núcleos: mínimo, máximo, media y fracción negativa sin guardar la "
+             "rejilla. Para explorar dónde una fórmula cambia de signo o se hace extrema. GPU en f32 (los negativos "
+             "diminutos cuentan como cero); para certeza usa lab_cota.",
+             formula=S("expresión"), rangos={"type": "object", "description": "símbolo → [inicio, fin, n]"},
+             motor=S("auto, gpu o cpu", default="auto"))
+def t_barrido(formula, rangos, motor="auto"):
+    from curvatura.lab.rapido import barrido
+    return barrido(formula, {k: (float(v[0]), float(v[1]), int(v[2])) for k, v in rangos.items()}, motor)
+
+
+@herramienta("hardware", "CPU, GPU y aceleradores de este equipo y qué motor usa cada parte del sistema.")
+def t_hardware():
+    from .hardware import informe
+    return informe()
+
+
 @herramienta("lab_tensor", "Tensor de Einstein y densidad de energía euleriana desde una métrica del catálogo (alcubierre, "
              "lentz, schwarzschild) con symengine; opcionalmente contrasta con una fórmula ρ propuesta (x, y, z, t, v, f).",
              metrica=S("nombre"), comparar=S("fórmula de ρ a contrastar", opcional=True))

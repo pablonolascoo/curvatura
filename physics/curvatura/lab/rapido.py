@@ -78,3 +78,59 @@ def banco(formula, n: int = 1_000_000, dominio: dict[str, tuple[float, float]] |
         except Exception as exc:
             out[motor] = {"error": str(exc)[:200]}
     return out
+
+
+_barridos: dict = {}
+
+
+def barrido_cpu(formula, rangos: dict[str, tuple[float, float, int]]) -> dict:
+    """Barrido de una rejilla en todos los núcleos (numba, f64), sin guardar la rejilla en memoria."""
+    import numba
+
+    e, syms = _expr(formula)
+    d = len(syms)
+    clave = sp.srepr(e)
+    if clave not in _barridos:
+        f = numba.njit(fastmath=True)(sp.lambdify(syms, e, modules="math", cse=True))
+        decod = "\n".join(f"        q{i} = resto % n[{i}]; resto = resto // n[{i}]; v{i} = ini[{i}] + paso[{i}] * q{i}" for i in range(d))
+        args = ", ".join(f"v{i}" for i in range(d))
+        fuente = f"""
+def k(ini, paso, n, total):
+    mn = np.inf; mx = -np.inf; s = 0.0; neg = 0; val = 0
+    for idx in numba.prange(total):
+        resto = idx + 0
+{decod}
+        y = f({args})
+        if np.isfinite(y):
+            mn = min(mn, y); mx = max(mx, y); s += y; val += 1
+            if y < 0.0:
+                neg += 1
+    return mn, mx, s, neg, val
+"""
+        ns = {"np": np, "numba": numba, "f": f}
+        exec(fuente, ns)
+        _barridos[clave] = numba.njit(parallel=True, fastmath=True)(ns["k"])
+    ini = np.array([rangos[s.name][0] for s in syms], float)
+    n = np.array([int(rangos[s.name][2]) for s in syms], np.int64)
+    paso = np.array([(rangos[s.name][1] - rangos[s.name][0]) / (k - 1) if k > 1 else 0.0 for s, k in zip(syms, n)], float)
+    total = int(np.prod(n))
+    t = time.perf_counter()
+    mn, mx, s, neg, val = _barridos[clave](ini, paso, n, total)
+    ms = (time.perf_counter() - t) * 1000
+    return {"motor": f"CPU {numba.get_num_threads()} hilos (numba, f64)", "puntos": total, "ms": round(ms, 2),
+            "Gpuntos_s": round(total / ms / 1e6, 3), "min": float(mn), "max": float(mx),
+            "media": float(s / total), "fraccion_negativa": float(neg / total)}
+
+
+def barrido(formula, rangos: dict[str, tuple[float, float, int]], motor: str = "auto") -> dict:
+    """Barrido de parámetros con el mejor motor del equipo: GPU (wgpu: Metal, DirectX 12, Vulkan) o todos los núcleos."""
+    if motor in ("auto", "gpu"):
+        try:
+            from . import gpu
+
+            if gpu.disponible():
+                return gpu.barrido(formula, rangos)
+        except Exception:
+            if motor == "gpu":
+                raise
+    return barrido_cpu(formula, rangos)

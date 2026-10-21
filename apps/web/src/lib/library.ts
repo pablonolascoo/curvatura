@@ -87,7 +87,7 @@ function read(id: string, file: string): string | null {
   return existsSync(f) ? readFileSync(f, "utf8") : null;
 }
 
-export type PaperVersion = { lang: string; original: boolean; abstract: string | null; text: string | null };
+export type PaperVersion = { lang: string; original: boolean; abstract: string | null; text: string | null; propio: boolean };
 
 /** Versiones disponibles del paper: original primero, luego es/en/fr si existen. */
 export function getVersions(p: Paper): PaperVersion[] {
@@ -96,7 +96,9 @@ export function getVersions(p: Paper): PaperVersion[] {
     .map((lang) => ({
       lang,
       original: lang === p.language,
-      abstract: read(p.id, `abstract.${lang}.md`),
+      abstract: read(p.id, `abstract.${lang}.md`) ?? read(p.id, `resumen.${lang}.md`),
+      // Resumen propio (IA, a partir de fuentes públicas) cuando el original no se puede publicar.
+      propio: !read(p.id, `abstract.${lang}.md`) && !!read(p.id, `resumen.${lang}.md`),
       text: isOpenLicense(p) ? read(p.id, `text.${lang}.md`) : null,
     }))
     .filter((v) => v.original || v.abstract || v.text);

@@ -265,7 +265,8 @@ def desde_pdf(pid: str, pdf: Path) -> dict:
 def ficha(pid: str) -> dict:
     d = PAPERS / pid
     meta = read_meta(d / "meta.yaml")
-    resumenes = {p.stem.split(".")[1]: p.read_text().strip() for p in d.glob("abstract.*.md")}
+    resumenes = {p.stem.split(".")[1]: p.read_text().strip() for p in d.glob("abstract.*.md")} \
+        or {p.stem.split(".")[1]: p.read_text().strip() for p in d.glob("resumen.*.md")}
     return {"id": pid, "title": meta.get("title"), "authors": meta.get("authors") or [], "year": meta.get("year"),
             "venue": meta.get("venue"), "doi": meta.get("doi"), "arxiv": meta.get("arxiv"), "source_url": meta.get("source"),
             "license": meta.get("license"), "countries": meta.get("countries") or [], "subsystems": meta.get("subsystems") or [],

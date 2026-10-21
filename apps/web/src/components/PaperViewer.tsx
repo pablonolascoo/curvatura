@@ -9,12 +9,12 @@ import { Rating } from "./Rating";
 type Paper = {
   id: string; title: string; authors: string[]; year: number; venue: string; doi: string | null; arxiv: string | null;
   source: string; license: string; subsystems: string[]; kind: string; verified: boolean; relevance: string; language: string;
-  cited_by: number; abstracts: Record<string, string>; countries?: string[]; titles?: Record<string, string> | null;
+  cited_by: number; abstracts: Record<string, string>; propio?: boolean; countries?: string[]; titles?: Record<string, string> | null;
 };
 
 type Labels = {
   back: string; source: string; license: string; subsystem: string; kind: string; verified: string; unverified: string;
-  abstract: string; noAbstract: string; noFulltext: string; translation: string; aiTitle: string; original: string; loading: string; empty: string; country: string;
+  abstract: string; noAbstract: string; noFulltext: string; translation: string; ownSummary: string; aiTitle: string; original: string; loading: string; empty: string; country: string;
   kinds: Record<string, string>;
 };
 
@@ -109,7 +109,8 @@ export function PaperViewer({ lang, labels, ratingLabels }: { lang: string; labe
             ))}
           </div>
         )}
-        {tab !== p.language && p.abstracts[tab] && <p className="tag tag-yellow w-max normal-case tracking-normal">{labels.translation}</p>}
+        {p.propio ? <p className="tag tag-yellow w-max normal-case tracking-normal">{labels.ownSummary}</p>
+          : tab !== p.language && p.abstracts[tab] && <p className="tag tag-yellow w-max normal-case tracking-normal">{labels.translation}</p>}
         <section className="grid gap-4">
           <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{labels.abstract}</h2>
           {p.abstracts[tab] ? <p className="prose-paper text-lg text-fg">{p.abstracts[tab]}</p> : <p className="text-muted">{labels.noAbstract}</p>}

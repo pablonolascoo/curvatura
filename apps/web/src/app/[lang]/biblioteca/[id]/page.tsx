@@ -41,7 +41,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
     original: v.original,
     abstract: v.abstract ? renderMarkdown(v.abstract) : null,
     text: v.text ? renderMarkdown(v.text, base) : null,
-    note: v.original ? undefined : t.library.translation,
+    note: v.propio ? t.library.ownSummary : v.original ? undefined : t.library.translation,
   }));
 
   const meta: [string, React.ReactNode][] = [

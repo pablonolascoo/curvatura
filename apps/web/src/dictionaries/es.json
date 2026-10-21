@@ -226,7 +226,8 @@
     "countries": "países",
     "byCountry": "Por país",
     "translated": "Títulos traducidos",
-    "aiTitle": "Título traducido con IA"
+    "aiTitle": "Título traducido con IA",
+    "ownSummary": "Resumen propio generado con IA a partir de fuentes públicas: puede contener errores."
   },
   "notes": {
     "title": "Notas",

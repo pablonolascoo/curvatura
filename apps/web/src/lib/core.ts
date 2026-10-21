@@ -62,3 +62,30 @@ export function loadCore(): Promise<Core> {
   }
   return loading;
 }
+
+type Invoke = (cmd: string, args?: Record<string, unknown>) => Promise<unknown>;
+const tauriInvoke = (): Invoke | undefined =>
+  typeof window === "undefined" ? undefined : (window as unknown as { __TAURI__?: { core?: { invoke: Invoke } } }).__TAURI__?.core?.invoke;
+
+export type Hardware = { hilos: number; gpu: string | null; so: string; arquitectura: string };
+
+/** En la app de escritorio: qué hay en el equipo (núcleos y GPU). En la web, null. */
+export async function nativeHardware(): Promise<Hardware | null> {
+  const invoke = tauriInvoke();
+  return invoke ? ((await invoke("hardware")) as Hardware) : null;
+}
+
+/**
+ * En la app de escritorio, θ y ρ_E calculados por el núcleo nativo: GPU (Metal, DirectX 12, Vulkan)
+ * para mapas grandes y todos los núcleos de la CPU para los pequeños. Llega en binario, sin JSON.
+ * En la web devuelve null y se usa WebAssembly.
+ */
+export async function nativeField(v: number, R: number, sigma: number, half: number, n: number) {
+  const invoke = tauriInvoke();
+  if (!invoke) return null;
+  const raw = (await invoke("field_plane_bin", { v, r: R, sigma, half, n })) as ArrayBuffer | number[];
+  const buf = raw instanceof ArrayBuffer ? raw : new Uint8Array(raw).buffer;
+  const motor = new DataView(buf).getUint32(0, true) === 1 ? "gpu" : "cpu";
+  const datos = new Float32Array(buf, 4, 2 * n * n);
+  return { theta: datos.subarray(0, n * n), rho: datos.subarray(n * n), motor } as const;
+}

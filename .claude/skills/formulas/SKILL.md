@@ -23,7 +23,8 @@ Sintaxis: `a^2`, `sqrt()`, `exp()`, `tanh()`, `sech()`, `pi`, `diff(f(r), r)`, i
 | ¿Cuadran las unidades? | `lab_unidades` / `curvatura-lab unidades "E = m*c^2" m=masa c=velocidad E=energia` | Exacta. `--geometricas` para G = c = 1 |
 | ¿Qué valores toma en esta región? ¿Es negativa en todo el dominio? | `lab_cota` / `curvatura-lab cota "expr" x=0:1 r=0.1:4 --signo "<=0"` | Rigurosa (aritmética de bolas Arb + ramificación y poda + análisis de signo por factores) |
 | Desigualdad polinómica o racional con hipótesis | `lab_z3` / `curvatura-lab z3 "a^2+b^2 >= 2*a*b" --si "a>0"` | Exacta (Z3). Contraejemplo exacto si es falsa |
-| Evaluar millones de puntos, barridos, mapas | `lab_evaluar` / `curvatura-lab banco "expr"` | numba paralelo: cientos de millones de puntos/s |
+| Evaluar millones de puntos | `lab_evaluar` / `curvatura-lab banco "expr"` | numba en todos los núcleos (f64): cientos de millones de puntos/s |
+| Barrer parámetros (hasta 8 variables, miles de millones de puntos): mínimo, máximo, dónde cambia de signo | `lab_barrido` | GPU de cualquier equipo con wgpu (Metal, DirectX 12, Vulkan; f32) o todos los núcleos (f64). Luego confirma con `lab_cota` |
 | De la métrica a G_μν y ρ euleriana; contrastar con un paper | `lab_tensor` / `curvatura-lab tensor alcubierre --comparar "ρ del paper"` | symengine (ms); contraste a 50 dígitos |
 | Sacar la ley que explica unos datos | `lab_descubrir` / `curvatura-lab descubrir datos.csv --y col` | Frente de Pareto error/complejidad. PySR si `uv sync --extra descubrir` en physics/ |
 | Comprobar las ecuaciones vivas de la biblioteca | `curvatura-lab biblioteca` | Lectura y evaluación de todas |
@@ -40,6 +41,8 @@ Sintaxis: `a^2`, `sqrt()`, `exp()`, `tanh()`, `sech()`, `pi`, `diff(f(r), r)`, i
 
 ## Trucos de velocidad
 
+- `curvatura-ia hardware` dice qué motor usa cada parte en este equipo; `--banco` lo mide.
+- Para explorar, primero `lab_barrido` (rápido, f32), después `lab_cota` en la región sospechosa (riguroso).
 - `simplify` es lo lento: el laboratorio lo evita (symengine expande, mpmath compara). Pide `simbolica=False` en `lab_igual` si solo necesitas certeza numérica.
 - Para funciones sin definir (`f(r)`) la igualdad se prueba con varias funciones concretas (tanh, gaussiana, lorentziana).
 - Una cota «parcial» significa que hay que partir más el dominio (`--max-cajas`) o reducirlo; nunca la presentes como demostrada.

@@ -43,6 +43,58 @@ fn field_plane(v: f64, r: f64, sigma: f64, half: f64, n: usize) -> Result<Field,
     Ok(Field { theta, rho })
 }
 
+/// GPU detectada una sola vez (Metal, DirectX 12 o Vulkan). `None` si no hay o no sirve.
+fn gpu() -> Option<&'static curvatura_core::gpu::Gpu> {
+    static GPU: std::sync::OnceLock<Option<curvatura_core::gpu::Gpu>> = std::sync::OnceLock::new();
+    GPU.get_or_init(curvatura_core::gpu::Gpu::new).as_ref()
+}
+
+/// θ y ρ_E en binario (sin JSON): cabecera u32 con el motor (1 GPU, 0 CPU) y luego 2·n² f32.
+/// Elige la GPU para mapas grandes y todos los núcleos de la CPU para los pequeños.
+#[tauri::command]
+fn field_plane_bin(v: f64, r: f64, sigma: f64, half: f64, n: usize, motor: Option<String>) -> Result<tauri::ipc::Response, String> {
+    if n == 0 || n > 8192 {
+        return Err(format!("n fuera de rango (1..=8192): {n}"));
+    }
+    let p = Params { v, r, sigma };
+    let quiere_cpu = motor.as_deref() == Some("cpu");
+    let mut out: Vec<u8> = Vec::with_capacity(4 + 8 * n * n);
+    match gpu().filter(|_| !quiere_cpu && n * n >= 256 * 256) {
+        Some(g) => {
+            let (mut t, mut rr) = (vec![0f32; n * n], vec![0f32; n * n]);
+            g.field_plane_into(&p, half, n, &mut t, &mut rr);
+            out.extend_from_slice(&1u32.to_le_bytes());
+            out.extend(t.iter().chain(rr.iter()).flat_map(|x| x.to_le_bytes()));
+        }
+        None => {
+            let (mut t, mut rr) = (vec![0.0; n * n], vec![0.0; n * n]);
+            alcubierre::field_plane_par(&p, half, n, &mut t, &mut rr);
+            out.extend_from_slice(&0u32.to_le_bytes());
+            out.extend(t.iter().chain(rr.iter()).flat_map(|x| (*x as f32).to_le_bytes()));
+        }
+    }
+    Ok(tauri::ipc::Response::new(out))
+}
+
+#[derive(Serialize)]
+struct Hardware {
+    hilos: usize,
+    gpu: Option<String>,
+    so: &'static str,
+    arquitectura: &'static str,
+}
+
+/// Qué hay en este equipo para calcular: núcleos de CPU y GPU utilizable.
+#[tauri::command]
+fn hardware() -> Hardware {
+    Hardware {
+        hilos: std::thread::available_parallelism().map(|n| n.get()).unwrap_or(1),
+        gpu: gpu().map(|g| g.nombre.clone()),
+        so: std::env::consts::OS,
+        arquitectura: std::env::consts::ARCH,
+    }
+}
+
 #[derive(Serialize)]
 struct Path {
     points: Vec<f64>,
@@ -211,7 +263,7 @@ pub fn run() {
             }
             Ok(())
         })
-        .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, trace_geodesic, python_info, python_setup, python_run])
+        .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, field_plane_bin, hardware, trace_geodesic, python_info, python_setup, python_run])
         .run(tauri::generate_context!())
         .expect("error al iniciar Curvatura");
 }

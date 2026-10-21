@@ -58,17 +58,33 @@ pub fn total_energy_thin_wall(p: &Params) -> f64 {
     -p.v * p.v * p.r * p.r * p.sigma / 36.0
 }
 
+/// θ y ρ_E de una fila del plano z = 0, con f'(r_s) calculado una sola vez por punto.
+#[inline]
+fn fila(p: &Params, half: f64, step: f64, n: usize, y: f64, tr: &mut [f64], rr: &mut [f64]) {
+    let inv = 1.0 / (2.0 * (p.sigma * p.r).tanh());
+    let k = -p.v * p.v / (32.0 * std::f64::consts::PI);
+    let y2 = y * y;
+    for i in 0..n {
+        let x = -half + step * i as f64;
+        let r2 = x * x + y2;
+        if r2 == 0.0 {
+            tr[i] = 0.0;
+            rr[i] = 0.0;
+            continue;
+        }
+        let rs = r2.sqrt();
+        let fp = p.sigma * (sech2(p.sigma * (rs + p.r)) - sech2(p.sigma * (rs - p.r))) * inv;
+        tr[i] = p.v * (x / rs) * fp;
+        rr[i] = k * (y2 / r2) * fp * fp;
+    }
+}
+
 /// Muestrea θ y ρ_E en el plano z = 0 sobre [-L, L]² con n × n puntos (fila mayor en y).
 pub fn field_plane(p: &Params, half: f64, n: usize, theta: &mut [f64], rho: &mut [f64]) {
     assert!(theta.len() >= n * n && rho.len() >= n * n, "búferes demasiado pequeños");
     let step = if n > 1 { 2.0 * half / (n as f64 - 1.0) } else { 0.0 };
-    for j in 0..n {
-        let y = -half + step * j as f64;
-        for i in 0..n {
-            let x = -half + step * i as f64;
-            theta[j * n + i] = expansion(x, y, 0.0, p, 0.0);
-            rho[j * n + i] = energy_density(x, y, 0.0, p, 0.0);
-        }
+    for (j, (tr, rr)) in theta[..n * n].chunks_mut(n).zip(rho[..n * n].chunks_mut(n)).enumerate() {
+        fila(p, half, step, n, -half + step * j as f64, tr, rr);
     }
 }
 
@@ -82,14 +98,7 @@ pub fn field_plane_par(p: &Params, half: f64, n: usize, theta: &mut [f64], rho: 
         .par_chunks_mut(n)
         .zip(rho[..n * n].par_chunks_mut(n))
         .enumerate()
-        .for_each(|(j, (tr, rr))| {
-            let y = -half + step * j as f64;
-            for i in 0..n {
-                let x = -half + step * i as f64;
-                tr[i] = expansion(x, y, 0.0, p, 0.0);
-                rr[i] = energy_density(x, y, 0.0, p, 0.0);
-            }
-        });
+        .for_each(|(j, (tr, rr))| fila(p, half, step, n, -half + step * j as f64, tr, rr));
 }
 
 #[cfg(test)]

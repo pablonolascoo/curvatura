@@ -1,6 +1,7 @@
 """curvatura-ia: la IA de investigación de Curvatura.
 
   estado                         qué hay en la base
+  hardware [--banco]             CPU, GPU y aceleradores del equipo, y qué motor usa cada parte
   vigilar                        ciclo completo: papers nuevos → corpus → análisis → patentes → vectores
   corpus | analizar | vectorizar | patentes     cada paso por separado (admiten sus propias opciones)
   fichas contexto|generar|validar               ficha de análisis por paper escrita por IA
@@ -53,10 +54,16 @@ def vigilar() -> int:
         ["python3", "-I", "library/tools/relevance.py"],
         [py, "-m", "curvatura_ia.corpus"],
         [py, "-m", "curvatura_ia.analizar"],
+        [py, "-m", "curvatura_ia.fuentes"],
+        [py, "-m", "curvatura_ia.fuentes", "paginas"],
         [py, "-m", "curvatura_ia.patentes", "--max", "200"],
         [py, "-m", "curvatura_ia.vectorizar", "--vigilado"],
         ["python3", "-I", "library/rag/build.py"],
     ]
+    import os
+
+    if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("CURVATURA_LLM_URL"):
+        pasos.insert(-2, [py, "-m", "curvatura_ia.fuentes", "resumir"])
     for p in pasos:
         print(f"\n▸ {' '.join(p[-3:])}", flush=True)
         r = subprocess.run(p, cwd=REPO)
@@ -75,9 +82,12 @@ def main(argv: list[str] | None = None) -> int:
     if orden == "estado":
         from .buscar import estado
         print(json.dumps(estado(), ensure_ascii=False, indent=2))
-    elif orden in ("corpus", "analizar", "vectorizar", "patentes", "fichas"):
+    elif orden in ("corpus", "analizar", "vectorizar", "patentes", "fichas", "fuentes"):
         import importlib
         return importlib.import_module(f"curvatura_ia.{orden}").main()
+    elif orden == "hardware":
+        from .hardware import main as hw
+        return hw()
     elif orden == "vigilar":
         return vigilar()
     elif orden == "buscar":

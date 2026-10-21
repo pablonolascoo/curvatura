@@ -11,5 +11,8 @@ pub mod alcubierre;
 pub mod geodesic;
 pub mod integrate;
 
+#[cfg(feature = "gpu")]
+pub mod gpu;
+
 #[cfg(target_arch = "wasm32")]
 pub mod wasm;

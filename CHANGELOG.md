@@ -5,6 +5,13 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 ## Sin publicar
 
 ### Añadido
+- Núcleo Rust en la GPU con wgpu (Metal, DirectX 12, Vulkan): 4.000 millones de puntos/s de cálculo en un M4; la app de escritorio la usa para mapas grandes, con transferencia binaria, y muestra el motor usado.
+- Laboratorio: barridos de hasta 8 variables y miles de millones de puntos en la GPU de cualquier equipo (SymPy → WGSL) o en todos los núcleos con numba; herramienta `lab_barrido`.
+- `curvatura-ia hardware`: detecta CPU, GPU, PyTorch y aceleradores ONNX (CUDA, DirectML, QNN, OpenVINO) y elige motor; `--banco` lo mide.
+- Resúmenes: 527 resúmenes originales de arXiv recuperados (CC0) y resúmenes propios con IA, en es/en/fr, para los papers cuyo resumen no se puede publicar, a partir de fuentes públicas (OpenAlex, Semantic Scholar, Crossref, páginas de editoriales, texto descargado).
+
+### Cambiado
+- Campo de Alcubierre en CPU tres veces más rápido: f'(r) se calcula una sola vez por punto.
 - IA de investigación (`ia/`): descarga del texto completo de cada paper (LaTeX de arXiv o PDF en acceso abierto), análisis de secciones, ecuaciones con contexto, figuras, tablas y referencias, y base vectorial multimodal local (LanceDB: texto multilingüe con multilingual-e5-large y figuras con SigLIP 2), con búsqueda híbrida y atribución en cada fragmento.
 - Agente con RAG, laboratorio y subagentes recursivos; lluvia de ideas multiagente (documentalista, ideadores con técnicas distintas, abogado del diablo, formulista, síntesis). Terminal, web local, servidor MCP para Claude Code; Anthropic o modelos locales compatibles con OpenAI.
 - Laboratorio de fórmulas (`curvatura-lab`): igualdades (symengine, 50 dígitos, SymPy), unidades, cotas rigurosas con Arb, demostraciones con Z3, evaluación con numba, tensor de Einstein con symengine y descubrimiento de fórmulas.

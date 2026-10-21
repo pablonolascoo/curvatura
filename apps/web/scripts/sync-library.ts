@@ -51,12 +51,20 @@ for (const id of readdirSync(PAPERS)) {
     const mm = /^abstract\.([a-z]{2})\.md$/.exec(f);
     if (mm) abstracts[mm[1]] = readFileSync(path.join(dir, f), "utf8").trim();
   }
+  // Sin resumen publicable: resumen propio escrito con IA a partir de fuentes públicas (resumen.<lang>.md).
+  let propio = false;
+  if (!Object.keys(abstracts).length) {
+    for (const f of readdirSync(dir)) {
+      const mm = /^resumen\.([a-z]{2})\.md$/.exec(f);
+      if (mm) { abstracts[mm[1]] = readFileSync(path.join(dir, f), "utf8").trim(); propio = true; }
+    }
+  }
   const sh = shards.get(shardOf(id)) ?? {};
   shards.set(shardOf(id), sh);
   sh[id] = ({
     id, title: m.title, authors: m.authors ?? [], year: m.year, venue: m.venue, doi: m.doi ?? null, arxiv: m.arxiv ?? null,
     source: m.source, license: m.license, subsystems: m.subsystems ?? [], kind: m.kind, verified: !!m.verified,
-    relevance: m.relevance ?? "media", language: m.language ?? "en", cited_by: m.cited_by ?? 0, abstracts,
+    relevance: m.relevance ?? "media", language: m.language ?? "en", cited_by: m.cited_by ?? 0, abstracts, propio,
     countries: m.countries ?? [], titles: existsSync(path.join(dir, "titles.yaml")) ? YAML.parse(readFileSync(path.join(dir, "titles.yaml"), "utf8")) : null,
   });
   for (const c of m.countries ?? []) usedFlags.add(String(c).toLowerCase());

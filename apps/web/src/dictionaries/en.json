@@ -226,7 +226,8 @@
     "countries": "countries",
     "byCountry": "By country",
     "translated": "Translated titles",
-    "aiTitle": "Title translated with AI"
+    "aiTitle": "Title translated with AI",
+    "ownSummary": "Our own AI-generated summary from public sources: may contain errors."
   },
   "notes": {
     "title": "Notes",

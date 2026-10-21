@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { loadCore, type Core } from "@/lib/core";
+import { loadCore, nativeField, nativeHardware, type Core, type Hardware } from "@/lib/core";
 import { formatSci } from "../LiveEquation";
 
 type Labels = { core: string; coreBody: string; time: string; energy: string; conservation: string; clickHint: string; loading: string; error: string; contraction: string; expansion: string; velocity: string; radius: string; wall: string };
@@ -23,40 +23,50 @@ export function CoreLab({ labels, lang }: { labels: Labels; lang: string }) {
   const [p, setP] = useState({ v: 1.2, R: 1, sigma: 5 });
   const [stats, setStats] = useState<{ ms: number; E: number; dH: number | null }>({ ms: 0, E: 0, dH: null });
   const paths = useRef<Float64Array[]>([]);
+  const [hw, setHw] = useState<Hardware | null>(null);
+  const [res, setRes] = useState<{ n: number; motor: string }>({ n: N, motor: "Rust · WebAssembly" });
+  const turno = useRef(0);
 
   useEffect(() => {
     loadCore().then(setCore, (e: unknown) => setErr(e instanceof Error ? e.message : String(e)));
+    nativeHardware().then(setHw, () => setHw(null));
   }, []);
 
-  const draw = () => {
+  const draw = async () => {
     const c = canvas.current;
     if (!c || !core) return;
+    const mio = ++turno.current;
     const css = getComputedStyle(document.documentElement);
     const bg = rgb(css.getPropertyValue("--surface").trim());
     const red = rgb(css.getPropertyValue("--red").trim());
     const blue = rgb(css.getPropertyValue("--blue").trim());
     const ink = css.getPropertyValue("--ink").trim();
+    const { width } = c.getBoundingClientRect();
+    const dpr = Math.min(window.devicePixelRatio, 2);
+    // En la app nativa se calcula a la resolución real de la pantalla (GPU o todos los núcleos).
+    const n = hw ? Math.max(N, Math.min(2048, Math.round(width * dpr))) : N;
     const t0 = performance.now();
-    const { theta } = core.field(p.v, p.R, p.sigma, HALF, N);
+    const nativo = hw ? await nativeField(p.v, p.R, p.sigma, HALF, n).catch(() => null) : null;
+    const theta = nativo ? nativo.theta : core.field(p.v, p.R, p.sigma, HALF, n).theta;
     const E = core.totalEnergy(p.v, p.R, p.sigma);
     const ms = performance.now() - t0;
+    if (mio !== turno.current) return; // llegó un cálculo más nuevo
+    const N_ = n;
     let peak = 0;
     for (const x of theta) peak = Math.max(peak, Math.abs(x));
-    const img = new ImageData(N, N);
-    for (let j = 0; j < N; j++)
-      for (let i = 0; i < N; i++) {
-        const th = theta[(N - 1 - j) * N + i] / (peak || 1);
+    const img = new ImageData(N_, N_);
+    for (let j = 0; j < N_; j++)
+      for (let i = 0; i < N_; i++) {
+        const th = theta[(N_ - 1 - j) * N_ + i] / (peak || 1);
         const col = th < 0 ? red : blue;
         const k = Math.min(1, Math.abs(th)) ** 0.7;
-        const o = 4 * (j * N + i);
+        const o = 4 * (j * N_ + i);
         for (let ch = 0; ch < 3; ch++) img.data[o + ch] = bg[ch] + (col[ch] - bg[ch]) * k;
         img.data[o + 3] = 255;
       }
     const off = document.createElement("canvas");
-    off.width = off.height = N;
+    off.width = off.height = N_;
     off.getContext("2d")!.putImageData(img, 0, 0);
-    const { width } = c.getBoundingClientRect();
-    const dpr = Math.min(window.devicePixelRatio, 2);
     c.width = c.height = width * dpr;
     const ctx = c.getContext("2d")!;
     ctx.imageSmoothingEnabled = true;
@@ -76,9 +86,10 @@ export function CoreLab({ labels, lang }: { labels: Labels; lang: string }) {
       ctx.stroke();
     }
     setStats((s) => ({ ...s, ms, E }));
+    setRes({ n: N_, motor: nativo ? (nativo.motor === "gpu" ? `Rust nativo · GPU ${hw?.gpu ?? ""}` : `Rust nativo · CPU ${hw?.hilos ?? ""} hilos`) : "Rust · WebAssembly" });
   };
 
-  useEffect(draw, [core, p]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { void draw(); }, [core, p, hw]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const onClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
     if (!core) return;
@@ -88,7 +99,7 @@ export function CoreLab({ labels, lang }: { labels: Labels; lang: string }) {
     const { path, dH } = core.geodesic(p.v, p.R, p.sigma, x0, y0, 2e-3, 3000);
     paths.current = [...paths.current.slice(-7), path];
     setStats((s) => ({ ...s, dH }));
-    draw();
+    void draw();
   };
 
   const slider = (key: "v" | "R" | "sigma", label: string, min: number, max: number) => (
@@ -121,11 +132,11 @@ export function CoreLab({ labels, lang }: { labels: Labels; lang: string }) {
         {slider("R", `${labels.radius} R`, 0.4, 1.8)}
         {slider("sigma", `${labels.wall} σ`, 1, 20)}
         <dl className="grid gap-3 border-t border-line pt-5 font-mono text-sm tabular-nums">
-          <div className="flex justify-between"><dt className="text-muted">{labels.time}</dt><dd className="text-fg">{stats.ms.toFixed(1)} ms · {N}×{N}</dd></div>
+          <div className="flex justify-between"><dt className="text-muted">{labels.time}</dt><dd className="text-fg">{stats.ms.toFixed(1)} ms · {res.n}×{res.n}</dd></div>
           <div className="flex justify-between"><dt className="text-muted">{labels.energy}</dt><dd className="text-red">{formatSci(stats.E, lang)}</dd></div>
           <div className="flex justify-between"><dt className="text-muted">{labels.conservation} ΔH</dt><dd className={stats.dH === null ? "text-muted" : Math.abs(stats.dH) < 1e-6 ? "text-green" : "text-yellow"}>{stats.dH === null ? "–" : formatSci(stats.dH, lang)}</dd></div>
         </dl>
-        <span className="tag tag-green w-max">Rust · WebAssembly</span>
+        <span className="tag tag-green w-max normal-case tracking-normal">{res.motor}</span>
       </div>
     </div>
   );

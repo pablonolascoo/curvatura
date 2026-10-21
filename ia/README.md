@@ -12,6 +12,7 @@ Todo funciona en local, en macOS, Windows y Linux.
 | Análisis | Saca de cada paper secciones, ecuaciones con su contexto, figuras (PNG), tablas y referencias a `datos/analisis/<id>.json`. | `curvatura-ia analizar` |
 | Patentes | Vigila patentes relacionadas (propulsión sin propelente, inercia, gravedad, Casimir, F03H, B64G 1/409…). Guarda ficha, reivindicaciones y dibujos. | `curvatura-ia patentes` |
 | Fichas | Una ficha de análisis por paper escrita por IA (aportación, supuestos, resultados, ecuaciones clave, limitaciones, obstáculos que ataca, relación con otros papers, ideas abiertas) en `library/papers/<id>/analisis.yaml`. Es pública y se vectoriza. | `curvatura-ia fichas generar` |
+| Resúmenes propios | Para papers cuyo resumen no se puede publicar: reúne lo público (arXiv, OpenAlex, Semantic Scholar, Crossref, página del editor, texto descargado) y escribe un resumen con nuestras palabras en es/en/fr, marcado como IA. | `curvatura-ia fuentes` · `fuentes resumir` |
 | Vectores | Base multimodal LanceDB en `datos/vectores/`: texto, ecuaciones, pies de figura, patentes y docs (multilingüe), y las imágenes en un espacio texto↔imagen. Búsqueda híbrida (vectores + palabras). | `curvatura-ia vectorizar` |
 | Laboratorio | Igualdades, unidades, cotas rigurosas, demostraciones con Z3, evaluación de millones de puntos, tensores desde la métrica y descubrimiento de fórmulas. | `curvatura-lab …` |
 | Agente | Responde con citas, usa el laboratorio y abre subagentes en paralelo que pueden abrir otros. | `curvatura-ia preguntar "…"` |
@@ -93,6 +94,31 @@ bash vigilar-instalar.sh --quitar
 En GitHub, `.github/workflows/vigilar.yml` hace cada lunes la parte pública (papers nuevos e índice de patentes).
 
 Claves opcionales para más fuentes de patentes (gratuitas, hay que registrarse): `EPO_OPS_KEY` y `EPO_OPS_SECRET` (developers.epo.org), `USPTO_ODP_API_KEY` (data.uspto.gov), `LENS_API_TOKEN` (lens.org). Sin claves se usa el grafo de citas de las fichas públicas de Google Patents.
+
+## Rendimiento: todo el hardware del equipo
+
+`curvatura-ia hardware` muestra qué detecta y qué motor usa cada parte; `--banco` lo mide.
+
+| Parte | Motor |
+|---|---|
+| App nativa (Rust) | GPU con wgpu (Metal en Mac, DirectX 12 o Vulkan en Windows, Vulkan en Linux) para mapas grandes; todos los núcleos con rayon para el resto. Resultados en binario, sin JSON. |
+| Laboratorio: barridos | La misma GPU desde Python (wgpu): la rejilla se genera en la GPU y solo vuelven mínimo, máximo, media y signo. Sin GPU, numba en todos los núcleos. |
+| Laboratorio: evaluar | numba compilado y paralelo (f64). |
+| Vectores de texto | GPU con PyTorch (CUDA en NVIDIA, Metal en Apple, media precisión, con vigilante que reinicia si se cuelga). Sin PyTorch: ONNX con el mejor acelerador (CUDA, DirectML en Windows para cualquier GPU o NPU, QNN en Snapdragon, OpenVINO en Intel). Sin acelerador: un proceso por núcleo. |
+| Análisis de papers | Un proceso por núcleo. |
+
+Medido en un Mac mini M4 (10 núcleos), con 16,8 millones de puntos del campo de Alcubierre:
+
+| Motor | Tiempo | Millones de puntos/s |
+|---|---|---|
+| Rust, 1 hilo | 240 ms | 70 |
+| Rust, 10 hilos | 40 ms | 416 |
+| Rust, GPU (solo cálculo, 67 M puntos) | 17 ms | 4.036 |
+| Python, barrido en GPU (4.295 millones de puntos, densidad de energía) | 2,4 s | 1.800 |
+
+El Neural Engine de Apple (vía CoreML) se probó: con el modelo de vectores es mucho más lento que la GPU, así que no se usa por defecto (`CURVATURA_COREML=1` para activarlo).
+
+En Windows, para usar la GPU o la NPU con DirectML: `uv pip install onnxruntime-directml` dentro de `ia/` (sustituye a `onnxruntime`).
 
 ## Licencias y datos
 

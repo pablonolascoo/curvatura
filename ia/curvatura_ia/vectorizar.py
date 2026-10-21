@@ -82,12 +82,20 @@ def modelo_gpu():
     return _st
 
 
+def _onnx() -> dict:
+    """Acelerador de ONNX Runtime si lo hay (CUDA, DirectML en Windows, OpenVINO en Intel)."""
+    from .hardware import proveedores_onnx
+
+    p = proveedores_onnx()
+    return {"providers": p + ["CPUExecutionProvider"]} if p else {}
+
+
 def modelo_texto():
     global _texto
     if _texto is None:
         from fastembed import TextEmbedding
 
-        _texto = TextEmbedding(MODELO_TEXTO, cache_dir=str(DATOS / "modelos"))
+        _texto = TextEmbedding(MODELO_TEXTO, cache_dir=str(DATOS / "modelos"), **_onnx())
     return _texto
 
 
@@ -96,7 +104,7 @@ def modelo_imagen():
     if _img is None:
         from fastembed import ImageEmbedding
 
-        _img = ImageEmbedding(MODELO_IMAGEN, cache_dir=str(DATOS / "modelos"))
+        _img = ImageEmbedding(MODELO_IMAGEN, cache_dir=str(DATOS / "modelos"), **_onnx())
     return _img
 
 
@@ -115,7 +123,11 @@ def vec_texto(textos: list[str], consulta: bool = False):
     pref = PREF_Q if consulta else PREF_P
     if not consulta and len(textos) > 8 and modelo_gpu():
         return np.asarray(modelo_gpu().encode([pref + t for t in textos], batch_size=32, normalize_embeddings=True), dtype="float32")
-    E = np.array(list(modelo_texto().embed([pref + t for t in textos], batch_size=32)), dtype="float32")
+    # Sin GPU ni acelerador: todos los núcleos con un proceso por núcleo (parallel=0) en los lotes grandes.
+    from .hardware import proveedores_onnx
+
+    par = 0 if len(textos) >= 256 and not proveedores_onnx() else None
+    E = np.array(list(modelo_texto().embed([pref + t for t in textos], batch_size=32, parallel=par)), dtype="float32")
     return E / np.maximum(np.linalg.norm(E, axis=1, keepdims=True), 1e-9)
 
 
@@ -183,6 +195,10 @@ def filas_paper(a: dict) -> tuple[list[dict], list[dict]]:
     if a.get("abstract") and not a.get("abstracts"):
         out.append({**base, "tipo": "resumen", "seccion": "Resumen", "idioma": a.get("language", "en"), "n": 0,
                     "latex": "", "texto": f"{titulo}. {a['abstract']}"})
+    if not a.get("abstracts"):  # resumen propio (IA) cuando no hay resumen publicable
+        for f in sorted((PAPERS_DIR / a["id"]).glob("resumen.*.md")):
+            out.append({**base, "tipo": "resumen", "seccion": "Resumen propio (IA)", "idioma": f.stem.split(".")[1], "n": 0,
+                        "latex": "", "texto": f"{titulo}. {f.read_text().strip()}"})
     ficha = PAPERS_DIR / a["id"] / "analisis.yaml"
     if ficha.exists():  # ficha de análisis escrita por IA (aportación, supuestos, resultados, limitaciones…)
         out.append({**base, "tipo": "ficha", "seccion": "Análisis", "idioma": "es", "n": 0, "latex": "",
@@ -256,9 +272,10 @@ def filas_docs() -> list[dict]:
 
 def _huella(p: Path) -> str:
     h = hashlib.sha1(p.read_bytes())
-    ficha = PAPERS_DIR / p.stem / "analisis.yaml"  # si cambia la ficha, se vuelve a vectorizar el paper
-    if ficha.exists():
-        h.update(ficha.read_bytes())
+    # Si cambian la ficha, los resúmenes o el resumen propio, se vuelve a vectorizar el paper.
+    for extra in sorted((PAPERS_DIR / p.stem).glob("analisis.yaml")) + sorted((PAPERS_DIR / p.stem).glob("abstract.*.md")) \
+            + sorted((PAPERS_DIR / p.stem).glob("resumen.*.md")):
+        h.update(extra.read_bytes())
     return h.hexdigest()[:16]
 
 

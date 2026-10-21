@@ -61,3 +61,20 @@ def test_alcubierre_contra_el_paper():
     paper = -(v**2 * (y**2 + z**2)) / (32 * sp.pi * rs**2) * sp.Subs(sp.Derivative(f(u), u), u, rs) ** 2
     assert iguales(rho, paper, simbolica=False).veredicto == "numerica"
     assert iguales(rho, 2 * paper, simbolica=False).veredicto == "falsa"
+
+
+def test_barrido_cpu_y_gpu():
+    from curvatura.lab.rapido import barrido_cpu
+
+    r = barrido_cpu("x^2 - 1", {"x": (-2.0, 2.0, 401)})
+    assert abs(r["min"] + 1) < 1e-9 and abs(r["max"] - 3) < 1e-9
+    try:
+        from curvatura.lab import gpu
+    except Exception:
+        return
+    if not gpu.disponible():
+        return  # sin GPU (CI): solo CPU
+    g = gpu.barrido("x^2 - 1", {"x": (-2.0, 2.0, 401)})
+    assert abs(g["min"] + 1) < 1e-5 and abs(g["max"] - 3) < 1e-5
+    v = gpu.evaluar("exp(-x^2)*y", {"x": np.array([0.0, 1.0], np.float32), "y": np.array([2.0, 2.0], np.float32)})
+    assert np.allclose(v, [2.0, 2 * np.exp(-1)], rtol=1e-6)
