@@ -1,0 +1,1 @@
+Se investiga la creación de fonones en el interior de los horizontes de agujeros negros acústicos usando dos modelos de juguete sencillos. Se muestra que, a diferencia de lo que ocurre en las regiones exteriores, el espectro no es térmico. Esta no termicidad se debe a la dispersión anómala que tiene lugar en las regiones interiores.

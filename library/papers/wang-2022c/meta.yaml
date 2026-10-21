@@ -14,7 +14,7 @@ subsystems: [G, V]
 kind: analogo
 license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: false
 harvest: openalex-zh
 cited_by: 11

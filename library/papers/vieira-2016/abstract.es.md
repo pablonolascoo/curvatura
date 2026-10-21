@@ -1,0 +1,1 @@
+Estudiamos la perturbación sonora de un agujero negro acústico en rotación en presencia de una disclinación. La parte radial de la ecuación de Klein-Gordon sin masa se escribe en forma de Heun y se obtiene su solución analítica. Estas soluciones dependen explícitamente del parámetro de la disclinación. Obtenemos el espectro exacto de la radiación de Hawking-Unruh.

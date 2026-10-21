@@ -1,0 +1,1 @@
+Observando que, en gravedad abierta en 2+1, las superficies polarizadas no pueden converger en presencia de un energía-momento total de tipo temporal (salvo por una rotación de 2 pi), damos un argumento sencillo que muestra que, con bastante generalidad, no pueden existir curvas temporales cerradas en presencia de dicha condición de energía.

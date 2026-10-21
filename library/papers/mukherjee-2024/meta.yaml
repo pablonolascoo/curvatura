@@ -12,7 +12,7 @@ subsystems: [D, V]
 kind: numerico
 license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

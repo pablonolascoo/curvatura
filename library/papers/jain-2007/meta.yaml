@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/0705.3093
 language: en
 subsystems: [D, Q, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

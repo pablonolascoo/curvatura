@@ -1,0 +1,1 @@
+La densidad de energía negativa es inevitable en la teoría cuántica de campos. Damos una demostración revisada de la existencia de densidad de energía negativa de forma inequívoca para un campo escalar sin masa.

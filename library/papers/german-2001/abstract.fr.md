@@ -1,0 +1,1 @@
+Quelques conséquences intéressantes des coques de matière de genre espace sont présentées, en particulier la possibilité de traverser des horizons de Cauchy et de violer le principe de censure cosmique forte. Celles-ci montrent que la condition d'énergie faible ne garantit pas la censure cosmique.

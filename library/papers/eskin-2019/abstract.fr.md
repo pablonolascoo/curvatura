@@ -1,0 +1,1 @@
+Nous considérons une métrique acoustique dépendant du temps à 2+1 dimensions comportant un trou noir et étudions le rayonnement de type Hawking émis par ce trou noir. Nous construisons des eikonales de forme spéciale à support proche du trou noir. Nous calculons le nombre moyen de particules créées, la moyenne étant prise par rapport à un vide de type Unruh.

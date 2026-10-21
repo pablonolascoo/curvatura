@@ -1,0 +1,1 @@
+Ce travail traite du problème de la détection des photons générés par l'effet Casimir dynamique induit par un miroir. Nous nous intéressons en particulier à la mesure des caractéristiques statistiques d'un champ intracavité généré qui pourraient confirmer ses propriétés non thermiques. Un protocole indirect de mesure de la dispersion de quadrature est présenté ici.

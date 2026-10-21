@@ -1,0 +1,1 @@
+Se aplica la técnica de solitones a las ecuaciones de Einstein-Maxwell estáticas en 5D y se obtienen explícitamente infinitas soluciones. Estudiamos la estructura de varillas (rod structure) de las soluciones de 2 solitones y mostramos que la solución de Reissner-Nordstrom en 5D y la solución de Majumdar-Papapetrou en 5D están incluidas entre las soluciones de 2 solitones.

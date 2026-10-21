@@ -1,0 +1,1 @@
+Quelques remarques sur l'article de Gonzalez-Fernandez et Camacho (arXiv: 1904.02299) sont formulées. Nous apportons des éléments montrant que la recette de la gravité analogue ne fonctionne pas pour un BEC dans un piège d'oscillateur harmonique anisotrope. L'analogie avec un observateur accéléré ne semble pas réaliste. Quelques failles liées aux unités physiques sont soulignées.

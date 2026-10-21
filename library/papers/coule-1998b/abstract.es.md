@@ -1,0 +1,1 @@
+El mecanismo inflacionario del pre-big bang, cuando se tiene en cuenta el rápido cambio de la constante de Newton, no es en realidad de forma de ley de polo. Damos ejemplos en los que la inflación de ley de polo, que requiere la violación de la condición de energía débil, es posible pero improbable debido a su carácter muy inestable.

@@ -1,0 +1,1 @@
+Le comportement à haute énergie de la diffusion de cordes dans des espace-temps gauchis (warped) est étudié à tous les ordres de la théorie des perturbations. Si l'on suppose que la théorie est finie, les amplitudes décroissent exactement comme des puissances de l'impulsion.

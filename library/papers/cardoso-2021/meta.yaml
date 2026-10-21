@@ -15,7 +15,7 @@ subsystems: [G, D, V]
 kind: numerico
 license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

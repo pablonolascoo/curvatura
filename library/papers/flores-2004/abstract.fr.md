@@ -1,0 +1,1 @@
+Une étude complète de la structure des collinéations de Ricci pour les espace-temps gauchis (warped) de type B est menée. Cette étude peut servir de méthode pour obtenir ces symétries dans de tels espace-temps. Des cas particuliers tels que les espace-temps réductibles 2+2 et les espace-temps à symétrie plane et sphérique sont considérés spécifiquement.

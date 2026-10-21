@@ -1,0 +1,1 @@
+La technique des solitons est appliquée aux équations d'Einstein-Maxwell statiques en 5D, et une infinité de solutions sont obtenues explicitement. Nous étudions la structure en barres (rod structure) des solutions à 2 solitons et montrons que la solution de Reissner-Nordstrom en 5D et la solution de Majumdar-Papapetrou en 5D sont incluses parmi les solutions à 2 solitons.

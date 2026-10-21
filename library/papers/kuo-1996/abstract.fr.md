@@ -1,0 +1,1 @@
+La densité d'énergie négative est inévitable en théorie quantique des champs. Nous donnons une démonstration révisée de l'existence d'une densité d'énergie négative, sans ambiguïté, pour un champ scalaire sans masse.

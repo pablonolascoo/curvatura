@@ -1,0 +1,1 @@
+Il est bien connu que la densité d'énergie d'un état quantique peut être négative. Il a été montré qu'il existe des limites à cette densité d'énergie négative, appelées inégalités quantiques. Dans cet article, nous présenterons un exemple d'état quantique qui viole les inégalités quantiques.

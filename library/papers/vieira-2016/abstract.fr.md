@@ -1,0 +1,1 @@
+Nous étudions la perturbation sonore d'un trou noir acoustique en rotation en présence d'une disinclinaison. La partie radiale de l'équation de Klein-Gordon sans masse est mise sous forme de Heun, et sa solution analytique est obtenue. Ces solutions dépendent explicitement du paramètre de la disinclinaison. Nous obtenons le spectre exact du rayonnement de Hawking-Unruh.

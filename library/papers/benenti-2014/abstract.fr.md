@@ -1,0 +1,1 @@
+Nous étudions les limitations fondamentales du refroidissement jusqu'au zéro absolu pour un qubit en interaction avec un mode unique du champ électromagnétique. Nos résultats montrent que l'effet Casimir dynamique, inévitable dans tout cycle thermodynamique de durée finie, interdit d'atteindre le zéro absolu de température, même dans la limite d'un nombre infini de cycles.

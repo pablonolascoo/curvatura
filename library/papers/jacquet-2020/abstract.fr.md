@@ -1,0 +1,1 @@
+Cet article est une introduction à un numéro thématique faisant suite à une Scientific Discussion Meeting sur \emph{The next generation of analogue gravity experiments} tenue à la Royal Society en décembre 2019. Ce numéro thématique rassemble une collection d'avancées récentes du programme de recherche, ainsi que leurs implications philosophiques, présentées lors de la réunion.

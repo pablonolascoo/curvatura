@@ -1,0 +1,1 @@
+Presentamos un método sencillo y eficaz para construir modelos cosmológicos exactamente resolubles que contienen inflación con salida. Este método no implica ningún ajuste de parámetros. Discutimos los problemas que surgen con las soluciones que violan la condición de energía débil.

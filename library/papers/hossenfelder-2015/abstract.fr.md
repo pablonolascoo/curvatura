@@ -1,0 +1,1 @@
+Nous démontrons ici que la métrique d'un trou noir plan dans un espace asymptotiquement anti-de Sitter peut, sur une tranche de dimension 3+1, être reproduite comme une métrique acoustique relativiste. Cela complète un calcul antérieur dans lequel la limite non relativiste était utilisée et permet également d'obtenir une forme concrète du lagrangien.

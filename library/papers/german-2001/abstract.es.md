@@ -1,0 +1,1 @@
+Se presentan algunas consecuencias interesantes de las capas de materia espaciales, en particular la posibilidad de atravesar horizontes de Cauchy y violar el principio de censura cósmica fuerte. Estas muestran que la condición de energía débil no garantiza la censura cósmica.

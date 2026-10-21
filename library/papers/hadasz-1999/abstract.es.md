@@ -1,0 +1,1 @@
+Calculamos (usando la regularización mediante la función zeta) la energía de Casimir de la cuerda de Nambu-Goto en rotación con el término de Gauss-Bonnet en la acción y masas puntuales en los extremos. El valor resultante es negativo para todos los valores de los parámetros del modelo.

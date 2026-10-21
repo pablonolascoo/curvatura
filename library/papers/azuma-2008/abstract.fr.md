@@ -1,0 +1,1 @@
+Nous étudions les équations d'Einstein-Maxwell statiques en 5D avec un champ dilatonique. Nous construisons un nombre infini de solutions à l'aide d'une technique de solitons. Nous étudions la structure en barres de la solution à 2 solitons et montrons qu'elle inclut les solutions d'anneau noir et de trou noir dilatoniques en 5D.

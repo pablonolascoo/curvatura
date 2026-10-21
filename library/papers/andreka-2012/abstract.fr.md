@@ -1,0 +1,1 @@
+Nous montrons que les transformations que J. M. Hill et B. J. Cox introduisent entre des observateurs inertiels se déplaçant plus vite que la lumière les uns par rapport aux autres ne sont compatibles avec le principe de relativité d'Einstein que si l'espace-temps est bidimensionnel.

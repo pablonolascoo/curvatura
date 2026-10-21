@@ -1,0 +1,1 @@
+Consideramos una métrica acústica dependiente del tiempo en 2+1 dimensiones que contiene un agujero negro y estudiamos la radiación de tipo Hawking procedente de dicho agujero negro. Construimos eikonales de forma especial con soporte cercano al agujero negro. Calculamos el número medio de partículas creadas, donde el promedio se toma respecto de un vacío de tipo Unruh.

@@ -1,0 +1,1 @@
+Estudiamos la dinámica relativista de sondas de brana en espaciotiempos alabeados (warped) singulares y establecemos los límites de dicho análisis. El comportamiento de las funciones de onda semiclásicas de las sondas de brana implica que pueden imponerse condiciones de contorno de unitariedad en la singularidad.

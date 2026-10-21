@@ -1,0 +1,1 @@
+Le mécanisme inflationnaire du pré-big bang, lorsqu'on tient compte de la variation rapide de la constante de Newton, n'est pas réellement de la forme d'une loi de pôle. Nous donnons des exemples où l'inflation en loi de pôle, qui requiert une violation de la condition d'énergie faible, est possible mais improbable en raison de son caractère très instable.

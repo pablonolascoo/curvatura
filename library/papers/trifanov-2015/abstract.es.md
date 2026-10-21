@@ -1,0 +1,1 @@
+Este trabajo aborda el problema de la detección de fotones generados por el efecto Casimir dinámico inducido por un espejo. En particular, nos interesa la medida de aquellas características estadísticas de un campo intracavidad generado que puedan confirmar sus propiedades no térmicas. Se presenta aquí un protocolo indirecto para la medida de la dispersión de cuadratura.

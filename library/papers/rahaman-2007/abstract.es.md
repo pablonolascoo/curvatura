@@ -1,0 +1,1 @@
+Proponemos soluciones de agujeros de gusano suponiendo un parámetro de ecuación de estado dependiente del espacio. Nuestros modelos muestran que la existencia de agujeros de gusano está sostenida por cantidades arbitrariamente pequeñas de energía fantasma que viola la condición de energía nula promediada (ANEC), caracterizada por un parámetro de ecuación de estado variable.

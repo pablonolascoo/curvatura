@@ -1,0 +1,1 @@
+Investigamos campos escalares y tensoriales en la solución de modelo de brana para el espaciotiempo 5D con ondas gravitacionales estacionarias en el bulk y mostramos que, incluso en el caso de un factor de alabeo (warp) creciente, existen modos cero normalizables localizados en la brana.

@@ -1,0 +1,1 @@
+Nous proposons des solutions de trous de ver en supposant un paramètre d'équation d'état dépendant de l'espace. Nos modèles montrent que l'existence de trous de ver est soutenue par des quantités arbitrairement petites d'énergie fantôme violant la condition d'énergie nulle moyennée (ANEC), caractérisée par un paramètre d'équation d'état variable.

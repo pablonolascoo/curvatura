@@ -1,0 +1,1 @@
+Mostramos analíticamente que el tensor energía-momento electromagnético del vacío fuera de una bola con constante dieléctrica y permeabilidad constantes cumple siempre las condiciones de energía débil, nula, dominante y fuerte. Siguen sin conocerse ejemplos en teoría cuántica de campos en los que se viole la condición de energía nula promediada en el espaciotiempo plano.

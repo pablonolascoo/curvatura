@@ -1,0 +1,1 @@
+Nous discutons l'application des techniques solitoniques à la gravité d'Einstein-Maxwell 5D. À titre d'illustration, nous construisons une solution exacte décrivant deux anneaux noirs dipolaires concentriques en rotation. Les propriétés de la solution sont étudiées.

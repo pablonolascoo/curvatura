@@ -1,0 +1,1 @@
+Nous calculons (à l'aide de la régularisation par la fonction zêta) l'énergie de Casimir de la corde de Nambu-Goto en rotation avec le terme de Gauss-Bonnet dans l'action et des masses ponctuelles aux extrémités. La valeur obtenue s'avère négative pour toutes les valeurs des paramètres du modèle.

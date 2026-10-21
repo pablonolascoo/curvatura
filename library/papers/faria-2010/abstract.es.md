@@ -1,0 +1,1 @@
+En este artículo investigamos las ondas gravitacionales como perturbaciones métricas en torno a un fondo deformado (warped) general de 5 dimensiones. Encontramos una solución analítica en el modelo de mundo brana de Randall-Sundrum y analizamos las implicaciones de los modelos de mundo brana en la propagación de las ondas gravitacionales.

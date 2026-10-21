@@ -1,0 +1,1 @@
+Se estudia el comportamiento a altas energías de la dispersión de cuerdas en espaciotiempos alabeados (warped) a todos los órdenes de la teoría de perturbaciones. Si se supone que la teoría es finita, las amplitudes decaen exactamente como potencias del momento.

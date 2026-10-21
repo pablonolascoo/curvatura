@@ -1,0 +1,1 @@
+Estudiamos el límite de Regge de las amplitudes de cuerdas en el modelo de Polchinski-Strassler para la dispersión de cuerdas en espaciotiempos deformados (warped). También presentamos algunas estimaciones numéricas de las pendientes de Regge. Resulta bastante notable que los valores reales de las pendientes estén dentro de nuestro intervalo.

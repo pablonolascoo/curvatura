@@ -1,0 +1,1 @@
+Nous présentons une méthode simple et efficace pour construire des modèles cosmologiques exactement solubles contenant une inflation avec sortie. Cette méthode n'implique aucun ajustement de paramètres. Nous discutons les problèmes posés par les solutions qui violent la condition d'énergie faible.

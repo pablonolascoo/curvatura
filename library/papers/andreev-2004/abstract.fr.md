@@ -1,0 +1,1 @@
+Nous étudions la limite de Regge des amplitudes de cordes dans le modèle de Polchinski-Strassler pour la diffusion de cordes dans des espaces-temps déformés (warped). Nous présentons également quelques estimations numériques des pentes de Regge. Il est assez remarquable que les valeurs réelles des pentes se situent dans notre intervalle.

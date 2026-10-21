@@ -1,0 +1,1 @@
+Dans ce travail, nous considérons la solution exacte de l'équation de Klein-Gordon décrivant un champ scalaire sans masse dans l'espace-temps d'un trou noir acoustique canonique quadridimensionnel, exprimée à l'aide de la fonction de Heun générale, afin d'étudier les phénomènes intéressants liés aux fréquences de résonance.

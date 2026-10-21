@@ -1,0 +1,1 @@
+Nous étudions la dynamique relativiste de sondes de brane dans des espace-temps gauchis (warped) singuliers et établissons les limites d'une telle analyse. Le comportement des fonctions d'onde semi-classiques des sondes de brane implique que des conditions aux limites d'unitarité peuvent être imposées à la singularité.

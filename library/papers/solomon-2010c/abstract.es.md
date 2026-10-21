@@ -1,0 +1,1 @@
+Es bien sabido que la densidad de energía de un estado cuántico puede ser negativa. Se ha demostrado que existen límites a esta densidad de energía negativa, que se denominan desigualdades cuánticas. En este artículo mostraremos un ejemplo de estado cuántico que viola las desigualdades cuánticas.

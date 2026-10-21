@@ -1,0 +1,1 @@
+En este artículo tratamos el hamiltoniano efectivo de Law del efecto Casimir dinámico en una cavidad y construimos una solución analítica aproximada de la ecuación de Schr{ö}dinger dependiente del tiempo en el marco general mediante una especie de aproximación de onda rotante (RWA). Hasta donde sabemos, esta es la solución analítica aproximada más fina.

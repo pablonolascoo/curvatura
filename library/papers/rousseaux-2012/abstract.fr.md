@@ -1,0 +1,1 @@
+Ce chapitre offre une introduction au lien entre la physique des ondes à la surface de l'eau et la gravité analogue. Seule une connaissance de base de la mécanique des fluides est supposée comme prérequis.

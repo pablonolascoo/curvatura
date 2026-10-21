@@ -1,0 +1,1 @@
+La création de phonons à l'intérieur des horizons de trous noirs acoustiques est étudiée à l'aide de deux modèles jouets simples. On montre que, contrairement à ce qui se produit dans les régions extérieures, le spectre n'est pas thermique. Cette non-thermalité est due à la diffusion anormale qui se produit dans les régions intérieures.

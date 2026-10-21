@@ -1,0 +1,1 @@
+El problema de encontrar una trayectoria de tiempo mínimo para un avión que viaja en un flujo de viento tiene una formulación sencilla en términos de gravedad análoga. Este artículo ofrece una explicación elemental con ecuaciones y algunas soluciones numéricas.

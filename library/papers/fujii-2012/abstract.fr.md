@@ -1,0 +1,1 @@
+Dans cet article, nous traitons l'hamiltonien effectif de Law de l'effet Casimir dynamique dans une cavité et construisons une solution analytique approchée de l'équation de Schr{ö}dinger dépendant du temps dans le cadre général au moyen d'une sorte d'approximation de l'onde tournante (RWA). À notre connaissance, il s'agit de la solution analytique approchée la plus fine.

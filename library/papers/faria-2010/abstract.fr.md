@@ -1,0 +1,1 @@
+Dans cet article, nous étudions les ondes gravitationnelles comme perturbations métriques autour d'un fond déformé (warped) général à 5 dimensions. Nous trouvons une solution analytique dans le modèle de monde branaire de Randall-Sundrum et analysons les implications des modèles de monde branaire pour la propagation des ondes gravitationnelles.

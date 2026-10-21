@@ -1,0 +1,1 @@
+Se formulan algunos comentarios sobre el artículo de Gonzalez-Fernandez y Camacho (arXiv: 1904.02299). Aportamos pruebas de que la receta de la gravedad análoga no funciona para un BEC en una trampa de oscilador armónico anisótropa. La analogía con un observador acelerado no parece realista. Se subrayan algunas lagunas relacionadas con las unidades físicas.

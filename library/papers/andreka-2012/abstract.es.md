@@ -1,0 +1,1 @@
+Mostramos que las transformaciones que J. M. Hill y B. J. Cox introducen entre observadores inerciales que se mueven más rápido que la luz unos respecto de otros son coherentes con el principio de relatividad de Einstein solo si el espaciotiempo es bidimensional.

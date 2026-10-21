@@ -1,0 +1,1 @@
+Este capítulo ofrece una introducción a la conexión entre la física de las ondas en el agua y la gravedad análoga. Solo se presupone como requisito previo un conocimiento básico de mecánica de fluidos.

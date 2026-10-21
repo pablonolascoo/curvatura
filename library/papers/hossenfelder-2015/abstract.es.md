@@ -1,0 +1,1 @@
+Demostramos aquí que la métrica de un agujero negro plano en un espacio asintóticamente anti-de Sitter puede reproducirse, en una sección de dimensión 3+1, como una métrica acústica relativista. Esto completa un cálculo anterior en el que se usaba el límite no relativista y sirve también para obtener una forma concreta del lagrangiano.

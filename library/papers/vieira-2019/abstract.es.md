@@ -1,0 +1,1 @@
+En este trabajo consideramos la solución exacta de la ecuación de Klein-Gordon que describe un campo escalar sin masa en el espaciotiempo de un agujero negro acústico canónico cuadridimensional, dada en términos de la función de Heun general, para investigar los interesantes fenómenos relacionados con las frecuencias resonantes.

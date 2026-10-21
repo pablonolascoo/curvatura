@@ -1,0 +1,1 @@
+Discutimos la aplicación de las técnicas solitónicas a la gravedad de Einstein-Maxwell 5D. Como ilustración, construimos una solución exacta que describe dos anillos negros dipolares concéntricos en rotación. Se investigan las propiedades de la solución.

@@ -1,0 +1,1 @@
+Les métriques acoustiques en rotation peuvent comporter des trous noirs à l'intérieur de l'ergosphère. Des cas simples de trous noirs acoustiques ont été étudiés dans les références [21], [4]. Dans le présent article, nous étudions le rayonnement de Hawking pour des cas plus complexes de trous noirs acoustiques, y compris des trous noirs présentant des points anguleux.

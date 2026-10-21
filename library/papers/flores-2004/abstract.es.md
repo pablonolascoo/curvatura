@@ -1,0 +1,1 @@
+Se lleva a cabo un estudio completo de la estructura de las colineaciones de Ricci para espaciotiempos alabeados (warped) de tipo B. Este estudio puede usarse como método para obtener estas simetrías en dichos espaciotiempos. Se consideran específicamente casos especiales como los espaciotiempos reducibles 2+2 y los espaciotiempos con simetría plana y esférica.

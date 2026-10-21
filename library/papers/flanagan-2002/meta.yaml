@@ -12,7 +12,7 @@ subsystems: [C, Q]
 kind: restriccion
 license: CC-BY-NC-ND-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

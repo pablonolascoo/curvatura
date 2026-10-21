@@ -1,0 +1,1 @@
+Las métricas acústicas en rotación pueden tener agujeros negros dentro de la ergosfera. En las referencias [21], [4] se estudiaron casos sencillos de agujeros negros acústicos. En el presente artículo estudiamos la radiación de Hawking para casos más complicados de agujeros negros acústicos, incluidos agujeros negros que tienen puntos angulosos.

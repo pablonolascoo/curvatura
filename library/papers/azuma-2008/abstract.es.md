@@ -1,0 +1,1 @@
+Estudiamos las ecuaciones de Einstein-Maxwell estáticas en 5D con un campo dilatónico. Construimos un número infinito de soluciones mediante una técnica de solitones. Estudiamos la estructura de barras de la solución de 2 solitones y mostramos que incluye las soluciones de anillo negro y de agujero negro dilatónicos en 5D.

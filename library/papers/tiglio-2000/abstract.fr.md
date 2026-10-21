@@ -1,0 +1,1 @@
+En remarquant que, en gravité ouverte à 2+1 dimensions, des surfaces polarisées ne peuvent pas converger en présence d'une énergie-impulsion totale de genre temps (à une rotation de 2 pi près), nous donnons un argument simple qui montre que, de manière assez générale, des courbes fermées de genre temps ne peuvent pas exister en présence d'une telle condition d'énergie.

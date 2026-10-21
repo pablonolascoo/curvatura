@@ -1,0 +1,1 @@
+Le problème de trouver une trajectoire de temps minimal pour un avion voyageant dans un écoulement de vent a une formulation simple en termes de gravité analogue. Cet article en donne une explication élémentaire avec des équations et quelques solutions numériques.

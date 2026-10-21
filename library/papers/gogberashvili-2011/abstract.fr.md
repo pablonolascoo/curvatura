@@ -1,0 +1,1 @@
+Nous étudions des champs scalaires et tensoriels dans la solution de modèle de brane pour l'espace-temps 5D avec des ondes gravitationnelles stationnaires dans le bulk, et montrons que, même dans le cas d'un facteur de gauchissement (warp) croissant, il existe des modes zéro normalisables localisés sur la brane.
