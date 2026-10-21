@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2505.07028
 language: en
 subsystems: [C, E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2412.02727
 language: en
 subsystems: [D, Q, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

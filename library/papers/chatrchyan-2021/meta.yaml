@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2008.02290
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false

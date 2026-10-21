@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2512.19837
 language: en
 subsystems: [G, C]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

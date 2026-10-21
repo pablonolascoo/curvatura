@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2403.02353
 language: en
 subsystems: [C, E, D]
 kind: experimental
-license: unknown
+license: CC0-1.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

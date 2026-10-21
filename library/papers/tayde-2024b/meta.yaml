@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2406.11719
 language: en
 subsystems: [C, S]
 kind: experimental
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

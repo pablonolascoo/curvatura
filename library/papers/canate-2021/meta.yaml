@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2104.06105
 language: en
 subsystems: [E, V]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

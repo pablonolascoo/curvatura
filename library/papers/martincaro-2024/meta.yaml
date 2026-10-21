@@ -13,9 +13,9 @@ source: https://arxiv.org/abs/2404.06166
 language: en
 subsystems: [G, E, D, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

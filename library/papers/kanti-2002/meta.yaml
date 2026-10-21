@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/hep-th/0207283
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

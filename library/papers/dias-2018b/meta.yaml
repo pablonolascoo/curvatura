@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1801.10176
 language: en
 subsystems: [G, E, D]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

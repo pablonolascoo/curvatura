@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2405.10228
 language: en
 subsystems: [C, D]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

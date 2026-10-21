@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/gr-qc/9509002
 language: en
 subsystems: [G, C]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

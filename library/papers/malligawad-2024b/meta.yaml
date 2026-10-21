@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2401.08498
 language: en
 subsystems: [G, C, E]
 kind: experimental
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

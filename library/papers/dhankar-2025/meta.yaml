@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2508.13227
 language: en
 subsystems: [E, D]
 kind: restriccion
-license: unknown
+license: CC0-1.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

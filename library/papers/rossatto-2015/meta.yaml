@@ -15,7 +15,7 @@ source: https://arxiv.org/abs/1511.03825
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

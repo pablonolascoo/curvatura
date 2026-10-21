@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2205.08669
 language: en
 subsystems: [G]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false

@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/1511.08505
 language: en
 subsystems: [G, E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

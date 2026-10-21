@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2609.06485
 language: en
 subsystems: [C]
 kind: experimental
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

@@ -15,9 +15,9 @@ source: https://arxiv.org/abs/2607.08275
 language: en
 subsystems: [E, D]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

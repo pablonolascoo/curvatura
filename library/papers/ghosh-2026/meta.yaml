@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2605.04158
 language: en
 subsystems: [G, D, V]
 kind: analogo
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

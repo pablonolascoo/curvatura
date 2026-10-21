@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/2411.19481
 language: en
 subsystems: [D, V]
 kind: numerico
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

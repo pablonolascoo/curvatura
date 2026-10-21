@@ -1,0 +1,1 @@
+Se discute analíticamente la estructura detallada de los picos que aparecen en la función de correlación densidad-densidad de un agujero negro acústico formado por un condensado de Bose-Einstein, para un perfil de velocidad del sonido particular, pero físicamente significativo, que permite calcular exactamente los modos del campo.

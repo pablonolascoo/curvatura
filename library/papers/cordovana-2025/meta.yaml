@@ -15,9 +15,9 @@ source: https://arxiv.org/abs/2507.12020
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

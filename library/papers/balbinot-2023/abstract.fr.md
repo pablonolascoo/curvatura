@@ -1,0 +1,1 @@
+Nous analysons les fonctions de corrélation à travers l'horizon dans le rayonnement de Hawking d'un trou noir afin de révéler les corrélations entre les particules de Hawking et leurs partenaires. Les effets de l'espace-temps sous-jacent sur celles-ci sont montrés dans divers exemples, des trous noirs acoustiques aux trous noirs réguliers.

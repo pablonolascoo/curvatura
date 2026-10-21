@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1610.05028
 language: en
 subsystems: [Q, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

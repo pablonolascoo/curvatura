@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/0705.2510
 language: en
 subsystems: [G]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

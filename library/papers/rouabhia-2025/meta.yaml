@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2511.19748
 language: en
 subsystems: [D, V]
 kind: analogo
-license: unknown
+license: CC0-1.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

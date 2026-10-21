@@ -16,9 +16,9 @@ source: https://arxiv.org/abs/2505.21081
 language: en
 subsystems: [G, E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

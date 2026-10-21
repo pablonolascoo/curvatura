@@ -20,7 +20,7 @@ source: https://arxiv.org/abs/2002.00043
 language: en
 subsystems: [G, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2305.12003
 language: en
 subsystems: [E, D, Q]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

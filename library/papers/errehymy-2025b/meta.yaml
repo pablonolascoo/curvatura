@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2508.17492
 language: en
 subsystems: [G, C]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

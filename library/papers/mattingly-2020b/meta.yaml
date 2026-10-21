@@ -21,9 +21,9 @@ source: https://arxiv.org/abs/2008.03366
 language: en
 subsystems: [G, C, D]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

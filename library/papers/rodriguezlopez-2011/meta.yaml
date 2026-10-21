@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1104.5447
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

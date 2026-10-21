@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2504.08858
 language: en
 subsystems: [G, C, E, S]
 kind: fuente
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

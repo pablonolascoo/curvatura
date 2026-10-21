@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2606.02393
 language: en
 subsystems: [G, C, E, P]
 kind: numerico
-license: unknown
+license: CC-BY-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

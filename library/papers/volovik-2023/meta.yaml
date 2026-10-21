@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2302.08894
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

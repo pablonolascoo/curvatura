@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2004.12523
 language: en
 subsystems: [G, C]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

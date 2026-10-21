@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/hep-ph/0410302
 language: en
 subsystems: [G]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

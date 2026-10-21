@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2609.07658
 language: en
 subsystems: [C]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

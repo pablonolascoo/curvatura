@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2206.12951
 language: en
 subsystems: [C]
 kind: experimental
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

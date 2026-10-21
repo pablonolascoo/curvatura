@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/hep-th/0407276
 language: en
 subsystems: [G]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

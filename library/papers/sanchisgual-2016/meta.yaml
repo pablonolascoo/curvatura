@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/1611.02441
 language: en
 subsystems: [G, E, D, V]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

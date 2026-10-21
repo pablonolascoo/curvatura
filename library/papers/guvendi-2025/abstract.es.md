@@ -1,0 +1,1 @@
+Este estudio investiga la dinámica de pares fermión-antifermión en un espaciotiempo de agujero de gusano atravesable resolviendo la ecuación de Dirac covariante de dos cuerpos con una masa dependiente de la posición.

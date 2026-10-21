@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2511.15001
 language: en
 subsystems: [G, E, S]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

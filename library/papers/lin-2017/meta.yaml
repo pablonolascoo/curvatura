@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1709.08506
 language: en
 subsystems: [C, E, D, Q]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

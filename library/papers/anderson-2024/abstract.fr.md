@@ -1,0 +1,1 @@
+La structure détaillée des pics apparaissant dans la fonction de corrélation densité-densité d'un trou noir acoustique formé par un condensat de Bose-Einstein est discutée analytiquement pour un profil de vitesse du son particulier, mais physiquement significatif, qui permet de calculer exactement les modes du champ.

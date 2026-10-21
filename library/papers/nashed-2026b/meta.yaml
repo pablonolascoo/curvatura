@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2606.01141
 language: en
 subsystems: [G, C, E, S, D, M]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

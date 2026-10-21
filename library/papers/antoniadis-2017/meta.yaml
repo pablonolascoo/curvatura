@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1702.01908
 language: en
 subsystems: [G, C, E, P]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

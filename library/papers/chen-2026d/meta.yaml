@@ -23,7 +23,7 @@ source: https://arxiv.org/abs/2605.24905
 language: en
 subsystems: [D, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

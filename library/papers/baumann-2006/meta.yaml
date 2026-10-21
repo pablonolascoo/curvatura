@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/hep-th/0610285
 language: en
 subsystems: [D, V]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

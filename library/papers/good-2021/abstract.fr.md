@@ -1,0 +1,1 @@
+Une nouvelle solution pour un spectre analytique de création de particules par un miroir accéléré (effet Casimir dynamique) est présentée. C'est le premier modèle à rayonner thermiquement tout en émettant un nombre fini de particules.

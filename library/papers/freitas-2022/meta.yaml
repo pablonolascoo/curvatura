@@ -17,7 +17,7 @@ source: https://arxiv.org/abs/2203.01267
 language: en
 subsystems: [D, V]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

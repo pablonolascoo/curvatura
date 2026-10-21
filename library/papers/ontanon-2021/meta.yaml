@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2103.13993
 language: en
 subsystems: [G, C]
 kind: numerico
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

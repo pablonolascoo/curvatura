@@ -16,7 +16,7 @@ source: https://arxiv.org/abs/2304.11642
 language: en
 subsystems: [D, P, V]
 kind: numerico
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

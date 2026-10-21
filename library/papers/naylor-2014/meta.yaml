@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1409.5454
 language: en
 subsystems: [G, E]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -1,0 +1,1 @@
+Estudiamos la geometría acústica en fluidos con presión externa. En particular, examinamos las condiciones bajo las cuales la métrica acústica imita una métrica de tipo Schwarzschild. Demostramos que solo es posible imitar de forma coherente una geometría de tipo Schwarzschild en el marco de la geometría acústica relativista.

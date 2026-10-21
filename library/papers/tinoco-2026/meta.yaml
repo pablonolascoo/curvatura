@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2604.14378
 language: en
 subsystems: [S, Q, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

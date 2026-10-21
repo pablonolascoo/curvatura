@@ -1,0 +1,1 @@
+Une correspondance entre deux problèmes spectraux distincts, les modes quasi normaux et les facteurs de corps gris, a récemment été établie pour une large classe de trous noirs. Nous démontrons ici qu'une correspondance similaire existe pour une large classe de trous de ver traversables et la vérifions sur plusieurs exemples bien connus.

@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2202.05824
 language: en
 subsystems: [E]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

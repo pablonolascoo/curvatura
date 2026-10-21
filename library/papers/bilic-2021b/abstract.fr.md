@@ -1,0 +1,1 @@
+Nous étudions la géométrie acoustique dans des fluides soumis à une pression externe. En particulier, nous examinons les conditions sous lesquelles la métrique acoustique imite une métrique de type Schwarzschild. Nous démontrons qu'il n'est possible d'imiter de manière cohérente une géométrie de type Schwarzschild que dans le cadre de la géométrie acoustique relativiste.

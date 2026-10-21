@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2602.18023
 language: en
 subsystems: [G, C, Q]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

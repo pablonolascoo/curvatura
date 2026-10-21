@@ -1,0 +1,1 @@
+Recientemente se ha establecido, para una amplia clase de agujeros negros, una correspondencia entre dos problemas espectrales distintos: los modos cuasinormales y los factores de cuerpo gris. Aquí demostramos que existe una correspondencia similar para una amplia clase de agujeros de gusano atravesables y la verificamos con varios ejemplos bien conocidos.

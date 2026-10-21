@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1402.1388
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false

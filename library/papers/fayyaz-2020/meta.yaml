@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2005.10023
 language: en
 subsystems: [G, C, S]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

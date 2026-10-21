@@ -13,9 +13,9 @@ source: https://arxiv.org/abs/2205.01454
 language: en
 subsystems: [V]
 kind: analogo
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

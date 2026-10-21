@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2608.08213
 language: en
 subsystems: [G, C, M]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2607.22876
 language: en
 subsystems: [G, E]
 kind: fuente
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

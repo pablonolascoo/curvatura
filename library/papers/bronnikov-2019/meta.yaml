@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/1903.09862
 language: en
 subsystems: [C, E, S, D]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

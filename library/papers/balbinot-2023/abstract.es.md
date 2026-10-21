@@ -1,0 +1,1 @@
+Analizamos las funciones de correlación a través del horizonte en la radiación de Hawking de un agujero negro para revelar las correlaciones entre las partículas de Hawking y sus compañeras. Los efectos del espaciotiempo subyacente sobre ello se muestran en diversos ejemplos, desde agujeros negros acústicos hasta agujeros negros regulares.

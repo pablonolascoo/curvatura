@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2302.08804
 language: en
 subsystems: [M, V]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2606.09781
 language: en
 subsystems: [G]
 kind: fuente
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

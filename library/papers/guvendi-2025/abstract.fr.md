@@ -1,0 +1,1 @@
+Cette étude examine la dynamique de paires fermion-antifermion dans un espace-temps de trou de ver traversable en résolvant l'équation de Dirac covariante à deux corps avec une masse dépendant de la position.

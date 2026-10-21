@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/2512.14389
 language: en
 subsystems: [G, C, Q]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

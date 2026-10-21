@@ -11,9 +11,9 @@ source: https://arxiv.org/abs/2603.01003
 language: en
 subsystems: [C, E]
 kind: restriccion
-license: unknown
+license: CC0-1.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

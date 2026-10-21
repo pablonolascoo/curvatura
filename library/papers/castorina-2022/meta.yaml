@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2207.11935
 language: en
 subsystems: [D, Q, V]
 kind: experimental
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

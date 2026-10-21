@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/quant-ph/0203027
 language: en
 subsystems: [C, Q]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

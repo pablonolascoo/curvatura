@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/1612.03747
 language: en
 subsystems: [G, E]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/hep-th/0108116
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

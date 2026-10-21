@@ -13,9 +13,9 @@ source: https://arxiv.org/abs/2108.04117
 language: en
 subsystems: [C, D]
 kind: solucion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

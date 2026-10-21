@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/1909.09607
 language: en
 subsystems: [E, Q]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

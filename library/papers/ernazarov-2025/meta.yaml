@@ -10,9 +10,9 @@ source: https://arxiv.org/abs/2510.21625
 language: en
 subsystems: [C, E]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

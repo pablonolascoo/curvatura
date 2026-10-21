@@ -1,0 +1,1 @@
+Nous utilisons le formalisme de l'état réduit du champ [Entropy 21, 705 (2019)] pour dériver des conditions sous lesquelles une transformation de Bogoliubov peut être considérée comme semi-classique. Nous appliquons ce résultat à l'effet Casimir dynamique dans un milieu en mouvement [Phys. Rev. A 78, 042109 (2008)], en discutant de ses caractéristiques classiques et quantiques.

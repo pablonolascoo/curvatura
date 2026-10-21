@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2411.12063
 language: en
 subsystems: [G, C, E]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2503.04287
 language: en
 subsystems: [E]
 kind: numerico
-license: unknown
+license: CC-BY-NC-SA-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

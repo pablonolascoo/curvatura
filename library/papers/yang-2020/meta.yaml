@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2010.04571
 language: en
 subsystems: [E, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

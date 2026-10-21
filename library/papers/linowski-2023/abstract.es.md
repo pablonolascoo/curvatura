@@ -1,0 +1,1 @@
+Utilizamos el formalismo del estado reducido del campo [Entropy 21, 705 (2019)] para derivar condiciones bajo las cuales una transformación de Bogoliubov puede considerarse semiclásica. Aplicamos este resultado al efecto Casimir dinámico en un medio en movimiento [Phys. Rev. A 78, 042109 (2008)], discutiendo sus rasgos clásicos y cuánticos.

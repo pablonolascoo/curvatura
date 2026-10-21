@@ -13,9 +13,9 @@ source: https://arxiv.org/abs/2408.03016
 language: en
 subsystems: [C, E, S]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

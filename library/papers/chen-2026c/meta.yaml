@@ -14,9 +14,9 @@ source: https://arxiv.org/abs/2609.05534
 language: en
 subsystems: [G, D, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

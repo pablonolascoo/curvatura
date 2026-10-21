@@ -12,9 +12,9 @@ source: https://arxiv.org/abs/2303.03240
 language: en
 subsystems: [V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0

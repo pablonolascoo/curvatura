@@ -1,0 +1,1 @@
+Se presenta una nueva solución para un espectro analítico de creación de partículas por un espejo acelerado (efecto Casimir dinámico). Es el primer modelo que radia térmicamente y emite a la vez un número finito de partículas.

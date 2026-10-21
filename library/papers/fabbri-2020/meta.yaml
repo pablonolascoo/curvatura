@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2005.04443
 language: en
 subsystems: [Q, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

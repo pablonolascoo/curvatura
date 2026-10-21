@@ -13,9 +13,9 @@ source: https://arxiv.org/abs/2410.05348
 language: en
 subsystems: [G, C, E, Q]
 kind: experimental
-license: unknown
+license: CC-BY-4.0
 fulltext: false
-translations: []
+translations: [es, fr]
 verified: true
 harvest: arxiv
 cited_by: 0
