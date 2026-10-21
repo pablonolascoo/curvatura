@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/hep-th/0511138
 language: en
 subsystems: [D, V]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

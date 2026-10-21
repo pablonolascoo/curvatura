@@ -17,7 +17,7 @@ export const call = (fn: string, ...args: Node[]): Node => ({ k: "call", fn, arg
 /** Funciones conocidas por el motor. */
 export const FUNCTIONS = [
   "sin", "cos", "tan", "exp", "log", "sqrt", "abs",
-  "sinh", "cosh", "tanh", "sech", "csch", "coth", "diff",
+  "sinh", "cosh", "tanh", "sech", "csch", "coth", "diff", "int",
 ] as const;
 
 export function symbols(n: Node, out = new Set<string>()): Set<string> {

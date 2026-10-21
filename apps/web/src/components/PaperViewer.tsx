@@ -86,7 +86,7 @@ export function PaperViewer({ lang, labels }: { lang: string; labels: Labels }) 
         </dl>
         <p className="card p-5 text-sm leading-relaxed text-muted">{labels.noFulltext}</p>
       </header>
-      <div className="grid content-start gap-8 lg:col-span-8">
+      <div className="grid min-w-0 content-start gap-8 lg:col-span-8">
         {langs.length > 1 && (
           <div role="tablist" className="flex flex-wrap gap-2">
             {langs.map((l) => (

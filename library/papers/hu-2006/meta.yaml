@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/gr-qc/0601038
 language: en
 subsystems: [C, Q]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

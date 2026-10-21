@@ -1,0 +1,1 @@
+Estudiamos la dinámica hamiltoniana de una nave espacial en el fondo de las métricas de Alcubierre y de Gödel. Derivamos los campos vectoriales hamiltonianos que rigen la evolución del sistema, y construimos y discutimos los operadores de recursión asociados que generan las constantes del movimiento. Además, caracterizamos las simetrías maestras relevantes.

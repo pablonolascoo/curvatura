@@ -81,8 +81,14 @@ export function parse(src: string): Node {
 
   const left = sum();
   const REL = ["=", ">=", "<=", "~"] as const;
-  const rel = REL.find((r) => isOp(r));
-  const result: Node = rel ? (p++, { k: "eq", a: left, b: sum(), rel }) : left;
+  // Relaciones encadenadas (a = b ≤ c) se anidan por la derecha.
+  const chain = (lhs: Node): Node => {
+    const rel = REL.find((r) => isOp(r));
+    if (!rel) return lhs;
+    p++;
+    return { k: "eq", a: lhs, b: chain(sum()), rel };
+  };
+  const result: Node = chain(left);
   if (p < toks.length) throw new FormulaSyntaxError(`sobra «${toks[p].v}»`, toks[p].at);
   return result;
 }

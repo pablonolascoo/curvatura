@@ -1,0 +1,20 @@
+id: alcubierre-energy-exact
+paper: alcubierre-1994
+subsystem: P
+title: { es: Energía total exacta, en: Exact total energy, fr: Énergie totale exacte }
+expr: "E = -(v_s^2/12) * int(r^2 * diff(f(r), r)^2, r, 0, inf)"
+symbols:
+  E: { group: energy, es: Energía euleriana total, en: Total Eulerian energy, fr: Énergie eulérienne totale }
+  v_s: { group: velocity, es: Velocidad de la burbuja, en: Bubble velocity, fr: Vitesse de la bulle }
+  r: { group: geometry, es: Distancia al centro, en: Distance to the centre, fr: Distance au centre }
+compute:
+  result: "-(v_s^2/12) * int(r^2 * (sigma*(sech(sigma*(r + R))^2 - sech(sigma*(r - R))^2) / (2*tanh(sigma*R)))^2, r, 0, R + 30/sigma)"
+  unit: ""
+  inputs:
+    v_s: { min: 0.1, max: 5, default: 1, unit: c }
+    R: { min: 0.5, max: 10, default: 1, unit: "" }
+    sigma: { min: 0.5, max: 20, default: 8, unit: "", log: true }
+note:
+  es: La integral angular es exacta (8π/3); queda una integral radial. Con v = 1, R = 1 y σ = 8 da −0,223342, igual en Python, C++, Rust y este motor.
+  en: The angular integral is exact (8π/3), leaving a radial integral. With v = 1, R = 1 and σ = 8 it gives −0.223342, identical in Python, C++, Rust and this engine.
+  fr: L'intégrale angulaire est exacte (8π/3) ; il reste une intégrale radiale. Avec v = 1, R = 1 et σ = 8 elle donne −0,223342, identique en Python, C++, Rust et dans ce moteur.

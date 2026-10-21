@@ -1,0 +1,1 @@
+Nous trouvons une classe d'espaces-temps de propulsion par distorsion possédant des limites newtoniennes, que nous déterminons ensuite. La même méthode est utilisée pour calculer les limites newtoniennes de la solution de Schwarzschild et des modèles cosmologiques de Friedmann-Robertson-Walker spatialement plats.

@@ -2,10 +2,10 @@ id: hamiltonian-constraint
 paper: alcubierre-1994
 subsystem: C
 title: { es: Ligadura hamiltoniana, en: Hamiltonian constraint, fr: Contrainte hamiltonienne }
-expr: "16*pi*rho_E = R__3 + K^2 - K_ij*K__ij"
+expr: "16*pi*rho_E = R_Sigma + K^2 - K_ij*K__ij"
 symbols:
   rho_E: { group: energy, es: Densidad de energía euleriana, en: Eulerian energy density, fr: Densité d'énergie eulérienne }
-  R__3: { group: geometry, es: Curvatura escalar de la hipersuperficie, en: Scalar curvature of the hypersurface, fr: Courbure scalaire de l'hypersurface }
+  R_Sigma: { group: geometry, es: Curvatura escalar de la hipersuperficie Σ, en: Scalar curvature of the hypersurface, fr: Courbure scalaire de l'hypersurface }
   K: { group: geometry, es: Traza de la curvatura extrínseca, en: Trace of the extrinsic curvature, fr: Trace de la courbure extrinsèque }
   K_ij: { group: geometry, es: Curvatura extrínseca, en: Extrinsic curvature, fr: Courbure extrinsèque }
   K__ij: { group: geometry, es: Curvatura extrínseca (índices altos), en: Extrinsic curvature (raised indices), fr: Courbure extrinsèque (indices hauts) }

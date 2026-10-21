@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/hep-th/0603191
 language: en
 subsystems: [G, E, Q, P]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

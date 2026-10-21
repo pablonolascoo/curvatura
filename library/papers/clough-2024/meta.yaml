@@ -13,7 +13,7 @@ language: en
 subsystems: [D, V]
 kind: numerico
 license: CC-BY-4.0
-fulltext: source
+fulltext: auto
 translations: [es, fr]
 verified: true
 relevance: alta

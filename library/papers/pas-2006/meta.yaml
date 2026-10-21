@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/gr-qc/0603045
 language: en
 subsystems: [G, C, D]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

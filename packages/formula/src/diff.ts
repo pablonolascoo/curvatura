@@ -67,6 +67,7 @@ function d(n: Node, x: string): Node {
     case "eq": return { k: "eq", a: d(n.a, x), b: d(n.b, x) };
     case "call": {
       if (n.fn === "diff") return d(diff(n.args[0], (n.args[1] as { name: string }).name), x);
+      if (n.fn === "int") throw new Error("derivada de una integral no soportada todavía");
       const f = OUTER[n.fn];
       if (!f) throw new Error(`sin regla de derivación para «${n.fn}»`);
       return bin("*", f(n.args[0]), d(n.args[0], x));

@@ -1,0 +1,1 @@
+Se revisan diversas objeciones contra la geometría del motor de curvatura de Alcubierre. Las burbujas de curvatura superluminales parecen una posibilidad improbable en el marco de la relatividad general y la teoría cuántica de campos, aunque las burbujas subluminales aún podrían ser posibles.

@@ -1,0 +1,20 @@
+id: schwarzschild-radius
+paper: fuchs-2024
+subsystem: P
+title: { es: Radio de Schwarzschild de la cáscara, en: Schwarzschild radius of the shell, fr: Rayon de Schwarzschild de la coque }
+expr: "r_S = 2*G*M / c^2"
+symbols:
+  r_S: { group: geometry, es: Radio de Schwarzschild, en: Schwarzschild radius, fr: Rayon de Schwarzschild }
+  M: { group: matter, es: Masa de la cáscara, en: Shell mass, fr: Masse de la coque }
+  G: { group: constant, es: Constante de gravitación, en: Gravitational constant, fr: Constante gravitationnelle }
+  c: { group: constant, es: Velocidad de la luz, en: Speed of light, fr: Vitesse de la lumière }
+compute:
+  result: "2*G*M*M_J / c^2"
+  unit: m
+  inputs:
+    M: { min: 0.001, max: 1000, default: 2.365, unit: M_J, log: true }
+  constants: [G, c, M_J]
+note:
+  es: La solución de Fuchs et al. usa 2,365 masas de Júpiter entre R₁ = 10 m y R₂ = 20 m. Su radio de Schwarzschild, unos 6,7 m, queda justo por debajo de R₁.
+  en: The Fuchs et al. solution uses 2.365 Jupiter masses between R₁ = 10 m and R₂ = 20 m. Its Schwarzschild radius, about 6.7 m, sits just below R₁.
+  fr: La solution de Fuchs et al. utilise 2,365 masses de Jupiter entre R₁ = 10 m et R₂ = 20 m. Son rayon de Schwarzschild, environ 6,7 m, est juste sous R₁.

@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/gr-qc/0610091
 language: en
 subsystems: [G, E]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

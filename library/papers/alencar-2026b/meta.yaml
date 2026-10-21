@@ -14,7 +14,7 @@ source: https://arxiv.org/abs/2609.14199
 language: en
 subsystems: [G, E]
 kind: restriccion
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

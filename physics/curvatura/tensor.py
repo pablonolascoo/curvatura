@@ -77,3 +77,19 @@ def eulerian_energy_density(geo: Geometry, alpha: sp.Expr, beta: tuple[sp.Expr, 
     """ρ_E = G_μν n^μ n^ν / 8π con n^μ = (1/α, -β^i/α)."""
     n = [1 / alpha] + [-bi / alpha for bi in beta]
     return sum(geo.einstein[m, v] * n[m] * n[v] for m in range(4) for v in range(4)) / (8 * sp.pi)
+
+
+def eulerian_tetrad_flat(alpha: sp.Expr, beta: tuple[sp.Expr, sp.Expr, sp.Expr]) -> list[list[sp.Expr]]:
+    """Tétrada ortonormal para γ_ij = δ_ij: e_0 = n^μ = (1/α, -β^i/α), e_i = ∂_i."""
+    e0 = [1 / alpha] + [-b / alpha for b in beta]
+    return [e0, [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+
+def stress_energy_frame(geo: Geometry, tetrad: list[list[sp.Expr]]) -> sp.Matrix:
+    """T_ab = G_μν e_a^μ e_b^ν / 8π en la tétrada dada (matriz 4×4 simbólica)."""
+    T = sp.zeros(4, 4)
+    for a in range(4):
+        for b in range(a, 4):
+            s = sum(geo.einstein[m, v] * tetrad[a][m] * tetrad[b][v] for m in range(4) for v in range(4) if tetrad[a][m] != 0 and tetrad[b][v] != 0)
+            T[a, b] = T[b, a] = s / (8 * sp.pi)
+    return T

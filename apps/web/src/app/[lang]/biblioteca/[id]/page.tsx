@@ -68,7 +68,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
         </dl>
         {!isOpenLicense(p) && <p className="card p-5 text-sm leading-relaxed text-muted border border-line">{t.library.noFulltext}</p>}
       </header>
-      <div className="grid content-start gap-12 lg:col-span-8">
+      <div className="grid min-w-0 content-start gap-12 lg:col-span-8">
         {eqs.length > 0 && (
           <section className="grid gap-4">
             <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{t.nav.equations}</h2>

@@ -1,0 +1,15 @@
+id: raychaudhuri-null
+paper: santiago-2022
+subsystem: C
+title: { es: Ecuación de Raychaudhuri nula, en: Null Raychaudhuri equation, fr: Équation de Raychaudhuri nulle }
+expr: "diff(theta, lambda) = -theta^2/2 - sigma_ab*sigma__ab + omega_ab*omega__ab - R_mu_nu*k__mu*k__nu"
+symbols:
+  theta: { group: geometry, es: Expansión de un haz de luz, en: Expansion of a light bundle, fr: Expansion d'un faisceau lumineux }
+  lambda: { group: geometry, es: Parámetro afín, en: Affine parameter, fr: Paramètre affine }
+  sigma_ab: { group: geometry, es: Cizalla, en: Shear, fr: Cisaillement }
+  omega_ab: { group: geometry, es: Vorticidad, en: Vorticity, fr: Vorticité }
+  R_mu_nu: { group: energy, es: Ricci, fijado por la materia vía Einstein, en: Ricci tensor, fixed by matter through Einstein, fr: Tenseur de Ricci, fixé par la matière via Einstein }
+note:
+  es: Con NEC, R_μν k^μ k^ν ≥ 0 y la luz se enfoca. Desenfocar (lo que exige una burbuja supraluminal) obliga a violarla.
+  en: With the NEC, R_μν k^μ k^ν ≥ 0 and light focuses. Defocusing, which a superluminal bubble requires, forces a violation.
+  fr: Avec la NEC, R_μν k^μ k^ν ≥ 0 et la lumière se focalise. Défocaliser, ce qu'exige une bulle supraluminique, impose de la violer.

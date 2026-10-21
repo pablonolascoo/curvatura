@@ -1,0 +1,1 @@
+Se revisa el estudio serio de elementos clásicos de la ciencia ficción como los agujeros de gusano, los viajes en el tiempo y el motor de curvatura, como medio para comprender y acotar posibles soluciones realistas dentro de la Relatividad General.

@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/gr-qc/9907026
 language: en
 subsystems: [G, C, S, D]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

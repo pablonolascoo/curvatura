@@ -1,0 +1,13 @@
+id: eulerian-energy-theorem
+paper: santiago-2022
+subsystem: C
+title: { es: La energía euleriana total nunca es positiva, en: Total Eulerian energy is never positive, fr: L'énergie eulérienne totale n'est jamais positive }
+expr: "E_Sigma = -(1/(64*pi)) * int(omega_ij*omega__ij, V, 0, inf) <= 0"
+symbols:
+  E_Sigma: { group: energy, es: Energía euleriana total en la hipersuperficie, en: Total Eulerian energy on the hypersurface, fr: Énergie eulérienne totale sur l'hypersurface }
+  omega_ij: { group: geometry, es: Vorticidad del desplazamiento, en: Shift vorticity, fr: Vorticité du décalage }
+  omega__ij: { group: geometry, es: Vorticidad (índices altos), en: Vorticity (raised indices), fr: Vorticité (indices hauts) }
+note:
+  es: En la clase de Natário (lapso 1, espacio plano) la divergencia total se anula al integrar. Lo que queda es menos el cuadrado de la vorticidad. Ver docs/obstaculos.md.
+  en: In the Natário class (unit lapse, flat space) the total divergence vanishes on integration. What remains is minus the squared vorticity. See docs/obstaculos.md.
+  fr: Dans la classe de Natário (lapse unité, espace plat) la divergence totale s'annule à l'intégration. Il reste moins le carré de la vorticité. Voir docs/obstaculos.md.

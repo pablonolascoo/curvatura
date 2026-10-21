@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/gr-qc/9611064
 language: en
 subsystems: [E, Q]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

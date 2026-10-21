@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/gr-qc/9806013
 language: en
 subsystems: [G, C, P]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

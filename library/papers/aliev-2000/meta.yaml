@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/gr-qc/0011016
 language: en
 subsystems: [D, V]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -1,0 +1,13 @@
+id: natario-zero-expansion
+paper: natario-2002
+subsystem: G
+title: { es: Burbuja de expansión nula, en: Zero-expansion bubble, fr: Bulle à expansion nulle }
+expr: "diff(beta__x, x) + diff(beta__y, y) + diff(beta__z, z) = 0"
+symbols:
+  beta__x: { group: geometry, es: Componente x del desplazamiento, en: x component of the shift, fr: Composante x du décalage }
+  beta__y: { group: geometry, es: Componente y del desplazamiento, en: y component of the shift, fr: Composante y du décalage }
+  beta__z: { group: geometry, es: Componente z del desplazamiento, en: z component of the shift, fr: Composante z du décalage }
+note:
+  es: Natário muestra que la contracción y expansión de Alcubierre no son esenciales. Basta un desplazamiento sin divergencia; la energía negativa sigue ahí.
+  en: Natário shows that Alcubierre's contraction and expansion are not essential. A divergence-free shift is enough; the negative energy remains.
+  fr: Natário montre que la contraction et l'expansion d'Alcubierre ne sont pas essentielles. Un décalage sans divergence suffit ; l'énergie négative demeure.

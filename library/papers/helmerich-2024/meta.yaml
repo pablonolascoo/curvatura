@@ -16,7 +16,7 @@ language: en
 subsystems: [C, V]
 kind: numerico
 license: CC-BY-4.0
-fulltext: source
+fulltext: auto
 translations: [es, fr]
 verified: true
 relevance: alta

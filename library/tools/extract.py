@@ -73,7 +73,8 @@ def source(aid: str, dest: Path) -> int:
 
 
 def main() -> int:
-    wanted = set(sys.argv[1:])
+    sources_only = "--sources-only" in sys.argv  # solo fuentes de papers abiertos aún sin descargar
+    wanted = {a for a in sys.argv[1:] if not a.startswith("--")}
     errors = 0
     for meta in sorted(ROOT.glob("*/meta.yaml")):
         pid = meta.parent.name
@@ -82,9 +83,18 @@ def main() -> int:
         text = meta.read_text()
         aid, lic, lang = field(text, "arxiv"), field(text, "license"), field(text, "language") or "en"
         if not aid:
-            print(f"·  {pid:<24} sin arXiv")
+            if not sources_only:
+                print(f"·  {pid:<24} sin arXiv")
+            continue
+        if sources_only and (lic not in OPEN or (meta.parent / "source").exists()):
             continue
         try:
+            if sources_only:
+                n = source(aid, meta.parent / "source")
+                meta.write_text(re.sub(r"^fulltext:.*$", "fulltext: source", text, flags=re.M))
+                print(f"ok {pid:<24} fuente ({n} ficheros)", flush=True)
+                time.sleep(4)
+                continue
             (meta.parent / f"abstract.{lang}.md").write_text(abstract(aid) + "\n")
             time.sleep(3)
             if lic in OPEN:

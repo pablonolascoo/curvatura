@@ -16,7 +16,7 @@ source: https://arxiv.org/abs/0906.1337
 language: en
 subsystems: [D, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

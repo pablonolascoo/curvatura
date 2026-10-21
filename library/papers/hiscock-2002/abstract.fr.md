@@ -1,0 +1,1 @@
+L'étude sérieuse d'éléments classiques de la science-fiction tels que les trous de ver, le voyage dans le temps et la propulsion par distorsion, comme moyen de comprendre et de contraindre d'éventuelles solutions réalistes en Relativité Générale, est passée en revue.

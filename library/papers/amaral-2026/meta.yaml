@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/2604.06526
 language: en
 subsystems: [C]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

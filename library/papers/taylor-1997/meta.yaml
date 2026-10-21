@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/gr-qc/9608036
 language: en
 subsystems: [G]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: false

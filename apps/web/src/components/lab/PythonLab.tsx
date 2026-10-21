@@ -26,11 +26,18 @@ print(f"{'R (m)':>8} {'σ (1/m)':>8} {'E (m)':>12} {'M (Júpiter)':>14}")
 for R, s in [(1, 8), (10, 1), (100, 0.1), (100, 1), (1000, 0.01)]:
     E = A.total_energy(1.0, R, s)
     print(f"{R:>8} {s:>8} {E:>12.4e} {length_to_mass(E)/M_JUPITER:>14.4e}")`,
-  "Condiciones de energía": `import numpy as np
+  "Condiciones de energía": `# Tensor energía-momento en la tétrada euleriana y barrido de observadores (como Warp Factory)
+import numpy as np, sympy as sp
+from curvatura.metrics import alcubierre as A
+from curvatura.tensor import geometry, eulerian_tetrad_flat, stress_energy_frame
 from curvatura.energy_conditions import nec_min, wec_min
-# Fluido perfecto: ρ = 1, p = -1.2 (viola NEC porque ρ + p < 0)
-T = np.diag([1.0, -1.2, -1.2, -1.2])
-print("NEC mín:", nec_min(T), " WEC mín:", wec_min(T))`,
+
+(t, x, y, z), g, alpha, beta, _ = A.symbolic(sp.Rational(1, 2), 1, 4)
+geo = geometry(g, (t, x, y, z))
+T = sp.lambdify((t, x, y, z), stress_energy_frame(geo, eulerian_tetrad_flat(alpha, beta)), "numpy")
+for p in [(0, 0, 0), (0.3, 0.9, 0), (1.0, 0.1, 0), (2.5, 0, 0)]:
+    Tab = np.array(T(0.0, *p), dtype=float)
+    print(f"{str(p):<16} ρ={Tab[0,0]:+.3e}  NEC mín={nec_min(Tab):+.3e}  WEC mín={wec_min(Tab):+.3e}")`,
 };
 
 type Py = { runPythonAsync: (code: string) => Promise<unknown>; setStdout: (o: { batched: (s: string) => void }) => void; setStderr: (o: { batched: (s: string) => void }) => void; FS: { mkdirTree: (p: string) => void; writeFile: (p: string, d: string) => void }; loadPackage: (p: string[]) => Promise<void> };

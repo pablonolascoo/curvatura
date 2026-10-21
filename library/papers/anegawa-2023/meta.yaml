@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/2304.14620
 language: en
 subsystems: [G, C, Q]
 kind: solucion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

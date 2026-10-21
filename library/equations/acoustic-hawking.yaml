@@ -1,0 +1,20 @@
+id: acoustic-hawking
+paper: unruh-1981
+subsystem: V
+title: { es: Temperatura de Hawking acústica, en: Acoustic Hawking temperature, fr: Température de Hawking acoustique }
+expr: "T_H = (hbar * kappa) / (2*pi*k_B)"
+symbols:
+  T_H: { group: energy, es: Temperatura del horizonte, en: Horizon temperature, fr: Température de l'horizon }
+  kappa: { group: velocity, es: Gradiente de velocidad del flujo en el horizonte, en: Flow velocity gradient at the horizon, fr: Gradient de vitesse de l'écoulement à l'horizon }
+  hbar: { group: constant, es: Constante de Planck reducida, en: Reduced Planck constant, fr: Constante de Planck réduite }
+  k_B: { group: constant, es: Constante de Boltzmann, en: Boltzmann constant, fr: Constante de Boltzmann }
+compute:
+  result: "(hbar * kappa) / (2*pi*k_B)"
+  unit: K
+  inputs:
+    kappa: { min: 1, max: 1e7, default: 1000, unit: "s⁻¹", log: true }
+  constants: [hbar, k_B]
+note:
+  es: En un canal hidráulico la señal es diminuta; en un condensado de Bose-Einstein, con gradientes mucho mayores, es medible. Es el banco de pruebas de la fase F5.
+  en: In a water channel the signal is tiny; in a Bose-Einstein condensate, with far larger gradients, it is measurable. This is the testbed for phase F5.
+  fr: Dans un canal hydraulique le signal est minuscule ; dans un condensat de Bose-Einstein, aux gradients bien plus grands, il est mesurable. C'est le banc d'essai de la phase F5.

@@ -236,7 +236,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* Prosa de papers y notas. */
-.prose-paper { color: var(--fg-2); font-size: 1.0625rem; line-height: 1.75; max-width: 72ch; }
+.prose-paper { color: var(--fg-2); font-size: 1.0625rem; line-height: 1.75; max-width: 72ch; min-width: 0; overflow-wrap: anywhere; }
 .prose-paper h1, .prose-paper h2, .prose-paper h3 {
   font-family: var(--font-serif);
   color: var(--fg);

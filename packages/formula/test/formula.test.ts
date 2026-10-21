@@ -74,3 +74,20 @@ describe("relaciones e índices", () => {
     expect(toMathML(parse("x_a__b"))).toContain("<msubsup");
   });
 });
+
+describe("integral definida", () => {
+  test("∫ r² f'(r)² dr coincide con el núcleo (E = -0.223342 para v=1, R=1, σ=8)", () => {
+    const sys = new FormulaSystem().define("f(r) = (tanh(sigma*(r + R)) - tanh(sigma*(r - R))) / (2*tanh(sigma*R))");
+    const E = sys.fn("-(v_s^2/12) * int(r^2 * diff(f(r), r)^2, r, 0, R + 5)");
+    expect(E({ v_s: 1, R: 1, sigma: 8 })).toBeCloseTo(-0.223342, 5);
+    expect(toMathML(parse("int(x^2, x, 0, 1)"))).toContain("∫");
+  });
+});
+
+describe("relaciones encadenadas", () => {
+  test("E = x ≤ 0", () => {
+    const n = parse("E = -x^2 <= 0");
+    expect(toMathML(n)).toContain("≤");
+    expect(evaluate(n, { x: 3 })).toBe(-9);
+  });
+});

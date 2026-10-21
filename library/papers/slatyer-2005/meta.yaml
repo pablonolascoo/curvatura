@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/cond-mat/0501182
 language: en
 subsystems: [D, V]
 kind: experimental
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/math-ph/0105027
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

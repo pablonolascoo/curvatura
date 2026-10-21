@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/gr-qc/0404022
 language: en
 subsystems: [G, D, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

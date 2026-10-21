@@ -4,7 +4,7 @@ const GREEK: Record<string, string> = {
   alpha: "α", beta: "β", gamma: "γ", delta: "δ", epsilon: "ε", eta: "η", theta: "θ", kappa: "κ",
   lambda: "λ", mu: "μ", nu: "ν", xi: "ξ", pi: "π", rho: "ρ", sigma: "σ", tau: "τ", phi: "φ",
   chi: "χ", psi: "ψ", omega: "ω", Gamma: "Γ", Delta: "Δ", Theta: "Θ", Lambda: "Λ", Sigma: "Σ",
-  Phi: "Φ", Psi: "Ψ", Omega: "Ω",
+  Phi: "Φ", Psi: "Ψ", Omega: "Ω", inf: "∞", hbar: "ℏ",
 };
 const DIFFERENTIALS = new Set(["dt", "dx", "dy", "dz", "dr", "ds"]);
 const PREC: Record<string, number> = { "=": 0, "+": 1, "-": 1, "*": 2, "/": 2, neg: 3, "^": 4 };
@@ -24,7 +24,7 @@ function symbol(name: string, hl: Set<string>): string {
   // base_sub__sup → base con subíndice y superíndice (K_ij, K__ij, R__3).
   const [lower, upper] = name.split("__");
   const [base, ...sub] = lower.split("_");
-  const idx = (parts: string[]) => `<mi>${esc(parts.map(glyph).join(""))}</mi>`;
+  const idx = (parts: string[]) => `<mi mathvariant="italic">${esc(parts.map(glyph).join(""))}</mi>`;
   const b = `<mi${glyph(base).length > 1 ? ' mathvariant="normal"' : ""}>${esc(glyph(base))}</mi>`;
   const supParts = upper ? upper.split("_") : [];
   if (!sub.length && !supParts.length) return b.replace("<mi", `<mi${attr}`);
@@ -59,6 +59,10 @@ function render(n: Node, hl: Set<string>): string {
     case "call": {
       if (n.fn === "sqrt") return `<msqrt>${render(n.args[0], hl)}</msqrt>`;
       if (n.fn === "abs") return `<mrow><mo>|</mo>${render(n.args[0], hl)}<mo>|</mo></mrow>`;
+      if (n.fn === "int") {
+        const [f, x, a, b] = n.args;
+        return `<mrow><msubsup><mo>∫</mo>${render(a, hl)}${render(b, hl)}</msubsup>${sub(f, PREC["*"])}<mo>&#x2062;</mo><mi mathvariant="normal">d</mi>${render(x, hl)}</mrow>`;
+      }
       if (n.fn === "diff") {
         const [f, x] = n.args;
         return `<mfrac><mrow><mi mathvariant="normal">d</mi>${sub(f, 9)}</mrow><mrow><mi mathvariant="normal">d</mi>${render(x, hl)}</mrow></mfrac>`;

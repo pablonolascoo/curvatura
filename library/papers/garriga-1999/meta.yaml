@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/astro-ph/9909143
 language: en
 subsystems: [C, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

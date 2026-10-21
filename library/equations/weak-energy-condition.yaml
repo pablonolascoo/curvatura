@@ -1,0 +1,13 @@
+id: weak-energy-condition
+paper: lobo-visser-2004
+subsystem: C
+title: { es: Condición de energía débil, en: Weak energy condition, fr: Condition d'énergie faible }
+expr: "T_mu_nu * t__mu * t__nu >= 0"
+symbols:
+  T_mu_nu: { group: energy, es: Tensor energía-momento, en: Stress-energy tensor, fr: Tenseur énergie-impulsion }
+  t__mu: { group: geometry, es: Vector temporal de cualquier observador, en: Timelike vector of any observer, fr: Vecteur de genre temps de tout observateur }
+  t__nu: { group: geometry, es: Vector temporal, en: Timelike vector, fr: Vecteur de genre temps }
+note:
+  es: Ningún observador mide densidad de energía negativa. Lobo y Visser muestran que se viola incluso a velocidades bajas.
+  en: No observer measures negative energy density. Lobo and Visser show it is violated even at low speeds.
+  fr: Aucun observateur ne mesure de densité d'énergie négative. Lobo et Visser montrent qu'elle est violée même à basse vitesse.

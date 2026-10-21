@@ -10,7 +10,7 @@ export function PaperTabs({ tabs, initial, labels }: { tabs: Tab[]; initial: str
   const tab = tabs.find((t) => t.lang === lang) ?? tabs[0];
   if (!tab) return null;
   return (
-    <div className="grid gap-10">
+    <div className="grid min-w-0 gap-10">
       <div
         role="tablist"
         aria-label="Idioma"
@@ -39,7 +39,7 @@ export function PaperTabs({ tabs, initial, labels }: { tabs: Tab[]; initial: str
           </button>
         ))}
       </div>
-      <div role="tabpanel" className="grid gap-12">
+      <div role="tabpanel" className="grid min-w-0 gap-12">
         {tab.note && <p className="text-sm text-muted">{tab.note}</p>}
         <section className="grid gap-4">
           <h2 className="text-sm text-muted">{labels.abstract}</h2>

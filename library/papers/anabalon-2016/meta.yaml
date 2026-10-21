@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/1606.07870
 language: en
 subsystems: [E]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

@@ -1,0 +1,1 @@
+Diverses objections contre la géométrie de la propulsion par distorsion d'Alcubierre sont passées en revue. Les bulles de distorsion superluminiques semblent une possibilité improbable dans le cadre de la relativité générale et de la théorie quantique des champs, bien que des bulles subluminiques puissent encore être possibles.

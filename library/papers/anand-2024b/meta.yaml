@@ -12,7 +12,7 @@ source: https://arxiv.org/abs/2410.11907
 language: en
 subsystems: [G, E, D, Q, M]
 kind: experimental
-license: unknown
+license: CC-BY-4.0
 fulltext: false
 translations: []
 verified: true

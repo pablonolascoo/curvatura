@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/gr-qc/0703100
 language: en
 subsystems: [C, D]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

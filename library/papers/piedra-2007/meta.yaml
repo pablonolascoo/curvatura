@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/0707.0706
 language: en
 subsystems: [C]
 kind: fuente
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

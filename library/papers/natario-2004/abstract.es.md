@@ -1,0 +1,1 @@
+Encontramos una clase de espaciotiempos de motor de curvatura que poseen límites newtonianos, que a continuación determinamos. El mismo método se utiliza para calcular los límites newtonianos de la solución de Schwarzschild y de los modelos cosmológicos de Friedmann-Robertson-Walker espacialmente planos.
