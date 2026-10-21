@@ -32,6 +32,31 @@ export function getTitles(id: string): Record<string, string> | null {
   return existsSync(f) ? (YAML.parse(readFileSync(f, "utf8")) as Record<string, string>) : null;
 }
 
+export type Analysis = {
+  generado: string;
+  aportacion: string;
+  tipo: string;
+  supuestos: string[];
+  resultados: string[];
+  ecuaciones_clave: { n: number; latex: string; significado: string }[];
+  limitaciones: string[];
+  obstaculos: number[];
+  relacion: { paper: string; como: string }[];
+  ideas_abiertas: string[];
+};
+
+/** Ficha de análisis escrita por IA (analisis.yaml) o null si no existe o no es válida. */
+export function getAnalysis(id: string): Analysis | null {
+  const f = path.join(ROOT, id, "analisis.yaml");
+  if (!existsSync(f)) return null;
+  try {
+    const a = YAML.parse(readFileSync(f, "utf8")) as Analysis;
+    return a && typeof a.aportacion === "string" ? a : null;
+  } catch {
+    return null;
+  }
+}
+
 export const localTitle = (p: Paper, lang: string) => getTitles(p.id)?.[lang] ?? p.title;
 
 const OPEN = new Set(["CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "public-domain"]);

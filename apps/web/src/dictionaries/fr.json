@@ -402,5 +402,24 @@
     "privacy": "Les documents ne sont vus que par l'équipe de révision et sont supprimés à la clôture.",
     "resultApproved": "Vérifié avec votre profil ORCID. Vous pouvez désormais donner des mentions d'honneur.",
     "resultPending": "Demande reçue. Nous vous répondrons ici après révision."
+  },
+  "analysis": {
+    "title": "Analyse",
+    "ai": "Générée par IA en espagnol · peut contenir des erreurs",
+    "contribution": "Apport",
+    "assumptions": "Hypothèses",
+    "results": "Résultats",
+    "keyEquations": "Équations clés",
+    "limitations": "Limites",
+    "obstacles": "Obstacles abordés",
+    "related": "Articles liés",
+    "openIdeas": "Pistes ouvertes",
+    "relations": {
+      "extiende": "Prolonge",
+      "critica": "Critique",
+      "corrige": "Corrige",
+      "aplica": "Applique",
+      "compara": "Compare"
+    }
   }
 }

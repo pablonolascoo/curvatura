@@ -402,5 +402,24 @@
     "privacy": "Los documentos solo los ve el equipo revisor y se eliminan al cerrar la revisión.",
     "resultApproved": "Verificado con tu registro ORCID. Ya puedes dar Menciones de honor.",
     "resultPending": "Solicitud recibida. Te avisaremos aquí cuando se revise."
+  },
+  "analysis": {
+    "title": "Análisis",
+    "ai": "Generado con IA · puede contener errores",
+    "contribution": "Aportación",
+    "assumptions": "Supuestos",
+    "results": "Resultados",
+    "keyEquations": "Ecuaciones clave",
+    "limitations": "Limitaciones",
+    "obstacles": "Obstáculos que ataca",
+    "related": "Relación con otros papers",
+    "openIdeas": "Ideas abiertas",
+    "relations": {
+      "extiende": "Extiende",
+      "critica": "Critica",
+      "corrige": "Corrige",
+      "aplica": "Aplica",
+      "compara": "Compara"
+    }
   }
 }

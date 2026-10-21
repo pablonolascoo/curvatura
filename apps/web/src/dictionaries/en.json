@@ -402,5 +402,24 @@
     "privacy": "Documents are only seen by the review team and are deleted when the review closes.",
     "resultApproved": "Verified with your ORCID record. You can now give honourable mentions.",
     "resultPending": "Request received. We will let you know here when it is reviewed."
+  },
+  "analysis": {
+    "title": "Analysis",
+    "ai": "AI-generated in Spanish · may contain errors",
+    "contribution": "Contribution",
+    "assumptions": "Assumptions",
+    "results": "Results",
+    "keyEquations": "Key equations",
+    "limitations": "Limitations",
+    "obstacles": "Obstacles it addresses",
+    "related": "Related papers",
+    "openIdeas": "Open ideas",
+    "relations": {
+      "extiende": "Extends",
+      "critica": "Criticises",
+      "corrige": "Corrects",
+      "aplica": "Applies",
+      "compara": "Compares"
+    }
   }
 }

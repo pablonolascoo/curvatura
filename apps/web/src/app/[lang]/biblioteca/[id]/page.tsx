@@ -6,9 +6,11 @@ import { LiveEquation } from "@/components/LiveEquation";
 import { PaperTabs, type Tab } from "@/components/PaperTabs";
 import { equationView, equationsForPaper } from "@/lib/equations";
 import { LOCALES, LOCALE_NAMES, getDictionary, hasLocale, type Locale } from "@/lib/i18n";
-import { citation, getPaper, getStaticIds, getTitles, getVersions, isOpenLicense } from "@/lib/library";
+import { citation, getAnalysis, getPaper, getStaticIds, getTitles, getVersions, isOpenLicense } from "@/lib/library";
 import { Flags } from "@/components/Flags";
 import { Rating } from "@/components/Rating";
+import { PaperAnalysis } from "@/components/PaperAnalysis";
+import { getObstacles } from "@/lib/obstacles";
 import { renderMarkdown } from "@/lib/markdown";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE, alternates } from "@/lib/site";
@@ -31,6 +33,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
   if (!p) notFound();
   const t = getDictionary(lang);
   const eqs = equationsForPaper(p.id).map((e) => equationView(e, lang));
+  const analysis = getAnalysis(p.id);
   const base = `/library/${p.id}`;
   const tabs: Tab[] = getVersions(p).map((v) => ({
     lang: v.lang,
@@ -90,6 +93,7 @@ export default async function PaperPage({ params }: PageProps<"/[lang]/bibliotec
       </header>
       <div className="grid min-w-0 content-start gap-12 lg:col-span-8">
         <Rating paper={p.id} lang={lang} labels={t.rating} />
+        {analysis && <PaperAnalysis a={analysis} lang={lang} labels={t.analysis} obstacles={getObstacles(lang as Locale).map((o) => o.title)} />}
         {eqs.length > 0 && (
           <section className="grid gap-4">
             <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{t.nav.equations}</h2>
