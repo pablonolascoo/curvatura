@@ -11,7 +11,7 @@ source: https://arxiv.org/abs/quant-ph/0504143
 language: en
 subsystems: [C]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

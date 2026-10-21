@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/1405.3466
 language: en
 subsystems: [Q, V]
 kind: analogo
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

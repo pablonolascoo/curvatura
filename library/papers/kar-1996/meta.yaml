@@ -10,7 +10,7 @@ source: https://arxiv.org/abs/hep-th/9604047
 language: en
 subsystems: [G, C, Q]
 kind: restriccion
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true

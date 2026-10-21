@@ -73,4 +73,7 @@ def test_energy_conditions_violated_in_the_wall():
     wall = np.array(T(0.0, 0.3, 0.9, 0.0), dtype=float)
     centre = np.array(T(0.0, 0.05, 0.02, 0.0), dtype=float)  # r = 0 exacto es 0/0 en la expresión
     assert wec_min(wall) < 0 and nec_min(wall) < 0
-    assert np.abs(centre).max() < 1e-2 * np.abs(wall).max()
+    # T_00 en la tétrada es la densidad euleriana cerrada de Alcubierre.
+    assert wall[0, 0] == pytest.approx(float(A.energy_density(0.3, 0.9, 0.0, V, R, SIG)), rel=1e-9)
+    # Con σR = 4 la pared no es delgada: cerca del centro quedan tensiones del orden del 2 %.
+    assert np.abs(centre).max() < 5e-2 * np.abs(wall).max()

@@ -13,7 +13,7 @@ source: https://arxiv.org/abs/1302.6643
 language: en
 subsystems: [G]
 kind: numerico
-license: unknown
+license: arxiv-nonexclusive
 fulltext: false
 translations: []
 verified: true
