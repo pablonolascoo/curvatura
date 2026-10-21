@@ -6,6 +6,7 @@
   fichas contexto|generar|validar               ficha de análisis por paper escrita por IA
   buscar "consulta" [--tipo ecuacion] [--k 10]  búsqueda directa, sin modelo de lenguaje
   figuras "descripción"                         búsqueda de figuras
+  herramienta [nombre '{"arg": …}']             cualquier herramienta de la IA (sin nombre: la lista)
   preguntar "pregunta"           agente con RAG, laboratorio y subagentes recursivos
   chat                           conversación en la terminal
   lluvia "problema"              lluvia de ideas multiagente (TRIZ, inversión, analogía…)
@@ -85,6 +86,16 @@ def main(argv: list[str] | None = None) -> int:
         tipos = [resto[resto.index("--tipo") + 1]] if "--tipo" in resto else None
         for r in buscar(resto[0], k, tipos):
             print(f"\n[{r.get('tipo')}] {r.get('cita')}\n  {r.get('url')}\n  {(r.get('latex') or r.get('texto') or '')[:400]}")
+    elif orden == "herramienta":
+        from .herramientas import REGISTRO, ejecutar
+        if not resto:
+            for h in REGISTRO.values():
+                print(f"{h.nombre:<22} {h.descripcion[:110]}")
+            return 0
+        texto, imgs = ejecutar(resto[0], json.loads(resto[1]) if len(resto) > 1 else {})
+        print(texto)
+        for r in imgs:
+            print(f"[imagen] {r}")
     elif orden == "figuras":
         from .buscar import buscar_imagenes
         for r in buscar_imagenes(resto[0]):
