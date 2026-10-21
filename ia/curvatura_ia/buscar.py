@@ -17,7 +17,7 @@ CAMPOS = ["paper", "tipo", "seccion", "n", "texto", "latex", "cita", "url", "lic
 @lru_cache(maxsize=1)
 def _tablas():
     con = V.db()
-    nombres = set(con.table_names())
+    nombres = set(V.tablas(con))
     return (con.open_table("fragmentos") if "fragmentos" in nombres else None,
             con.open_table("imagenes") if "imagenes" in nombres else None)
 

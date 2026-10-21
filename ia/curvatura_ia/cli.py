@@ -53,7 +53,7 @@ def vigilar() -> int:
         [py, "-m", "curvatura_ia.corpus"],
         [py, "-m", "curvatura_ia.analizar"],
         [py, "-m", "curvatura_ia.patentes", "--max", "200"],
-        [py, "-m", "curvatura_ia.vectorizar"],
+        [py, "-m", "curvatura_ia.vectorizar", "--vigilado"],
         ["python3", "-I", "library/rag/build.py"],
     ]
     for p in pasos:

@@ -126,6 +126,11 @@ def vec_imagen_desde_texto(q: str):
     return v / (np.linalg.norm(v) or 1)
 
 
+def tablas(con) -> list[str]:
+    r = con.list_tables()
+    return list(getattr(r, "tables", r))
+
+
 def db():
     import lancedb
 
@@ -264,7 +269,7 @@ def _escribir(tabla: str, filas: list[dict], claves: set[str], vectores, conexio
         return
     for f, v in zip(filas, vectores):
         f["vector"] = v.tolist()
-    if tabla in conexion.table_names():
+    if tabla in tablas(conexion):
         t = conexion.open_table(tabla)
         if claves:
             lista = ", ".join("'" + k.replace("'", "''") + "'" for k in claves)
@@ -275,10 +280,39 @@ def _escribir(tabla: str, filas: list[dict], claves: set[str], vectores, conexio
         conexion.create_table(tabla, data=filas)
 
 
+def vigilado(args: list[str], sin_avance: int = 1200) -> int:
+    """Ejecuta la vectorización en un subproceso y lo reinicia si se queda colgado (p. ej. la GPU de Apple).
+    El avance se guarda tras cada lote, así que reiniciar solo repite el lote en curso."""
+    import subprocess
+
+    intentos = 0
+    while True:
+        p = subprocess.Popen([sys.executable, "-u", "-m", "curvatura_ia.vectorizar", *args])
+        ultimo = ESTADO.stat().st_mtime if ESTADO.exists() else time.time()
+        visto = time.time()
+        while p.poll() is None:
+            time.sleep(30)
+            m = ESTADO.stat().st_mtime if ESTADO.exists() else 0
+            if m != ultimo:
+                ultimo, visto = m, time.time()
+            elif time.time() - visto > sin_avance:
+                print(f"   sin avance en {sin_avance // 60} min: se reinicia", flush=True)
+                p.kill()
+                p.wait()
+                break
+        if p.returncode == 0:
+            return 0
+        intentos += 1
+        if intentos > 20:
+            return 1
+
+
 def main() -> int:
     import numpy as np
 
     args = sys.argv[1:]
+    if "--vigilado" in args:
+        return vigilado([a for a in args if a != "--vigilado"])
     rehacer = "--rehacer" in args
     con_img = "--sin-imagenes" not in args
     solo_img = "--solo-imagenes" in args
@@ -332,7 +366,7 @@ def main() -> int:
         dt = time.time() - t0
         print(f"   {hechos}/{len(pend)} · {n_frag} fragmentos · {n_img} imágenes · {dt / 60:.1f} min", flush=True)
 
-    if "fragmentos" in con.table_names():
+    if "fragmentos" in tablas(con):
         t = con.open_table("fragmentos")
         try:
             t.create_fts_index("texto", replace=True)
@@ -344,7 +378,7 @@ def main() -> int:
             except Exception as exc:
                 print(f"   índice vectorial: {exc}", flush=True)
         print(f"Total: {t.count_rows()} fragmentos", flush=True)
-    if "imagenes" in con.table_names():
+    if "imagenes" in tablas(con):
         print(f"Total: {con.open_table('imagenes').count_rows()} imágenes", flush=True)
     return 0
 
