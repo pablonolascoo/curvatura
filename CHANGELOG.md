@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.2.0 · 2026-10-21
+
 ### Añadido
 - Valoraciones de 1 a 5 estrellas con identidad ORCID (Cloudflare Worker + D1).
 - Mención de honor para titulados (grado, máster, posgrado, doctorado) y profesionales del área. Verificación automática con afiliaciones validadas por la institución en ORCID; si no, documento revisado a mano y borrado tras la revisión.
