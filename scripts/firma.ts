@@ -69,9 +69,8 @@ if (import.meta.main) {
   const env = await identidad();
   if (process.argv.includes("--github")) {
     // Se imprimen los comandos, no los valores: cada uno lee el archivo local al ejecutarse.
-    console.log(`gh secret set APPLE_CERTIFICATE --repo pablonolascoo/curvatura < <(base64 -i "${p12}")`);
-    console.log(`gh secret set APPLE_CERTIFICATE_PASSWORD --repo pablonolascoo/curvatura < "${pass}"`);
-    console.log(`gh secret set APPLE_SIGNING_IDENTITY --repo pablonolascoo/curvatura --body "${NOMBRE}"`);
+    // En GitHub solo van las claves del actualizador. La identidad fija no es de confianza para
+    // Tauri en CI; allí macOS se firma con Developer ID cuando exista (secretos APPLE_*).
     console.log(`gh secret set TAURI_SIGNING_PRIVATE_KEY --repo pablonolascoo/curvatura < "${updKey}"`);
     console.log(`gh secret set TAURI_SIGNING_PRIVATE_KEY_PASSWORD --repo pablonolascoo/curvatura < "${updPass}"`);
   } else {

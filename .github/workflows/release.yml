@@ -47,8 +47,9 @@ jobs:
           # Firma de las actualizaciones (obligatoria): `bun scripts/firma.ts --github` da los comandos.
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-          # macOS: identidad fija (o Developer ID cuando exista). Con APPLE_ID, APPLE_PASSWORD y
-          # APPLE_TEAM_ID además se notariza y Gatekeeper deja de avisar.
+          # macOS: solo con certificado «Developer ID» (de pago, Apple Developer Program). Sin estos
+          # secretos se firma ad hoc. Con APPLE_ID, APPLE_PASSWORD y APPLE_TEAM_ID además se notariza
+          # y Gatekeeper deja de avisar. La firma fija local está en scripts/app-local.ts.
           APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
           APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
           APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
