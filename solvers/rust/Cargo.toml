@@ -30,3 +30,8 @@ panic = "abort"
 
 [dev-dependencies]
 rayon = "1"
+
+# El banco de rendimiento compara CPU en paralelo y GPU: solo se compila con esas opciones.
+[[example]]
+name = "rendimiento"
+required-features = ["gpu"]
