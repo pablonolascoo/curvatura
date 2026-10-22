@@ -188,7 +188,7 @@
     "title": "Bibliothèque",
     "body": "Chaque article avec sa source, sa licence et sa traduction. Texte intégral lorsque la licence le permet.",
     "cta": "Ouvrir la bibliothèque",
-    "search": "Rechercher par titre, auteur ou année…",
+    "search": "Cherchez par thème, titre, auteur, année ou une phrase du texte…",
     "all": "Tous",
     "subsystem": "Sous-système",
     "kind": "Type",
@@ -227,7 +227,16 @@
     "byCountry": "Par pays",
     "translated": "Titres traduits",
     "aiTitle": "Titre traduit par IA",
-    "ownSummary": "Résumé propre généré par IA à partir de sources publiques : peut contenir des erreurs."
+    "ownSummary": "Résumé propre généré par IA à partir de sources publiques : peut contenir des erreurs.",
+    "aiSearch": "Recherche par IA",
+    "aiTag": "IA · vecteurs sémantiques",
+    "aiBody": "Cherchez à la fois dans les titres, les résumés et le texte intégral. La carte place les {n} articles selon leur sens, calculé par IA (multilingual-e5-large) : proche veut dire semblable. Pendant une recherche, la caméra rejoint la zone des résultats et marque en bleu les articles liés par l'IA.",
+    "mapLabel": "Carte 3D de similarité des articles de la bibliothèque",
+    "groups": "groupes",
+    "related": "Liés par l'IA",
+    "fulltextHits": "Dans le texte intégral",
+    "fulltextLoading": "Préparation de la recherche dans le texte intégral",
+    "mapReset": "Revenir à la vue d'ensemble"
   },
   "notes": {
     "title": "Notes",

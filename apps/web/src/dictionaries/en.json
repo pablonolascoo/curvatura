@@ -188,7 +188,7 @@
     "title": "Library",
     "body": "Every paper with its source, its licence and its translation. Full text when the licence allows it.",
     "cta": "Open the library",
-    "search": "Search by title, author or year…",
+    "search": "Search by topic, title, author, year or a phrase from the text…",
     "all": "All",
     "subsystem": "Subsystem",
     "kind": "Type",
@@ -227,7 +227,16 @@
     "byCountry": "By country",
     "translated": "Translated titles",
     "aiTitle": "Title translated with AI",
-    "ownSummary": "Our own AI-generated summary from public sources: may contain errors."
+    "ownSummary": "Our own AI-generated summary from public sources: may contain errors.",
+    "aiSearch": "AI search",
+    "aiTag": "AI · semantic vectors",
+    "aiBody": "Search titles, abstracts and full text at once. The map places all {n} papers by meaning, computed with AI (multilingual-e5-large): close means alike. When you search, the camera travels to the results and marks AI-related papers in blue.",
+    "mapLabel": "3D similarity map of the papers in the library",
+    "groups": "groups",
+    "related": "Related by AI",
+    "fulltextHits": "In the full text",
+    "fulltextLoading": "Preparing full-text search",
+    "mapReset": "Back to overview"
   },
   "notes": {
     "title": "Notes",

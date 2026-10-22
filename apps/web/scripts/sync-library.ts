@@ -96,6 +96,29 @@ for (const [k, v] of shards) writeFileSync(path.join(PUB, "library/p", `${k}.jso
 writeFileSync(path.join(PUB, "library/index.json"), JSON.stringify(rows));
 writeFileSync(path.join(PUB, "library/static-ids.json"), JSON.stringify(staticIds));
 
+// Mapa semántico 3D (ia/curvatura_ia/mapa.py): versión compacta para el navegador, con vecinos por índice.
+const mapaFile = path.join(REPO, "library/index/mapa.json");
+if (existsSync(mapaFile)) {
+  const m = JSON.parse(readFileSync(mapaFile, "utf8")) as {
+    modelo: string; grupos: { id: number; nombre: string; n: number }[];
+    puntos: { id: string; x: number; y: number; z: number; g: number; v: string[] }[];
+  };
+  const nombresFile = path.join(REPO, "library/index/mapa-grupos.json");
+  const curados = existsSync(nombresFile)
+    ? (JSON.parse(readFileSync(nombresFile, "utf8")).grupos as { id: number; clave: string; es: string; en: string; fr: string }[])
+    : [];
+  const idx = new Map(m.puntos.map((pt, i) => [pt.id, i]));
+  const grupos = m.grupos.map((g) => {
+    const c = curados.find((x) => x.id === g.id && x.clave === g.nombre);
+    return { id: g.id, n: g.n, es: c?.es ?? g.nombre, en: c?.en ?? g.nombre, fr: c?.fr ?? g.nombre };
+  });
+  writeFileSync(path.join(PUB, "library/mapa.json"), JSON.stringify({
+    modelo: m.modelo, grupos, ids: m.puntos.map((pt) => pt.id),
+    p: m.puntos.flatMap((pt) => [pt.x, pt.y, pt.z]), g: m.puntos.map((pt) => pt.g),
+    v: m.puntos.map((pt) => pt.v.map((id) => idx.get(id) ?? -1).filter((i) => i >= 0)),
+  }));
+}
+
 const chunksFile = path.join(REPO, "library/index/chunks.jsonl");
 mkdirSync(path.join(PUB, "search"), { recursive: true });
 if (existsSync(chunksFile)) {

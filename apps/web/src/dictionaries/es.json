@@ -188,7 +188,7 @@
     "title": "Biblioteca",
     "body": "Cada paper con su fuente, su licencia y su traducción. Texto completo cuando la licencia lo permite.",
     "cta": "Abrir la biblioteca",
-    "search": "Buscar por título, autor o año…",
+    "search": "Busca por tema, título, autor, año o una frase del texto…",
     "all": "Todos",
     "subsystem": "Subsistema",
     "kind": "Tipo",
@@ -227,7 +227,16 @@
     "byCountry": "Por país",
     "translated": "Títulos traducidos",
     "aiTitle": "Título traducido con IA",
-    "ownSummary": "Resumen propio generado con IA a partir de fuentes públicas: puede contener errores."
+    "ownSummary": "Resumen propio generado con IA a partir de fuentes públicas: puede contener errores.",
+    "aiSearch": "Buscador con IA",
+    "aiTag": "IA · vectores semánticos",
+    "aiBody": "Busca a la vez en títulos, resúmenes y el texto completo. El mapa coloca los {n} papers según su significado, calculado con IA (multilingual-e5-large): cerca quiere decir parecido. Al buscar, la cámara viaja a la zona de los resultados y marca en azul los relacionados por IA.",
+    "mapLabel": "Mapa 3D de similitud entre los papers de la biblioteca",
+    "groups": "grupos",
+    "related": "Relacionados por IA",
+    "fulltextHits": "En el texto completo",
+    "fulltextLoading": "Preparando la búsqueda en el texto completo",
+    "mapReset": "Volver a la vista general"
   },
   "notes": {
     "title": "Notas",
