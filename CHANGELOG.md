@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.3.0 · 2026-10-22
+
 ### Añadido
 - Núcleo Rust en la GPU con wgpu (Metal, DirectX 12, Vulkan): 4.000 millones de puntos/s de cálculo en un M4; la app de escritorio la usa para mapas grandes, con transferencia binaria, y muestra el motor usado.
 - Laboratorio: barridos de hasta 8 variables y miles de millones de puntos en la GPU de cualquier equipo (SymPy → WGSL) o en todos los núcleos con numba; herramienta `lab_barrido`.
