@@ -22,13 +22,13 @@ Curvatura réunit trois choses :
 |---|---|
 | Bibliothèque | 3362 articles d'arXiv, d'OpenAlex et de sources chinoises. Tous les titres traduits (es, en, fr). 2109 avec résumé traduit. Pays des auteurs pour 2645. |
 | Équations vivantes | 20 équations clés animées, chaque symbole expliqué, calcul en direct. |
-| Laboratoire | Chercheur IA avec votre clé Anthropic : il cherche dans la bibliothèque, ouvre les articles, calcule avec les équations du projet et rend un verdict. Tableau des 14 obstacles. Noyau Rust en WebAssembly, Python (Pyodide) et moteur de formules, dans le navigateur. |
+| Laboratoire | Chercheur IA : il utilise le CLI que vous avez (Claude Code, Codex ou Cursor), un modèle local (Ollama, ou dans le navigateur avec WebGPU et WebAssembly) ou, en dernier recours, une clé Anthropic ou OpenAI. Il cherche dans la bibliothèque et les brevets, calcule avec les équations du projet et rend un verdict. Tableau des 14 obstacles. Noyau Rust en WebAssembly, Python (Pyodide) et moteur de formules, dans le navigateur. |
 | Application de bureau | macOS, Windows et Linux, toujours à la même version. Se met à jour seule et inclut Python natif. |
 | Recherche et RAG | 10205 fragments indexés avec citations exactes. Serveur MCP pour Claude. |
 | Évaluations | De 1 à 5 étoiles avec identité ORCID. Mention d'honneur pour les diplômés et professionnels vérifiés. |
 | IA de recherche | RAG multimodal sur le texte intégral de chaque article (sections, équations, figures, références) et les brevets. Agent avec sous-agents récursifs, citations exactes et remue-méninges multi-agents. Fonctionne en local. |
 | Laboratoire de formules | Identités à 50 chiffres, unités, bornes rigoureuses, preuves avec Z3, évaluation avec numba et tenseurs depuis la métrique, sur n'importe quel ordinateur. |
-| Brevets | Veille quotidienne des brevets liés (propulsion sans propergol, inertie, gravité, Casimir). Index dans `library/patentes/`. |
+| Brevets | Veille quotidienne des brevets liés (propulsion sans propergol, inertie, gravité, Casimir), du plus récent au plus ancien : office, pays de priorité, inventeurs, titulaire, statut juridique, CPC, résumé officiel et lien. Dans la bibliothèque, sur la page d'accueil et dans `library/patentes/`. |
 | Plan | Phases et critères de sortie dans [`ROADMAP.md`](ROADMAP.md). Obstacles dans [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Les traductions des titres et des résumés sont faites par IA et peuvent contenir des erreurs. Le site l'indique sur chaque fiche.

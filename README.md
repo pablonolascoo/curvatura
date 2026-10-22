@@ -22,13 +22,13 @@ Curvatura reúne en un solo sitio tres cosas:
 |---|---|
 | Biblioteca | 3362 papers de arXiv, OpenAlex y fuentes chinas. Todos con título traducido (es, en, fr). 2109 con resumen traducido. Países de los autores en 2645. |
 | Ecuaciones vivas | 20 ecuaciones clave animadas, con símbolos explicados y cálculo en directo. |
-| Laboratorio | Investigador IA con tu clave de Anthropic: busca en la biblioteca, abre papers, calcula con las ecuaciones del proyecto y da un veredicto. Tablero con los 14 obstáculos. Núcleo Rust en WebAssembly, Python (Pyodide) y motor de fórmulas, en el navegador. |
+| Laboratorio | Investigador IA: usa el CLI que tengas (Claude Code, Codex o Cursor), un modelo local (Ollama, o en el navegador con WebGPU y WebAssembly) o, en último lugar, una clave de Anthropic u OpenAI. Busca en la biblioteca y las patentes, calcula con las ecuaciones del proyecto y da un veredicto. Tablero con los 14 obstáculos. Núcleo Rust en WebAssembly, Python (Pyodide) y motor de fórmulas, en el navegador. |
 | App de escritorio | macOS, Windows y Linux, siempre en la misma versión. Se actualiza sola y trae Python nativo. |
 | Buscador y RAG | 10205 fragmentos indexados con citas exactas. Servidor MCP para Claude. |
 | Valoraciones | Estrellas de 1 a 5 con identidad ORCID. Mención de honor para titulados y profesionales verificados. |
 | IA de investigación | RAG multimodal sobre el texto completo de cada paper (secciones, ecuaciones, figuras, referencias) y las patentes. Agente con subagentes recursivos, citas exactas y lluvia de ideas multiagente. Funciona en local. |
 | Laboratorio de fórmulas | Igualdades a 50 dígitos, unidades, cotas rigurosas, demostraciones con Z3, evaluación con numba y tensores desde la métrica, en cualquier ordenador. |
-| Patentes | Vigilancia diaria de patentes relacionadas (propulsión sin propelente, inercia, gravedad, Casimir). Índice en `library/patentes/`. |
+| Patentes | Vigilancia diaria de patentes relacionadas (propulsión sin propelente, inercia, gravedad, Casimir), de la más reciente a la más antigua: oficina, país de prioridad, inventores, titular, estado legal, CPC, resumen oficial y enlace. En la biblioteca, la portada y `library/patentes/`. |
 | Plan | Fases y criterios de salida en [`ROADMAP.md`](ROADMAP.md). Obstáculos en [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Las traducciones de títulos y resúmenes están hechas con IA y pueden contener errores. La web lo indica en cada ficha.

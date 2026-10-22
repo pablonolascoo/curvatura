@@ -4,6 +4,13 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+### Añadido
+- Investigador IA con varios motores, por orden de preferencia: el CLI instalado en el ordenador (Claude Code, Codex o Cursor, con su propia sesión y en directo), un modelo local (Ollama, que la app arranca y para, con el modelo recomendado según la memoria; o en el navegador con WebGPU y WebAssembly) y, en último lugar, una clave de Anthropic u OpenAI.
+- Patentes en la biblioteca y en la portada: oficina, país de prioridad, inventores, titular, estado legal, CPC, resumen oficial y enlaces a Google Patents y Espacenet, con búsqueda y filtros. La IA también busca en ellas.
+
+### Cambiado
+- Fuera la opción «Web» del investigador: cada motor usa sus propias herramientas.
+
 ## Alcubierre v0.4.0 · 2026-10-22
 
 ### Añadido

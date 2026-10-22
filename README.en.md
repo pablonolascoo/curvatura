@@ -22,13 +22,13 @@ Curvatura brings three things together:
 |---|---|
 | Library | 3362 papers from arXiv, OpenAlex and Chinese sources. Every title translated (es, en, fr). 2109 with translated abstracts. Author countries on 2645. |
 | Live equations | 20 key equations, animated, with every symbol explained and live computation. |
-| Lab | AI researcher with your own Anthropic key: searches the library, opens papers, computes with the project's equations and gives a verdict. Board with the 14 obstacles. Rust core in WebAssembly, Python (Pyodide) and formula engine, in the browser. |
+| Lab | AI researcher: uses whichever CLI you have (Claude Code, Codex or Cursor), a local model (Ollama, or in the browser with WebGPU and WebAssembly) or, as a last resort, an Anthropic or OpenAI key. Searches the library and patents, computes with the project's equations and gives a verdict. Board with the 14 obstacles. Rust core in WebAssembly, Python (Pyodide) and formula engine, in the browser. |
 | Desktop app | macOS, Windows and Linux, always on the same version. Updates itself and ships native Python. |
 | Search and RAG | 10205 chunks indexed with exact citations. MCP server for Claude. |
 | Ratings | 1 to 5 stars with ORCID identity. Honour mention for verified graduates and professionals. |
 | Research AI | Multimodal RAG over the full text of every paper (sections, equations, figures, references) and patents. Agent with recursive sub-agents, exact citations and multi-agent brainstorming. Runs locally. |
 | Formula lab | Identities to 50 digits, units, rigorous bounds, Z3 proofs, numba evaluation and tensors from the metric, on any computer. |
-| Patents | Daily watch of related patents (propellantless propulsion, inertia, gravity, Casimir). Index in `library/patentes/`. |
+| Patents | Daily watch of related patents (propellantless propulsion, inertia, gravity, Casimir), newest first: office, priority country, inventors, holder, legal status, CPC, official abstract and link. In the library, on the home page and in `library/patentes/`. |
 | Plan | Phases and exit criteria in [`ROADMAP.md`](ROADMAP.md). Obstacles in [`docs/obstaculos.md`](docs/obstaculos.md). |
 
 Title and abstract translations are made with AI and may contain errors. The website says so on every paper.
