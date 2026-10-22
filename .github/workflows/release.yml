@@ -47,21 +47,36 @@ jobs:
       - name: uv (Python nativo) para esta plataforma
         shell: bash
         run: bash scripts/fetch-uv.sh ${{ matrix.triple }}
+      # Firma de Apple solo si hay certificado «Developer ID» (de pago). Si el secreto no existe, GitHub
+      # lo pasa vacío y Tauri intentaría importarlo: aquí solo se exporta cuando tiene contenido.
+      # Sin él la app se firma ad hoc; con APPLE_ID, APPLE_PASSWORD y APPLE_TEAM_ID además se notariza.
+      - name: Firma de Apple (si hay certificado)
+        if: matrix.platform == 'macos-latest'
+        shell: bash
+        env:
+          C: ${{ secrets.APPLE_CERTIFICATE }}
+          CP: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          SI: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          AI: ${{ secrets.APPLE_ID }}
+          AP: ${{ secrets.APPLE_PASSWORD }}
+          AT: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          if [ -n "$C" ]; then
+            {
+              echo "APPLE_CERTIFICATE<<FIN_CERT"; echo "$C"; echo "FIN_CERT"
+              echo "APPLE_CERTIFICATE_PASSWORD=$CP"
+              echo "APPLE_SIGNING_IDENTITY=$SI"
+              if [ -n "$AI" ]; then echo "APPLE_ID=$AI"; echo "APPLE_PASSWORD=$AP"; echo "APPLE_TEAM_ID=$AT"; fi
+            } >> "$GITHUB_ENV"
+          else
+            echo "Sin certificado de Apple: firma ad hoc."
+          fi
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Firma de las actualizaciones (obligatoria): `bun scripts/firma.ts --github` da los comandos.
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-          # macOS: solo con certificado «Developer ID» (de pago, Apple Developer Program). Sin estos
-          # secretos se firma ad hoc. Con APPLE_ID, APPLE_PASSWORD y APPLE_TEAM_ID además se notariza
-          # y Gatekeeper deja de avisar. La firma fija local está en scripts/app-local.ts.
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
         with:
           projectPath: apps/desktop
           tauriScript: bunx tauri

@@ -1,0 +1,8 @@
+# Texto siempre con saltos de línea LF en todas las plataformas (Windows incluido): los lectores
+# de notas, YAML y Markdown esperan \n. Los binarios se detectan solos.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.wasm binary
+*.ico binary
+*.icns binary

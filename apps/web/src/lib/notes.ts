@@ -9,7 +9,8 @@ const ROOT = path.resolve(process.cwd(), "content/notas");
 export type Note = { slug: string; lang: Locale; title: string; date: string; summary: string; body: string };
 
 function parse(file: string, slug: string, lang: Locale): Note {
-  const src = readFileSync(file, "utf8");
+  // Saltos de línea de Windows (CRLF) a \n: en Windows git puede entregar los .md así.
+  const src = readFileSync(file, "utf8").replace(/\r\n?/g, "\n");
   const m = /^---\n([\s\S]+?)\n---\n([\s\S]*)$/.exec(src);
   if (!m) throw new Error(`Nota sin cabecera: ${file}`);
   const fm = YAML.parse(m[1]) as { title: string; date: string; summary: string };
