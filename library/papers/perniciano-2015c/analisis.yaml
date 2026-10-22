@@ -1,15 +1,19 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, se pregunta si todas las componentes del tensor de energía-momento del warp de Alcubierre pueden ser positivas."
-tipo: propuesta
+aportacion: "Presenta una solución tipo Alcubierre en la que las componentes del tensor energía-impulso son positivas y se reducen en un valor arbitrario."
+tipo: solucion
 supuestos:
-  - "Según el título, se examina el signo de las componentes del tensor de energía-momento del warp de Alcubierre."
+  - "Solución de la relatividad general de tipo Alcubierre."
 resultados:
-  - "No se pueden extraer resultados: el contexto solo trae el título, planteado como pregunta."
+  - "Afirma viajar a velocidad superlumínica con componentes del tensor energía-impulso positivas."
+  - "Afirma poder reducirlas en un valor arbitrario."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "Es un preprint de viXra, sin revisión por pares conocida en el contexto."
-obstaculos: [1, 7]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "El resumen no detalla el método."
+  - "Es un preprint de viXra, sin revisión por pares."
+obstaculos: [1, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
 ideas_abiertas:
-  - "Leer el preprint y comprobar sus cálculos con el tensor de Einstein de la métrica."
+  - "Comprobar la afirmación con las condiciones de energía en el texto completo."

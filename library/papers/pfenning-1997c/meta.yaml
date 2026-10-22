@@ -1,0 +1,21 @@
+id: pfenning-1997c
+title: "The Unphysical Nature of ‘Warp Drive"
+authors:
+  - "Michael J. Pfenning"
+  - "Lawrence H. Ford"
+year: 1997
+venue: "preprint"
+doi: null
+arxiv: null
+source: https://openalex.org/W3105510267
+language: en
+subsystems: [G]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 97
+cites_seeds: [alcubierre-1994, everett-roman-1997, ford-roman-1996]
+relevance: alta

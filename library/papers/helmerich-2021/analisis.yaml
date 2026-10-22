@@ -1,15 +1,18 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, optimiza numéricamente geometrías de warp drive."
+aportacion: "Optimiza numéricamente geometrías warp: calcula el tensor energía-impulso de una métrica y la actualiza según un parámetro de aptitud."
 tipo: simulacion
 supuestos:
-  - "No se pueden determinar: solo se dispone del título."
+  - "La métrica no necesita fórmula analítica."
+  - "Un parámetro de aptitud mide la eficiencia para alcanzar cierta velocidad."
 resultados:
-  - "No se pueden determinar: no hay resumen ni texto disponible."
+  - "Permite aplicar técnicas de optimización muy variadas."
+  - "Da información sobre la distribución de densidad de energía, momento, cizalla y presión en la burbuja."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
-  - "Todo el contenido debe verificarse con el paper original."
-obstaculos: [13]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+obstaculos: [12, 13]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
 ideas_abiertas:
-  - "Completar la ficha cuando se disponga del resumen o del texto completo."
+  - "Usar el método con otras funciones de aptitud."

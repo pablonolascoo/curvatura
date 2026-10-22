@@ -6,6 +6,55 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03G7/00, F03H99/00, H02N11/00]
   relevancia: 6
   url: https://patents.google.com/patent/BR102021001266A2/en
+- numero: BR102022000463A2
+  titulo: "PROPULSION AND HANDLING SYSTEM WITH POWER BEAMS"
+  fecha: "2022-01-10"
+  titular: "Alexandre Tiago Baptista De Alves Martins"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, H05H1/00, H05H1/24, H05H1/47]
+  relevancia: 4
+  url: https://patents.google.com/patent/BR102022000463A2/en
+- numero: CA2465994C
+  titulo: "Apparatus for the measurement of gravitational gradients"
+  fecha: "2011-09-20"
+  titular: "Gravitec Instruments Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/CA2465994C/en
+- numero: CA2537129A1
+  titulo: "Energy capture and conversion system"
+  fecha: "2005-12-21"
+  titular: "Individual"
+  cpc: [H02J50/00, H02J50/10, H02J50/12, H02J50/70, H02N11/00, H02N11/002, Y02E10/00, Y02E10/50]
+  relevancia: 5
+  url: https://patents.google.com/patent/CA2537129A1/en
+- numero: CA2612990A1
+  titulo: "Superconducting gravity gradiometer and heat switch"
+  fecha: "2007-08-17"
+  titular: "Technological Resources Pty Ltd"
+  cpc: [G01V7/00, G01V7/16, H10N60/00, H10N60/30, H10N60/35]
+  relevancia: 4
+  url: https://patents.google.com/patent/CA2612990A1/en
+- numero: CA2638667A1
+  titulo: "Method and apparatus for spacecraft propulsion with a field shield protection"
+  fecha: "2008-08-26"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/006, H05H1/00, H05H1/54]
+  relevancia: 9
+  url: https://patents.google.com/patent/CA2638667A1/en
+- numero: CA3090882A1
+  titulo: "Electromagnetic energy momentum thruster using tapered cavity resonator evanescent modes"
+  fecha: "2019-02-08"
+  titular: "Prime Lightworks Inc"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, B64G1/66, F03H1/00, F03H1/0081]
+  relevancia: 4
+  url: https://patents.google.com/patent/CA3090882A1/en
+- numero: CN100338482C
+  titulo: "Gravitational wave generator"
+  fecha: "2007-09-19"
+  titular: "Gravbo GmbH"
+  cpc: [G21K1/00, H02N11/00, H02N11/006]
+  relevancia: 6
+  url: https://patents.google.com/patent/CN100338482C/en
 - numero: CN101512146A
   titulo: "Method and device for generating thrust by inertial mass change"
   fecha: "2007-06-15"
@@ -13,6 +62,55 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03G7/00, F03G7/092, F03H99/00]
   relevancia: 5
   url: https://patents.google.com/patent/CN101512146A/en
+- numero: CN102434414A
+  titulo: "Magnetic nozzle of variable specific impulse magnetic plasma rocket"
+  fecha: "2011-11-02"
+  titular: "Beijing Institute of Technology"
+  cpc: [F03H1/00, F03H1/0093]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN102434414A/en
+- numero: CN102866431B
+  titulo: "Measure the low-temperature superconducting device of gravity"
+  fecha: "2015-09-09"
+  titular: "Institute of Electrical Engineering"
+  cpc: [G01R33/00, G01R33/12, G01R33/1238, G01R33/1261, G01V7/00, G01V7/02]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN102866431B/en
+- numero: CN103492269A
+  titulo: "Electromagnetic thruster"
+  fecha: "2012-03-22"
+  titular: "Cannae LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F02K9/00, F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/CN103492269A/en
+- numero: CN104114862B
+  titulo: "Plasma thruster and method for generating plasma propulsion thrust"
+  fecha: "2017-11-21"
+  titular: "Office National d&#39;Études et de Recherches Aérospatiales"
+  cpc: [F03H1/00, F03H1/0081, H01J27/00, H01J27/02, H01J27/16, H01J27/18, H05H1/00, H05H1/24]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN104114862B/en
+- numero: CN105781921B
+  titulo: "A kind of electromagnetic push device cavity based on periodic structure"
+  fecha: "2018-06-19"
+  titular: "China Academy of Space Technology"
+  cpc: [F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN105781921B/en
+- numero: CN110821771A
+  titulo: "Field propulsion device"
+  fecha: "2019-12-22"
+  titular: "Individual"
+  cpc: [F03H1/00, F03H1/0081]
+  relevancia: 6
+  url: https://patents.google.com/patent/CN110821771A/en
+- numero: CN114233593B
+  titulo: "Improved design's no matter decreases electromagnetic propulsion system"
+  fecha: "2024-05-14"
+  titular: "China Academy of Space Technology"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, F03H1/00, F03H1/0081]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN114233593B/en
 - numero: CN115407417A
   titulo: "Similar light gravitational wave detector"
   fecha: "2022-08-17"
@@ -27,6 +125,13 @@
   cpc: [G01V7/00]
   relevancia: 5
   url: https://patents.google.com/patent/CN115407417B/en
+- numero: CN116828682A
+  titulo: "Small-size high-power spiral wave plasma source device and magnetic plasma engine"
+  fecha: "2023-06-13"
+  titular: "Xian Aerospace Propulsion Institute"
+  cpc: [F03H1/00, F03H1/0006, F03H1/0081, H05H1/00, H05H1/24, H05H1/26, H05H1/32, H05H1/34]
+  relevancia: 4
+  url: https://patents.google.com/patent/CN116828682A/en
 - numero: CN1488150A
   titulo: "Gravitational wave generator using submicroscopic excitable elements"
   fecha: "2001-12-26"
@@ -34,6 +139,41 @@
   cpc: [G21K1/00, H02K7/00, H02K7/02, H02K7/025, H02K7/18, H02K7/1807, H02K7/1823, H02N11/00]
   relevancia: 7
   url: https://patents.google.com/patent/CN1488150A/en
+- numero: CN1654978A
+  titulo: "gravitational wave generator"
+  fecha: "2001-07-13"
+  titular: "Individual"
+  cpc: [G21K1/00, H02N11/00, H02N11/006]
+  relevancia: 6
+  url: https://patents.google.com/patent/CN1654978A/en
+- numero: DE102010052353A1
+  titulo: "Device for generating gravitational waves i.e. electromagnetic waves, has module for generating plasma to move ions of plasma in high-frequency vibrations, where ions are stimulated to high frequency vibrations by electric field"
+  fecha: "2010-11-25"
+  titular: "Individual"
+  cpc: [F03H99/00, H05H3/00, H05H3/04]
+  relevancia: 6
+  url: https://patents.google.com/patent/DE102010052353A1/en
+- numero: DE102010063452A1
+  titulo: "Cooled system, which is exposed to hot gas flow, comprises wall and a cooling device integrated at least partially in the wall, which is made of a porous material in a partial region and is cooled by transpiration and/or effusion cooling"
+  fecha: "2010-12-17"
+  titular: "Deutsches Zentrum für Luft- und Raumfahrt eV"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/401, B64G1/52, B64G1/58, B64G1/62, F02K9/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/DE102010063452A1/en
+- numero: DE102010063452B4
+  titulo: "A cooled system exposed to hot gas flow, a drive device, a reentrant body, a method of operating a hot gas flow charged system, and a method of manufacturing a refrigerated system"
+  fecha: "2017-07-13"
+  titular: "Deutsches Zentrum für Luft- und Raumfahrt eV"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/401, B64G1/52, B64G1/58, B64G1/62, F02K9/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/DE102010063452B4/en
+- numero: DE102017006271A1
+  titulo: "purely electric room drive"
+  fecha: "2017-07-01"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/DE102017006271A1/en
 - numero: DE112022000319T5
   titulo: "DRIVE SYSTEM, INERTIAL DAMPER AND FORCE FIELD GENERATOR"
   fecha: "2022-01-18"
@@ -41,6 +181,27 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02N11/00, H02N11/006]
   relevancia: 6
   url: https://patents.google.com/patent/DE112022000319T5/en
+- numero: DE19948229C1
+  titulo: "High frequency ion source"
+  fecha: "2001-05-03"
+  titular: "DaimlerChrysler AG"
+  cpc: [F03H1/00, F03H1/0037, F03H1/0043, H01J27/00, H01J27/02, H01J27/16, H05H1/00, H05H1/54]
+  relevancia: 4
+  url: https://patents.google.com/patent/DE19948229C1/en
+- numero: DE202010015800U1
+  titulo: "Device for generating gravitational waves"
+  fecha: "2010-11-25"
+  titular: "Individual"
+  cpc: [F03H99/00, H05H1/00, H05H1/24, H05H1/46]
+  relevancia: 5
+  url: https://patents.google.com/patent/DE202010015800U1/en
+- numero: EP0784802B1
+  titulo: "Apparatus for the measurement of gravitational fields"
+  fecha: "1999-08-04"
+  titular: "Gravitec Instruments Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/EP0784802B1/en
 - numero: EP2041432A1
   titulo: "Method and apparatus to generate thrust by inertial mass variance"
   fecha: "2007-06-15"
@@ -55,6 +216,34 @@
   cpc: [G01V7/00]
   relevancia: 6
   url: https://patents.google.com/patent/EP2233951A1/en
+- numero: EP2856629A1
+  titulo: "Interacting complex electric fields and static electric fields to effect motion"
+  fecha: "2013-06-28"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, H02N1/00, H02N1/002, H02N1/006]
+  relevancia: 5
+  url: https://patents.google.com/patent/EP2856629A1/en
+- numero: EP3038925A4
+  titulo: "Electrodeless plasma thruster"
+  fecha: "2014-08-27"
+  titular: "University of Michigan (System)"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/413, F03H1/00, F03H1/0006, F03H1/0018]
+  relevancia: 4
+  url: https://patents.google.com/patent/EP3038925A4/en
+- numero: EP3602760A1
+  titulo: "Magnetic field propulsion drive"
+  fecha: "2018-11-14"
+  titular: "Tomorrows Motion GmbH"
+  cpc: [B60L50/00, B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H01F7/00]
+  relevancia: 6
+  url: https://patents.google.com/patent/EP3602760A1/en
+- numero: EP3633191A1
+  titulo: "Reactionless propulsion based on quantum tunneling"
+  fecha: "2018-10-03"
+  titular: "Individual"
+  cpc: [F03G7/00, F03G7/10, F03G7/125, F03H99/00]
+  relevancia: 6
+  url: https://patents.google.com/patent/EP3633191A1/en
 - numero: EP4613652A1
   titulo: "Magnetic field propulsion unit"
   fecha: "2025-03-06"
@@ -62,6 +251,34 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02K33/00, H02K33/18]
   relevancia: 6
   url: https://patents.google.com/patent/EP4613652A1/en
+- numero: FR2906945A1
+  titulo: "Thrust producing device, has parallel straight electrical conductors placed in insulating medium, supplied by high frequency voltage that produces thrust on each conductors, in same direction and placed in superconductivity conditions"
+  fecha: "2006-10-10"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/006]
+  relevancia: 5
+  url: https://patents.google.com/patent/FR2906945A1/en
+- numero: GB201718189D0
+  titulo: "Superconducting microwave radiation thruster"
+  fecha: "2016-04-07"
+  titular: "SATELLITE PROPULSION RES Ltd, Satellite Propulsion Research Ltd"
+  cpc: [F03H3/00, F03H99/00, H05B6/00, H05B6/64]
+  relevancia: 4
+  url: https://patents.google.com/patent/GB201718189D0/en
+- numero: GB2312709A
+  titulo: "Flying craft with magnetic field/electric arc vertical thrust producing means"
+  fecha: "1996-04-30"
+  titular: "Individual"
+  cpc: [B64C39/00, B64C39/001, F03H1/00, F03H99/00, H02N11/00, H02N11/006]
+  relevancia: 4
+  url: https://patents.google.com/patent/GB2312709A/en
+- numero: GB2357908A
+  titulo: "High frequency ion source"
+  fecha: "2000-09-27"
+  titular: "Astrium GmbH"
+  cpc: [F03H1/00, F03H1/0037, F03H1/0043, H01J27/00, H01J27/02, H01J27/16, H05H1/00, H05H1/54]
+  relevancia: 4
+  url: https://patents.google.com/patent/GB2357908A/en
 - numero: GB2399601A
   titulo: "Thrust producing device using microwaves"
   fecha: "2003-03-13"
@@ -69,6 +286,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/GB2399601A/en
+- numero: GB2445180A
+  titulo: "An electromagnetic propellant-less thruster"
+  fecha: "2006-12-27"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, H02K99/00, H02K99/20]
+  relevancia: 7
+  url: https://patents.google.com/patent/GB2445180A/en
 - numero: GB2446028A
   titulo: "Portable generator for gravitomagnetic and gravitoelectric using superconductor"
   fecha: "2007-06-28"
@@ -90,6 +314,13 @@
   cpc: [F03H3/00, F03H99/00, H05B6/00, H05B6/64]
   relevancia: 4
   url: https://patents.google.com/patent/GB2537119B/en
+- numero: GB2554586A
+  titulo: "Superconducting microwave radiation thruster"
+  fecha: "2016-04-07"
+  titular: "Satellite Propulsion Research Ltd, SATELLITE PROPULSION RES Ltd"
+  cpc: [F03H3/00, F03H99/00, H05B6/00, H05B6/64]
+  relevancia: 4
+  url: https://patents.google.com/patent/GB2554586A/en
 - numero: GB2605757A
   titulo: "Vehicle and method for propelling vehicle"
   fecha: "2021-03-08"
@@ -97,6 +328,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03H99/00, G21K1/00, G21K1/08, G21K1/087]
   relevancia: 6
   url: https://patents.google.com/patent/GB2605757A/en
+- numero: GB2617522A
+  titulo: "Propulsion system, inertia attenuator and force field generator"
+  fecha: "2022-01-18"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02N11/00, H02N11/006]
+  relevancia: 6
+  url: https://patents.google.com/patent/GB2617522A/en
+- numero: IT202100015986A1
+  titulo: "Electromagnetic propulsion system for the movement of space vehicles without the emission of reaction mass."
+  fecha: "2021-06-18"
+  titular: "Emidio Laureti"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/IT202100015986A1/en
 - numero: IT202300020340A1
   titulo: "PROPELLANTLESS ELECTRIC PROPELLER BASED ON THE LORENTZ FORCE"
   fecha: "2023-10-02"
@@ -104,6 +349,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
   relevancia: 9
   url: https://patents.google.com/patent/IT202300020340A1/en
+- numero: JP2001159387A
+  titulo: "High frequency ion source and method of operating high frequency ion source"
+  fecha: "2000-10-05"
+  titular: "Astrium GmbH"
+  cpc: [F03H1/00, F03H1/0037, F03H1/0043, H01J27/00, H01J27/02, H01J27/16, H05H1/00, H05H1/54]
+  relevancia: 4
+  url: https://patents.google.com/patent/JP2001159387A/en
+- numero: JP2016503474A
+  titulo: "Method for generating high specific thrust and moderate thrust from fusion power rocket engine"
+  fecha: "2013-05-10"
+  titular: "Princeton University"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/408, F02K9/00, F02K9/08, F03H1/00, F03H1/0093]
+  relevancia: 4
+  url: https://patents.google.com/patent/JP2016503474A/en
 - numero: JP2019532874A
   titulo: "Ultra high frequency electromagnetic engine"
   fecha: "2017-09-25"
@@ -111,6 +370,34 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H3/00, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/JP2019532874A/en
+- numero: JP2936858B2
+  titulo: "Flying object propulsion device"
+  fecha: "1999-08-23"
+  titular: "Nippon Electric Co Ltd"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02N11/00, H02N11/006]
+  relevancia: 4
+  url: https://patents.google.com/patent/JP2936858B2/en
+- numero: JP7067719B2
+  titulo: "Ultra high frequency electromagnetic engine"
+  fecha: "2022-05-16"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H3/00, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/JP7067719B2/en
+- numero: JPH05296141A
+  titulo: "Electromagnetic energy propulsion engine"
+  fecha: "1990-12-28"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/006]
+  relevancia: 4
+  url: https://patents.google.com/patent/JPH05296141A/en
+- numero: KR101859333B1
+  titulo: "Radio Frequency thruster"
+  fecha: "2018-05-17"
+  titular: "(주) 써클웍스"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03H1/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/KR101859333B1/en
 - numero: KR102135889B1
   titulo: "Electromagnetic propulsion appratus"
   fecha: "2020-07-20"
@@ -118,6 +405,48 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, H02N11/00, H02N11/006]
   relevancia: 4
   url: https://patents.google.com/patent/KR102135889B1/en
+- numero: KR20250127079A
+  titulo: "Non-reactive space drive to increase the kinetic energy of directional plasma flow through magnetohydrodynamic flow suppression"
+  fecha: "2023-12-19"
+  titular: "랜델 엘. 밀스"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/413, F03H1/00, F03H1/0093, F03H99/00]
+  relevancia: 8
+  url: https://patents.google.com/patent/KR20250127079A/en
+- numero: MD1842B2
+  titulo: "Device and method of measuring the gravitational field"
+  fecha: "1995-10-04"
+  titular: "Gravitec Instr Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/MD1842B2/en
+- numero: MD1842C2
+  titulo: "Device and method of measuring the gravitational field"
+  fecha: "1995-10-04"
+  titular: "Грэвитик Инструментс Лимитид"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/MD1842C2/en
+- numero: RU2145429C1
+  titulo: "Device measuring gravitational fields"
+  fecha: "2000-02-10"
+  titular: "Грэвитек Инструментс Лимитед"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/RU2145429C1/en
+- numero: RU2385555C2
+  titulo: "Spherical levelling device"
+  fecha: "2010-03-27"
+  titular: "Стивен Бернс КЕССЛЕР"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, G21G1/00, H05K9/00, H05K9/0073, H05K9/0075]
+  relevancia: 6
+  url: https://patents.google.com/patent/RU2385555C2/en
+- numero: RU2610018C2
+  titulo: "Method for propulsion of bodies by casimir effect and / or its analogue"
+  fecha: "2017-02-07"
+  titular: "Александр Вениаминович Антипин"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03G7/00, F03G7/04, F03H99/00]
+  relevancia: 8
+  url: https://patents.google.com/patent/RU2610018C2/en
 - numero: US10006446B2
   titulo: "Electromagnetic segmented-capacitor propulsion system"
   fecha: "2018-06-26"
@@ -146,6 +475,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409]
   relevancia: 9
   url: https://patents.google.com/patent/US10144532B2/en
+- numero: US10302808B2
+  titulo: "Gravitational radiation communication system comprising a superconducting movable membrane between cylindrical superconducting cavities to provide parametric amplification"
+  fecha: "2019-05-28"
+  titular: "University of California, San Diego"
+  cpc: [G01V7/00, H01B12/00, H01B12/02, H01B12/06, H01B12/12, H01L39/08, H01L39/14, H01P7/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US10302808B2/en
 - numero: US10322827B2
   titulo: "High frequency gravitational wave generator"
   fecha: "2019-06-18"
@@ -153,6 +489,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, G01V7/00, G01V7/005]
   relevancia: 7
   url: https://patents.google.com/patent/US10322827B2/en
+- numero: US10442558B2
+  titulo: "Space vehicle with electric propulsion and solid propellant chemical propulsion"
+  fecha: "2019-10-15"
+  titular: "Herakles SA"
+  cpc: [B64G1/00, B64G1/10, B64G1/22, B64G1/24, B64G1/244, B64G1/26, B64G1/40, B64G1/403]
+  relevancia: 5
+  url: https://patents.google.com/patent/US10442558B2/en
 - numero: US10513353B2
   titulo: "Segmented current magnetic field propulsion system"
   fecha: "2019-12-24"
@@ -160,6 +503,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H99/00, H01F7/00]
   relevancia: 9
   url: https://patents.google.com/patent/US10513353B2/en
+- numero: US10618678B1
+  titulo: "Self-balancing solar array"
+  fecha: "2020-04-14"
+  titular: "Space Systems Loral LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/244, B64G1/26, B64G1/40, B64G1/405, B64G1/411]
+  relevancia: 4
+  url: https://patents.google.com/patent/US10618678B1/en
+- numero: US10760552B2
+  titulo: "Apparatus, systems and methods for establishing plasma and using plasma in a rotating magnetic field"
+  fecha: "2020-09-01"
+  titular: "MSNW LLC"
+  cpc: [F03H1/00, F03H1/0081, F03H1/0087]
+  relevancia: 4
+  url: https://patents.google.com/patent/US10760552B2/en
 - numero: US11358741B2
   titulo: "Ultra-high-frequency electromagnetic motor"
   fecha: "2022-06-14"
@@ -167,6 +524,34 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H3/00, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/US11358741B2/en
+- numero: US11374329B2
+  titulo: "Electromagnetic toroidal impeller"
+  fecha: "2022-06-28"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H01F6/00, H01F6/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/US11374329B2/en
+- numero: US11724831B2
+  titulo: "Electromagnetic spacetime continuum propulsion system for space travel"
+  fecha: "2023-08-15"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, B64G1/42, B64G1/421]
+  relevancia: 4
+  url: https://patents.google.com/patent/US11724831B2/en
+- numero: US11821367B2
+  titulo: "Engine producing thrust using an induction heating assembly to energize the fuel"
+  fecha: "2023-11-21"
+  titular: "Oqab Dietrich Induction Inc"
+  cpc: [B64G1/00, B64G1/002, B64G1/22, B64G1/40, B64G1/401, B64G1/402, B64G1/4022, B64G1/411]
+  relevancia: 4
+  url: https://patents.google.com/patent/US11821367B2/en
+- numero: US11961666
+  titulo: "Pulsed e-field propulsion system"
+  fecha: "2024-04-16"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, B64G1/42, B64G1/421]
+  relevancia: 8
+  url: https://patents.google.com/patent/US11961666/en
 - numero: US11961666B2
   titulo: "Pulsed e-field propulsion system"
   fecha: "2024-04-16"
@@ -174,6 +559,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, B64G1/42, B64G1/421]
   relevancia: 8
   url: https://patents.google.com/patent/US11961666B2/en
+- numero: US12160188B2
+  titulo: "System and method for producing electromagnetic thrust"
+  fecha: "2024-12-03"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, H02N11/00, H02N11/008]
+  relevancia: 4
+  url: https://patents.google.com/patent/US12160188B2/en
 - numero: US12283421B2
   titulo: "Methods and apparatuses for producing ultra-strong magnetic fields, and propulsion systems and methods utilizing planetary magnetic fields"
   fecha: "2025-04-22"
@@ -209,6 +601,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03G7/00, F03G7/10, F03G7/125, F03H99/00]
   relevancia: 6
   url: https://patents.google.com/patent/US20020085661A1/en
+- numero: US20030114313A1
+  titulo: "Technical and theoretical specifications for warp drive technology"
+  fecha: "2001-01-30"
+  titular: "Individual"
+  cpc: [F03H99/00, G21K1/00, H02N11/00, H02N11/006]
+  relevancia: 7
+  url: https://patents.google.com/patent/US20030114313A1/en
 - numero: US20030209637A1
   titulo: "Rotating electrostatic propulsion system"
   fecha: "2002-05-09"
@@ -216,6 +615,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411]
   relevancia: 7
   url: https://patents.google.com/patent/US20030209637A1/en
+- numero: US20030234318A1
+  titulo: "Unbalanced gyroscopic apparatus for producing unidirectional thrust"
+  fecha: "2002-06-20"
+  titular: "Individual"
+  cpc: [B64C29/00, B64C29/0008, B64C39/00, B64C39/001, B64G1/00, B64G1/22, B64G1/40, B64G1/409]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20030234318A1/en
 - numero: US20040056545A1
   titulo: "Gravitational wave imaging"
   fecha: "2003-05-02"
@@ -251,6 +657,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409]
   relevancia: 9
   url: https://patents.google.com/patent/US20040200925A1/en
+- numero: US20040231417A1
+  titulo: "Apparatus for the measurement of gravitational gradients"
+  fecha: "2002-09-27"
+  titular: "Gravitec Instruments Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20040231417A1/en
 - numero: US20050109879A1
   titulo: "Method and apparatus for quantum vortex implosion propulsion and species"
   fecha: "2003-11-21"
@@ -258,6 +671,13 @@
   cpc: [F03H99/00, G21K1/00]
   relevancia: 7
   url: https://patents.google.com/patent/US20050109879A1/en
+- numero: US20050210859A1
+  titulo: "Electro-thermal nanoparticle generator"
+  fecha: "2005-03-21"
+  titular: "Individual"
+  cpc: [B22F1/00, B22F1/16, B22F2999/00, B22F9/00, B22F9/02, B22F9/12, B23K10/00, B23K10/02]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20050210859A1/en
 - numero: US20050236909A1
   titulo: "Gravitational wave imaging"
   fecha: "2005-05-26"
@@ -265,6 +685,13 @@
   cpc: [G01V7/00]
   relevancia: 5
   url: https://patents.google.com/patent/US20050236909A1/en
+- numero: US20060038080A1
+  titulo: "Solar control method for spacecraft"
+  fecha: "2005-06-09"
+  titular: "EADS Astrium SAS"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/244, B64G1/28, B64G1/281, B64G1/285, B64G1/286]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20060038080A1/en
 - numero: US20060065789A1
   titulo: "Method for producing thrusts with 'Mach' effects manipulated by alternating electromagnetic fields"
   fecha: "2004-08-25"
@@ -300,6 +727,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03G7/00, F03G7/092, F03H99/00]
   relevancia: 5
   url: https://patents.google.com/patent/US20070295010A1/en
+- numero: US20080121037A1
+  titulo: "Gravity Gradiometer"
+  fecha: "2007-08-27"
+  titular: "Technological Resources Pty Ltd"
+  cpc: [G01V7/00, G01V7/16, H10N60/00, H10N60/30, H10N60/35]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20080121037A1/en
 - numero: US20080287301A1
   titulo: "Method and apparatus for generation of a gravitational force on a rotating body such as a superconductor"
   fecha: "2006-07-10"
@@ -314,6 +748,34 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, G21F1/00, G21F1/12, G21F1/125]
   relevancia: 6
   url: https://patents.google.com/patent/US20090139762A1/en
+- numero: US20090183951A1
+  titulo: "Intertial propulsion device"
+  fecha: "2008-01-22"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/28, B64G1/285, B64G1/40, B64G1/409, F03G7/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20090183951A1/en
+- numero: US20100180570A1
+  titulo: "Reactionless Motion (RM)"
+  fecha: "2009-01-17"
+  titular: "Individual"
+  cpc: [F03H99/00, H02K53/00]
+  relevancia: 6
+  url: https://patents.google.com/patent/US20100180570A1/en
+- numero: US20100201133A1
+  titulo: "Zero Point Energy Rotator Transducer and Associated Methods"
+  fecha: "2009-08-13"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/008]
+  relevancia: 9
+  url: https://patents.google.com/patent/US20100201133A1/en
+- numero: US20100326042A1
+  titulo: "Efficient RF Electromagnetic Propulsion System With Communications Capability"
+  fecha: "2009-11-04"
+  titular: "Individual"
+  cpc: [F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20100326042A1/en
 - numero: US20120092107A1
   titulo: "Propulsion system using the antigravity force of the vacuum and applications"
   fecha: "2010-06-22"
@@ -321,6 +783,20 @@
   cpc: [F03H99/00, G21F9/00, G21F9/02, G21F9/04, G21F9/06, G21F9/28, G21F9/30]
   relevancia: 6
   url: https://patents.google.com/patent/US20120092107A1/en
+- numero: US20130047578A1
+  titulo: "Unified chemical electric propulsion system"
+  fecha: "2011-08-31"
+  titular: "Space Systems Loral LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/402, B64G1/4026, F02K9/00, F02K9/72, F02K9/94]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20130047578A1/en
+- numero: US20130175895A1
+  titulo: "Systems and methods for providing  both electric power and mechanical power, using magnetics, in accordance with ece-theory"
+  fecha: "2012-11-13"
+  titular: "Galactican Group"
+  cpc: [H02K31/00, H02N11/00, H02N11/008]
+  relevancia: 6
+  url: https://patents.google.com/patent/US20130175895A1/en
 - numero: US20140013724A1
   titulo: "Electromagnetic thruster"
   fecha: "2012-03-22"
@@ -328,6 +804,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F02K9/00, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/US20140013724A1/en
+- numero: US20140345251A1
+  titulo: "Efficient Electromagnetic Propulsion System With Communications Capability"
+  fecha: "2013-05-15"
+  titular: "Individual"
+  cpc: [F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20140345251A1/en
 - numero: US20150022031A1
   titulo: "Electromagnetic Propulsion System"
   fecha: "2013-07-17"
@@ -335,6 +818,13 @@
   cpc: [B60L2200/00, B60L2200/26, B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/US20150022031A1/en
+- numero: US20160083119A1
+  titulo: "Thrust Augmentation Systems"
+  fecha: "2015-05-04"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/405, B64G1/411, B64G1/413, B64G1/42, B64G1/421]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20160083119A1/en
 - numero: US20160197543A1
   titulo: "Electromagnetic segmented-capacitor propulsion system"
   fecha: "2015-01-07"
@@ -377,6 +867,27 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H99/00, H01F7/00]
   relevancia: 9
   url: https://patents.google.com/patent/US20190168897A1/en
+- numero: US20190352023A1
+  titulo: "Force Cell to Provide Propellant-Less Propulsion for Linear Thrust Applications and Fuel-Less Torque for Rotary Applications Using External Casimir Forces"
+  fecha: "2019-03-07"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/405, B64G1/409, F03G7/00, F03G7/092, F03H99/00]
+  relevancia: 11
+  url: https://patents.google.com/patent/US20190352023A1/en
+- numero: US20200039666A1
+  titulo: "Ultra-high-frequency electromagnetic motor"
+  fecha: "2017-09-25"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H3/00, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20200039666A1/en
+- numero: US20200176159A1
+  titulo: "Electromagnetic toroidal impeller"
+  fecha: "2018-04-26"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H01F6/00, H01F6/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20200176159A1/en
 - numero: US20210009287A1
   titulo: "Magnetic Flux Engine for Spacecraft Propulsion"
   fecha: "2020-06-26"
@@ -398,6 +909,27 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H99/00, H02J50/00]
   relevancia: 6
   url: https://patents.google.com/patent/US20220017240A1/en
+- numero: US20220037971A1
+  titulo: "Magnetodynamic propulsion system and method"
+  fecha: "2020-07-28"
+  titular: "Individual"
+  cpc: [B60K1/00, B63H21/00, B63H21/12, B63H21/17, B64D33/00, B64G1/00, B64G1/22, B64G1/24]
+  relevancia: 5
+  url: https://patents.google.com/patent/US20220037971A1/en
+- numero: US20220153455A1
+  titulo: "Bi-directional wave plasma thruster for spacecraft"
+  fecha: "2021-06-10"
+  titular: "Advanced Propulsion Systems LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/405, B64G1/52, B64G1/54, B64G1/66, F03H1/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20220153455A1/en
+- numero: US20220371752A1
+  titulo: "Electromagnetic spacetime continuum propulsion system for space travel"
+  fecha: "2021-05-07"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, B64G1/42, B64G1/421]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20220371752A1/en
 - numero: US20230148291A1
   titulo: "Propellantless propulsion system and method"
   fecha: "2021-11-05"
@@ -419,6 +951,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03G7/00, F03G7/10, F03G7/125, F03G7/135]
   relevancia: 11
   url: https://patents.google.com/patent/US20230253896A1/en
+- numero: US20230391478A1
+  titulo: "Magnetic Flux Engine for Spacecraft Propulsion"
+  fecha: "2023-01-16"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/413, F03H1/00, F03H1/0081]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20230391478A1/en
 - numero: US20240011469A1
   titulo: "System and method for generating forces using asymmetrical electrostatic pressure"
   fecha: "2023-09-20"
@@ -433,6 +972,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02N11/00, H02N11/006]
   relevancia: 6
   url: https://patents.google.com/patent/US20240063731A1/en
+- numero: US20240246700A1
+  titulo: "Magnetic Flux Engine for Spacecraft Propulsion"
+  fecha: "2024-03-03"
+  titular: "Overawe LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03H1/00, F03H1/0081, H01F6/00, H01F6/06]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20240246700A1/en
 - numero: US20240375795A1
   titulo: "Electromagnetic propulsion device for generating unidirectional force and method thereof"
   fecha: "2024-04-23"
@@ -440,6 +986,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H99/00, H01F7/00]
   relevancia: 4
   url: https://patents.google.com/patent/US20240375795A1/en
+- numero: US20240376874A1
+  titulo: "Super high frequency propulsor (faraday drive)"
+  fecha: "2024-03-18"
+  titular: "Individual"
+  cpc: [F03H1/00, F03H1/0037, F03H1/0062, F03H1/0075]
+  relevancia: 6
+  url: https://patents.google.com/patent/US20240376874A1/en
+- numero: US20250091734A1
+  titulo: "Propulsion and manipulation system using force beams"
+  fecha: "2022-11-09"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, H02N11/00, H02N11/006]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20250091734A1/en
 - numero: US20250132082A1
   titulo: "Propulsion system using force field generating coils"
   fecha: "2022-11-09"
@@ -461,6 +1021,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H02N11/00, H02N11/006]
   relevancia: 6
   url: https://patents.google.com/patent/US20260100660A1/en
+- numero: US20260176001A1
+  titulo: "Near zero-mass change propulsion system for interplanetary and interstellar spacecraft"
+  fecha: "2024-12-25"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/413, B64G1/417, B64G1/42]
+  relevancia: 4
+  url: https://patents.google.com/patent/US20260176001A1/en
+- numero: US3610971
+  titulo: "All-electric motional electric field generator"
+  fecha: "1971-10-05"
+  titular: "ELECTRODYNAMIC GRAVITY Inc"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, H01F6/00, H02K99/00, H02K99/10]
+  relevancia: 4
+  url: https://patents.google.com/patent/US3610971/en
 - numero: US3722284A
   titulo: "Detector of dynamic gravitational force gradient fields"
   fecha: "1973-03-27"
@@ -503,6 +1077,20 @@
   cpc: [F03H99/00, H02K44/00, H02K44/02, Y10S376/00, Y10S376/909, Y10S376/91]
   relevancia: 4
   url: https://patents.google.com/patent/US4891600A/en
+- numero: US4992656A
+  titulo: "Rotation, acceleration, and gravity sensors using quantum-mechanical matter-wave interferometry with neutral atoms and molecules"
+  fecha: "1991-02-12"
+  titular: "Individual"
+  cpc: [G01C19/00, G01C19/58, G01P15/00, G01P15/02, G01P15/08, G01P15/093, G01P3/00, G01P3/42]
+  relevancia: 5
+  url: https://patents.google.com/patent/US4992656A/en
+- numero: US5052638A
+  titulo: "Electromagnetic ramjet"
+  fecha: "1991-10-01"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US5052638A/en
 - numero: US5142861A
   titulo: "Nonlinear electromagnetic propulsion system and method"
   fecha: "1992-09-01"
@@ -510,6 +1098,13 @@
   cpc: [F03H3/00, H01Q7/00, H02N11/00, H02N11/006]
   relevancia: 4
   url: https://patents.google.com/patent/US5142861A/en
+- numero: US5170623A
+  titulo: "Hybrid chemical/electromagnetic propulsion system"
+  fecha: "1992-12-15"
+  titular: "TRW Inc"
+  cpc: [F02K9/00, F02K9/74, F02K9/97, F03H1/00, F03H1/0081, H02K44/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US5170623A/en
 - numero: US5197279A
   titulo: "Electromagnetic energy propulsion engine"
   fecha: "1993-03-30"
@@ -524,6 +1119,20 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/66]
   relevancia: 5
   url: https://patents.google.com/patent/US5280864A/en
+- numero: US5590031
+  titulo: "System for converting electromagnetic radiation energy to electrical energy"
+  fecha: "1996-12-31"
+  titular: "Individual"
+  cpc: [H02M11/00, H02N11/00, H02N11/002, H05F7/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US5590031/en
+- numero: US6068449A
+  titulo: "Magnetohydrodynamic pump"
+  fecha: "2000-05-30"
+  titular: "Individual"
+  cpc: [B63H11/00, B63H11/02, B63H11/025, B64D27/00, B64D27/02, B64G1/00, B64G1/22, B64G1/40]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6068449A/en
 - numero: US6098924A
   titulo: "Method and apparatus for generating propulsive forces without the ejection of propellant"
   fecha: "2000-08-08"
@@ -531,6 +1140,34 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, H04R23/00]
   relevancia: 6
   url: https://patents.google.com/patent/US6098924A/en
+- numero: US6121569A
+  titulo: "Plasma jet source using an inertial electrostatic confinement discharge plasma"
+  fecha: "2000-09-19"
+  titular: "Individual"
+  cpc: [F03H1/00, H05H1/00, H05H1/54, Y02E30/00, Y02E30/10]
+  relevancia: 6
+  url: https://patents.google.com/patent/US6121569A/en
+- numero: US6193194B1
+  titulo: "Magnetic propulsion system and operating method"
+  fecha: "2001-02-27"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/413, B64G1/417, F03H1/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6193194B1/en
+- numero: US6293090B1
+  titulo: "More efficient RF plasma electric thruster"
+  fecha: "2001-09-25"
+  titular: "New England Space Works Inc"
+  cpc: [F03H1/00, F03H1/0081, F03H1/0093, H05H1/00, H05H1/54]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6293090B1/en
+- numero: US6334302B1
+  titulo: "Variable specific impulse magnetoplasma rocket engine"
+  fecha: "2002-01-01"
+  titular: "National Aeronautics and Space Administration"
+  cpc: [F03H1/00, F03H1/0093, H05B6/00, H05B6/02, H05B6/10, H05B6/105, H05B6/108]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6334302B1/en
 - numero: US6347766B1
   titulo: "Method and apparatus for generating propulsive forces without the ejection of propellant"
   fecha: "2002-02-19"
@@ -545,6 +1182,27 @@
   cpc: [G21K1/00, H02N11/00, H02N11/006]
   relevancia: 5
   url: https://patents.google.com/patent/US6417597B1/en
+- numero: US6494091B2
+  titulo: "Apparatus for measuring a gravitational attraction of the earth"
+  fecha: "2002-12-17"
+  titular: "Individual"
+  cpc: [G01V7/00, G01V7/02, G01V7/04, Y02A90/00, Y02A90/30, Y10S505/00, Y10S505/825, Y10S505/842]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6494091B2/en
+- numero: US6530212B1
+  titulo: "Laser plasma thruster"
+  fecha: "2003-03-11"
+  titular: "Photonic Associates"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, F02K9/00, F02K9/94, F03H1/00, F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US6530212B1/en
+- numero: US6640535B2
+  titulo: "Linear gridless ion thruster"
+  fecha: "2003-11-04"
+  titular: "University of Michigan (System)"
+  cpc: [F03H1/00, F03H1/0037, F03H1/0062, F03H1/0068]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6640535B2/en
 - numero: US6745980B2
   titulo: "Unbalanced gyroscopic apparatus for producing unidirectional thrust"
   fecha: "2004-06-08"
@@ -559,6 +1217,13 @@
   cpc: [G21K1/00, H02K7/00, H02K7/02, H02K7/025, H02K7/18, H02K7/1807, H02K7/1823, H02N11/00]
   relevancia: 6
   url: https://patents.google.com/patent/US6784591B2/en
+- numero: US6871542B2
+  titulo: "Apparatus for the measurement of gravitational gradients"
+  fecha: "2005-03-29"
+  titular: "Gravitec Instruments Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/US6871542B2/en
 - numero: US6960975B1
   titulo: "Space vehicle propelled by the pressure of inflationary vacuum state"
   fecha: "2005-11-01"
@@ -566,6 +1231,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, B64G1/42, B64G1/421]
   relevancia: 4
   url: https://patents.google.com/patent/US6960975B1/en
+- numero: US7053576B2
+  titulo: "Energy conversion systems"
+  fecha: "2006-05-30"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/002, H02P31/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US7053576B2/en
 - numero: US7235945B2
   titulo: "Energy conversion systems"
   fecha: "2007-06-26"
@@ -573,6 +1245,13 @@
   cpc: [H02N11/00, H02N11/002, H02P31/00]
   relevancia: 5
   url: https://patents.google.com/patent/US7235945B2/en
+- numero: US7410130B2
+  titulo: "Star-tracker-based attitude determination for spinning spacecraft"
+  fecha: "2008-08-12"
+  titular: "Boeing Co"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/242, B64G1/2427, B64G1/244, B64G1/26, B64G1/28]
+  relevancia: 5
+  url: https://patents.google.com/patent/US7410130B2/en
 - numero: US7446636B1
   titulo: "System utilizing the earth's magnetic field to generate a force in opposition to the force of gravity"
   fecha: "2008-11-04"
@@ -580,6 +1259,13 @@
   cpc: [B64C29/00, B64C29/0008, B64C39/00, B64C39/001, B64G1/00, B64G1/22, B64G1/40, B64G1/411]
   relevancia: 4
   url: https://patents.google.com/patent/US7446636B1/en
+- numero: US7454893B2
+  titulo: "Electro-thermal nanoparticle generator"
+  fecha: "2008-11-25"
+  titular: "Individual"
+  cpc: [B22F1/00, B22F1/16, B22F2999/00, B22F9/00, B22F9/02, B22F9/12, B23K10/00, B23K10/02]
+  relevancia: 4
+  url: https://patents.google.com/patent/US7454893B2/en
 - numero: US7465886B1
   titulo: "Spheric alignment mechanism entropic step down and propulsion system"
   fecha: "2008-12-16"
@@ -587,6 +1273,27 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, G21G1/00, H05K9/00, H05K9/0073, H05K9/0075]
   relevancia: 6
   url: https://patents.google.com/patent/US7465886B1/en
+- numero: US7571547B2
+  titulo: "Gravity gradiometer"
+  fecha: "2009-08-11"
+  titular: "Technological Resources Pty Ltd"
+  cpc: [G01V7/00, G01V7/02, G01V7/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/US7571547B2/en
+- numero: US7624635B2
+  titulo: "Gravity gradiometer"
+  fecha: "2009-12-01"
+  titular: "Technological Resources Pty Ltd"
+  cpc: [G01V7/00, G01V7/16, H10N60/00, H10N60/30, H10N60/35]
+  relevancia: 4
+  url: https://patents.google.com/patent/US7624635B2/en
+- numero: US7627954B2
+  titulo: "Gravity gradiometer"
+  fecha: "2009-12-08"
+  titular: "Technological Resources Pty Ltd"
+  cpc: [G01V7/00, G01V7/02, G01V7/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/US7627954B2/en
 - numero: US8066226B2
   titulo: "Inertial propulsion device to move an object up and down"
   fecha: "2011-11-29"
@@ -601,6 +1308,27 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, G21F1/00, G21F1/12, G21F1/125]
   relevancia: 6
   url: https://patents.google.com/patent/US8383959B2/en
+- numero: US8459002B2
+  titulo: "Efficient RF electromagnetic propulsion system with communications capability"
+  fecha: "2013-06-11"
+  titular: "Individual"
+  cpc: [F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US8459002B2/en
+- numero: US9140819B2
+  titulo: "Gradiometer"
+  fecha: "2015-09-22"
+  titular: "Individual"
+  cpc: [G01V7/00, G01V7/16]
+  relevancia: 5
+  url: https://patents.google.com/patent/US9140819B2/en
+- numero: US9145216B2
+  titulo: "Unified chemical electric propulsion system"
+  fecha: "2015-09-29"
+  titular: "Space Systems Loral LLC"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/402, B64G1/4026, B64G1/403, B64G1/404, F02K9/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/US9145216B2/en
 - numero: US9287840B1
   titulo: "Parametric amplification and switched voltage signals for propellantless propulsion"
   fecha: "2016-03-15"
@@ -615,6 +1343,27 @@
   cpc: [B60L2200/00, B60L2200/26, B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417]
   relevancia: 4
   url: https://patents.google.com/patent/US9712031B2/en
+- numero: WO1991002444A1
+  titulo: "Atomic interferometry gyroscopes, accelerometers, and gravity gradiometers"
+  fecha: "1990-03-05"
+  titular: "Individual"
+  cpc: [G01C19/00, G01C19/58, G01P15/00, G01P15/02, G01P15/08, G01P15/093, G01P3/00, G01P3/42]
+  relevancia: 5
+  url: https://patents.google.com/patent/WO1991002444A1/en
+- numero: WO1996010759A1
+  titulo: "Apparatus for the measurement of gravitational fields"
+  fecha: "1995-10-04"
+  titular: "Gravitec Instruments Ltd"
+  cpc: [G01V7/00, G01V7/005]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO1996010759A1/en
+- numero: WO1998023976A3
+  titulo: "Improved apparatus and method for gravitational modification"
+  fecha: "1997-11-14"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/006, H02N15/00, H02N15/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO1998023976A3/en
 - numero: WO2001057881A1
   titulo: "Technical and theoretical specifications for warp drive technology"
   fecha: "2001-01-30"
@@ -636,6 +1385,48 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03H99/00]
   relevancia: 5
   url: https://patents.google.com/patent/WO2002020346A3/en
+- numero: WO2004075372A3
+  titulo: "An inertia generator or anti-gravitational rotor"
+  fecha: "2004-02-19"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, F03G7/00, F03G7/10, F03G7/115, F03G7/125]
+  relevancia: 6
+  url: https://patents.google.com/patent/WO2004075372A3/en
+- numero: WO2004100174A2
+  titulo: "Gravitational wave imaging"
+  fecha: "2004-04-27"
+  titular: "Individual"
+  cpc: [G01V7/00, H02K33/00, H02K33/16, H02K7/00, H02K7/02, H02K7/025, H02K7/18, H02K7/1807]
+  relevancia: 5
+  url: https://patents.google.com/patent/WO2004100174A2/en
+- numero: WO2004100174A3
+  titulo: "Gravitational wave imaging"
+  fecha: "2004-04-27"
+  titular: "Individual"
+  cpc: [G01V7/00, H02K33/00, H02K33/16, H02K7/00, H02K7/02, H02K7/025, H02K7/18, H02K7/1807]
+  relevancia: 5
+  url: https://patents.google.com/patent/WO2004100174A3/en
+- numero: WO2005060644A2
+  titulo: "Gravitational wave propulsion and telescope"
+  fecha: "2004-12-15"
+  titular: "GRAVWAVE LLC"
+  cpc: [G01V7/00, H02K33/00, H02K33/16, H02K7/00, H02K7/02, H02K7/025, H02K7/18, H02K7/1807]
+  relevancia: 6
+  url: https://patents.google.com/patent/WO2005060644A2/en
+- numero: WO2007024655A2
+  titulo: "System and method for propellantless photon tether formation flight"
+  fecha: "2006-08-18"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/10, B64G1/1085, B64G1/22, B64G1/40, B64G1/407, B64G1/64, B64G1/648]
+  relevancia: 6
+  url: https://patents.google.com/patent/WO2007024655A2/en
+- numero: WO2007044778A3
+  titulo: "Electromagnetic thrust system"
+  fecha: "2006-10-10"
+  titular: "RAABE ASPREY JOAN"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2007044778A3/en
 - numero: WO2007081300A3
   titulo: "Spheric alignment mechanism"
   fecha: "2005-11-17"
@@ -650,6 +1441,13 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03G3/00, F03G3/097]
   relevancia: 5
   url: https://patents.google.com/patent/WO2008000062A1/en
+- numero: WO2009043978A1
+  titulo: "Propulsion device using dissymmetrical electric interaction"
+  fecha: "2007-10-03"
+  titular: "Individual"
+  cpc: [H02N11/00, H02N11/008]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2009043978A1/en
 - numero: WO2010151161A2
   titulo: "Propulsion system using the antigravity force of the vacuum and applications"
   fecha: "2010-06-22"
@@ -678,6 +1476,41 @@
   cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F02K9/00, F03H99/00]
   relevancia: 4
   url: https://patents.google.com/patent/WO2012134945A1/en
+- numero: WO2016138266A1
+  titulo: "Gravitational radiation communication system"
+  fecha: "2016-02-25"
+  titular: "University of California Berkeley, University of California, San Diego"
+  cpc: [G01V7/00, H01B12/00, H01B12/02, H01B12/06, H01B12/12, H01P7/00, H01P7/04, H01P7/06]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2016138266A1/en
+- numero: WO2016162676A1
+  titulo: "Superconducting microwave radiation thruster"
+  fecha: "2016-04-07"
+  titular: "Satellite Propulsion Research Ltd"
+  cpc: [F03H3/00, F03H99/00, H05B6/00, H05B6/64]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2016162676A1/en
+- numero: WO2018196888A1
+  titulo: "Electromagnetic toroidal impeller"
+  fecha: "2018-04-26"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00, H01F6/00, H01F6/04]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2018196888A1/en
+- numero: WO2020186065A2
+  titulo: "Spacecraft propulsion devices and systems with microwave excitation"
+  fecha: "2020-03-12"
+  titular: "Momentus Inc"
+  cpc: [B64G1/00, B64G1/22, B64G1/24, B64G1/26, B64G1/36, B64G1/366, B64G1/40, B64G1/411]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2020186065A2/en
+- numero: WO2021071455A1
+  titulo: "Warp engine powered by gravitional waves"
+  fecha: "2020-10-05"
+  titular: "Individual"
+  cpc: [F03H99/00]
+  relevancia: 5
+  url: https://patents.google.com/patent/WO2021071455A1/en
 - numero: WO2021187686A1
   titulo: "Electromagnetic propulsion device"
   fecha: "2020-08-18"
@@ -692,6 +1525,13 @@
   cpc: [F03H99/00]
   relevancia: 5
   url: https://patents.google.com/patent/WO2022064282A1/en
+- numero: WO2022264177A1
+  titulo: "Electromagnetic propulsion system for spacecraft movement without the emission of reaction mass"
+  fecha: "2022-05-18"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/22, B64G1/40, B64G1/411, B64G1/417, F03H99/00]
+  relevancia: 6
+  url: https://patents.google.com/patent/WO2022264177A1/en
 - numero: WO2023079341A1
   titulo: "An ultra-strong propulsion system based on the producing unbalanced magnetic pressure in a rectangular electromagnetic coil"
   fecha: "2021-11-04"
@@ -720,6 +1560,13 @@
   cpc: [F03H99/00, H01F5/00, H01F7/00, H01F7/06]
   relevancia: 4
   url: https://patents.google.com/patent/WO2023130168A1/en
+- numero: WO2024218539A1
+  titulo: "A superconducting propulsion system"
+  fecha: "2023-04-19"
+  titular: "Individual"
+  cpc: [B64G1/00, B64G1/14, B64G1/22, B64G1/40, B64G1/409, B64G1/411, B64G1/417, F03H99/00]
+  relevancia: 4
+  url: https://patents.google.com/patent/WO2024218539A1/en
 - numero: WO2025186099A2
   titulo: "Apparatus and method for generating propulsion forces"
   fecha: "2025-02-27"

@@ -1,0 +1,20 @@
+id: fewster-2008c
+title: "Lectures on quantum field theory in curved spacetime"
+authors:
+  - "Christopher J. Fewster"
+year: 2008
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W2611843757
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 13
+cites_seeds: [ford-roman-1996]
+relevance: media

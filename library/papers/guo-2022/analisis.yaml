@@ -1,17 +1,18 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, usa materia de quarks fría y densa como fuente del modelo de motor de Alcubierre."
+aportacion: "Propone que materia de quarks muy densa, a temperatura cercana a cero, podría cumplir los requisitos del modelo de Alcubierre."
 tipo: propuesta
 supuestos:
-  - "Ecuación de estado de materia de quarks fría y densa (según el título)."
+  - "Materia de quarks densa y fría con energía potencial de la interacción de color."
 resultados:
-  - "Propone, según el título, esa materia como modelo de fuente para la métrica de Alcubierre."
+  - "Argumenta que esa materia podría satisfacer lo que exige la métrica."
+  - "Describe el tensor energía-momento y la velocidad del modelo sostenido por ella."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
-  - "Sin resumen no se conoce si logra satisfacer las condiciones de energía."
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "No consta la comprobación de las condiciones de energía."
 obstaculos: [1, 7]
 relacion:
   - paper: alcubierre-1994
     como: "aplica"
 ideas_abiertas:
-  - "Comprobar si la ecuación de estado evita la violación de la condición de energía nula."
+  - "Verificar la NEC con la ecuación de estado propuesta."

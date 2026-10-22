@@ -1,39 +1,29 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Apuntes de un curso de 25 horas sobre viaje más rápido que la luz y viaje en el tiempo dentro de la relatividad general y la teoría cuántica de campos. Cubre estructura causal, ecuación de Raychaudhuri, condiciones de energía, taquiones, warps, agujeros de gusano y paradojas."
+aportacion: "Notas de un curso de 25 horas sobre viaje superlumínico y viaje en el tiempo dentro de la relatividad general y la teoría cuántica de campos."
 tipo: revision
 supuestos:
-  - "Lectores con relatividad general de nivel introductorio de grado."
-  - "El material se presenta dentro de la ciencia establecida: relatividad general y teoría cuántica de campos."
-  - "Las condiciones de energía se tratan como suposiciones adicionales, no como axiomas de la relatividad general."
+  - "Relatividad general y teoría cuántica de campos como marco establecido."
+  - "Nivel de grado avanzado."
 resultados:
-  - "Una constante cosmológica positiva y un campo escalar de acoplamiento mínimo violan la condición de energía fuerte."
-  - "Un campo escalar de acoplamiento conforme viola la condición de energía nula y, con ella, las demás, incluso la condición de energía nula promediada."
-  - "Si el tensor de energía-impulso es arbitrario, cualquier métrica resuelve la ecuación de Einstein; por eso se usan condiciones de energía."
-  - "Los espacio-tiempos de viaje superlumínico global exigen casi siempre materia que viola las condiciones de energía, o materia exótica."
-  - "Los taquiones permiten viajar al pasado o comunicar con él en relatividad especial."
+  - "Presenta con detalle estructura causal, la ecuación de Raychaudhuri y las condiciones de energía."
+  - "Analiza taquiones, motores warp y agujeros de gusano, con sus limitaciones."
+  - "Discute las paradojas del viaje en el tiempo y algunas resoluciones."
 ecuaciones_clave:
-  - n: 9
-    latex: '\tau\equiv\int d\tau=\int\sqrt{-g_{\mu\nu}\dot x^{\mu}\dot x^{\nu}}\,d\lambda'
-    significado: "Tiempo propio a lo largo de una curva temporal."
-  - n: 12
-    latex: '\Gamma_{\mu\nu}^{\lambda}=\frac{1}{2} g^{\lambda\sigma}\left(\partial_{\mu}g_{\nu\sigma}+\partial_{\nu}g_{\mu\sigma}-\partial_{\sigma}g_{\mu\nu}\right)'
-    significado: "Conexión de Levi-Civita, base de las derivadas covariantes y de la curvatura."
-  - n: 16
-    latex: '\dot x^{\mu}\nabla_{\mu}\dot x^{\sigma}=0 \quad\Leftrightarrow\quad \ddot x^{\sigma}+\Gamma_{\mu\nu}^{\sigma}\dot x^{\mu}\dot x^{\nu}=0'
-    significado: "Ecuación geodésica de las partículas en caída libre."
+  - n: 75
+    latex: 'R_{\mu\nu}=8\pi\left(T_{\mu\nu}-\tfrac12 T g_{\mu\nu}\right)'
+    significado: "Ecuación de Einstein en forma de traza invertida."
+  - n: 79
+    latex: 'R_{\mu\nu}-\tfrac12 R g_{\mu\nu}+\Lambda g_{\mu\nu}=8\pi T_{\mu\nu}'
+    significado: "Ecuación de Einstein con constante cosmológica."
+  - n: 72
+    latex: 'T_{\mu\nu}\equiv-\frac{2}{\sqrt{-g}}\frac{\delta S_{M}}{\delta g^{\mu\nu}}'
+    significado: "Definición del tensor de energía-impulso a partir de la acción de la materia."
 limitaciones:
-  - "El texto disponible llega hasta el comienzo de la sección de warps; el contenido sobre warps y agujeros de gusano se resume solo con el resumen."
-  - "Son apuntes docentes, sin resultados originales."
-  - "No se tratan ejemplos cuánticos de violación de las condiciones de energía."
-obstaculos: [1, 4, 13]
+  - "La ficha se basa en el resumen y el inicio del texto; las secciones sobre warp no se han leído."
+  - "Es material didáctico, no aporta resultados nuevos."
+obstaculos: [1, 2, 3, 4]
 relacion:
-  - paper: morris-thorne-1988
-    como: "compara"
-  - paper: natario-2002
-    como: "compara"
-  - paper: ford-roman-1996
-    como: "compara"
-  - paper: krasnikov-1998
+  - paper: alcubierre-1994
     como: "compara"
 ideas_abiertas:
-  - "Completar esta ficha con las secciones de warps y agujeros de gusano, que quedan fuera del texto disponible."
+  - "Usar las notas como base común de definiciones."

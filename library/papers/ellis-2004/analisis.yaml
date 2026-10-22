@@ -1,19 +1,19 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Propone modificar la burbuja de Alcubierre para que levite la nave como si fuera más ligera que la luz, e incluso cruzar un horizonte y volver. El motor sería un desvío de túneles topológicos tipo 'drainhole'."
+aportacion: "Propone modificar el motor warp de Alcubierre para levitar la nave y atravesar un horizonte, con túneles tipo agujero de gusano que desvían el éter gravitatorio."
 tipo: propuesta
 supuestos:
-  - "El espacio se trata como un 'éter gravitatorio' que fluye."
-  - "Versiones tipo agujero de gusano del 'drainhole' del autor (1973) forman el desvío."
+  - "Versiones tipo agujero de gusano del drainhole del autor (1973)."
+  - "Un éter gravitatorio que fluye."
 resultados:
-  - "Un sumidero cubre parte del casco y, mediante túneles, una fuente cubre el resto; el flujo imita un río que desaparece bajo tierra."
-  - "Ese desvío apantallaría la nave frente a la gravedad externa."
+  - "El motor modificado haría la nave más ligera que la luz y la apantallaría de la gravedad externa."
+  - "Podría cruzar el horizonte de un agujero negro y volver sin daño."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el resumen."
-  - "Propuesta cualitativa en el resumen: sin cifras de energía ni de viabilidad."
-obstaculos: [1, 7]
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Propuesta cualitativa en el resumen."
+obstaculos: [7]
 relacion:
   - paper: alcubierre-1994
     como: "extiende"
 ideas_abiertas:
-  - "Cuantificar la materia exótica que exigirían los túneles topológicos."
+  - "Concretar la materia necesaria para los túneles."

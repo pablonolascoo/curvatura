@@ -1,17 +1,23 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone una cáscara de energía positiva más ligera cuyas condiciones de energía se certifican para todo observador."
-tipo: propuesta
+aportacion: "Propone una cáscara warp subluminal con solo el 21 % de la masa publicada y demuestra que cumple todas las condiciones de energía para todo observador."
+tipo: solucion
 supuestos:
-  - "Cáscara de energía positiva tipo warp (según el título)."
+  - "Cáscara de velocidad constante subluminal, del tipo de Fuchs y colaboradores."
+  - "Mismo desplazamiento warp (beta = 0,02) y mismo espacio para pasajeros (R1/R2 = 0,5)."
+  - "Relatividad general clásica; el tensor de energía-impulso sale de la métrica."
 resultados:
-  - "Afirma, según el título, certificar todas las condiciones de energía para cualquier observador; no se verifica aquí."
+  - "Masa M/R2 = 0,0346 en lugar de 0,1667, unas 0,49 masas de Júpiter para 20 m de radio exterior frente a 2,365."
+  - "Condiciones nula, débil, fuerte y dominante demostradas para todo observador en todo punto, con desigualdades del lema S y aritmética de intervalos."
+  - "Dos implementaciones independientes lo corroboran."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
-  - "El alcance de la certificación y la masa concreta no constan en el texto disponible."
-obstaculos: [6, 7, 13]
+  - "Ficha hecha con el resumen, sin texto completo"
+  - "No revisado por pares."
+  - "Solo velocidad constante y análisis clásico; no se afirma que la masa sea mínima."
+obstaculos: [1, 6, 7, 13]
 relacion:
   - paper: fuchs-2024
     como: "extiende"
 ideas_abiertas:
-  - "Verificar de forma independiente la certificación de las condiciones de energía."
+  - "Reducir aún más la masa."
+  - "Extender el certificado a cáscaras aceleradas."

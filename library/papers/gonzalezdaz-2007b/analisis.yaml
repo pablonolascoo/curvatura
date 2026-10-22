@@ -1,17 +1,17 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Por el título, propone o estudia una propulsión warp superlumínica."
+aportacion: "Estudia, según el título y los temas, un motor warp superlumínico basado en Alcubierre."
 tipo: propuesta
 supuestos:
-  - "Burbuja warp con velocidad superior a la de la luz (según el título)."
-  - "Sin más detalles disponibles."
+  - "Métrica de Alcubierre en 1+1 dimensiones y en espaciotiempos cosmológicos."
 resultados:
-  - "Sin resumen: no se pueden dar resultados."
-  - "El título sugiere una variante o extensión de la métrica de Alcubierre."
+  - "Ficha mínima: no se pueden precisar resultados."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título: no hay resumen ni texto en la biblioteca."
-  - "Sin texto disponible, no se pueden citar cifras ni ecuaciones."
-obstaculos: [1, 2]
-relacion: []
+  - "Ficha hecha solo con el título"
+  - "Los temas sugieren velocidad aparente y termodinámica del espaciotiempo, sin confirmarlo."
+obstaculos: [4]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
 ideas_abiertas:
-  - "Leer el paper completo y completar esta ficha."
+  - "Ver el papel de la termodinámica del espaciotiempo en la burbuja."

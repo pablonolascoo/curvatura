@@ -1,15 +1,21 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone un impulsor de agujero de gusano holográfico como avance conceptual en propulsión superlumínica tipo warp."
+aportacion: "Propone un «Holographic Wormhole Drive» que recubre la pared de la burbuja de Alcubierre con miniagujeros de gusano para reducir la energía necesaria."
 tipo: propuesta
 supuestos:
-  - "No se pueden determinar: solo se dispone del título."
+  - "La cosmología antrópica holográfica describe el vacío."
+  - "Un oscilador incursivo puede modificar las funciones alfa y beta de la métrica de Alcubierre."
+  - "Se puede tomar energía del vacío de forma cíclica."
 resultados:
-  - "No se pueden determinar: no hay resumen ni texto disponible."
+  - "Afirma resolver la necesidad de energía negativa del tamaño de Júpiter."
+  - "Propone programar parámetros de simetría especular del vacío."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
-  - "Todo el contenido debe verificarse con el paper original."
-obstaculos: []
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Propuesta especulativa, sin verificación ni cálculo en las fuentes."
+  - "Autoría no indicada en la ficha; el texto la atribuye a Amoroso."
+obstaculos: [3, 7]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
 ideas_abiertas:
-  - "Completar la ficha cuando se disponga del resumen o del texto completo."
+  - "Qué cálculo, si alguno, respalda la energía tomada del vacío."

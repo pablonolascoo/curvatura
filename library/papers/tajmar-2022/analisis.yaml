@@ -1,15 +1,16 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, es un libro divulgativo en alemán sobre el warp drive, que se describe como surfear las ondas del espacio-tiempo."
+aportacion: "Capítulo divulgativo en alemán que introduce la propulsión warp como surfear sobre las ondas del espaciotiempo."
 tipo: revision
 supuestos:
-  - "Según el título, los autores son Tajmar y Zitt y el tema es el warp drive."
+  - "Presenta la ciencia ficción como inspiración para la física."
 resultados:
-  - "No se pueden extraer resultados: el contexto solo trae el título y los autores."
+  - "Las fuentes solo recogen el arranque del texto, sin resultados."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "Libro de Springer, no un artículo con resultados originales verificables aquí."
+  - "Ficha hecha con el resumen, sin texto completo; solo el inicio."
 obstaculos: []
-relacion: []
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
 ideas_abiertas:
-  - "Consultar el libro para ver qué tratamiento da al warp drive."
+  - "Ninguna concreta en las fuentes."

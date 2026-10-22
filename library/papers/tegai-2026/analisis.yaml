@@ -1,17 +1,18 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Calcula la velocidad media de la burbuja de Alcubierre, según indica el título."
-tipo: solucion
+aportacion: "Muestra que si el motor de Alcubierre es superlumínico depende de la convención de simultaneidad y de medida de distancias."
+tipo: teorema
 supuestos:
-  - "Métrica de Alcubierre con una definición de velocidad media de la burbuja."
+  - "Convención de radar frente a coordenadas de Fermi."
 resultados:
-  - "Sin resultados verificables en el contexto: solo se dispone del título."
+  - "Con la convención de radar la velocidad media del viaje no supera la de la luz."
+  - "Con coordenadas de Fermi el viaje más rápido que la luz sigue siendo posible."
+  - "Para ciertos parámetros hay movimiento superlumínico en el marco de la nave y en el del puerto."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título: sin resumen ni texto."
-  - "El tipo asignado es una conjetura a partir del título."
+  - "Ficha hecha con el resumen, sin texto completo."
 obstaculos: [4]
 relacion:
   - paper: alcubierre-1994
     como: "aplica"
 ideas_abiertas:
-  - "Comparar la velocidad media con la velocidad coordenada y con la de la luz."
+  - "Hallar una definición invariante de velocidad media."

@@ -1,15 +1,14 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone un warp drive con índice de refracción controlado. No hay resumen ni texto disponible."
+aportacion: "Propone un motor warp de índice de refracción controlado."
 tipo: propuesta
 supuestos:
-  - "Según el título, se usaría un índice de refracción controlado para producir el efecto warp."
+  - "Interpreta la curvatura mediante un índice de refracción controlable."
 resultados:
-  - "No se pueden extraer resultados: el contexto solo trae el título."
+  - "Sin resumen disponible: no se indican método ni resultados."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "No se pueden juzgar supuestos, resultados ni ecuaciones."
-obstaculos: [7, 11]
+  - "Ficha hecha solo con el título."
+obstaculos: [14]
 relacion: []
 ideas_abiertas:
-  - "Leer el artículo para precisar el medio material y la métrica efectiva."
+  - "Precisar cómo se controlaría el índice y si reproduce la métrica."

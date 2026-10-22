@@ -1,0 +1,21 @@
+id: puthoff-1998c
+title: "Can the Vacuum Be Engineered for Spaceight Applications? Overview of Theory and Experiments 1"
+authors:
+  - "H. E. Puthoff"
+  - "W. Braker"
+year: 1998
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W2183073604
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 15
+cites_seeds: [alcubierre-1994]
+relevance: media

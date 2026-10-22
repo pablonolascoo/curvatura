@@ -1,0 +1,20 @@
+id: akl-2010c
+title: "Time Travel: A New Hypercomputational Paradigm"
+authors:
+  - "Selim G. Akl"
+year: 2010
+venue: "article"
+doi: null
+arxiv: null
+source: https://openalex.org/W561464501
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [alcubierre-1994]
+relevance: media

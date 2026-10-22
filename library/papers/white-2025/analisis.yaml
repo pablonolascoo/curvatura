@@ -1,27 +1,21 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Deriva burbujas warp de góndola cilíndrica con interior plano y las compara con el modelo de Alcubierre, según indica el título. Solo se dispone del título y los metadatos."
+aportacion: "Presenta burbujas warp de interior plano segmentadas en cilindros gaussianos (nacelles) como alternativa al anillo toroidal de Alcubierre."
 tipo: solucion
 supuestos:
-  - "No consta en el contexto disponible; el título apunta a una geometría cilíndrica con interior plano."
-  - "Cita en la biblioteca los trabajos de Alcubierre, Natário, Van Den Broeck, Lentz, Bobrick y Martire, Pfenning y Ford, Krasnikov, Lobo y Visser y Santiago."
+  - "Formalismo ADM 3+1."
+  - "Interior plano que mantiene sincronizados a los observadores internos."
+  - "Cilindros gaussianos con n = 2, 3 y 4 espaciados azimutalmente."
 resultados:
-  - "No hay resumen ni texto en el contexto, por lo que no se pueden extraer resultados."
-  - "Por el título, la derivación se compara con Alcubierre, sin conocer en qué magnitudes."
+  - "Deriva curvatura extrínseca, tiempo de York, densidades de momento y de energía."
+  - "La energía exótica queda en canales cilíndricos discretos y no en un anillo difuso."
+  - "Mapas de energía y isosuperficies muestran el interior sincronizado."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título y los metadatos, sin resumen."
-  - "Conviene leer el artículo antes de usar cualquier afirmación."
-obstaculos: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Sigue requiriendo energía exótica (negativa)."
+obstaculos: [1, 13]
 relacion:
   - paper: alcubierre-1994
     como: "compara"
-  - paper: natario-2002
-    como: "compara"
-  - paper: vandenbroeck-1999
-    como: "compara"
-  - paper: lentz-2021
-    como: "compara"
-  - paper: bobrick-martire-2021
-    como: "compara"
 ideas_abiertas:
-  - "Completar la ficha con el resumen y el texto del artículo."
+  - "Evaluar la energía total frente al modelo de Alcubierre."

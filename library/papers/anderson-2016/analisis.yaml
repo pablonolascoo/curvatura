@@ -1,17 +1,17 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Estudia las trayectorias de rayos de luz en el espaciotiempo de Alcubierre, según indica el título. No hay más texto disponible."
+aportacion: "Estudia las trayectorias de los rayos de luz en el espaciotiempo de Alcubierre, es decir, cómo se propaga la luz dentro y alrededor de la burbuja."
 tipo: simulacion
 supuestos:
-  - "Métrica de Alcubierre como espaciotiempo de fondo."
+  - "Métrica de Alcubierre como fondo fijo."
 resultados:
-  - "El título indica un cálculo de trayectorias de rayos en la métrica de Alcubierre; no se dispone de cifras."
+  - "Calcula trayectorias de rayos en ese espaciotiempo; los detalles no constan en las fuentes."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título: el contexto no incluye resumen ni texto."
-  - "El tipo asignado es una conjetura a partir del título."
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "El resumen es una descripción deducida del título y los temas."
 obstaculos: [4]
 relacion:
   - paper: alcubierre-1994
     como: "aplica"
 ideas_abiertas:
-  - "Contrastar las trayectorias de rayos con el horizonte de la burbuja y el control causal."
+  - "Comprobar qué rayos quedan atrapados en la burbuja."

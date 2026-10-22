@@ -1,15 +1,16 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, presenta una métrica de warp drive con expansión nula."
+aportacion: "Trata un motor warp con expansión nula, variante de Alcubierre en que el volumen del espacio no se contrae ni se expande."
 tipo: solucion
 supuestos:
-  - "No se pueden determinar: solo se dispone del título."
+  - "Geometría tipo Alcubierre con expansión del volumen nula."
 resultados:
-  - "No se pueden determinar: no hay resumen ni texto disponible."
+  - "Los resultados no se pueden precisar sin resumen ni texto."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
-  - "Todo el contenido debe verificarse con el paper original."
-obstaculos: [1]
-relacion: []
+  - "Ficha hecha solo con el título."
+obstaculos: []
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
 ideas_abiertas:
-  - "Completar la ficha cuando se disponga del resumen o del texto completo."
+  - "Contrastar con el texto completo."

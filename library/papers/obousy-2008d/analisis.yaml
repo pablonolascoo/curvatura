@@ -1,15 +1,21 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, presenta un nuevo enfoque del warp drive. No hay resumen ni texto disponible."
+aportacion: "Propone manipular el radio de una dimensión extra para ajustar localmente la constante cosmológica y crear expansión y contracción del espaciotiempo alrededor de una nave."
 tipo: propuesta
 supuestos:
-  - "Según el título, se plantea un enfoque nuevo; los autores son Obousy y Cleaver."
+  - "Modelos de dimensiones extra en que el efecto Casimir es candidato a constante cosmológica."
+  - "Una civilización muy avanzada puede manipular el radio de la dimensión extra."
 resultados:
-  - "No se pueden extraer resultados: el contexto solo trae el título."
+  - "La variación local de la constante cosmológica produciría una distorsión superlumínica."
+  - "Calcula los requisitos de energía."
+  - "Obtiene un límite máximo de velocidad fijado por límites planckianos de las dimensiones extra."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "No se pueden juzgar supuestos, resultados ni ecuaciones."
-obstaculos: []
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "No se dan cifras en el resumen."
+  - "Depende de modelos de dimensiones extra no confirmados."
+obstaculos: [3, 9, 11]
+relacion:
+  - paper: alcubierre-1994
+    como: "extiende"
 ideas_abiertas:
-  - "Leer el preprint para identificar el enfoque y su relación con otros trabajos de Obousy."
+  - "Verificar el límite de velocidad planckiano con el texto completo."

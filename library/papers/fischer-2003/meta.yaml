@@ -18,5 +18,5 @@ verified: false
 harvest: openalex
 cited_by: 15
 cites_seeds: [natario-2002, pfenning-ford-1997, vandenbroeck-1999]
-relevance: media
+relevance: alta
 countries: [AT, NZ]

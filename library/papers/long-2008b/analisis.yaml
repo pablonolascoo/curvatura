@@ -1,15 +1,14 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, revisa el estado de la investigación sobre el warp drive."
+aportacion: "Hace un balance del estado del motor warp, de lo conocido y lo pendiente."
 tipo: revision
 supuestos:
-  - "No consta en el contexto disponible: solo se dispone del título y de los datos bibliográficos."
+  - "Se trata de una revisión del tema."
 resultados:
-  - "El título indica una revisión del estado del warp drive en 2008; no se conoce su contenido."
+  - "No se afirman resultados: no hay resumen disponible."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título y los metadatos; no hay resumen ni texto del paper."
-  - "Todo el contenido debe verificarse con el documento original."
+  - "Ficha hecha solo con el título y los temas."
 obstaculos: []
 relacion: []
 ideas_abiertas:
-  - "Leer el paper para extraer qué problemas consideraba abiertos el autor."
+  - "Contrastar con el texto completo."

@@ -1,19 +1,20 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, reformula la métrica de Alcubierre en modos de frontera y aporta cuadernos, barridos y artefactos de verificación."
+aportacion: "Archiva una exploración personal sobre si la materia exótica de Alcubierre puede reinterpretarse como efecto de frontera tipo Casimir o evitarse con capas anisótropas clásicas."
 tipo: simulacion
 supuestos:
-  - "Reformulación en modos de frontera de la métrica de Alcubierre (según el título)."
+  - "Porción estática del espacio de parámetros más seis relajaciones."
 resultados:
-  - "Publica cuadernos, barridos paramétricos y artefactos de verificación (según el título)."
+  - "Cuadernos de SymPy y NumPy, barridos de parámetros y verificación independiente con MATLAB y Warp Factory."
+  - "Provisional: en lo explorado no existe un motor warp clásico útil."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no se dispone del resumen ni del texto."
-  - "No constan los resultados concretos."
-obstaculos: [13]
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "No cierra la cuestión general."
+obstaculos: [1, 9, 11, 13]
 relacion:
   - paper: fuchs-2024
     como: "compara"
-  - paper: helmerich-2024
+  - paper: rodal-2025
     como: "compara"
 ideas_abiertas:
-  - "Reproducir los barridos con los cuadernos publicados."
+  - "Explorar más relajaciones fuera de la porción estática."

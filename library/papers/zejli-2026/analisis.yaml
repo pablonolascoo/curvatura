@@ -1,15 +1,22 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone ajustar los signos del tensor de energía-momento en un análogo subluminal de Alcubierre con cavidades de Casimir y plasma magnetizado."
+aportacion: "Propone un análogo subluminal de Alcubierre para ingeniar los signos del tensor energía-impulso con cavidades Casimir y plasma magnetizado."
 tipo: propuesta
 supuestos:
-  - "Según el título, la fuente combina cavidades de Casimir y plasma magnetizado."
+  - "Métrica de Alcubierre modificada con perfil de doble tangente hiperbólica, regular y sin horizontes, usada solo de forma cinemática."
+  - "Cavidades Casimir de 30 a 100 nm y plasma a cerca de 0,1c con campos de 1 a 10 T."
 resultados:
-  - "Según el título, el objetivo es ingeniar los signos de las componentes de tensión-energía; no hay cifras en el contexto."
+  - "Las cavidades dan una señal localizada de energía negativa y el plasma un fondo positivo medible."
+  - "Describe un banco de sobremesa y otro de pinch en Z de unos 20 MA y 100 ns."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "No se puede comprobar cómo se logran los signos buscados ni su energía."
-obstaculos: [1, 7, 9, 14]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo"
+  - "No afirman una solución autoconsistente de Einstein-Maxwell."
+  - "No busca generar curvatura medible, solo validar métodos."
+obstaculos: [3, 9, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
+  - paper: zejli-2025
+    como: "extiende"
 ideas_abiertas:
-  - "Leer el artículo para ver qué componentes cambian de signo y con qué parámetros."
+  - "Medir el contraste de signos con el tiempo de tránsito de fotones."

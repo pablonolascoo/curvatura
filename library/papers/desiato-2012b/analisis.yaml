@@ -1,15 +1,19 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone un warp drive de índice de refracción controlado."
+aportacion: "Defiende que los fotones con desplazamiento Doppler creciente y los horizontes de una burbuja warp desaparecen si se controla el índice de refracción interior en un modelo de vacío polarizable."
 tipo: propuesta
 supuestos:
-  - "No consta en el contexto disponible: solo se dispone del título y de los datos bibliográficos."
+  - "Modelo de vacío polarizable, una relatividad general con velocidad de la luz variable."
+  - "El índice de refracción dentro de la burbuja se controla con precisión."
 resultados:
-  - "El título indica un diseño de warp drive basado en un índice de refracción controlado; no se conocen sus resultados."
+  - "En soluciones de solo desplazamiento, una burbuja superlumínica genera fotones de energía creciente y horizontes en sus paredes."
+  - "Estos fenómenos no aparecerían en la solución de vacío polarizable bien formulada."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título y los metadatos; no hay resumen ni texto del paper."
-  - "Todo el contenido debe verificarse con el documento original."
-obstaculos: [14]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Depende de un modelo de relatividad general alternativo."
+obstaculos: [4, 11, 14]
+relacion:
+  - paper: alcubierre-1994
+    como: "critica"
 ideas_abiertas:
-  - "Leer el paper para precisar qué medio o analogía óptica usa y qué resultados da."
+  - "Comprobar si el control del índice es realizable."

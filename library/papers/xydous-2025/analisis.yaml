@@ -1,14 +1,19 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Plantea cómo llegar a motores warp inerciales desde la ingeniería, según su título. No se dispone de texto ni resumen."
+aportacion: "Sostiene que la propulsión inercial no viola la tercera ley de Newton y esboza una línea hasta motores warp inerciales."
 tipo: propuesta
 supuestos:
-  - "Ficha hecha solo con el título y los metadatos."
+  - "Sistemas con componentes internas cíclicas y no colineales."
+  - "Mecánica newtoniana sin cuerpos rígidos."
 resultados:
-  - "Sin resumen ni texto en el contexto: no se pueden extraer resultados."
+  - "El centro de masas puede trasladarse sin interacción externa mediante intercambio interno de momento."
+  - "Esboza arquitecturas mecánicas, electromagnéticas y warp inerciales."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; verificar todo con el paper."
-obstaculos: []
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Propuesta teórica, sin verificación."
+obstaculos: [2, 10]
+relacion:
+  - paper: alcubierre-1994
+    como: "compara"
 ideas_abiertas:
-  - "Completar la ficha cuando haya texto o resumen disponible."
+  - "Contrastar con la conservación del momento relativista."

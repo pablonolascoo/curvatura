@@ -1,15 +1,16 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, propone un warp drive basado en ondas capilares. No hay resumen ni texto disponible."
-tipo: propuesta
+aportacion: "Detecta y estudia la generación de un flujo de agua superficial en canales con fuentes y resonadores de oscilaciones capilares."
+tipo: experimento
 supuestos:
-  - "Según el título, el mecanismo se apoya en ondas capilares, probablemente como análogo de laboratorio."
+  - "Fluido en un canal excitado por vibraciones capilares."
 resultados:
-  - "No se pueden extraer resultados: el contexto solo trae el título."
+  - "Demuestra dispositivos móviles con un acelerador capilar del flujo superficial."
+  - "El flujo nace de la deformación local de la superficie y del transporte del exceso de superficie por ondas."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; el texto no estaba disponible."
-  - "No se pueden juzgar supuestos, resultados ni ecuaciones."
-obstaculos: [14]
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Es dinámica de fluidos; la palabra warp-drive del título no se refiere a curvatura del espaciotiempo."
+obstaculos: []
 relacion: []
 ideas_abiertas:
-  - "Leer el artículo original (en ruso) para completar la ficha."
+  - "Ninguna relevante para la propulsión por curvatura."

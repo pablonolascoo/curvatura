@@ -1,15 +1,21 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, estudia cómo los warp superlumínicos permiten sondear el viaje más rápido que la luz y la protección de la cronología."
+aportacion: "Propone que la reacción de la materia cuántica sobre la geometría desestabilizaría los motores warp superlumínicos, impidiendo preventivamente máquinas del tiempo."
 tipo: revision
 supuestos:
-  - "No se pueden determinar: solo se dispone del título."
+  - "Teoría cuántica de campos en espacio curvo (gravedad semiclásica)."
+  - "Una variante con ruptura de la invariancia de Lorentz a altas energías."
 resultados:
-  - "No se pueden determinar: no hay resumen ni texto disponible."
+  - "Repasa el viaje más rápido que la luz y las máquinas del tiempo en relatividad general."
+  - "Presenta un ejemplo semiclásico donde la geometría superlumínica no es estable."
+  - "Apoya una protección de la cronología preventiva."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
-  - "Todo el contenido debe verificarse con el paper original."
-obstaculos: [4]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Es un capítulo de revisión con un ejemplo concreto."
+obstaculos: [4, 5]
+relacion:
+  - paper: finazzi-2009
+    como: "aplica"
 ideas_abiertas:
-  - "Completar la ficha cuando se disponga del resumen o del texto completo."
+  - "Ver si la inestabilidad sobrevive con otras teorías de campos."
+  - "Extender el argumento a burbujas subluminales."

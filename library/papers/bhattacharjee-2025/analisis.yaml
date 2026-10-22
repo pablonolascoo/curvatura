@@ -1,15 +1,17 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Según el título, analiza posibles señales astrofísicas de actividad de motores warp en el volumen galáctico cercano."
+aportacion: "Trata las posibles señales astrofísicas de motores warp en el entorno galáctico cercano."
 tipo: propuesta
 supuestos:
-  - "No se pueden determinar: solo se dispone del título."
+  - "Se apoya en la métrica de Alcubierre."
+  - "Menciona tecnofirmas, ráfagas de ondas gravitacionales e interacción con el medio interestelar."
 resultados:
-  - "No se pueden determinar: no hay resumen ni texto disponible."
+  - "Sin resumen disponible: no se afirman resultados."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; no hay resumen, texto ni referencias en la biblioteca."
-  - "Todo el contenido debe verificarse con el paper original."
-obstaculos: [14]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo y sin resumen real; no se pueden indicar resultados."
+obstaculos: []
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
 ideas_abiertas:
-  - "Completar la ficha cuando se disponga del resumen o del texto completo."
+  - "Buscar firmas observables de burbujas warp en ondas gravitacionales."

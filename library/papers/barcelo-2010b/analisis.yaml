@@ -1,16 +1,21 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Trata la inestabilidad semiclásica de las burbujas warp, según su título. No se dispone de texto ni resumen."
-tipo: critica
+aportacion: "Estudia el tensor de energía-momento renormalizado en burbujas warp superlumínicas y halla que crece exponencialmente cerca de la pared frontal."
+tipo: cota
 supuestos:
-  - "Ficha hecha solo con el título y los metadatos."
+  - "Se supone que existe la materia exótica necesaria."
+  - "Se activan los efectos cuánticos sobre una geometría warp superlumínica."
 resultados:
-  - "Sin resumen ni texto en el contexto: no se pueden extraer resultados."
+  - "El tensor renormalizado crece exponencialmente en el tiempo cerca de la pared frontal."
+  - "Las geometrías warp superlumínicas son inestables frente a la reacción semiclásica."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título; verificar todo con el paper."
-obstaculos: [5]
+  - "Ficha hecha con el resumen, sin texto completo."
+  - "Es una contribución breve de conferencia."
+obstaculos: [5, 4]
 relacion:
   - paper: finazzi-2009
     como: "extiende"
+  - paper: alcubierre-1994
+    como: "critica"
 ideas_abiertas:
-  - "Completar la ficha cuando haya texto o resumen disponible."
+  - "Si la inestabilidad afecta también a burbujas subluminales."

@@ -1,17 +1,20 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Por el título, estudia las trayectorias de rayos de luz en el espaciotiempo de Alcubierre."
-tipo: solucion
+aportacion: "Simula el espaciotiempo de Alcubierre con un medio de Tamm que podría fabricarse como metamaterial y estudia las trayectorias de rayos en él."
+tipo: simulacion
 supuestos:
-  - "Métrica de Alcubierre como fondo geométrico (según el título)."
-  - "Propagación de rayos como geodésicas nulas (inferido del título)."
+  - "Régimen de óptica geométrica."
+  - "El medio de Tamm es asintóticamente igual al vacío y de parámetros continuos."
 resultados:
-  - "Sin resumen: no se puede indicar qué trayectorias se obtienen."
-  - "El título sugiere un análisis de la estructura causal vista por los rayos."
+  - "Aparecen direcciones de propagación evanescentes dentro de la región de la burbuja."
+  - "Las trayectorias dependen mucho de la velocidad y la dirección de la burbuja y poco del grosor de la zona de transición."
+  - "Para rayos que viajan con la burbuja, esta actúa como lente que enfoca, sobre todo a alta velocidad."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el título: no hay resumen ni texto en la biblioteca."
-  - "Sin texto disponible, no se pueden citar cifras ni ecuaciones."
-obstaculos: [4]
-relacion: []
+  - "Ficha hecha con el resumen, sin texto completo"
+  - "Es un análogo óptico: no resuelve el problema de la energía de la métrica real."
+obstaculos: [14]
+relacion:
+  - paper: alcubierre-1994
+    como: "aplica"
 ideas_abiertas:
-  - "Leer el paper completo y completar esta ficha."
+  - "Fabricar el medio como metamaterial y medir las trayectorias en laboratorio."

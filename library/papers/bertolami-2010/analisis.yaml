@@ -1,17 +1,17 @@
 generado: "IA · 2026-10-22 · puede contener errores; verificar con el paper"
-aportacion: "Ensayo divulgativo sobre el pensamiento cosmológico, de los mitos de creación a los descubrimientos recientes. Menciona los motores warp solo como atajos que la física conocida descarta."
+aportacion: "Charla divulgativa sobre el pensamiento cosmológico, de los mitos de creación a los descubrimientos recientes."
 tipo: revision
 supuestos:
-  - "Las leyes de la física conocidas impiden viajar más rápido que la luz y excluyen atajos estables como agujeros de gusano o motores warp."
-  - "La tecnología actual no permite la expansión humana fuera del planeta durante al menos unas décadas."
+  - "Las leyes físicas conocidas impiden viajar más rápido que la luz y atajos del espaciotiempo estables."
 resultados:
-  - "La inmensidad del universo hace inviable la exploración in situ más allá del vecindario cósmico inmediato."
-  - "La observación en casi todo el espectro electromagnético permite estudiar agujeros negros, materia oscura y energía oscura."
+  - "Afirma que los agujeros de gusano y los motores warp no son viables ni estables para explorar el cosmos."
+  - "Defiende observar el universo en lugar de viajar por él."
 ecuaciones_clave: []
 limitaciones:
-  - "Ficha hecha solo con el resumen."
-  - "El motor warp no es el tema central del trabajo."
+  - "Ficha hecha con el resumen, sin texto completo"
+  - "Los motores warp aparecen solo como mención de pasada, no se estudian."
+  - "Es una charla de carácter cultural, sin cálculos."
 obstaculos: []
 relacion: []
 ideas_abiertas:
-  - "Comprobar en el texto completo si hay argumentos concretos sobre los motores warp."
+  - "Ninguna propia del tema warp."
