@@ -24,10 +24,12 @@ Las claves viven en `~/Library/Application Support/Curvatura/firma/` y nunca ent
 ## Primera vez (una sola vez)
 
 ```bash
-gh repo create pablonolascoo/curvatura --public --source=. --remote=origin --push
-bun scripts/firma.ts --github   # imprime los comandos gh secret set
-git push origin --tags
+gh auth login                      # si no hay sesión de GitHub
+bash scripts/publicar-github.sh    # repo público, temas, secretos de firma y apps de la última versión
 ```
+
+El script crea el repo, sube `main`, pone descripción, web y temas para que se encuentre en GitHub, guarda las
+claves del actualizador como secretos y sube la etiqueta de la última versión, que compila las apps.
 
 ## Valoraciones (ORCID)
 
