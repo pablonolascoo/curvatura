@@ -43,3 +43,6 @@ apps/web/public/flags/
 
 # Datos locales de la IA (corpus completo, vectores): se regeneran con `bun run ia:*`
 datos/
+
+# Fuentes LaTeX originales de los papers abiertos: se descargan con library/tools/extract.py (pesan ~1,8 GB)
+library/papers/*/source/
