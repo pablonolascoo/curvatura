@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import MiniSearch from "minisearch";
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useRef, useState } from "react";
 import { MagnifyingGlass } from "@phosphor-icons/react";
 
 type Chunk = { id: string; k: string; p: string | null; t: string; y: number | null; s: string; l: string; x: string; u: string | null };
@@ -30,45 +29,45 @@ function snippet(text: string, terms: string[]): React.ReactNode {
 }
 
 export function SearchPanel({ lang, labels, kinds }: { lang: string; labels: Labels; kinds: Record<string, string> }) {
-  const [index, setIndex] = useState<MiniSearch<Chunk> | null>(null);
+  const [listo, setListo] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [q, setQ] = useState("");
   const [kind, setKind] = useState("");
+  const [results, setResults] = useState<(Chunk & { score: number; terms: string[] })[]>([]);
   const query = useDeferredValue(q);
+  const worker = useRef<Worker | null>(null);
+  const turno = useRef(0);
 
+  // El índice se construye en un Web Worker: la página no se congela mientras se prepara.
   useEffect(() => {
     setQ(new URLSearchParams(location.search).get("q") ?? "");
-    fetch("/search/chunks.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
-      .then((chunks: Chunk[]) => {
-        const ms = new MiniSearch<Chunk>({
-          fields: ["t", "s", "x"],
-          storeFields: ["id", "k", "p", "t", "y", "s", "l", "x", "u"],
-          processTerm: (term) => (term.length > 1 ? fold(term) : null),
-          searchOptions: { boost: { t: 3, s: 1.5 }, prefix: true, fuzzy: 0.15 },
-        });
-        ms.addAll(chunks);
-        setIndex(ms);
-      }, (e: Error) => setError(e.message));
+    const w = new Worker(new URL("../workers/buscar.worker.ts", import.meta.url), { type: "module" });
+    worker.current = w;
+    w.onmessage = (e: MessageEvent) => {
+      const m = e.data;
+      if (m.tipo === "listo") setListo(true);
+      else if (m.tipo === "error") setError(m.error);
+      else if (m.tipo === "resultados" && m.n === turno.current) {
+        setListo(true);
+        setResults(m.res);
+      }
+    };
+    w.postMessage({ tipo: "preparar" });
+    return () => w.terminate();
   }, []);
 
   useEffect(() => {
     history.replaceState(null, "", `${location.pathname}${q ? `?q=${encodeURIComponent(q)}` : ""}`);
   }, [q]);
 
-  const results = useMemo(() => {
-    if (!index || query.trim().length < 2) return [];
-    const seen = new Map<string, number>();
-    return index
-      .search(query, { filter: (r) => !kind || r.k === kind })
-      .filter((r) => {
-        const key = `${r.p ?? r.id}:${r.s}`; // un fragmento por sección
-        if (seen.has(key)) return false;
-        seen.set(key, 1);
-        return true;
-      })
-      .slice(0, 40) as unknown as (Chunk & { score: number; terms: string[] })[];
-  }, [index, query, kind]);
+  useEffect(() => {
+    if (query.trim().length < 2) {
+      setResults([]);
+      return;
+    }
+    worker.current?.postMessage({ tipo: "buscar", n: ++turno.current, q: query, kind });
+  }, [query, kind]);
+  const index = listo;
 
   return (
     <div className="grid gap-8">
@@ -87,7 +86,17 @@ export function SearchPanel({ lang, labels, kinds }: { lang: string; labels: Lab
         ))}
       </div>
       {error && <p className="tag tag-red w-max">{error}</p>}
-      {!index && !error && <p className="text-muted">{labels.loading}</p>}
+      {!index && !error && (
+        <ul className="grid gap-px border-t border-line" aria-busy="true" aria-label={labels.loading}>
+          {Array.from({ length: 5 }, (_, i) => (
+            <li key={i} className="grid gap-2 border-b border-line py-5">
+              <span className="h-4 w-40 animate-pulse rounded bg-gray-bg" />
+              <span className="h-5 w-3/4 animate-pulse rounded bg-gray-bg" />
+              <span className="h-10 w-full animate-pulse rounded bg-gray-bg" />
+            </li>
+          ))}
+        </ul>
+      )}
       {index && query.trim().length >= 2 && (
         <p className="font-mono text-sm text-muted">{results.length} {labels.results}</p>
       )}

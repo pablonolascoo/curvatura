@@ -217,10 +217,11 @@ export function WarpField({ params = { v: 1, R: 1, sigma: 4 }, offset = [0, 0], 
     };
     requestRender.current = () => (reduce ? renderer.render(scene, camera) : start());
 
+    // Margen amplio: la escena ya está dibujando cuando entra en pantalla (y se pausa lejos de ella).
     const io = new IntersectionObserver(([entry]) => {
       visible = entry.isIntersecting;
       if (visible) start();
-    });
+    }, { rootMargin: "100% 0px" });
     io.observe(el);
     const onVisibility = () => !document.hidden && visible && start();
     document.addEventListener("visibilitychange", onVisibility);

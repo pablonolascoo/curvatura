@@ -14,7 +14,7 @@ export function Flags({ codes, lang, max = 4, size = 18, withNames = false }: { 
       <span className={`flex shrink-0 ${withNames ? "flex-wrap gap-1.5" : "-space-x-1.5"}`} aria-hidden={withNames}>
         {shown.map((c) => (
           // eslint-disable-next-line @next/next/no-img-element
-          <img key={c} src={`/flags/${c.toLowerCase()}.svg`} alt={withNames ? "" : name(c)} width={size} height={size} loading="lazy"
+          <img key={c} src={`/flags/${c.toLowerCase()}.svg`} alt={withNames ? "" : name(c)} width={size} height={size} decoding="async"
             className="rounded-full object-cover ring-2 ring-[var(--surface)]" style={{ width: size, height: size }} />
         ))}
       </span>

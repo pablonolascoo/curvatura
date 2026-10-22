@@ -103,7 +103,7 @@ export function LiveEquation({ eq, lang, labels, paperHref, compact }: { eq: Equ
         el.classList.add("eq-anim");
         io.disconnect();
       }
-    }, { threshold: 0.3 });
+    }, { rootMargin: "0px 0px 35% 0px", threshold: 0 }); // arranca justo antes de verse
     io.observe(el);
     return () => io.disconnect();
   }, []);

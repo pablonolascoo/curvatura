@@ -22,7 +22,8 @@ curvatura-core = { path = "../../../solvers/rust", features = ["parallel", "gpu"
 tauri-plugin-shell = "2"
 
 [profile.release]
-opt-level = "s"
+# Velocidad antes que tamaño: el núcleo numérico (rayon, GPU) va dentro de la app.
+opt-level = 3
 lto = true
 codegen-units = 1
 strip = true

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowUpRight } from "@phosphor-icons/react";
 import { Flags } from "./Flags";
 import { Rating } from "./Rating";
+import { getJSON, shardDe } from "@/lib/datos";
 
 type Paper = {
   id: string; title: string; authors: string[]; year: number; venue: string; doi: string | null; arxiv: string | null;
@@ -32,15 +33,13 @@ export function PaperViewer({ lang, labels, ratingLabels }: { lang: string; labe
       setErr(labels.empty);
       return;
     }
-    fetch("/library/static-ids.json")
-      .then((r) => (r.ok ? r.json() : []))
-      .then((ids: string[]) => {
+    getJSON<string[]>("/library/static-ids.json")
+      .then((ids) => {
         if (ids.includes(id)) location.replace(`/${lang}/biblioteca/${id}/`); // tiene página completa
       })
       .catch(() => {});
-    fetch(`/library/p/${/^[a-z0-9]/.test(id) ? id[0] : "_"}.json`)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(labels.empty))))
-      .then((all: Record<string, Paper>) => all[id] ?? Promise.reject(new Error(labels.empty)))
+    getJSON<Record<string, Paper>>(shardDe(id), "high")
+      .then((all) => all[id] ?? Promise.reject(new Error(labels.empty)), () => Promise.reject(new Error(labels.empty)))
       .then((d: Paper) => {
         setP(d);
         document.title = `${d.title} · Curvatura`;

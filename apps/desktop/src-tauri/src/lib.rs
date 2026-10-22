@@ -22,8 +22,7 @@ fn core_info() -> CoreInfo {
     CoreInfo { version: env!("CARGO_PKG_VERSION"), target: std::env::consts::ARCH }
 }
 
-#[tauri::command]
-fn total_energy(v: f64, r: f64, sigma: f64) -> f64 {
+fn total_energy_sync(v: f64, r: f64, sigma: f64) -> f64 {
     alcubierre::total_energy(&Params { v, r, sigma })
 }
 
@@ -33,8 +32,7 @@ struct Field {
     rho: Vec<f64>,
 }
 
-#[tauri::command]
-fn field_plane(v: f64, r: f64, sigma: f64, half: f64, n: usize) -> Result<Field, String> {
+fn field_plane_sync(v: f64, r: f64, sigma: f64, half: f64, n: usize) -> Result<Field, String> {
     if n == 0 || n > 4096 {
         return Err(format!("n fuera de rango (1..=4096): {n}"));
     }
@@ -51,8 +49,7 @@ fn gpu() -> Option<&'static curvatura_core::gpu::Gpu> {
 
 /// θ y ρ_E en binario (sin JSON): cabecera u32 con el motor (1 GPU, 0 CPU) y luego 2·n² f32.
 /// Elige la GPU para mapas grandes y todos los núcleos de la CPU para los pequeños.
-#[tauri::command]
-fn field_plane_bin(v: f64, r: f64, sigma: f64, half: f64, n: usize, motor: Option<String>) -> Result<tauri::ipc::Response, String> {
+fn field_plane_bin_sync(v: f64, r: f64, sigma: f64, half: f64, n: usize, motor: Option<String>) -> Result<tauri::ipc::Response, String> {
     if n == 0 || n > 8192 {
         return Err(format!("n fuera de rango (1..=8192): {n}"));
     }
@@ -85,8 +82,7 @@ struct Hardware {
 }
 
 /// Qué hay en este equipo para calcular: núcleos de CPU y GPU utilizable.
-#[tauri::command]
-fn hardware() -> Hardware {
+fn hardware_sync() -> Hardware {
     Hardware {
         hilos: std::thread::available_parallelism().map(|n| n.get()).unwrap_or(1),
         gpu: gpu().map(|g| g.nombre.clone()),
@@ -101,8 +97,7 @@ struct Path {
     d_h: f64,
 }
 
-#[tauri::command]
-fn trace_geodesic(v: f64, r: f64, sigma: f64, x0: f64, y0: f64, h: f64, steps: usize) -> Result<Path, String> {
+fn trace_geodesic_sync(v: f64, r: f64, sigma: f64, x0: f64, y0: f64, h: f64, steps: usize) -> Result<Path, String> {
     if steps == 0 || steps > 2_000_000 {
         return Err(format!("steps fuera de rango: {steps}"));
     }
@@ -242,6 +237,34 @@ async fn python_run(app: tauri::AppHandle, codigo: String, limite_s: Option<u64>
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
+/// Comando asíncrono: el cálculo corre en un hilo de trabajo y la ventana nunca se congela.
+#[tauri::command]
+async fn field_plane(v: f64, r: f64, sigma: f64, half: f64, n: usize) -> Result<Field, String> {
+    tauri::async_runtime::spawn_blocking(move || field_plane_sync(v, r, sigma, half, n)).await.map_err(|e| e.to_string())?
+}
+
+/// Comando asíncrono: el cálculo corre en un hilo de trabajo y la ventana nunca se congela.
+#[tauri::command]
+async fn field_plane_bin(v: f64, r: f64, sigma: f64, half: f64, n: usize, motor: Option<String>) -> Result<tauri::ipc::Response, String> {
+    tauri::async_runtime::spawn_blocking(move || field_plane_bin_sync(v, r, sigma, half, n, motor)).await.map_err(|e| e.to_string())?
+}
+
+/// Comando asíncrono: el cálculo corre en un hilo de trabajo y la ventana nunca se congela.
+#[tauri::command]
+async fn trace_geodesic(v: f64, r: f64, sigma: f64, x0: f64, y0: f64, h: f64, steps: usize) -> Result<Path, String> {
+    tauri::async_runtime::spawn_blocking(move || trace_geodesic_sync(v, r, sigma, x0, y0, h, steps)).await.map_err(|e| e.to_string())?
+}
+
+#[tauri::command]
+async fn total_energy(v: f64, r: f64, sigma: f64) -> Result<f64, String> {
+    tauri::async_runtime::spawn_blocking(move || total_energy_sync(v, r, sigma)).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+async fn hardware() -> Result<Hardware, String> {
+    tauri::async_runtime::spawn_blocking(hardware_sync).await.map_err(|e| e.to_string())
+}
+
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
@@ -250,6 +273,18 @@ pub fn run() {
         .plugin(tauri_plugin_process::init())
         .plugin(tauri_plugin_shell::init())
         .setup(|app| {
+            // La GPU (Metal, DirectX 12, Vulkan) se prepara en segundo plano al arrancar: el primer mapa sale al instante.
+            std::thread::spawn(|| {
+                let _ = gpu();
+            });
+            // Respaldo: si la página tardase, la ventana se muestra igualmente a los 3 s.
+            if let Some(w) = app.get_webview_window("main") {
+                let w = w.clone();
+                std::thread::spawn(move || {
+                    std::thread::sleep(std::time::Duration::from_secs(3));
+                    let _ = w.show();
+                });
+            }
             if !cfg!(debug_assertions) {
                 let handle = app.handle().clone();
                 tauri::async_runtime::spawn(async move {
@@ -262,6 +297,12 @@ pub fn run() {
                 });
             }
             Ok(())
+        })
+        // La ventana nace oculta y se muestra cuando la página ya está pintada: sin pantallazo en blanco.
+        .on_page_load(|webview, payload| {
+            if payload.event() == tauri::webview::PageLoadEvent::Finished {
+                let _ = webview.window().show();
+            }
         })
         .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, field_plane_bin, hardware, trace_geodesic, python_info, python_setup, python_run])
         .run(tauri::generate_context!())

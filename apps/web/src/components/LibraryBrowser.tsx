@@ -1,9 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { MagnifyingGlass } from "@phosphor-icons/react";
+import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { Flags } from "./Flags";
+import { getJSON, INDICE_BIBLIOTECA, precargar, shardDe } from "@/lib/datos";
 
 type Row = { st: 0 | 1; te: string | null; tf: string | null; f: string[]; id: string; t: string; a: string[]; y: number; v: string; k: string; s: string[]; o: 0 | 1; c: number; ab: 0 | 1; r: 0 | 1 | 2 };
 
@@ -13,7 +16,6 @@ type Labels = {
 };
 
 const SUBSYSTEMS = ["G", "C", "E", "S", "D", "Q", "M", "P", "V"];
-const PAGE = 60;
 
 function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
@@ -53,15 +55,11 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
   const [rows, setRows] = useState<Row[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [st, set] = useUrlState();
-  const [limit, setLimit] = useState(PAGE);
   const query = useDeferredValue(st.q.trim().toLowerCase());
 
   useEffect(() => {
-    fetch("/library/index.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
-      .then(setRows, (e: Error) => setError(e.message));
+    getJSON<Row[]>(INDICE_BIBLIOTECA, "high").then(setRows, (e: Error) => setError(e.message));
   }, []);
-  useEffect(() => setLimit(PAGE), [query, st.s, st.k, st.c, st.o, st.all, st.core, st.sort]);
 
   const list = useMemo(() => {
     if (!rows) return [];
@@ -152,37 +150,58 @@ export function LibraryBrowser({ lang, labels, names }: { lang: string; labels: 
         </ul>
       )}
       {rows && list.length === 0 && <p className="card p-10 text-center text-muted">{labels.empty}</p>}
-      {rows && list.length > 0 && (
-        <>
-          <ul className="border-t border-line">
-            {list.slice(0, limit).map((r) => (
-              <li key={r.id} className="[content-visibility:auto] [contain-intrinsic-size:auto_88px]">
-                <Link href={r.st ? `/${lang}/biblioteca/${r.id}/` : `/${lang}/biblioteca/ver/?id=${encodeURIComponent(r.id)}`} className="group grid gap-1.5 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
-                  <span className="font-mono text-sm text-muted md:col-span-1">{r.y}</span>
-                  <span className="grid gap-1 md:col-span-8">
-                    <span className="text-[1.05rem] text-fg group-hover:text-fg-2">{title(r)}</span>
-                    <span className="flex min-w-0 items-center gap-3 text-sm text-muted">
-                      <Flags codes={r.f ?? []} lang={lang} />
-                      <span className="line-clamp-1">{r.a.join(", ")}</span>
-                    </span>
-                  </span>
-                  <span className="flex flex-wrap items-center gap-1.5 md:col-span-3 md:justify-end">
-                    {r.r === 2 && <span className="tag tag-blue">{labels.core}</span>}
-                    {r.o === 1 && <span className="tag tag-green">{labels.fulltext}</span>}
-                    <span className="tag">{labels.kinds[r.k] ?? r.k}</span>
-                    <span className="font-mono text-xs text-muted">{r.s.join(" ")}</span>
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-          {limit < list.length && (
-            <button type="button" onClick={() => setLimit((l) => l + PAGE)} className="mx-auto h-11 rounded-md border border-line bg-surface px-5 text-sm text-fg hover:border-line-strong">
-              {labels.more} ({list.length - limit})
-            </button>
-          )}
-        </>
-      )}
+      {rows && list.length > 0 && <Lista list={list} lang={lang} labels={labels} title={title} />}
     </div>
+  );
+}
+
+/**
+ * Lista virtualizada sobre el scroll de la ventana: solo existen en el DOM las filas visibles y un
+ * margen generoso por arriba y por abajo (overscan), ya medidas y pintadas antes de entrar en pantalla.
+ * Al acercar el ratón o el foco a una fila se precarga su ficha.
+ */
+function Lista({ list, lang, labels, title }: { list: Row[]; lang: string; labels: Labels; title: (r: Row) => string }) {
+  const ul = useRef<HTMLUListElement>(null);
+  const [margen, setMargen] = useState(0);
+  useLayoutEffect(() => {
+    const medir = () => setMargen((ul.current?.getBoundingClientRect().top ?? 0) + window.scrollY);
+    medir();
+    const ro = new ResizeObserver(medir);
+    ro.observe(document.body);
+    return () => ro.disconnect();
+  }, []);
+  const v = useWindowVirtualizer({ count: list.length, estimateSize: () => 96, overscan: 12, scrollMargin: margen });
+  const href = (r: Row) => (r.st ? `/${lang}/biblioteca/${r.id}/` : `/${lang}/biblioteca/ver/?id=${encodeURIComponent(r.id)}`);
+  const router = useRouter();
+  // Al acercarse a una fila: su página (estática) o los datos de su ficha (visor) quedan cargados antes del clic.
+  const pre = (r: Row) => () => (r.st ? router.prefetch(href(r)) : precargar(shardDe(r.id)));
+  return (
+    <ul ref={ul} className="relative border-t border-line" style={{ height: v.getTotalSize() }}>
+      {v.getVirtualItems().map((it) => {
+        const r = list[it.index];
+        return (
+          <li key={r.id} data-index={it.index} ref={v.measureElement} className="absolute inset-x-0 top-0"
+            style={{ transform: `translateY(${it.start - v.options.scrollMargin}px)` }}>
+            <Link href={href(r)} prefetch={false} onPointerEnter={pre(r)} onFocus={pre(r)}
+              className="group grid gap-1.5 border-b border-line py-5 md:grid-cols-12 md:items-baseline md:gap-8">
+              <span className="font-mono text-sm text-muted md:col-span-1">{r.y}</span>
+              <span className="grid gap-1 md:col-span-8">
+                <span className="text-[1.05rem] text-fg group-hover:text-fg-2">{title(r)}</span>
+                <span className="flex min-w-0 items-center gap-3 text-sm text-muted">
+                  <Flags codes={r.f ?? []} lang={lang} />
+                  <span className="line-clamp-1">{r.a.join(", ")}</span>
+                </span>
+              </span>
+              <span className="flex flex-wrap items-center gap-1.5 md:col-span-3 md:justify-end">
+                {r.r === 2 && <span className="tag tag-blue">{labels.core}</span>}
+                {r.o === 1 && <span className="tag tag-green">{labels.fulltext}</span>}
+                <span className="tag">{labels.kinds[r.k] ?? r.k}</span>
+                <span className="font-mono text-xs text-muted">{r.s.join(" ")}</span>
+              </span>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }

@@ -3,7 +3,11 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-/** Activa `.reveal` al entrar en pantalla. Un único observador para toda la página. */
+/**
+ * Activa `.reveal` ANTES de que el bloque entre en pantalla (margen de una pantalla y media por debajo),
+ * así la transición ya ha terminado cuando el usuario llega y nada «aparece» al hacer scroll.
+ * Un único observador para toda la página.
+ */
 export function RevealObserver() {
   const pathname = usePathname();
   useEffect(() => {
@@ -16,7 +20,7 @@ export function RevealObserver() {
             io.unobserve(e.target);
           }
         }),
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 },
+      { rootMargin: "0px 0px 150% 0px", threshold: 0 },
     );
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
