@@ -223,6 +223,7 @@ export async function modelosOpenAI(clave: string): Promise<string[]> {
 const PROTOCOLO_TEXTO = `
 
 Herramientas: ${TOOLS.map((t) => `${t.name}: ${t.description} Entrada: ${JSON.stringify(t.input_schema)}`).join("\n")}
+Nunca inventes papers, autores ni cifras: cita solo ids que aparezcan en resultados de herramientas o en <fuentes>.
 Para usar una herramienta escribe SOLO una línea así y espera el resultado:
 <herramienta>{"nombre": "buscar_biblioteca", "entrada": {"consulta": "quantum inequality"}}</herramienta>`;
 
@@ -234,6 +235,9 @@ function separarPensamiento(t: string): { pensado: string; texto: string } {
 /** Bucle de herramientas: llama al modelo, ejecuta lo que pida y repite hasta que conteste sin pedir nada. */
 async function bucleOAI(historial: OaiMsg[], ctx: Contexto, completar: Completar, o: Opciones, porTexto = false): Promise<OaiMsg[]> {
   const mensajes: OaiMsg[] = [...historial];
+  let reintento = false;
+  // Los modelos del navegador tienen poco contexto: resultados de herramientas más cortos.
+  const recorte = porTexto ? 2500 : 12000;
   const pasos: Paso[] = [];
   const emitir = () => o.onPaso(pasos.map((p) => ({ ...p })));
   for (let vuelta = 0; vuelta < 16; vuelta++) {
@@ -247,7 +251,8 @@ async function bucleOAI(historial: OaiMsg[], ctx: Contexto, completar: Completar
       }
       if (d.texto) {
         bruto += d.texto;
-        const { pensado, texto: limpio } = separarPensamiento(bruto.replace(/<herramienta>[\s\S]*$/, ""));
+        // Fuera las llamadas a herramientas (también la que está a medio escribir: «<herr…»).
+        const { pensado, texto: limpio } = separarPensamiento(bruto.replace(/<herramienta>[\s\S]*$/, "").replace(/<h?e?r?r?a?m?i?e?n?t?a?$/, "").replace(/<$/, ""));
         if (pensado) {
           if (!pensando) pasos.push((pensando = { tipo: "pensando", texto: "" }));
           pensando.texto = pensado;
@@ -271,7 +276,15 @@ async function bucleOAI(historial: OaiMsg[], ctx: Contexto, completar: Completar
     mensajes.push(porTexto
       ? { role: "assistant", content: r.texto }
       : { role: "assistant", content: r.texto || null, ...(llamadas.length ? { tool_calls: llamadas.map((h) => ({ id: h.id, type: "function" as const, function: { name: h.nombre, arguments: h.argumentos } })) } : {}) });
-    if (!llamadas.length) break;
+    if (!llamadas.length) {
+      // Un modelo pequeño a veces se queda razonando sin responder: se le pide la respuesta una vez.
+      if (!separarPensamiento(r.texto).texto.trim() && !reintento) {
+        reintento = true;
+        mensajes.push({ role: "user", content: "Escribe ya la respuesta final, breve, con lo que has encontrado y citando los ids entre corchetes." });
+        continue;
+      }
+      break;
+    }
     const resultados: string[] = [];
     for (const h of llamadas) {
       let entrada: Record<string, unknown> = {};
@@ -287,8 +300,9 @@ async function bucleOAI(historial: OaiMsg[], ctx: Contexto, completar: Completar
         paso.resultado = err instanceof Error ? err.message : String(err);
       }
       emitir();
-      if (porTexto) resultados.push(`<resultado nombre="${h.nombre}">\n${paso.resultado}\n</resultado>`);
-      else mensajes.push({ role: "tool", tool_call_id: h.id, content: paso.resultado ?? "" });
+      const contenido = (paso.resultado ?? "").slice(0, recorte);
+      if (porTexto) resultados.push(`<resultado nombre="${h.nombre}">\n${contenido}\n</resultado>`);
+      else mensajes.push({ role: "tool", tool_call_id: h.id, content: contenido });
     }
     if (porTexto) mensajes.push({ role: "user", content: resultados.join("\n") });
   }
@@ -318,7 +332,8 @@ const completarNavegador = (modelo: string, progreso: (f: number, t: string) => 
   const parar = () => m.interruptGenerate();
   senal.addEventListener("abort", parar, { once: true });
   const acc: Llamada = { texto: "", razonamiento: "", herramientas: [] };
-  const flujo = await m.chat.completions.create({ messages: mensajes, stream: true, temperature: 0.6 });
+  // Sin razonamiento largo: en el navegador el contexto y la velocidad son justos.
+  const flujo = await m.chat.completions.create({ messages: mensajes, stream: true, temperature: 0.6, max_tokens: 1800, extra_body: { enable_thinking: false } });
   for await (const c of flujo) {
     const t = c.choices[0]?.delta?.content;
     if (t) { acc.texto += t; delta({ texto: t }); }
@@ -510,8 +525,15 @@ export async function investigar(s: Sesion, pregunta: string, ctx: Contexto, o: 
       return { ...base, oai: await bucleOAI(conPregunta(base.oai, ctx, pregunta, false), ctx, completarOllama(o.modelo), o) };
     }
     case "navegador": {
+      // Un modelo pequeño no siempre decide buscar: se busca antes en la biblioteca y se le dan las fuentes.
       const modelo = o.modelo || MODELOS_NAVEGADOR[0].id;
-      return { ...base, oai: await bucleOAI(conPregunta(base.oai, ctx, pregunta, true), ctx, completarNavegador(modelo, (f, t) => o.onEstado?.(`${Math.round(f * 100)} % · ${t}`)), o, true) };
+      const previo: Paso = { tipo: "herramienta", nombre: "buscar_biblioteca", entrada: { consulta: pregunta } };
+      o.onPaso([previo]);
+      try { previo.resultado = await ejecutarHerramienta("buscar_biblioteca", { consulta: pregunta, max: 6 }, ctx); }
+      catch (err) { previo.resultado = err instanceof Error ? err.message : String(err); previo.error = true; }
+      const conFuentes = `${pregunta}\n\n<fuentes>\n${(previo.resultado ?? "").slice(0, 3500)}\n</fuentes>\nResponde con estas fuentes (pide más con una herramienta si hace falta). Cita solo ids que aparezcan en ellas; si no bastan, dilo. No inventes papers ni cifras.`;
+      const onPaso = (pasos: Paso[]) => o.onPaso([previo, ...pasos]);
+      return { ...base, oai: await bucleOAI(conPregunta(base.oai, ctx, conFuentes, true), ctx, completarNavegador(modelo, (f, t) => o.onEstado?.(`${Math.round(f * 100)} % · ${t}`)), { ...o, onPaso }, true) };
     }
   }
 }

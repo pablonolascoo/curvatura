@@ -238,7 +238,8 @@ def guardar_indice() -> None:
             "inventores": p.get("inventores", []),
             "titular": p.get("titular", ""),
             "oficina": p.get("oficina") or p["numero"][:2],
-            "paises_prioridad": p.get("paises_prioridad", []),
+            # «Priority to PCT/US…» llega como «PC»: es una solicitud internacional (OMPI).
+            "paises_prioridad": sorted({"WO" if c == "PC" else c for c in p.get("paises_prioridad", [])}),
             "estado": p.get("estado", ""),
             "cpc": p.get("cpc", [])[:8],
             "palabras": p.get("palabras", [])[:8],
