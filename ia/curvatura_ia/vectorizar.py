@@ -117,6 +117,36 @@ def modelo_imagen_texto():
     return _imgtxt
 
 
+def imagen_valida(ruta: Path) -> bool:
+    """La imagen existe y se puede abrir (hay PNG de papers con perfiles ICC rotos o gigantes)."""
+    from PIL import Image
+
+    Image.MAX_IMAGE_PIXELS = 400_000_000
+    try:
+        with Image.open(ruta) as im:
+            im.verify()
+        return True
+    except Exception:
+        return False
+
+
+def vec_imagenes(imgs: list[dict]) -> list:
+    """Vectores de imagen por lotes; si un lote falla, se repite de una en una y se saltan las rotas."""
+    out: list = []
+    rutas = [str(DATOS / im["ruta"]) for im in imgs]
+    for i in range(0, len(rutas), 16):
+        lote = rutas[i:i + 16]
+        try:
+            out += list(modelo_imagen().embed(lote, batch_size=16))
+        except Exception:
+            for r in lote:
+                try:
+                    out += list(modelo_imagen().embed([r], batch_size=1))
+                except Exception:
+                    out.append(None)
+    return out
+
+
 def vec_texto(textos: list[str], consulta: bool = False):
     import numpy as np
 
@@ -370,8 +400,10 @@ def main() -> int:
             _escribir("fragmentos", filas, claves, vec_texto([f["texto"][:2400] for f in filas]) if filas else [], con)
             n_frag += len(filas)
         if con_img:
-            ok = [im for im in imgs if (DATOS / im["ruta"]).exists()]
-            vec = np.array(list(modelo_imagen().embed([str(DATOS / im["ruta"]) for im in ok], batch_size=16)), dtype="float32") if ok else []
+            ok = [im for im in imgs if imagen_valida(DATOS / im["ruta"])]
+            vec = vec_imagenes(ok)
+            ok = [im for im, v in zip(ok, vec) if v is not None]
+            vec = np.array([v for v in vec if v is not None], dtype="float32") if ok else []
             if len(vec):
                 vec = vec / np.maximum(np.linalg.norm(vec, axis=1, keepdims=True), 1e-9)
             _escribir("imagenes", ok, claves, vec, con)
