@@ -120,6 +120,13 @@ El Neural Engine de Apple (vía CoreML) se probó: con el modelo de vectores es 
 
 En Windows, para usar la GPU o la NPU con DirectML: `uv pip install onnxruntime-directml` dentro de `ia/` (sustituye a `onnxruntime`).
 
+## Memoria: un solo modelo cargado
+
+Cada proceso que busca carga el modelo de vectores (unos 2,5 GB). Varios a la vez agotan la memoria de un equipo de 16 GB.
+- Para agentes y Claude Code, usa el servidor MCP: un proceso compartido.
+- En la terminal, deja abierta `curvatura-ia web`: `curvatura-ia herramienta …` le pasa las consultas y no carga otro modelo.
+- No vectorices mientras trabajan varios agentes.
+
 ## Licencias y datos
 
 - `datos/` no entra en git. El texto completo de papers sin licencia abierta es para investigación privada: cada persona lo descarga en su equipo con estas herramientas. Lo público es el código, los metadatos y el índice bibliográfico de patentes (`library/patentes/indice.yaml`).

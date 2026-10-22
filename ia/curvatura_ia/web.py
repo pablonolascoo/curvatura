@@ -72,6 +72,13 @@ class Manejador(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
+        if self.path == "/api/herramienta":  # la terminal reutiliza el modelo ya cargado aquí
+            from .herramientas import ejecutar
+            n = int(self.headers.get("Content-Length") or 0)
+            d = json.loads(self.rfile.read(n) or b"{}")
+            texto, imgs = ejecutar(d.get("nombre", ""), d.get("args") or {})
+            self._json({"texto": texto, "imagenes": imgs})
+            return
         if self.path != "/api/preguntar":
             self.send_error(404)
             return

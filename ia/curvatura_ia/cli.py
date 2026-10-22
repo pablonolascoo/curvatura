@@ -38,6 +38,24 @@ def _imprimir_evento(tipo: str, d: dict) -> None:
         print(f"{gris}  · {d['texto'][:200]}{fin}", flush=True)
 
 
+def _remota(nombre: str, args: dict):
+    """Si la web local está abierta (curvatura-ia web), se usa su modelo ya cargado: cada proceso nuevo
+    cargaría ~2,5 GB y varios a la vez agotan la memoria del equipo."""
+    import os
+    import urllib.request
+
+    puerto = os.environ.get("CURVATURA_PUERTO", "8765")
+    try:
+        req = urllib.request.Request(f"http://127.0.0.1:{puerto}/api/herramienta", method="POST",
+                                     data=json.dumps({"nombre": nombre, "args": args}).encode(),
+                                     headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=600) as r:
+            d = json.loads(r.read())
+        return d["texto"], d.get("imagenes", [])
+    except Exception:
+        return None
+
+
 def vigilar() -> int:
     """Un ciclo de vigilancia. Programado (launchd, cron o GitHub Actions) mantiene la base al día."""
     import shutil
@@ -102,7 +120,8 @@ def main(argv: list[str] | None = None) -> int:
             for h in REGISTRO.values():
                 print(f"{h.nombre:<22} {h.descripcion[:110]}")
             return 0
-        texto, imgs = ejecutar(resto[0], json.loads(resto[1]) if len(resto) > 1 else {})
+        args = json.loads(resto[1]) if len(resto) > 1 else {}
+        texto, imgs = _remota(resto[0], args) or ejecutar(resto[0], args)
         print(texto)
         for r in imgs:
             print(f"[imagen] {r}")
