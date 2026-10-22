@@ -37,22 +37,26 @@ function useUrlState() {
     const u = new URLSearchParams(window.location.search);
     setSt({ q: u.get("q") ?? "", s: u.get("s") ?? "", k: u.get("k") ?? "", c: u.get("c") ?? "", o: u.get("o") === "1", all: u.get("all") === "1", core: u.get("core") === "1", sort: u.get("sort") === "cited" ? "cited" : "recent", g: u.get("g") ? Number(u.get("g")) : null });
   }, []);
-  const update = (patch: Partial<typeof st>) =>
-    setSt((prev) => {
-      const next = { ...prev, ...patch };
-      const u = new URLSearchParams();
-      if (next.q) u.set("q", next.q);
-      if (next.s) u.set("s", next.s);
-      if (next.k) u.set("k", next.k);
-      if (next.c) u.set("c", next.c);
-      if (next.o) u.set("o", "1");
-      if (next.all) u.set("all", "1");
-      if (next.core) u.set("core", "1");
-      if (next.g !== null) u.set("g", String(next.g));
-      if (next.sort !== "recent") u.set("sort", next.sort);
-      history.replaceState(null, "", `${location.pathname}${u.size ? `?${u}` : ""}`);
-      return next;
-    });
+  // La URL se escribe fuera del actualizador de estado: Next intercepta history.replaceState y
+  // actualizarla durante el render del estado provoca «Cannot update a component while rendering».
+  const actual = useRef(st);
+  actual.current = st;
+  const update = (patch: Partial<typeof st>) => {
+    const next = { ...actual.current, ...patch };
+    actual.current = next;
+    const u = new URLSearchParams();
+    if (next.q) u.set("q", next.q);
+    if (next.s) u.set("s", next.s);
+    if (next.k) u.set("k", next.k);
+    if (next.c) u.set("c", next.c);
+    if (next.o) u.set("o", "1");
+    if (next.all) u.set("all", "1");
+    if (next.core) u.set("core", "1");
+    if (next.g !== null) u.set("g", String(next.g));
+    if (next.sort !== "recent") u.set("sort", next.sort);
+    history.replaceState(history.state, "", `${location.pathname}${u.size ? `?${u}` : ""}`);
+    setSt(next);
+  };
   return [st, update] as const;
 }
 

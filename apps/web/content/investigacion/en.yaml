@@ -1,0 +1,66 @@
+# Research status (session 1, 2026-10-22). Source: docs/investigacion/soluciones.md.
+fecha: "2026-10-22"
+camino:
+  titulo: The path that survives
+  texto: "A subluminal positive-energy shell, assembled already in motion and never faster than light. It is not a useful drive yet: 0.02 c, with masses of a fraction of Jupiter. But it is the only thing today that meets every energy condition."
+  piezas:
+    - nombre: Minimum shell mass
+      estado: viva
+      cifra: "M ≳ ⅔·β·R₁·c²/G plus a wall term: ≈ 0.18 M_J for β = 0.02 (Fuchs reports 2.37)."
+      siguiente: 1D optimiser with LMI certificates for the prefactor M/(β·R₁).
+      informe: b-masa-cascara
+    - nombre: Start without acceleration
+      estado: viva
+      cifra: "Assemble the shell already moving: lower bound 8.07×10⁴⁰ J at v = 0.02 (~101 times less than a photon rocket)."
+      siguiente: 1+1 spherical collapse of a shell into the Fuchs one.
+      informe: c-aceleracion
+    - nombre: Subluminal regime
+      estado: viva
+      cifra: "No horizon and no divergence of the renormalised stress tensor; bow Doppler ≤ 4.36 for β ≤ 0.9."
+      siguiente: ""
+      informe: d-horizontes
+    - nombre: Shell matter
+      estado: conflicto
+      cifra: "At nuclear density ~3.5 orders are missing for R = 100 m, and the mass rises to 3–7.7 M_J: it clashes with the light shell."
+      siguiente: Anisotropic TOV with a nuclear equation of state and maximum β.
+      informe: e-fuente-material
+    - nombre: Spin and torsion (Einstein-Cartan)
+      estado: lejana
+      cifra: "Bubble matter satisfies NEC and WEC; spin density is short by 4.3×10²⁴ against polarised nuclear matter."
+      siguiente: Total spin in a Van Den Broeck-type bubble.
+      informe: a-energia-negativa
+    - nombre: The "breathing" bubble
+      estado: teorica
+      cifra: "κ = 2σ(1 − 1/v) confirmed; with phases at 0.9 c and gain ≤ 10, 1.93 c on average (optimistic)."
+      siguiente: Renormalised stress tensor with periodic v(t) in 1+1.
+      informe: d-horizontes
+leyes:
+  - titulo: Quantum negative energy
+    texto: "|ρ| ≲ ħc/L⁴. A 100 m bubble at 0.1 c would need L ≲ 0.2 fm. Casimir at 10 nm is ~35 orders short."
+    informe: e-fuente-material
+  - titulo: Stacked Casimir
+    texto: "With real plates (≥ 10⁻⁶ kg/m², gaps ≥ 1 Å) the stack never violates the averaged NEC: the plates pay the cost (Z3 proof)."
+    informe: a-energia-negativa
+  - titulo: Horizon
+    texto: "An isolated bubble at v > 1 on a flat exterior always has a horizon. Only a prior Krasnikov-type tube avoids it, by moving the cost."
+    informe: d-horizontes
+  - titulo: Momentum
+    texto: "With positive energy and no flux at infinity, the ADM momentum does not change: accelerating needs exhaust or a third body."
+    informe: c-aceleracion
+  - titulo: Laboratory materials
+    texto: "Maximum drag ≈ 12σ/(ρc): between 0.2 and 4 m/s, whatever the size."
+    informe: b-masa-cascara
+descartadas:
+  - Casimir plates as a macroscopic source
+  - Gravitational-wave rocket
+  - Charged shell (moves the cost to the Schwinger limit)
+  - Van Den Broeck without negative energy
+  - Nested shells
+  - Non-minimal scalar (needs a field 14–16 orders above the Higgs)
+objeciones:
+  - "The Fuchs solution is disputed (Barzegar 2026) and may add nothing over an ordinary shell (Idrissov 2026)."
+  - Non-radial instability of the shell, not yet studied.
+  - "\"Lighter\" and \"nuclear matter\" clash: mass and equation of state must be solved together."
+experimentos:
+  - Test the electromagnetic quantum inequality with light squeezed to −15 dB.
+  - Laboratory analogues (fluids, condensates) for the kinematics of the breathing bubble.

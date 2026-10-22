@@ -24,6 +24,19 @@ export type ProtoLabels = {
   sketch: string; obstacles: string; view3d: string; generated: string;
 };
 
+/** Porcentaje representativo: «5.5-6.75» → punto medio, «≤ 0.40» → 0,40, «resto» → lo que falta hasta 100. */
+function porcentajes(comp: { elemento: string; porcentaje_masa: number | string }[]): number[] {
+  const v = comp.map((c) => {
+    const t = String(c.porcentaje_masa).replace(/,/g, ".");
+    const nums = [...t.matchAll(/\d+(?:\.\d+)?/g)].map((m) => Number(m[0]));
+    if (!nums.length) return NaN; // «resto»
+    return nums.length >= 2 ? (nums[0] + nums[1]) / 2 : nums[0];
+  });
+  const resto = Math.max(0, 100 - v.filter(Number.isFinite).reduce((a, b) => a + b, 0));
+  const huecos = v.filter((x) => !Number.isFinite(x)).length;
+  return v.map((x) => (Number.isFinite(x) ? x : huecos ? resto / huecos : 0));
+}
+
 const TONO: Record<string, string> = { calculado: "tag-green", boceto: "tag-yellow", abierto: "tag-red" };
 
 function Fuente({ f }: { f?: string }) {
@@ -92,12 +105,12 @@ export function PrototipoVista({ niveles, piezas, labels, generado }: { niveles:
                     {p.material.composicion.length > 0 && (
                       <div className="grid gap-1.5" aria-label={labels.composition}>
                         <div className="flex h-2 overflow-hidden rounded-full bg-gray-bg">
-                          {p.material.composicion.map((c, i) => {
-                            const v = Number(String(c.porcentaje_masa).replace(",", "."));
-                            return Number.isFinite(v) && v > 0 ? <span key={c.elemento} style={{ width: `${v}%`, background: `hsl(${(i * 61) % 360} 30% ${55 + (i % 3) * 8}%)` }} /> : null;
-                          })}
+                          {porcentajes(p.material.composicion).map((v, i) => (v > 0 ? (
+                            <span key={p.material!.composicion[i].elemento} title={`${p.material!.composicion[i].elemento} ${p.material!.composicion[i].porcentaje_masa}%`}
+                              style={{ width: `${v}%`, background: `hsl(${(i * 61) % 360} 30% ${55 + (i % 3) * 8}%)` }} />
+                          ) : null))}
                         </div>
-                        <p className="font-mono text-xs text-muted">{p.material.composicion.map((c) => `${c.elemento} ${c.porcentaje_masa}%`).join(" · ")}</p>
+                        <p className="font-mono text-xs text-muted">{p.material.composicion.map((c) => `${c.elemento} ${c.porcentaje_masa}${/\d/.test(String(c.porcentaje_masa)) ? "%" : ""}`).join(" · ")}</p>
                       </div>
                     )}
                     {p.material.por_que && <p className="text-sm leading-relaxed text-fg-2"><span className="text-muted">{labels.why}: </span>{p.material.por_que}</p>}

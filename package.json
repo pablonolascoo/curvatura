@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "cd apps/web && bun run dev",
     "build": "cd apps/web && bun run build",
-    "test": "bun scripts/check-readmes.ts && bun --filter '@curvatura/formula' test && uv --directory physics run pytest -q && cargo test --release -q --manifest-path solvers/rust/Cargo.toml && make -C solvers/cpp test",
+    "test": "bun scripts/check-readmes.ts && bun --filter '@curvatura/formula' test && bun --filter web test && uv --directory physics run pytest -q && cargo test --release -q --manifest-path solvers/rust/Cargo.toml && make -C solvers/cpp test",
     "deploy": "bun scripts/deploy.ts",
     "desktop": "cd apps/desktop && bun run dev",
     "desktop:build": "cd apps/desktop && bun run build",

@@ -46,6 +46,6 @@ self.onmessage = async (e: MessageEvent<{ tipo: "preparar" } | { tipo: "buscar";
       .slice(0, 40);
     self.postMessage({ tipo: "resultados", n: m.n, res });
   } catch (err) {
-    self.postMessage({ tipo: "error", error: String(err) });
+    self.postMessage({ tipo: "error", n: "n" in m ? m.n : null, error: String(err) });
   }
 };

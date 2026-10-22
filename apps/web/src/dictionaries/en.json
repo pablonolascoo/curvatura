@@ -280,7 +280,7 @@
   },
   "lab": {
     "title": "Lab",
-    "body": "The project's systems running in your browser. Rust in WebAssembly, Python with Pyodide and the formula engine.",
+    "body": "An AI-powered research lab. Pose a problem: the AI searches the library, computes with the project's equations and tells you what survives. Below, the state of the research and the numerical tools.",
     "core": "Numerical core",
     "coreBody": "Expansion field computed in Rust compiled to WebAssembly. Click the map to drop a particle and follow its geodesic.",
     "python": "Python",
@@ -308,7 +308,90 @@
     "browser": "Browser",
     "installNative": "Install native Python",
     "installingNative": "Installing Python 3.12, numpy, sympy, scipy and matplotlib…",
-    "nativeBody": "Python 3.12 installed in the app folder, with the physics/ package. Faster than the browser and without its memory limit."
+    "nativeBody": "Python 3.12 installed in the app folder, with the physics/ package. Faster than the browser and without its memory limit.",
+    "nav": {
+      "ai": "AI researcher",
+      "board": "Board",
+      "tools": "Tools"
+    },
+    "ai": {
+      "title": "AI researcher",
+      "body": "Ask as you would ask a colleague. The AI searches the ~3,400 papers in the library, opens the ones that matter, computes every figure with the formula engine and ends with a verdict: alive, clashes with a law, or discarded.",
+      "keyLabel": "Anthropic API key (sk-ant-…)",
+      "keyHint": "The key is stored only on this device and goes straight to Anthropic. It never touches Curvatura's servers.",
+      "keyGet": "Create a key in the Anthropic console",
+      "keySave": "Save key",
+      "keyForget": "Forget key",
+      "keyOk": "Key ready",
+      "keyBad": "The key is not valid or has no access. Check it and try again.",
+      "model": "Model",
+      "effort": "Depth",
+      "efforts": {
+        "low": "fast",
+        "medium": "medium",
+        "high": "high",
+        "xhigh": "very high",
+        "max": "maximum"
+      },
+      "web": "Web",
+      "placeholder": "Pose a problem, an idea or a figure you want to check…",
+      "send": "Research",
+      "stop": "Stop",
+      "clear": "New research",
+      "export": "Export as Markdown",
+      "thinking": "Reasoning",
+      "tools": {
+        "buscar_biblioteca": "Library",
+        "leer_paper": "Paper",
+        "calcular": "Calculation",
+        "ecuacion_proyecto": "Equation",
+        "web": "Web"
+      },
+      "suggestions": [
+        "What is the minimum mass of a subluminal positive-energy shell at 0.02 c? Compare with Fuchs 2024.",
+        "Propose three ways to start a bubble without violating ADM momentum conservation, and attack each one.",
+        "What wall thickness do quantum inequalities demand for a 100 m bubble at 0.1 c?",
+        "Is there any way around the null energy condition outside the Natário class? Search the library."
+      ],
+      "cost": "Calls are billed to your Anthropic account.",
+      "needKey": "Add your Anthropic key to start researching.",
+      "you": "Question",
+      "errors": {
+        "auth": "The key is not valid or has no permission for this model.",
+        "rate": "Anthropic is rate-limiting requests. Wait a moment and try again.",
+        "net": "Could not connect to Anthropic. Check your connection.",
+        "other": "AI error"
+      }
+    },
+    "board": {
+      "title": "Research board",
+      "body": "Where the project stands today: what is still alive, the limits that could not be broken and the 14 open obstacles. Every card can be sent to the AI researcher.",
+      "path": "Path",
+      "obstacles": "The 14 obstacles",
+      "laws": "Laws: limits that could not be dissolved",
+      "discarded": "Discarded",
+      "objections": "Open objections",
+      "experiments": "Tabletop experiments possible today",
+      "next": "Next calculation",
+      "report": "Report",
+      "investigate": "Research with AI",
+      "updated": "Updated",
+      "askObstacle": "Research the obstacle",
+      "askPiece": "Move this piece of the path forward:",
+      "askLaw": "Find a way around this law or prove there is none. Law",
+      "status": {
+        "bloqueante": "Blocking",
+        "abierto": "Open",
+        "parcial": "Partial"
+      },
+      "piece": {
+        "viva": "Alive",
+        "conflicto": "Alive, in conflict",
+        "lejana": "Alive, distant",
+        "teorica": "Alive, theoretical"
+      }
+    },
+    "toolsTitle": "Numerical tools"
   },
   "search": {
     "title": "Search",
@@ -331,7 +414,7 @@
     "title": "Start wherever you like.",
     "lab": {
       "title": "Lab",
-      "body": "Rust in WebAssembly, Python on Pyodide and the formula engine. Compute, break it, try again.",
+      "body": "An AI researcher over the library and the equations, the research board and the numerical core in your browser.",
       "cta": "Open the lab"
     },
     "eq": {

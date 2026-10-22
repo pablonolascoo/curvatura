@@ -8,7 +8,7 @@ export type Fragmento = { id: string; k: string; p: string | null; t: string; y:
 
 let worker: Worker | null = null;
 let n = 0;
-const pendientes = new Map<number, (r: Fragmento[]) => void>();
+const pendientes = new Map<number, { ok: (r: Fragmento[]) => void; mal: (e: Error) => void }>();
 
 function w(): Worker {
   if (!worker) {
@@ -16,8 +16,12 @@ function w(): Worker {
     worker.onmessage = (e: MessageEvent) => {
       const m = e.data;
       if (m.tipo === "resultados") {
-        pendientes.get(m.n)?.(m.res);
+        pendientes.get(m.n)?.ok(m.res);
         pendientes.delete(m.n);
+      } else if (m.tipo === "error") {
+        // Si falla la preparación del índice, fallan todas las búsquedas en curso (nunca se quedan colgadas).
+        const err = new Error(m.error);
+        for (const [n, p] of pendientes) if (m.n == null || m.n === n) { p.mal(err); pendientes.delete(n); }
       }
     };
     worker.postMessage({ tipo: "preparar" });
@@ -30,8 +34,8 @@ export const prepararTexto = () => void w();
 
 export function buscarTexto(q: string, kind = ""): Promise<Fragmento[]> {
   const id = ++n;
-  return new Promise((ok) => {
-    pendientes.set(id, ok);
+  return new Promise((ok, mal) => {
+    pendientes.set(id, { ok, mal });
     w().postMessage({ tipo: "buscar", n: id, q, kind });
   });
 }

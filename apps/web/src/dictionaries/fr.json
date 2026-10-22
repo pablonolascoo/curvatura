@@ -280,7 +280,7 @@
   },
   "lab": {
     "title": "Laboratoire",
-    "body": "Les systèmes du projet exécutés dans votre navigateur. Rust en WebAssembly, Python avec Pyodide et le moteur de formules.",
+    "body": "Un laboratoire de recherche propulsé par l'IA. Posez un problème : l'IA cherche dans la bibliothèque, calcule avec les équations du projet et vous dit ce qui survit. En dessous, l'état de la recherche et les outils numériques.",
     "core": "Noyau numérique",
     "coreBody": "Champ d'expansion calculé en Rust compilé en WebAssembly. Cliquez sur la carte pour lâcher une particule et suivre sa géodésique.",
     "python": "Python",
@@ -308,7 +308,90 @@
     "browser": "Navigateur",
     "installNative": "Installer Python natif",
     "installingNative": "Installation de Python 3.12, numpy, sympy, scipy et matplotlib…",
-    "nativeBody": "Python 3.12 installé dans le dossier de l'application, avec le paquet physics/. Plus rapide que le navigateur et sans limite de mémoire."
+    "nativeBody": "Python 3.12 installé dans le dossier de l'application, avec le paquet physics/. Plus rapide que le navigateur et sans limite de mémoire.",
+    "nav": {
+      "ai": "Chercheur IA",
+      "board": "Tableau",
+      "tools": "Outils"
+    },
+    "ai": {
+      "title": "Chercheur IA",
+      "body": "Demandez comme à un collègue. L'IA cherche parmi les ~3 400 articles de la bibliothèque, ouvre ceux qui comptent, calcule chaque chiffre avec le moteur de formules et conclut par un verdict : vivante, en conflit avec une loi ou écartée.",
+      "keyLabel": "Clé d'API Anthropic (sk-ant-…)",
+      "keyHint": "La clé est stockée uniquement sur cet appareil et va directement chez Anthropic. Elle ne passe jamais par les serveurs de Curvatura.",
+      "keyGet": "Créer une clé dans la console Anthropic",
+      "keySave": "Enregistrer la clé",
+      "keyForget": "Oublier la clé",
+      "keyOk": "Clé prête",
+      "keyBad": "La clé n'est pas valide ou n'a pas d'accès. Vérifiez-la et réessayez.",
+      "model": "Modèle",
+      "effort": "Profondeur",
+      "efforts": {
+        "low": "rapide",
+        "medium": "moyenne",
+        "high": "élevée",
+        "xhigh": "très élevée",
+        "max": "maximale"
+      },
+      "web": "Web",
+      "placeholder": "Posez un problème, une idée ou un chiffre à vérifier…",
+      "send": "Chercher",
+      "stop": "Arrêter",
+      "clear": "Nouvelle recherche",
+      "export": "Exporter en Markdown",
+      "thinking": "Raisonnement",
+      "tools": {
+        "buscar_biblioteca": "Bibliothèque",
+        "leer_paper": "Article",
+        "calcular": "Calcul",
+        "ecuacion_proyecto": "Équation",
+        "web": "Web"
+      },
+      "suggestions": [
+        "Quelle est la masse minimale d'une coque subluminique d'énergie positive à 0,02 c ? Comparez avec Fuchs 2024.",
+        "Proposez trois façons de démarrer une bulle sans violer la conservation de l'impulsion ADM, et attaquez chacune.",
+        "Quelle épaisseur de paroi les inégalités quantiques imposent-elles pour une bulle de 100 m à 0,1 c ?",
+        "Existe-t-il une issue à la condition d'énergie nulle hors de la classe de Natário ? Cherchez dans la bibliothèque."
+      ],
+      "cost": "Les appels sont facturés sur votre compte Anthropic.",
+      "needKey": "Ajoutez votre clé Anthropic pour commencer à chercher.",
+      "you": "Question",
+      "errors": {
+        "auth": "La clé n'est pas valide ou n'a pas accès à ce modèle.",
+        "rate": "Anthropic limite les requêtes. Patientez un instant et réessayez.",
+        "net": "Impossible de se connecter à Anthropic. Vérifiez la connexion.",
+        "other": "Erreur de l'IA"
+      }
+    },
+    "board": {
+      "title": "Tableau de recherche",
+      "body": "Où en est le projet aujourd'hui : ce qui reste vivant, les limites qui n'ont pas pu être brisées et les 14 obstacles ouverts. Chaque carte peut être envoyée au chercheur IA.",
+      "path": "Voie",
+      "obstacles": "Les 14 obstacles",
+      "laws": "Lois : limites qui n'ont pas pu être levées",
+      "discarded": "Écartées",
+      "objections": "Objections ouvertes",
+      "experiments": "Expériences de table possibles dès aujourd'hui",
+      "next": "Calcul suivant",
+      "report": "Rapport",
+      "investigate": "Chercher avec l'IA",
+      "updated": "Mis à jour le",
+      "askObstacle": "Étudie l'obstacle",
+      "askPiece": "Fais avancer cette pièce de la voie :",
+      "askLaw": "Trouve un moyen de contourner cette loi ou démontre qu'il n'y en a pas. Loi",
+      "status": {
+        "bloqueante": "Bloquant",
+        "abierto": "Ouvert",
+        "parcial": "Partiel"
+      },
+      "piece": {
+        "viva": "Vivante",
+        "conflicto": "Vivante, en conflit",
+        "lejana": "Vivante, lointaine",
+        "teorica": "Vivante, théorique"
+      }
+    },
+    "toolsTitle": "Outils numériques"
   },
   "search": {
     "title": "Rechercher",
@@ -331,7 +414,7 @@
     "title": "Entrez par où vous voulez.",
     "lab": {
       "title": "Laboratoire",
-      "body": "Rust en WebAssembly, Python avec Pyodide et le moteur de formules. Calculez, cassez, recommencez.",
+      "body": "Un chercheur IA sur la bibliothèque et les équations, le tableau de recherche et le noyau numérique dans votre navigateur.",
       "cta": "Ouvrir le laboratoire"
     },
     "eq": {

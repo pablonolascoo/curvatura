@@ -33,7 +33,7 @@ function geometria(p: Pieza3D, s: number): THREE.BufferGeometry {
     case "anillo":
       return new THREE.TorusGeometry(r, Math.max(r * 0.08, 0.03), 12, 64);
     case "celosia":
-      return new THREE.CylinderGeometry(r, r, dy || r * 1.6, 12, 4, true);
+      return new THREE.CylinderGeometry(p.radio ? r : dx / 2, p.radio ? r : dx / 2, dy || r * 1.6, 12, 4, true);
     case "cilindro":
       return new THREE.CylinderGeometry(dx / 2 || r, dx / 2 || r, dy || r * 2, 32, 1);
     case "modulo":
@@ -48,6 +48,41 @@ function geometria(p: Pieza3D, s: number): THREE.BufferGeometry {
     default:
       return new THREE.BoxGeometry(dx, dy, dz);
   }
+}
+
+/** Trazo de plano técnico: pocas líneas que describen la forma, no la malla de triángulos. */
+function trazo(p: Pieza3D, geo: THREE.BufferGeometry, s: number): THREE.BufferGeometry {
+  const pts: number[] = [];
+  const seg = (a: THREE.Vector3, b: THREE.Vector3) => pts.push(a.x, a.y, a.z, b.x, b.y, b.z);
+  const curva = (f: (t: number) => THREE.Vector3, n = 64) => { for (let i = 0; i < n; i++) seg(f(i / n), f((i + 1) / n)); };
+  if (p.tipo === "cascara") {
+    const r = (p.radio ?? 1) * s, barrido = Math.PI * 1.5;
+    // Meridianos cada 30° (incluye los dos bordes del corte) y cinco paralelos.
+    for (let k = 0; k <= 9; k++) {
+      const phi = (k / 9) * barrido;
+      curva((t) => new THREE.Vector3(-r * Math.cos(phi) * Math.sin(t * Math.PI), r * Math.cos(t * Math.PI), r * Math.sin(phi) * Math.sin(t * Math.PI)), 32);
+    }
+    for (const lat of [-0.66, -0.33, 0, 0.33, 0.66]) {
+      const y = r * Math.sin(lat * Math.PI / 2), rr = r * Math.cos(lat * Math.PI / 2);
+      curva((t) => new THREE.Vector3(-rr * Math.cos(t * barrido), y, rr * Math.sin(t * barrido)), 48);
+    }
+  } else if (p.tipo === "anillo") {
+    const r = (p.radio ?? 1) * s, tubo = Math.max(r * 0.08, 0.03);
+    // Torus de three.js: en el plano XY. Cuatro circunferencias y doce secciones del tubo.
+    for (const [rr, z] of [[r + tubo, 0], [r - tubo, 0], [r, tubo], [r, -tubo]] as const)
+      curva((t) => new THREE.Vector3(rr * Math.cos(t * 2 * Math.PI), rr * Math.sin(t * 2 * Math.PI), z), 96);
+    for (let k = 0; k < 12; k++) {
+      const a = (k / 12) * 2 * Math.PI, c = new THREE.Vector3(Math.cos(a), Math.sin(a), 0);
+      curva((t) => c.clone().multiplyScalar(r + tubo * Math.cos(t * 2 * Math.PI)).add(new THREE.Vector3(0, 0, tubo * Math.sin(t * 2 * Math.PI))), 12);
+    }
+  } else if (p.tipo === "celosia") {
+    return new THREE.WireframeGeometry(geo);
+  } else {
+    return new THREE.EdgesGeometry(geo, 25);
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.Float32BufferAttribute(pts, 3));
+  return g;
 }
 
 export function Prototipo3D({ piezas, seleccion, despiece, onElegir, etiqueta }: Props) {
@@ -95,17 +130,25 @@ export function Prototipo3D({ piezas, seleccion, despiece, onElegir, etiqueta }:
       const [linea, fondo] = p.estado === "abierto" ? COL.red : COL[p.color ?? "ink"] ?? COL.ink;
       const geo = geometria(p, s);
       const relleno = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ color: fondo, transparent: true, opacity: 0.35, side: THREE.DoubleSide, depthWrite: false }));
-      const aristas = p.tipo === "cascara" || p.tipo === "celosia" ? new THREE.WireframeGeometry(geo) : new THREE.EdgesGeometry(geo, 25);
+      relleno.userData.base = p.tipo === "cascara" ? 0.1 : 0.32; // las cáscaras grandes no deben tapar lo de dentro
+      const aristas = trazo(p, geo, s);
       const mat = p.estado === "boceto"
         ? new THREE.LineDashedMaterial({ color: linea, dashSize: 0.05, gapSize: 0.035, transparent: true, opacity: 0.8 })
         : new THREE.LineBasicMaterial({ color: linea, transparent: true, opacity: p.tipo === "cascara" ? 0.35 : 0.85 });
       const lineas = new THREE.LineSegments(aristas, mat);
+      lineas.userData.base = p.tipo === "cascara" ? 0.45 : 0.9;
       if (p.estado === "boceto") lineas.computeLineDistances();
       const grupo = new THREE.Group();
       grupo.add(relleno, lineas);
       const base = new THREE.Vector3(...(p.pos ?? [0, 0, 0]).map((x) => x * s));
       // Dirección de despiece: radial si la pieza está fuera del centro; si no, una espiral para separar las anidadas.
-      const dir = base.lengthSq() > 1e-6 ? base.clone().normalize() : new THREE.Vector3(Math.cos(i * 2.4), 0.35 + (i % 3) * 0.25, Math.sin(i * 2.4)).normalize();
+      // Las piezas centradas se reparten en corona (las grandes se quedan; las pequeñas salen más lejos).
+      const centradas = piezas.filter((q) => !q.pos || Math.hypot(q.pos[0], q.pos[1], q.pos[2]) < 1e-9);
+      const k = centradas.indexOf(p);
+      const dir = base.lengthSq() > 1e-6
+        ? base.clone().normalize()
+        : new THREE.Vector3(Math.cos((k / Math.max(1, centradas.length)) * 2 * Math.PI), (k % 2 ? 0.45 : -0.2), Math.sin((k / Math.max(1, centradas.length)) * 2 * Math.PI)).normalize()
+            .multiplyScalar(p.tipo === "cascara" ? 0.35 : 1 + 0.15 * (k % 3));
       grupo.position.copy(base);
       grupo.userData.id = p.id;
       relleno.userData.id = p.id;
@@ -122,6 +165,9 @@ export function Prototipo3D({ piezas, seleccion, despiece, onElegir, etiqueta }:
     let pendiente = true;
     let encima: string | null = null;
     let exp = estado.current.despiece;
+    let distancia = zoom;
+    const mira = new THREE.Vector3();
+    const objetivoMira = new THREE.Vector3();
 
     const frame = (t: number) => {
       raf = 0;
@@ -134,15 +180,26 @@ export function Prototipo3D({ piezas, seleccion, despiece, onElegir, etiqueta }:
       exp = acercar(exp, estado.current.despiece, dt, 0.25);
       const sel = estado.current.seleccion;
       for (const o of objs) {
-        o.grupo.position.copy(o.base).addScaledVector(o.dir, exp * 1.6);
+        o.grupo.position.copy(o.base).addScaledVector(o.dir, exp * 2.2);
         const activo = !sel || sel === o.id || encima === o.id;
-        (o.relleno.material as THREE.MeshBasicMaterial).opacity = acercar((o.relleno.material as THREE.MeshBasicMaterial).opacity, activo ? (sel === o.id ? 0.6 : 0.32) : 0.05, dt, 0.15);
-        (o.lineas.material as THREE.LineBasicMaterial).opacity = acercar((o.lineas.material as THREE.LineBasicMaterial).opacity, activo ? 0.9 : 0.12, dt, 0.15);
+        const base = o.relleno.userData.base as number;
+        (o.relleno.material as THREE.MeshBasicMaterial).opacity = acercar((o.relleno.material as THREE.MeshBasicMaterial).opacity, activo ? (sel === o.id ? Math.max(0.5, base) : base) : 0.03, dt, 0.15);
+        (o.lineas.material as THREE.LineBasicMaterial).opacity = acercar((o.lineas.material as THREE.LineBasicMaterial).opacity, activo ? (sel === o.id ? 1 : (o.lineas.userData.base as number)) : 0.1, dt, 0.15);
       }
-      camera.position.set(0, 0, zoom);
-      camera.lookAt(0, 0, 0);
+      // La cámara se aleja con el despiece y viaja hacia la pieza elegida (sin perder el conjunto).
+      const elegida = sel ? objs.find((o) => o.id === sel) : undefined;
+      raiz.updateMatrixWorld();
+      if (elegida) elegida.grupo.getWorldPosition(objetivoMira).multiplyScalar(0.6);
+      else objetivoMira.set(0, 0, 0);
+      const objetivoDist = zoom * (1 + 0.55 * exp) * (elegida ? 0.85 : 1);
+      distancia = acercar(distancia, objetivoDist, dt, 0.3);
+      mira.x = acercar(mira.x, objetivoMira.x, dt, 0.3);
+      mira.y = acercar(mira.y, objetivoMira.y, dt, 0.3);
+      mira.z = acercar(mira.z, objetivoMira.z, dt, 0.3);
+      camera.position.set(mira.x, mira.y, mira.z + distancia);
+      camera.lookAt(mira);
       renderer.render(scene, camera);
-      const resto = Math.abs(obj.x - rot.x) + Math.abs(obj.y - rot.y) + Math.abs(exp - estado.current.despiece);
+      const resto = Math.abs(obj.x - rot.x) + Math.abs(obj.y - rot.y) + Math.abs(exp - estado.current.despiece) + Math.abs(distancia - objetivoDist) + mira.distanceTo(objetivoMira);
       if (visible && !document.hidden && (girando || resto > 1e-4 || pendiente)) raf = requestAnimationFrame(frame);
       pendiente = false;
     };

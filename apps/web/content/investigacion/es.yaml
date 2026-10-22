@@ -1,0 +1,67 @@
+# Estado de la investigación (sesión 1, 2026-10-22). Fuente: docs/investigacion/soluciones.md.
+# Cada cifra sale del laboratorio o de un paper citado en el informe enlazado.
+fecha: "2026-10-22"
+camino:
+  titulo: El camino que sobrevive
+  texto: "Una cáscara subluminal de energía positiva, montada ya en movimiento y sin superar la luz. No es un motor útil todavía: a 0,02 c y con masas de una fracción de Júpiter. Pero es lo único que hoy cumple todas las condiciones de energía."
+  piezas:
+    - nombre: Masa mínima de la cáscara
+      estado: viva
+      cifra: "M ≳ ⅔·β·R₁·c²/G más un término de pared: ≈ 0,18 M_J para β = 0,02 (Fuchs publica 2,37)."
+      siguiente: Optimizador 1D con certificados LMI del prefactor M/(β·R₁).
+      informe: b-masa-cascara
+    - nombre: Arranque sin aceleración
+      estado: viva
+      cifra: "Ensamblar la cáscara ya en movimiento: cota inferior 8,07×10⁴⁰ J a v = 0,02 (~101 veces menos que un cohete de fotones)."
+      siguiente: Colapso esférico 1+1 de una cáscara hasta la de Fuchs.
+      informe: c-aceleracion
+    - nombre: Régimen subluminal
+      estado: viva
+      cifra: "Sin horizonte ni divergencia del tensor renormalizado; Doppler de proa ≤ 4,36 con β ≤ 0,9."
+      siguiente: ""
+      informe: d-horizontes
+    - nombre: Materia de la cáscara
+      estado: conflicto
+      cifra: "A densidad nuclear faltan ~3,5 órdenes para R = 100 m, y la masa sube a 3–7,7 M_J: choca con la cáscara ligera."
+      siguiente: TOV anisótropa con ecuación de estado nuclear y β máximo.
+      informe: e-fuente-material
+    - nombre: Espín y torsión (Einstein-Cartan)
+      estado: lejana
+      cifra: "La materia de la burbuja cumple NEC y WEC; faltan 4,3×10²⁴ en densidad de espín frente a materia nuclear polarizada."
+      siguiente: Espín total en una burbuja tipo Van Den Broeck.
+      informe: a-energia-negativa
+    - nombre: Burbuja que «respira»
+      estado: teorica
+      cifra: "κ = 2σ(1 − 1/v) confirmada; con fases a 0,9 c y ganancia ≤ 10, 1,93 c de media (optimista)."
+      siguiente: Tensor renormalizado con v(t) periódica en 1+1.
+      informe: d-horizontes
+leyes:
+  - titulo: Energía negativa cuántica
+    texto: "|ρ| ≲ ħc/L⁴. Una burbuja de 100 m a 0,1 c pediría L ≲ 0,2 fm. Con Casimir a 10 nm faltan ~35 órdenes."
+    informe: e-fuente-material
+  - titulo: Casimir apilado
+    texto: "Con placas reales (≥ 10⁻⁶ kg/m², huecos ≥ 1 Å) la pila nunca viola la NEC promediada: el coste lo pagan las placas (prueba Z3)."
+    informe: a-energia-negativa
+  - titulo: Horizonte
+    texto: "Una burbuja aislada a v > 1 sobre exterior plano siempre tiene horizonte. Solo un tubo previo tipo Krasnikov lo evita, moviendo el coste."
+    informe: d-horizontes
+  - titulo: Momento
+    texto: "Con energía positiva y sin flujo en el infinito, el momento ADM no cambia: acelerar exige escape o un tercer cuerpo."
+    informe: c-aceleracion
+  - titulo: Materiales de laboratorio
+    texto: "Arrastre máximo ≈ 12σ/(ρc): entre 0,2 y 4 m/s, sea cual sea el tamaño."
+    informe: b-masa-cascara
+descartadas:
+  - Placas de Casimir como fuente macroscópica
+  - Cohete de ondas gravitacionales
+  - Cáscara cargada (mueve el coste al límite de Schwinger)
+  - Van Den Broeck sin energía negativa
+  - Cáscaras anidadas
+  - Escalar no mínimo (pide un campo 14–16 órdenes por encima del Higgs)
+objeciones:
+  - "La solución de Fuchs está discutida (Barzegar 2026) y podría no aportar nada sobre una cáscara normal (Idrissov 2026)."
+  - Inestabilidad no radial de la cáscara, sin estudiar.
+  - "«Más ligera» y «materia nuclear» chocan: hay que resolver juntas la masa y la ecuación de estado."
+experimentos:
+  - Contrastar la desigualdad cuántica electromagnética con luz comprimida a −15 dB.
+  - Análogos de laboratorio (fluidos, condensados) para la cinemática de la burbuja que respira.

@@ -9,9 +9,11 @@
     "build": "next build",
     "typecheck": "tsc --noEmit",
     "build:desktop": "bun scripts/fetch-pyodide.ts && bun run build",
-    "serve": "bun scripts/serve-out.ts"
+    "serve": "bun scripts/serve-out.ts",
+    "test": "bun test src"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.1.0",
     "@curvatura/formula": "workspace:*",
     "@phosphor-icons/react": "^2.1.10",
     "@tanstack/react-virtual": "^3.14.21",

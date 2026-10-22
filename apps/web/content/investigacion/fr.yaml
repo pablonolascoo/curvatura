@@ -1,0 +1,66 @@
+# État de la recherche (session 1, 2026-10-22). Source : docs/investigacion/soluciones.md.
+fecha: "2026-10-22"
+camino:
+  titulo: La voie qui survit
+  texto: "Une coque subluminique d'énergie positive, assemblée déjà en mouvement et jamais plus rapide que la lumière. Ce n'est pas encore un moteur utile : 0,02 c, avec des masses d'une fraction de Jupiter. Mais c'est la seule chose qui respecte aujourd'hui toutes les conditions d'énergie."
+  piezas:
+    - nombre: Masse minimale de la coque
+      estado: viva
+      cifra: "M ≳ ⅔·β·R₁·c²/G plus un terme de paroi : ≈ 0,18 M_J pour β = 0,02 (Fuchs publie 2,37)."
+      siguiente: Optimiseur 1D avec certificats LMI du préfacteur M/(β·R₁).
+      informe: b-masa-cascara
+    - nombre: Démarrage sans accélération
+      estado: viva
+      cifra: "Assembler la coque déjà en mouvement : borne inférieure 8,07×10⁴⁰ J à v = 0,02 (~101 fois moins qu'une fusée à photons)."
+      siguiente: Effondrement sphérique 1+1 d'une coque jusqu'à celle de Fuchs.
+      informe: c-aceleracion
+    - nombre: Régime subluminique
+      estado: viva
+      cifra: "Ni horizon ni divergence du tenseur renormalisé ; Doppler de proue ≤ 4,36 pour β ≤ 0,9."
+      siguiente: ""
+      informe: d-horizontes
+    - nombre: Matière de la coque
+      estado: conflicto
+      cifra: "À densité nucléaire il manque ~3,5 ordres pour R = 100 m, et la masse monte à 3–7,7 M_J : conflit avec la coque légère."
+      siguiente: TOV anisotrope avec équation d'état nucléaire et β maximal.
+      informe: e-fuente-material
+    - nombre: Spin et torsion (Einstein-Cartan)
+      estado: lejana
+      cifra: "La matière de la bulle respecte NEC et WEC ; il manque 4,3×10²⁴ en densité de spin face à la matière nucléaire polarisée."
+      siguiente: Spin total dans une bulle de type Van Den Broeck.
+      informe: a-energia-negativa
+    - nombre: La bulle qui « respire »
+      estado: teorica
+      cifra: "κ = 2σ(1 − 1/v) confirmée ; avec des phases à 0,9 c et un gain ≤ 10, 1,93 c en moyenne (optimiste)."
+      siguiente: Tenseur renormalisé avec v(t) périodique en 1+1.
+      informe: d-horizontes
+leyes:
+  - titulo: Énergie négative quantique
+    texto: "|ρ| ≲ ħc/L⁴. Une bulle de 100 m à 0,1 c demanderait L ≲ 0,2 fm. Avec Casimir à 10 nm il manque ~35 ordres."
+    informe: e-fuente-material
+  - titulo: Casimir empilé
+    texto: "Avec des plaques réelles (≥ 10⁻⁶ kg/m², espaces ≥ 1 Å) la pile ne viole jamais la NEC moyennée : les plaques paient le coût (preuve Z3)."
+    informe: a-energia-negativa
+  - titulo: Horizon
+    texto: "Une bulle isolée à v > 1 sur un extérieur plat a toujours un horizon. Seul un tube préalable de type Krasnikov l'évite, en déplaçant le coût."
+    informe: d-horizontes
+  - titulo: Impulsion
+    texto: "Avec une énergie positive et sans flux à l'infini, l'impulsion ADM ne change pas : accélérer exige une éjection ou un troisième corps."
+    informe: c-aceleracion
+  - titulo: Matériaux de laboratoire
+    texto: "Entraînement maximal ≈ 12σ/(ρc) : entre 0,2 et 4 m/s, quelle que soit la taille."
+    informe: b-masa-cascara
+descartadas:
+  - Plaques de Casimir comme source macroscopique
+  - Fusée à ondes gravitationnelles
+  - Coque chargée (déplace le coût vers la limite de Schwinger)
+  - Van Den Broeck sans énergie négative
+  - Coques imbriquées
+  - Scalaire non minimal (exige un champ 14–16 ordres au-dessus du Higgs)
+objeciones:
+  - "La solution de Fuchs est discutée (Barzegar 2026) et pourrait ne rien apporter par rapport à une coque ordinaire (Idrissov 2026)."
+  - Instabilité non radiale de la coque, pas encore étudiée.
+  - "« Plus légère » et « matière nucléaire » s'opposent : il faut résoudre ensemble la masse et l'équation d'état."
+experimentos:
+  - Tester l'inégalité quantique électromagnétique avec de la lumière comprimée à −15 dB.
+  - Analogues de laboratoire (fluides, condensats) pour la cinématique de la bulle qui respire.

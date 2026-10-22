@@ -33,6 +33,9 @@ export function TextoCompleto({ q, lang, labels, onPapers }: { q: string; lang: 
       if (!vivo) return;
       setRes(r.slice(0, 6));
       onPapers?.([...new Set(r.map((x) => x.p).filter((p): p is string => !!p))]);
+    }).catch((e: unknown) => {
+      console.error("Búsqueda en texto completo:", e);
+      if (vivo) setRes([]);
     });
     return () => { vivo = false; };
   }, [q, onPapers]);

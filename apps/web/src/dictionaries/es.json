@@ -280,7 +280,7 @@
   },
   "lab": {
     "title": "Laboratorio",
-    "body": "Los sistemas del proyecto ejecutándose en tu navegador. Rust en WebAssembly, Python con Pyodide y el motor de fórmulas.",
+    "body": "Un laboratorio de investigación con IA. Plantea un problema: la IA busca en la biblioteca, calcula con las ecuaciones del proyecto y te dice qué sobrevive. Debajo, el estado de la investigación y las herramientas numéricas.",
     "core": "Núcleo numérico",
     "coreBody": "Campo de expansión calculado en Rust compilado a WebAssembly. Pulsa sobre el mapa para soltar una partícula y seguir su geodésica.",
     "python": "Python",
@@ -308,7 +308,90 @@
     "browser": "Navegador",
     "installNative": "Instalar Python nativo",
     "installingNative": "Instalando Python 3.12, numpy, sympy, scipy y matplotlib…",
-    "nativeBody": "Python 3.12 instalado en la carpeta de la app, con el paquete physics/. Más rápido que el navegador y sin límite de memoria."
+    "nativeBody": "Python 3.12 instalado en la carpeta de la app, con el paquete physics/. Más rápido que el navegador y sin límite de memoria.",
+    "nav": {
+      "ai": "Investigador IA",
+      "board": "Tablero",
+      "tools": "Herramientas"
+    },
+    "ai": {
+      "title": "Investigador IA",
+      "body": "Pregunta como lo harías a un colega. La IA busca en los ~3400 papers de la biblioteca, abre los que importan, calcula cada cifra con el motor de fórmulas y termina con un veredicto: viva, choca con una ley o descartada.",
+      "keyLabel": "Clave de API de Anthropic (sk-ant-…)",
+      "keyHint": "La clave se guarda solo en este dispositivo y va directa a Anthropic. Nunca pasa por los servidores de Curvatura.",
+      "keyGet": "Crear una clave en la consola de Anthropic",
+      "keySave": "Guardar clave",
+      "keyForget": "Olvidar clave",
+      "keyOk": "Clave lista",
+      "keyBad": "La clave no es válida o no tiene acceso. Revísala e inténtalo de nuevo.",
+      "model": "Modelo",
+      "effort": "Profundidad",
+      "efforts": {
+        "low": "rápida",
+        "medium": "media",
+        "high": "alta",
+        "xhigh": "muy alta",
+        "max": "máxima"
+      },
+      "web": "Web",
+      "placeholder": "Plantea un problema, una idea o una cifra que quieras comprobar…",
+      "send": "Investigar",
+      "stop": "Parar",
+      "clear": "Nueva investigación",
+      "export": "Exportar en Markdown",
+      "thinking": "Razonamiento",
+      "tools": {
+        "buscar_biblioteca": "Biblioteca",
+        "leer_paper": "Paper",
+        "calcular": "Cálculo",
+        "ecuacion_proyecto": "Ecuación",
+        "web": "Web"
+      },
+      "suggestions": [
+        "¿Cuál es la masa mínima de una cáscara subluminal de energía positiva a 0,02 c? Compara con Fuchs 2024.",
+        "Propón tres formas de arrancar una burbuja sin violar la conservación del momento ADM y ataca cada una.",
+        "¿Qué grosor de pared exigen las desigualdades cuánticas para una burbuja de 100 m a 0,1 c?",
+        "¿Hay alguna salida a la condición de energía nula fuera de la clase de Natário? Busca en la biblioteca."
+      ],
+      "cost": "Las llamadas se cobran en tu cuenta de Anthropic.",
+      "needKey": "Añade tu clave de Anthropic para empezar a investigar.",
+      "you": "Pregunta",
+      "errors": {
+        "auth": "La clave no es válida o no tiene permiso para este modelo.",
+        "rate": "Anthropic ha limitado las peticiones. Espera un momento y vuelve a intentarlo.",
+        "net": "No se ha podido conectar con Anthropic. Revisa la conexión.",
+        "other": "Error de la IA"
+      }
+    },
+    "board": {
+      "title": "Tablero de investigación",
+      "body": "Dónde está hoy el proyecto: lo que sigue vivo, los límites que no se han podido romper y los 14 obstáculos abiertos. Cada tarjeta se puede mandar al investigador IA.",
+      "path": "Camino",
+      "obstacles": "Los 14 obstáculos",
+      "laws": "Leyes: límites que no se han podido disolver",
+      "discarded": "Descartadas",
+      "objections": "Objeciones abiertas",
+      "experiments": "Experimentos de mesa posibles ya",
+      "next": "Siguiente cálculo",
+      "report": "Informe",
+      "investigate": "Investigar con IA",
+      "updated": "Actualizado el",
+      "askObstacle": "Investiga el obstáculo",
+      "askPiece": "Avanza en esta pieza del camino:",
+      "askLaw": "Busca una forma de esquivar esta ley o demuestra que no la hay. Ley",
+      "status": {
+        "bloqueante": "Bloqueante",
+        "abierto": "Abierto",
+        "parcial": "Parcial"
+      },
+      "piece": {
+        "viva": "Viva",
+        "conflicto": "Viva con conflicto",
+        "lejana": "Viva, lejana",
+        "teorica": "Viva, teórica"
+      }
+    },
+    "toolsTitle": "Herramientas numéricas"
   },
   "search": {
     "title": "Buscar",
@@ -331,7 +414,7 @@
     "title": "Entra por donde quieras.",
     "lab": {
       "title": "Laboratorio",
-      "body": "Rust en WebAssembly, Python con Pyodide y el motor de fórmulas. Calcula, rompe y vuelve a probar.",
+      "body": "Un investigador IA sobre la biblioteca y las ecuaciones, el tablero de la investigación y el núcleo numérico en tu navegador.",
       "cta": "Abrir el laboratorio"
     },
     "eq": {
