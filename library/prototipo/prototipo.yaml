@@ -1,0 +1,927 @@
+# Desglose de ingeniería del prototipo (página «Prototipo», vista 3D explosionada).
+# Fuentes: docs/investigacion/soluciones.md, ideas/A–F, docs/obstaculos.md, laboratorio del MCP curvatura.
+# Cifras: «laboratorio: <entrada>» = lab_evaluar del MCP; el resto, cita con url o norma/ficha técnica.
+version: 1
+generado: "IA · 2026-10-22 · puede contener errores; verificar"
+
+niveles:
+  - id: "mesa"
+    nombre:
+      es: "Demostrador de mesa"
+      en: "Tabletop demonstrator"
+      fr: "Démonstrateur de table"
+    descripcion:
+      es: "Experimentos que se pueden montar hoy para poner a prueba las leyes y el único camino que sobrevive. No crean curvatura: miden los límites que deciden si el camino sigue vivo."
+      en: "Experiments that can be built today to test the laws and the only surviving path. They create no curvature: they measure the limits that decide whether the path stays alive."
+      fr: "Expériences réalisables aujourd'hui pour tester les lois et la seule voie qui survit. Elles ne créent aucune courbure : elles mesurent les limites qui décident si la voie reste vivante."
+  - id: "vehiculo"
+    nombre:
+      es: "Vehículo conceptual"
+      en: "Conceptual vehicle"
+      fr: "Véhicule conceptuel"
+    descripcion:
+      es: "Cáscara subluminal de energía positiva (Fuchs 2024), montada ya en movimiento a β ≈ 0,02, descompuesta en piezas. No se puede construir: la cáscara pide materia más densa que una estrella de neutrones y varias piezas están bloqueadas por leyes."
+      en: "Subluminal positive-energy shell (Fuchs 2024), assembled already moving at β ≈ 0.02, broken into parts. It cannot be built: the shell needs matter denser than a neutron star and several parts are blocked by laws."
+      fr: "Coque subluminique à énergie positive (Fuchs 2024), assemblée déjà en mouvement à β ≈ 0,02, décomposée en pièces. Elle n'est pas constructible : la coque exige une matière plus dense qu'une étoile à neutrons et plusieurs pièces sont bloquées par des lois."
+
+piezas:
+  # ───────────────────────────── NIVEL MESA ─────────────────────────────
+  # Escala: mesa óptica de 3,0 × 1,5 m; origen en el centro de la mesa, z hacia arriba.
+
+  - id: "fuente-luz-comprimida"
+    nivel: "mesa"
+    nombre:
+      es: "Banco de luz comprimida (prueba de la QEI)"
+      en: "Squeezed-light bench (QEI test)"
+      fr: "Banc de lumière comprimée (test de la QEI)"
+    funcion:
+      es: "Genera vacío comprimido a −15 dB y mide su varianza para contrastar la desigualdad cuántica electromagnética."
+      en: "Generates −15 dB squeezed vacuum and measures its variance to test the electromagnetic quantum inequality."
+      fr: "Produit un vide comprimé à −15 dB et mesure sa variance pour tester l'inégalité quantique électromagnétique."
+    estado: "calculado"
+    obstaculos: [3, 14]
+    geometria:
+      tipo: "caja"
+      dimensiones_m: [0.9, 0.6, 0.25]
+      posicion_m: [-0.9, 0.35, 0.125]
+      color: "red"
+    material:
+      nombre:
+        es: "Cristal no lineal PPKTP"
+        en: "PPKTP nonlinear crystal"
+        fr: "Cristal non linéaire PPKTP"
+      designacion: "KTiOPO4 con polarización periódica (PPKTP), corte para cuasi-ajuste de fase 775 → 1550 nm"
+      composicion:
+        - { elemento: "K", porcentaje_masa: "21.5" }
+        - { elemento: "Ti", porcentaje_masa: "26.3" }
+        - { elemento: "P", porcentaje_masa: "17.0" }
+        - { elemento: "O", porcentaje_masa: "35.2" }
+      por_que:
+        es: "Pocas pérdidas y alto coeficiente no lineal: la compresión a −15 dB solo sobrevive si las pérdidas totales son de pocos por ciento."
+        en: "Low loss and high nonlinearity: −15 dB squeezing survives only if total losses are a few percent."
+        fr: "Faibles pertes et forte non-linéarité : la compression à −15 dB ne survit que si les pertes totales sont de quelques pour cent."
+      propiedades:
+        - { nombre: "Densidad", valor: "3.0", unidad: "g/cm³", fuente: "Ficha técnica de KTP (Raicol Crystals)" }
+        - { nombre: "Transparencia", valor: "0.35–4.5", unidad: "µm", fuente: "Ficha técnica de KTP (Raicol Crystals)" }
+    electronica:
+      - { elemento: "Láser semilla de fibra 1550 nm", especificacion: "Anchura de línea < 1 kHz, 2 W tras amplificador EDFA", por_que: { es: "Bombeo estable para el OPA y oscilador local de la homodina." } }
+      - { elemento: "Etapa SHG 1550 → 775 nm", especificacion: "PPKTP en cavidad, > 1 W a 775 nm", por_que: { es: "El bombeo del OPA debe estar al doble de frecuencia." } }
+      - { elemento: "Detector homodino equilibrado", especificacion: "Fotodiodos InGaAs de eficiencia cuántica > 99 %, ancho de banda 100 MHz", por_que: { es: "Cada pérdida de eficiencia degrada la compresión medida." } }
+      - { elemento: "Bloqueo Pound-Drever-Hall", especificacion: "Modulador electro-óptico a 30 MHz + lazo digital", por_que: { es: "Mantiene la cavidad del OPA y la fase de lectura fijas durante la medida." } }
+      - { elemento: "Analizador de espectro", especificacion: "9 kHz–3 GHz, RBW ≥ 1 Hz", por_que: { es: "Mide la varianza de cuadratura frente al ruido del vacío." } }
+    cableado:
+      - { tramo: "Láser → SHG → OPA", tipo: "fibra monomodo PM 1550 nm (PANDA)", por_que: { es: "Conserva la polarización que exige el cuasi-ajuste de fase." } }
+      - { tramo: "Fotodiodos → amplificador transimpedancia", tipo: "coaxial RG-402 semirrígido", por_que: { es: "Mínimo ruido captado y fase estable en RF." } }
+      - { tramo: "Lazos de control → actuadores piezo", tipo: "par trenzado apantallado", por_que: { es: "Evita que la red eléctrica entre en el lazo de bloqueo." } }
+    cifras:
+      - { nombre: "Varianza de cuadratura relativa al vacío a −15 dB", valor: "0.0316", unidad: "—", fuente: "laboratorio: lab_evaluar(10^(-x/10), x=15)" }
+      - { nombre: "Compresión récord usada en el metaanálisis", valor: "-15", unidad: "dB", fuente: "maclay-2018 · https://arxiv.org/abs/1806.01269" }
+      - { nombre: "Cota de Ford-Roman con ventana lorentziana", valor: "-3ħc/(16π²(c t0)⁴)", unidad: "J/m³", fuente: "maclay-2018 (ec. 1) · https://arxiv.org/abs/1806.01269" }
+    boceto:
+      es: "Vista en planta: láser, SHG, cavidad OPA en lazo, divisor 50/50 y dos fotodiodos con su resta; flechas de 1550 y 775 nm."
+    siguiente_paso:
+      es: "Rehacer el análisis de Maclay con la QEI de Fewster y la respuesta real del detector: ¿el cociente medido/cota cruza 1?"
+      en: "Redo Maclay's analysis with Fewster's QEI and the real detector response: does the measured/bound ratio cross 1?"
+      fr: "Refaire l'analyse de Maclay avec la QEI de Fewster et la réponse réelle du détecteur : le rapport mesure/borne dépasse-t-il 1 ?"
+
+  - id: "canal-analogo"
+    nivel: "mesa"
+    nombre:
+      es: "Canal hidráulico análogo (burbuja que respira)"
+      en: "Analogue water flume (breathing bubble)"
+      fr: "Canal hydraulique analogue (bulle qui respire)"
+    funcion:
+      es: "Reproduce con agua la cinemática de una burbuja de velocidad variable y mide la gravedad superficial de sus horizontes acústicos."
+      en: "Reproduces with water the kinematics of a variable-speed bubble and measures the surface gravity of its acoustic horizons."
+      fr: "Reproduit avec de l'eau la cinématique d'une bulle à vitesse variable et mesure la gravité de surface de ses horizons acoustiques."
+    estado: "calculado"
+    obstaculos: [4, 5, 14]
+    geometria:
+      tipo: "caja"
+      dimensiones_m: [2.6, 0.15, 0.3]
+      posicion_m: [0.0, -0.55, 0.15]
+      color: "blue"
+    material:
+      nombre:
+        es: "PMMA colado (metacrilato)"
+        en: "Cast PMMA (acrylic)"
+        fr: "PMMA coulé (acrylique)"
+      designacion: "Poli(metacrilato de metilo) colado, ISO 7823-1"
+      composicion:
+        - { elemento: "C", porcentaje_masa: "60.0" }
+        - { elemento: "H", porcentaje_masa: "8.1" }
+        - { elemento: "O", porcentaje_masa: "32.0" }
+      por_que:
+        es: "Transparente para la lámina láser y la cámara; rígido y sin corrosión. El análogo copia la métrica, no la fuente: no prueba las ecuaciones de Einstein."
+        en: "Transparent for the laser sheet and camera; stiff and corrosion-free. The analogue copies the metric, not the source: it does not test Einstein's equations."
+        fr: "Transparent pour la nappe laser et la caméra ; rigide et sans corrosion. L'analogue copie la métrique, pas la source : il ne teste pas les équations d'Einstein."
+      propiedades:
+        - { nombre: "Densidad", valor: "1.19", unidad: "g/cm³", fuente: "ISO 7823-1 / ficha PLEXIGLAS GS (Röhm)" }
+        - { nombre: "Transmisión luminosa (3 mm)", valor: "92", unidad: "%", fuente: "Ficha PLEXIGLAS GS (Röhm)" }
+    electronica:
+      - { elemento: "Bomba con variador de frecuencia", especificacion: "Caudal programable v(t) con perfil periódico, control por FPGA", por_que: { es: "Impone la velocidad del flujo que cambia entre fase lenta y rápida." } }
+      - { elemento: "Sondas de nivel capacitivas", especificacion: "8 sondas, resolución 10 µm, 1 kHz", por_que: { es: "Miden la conversión de modos en la pared delantera." } }
+      - { elemento: "PIV: láser verde de lámina + cámara rápida", especificacion: "532 nm, 1 kfps, 4 Mpx", por_que: { es: "Mapa del perfil de velocidad v(x) para extraer κ." } }
+    cableado:
+      - { tramo: "Sondas → DAQ", tipo: "par trenzado apantallado", por_que: { es: "Señales de baja tensión junto a una bomba con variador ruidoso." } }
+      - { tramo: "Cámara → ordenador", tipo: "CoaXPress sobre coaxial 75 Ω", por_que: { es: "Ancho de banda para vídeo rápido sin compresión." } }
+    cifras:
+      - { nombre: "Velocidad de las ondas con 5 cm de agua (√(gh))", valor: "0.70", unidad: "m/s", fuente: "laboratorio: lab_evaluar(sqrt(g*h), g=9.81, h=0.05)" }
+      - { nombre: "κ/σ con v = 0,9 (lento) y v = 10 (rápido)", valor: "-0.22 ; 1.8", unidad: "—", fuente: "laboratorio: lab_evaluar(2*s*(1-1/v), s=1, v=[0.9, 10])" }
+      - { nombre: "Ley κ = 2σ(1 − 1/v)", valor: "demostrada", unidad: "—", fuente: "docs/investigacion/ideas/f-critica-cruzada.md (b1, lab_igual)" }
+      - { nombre: "Emisión estimulada tipo Hawking en canal de agua", valor: "medida", unidad: "—", fuente: "weinfurtner-2011 · https://arxiv.org/abs/1008.1911" }
+    boceto:
+      es: "Canal largo con obstáculo móvil, flechas de flujo variable, lámina láser vertical y ocho sondas en fila."
+    siguiente_paso:
+      es: "Diseñar el perfil v(x,t) del obstáculo con la métrica acústica y predecir la conversión de modos en cada transición."
+      en: "Design the obstacle's v(x,t) profile with the acoustic metric and predict mode conversion at each transition."
+      fr: "Concevoir le profil v(x,t) de l'obstacle avec la métrique acoustique et prédire la conversion de modes à chaque transition."
+
+  - id: "balanza-cascara"
+    nivel: "mesa"
+    nombre:
+      es: "Balanza de torsión con cáscara de wolframio"
+      en: "Torsion balance with tungsten shell"
+      fr: "Balance de torsion avec coque en tungstène"
+    funcion:
+      es: "Comprueba en campo débil que el interior de una cáscara es plano (campo nulo) y calibra la cadena de gravimetría."
+      en: "Checks in weak field that a shell's interior is flat (zero field) and calibrates the gravimetry chain."
+      fr: "Vérifie en champ faible que l'intérieur d'une coque est plat (champ nul) et étalonne la chaîne de gravimétrie."
+    estado: "calculado"
+    obstaculos: [6, 13]
+    geometria:
+      tipo: "cascara"
+      radio_m: 0.15
+      posicion_m: [0.9, 0.35, 0.3]
+      color: "ink"
+    material:
+      nombre:
+        es: "Aleación pesada de wolframio"
+        en: "Tungsten heavy alloy"
+        fr: "Alliage lourd de tungstène"
+      designacion: "ASTM B777 Clase 4 (W-Ni-Fe, 97 % W)"
+      composicion:
+        - { elemento: "W", porcentaje_masa: "97" }
+        - { elemento: "Ni", porcentaje_masa: "2.1" }
+        - { elemento: "Fe", porcentaje_masa: "0.9" }
+      por_que:
+        es: "Máxima densidad mecanizable: más masa por volumen da más señal gravitatoria, y el Ni-Fe permite mecanizar la cáscara hueca."
+        en: "Highest machinable density: more mass per volume gives more gravity signal, and the Ni-Fe binder lets the hollow shell be machined."
+        fr: "Densité usinable maximale : plus de masse par volume donne plus de signal gravitationnel, et le liant Ni-Fe permet d'usiner la coque creuse."
+      propiedades:
+        - { nombre: "Densidad", valor: "18.25–18.85", unidad: "g/cm³", fuente: "ASTM B777, Clase 4" }
+    electronica:
+      - { elemento: "Autocolimador óptico", especificacion: "Resolución < 10 nrad", por_que: { es: "Lee el giro del péndulo de torsión." } }
+      - { elemento: "Control térmico", especificacion: "Estabilidad ±1 mK con termistores NTC y calentadores Peltier", por_que: { es: "La deriva térmica de la fibra imita una señal gravitatoria." } }
+      - { elemento: "Bomba iónica", especificacion: "Vacío < 1e-6 mbar", por_que: { es: "Quita el ruido de gas en el péndulo." } }
+    cableado:
+      - { tramo: "Termistores → DAQ", tipo: "par trenzado apantallado", por_que: { es: "Lecturas de mK sin ruido inducido." } }
+      - { tramo: "Autocolimador → DAQ", tipo: "fibra multimodo OM4", por_que: { es: "Aislamiento galvánico y sin cargas térmicas cerca del péndulo." } }
+    cifras:
+      - { nombre: "Campo exterior de 100 kg a 0,3 m", valor: "7.4e-8", unidad: "m/s²", fuente: "laboratorio: lab_evaluar(G*M/r^2, M=100, r=0.3)" }
+      - { nombre: "Campo interior esperado (teorema de la cáscara)", valor: "0", unidad: "m/s²", fuente: "Teorema de Newton de la cáscara; interior plano en fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+    boceto:
+      es: "Esfera hueca partida en dos mitades, péndulo de torsión que entra por un orificio polar, autocolimador fuera de la campana de vacío."
+    siguiente_paso:
+      es: "Calcular el residuo esperado por el orificio polar y la asimetría de mecanizado antes de comprar el material."
+      en: "Compute the expected residual from the polar hole and machining asymmetry before buying material."
+      fr: "Calculer le résidu attendu dû à l'orifice polaire et à l'asymétrie d'usinage avant d'acheter le matériau."
+
+  - id: "ensayo-rotura-giro"
+    nivel: "mesa"
+    nombre:
+      es: "Ensayo de rotura por giro (ley de materiales)"
+      en: "Spin-burst test (materials law)"
+      fr: "Essai d'éclatement par rotation (loi des matériaux)"
+    funcion:
+      es: "Mide la resistencia específica σ/ρ de un anillo girándolo hasta romperlo; fija el arrastre máximo 12σ/(ρc) de una cáscara de materia ordinaria."
+      en: "Measures a ring's specific strength σ/ρ by spinning it to burst; this fixes the maximum drag 12σ/(ρc) of an ordinary-matter shell."
+      fr: "Mesure la résistance spécifique σ/ρ d'un anneau en le faisant tourner jusqu'à rupture ; cela fixe l'entraînement maximal 12σ/(ρc) d'une coque de matière ordinaire."
+    estado: "calculado"
+    obstaculos: [8]
+    geometria:
+      tipo: "anillo"
+      radio_m: 0.2
+      posicion_m: [0.9, -0.1, 0.2]
+      color: "yellow"
+    material:
+      nombre:
+        es: "Anillo bobinado de fibra de carbono / epoxi"
+        en: "Filament-wound carbon fibre / epoxy ring"
+        fr: "Anneau bobiné fibre de carbone / époxy"
+      designacion: "Fibra Toray T1100G en matriz epoxi, bobinado circunferencial"
+      composicion:
+        - { elemento: "C (fibra)", porcentaje_masa: "> 93 en la fibra" }
+        - { elemento: "Matriz epoxi (C, H, O, N)", porcentaje_masa: "≈ 30–35 del anillo" }
+      por_que:
+        es: "Es el material con mayor σ/ρ de ingeniería; la ley dice que el arrastre solo depende de σ/ρ, así que el mejor material marca el techo."
+        en: "It has the highest engineering σ/ρ; the law says drag depends only on σ/ρ, so the best material sets the ceiling."
+        fr: "C'est le matériau d'ingénierie au plus haut σ/ρ ; la loi dit que l'entraînement ne dépend que de σ/ρ, donc le meilleur matériau fixe le plafond."
+      propiedades:
+        - { nombre: "Resistencia a tracción de la fibra", valor: "7.0", unidad: "GPa", fuente: "Ficha técnica Toray T1100G" }
+        - { nombre: "Módulo de la fibra", valor: "324", unidad: "GPa", fuente: "Ficha técnica Toray T1100G" }
+        - { nombre: "Densidad de la fibra", valor: "1.79", unidad: "g/cm³", fuente: "Ficha técnica Toray T1100G" }
+    electronica:
+      - { elemento: "Turbina de aire en foso de vacío", especificacion: "Hasta 60 000 rpm, foso de acero con anillo de contención", por_que: { es: "Lleva el anillo a velocidad de rotura con seguridad." } }
+      - { elemento: "Sensor de velocidad óptico", especificacion: "Tacómetro láser, 1 pulso/vuelta, ±0,01 %", por_que: { es: "La velocidad de rotura da σ/ρ = v²." } }
+      - { elemento: "Galgas extensométricas + telemetría", especificacion: "Puente completo, telemetría inductiva 10 kHz", por_que: { es: "Deformación de aro antes de romper, para validar el modelo." } }
+    cableado:
+      - { tramo: "Telemetría → DAQ", tipo: "coaxial RG-316", por_que: { es: "Flexible y apantallado cerca de la turbina." } }
+      - { tramo: "Tacómetro → FPGA", tipo: "fibra multimodo OM4", por_que: { es: "Inmune al ruido del motor y a la puesta a tierra del foso." } }
+    cifras:
+      - { nombre: "σ/ρ de la fibra T1100G", valor: "3.9e6", unidad: "J/kg", fuente: "laboratorio: lab_evaluar(s/p, s=7e9, p=1790)" }
+      - { nombre: "Arrastre máximo 12σ/(ρc) con T1100G", valor: "0.157", unidad: "m/s", fuente: "laboratorio: lab_evaluar(12*s/(p*c), s=7e9, p=1790)" }
+      - { nombre: "Arrastre máximo con maraging 350", valor: "0.012", unidad: "m/s", fuente: "laboratorio: lab_evaluar(12*s/(p*c), s=2.41e9, p=8000)" }
+      - { nombre: "σ/ρ que pide β = 0,02", valor: "1.5e14", unidad: "J/kg", fuente: "laboratorio: lab_evaluar(b*c^2/12, b=0.02)" }
+      - { nombre: "Distancia al requisito con T1100G", valor: "3.8e7", unidad: "veces", fuente: "laboratorio: lab_evaluar(b*c^2/(12*q), b=0.02, q=3.91e6)" }
+    boceto:
+      es: "Corte del foso: anillo negro sobre eje vertical, turbina abajo, anillo de contención grueso alrededor, tacómetro láser apuntando al borde."
+    siguiente_paso:
+      es: "Contrastar el factor 12 de la ley con un integrador TOV anisótropo antes de usar el ensayo como prueba."
+      en: "Check the law's factor 12 with an anisotropic TOV integrator before using the test as evidence."
+      fr: "Vérifier le facteur 12 de la loi avec un intégrateur TOV anisotrope avant d'utiliser l'essai comme preuve."
+
+  - id: "cavidad-casimir"
+    nivel: "mesa"
+    nombre:
+      es: "Metrología de cavidad de Casimir"
+      en: "Casimir cavity metrology"
+      fr: "Métrologie de cavité de Casimir"
+    funcion:
+      es: "Mide la presión de Casimir esfera-placa entre 50 y 500 nm para fijar la energía negativa real disponible y su coste en placas."
+      en: "Measures sphere-plate Casimir pressure from 50 to 500 nm to pin down the real negative energy available and its cost in plates."
+      fr: "Mesure la pression de Casimir sphère-plan entre 50 et 500 nm pour fixer l'énergie négative réelle disponible et son coût en plaques."
+    estado: "calculado"
+    obstaculos: [3, 9]
+    geometria:
+      tipo: "placa"
+      dimensiones_m: [0.3, 0.3, 0.05]
+      posicion_m: [-0.2, 0.35, 0.1]
+      color: "green"
+    material:
+      nombre:
+        es: "Oro de alta pureza (recubrimiento)"
+        en: "High-purity gold (coating)"
+        fr: "Or de haute pureté (revêtement)"
+      designacion: "Au 99,99 % evaporado (≥ 100 nm) sobre esfera de poliestireno y placa de silicio"
+      composicion:
+        - { elemento: "Au", porcentaje_masa: "99.99" }
+      por_que:
+        es: "Conductor casi ideal, no se oxida y su respuesta óptica está bien tabulada: así la medida se compara con la teoría sin parámetros libres."
+        en: "Near-ideal conductor, does not oxidise and its optical response is well tabulated: the measurement compares to theory without free parameters."
+        fr: "Conducteur quasi idéal, inoxydable, réponse optique bien tabulée : la mesure se compare à la théorie sans paramètre libre."
+      propiedades:
+        - { nombre: "Densidad", valor: "19.3", unidad: "g/cm³", fuente: "CRC Handbook of Chemistry and Physics" }
+        - { nombre: "Resistividad a 20 °C", valor: "2.2e-8", unidad: "Ω·m", fuente: "CRC Handbook of Chemistry and Physics" }
+    electronica:
+      - { elemento: "Microscopio de fuerza atómica en vacío", especificacion: "Micropalanca con esfera de 100 µm, lectura interferométrica de fibra", por_que: { es: "Mide fuerzas de pN a nN." } }
+      - { elemento: "Actuador piezo de lazo cerrado", especificacion: "Recorrido 20 µm, resolución 0,1 nm", por_que: { es: "Controla la separación con precisión subnanométrica." } }
+      - { elemento: "Fuente de tensión de compensación", especificacion: "±1 V, ruido < 1 µV", por_que: { es: "Anula el potencial de contacto, que imita la fuerza de Casimir." } }
+    cableado:
+      - { tramo: "Interferómetro de lectura", tipo: "fibra monomodo SMF-28 1550 nm", por_que: { es: "Lectura de desplazamiento sin cargas eléctricas cerca de la cavidad." } }
+      - { tramo: "Fuente de compensación → placa", tipo: "coaxial RG-174 con pasamuros de vacío", por_que: { es: "Tensión limpia a través de la cámara." } }
+    cifras:
+      - { nombre: "Presión de Casimir ideal a 100 nm", valor: "13", unidad: "Pa", fuente: "laboratorio: lab_evaluar(pi^2*h*c/(240*a^4), a=1e-7)" }
+      - { nombre: "Presión de Casimir ideal a 10 nm", valor: "1.3e5", unidad: "Pa", fuente: "laboratorio: lab_evaluar(pi^2*h*c/(240*a^4), a=1e-8)" }
+      - { nombre: "Órdenes que faltan con Casimir a 10 nm (burbuja de 100 m)", valor: "≈ 35", unidad: "órdenes", fuente: "docs/investigacion/soluciones.md (ley 1)" }
+      - { nombre: "Pila de placas reales: NEC promediada nunca violada", valor: "demostrada (Z3)", unidad: "—", fuente: "docs/investigacion/ideas/a-energia-negativa.md (A1)" }
+    boceto:
+      es: "Detalle de la esfera dorada sobre la micropalanca frente a la placa, con la escala de separación en nanómetros."
+    siguiente_paso:
+      es: "Usar la medida para calibrar el término de placas en la prueba Z3 de la pila (ley 2), no para buscar propulsión."
+      en: "Use the measurement to calibrate the plate term in the Z3 stack proof (law 2), not to seek propulsion."
+      fr: "Utiliser la mesure pour étalonner le terme des plaques dans la preuve Z3 de l'empilement (loi 2), pas pour chercher une propulsion."
+
+  - id: "interferometro-transito"
+    nivel: "mesa"
+    nombre:
+      es: "Interferómetro de tiempo de tránsito"
+      en: "Transit-time interferometer"
+      fr: "Interféromètre de temps de transit"
+    funcion:
+      es: "Ensaya en mesa la prueba de rayos opuestos de Fuchs con un Sagnac de fibra: mide δt entre dos haces contrarrotantes."
+      en: "Rehearses Fuchs's counter-propagating ray test on a bench with a fibre Sagnac: measures δt between two counter-rotating beams."
+      fr: "Répète sur table le test des rayons opposés de Fuchs avec un Sagnac à fibre : mesure δt entre deux faisceaux contrarotatifs."
+    estado: "calculado"
+    obstaculos: [13]
+    geometria:
+      tipo: "cilindro"
+      radio_m: 0.15
+      dimensiones_m: [0.3, 0.3, 0.08]
+      posicion_m: [0.2, 0.35, 0.04]
+      color: "blue"
+    material:
+      nombre:
+        es: "Fibra óptica de sílice"
+        en: "Silica optical fibre"
+        fr: "Fibre optique en silice"
+      designacion: "Corning SMF-28 Ultra (ITU-T G.652.D)"
+      composicion:
+        - { elemento: "SiO2", porcentaje_masa: "resto" }
+        - { elemento: "GeO2 (dopante del núcleo)", porcentaje_masa: "pocos %" }
+      por_que:
+        es: "Bajas pérdidas a 1550 nm permiten 1 km de bobina: el área efectiva N·A sube la sensibilidad a δt sin agrandar la mesa."
+        en: "Low loss at 1550 nm allows a 1 km coil: the effective area N·A raises δt sensitivity without a bigger table."
+        fr: "Faibles pertes à 1550 nm permettent une bobine de 1 km : l'aire effective N·A augmente la sensibilité à δt sans agrandir la table."
+      propiedades:
+        - { nombre: "Atenuación a 1550 nm", valor: "≤ 0.18", unidad: "dB/km", fuente: "Ficha Corning SMF-28 Ultra" }
+        - { nombre: "Diámetro de campo modal a 1550 nm", valor: "10.4", unidad: "µm", fuente: "Ficha Corning SMF-28 Ultra" }
+    electronica:
+      - { elemento: "Fuente superluminiscente 1550 nm", especificacion: "Banda ancha 40 nm, 10 mW", por_que: { es: "Baja coherencia: reduce el ruido de retrodispersión del Sagnac." } }
+      - { elemento: "Modulador de fase de niobato de litio", especificacion: "Integrado en chip, 1 GHz", por_que: { es: "Modulación para leer la fase con lazo cerrado." } }
+      - { elemento: "Etiquetador de tiempos", especificacion: "Resolución ≤ 10 ps", por_que: { es: "Mismo instrumento que haría falta para medir δt ≈ 7,6 ns en el vehículo." } }
+    cableado:
+      - { tramo: "Bobina → acoplador → detector", tipo: "fibra monomodo PM 1550 nm", por_que: { es: "Evita el ruido de polarización que falsea la fase." } }
+    cifras:
+      - { nombre: "δt Sagnac con 1000 vueltas de r = 0,15 m a 1 rad/s", valor: "3.1e-15", unidad: "s", fuente: "laboratorio: lab_evaluar(4*N*A*W/c^2, N=1000, A=0.0707, W=1)" }
+      - { nombre: "δt de la cáscara warp de Fuchs", valor: "7.6e-9", unidad: "s", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+    boceto:
+      es: "Bobina de fibra sobre plato giratorio, dos flechas en sentidos opuestos y el detector en el acoplador."
+    siguiente_paso:
+      es: "Escribir el modelo de error del etiquetador para que sirva de base al sensor de tránsito del vehículo."
+      en: "Write the time-tagger error model so it can feed the vehicle's transit sensor."
+      fr: "Écrire le modèle d'erreur de l'horodateur pour qu'il serve de base au capteur de transit du véhicule."
+
+  - id: "adquisicion-control"
+    nivel: "mesa"
+    nombre:
+      es: "Adquisición de datos y control"
+      en: "Data acquisition and control"
+      fr: "Acquisition de données et contrôle"
+    funcion:
+      es: "Reúne todas las señales con una sola base de tiempos, cierra los lazos de control y guarda los datos crudos con su procedencia."
+      en: "Collects all signals on one timebase, closes the control loops and stores raw data with provenance."
+      fr: "Rassemble tous les signaux sur une seule base de temps, ferme les boucles de contrôle et stocke les données brutes avec leur provenance."
+    estado: "boceto"
+    obstaculos: [13, 14]
+    geometria:
+      tipo: "caja"
+      dimensiones_m: [0.5, 0.45, 0.6]
+      posicion_m: [-1.7, 0.0, 0.3]
+      color: "ink"
+    material:
+      nombre:
+        es: "Aluminio 6061-T6 (chasis)"
+        en: "Aluminium 6061-T6 (chassis)"
+        fr: "Aluminium 6061-T6 (châssis)"
+      designacion: "Aleación de aluminio 6061-T6, ASTM B209"
+      composicion:
+        - { elemento: "Al", porcentaje_masa: "resto" }
+        - { elemento: "Mg", porcentaje_masa: "0.8–1.2" }
+        - { elemento: "Si", porcentaje_masa: "0.4–0.8" }
+        - { elemento: "Cu", porcentaje_masa: "0.15–0.40" }
+        - { elemento: "Cr", porcentaje_masa: "0.04–0.35" }
+      por_que:
+        es: "Buen apantallamiento, conduce el calor de la electrónica y no es magnético cerca de la balanza de torsión."
+        en: "Good shielding, conducts electronics heat and is non-magnetic near the torsion balance."
+        fr: "Bon blindage, conduit la chaleur de l'électronique et n'est pas magnétique près de la balance de torsion."
+      propiedades:
+        - { nombre: "Densidad", valor: "2.70", unidad: "g/cm³", fuente: "ASM Handbook, Vol. 2" }
+        - { nombre: "Resistencia a tracción", valor: "310", unidad: "MPa", fuente: "ASM Handbook, Vol. 2" }
+    electronica:
+      - { elemento: "FPGA SoC", especificacion: "AMD Zynq UltraScale+ con ADC de 16 bit a 125 MS/s", por_que: { es: "Lazos PDH y de caudal con latencia de microsegundos." } }
+      - { elemento: "Reloj de rubidio disciplinado por GNSS", especificacion: "10 MHz + 1 PPS, estabilidad 1e-11 a 1 s", por_que: { es: "Una sola base de tiempos para comparar experimentos." } }
+      - { elemento: "Fuentes lineales", especificacion: "±15 V y 5 V, ruido < 10 µV rms", por_que: { es: "Las conmutadas meten ruido en la homodina." } }
+      - { elemento: "Servidor de datos", especificacion: "Registro crudo con hash y metadatos", por_que: { es: "Cada cifra de la web debe trazarse hasta el dato." } }
+    cableado:
+      - { tramo: "Reloj → todos los instrumentos", tipo: "coaxial RG-58 50 Ω con distribución en estrella", por_que: { es: "Mismo retardo a cada equipo." } }
+      - { tramo: "FPGA → servidor", tipo: "fibra multimodo OM4 (10 GbE)", por_que: { es: "Sin lazos de tierra entre bancos." } }
+    cifras: []
+    boceto:
+      es: "Bastidor de 19 pulgadas con FPGA, reloj, fuentes y servidor; líneas en estrella hacia cada experimento."
+    siguiente_paso:
+      es: "Definir el formato de datos común y el registro de procedencia antes de montar el primer experimento."
+      en: "Define the common data format and provenance log before building the first experiment."
+      fr: "Définir le format de données commun et le journal de provenance avant de monter la première expérience."
+
+  - id: "mesa-aislamiento"
+    nivel: "mesa"
+    nombre:
+      es: "Mesa óptica con aislamiento de vibraciones"
+      en: "Vibration-isolated optical table"
+      fr: "Table optique à isolation vibratoire"
+    funcion:
+      es: "Base común rígida y aislada para que las vibraciones del suelo no tapen la compresión ni la señal de torsión."
+      en: "Common rigid, isolated base so floor vibrations do not mask squeezing or the torsion signal."
+      fr: "Base commune rigide et isolée pour que les vibrations du sol ne masquent ni la compression ni le signal de torsion."
+    estado: "boceto"
+    obstaculos: [14]
+    geometria:
+      tipo: "placa"
+      dimensiones_m: [3.0, 1.5, 0.3]
+      posicion_m: [0.0, 0.0, -0.15]
+      color: "ink"
+    material:
+      nombre:
+        es: "Acero inoxidable ferrítico (tablero)"
+        en: "Ferritic stainless steel (top skin)"
+        fr: "Acier inoxydable ferritique (plateau)"
+      designacion: "AISI 430 (UNS S43000), núcleo en panal de acero"
+      composicion:
+        - { elemento: "Fe", porcentaje_masa: "resto" }
+        - { elemento: "Cr", porcentaje_masa: "16–18" }
+        - { elemento: "C", porcentaje_masa: "≤ 0.12" }
+      por_que:
+        es: "Es magnético (las bases ópticas se sujetan con imanes), no se oxida y el panal da rigidez con poco peso."
+        en: "Magnetic (optical bases clamp with magnets), stainless, and the honeycomb gives stiffness at low weight."
+        fr: "Magnétique (les bases optiques se fixent par aimants), inoxydable, et le nid d'abeille donne de la rigidité à faible poids."
+      propiedades:
+        - { nombre: "Densidad", valor: "7.75", unidad: "g/cm³", fuente: "ASM Handbook, Vol. 1" }
+    electronica:
+      - { elemento: "Patas neumáticas con nivelación activa", especificacion: "Frecuencia natural ≈ 1,5 Hz", por_que: { es: "Filtra la vibración del edificio." } }
+      - { elemento: "Acelerómetros sísmicos", especificacion: "3 ejes, 0,1–100 Hz", por_que: { es: "Registra la vibración para restarla en el análisis." } }
+    cableado:
+      - { tramo: "Acelerómetros → DAQ", tipo: "par trenzado apantallado", por_que: { es: "Señal débil en entorno de laboratorio." } }
+    cifras: []
+    boceto:
+      es: "Tablero rectangular con rejilla de agujeros M6 y cuatro patas neumáticas, con la huella de cada experimento marcada."
+    siguiente_paso:
+      es: "Medir el espectro de vibración del sitio y decidir si la balanza va en una mesa aparte."
+      en: "Measure the site vibration spectrum and decide whether the balance needs its own table."
+      fr: "Mesurer le spectre vibratoire du site et décider si la balance a besoin de sa propre table."
+
+  # ──────────────────────────── NIVEL VEHÍCULO ────────────────────────────
+  # Escala: metros; origen en el centro de la cáscara; x = sentido del desplazamiento β.
+  # Geometría de referencia: cáscara entre R1 = 10 m y R2 = 20 m (fuchs-2024).
+
+  - id: "cascara-nucleo"
+    nivel: "vehiculo"
+    nombre:
+      es: "Cáscara de masa (capa portante)"
+      en: "Mass shell (load-bearing layer)"
+      fr: "Coque de masse (couche porteuse)"
+    funcion:
+      es: "Aporta la masa positiva y la tensión de aro que sostienen la geometría con interior plano y exterior de Schwarzschild."
+      en: "Provides the positive mass and hoop stress that hold the geometry with flat interior and Schwarzschild exterior."
+      fr: "Fournit la masse positive et la contrainte circonférentielle qui maintiennent la géométrie à intérieur plat et extérieur de Schwarzschild."
+    estado: "abierto"
+    obstaculos: [6, 7, 8]
+    geometria:
+      tipo: "cascara"
+      radio_m: 20
+      posicion_m: [0, 0, 0]
+      color: "ink"
+    material:
+      nombre:
+        es: "Sin material conocido (fluido anisótropo modelo)"
+        en: "No known material (model anisotropic fluid)"
+        fr: "Aucun matériau connu (fluide anisotrope modèle)"
+      designacion: "Ninguna. Fluido anisótropo TOV sin ecuación de estado real"
+      composicion: []
+      por_que:
+        es: "La ley de materiales limita el arrastre a 12σ/(ρc), de metros por segundo; β = 0,02 pide una densidad media mayor que la de una estrella de neutrones."
+        en: "The materials law caps drag at 12σ/(ρc), metres per second; β = 0.02 needs a mean density above a neutron star's."
+        fr: "La loi des matériaux plafonne l'entraînement à 12σ/(ρc), quelques mètres par seconde ; β = 0,02 exige une densité moyenne supérieure à celle d'une étoile à neutrons."
+      propiedades: []
+    electronica: []
+    cableado: []
+    cifras:
+      - { nombre: "Masa publicada (R1 = 10 m, R2 = 20 m)", valor: "4.49e27", unidad: "kg", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+      - { nombre: "Masa publicada en masas de Júpiter", valor: "2.37", unidad: "M_J", fuente: "laboratorio: lab_evaluar(x/1.898e27, x=4.49e27)" }
+      - { nombre: "Suelo de masa corregido (campo débil)", valor: "0.18", unidad: "M_J", fuente: "docs/investigacion/ideas/f-critica-cruzada.md (a4, lab_barrido)" }
+      - { nombre: "Cáscara certificada más ligera publicada", valor: "0.49", unidad: "M_J", fuente: "ashurst-2026 · https://doi.org/10.5281/zenodo.23459758" }
+      - { nombre: "Densidad media (masa publicada)", valor: "1.5e23", unidad: "kg/m³", fuente: "laboratorio: lab_evaluar(M/(4/3*pi*(b^3-a^3)), M=4.49e27, a=10, b=20)" }
+      - { nombre: "Compacidad 2GM/(c²R2)", valor: "0.333", unidad: "—", fuente: "laboratorio: lab_evaluar(2*G*M/(c^2*R), M=4.49e27, R=20)" }
+      - { nombre: "Presión en R1 (TOV isótropa)", valor: "1e39", unidad: "Pa", fuente: "docs/obstaculos.md §8 (cálculo propio)" }
+      - { nombre: "Masa con materia a densidad nuclear", valor: "3.0–7.7", unidad: "M_J", fuente: "docs/investigacion/ideas/f-critica-cruzada.md (contradicción 1)" }
+    boceto:
+      es: "Esfera gruesa cortada por la mitad, con el radio interior y exterior acotados y flechas de tensión de aro en la pared."
+    siguiente_paso:
+      es: "Integrar la TOV anisótropa con ecuación de estado nuclear y buscar el β máximo; resolver a la vez masa y materia."
+      en: "Integrate the anisotropic TOV with a nuclear equation of state and find the maximum β; solve mass and matter together."
+      fr: "Intégrer la TOV anisotrope avec une équation d'état nucléaire et chercher le β maximal ; résoudre masse et matière ensemble."
+
+  - id: "capa-desplazamiento"
+    nivel: "vehiculo"
+    nombre:
+      es: "Capa interior de transición del desplazamiento"
+      en: "Inner shift-transition layer"
+      fr: "Couche intérieure de transition du décalage"
+    funcion:
+      es: "Zona junto a R1 donde el desplazamiento β pasa de 0,02 dentro a 0 fuera; concentra la circulación de momento y el pico de tensión de aro."
+      en: "Zone near R1 where the shift β goes from 0.02 inside to 0 outside; it holds the momentum circulation and the hoop-stress peak."
+      fr: "Zone près de R1 où le décalage β passe de 0,02 dedans à 0 dehors ; elle porte la circulation de moment et le pic de contrainte circonférentielle."
+    estado: "abierto"
+    obstaculos: [1, 8, 13]
+    geometria:
+      tipo: "cascara"
+      radio_m: 10.5
+      posicion_m: [0, 0, 0]
+      color: "red"
+    material:
+      nombre:
+        es: "Sin material conocido (misma materia que la cáscara)"
+        en: "No known material (same matter as the shell)"
+        fr: "Aucun matériau connu (même matière que la coque)"
+      designacion: "Ninguna. Perfil S_warp(r) del modelo de Fuchs"
+      composicion: []
+      por_que:
+        es: "Aquí se decide si hay motor: si β se puede quitar con un cambio de coordenadas, solo queda una estrella hueca en movimiento."
+        en: "This is where it is decided whether there is a drive: if β can be removed by a coordinate change, only a moving hollow star remains."
+        fr: "C'est ici que se décide s'il y a un moteur : si β s'annule par un changement de coordonnées, il ne reste qu'une étoile creuse en mouvement."
+      propiedades: []
+    electronica: []
+    cableado: []
+    cifras:
+      - { nombre: "Desplazamiento interior", valor: "0.02", unidad: "c", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+      - { nombre: "Objeción: la construcción no respeta la TOV", valor: "abierta", unidad: "—", fuente: "barzegar-2026 · https://arxiv.org/abs/2602.16495" }
+      - { nombre: "Objeción: caso degenerado e inestabilidad no radial", valor: "abierta", unidad: "—", fuente: "idrissov-2026 · https://arxiv.org/abs/2610.17629" }
+    boceto:
+      es: "Corte meridional con flechas de densidad de momento formando dos lazos de circulación junto al radio interior."
+    siguiente_paso:
+      es: "Comprobar si existe una solución TOV anisótropa con β ≠ 0 que cumpla la DEC (cierra la duda de Barzegar)."
+      en: "Check whether an anisotropic TOV solution with β ≠ 0 satisfying the DEC exists (settles Barzegar's doubt)."
+      fr: "Vérifier s'il existe une solution TOV anisotrope avec β ≠ 0 qui respecte la DEC (lève le doute de Barzegar)."
+
+  - id: "modulo-tripulacion"
+    nivel: "vehiculo"
+    nombre:
+      es: "Módulo de tripulación y carga"
+      en: "Crew and payload module"
+      fr: "Module équipage et charge utile"
+    funcion:
+      es: "Recipiente a presión habitable en la región interior plana, que viaja con el desplazamiento sin sentir aceleración."
+      en: "Habitable pressure vessel in the flat interior region, carried by the shift without feeling acceleration."
+      fr: "Enceinte pressurisée habitable dans la région intérieure plate, portée par le décalage sans ressentir d'accélération."
+    estado: "boceto"
+    obstaculos: [10]
+    geometria:
+      tipo: "modulo"
+      radio_m: 2.0
+      dimensiones_m: [6.0, 4.0, 4.0]
+      posicion_m: [0, 0, 0]
+      color: "yellow"
+    material:
+      nombre:
+        es: "Aleación aluminio-litio"
+        en: "Aluminium-lithium alloy"
+        fr: "Alliage aluminium-lithium"
+      designacion: "AA 2195 (Al-Cu-Li), AMS 4469"
+      composicion:
+        - { elemento: "Al", porcentaje_masa: "resto" }
+        - { elemento: "Cu", porcentaje_masa: "3.7–4.3" }
+        - { elemento: "Li", porcentaje_masa: "0.8–1.2" }
+        - { elemento: "Mg", porcentaje_masa: "0.25–0.8" }
+        - { elemento: "Ag", porcentaje_masa: "0.25–0.6" }
+        - { elemento: "Zr", porcentaje_masa: "0.08–0.16" }
+      por_que:
+        es: "El litio baja la densidad y sube el módulo: casco a presión ligero y probado en tanques criogénicos de lanzadores."
+        en: "Lithium lowers density and raises stiffness: a light, proven pressure hull used in launcher cryogenic tanks."
+        fr: "Le lithium réduit la densité et augmente la rigidité : coque pressurisée légère et éprouvée dans les réservoirs cryogéniques de lanceurs."
+      propiedades:
+        - { nombre: "Densidad", valor: "2.71", unidad: "g/cm³", fuente: "Ficha técnica AA 2195 (Constellium / AMS 4469)" }
+    electronica:
+      - { elemento: "Soporte vital", especificacion: "Control de CO2 y O2, presión 101 kPa", por_que: { es: "Habitabilidad básica." } }
+      - { elemento: "Dosímetros de radiación", especificacion: "Silicio, 0,1 µGy", por_que: { es: "Las partículas acumuladas en la pared se liberan al frenar." } }
+    cableado:
+      - { tramo: "Red interna del módulo", tipo: "par trenzado apantallado (bus SpaceWire)", por_que: { es: "Bus de datos estándar en vuelo espacial." } }
+    cifras:
+      - { nombre: "Ritmo de los relojes interiores frente al infinito (estimación de cáscara delgada)", valor: "0.82", unidad: "—", fuente: "laboratorio: lab_evaluar(sqrt(1-2*G*M/(c^2*R)), M=4.49e27, R=20)" }
+      - { nombre: "Radio libre interior", valor: "10", unidad: "m", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+    boceto:
+      es: "Cilindro con cúpulas en los extremos centrado en la esfera interior, escotilla y anillos de rigidez."
+    siguiente_paso:
+      es: "Calcular el lapso interior real de la cáscara gruesa y el espectro de partículas al frenar (obstáculo 10)."
+      en: "Compute the real interior lapse of the thick shell and the particle spectrum at braking (obstacle 10)."
+      fr: "Calculer le laps intérieur réel de la coque épaisse et le spectre de particules au freinage (obstacle 10)."
+
+  - id: "celosia-interior"
+    nivel: "vehiculo"
+    nombre:
+      es: "Celosía interior y anillos de rigidez"
+      en: "Interior truss and stiffening rings"
+      fr: "Treillis intérieur et anneaux de raidissement"
+    funcion:
+      es: "Mantiene módulo, espejos y emisores en posición fija dentro de la región plana, sin tocar la pared."
+      en: "Holds module, mirrors and emitters fixed inside the flat region without touching the wall."
+      fr: "Maintient module, miroirs et émetteurs en position fixe dans la région plate, sans toucher la paroi."
+    estado: "boceto"
+    obstaculos: [8]
+    geometria:
+      tipo: "celosia"
+      dimensiones_m: [16, 16, 16]
+      posicion_m: [0, 0, 0]
+      color: "ink"
+    material:
+      nombre:
+        es: "Titanio Ti-6Al-4V"
+        en: "Titanium Ti-6Al-4V"
+        fr: "Titane Ti-6Al-4V"
+      designacion: "Ti-6Al-4V Grado 5, ASTM B348"
+      composicion:
+        - { elemento: "Ti", porcentaje_masa: "resto" }
+        - { elemento: "Al", porcentaje_masa: "5.5–6.75" }
+        - { elemento: "V", porcentaje_masa: "3.5–4.5" }
+        - { elemento: "Fe", porcentaje_masa: "≤ 0.40" }
+        - { elemento: "O", porcentaje_masa: "≤ 0.20" }
+      por_que:
+        es: "Alta resistencia específica y estabilidad térmica; en el interior plano no hay carga gravitatoria, solo maniobras y vibración."
+        en: "High specific strength and thermal stability; the flat interior has no gravity load, only manoeuvres and vibration."
+        fr: "Haute résistance spécifique et stabilité thermique ; l'intérieur plat n'a pas de charge gravitationnelle, seulement manœuvres et vibrations."
+      propiedades:
+        - { nombre: "Densidad", valor: "4.43", unidad: "g/cm³", fuente: "ASM Handbook, Vol. 2" }
+        - { nombre: "Resistencia a tracción mínima", valor: "895", unidad: "MPa", fuente: "ASTM B348, Grado 5" }
+    electronica:
+      - { elemento: "Galgas de fibra de Bragg", especificacion: "FBG multiplexadas, 1 µε", por_que: { es: "Vigilan la deformación sin cobre." } }
+    cableado:
+      - { tramo: "Red de FBG", tipo: "fibra monomodo SMF-28 1550 nm", por_que: { es: "Un solo cable lee decenas de galgas." } }
+    cifras: []
+    boceto:
+      es: "Celosía octaédrica alrededor del módulo, con tres anillos ortogonales y nodos marcados."
+    siguiente_paso:
+      es: "Decidir cómo se mantiene la celosía centrada (propulsores o anclaje) sin cargar la pared de R1."
+      en: "Decide how the truss stays centred (thrusters or anchoring) without loading the R1 wall."
+      fr: "Décider comment le treillis reste centré (propulseurs ou ancrage) sans charger la paroi en R1."
+
+  - id: "sensor-transito"
+    nivel: "vehiculo"
+    nombre:
+      es: "Sensor de tránsito de luz (prueba del desplazamiento)"
+      en: "Light-transit sensor (shift test)"
+      fr: "Capteur de transit lumineux (test du décalage)"
+    funcion:
+      es: "Envía rayos a favor y en contra del desplazamiento por el centro y mide su diferencia δt: distingue una cáscara warp de una cáscara normal."
+      en: "Sends rays along and against the shift through the centre and measures their difference δt: tells a warp shell from a normal one."
+      fr: "Envoie des rayons dans et contre le sens du décalage à travers le centre et mesure leur différence δt : distingue une coque warp d'une coque normale."
+    estado: "calculado"
+    obstaculos: [13]
+    geometria:
+      tipo: "cilindro"
+      radio_m: 0.3
+      dimensiones_m: [18, 0.6, 0.6]
+      posicion_m: [0, 3, 0]
+      color: "blue"
+    material:
+      nombre:
+        es: "Vidrio cerámico de dilatación nula (espejos)"
+        en: "Zero-expansion glass-ceramic (mirrors)"
+        fr: "Vitrocéramique à dilatation nulle (miroirs)"
+      designacion: "ZERODUR Clase 0 (SCHOTT)"
+      composicion:
+        - { elemento: "SiO2", porcentaje_masa: "57.2" }
+        - { elemento: "Al2O3", porcentaje_masa: "25.3" }
+        - { elemento: "P2O5", porcentaje_masa: "7.9" }
+        - { elemento: "Li2O", porcentaje_masa: "3.7" }
+        - { elemento: "otros (TiO2, ZrO2, ZnO, MgO, Na2O)", porcentaje_masa: "resto" }
+      por_que:
+        es: "Dilatación casi nula: la distancia entre espejos no cambia con la temperatura y no falsea δt."
+        en: "Near-zero expansion: mirror spacing does not change with temperature and does not bias δt."
+        fr: "Dilatation quasi nulle : l'écart entre miroirs ne varie pas avec la température et ne fausse pas δt."
+      propiedades:
+        - { nombre: "Coeficiente de dilatación (0–50 °C), clase 0", valor: "0 ± 0.02e-6", unidad: "1/K", fuente: "Ficha técnica SCHOTT ZERODUR" }
+        - { nombre: "Densidad", valor: "2.53", unidad: "g/cm³", fuente: "Ficha técnica SCHOTT ZERODUR" }
+    electronica:
+      - { elemento: "Láseres pulsados 1064 nm", especificacion: "Pulsos de 10 ps, dos emisores-detectores A y B", por_que: { es: "Rayos en ambos sentidos por el centro, como en Fuchs." } }
+      - { elemento: "Detectores SPAD", especificacion: "Jitter < 30 ps", por_que: { es: "Marca la llegada de cada pulso." } }
+      - { elemento: "Etiquetador de tiempos + reloj óptico", especificacion: "≤ 10 ps; estabilidad 1e-15", por_que: { es: "δt = 7,6 ns se mide con holgura; el reloj vigila la deriva." } }
+    cableado:
+      - { tramo: "Emisores → etiquetador", tipo: "fibra monomodo 1064 nm de retardo calibrado", por_que: { es: "Retardo conocido y estable entre A y B." } }
+    cifras:
+      - { nombre: "δt cáscara warp", valor: "7.6e-9", unidad: "s", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+      - { nombre: "δt cáscara de materia sin desplazamiento", valor: "0", unidad: "s", fuente: "fuchs-2024 · https://arxiv.org/abs/2405.02709" }
+    boceto:
+      es: "Dos emisores-detectores enfrentados a lo largo del eje x, espejos fuera de la cáscara y trayectorias de ida y vuelta."
+    siguiente_paso:
+      es: "Calcular δt para la cáscara corregida de 0,18 M_J y comprobar que sigue siendo invariante."
+      en: "Compute δt for the corrected 0.18 M_J shell and check it is still invariant."
+      fr: "Calculer δt pour la coque corrigée de 0,18 M_J et vérifier qu'il reste invariant."
+
+  - id: "potencia"
+    nivel: "vehiculo"
+    nombre:
+      es: "Potencia de a bordo"
+      en: "Onboard power"
+      fr: "Puissance de bord"
+    funcion:
+      es: "Da electricidad al módulo y a los sensores. No mueve la cáscara: su energía la pone la infraestructura de montaje."
+      en: "Powers the module and sensors. It does not move the shell: that energy comes from the assembly infrastructure."
+      fr: "Alimente le module et les capteurs. Elle ne déplace pas la coque : cette énergie vient de l'infrastructure d'assemblage."
+    estado: "boceto"
+    obstaculos: [2]
+    geometria:
+      tipo: "caja"
+      dimensiones_m: [1.2, 1.2, 1.5]
+      posicion_m: [-5, 0, -2]
+      color: "green"
+    material:
+      nombre:
+        es: "Dióxido de plutonio-238 (fuente de calor)"
+        en: "Plutonium-238 dioxide (heat source)"
+        fr: "Dioxyde de plutonium-238 (source de chaleur)"
+      designacion: "PuO2 en módulos GPHS con vaina de iridio (tipo MMRTG)"
+      composicion:
+        - { elemento: "Pu", porcentaje_masa: "88.2" }
+        - { elemento: "O", porcentaje_masa: "11.8" }
+      por_que:
+        es: "Calor estable durante décadas sin repostar; la masa es despreciable frente a la cáscara."
+        en: "Stable heat for decades without refuelling; its mass is negligible next to the shell."
+        fr: "Chaleur stable pendant des décennies sans recharge ; sa masse est négligeable face à la coque."
+      propiedades:
+        - { nombre: "Periodo de semidesintegración del Pu-238", valor: "87.7", unidad: "años", fuente: "NNDC / ENSDF" }
+    electronica:
+      - { elemento: "Conversión termoeléctrica", especificacion: "Pares PbTe/TAGS, ≈ 110 W eléctricos al inicio por unidad", por_que: { es: "Sin piezas móviles." } }
+      - { elemento: "Regulador y baterías Li-ion", especificacion: "Bus de 28 V", por_que: { es: "Picos de consumo de láseres y propulsores." } }
+    cableado:
+      - { tramo: "Generador → bus de 28 V", tipo: "cobre OFE con aislamiento PTFE, trenzado", por_que: { es: "Pocas pérdidas y aislamiento resistente a radiación." } }
+    cifras:
+      - { nombre: "Energía cinética mínima de la cáscara publicada a v = 0,02 (cota inferior)", valor: "8.07e40", unidad: "J", fuente: "laboratorio: lab_evaluar((1/sqrt(1-v^2)-1)*M*c^2, v=0.02, M=4.49e27)" }
+    boceto:
+      es: "Caja con aletas de radiador y el símbolo de fuente radiactiva, conectada al bus del módulo."
+    siguiente_paso:
+      es: "Hacer el presupuesto eléctrico del módulo y sensores para dimensionar el número de unidades."
+      en: "Draw up the module and sensor power budget to size the number of units."
+      fr: "Établir le bilan électrique du module et des capteurs pour dimensionner le nombre d'unités."
+
+  - id: "termico"
+    nivel: "vehiculo"
+    nombre:
+      es: "Control térmico y radiadores"
+      en: "Thermal control and radiators"
+      fr: "Contrôle thermique et radiateurs"
+    funcion:
+      es: "Saca el calor del módulo. Dentro de una cáscara cerrada no hay cielo frío: nadie ha calculado si el calor atraviesa la pared."
+      en: "Removes heat from the module. Inside a closed shell there is no cold sky: nobody has computed whether heat crosses the wall."
+      fr: "Évacue la chaleur du module. Dans une coque fermée il n'y a pas de ciel froid : personne n'a calculé si la chaleur traverse la paroi."
+    estado: "abierto"
+    obstaculos: [7, 8]
+    geometria:
+      tipo: "placa"
+      dimensiones_m: [4.0, 0.05, 2.0]
+      posicion_m: [0, -4, 0]
+      color: "green"
+    material:
+      nombre:
+        es: "Aluminio 6063-T6 (tubos de lazo de amoníaco)"
+        en: "Aluminium 6063-T6 (ammonia loop tubing)"
+        fr: "Aluminium 6063-T6 (tubes de boucle à ammoniac)"
+      designacion: "AA 6063-T6, ASTM B221"
+      composicion:
+        - { elemento: "Al", porcentaje_masa: "resto" }
+        - { elemento: "Mg", porcentaje_masa: "0.45–0.9" }
+        - { elemento: "Si", porcentaje_masa: "0.2–0.6" }
+      por_que:
+        es: "Se extruye en perfiles con canales y es compatible con amoníaco, como en la Estación Espacial."
+        en: "Extrudes into channelled profiles and is ammonia-compatible, as on the Space Station."
+        fr: "S'extrude en profilés à canaux et est compatible avec l'ammoniac, comme sur la Station spatiale."
+      propiedades:
+        - { nombre: "Densidad", valor: "2.70", unidad: "g/cm³", fuente: "ASM Handbook, Vol. 2" }
+        - { nombre: "Conductividad térmica", valor: "200", unidad: "W/(m·K)", fuente: "ASM Handbook, Vol. 2" }
+    electronica:
+      - { elemento: "Bombas del lazo", especificacion: "Redundantes, control de caudal", por_que: { es: "Mueven el calor del módulo al radiador." } }
+      - { elemento: "Sensores de temperatura PT100", especificacion: "Clase A, ±0,15 °C", por_que: { es: "Vigilancia del lazo." } }
+    cableado:
+      - { tramo: "PT100 → control", tipo: "par trenzado apantallado a 4 hilos", por_que: { es: "Medida sin error por resistencia del cable." } }
+    cifras: []
+    boceto:
+      es: "Panel radiador plano con serpentín, flechas de calor que chocan con la pared de la cáscara y un signo de interrogación."
+    siguiente_paso:
+      es: "Calcular el transporte radiativo a través de la cáscara con su ecuación de estado; sin eso no hay sumidero de calor."
+      en: "Compute radiative transport through the shell with its equation of state; without it there is no heat sink."
+      fr: "Calculer le transport radiatif à travers la coque avec son équation d'état ; sans cela il n'y a pas de puits de chaleur."
+
+  - id: "control-guiado"
+    nivel: "vehiculo"
+    nombre:
+      es: "Control y guiado"
+      en: "Control and guidance"
+      fr: "Contrôle et guidage"
+    funcion:
+      es: "Mantiene la actitud del módulo. No puede cambiar la velocidad de la cáscara: eso exige escape de masa o un tercer cuerpo."
+      en: "Keeps the module's attitude. It cannot change the shell's velocity: that needs mass ejection or a third body."
+      fr: "Maintient l'attitude du module. Il ne peut pas changer la vitesse de la coque : cela exige une éjection de masse ou un troisième corps."
+    estado: "abierto"
+    obstaculos: [2, 12]
+    geometria:
+      tipo: "caja"
+      dimensiones_m: [0.8, 0.8, 0.6]
+      posicion_m: [3.5, 0, 1.5]
+      color: "red"
+    material:
+      nombre:
+        es: "Aleación Fe-Ni-Co de sellado (encapsulados)"
+        en: "Fe-Ni-Co sealing alloy (packages)"
+        fr: "Alliage Fe-Ni-Co de scellement (boîtiers)"
+      designacion: "Kovar, ASTM F15"
+      composicion:
+        - { elemento: "Fe", porcentaje_masa: "resto" }
+        - { elemento: "Ni", porcentaje_masa: "29" }
+        - { elemento: "Co", porcentaje_masa: "17" }
+      por_que:
+        es: "Dilata como el vidrio y la cerámica: encapsulados herméticos para electrónica endurecida que duran décadas."
+        en: "Expands like glass and ceramics: hermetic packages for hardened electronics that last decades."
+        fr: "Se dilate comme le verre et la céramique : boîtiers hermétiques pour électronique durcie qui durent des décennies."
+      propiedades:
+        - { nombre: "Densidad", valor: "8.36", unidad: "g/cm³", fuente: "Ficha técnica Carpenter Kovar" }
+    electronica:
+      - { elemento: "Ordenador de vuelo endurecido", especificacion: "Procesador tolerante a radiación (clase RAD750), triple redundancia", por_que: { es: "Fiabilidad en entorno con partículas." } }
+      - { elemento: "Unidad inercial de fibra óptica", especificacion: "Deriva < 0,01 °/h", por_que: { es: "Actitud sin referencia externa dentro de la cáscara." } }
+      - { elemento: "Propulsores de gas frío", especificacion: "N2, 1 N", por_que: { es: "Mantener el módulo centrado en la región plana." } }
+    cableado:
+      - { tramo: "Ordenador → actuadores", tipo: "par trenzado apantallado (MIL-STD-1553B)", por_que: { es: "Bus robusto y redundante estándar en vuelo." } }
+    cifras:
+      - { nombre: "Ley del momento ADM (sin escape ni tercer cuerpo no cambia)", valor: "ley", unidad: "—", fuente: "docs/investigacion/ideas/c-aceleracion.md; bobrick-martire-2021 · https://arxiv.org/abs/2102.06824" }
+    boceto:
+      es: "Caja de aviónica con IMU, ordenador y cuatro toberas de gas frío; flecha tachada sobre la cáscara (no la puede acelerar)."
+    siguiente_paso:
+      es: "Simular en 1+1 el colapso de la cáscara para saber qué se puede controlar y qué no durante el montaje."
+      en: "Simulate the shell's collapse in 1+1 to know what can and cannot be controlled during assembly."
+      fr: "Simuler en 1+1 l'effondrement de la coque pour savoir ce qui est contrôlable pendant l'assemblage."
+
+  - id: "interfaz-montaje"
+    nivel: "vehiculo"
+    nombre:
+      es: "Interfaz de montaje en movimiento"
+      en: "In-motion assembly interface"
+      fr: "Interface d'assemblage en mouvement"
+    funcion:
+      es: "Puntos donde llegan las corrientes de materia lanzadas desde fuera a 0,02 c para formar la cáscara ya en movimiento."
+      en: "Points where matter streams launched from outside at 0.02 c arrive to form the shell already moving."
+      fr: "Points où arrivent les flux de matière lancés de l'extérieur à 0,02 c pour former la coque déjà en mouvement."
+    estado: "abierto"
+    obstaculos: [2, 12]
+    geometria:
+      tipo: "anillo"
+      radio_m: 24
+      posicion_m: [0, 0, 0]
+      color: "yellow"
+    material:
+      nombre:
+        es: "Acero maraging (estructura de acople de la infraestructura)"
+        en: "Maraging steel (infrastructure docking structure)"
+        fr: "Acier maraging (structure d'amarrage de l'infrastructure)"
+      designacion: "Acero maraging 18Ni(350), UNS K93160"
+      composicion:
+        - { elemento: "Fe", porcentaje_masa: "resto" }
+        - { elemento: "Ni", porcentaje_masa: "18" }
+        - { elemento: "Co", porcentaje_masa: "12" }
+        - { elemento: "Mo", porcentaje_masa: "4.8" }
+        - { elemento: "Ti", porcentaje_masa: "1.4" }
+        - { elemento: "Al", porcentaje_masa: "0.1" }
+      por_que:
+        es: "Máxima resistencia en acero con buena tenacidad para guías de lanzamiento. Aun así su arrastre como cáscara sería de 0,012 m/s: solo vale para la infraestructura."
+        en: "Highest steel strength with good toughness for launch guides. Even so, as a shell its drag would be 0.012 m/s: it is only fit for the infrastructure."
+        fr: "Résistance maximale pour un acier avec bonne ténacité pour les guides de lancement. Même ainsi, comme coque son entraînement serait de 0,012 m/s : il ne sert qu'à l'infrastructure."
+      propiedades:
+        - { nombre: "Resistencia a tracción (envejecido)", valor: "2410", unidad: "MPa", fuente: "ASM Handbook, Vol. 1 (aceros maraging)" }
+        - { nombre: "Densidad", valor: "8.08", unidad: "g/cm³", fuente: "ASM Handbook, Vol. 1 (aceros maraging)" }
+    electronica:
+      - { elemento: "Telemetría de las corrientes de materia", especificacion: "Radar y lidar de alcance, sincronía < 1 ns", por_que: { es: "La materia debe llegar a la vez desde todas las direcciones." } }
+    cableado:
+      - { tramo: "Estaciones de lanzamiento ↔ cáscara", tipo: "enlace láser en espacio libre 1550 nm", por_que: { es: "No hay cable posible entre cuerpos separados a gran distancia." } }
+    cifras:
+      - { nombre: "Energía cinética mínima con la masa publicada", valor: "8.07e40", unidad: "J", fuente: "laboratorio: lab_evaluar((1/sqrt(1-v^2)-1)*M*c^2, v=0.02, M=4.49e27)" }
+      - { nombre: "Energía cinética mínima con el suelo corregido (3,5e26 kg)", valor: "6.3e39", unidad: "J", fuente: "laboratorio: lab_evaluar((1/sqrt(1-v^2)-1)*M*c^2, v=0.02, M=3.5e26)" }
+      - { nombre: "Ventaja frente a un cohete de fotones", valor: "≈ 101", unidad: "veces", fuente: "docs/investigacion/ideas/f-critica-cruzada.md (c2)" }
+      - { nombre: "Gravedad en la superficie R2 (masa publicada)", valor: "7.5e14", unidad: "m/s²", fuente: "laboratorio: lab_evaluar(G*M/R^2, M=4.49e27, R=20)" }
+    boceto:
+      es: "Anillo ecuatorial exterior con chorros de materia convergentes desde varias direcciones, todos con una flecha común de velocidad 0,02 c."
+    siguiente_paso:
+      es: "Colapso esférico 1+1 de polvo hasta la cáscara de Fuchs: ¿se llega sin horizonte y cuánta energía se radia?"
+      en: "Spherical 1+1 collapse of dust into the Fuchs shell: is it reached without a horizon and how much energy is radiated?"
+      fr: "Effondrement sphérique 1+1 de poussière jusqu'à la coque de Fuchs : y arrive-t-on sans horizon et combien d'énergie est rayonnée ?"
+
+  - id: "cableado-vehiculo"
+    nivel: "vehiculo"
+    nombre:
+      es: "Cableado y comunicaciones"
+      en: "Cabling and communications"
+      fr: "Câblage et communications"
+    funcion:
+      es: "Une potencia, sensores y control dentro de la región plana; el enlace con el exterior atraviesa la cáscara solo como luz."
+      en: "Links power, sensors and control inside the flat region; the link to the outside crosses the shell only as light."
+      fr: "Relie puissance, capteurs et contrôle dans la région plate ; le lien vers l'extérieur traverse la coque uniquement sous forme de lumière."
+    estado: "boceto"
+    obstaculos: [7]
+    geometria:
+      tipo: "cable"
+      dimensiones_m: [10, 0.05, 0.05]
+      posicion_m: [0, 0, -2.5]
+      color: "ink"
+    material:
+      nombre:
+        es: "Cobre libre de oxígeno"
+        en: "Oxygen-free copper"
+        fr: "Cuivre exempt d'oxygène"
+      designacion: "Cobre OFE C10100, ASTM B170"
+      composicion:
+        - { elemento: "Cu", porcentaje_masa: "≥ 99.99" }
+      por_que:
+        es: "Máxima conductividad y sin fragilización por hidrógeno; aguanta ciclos térmicos largos."
+        en: "Highest conductivity and no hydrogen embrittlement; withstands long thermal cycling."
+        fr: "Conductivité maximale et pas de fragilisation par l'hydrogène ; résiste aux longs cycles thermiques."
+      propiedades:
+        - { nombre: "Conductividad eléctrica", valor: "101", unidad: "% IACS", fuente: "ASTM B170 / Copper Development Association" }
+        - { nombre: "Densidad", valor: "8.94", unidad: "g/cm³", fuente: "Copper Development Association" }
+    electronica:
+      - { elemento: "Transceptor óptico al exterior", especificacion: "Láser 1550 nm, modulación coherente", por_que: { es: "Única vía de datos a través de la cáscara, si es transparente." } }
+    cableado:
+      - { tramo: "Bus de potencia 28 V", tipo: "cobre OFE con aislamiento PTFE, trenzado", por_que: { es: "Pocas pérdidas y resistente a radiación." } }
+      - { tramo: "Datos de sensores", tipo: "fibra monomodo SMF-28 1550 nm", por_que: { es: "Sin interferencias y ligera." } }
+      - { tramo: "Señales de tiempo", tipo: "coaxial RG-402 semirrígido", por_que: { es: "Retardo estable para el sensor de tránsito." } }
+    cifras: []
+    boceto:
+      es: "Mazo de cables en bandeja recorriendo la celosía, con ramales a cada caja y un enlace óptico que apunta hacia la pared."
+    siguiente_paso:
+      es: "Saber si la materia de la cáscara deja pasar la luz; si no, el vehículo queda incomunicado."
+      en: "Find out whether the shell matter lets light through; if not, the vehicle is cut off."
+      fr: "Savoir si la matière de la coque laisse passer la lumière ; sinon, le véhicule est isolé."

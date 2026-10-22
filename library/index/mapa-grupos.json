@@ -1,0 +1,103 @@
+{
+ "nota": "Nombres de los grupos del mapa (library/index/mapa.json). Se aplican solo si `clave` coincide con el nombre automático; si el mapa se regenera y cambia, se usan las palabras clave automáticas.",
+ "grupos": [
+  {
+   "id": 0,
+   "clave": "warped, gauge-higgs, gauge-higgs unification",
+   "es": "Dimensiones extra y unificación gauge-Higgs",
+   "en": "Extra dimensions and gauge-Higgs unification",
+   "fr": "Dimensions supplémentaires et unification jauge-Higgs"
+  },
+  {
+   "id": 1,
+   "clave": "dynamical casimir, casimir, casimir effect",
+   "es": "Efecto Casimir dinámico",
+   "en": "Dynamical Casimir effect",
+   "fr": "Effet Casimir dynamique"
+  },
+  {
+   "id": 2,
+   "clave": "drive, quantum, warp drive",
+   "es": "Motores de curvatura y teoría cuántica",
+   "en": "Warp drives and quantum theory",
+   "fr": "Moteurs de distorsion et théorie quantique"
+  },
+  {
+   "id": 3,
+   "clave": "time, spacetime, closed",
+   "es": "Curvas temporales cerradas",
+   "en": "Closed timelike curves",
+   "fr": "Courbes temporelles fermées"
+  },
+  {
+   "id": 4,
+   "clave": "wormholes, traversable, wormhole",
+   "es": "Agujeros de gusano atravesables",
+   "en": "Traversable wormholes",
+   "fr": "Trous de ver traversables"
+  },
+  {
+   "id": 5,
+   "clave": "dark, gravity, energy",
+   "es": "Energía oscura y gravedad",
+   "en": "Dark energy and gravity",
+   "fr": "Énergie noire et gravité"
+  },
+  {
+   "id": 6,
+   "clave": "black, black holes, holes",
+   "es": "Agujeros negros",
+   "en": "Black holes",
+   "fr": "Trous noirs"
+  },
+  {
+   "id": 7,
+   "clave": "quantum, analogue, condensates",
+   "es": "Gravedad análoga en condensados",
+   "en": "Analogue gravity in condensates",
+   "fr": "Gravité analogue dans les condensats"
+  },
+  {
+   "id": 8,
+   "clave": "warp, warp drive, drive",
+   "es": "Motores de curvatura",
+   "en": "Warp drives",
+   "fr": "Moteurs de distorsion"
+  },
+  {
+   "id": 9,
+   "clave": "casimir, casimir energy, casimir effect",
+   "es": "Energía de Casimir",
+   "en": "Casimir energy",
+   "fr": "Énergie de Casimir"
+  },
+  {
+   "id": 10,
+   "clave": "acoustic, black, acoustic black",
+   "es": "Agujeros negros acústicos",
+   "en": "Acoustic black holes",
+   "fr": "Trous noirs acoustiques"
+  },
+  {
+   "id": 11,
+   "clave": "quantum, inequalities, energy",
+   "es": "Desigualdades cuánticas de energía",
+   "en": "Quantum energy inequalities",
+   "fr": "Inégalités quantiques d'énergie"
+  },
+  {
+   "id": 12,
+   "clave": "energy, null energy, energy condition",
+   "es": "Condiciones de energía",
+   "en": "Energy conditions",
+   "fr": "Conditions d'énergie"
+  },
+  {
+   "id": 13,
+   "clave": "propulsion, travel, science",
+   "es": "Propulsión y viaje interestelar",
+   "en": "Propulsion and interstellar travel",
+   "fr": "Propulsion et voyage interstellaire"
+  }
+ ]
+}

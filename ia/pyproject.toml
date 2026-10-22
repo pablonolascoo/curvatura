@@ -17,6 +17,8 @@ dependencies = [
   "anthropic>=0.70",
   "openai>=1.100",
   "pyyaml>=6",
+  "umap-learn>=0.5",
+  "scikit-learn>=1.5",
 ]
 
 [project.optional-dependencies]

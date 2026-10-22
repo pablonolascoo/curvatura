@@ -101,7 +101,7 @@ def main(argv: list[str] | None = None) -> int:
     if orden == "estado":
         from .buscar import estado
         print(json.dumps(estado(), ensure_ascii=False, indent=2))
-    elif orden in ("corpus", "analizar", "vectorizar", "patentes", "fichas", "fuentes"):
+    elif orden in ("corpus", "analizar", "vectorizar", "patentes", "fichas", "fuentes", "mapa"):
         import importlib
         return importlib.import_module(f"curvatura_ia.{orden}").main()
     elif orden == "hardware":
