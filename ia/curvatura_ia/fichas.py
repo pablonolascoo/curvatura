@@ -17,7 +17,7 @@ import re
 import sys
 import time
 
-from .rutas import ANALISIS, PAPERS
+from .rutas import ANALISIS, DATOS, PAPERS
 
 PLANTILLA = """generado: "IA · {fecha} · puede contener errores; verificar con el paper"
 aportacion: "Una o dos frases: qué demuestra, propone o mide."
@@ -49,9 +49,22 @@ def contexto(pid: str, palabras: int = 7000) -> str:
     a = json.loads(f.read_text())
     out = [f"ID: {pid}", f"Título: {a.get('title')}", f"Autores: {', '.join((a.get('authors') or [])[:12])}",
            f"Año: {a.get('year')} · Revista: {a.get('venue')} · Licencia: {a.get('license')} · Fuente del texto: {a.get('source')}"]
-    for idioma, r in (a.get("abstracts") or {}).items():
-        if idioma in ("en", a.get("language")):
-            out.append(f"\nResumen ({idioma}): {r}")
+    d = PAPERS / pid
+    resumenes = {f.stem.split(".")[1]: f.read_text().strip() for f in d.glob("abstract.*.md")}
+    propio = not resumenes
+    if propio:
+        resumenes = {f.stem.split(".")[1]: f.read_text().strip() for f in d.glob("resumen.*.md")}
+    for idioma, r in resumenes.items():
+        if idioma in ("en", a.get("language")) or (propio and idioma == "es"):
+            out.append(f"\nResumen{' propio (IA, desde fuentes públicas)' if propio else ''} ({idioma}): {r}")
+    fuente = DATOS / "fuentes" / f"{pid}.json"
+    if fuente.exists() and not a.get("sections"):
+        fj = json.loads(fuente.read_text())
+        for k in ("resumen_openalex", "resumen_s2", "tldr_s2", "resumen_crossref", "resumen_web"):
+            if fj.get(k):
+                out.append(f"\nFuente pública ({k}): {fj[k][:2500]}")
+        if fj.get("palabras_clave") or fj.get("temas"):
+            out.append(f"Palabras clave y temas: {', '.join((fj.get('palabras_clave') or []) + (fj.get('temas') or []))}")
     restante = palabras
     secciones = a.get("sections") or []
     por_seccion = max(150, palabras // max(1, len(secciones)))
@@ -131,7 +144,9 @@ def main() -> int:
             f = PAPERS / p / "analisis.yaml"
             a = ANALISIS / f"{p}.json"
             if f.exists() and a.exists() and re.search(r"solo con el (t[ií]tulo|resumen)", f.read_text(), re.I):
-                if json.loads(a.read_text()).get("sections"):
+                ctx = contexto(p)
+                titulo_solo = re.search(r"solo con el t[ií]tulo", f.read_text(), re.I)
+                if json.loads(a.read_text()).get("sections") or (titulo_solo and ("Resumen" in ctx or "Fuente pública" in ctx)):
                     print(p)
         return 0
     if orden == "validar":
