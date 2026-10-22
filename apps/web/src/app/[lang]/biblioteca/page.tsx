@@ -4,9 +4,11 @@ import { Flags } from "@/components/Flags";
 import { LibraryBrowser } from "@/components/LibraryBrowser";
 import { Marquee } from "@/components/Marquee";
 import { PageHero } from "@/components/PageHero";
+import { Patentes } from "@/components/Patentes";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 import { topJournals } from "@/lib/journals";
 import { getPapers, getTitles, isOpenLicense } from "@/lib/library";
+import { resumenPatentes } from "@/lib/patentes";
 import { alternates } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/biblioteca">): Promise<Metadata> {
@@ -27,6 +29,7 @@ export default async function Library({ params }: PageProps<"/[lang]/biblioteca"
   for (const p of papers) for (const c of p.countries ?? []) byCountry.set(c, (byCountry.get(c) ?? 0) + 1);
   const top = [...byCountry.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
   const fmt = new Intl.NumberFormat(lang);
+  const pats = resumenPatentes();
   let regionName: Intl.DisplayNames | null = null;
   try { regionName = new Intl.DisplayNames([lang], { type: "region" }); } catch { regionName = null; }
 
@@ -43,7 +46,12 @@ export default async function Library({ params }: PageProps<"/[lang]/biblioteca"
             <p className="text-sm text-muted">{t.library.count} · {byCountry.size} {t.library.countries}</p>
           </div>
         }
-      />
+      >
+        <nav aria-label={t.library.title} className="flex flex-wrap gap-2">
+          <a href="#papers" className="rounded-md border border-line bg-surface px-3.5 py-1.5 text-sm text-fg transition-colors hover:border-line-strong">{t.library.count} · {fmt.format(papers.length)}</a>
+          <a href="#patentes" className="rounded-md border border-line bg-surface px-3.5 py-1.5 text-sm text-fg transition-colors hover:border-line-strong">{t.patents.title} · {fmt.format(pats.total)}</a>
+        </nav>
+      </PageHero>
       <Marquee items={topJournals(papers.map((p) => String(p.venue ?? "")), 14)} label={t.marquee} />
       <section className="px-4 py-20 md:px-8 md:py-28">
         <div className="mx-auto grid max-w-6xl grid-flow-dense grid-cols-2 gap-4 md:grid-cols-4">
@@ -73,11 +81,30 @@ export default async function Library({ params }: PageProps<"/[lang]/biblioteca"
           </div>
         </div>
       </section>
-      <section className="border-t border-line px-4 py-20 md:px-8 md:py-28">
+      <section id="papers" className="scroll-mt-20 border-t border-line px-4 py-20 md:px-8 md:py-28">
         <div className="mx-auto max-w-6xl">
           <LibraryBrowser lang={lang} labels={t.library} names={names} />
         </div>
       </section>
+      {pats.total > 0 && (
+        <section id="patentes" className="scroll-mt-20 border-t border-line bg-bg-2 px-4 py-20 md:px-8 md:py-28">
+          <div className="mx-auto grid max-w-6xl gap-10">
+            <div className="flex flex-wrap items-end justify-between gap-8">
+              <div className="grid max-w-3xl gap-3">
+                <h2 className="font-serif text-3xl leading-tight tracking-[-0.02em] text-fg md:text-4xl">{t.patents.title}</h2>
+                <p className="text-lg leading-relaxed text-fg-2">{t.patents.body}</p>
+                <p className="text-xs text-muted">{t.patents.note}</p>
+              </div>
+              <div className="grid gap-3 justify-items-end">
+                <Flags codes={pats.oficinas.map((o) => o.bandera)} lang={lang} max={8} size={28} />
+                <p className="font-mono text-5xl leading-none tracking-[-0.04em] text-fg tabular-nums">{fmt.format(pats.total)}</p>
+                <p className="text-sm text-muted">{t.patents.count} · {pats.oficinas.length} {t.patents.officesWord}{pats.ultima ? ` · ${t.patents.latest} ${pats.ultima}` : ""}</p>
+              </div>
+            </div>
+            <Patentes lang={lang} labels={t.patents} />
+          </div>
+        </section>
+      )}
     </>
   );
 }

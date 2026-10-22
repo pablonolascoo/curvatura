@@ -3,6 +3,7 @@
  * Prepara los datos estáticos de la biblioteca para la web:
  *   public/library/<id>/figures/   figuras de los papers con licencia abierta
  *   public/library/index.json      listado completo (lo carga el buscador de la biblioteca)
+ *   public/library/patentes.json   patentes relacionadas (datos bibliográficos y resumen oficial)
  *   public/search/chunks.json      fragmentos del índice RAG (búsqueda en el texto completo de la biblioteca)
  *   public/py/curvatura/           paquete Python para Pyodide (laboratorio)
  */
@@ -87,6 +88,31 @@ for (const id of readdirSync(PAPERS)) {
     f: m.countries ?? [],
   });
 }
+// Patentes (ia/curvatura_ia/patentes.py): de la más reciente a la más antigua, con su oficina y su país de prioridad.
+// WO (OMPI) y EP (Oficina Europea) no son países: se muestran con la bandera de la ONU y de la UE.
+const OFICINA_BANDERA: Record<string, string> = { WO: "un", EP: "eu", EA: "eu" };
+const patentesFile = path.join(REPO, "library/patentes/indice.yaml");
+const titulosPat = path.join(REPO, "library/patentes/titulos.yaml");
+if (existsSync(patentesFile)) {
+  type Pat = { numero: string; titulo: string; fecha: string; fecha_prioridad?: string; inventores?: string[]; titular?: string; oficina?: string;
+    paises_prioridad?: string[]; estado?: string; cpc?: string[]; palabras?: string[]; cita_a?: number; citada_por?: number; relevancia: number; url: string; resumen?: string };
+  const lista = (YAML.parse(readFileSync(patentesFile, "utf8")) as Pat[]) ?? [];
+  const trad = existsSync(titulosPat) ? (YAML.parse(readFileSync(titulosPat, "utf8")) as Record<string, { es?: string; fr?: string }>) ?? {} : {};
+  const bandera = (c: string) => OFICINA_BANDERA[c] ?? c.toLowerCase();
+  const pats = lista.map((x) => {
+    const of = (x.oficina || x.numero.slice(0, 2)).toUpperCase();
+    for (const c of [of, ...(x.paises_prioridad ?? [])]) usedFlags.add(bandera(c));
+    return {
+      n: x.numero, t: x.titulo, te: trad[x.numero]?.es ?? null, tf: trad[x.numero]?.fr ?? null,
+      y: x.fecha, yp: x.fecha_prioridad || null, i: x.inventores ?? [], h: x.titular || null,
+      o: of, pp: x.paises_prioridad ?? [], e: x.estado || null, cpc: x.cpc ?? [], k: x.palabras ?? [],
+      ca: x.cita_a ?? 0, cp: x.citada_por ?? 0, r: x.relevancia, u: x.url,
+      ue: `https://worldwide.espacenet.com/patent/search?q=pn%3D${encodeURIComponent(x.numero)}`, ab: x.resumen || null,
+    };
+  });
+  writeFileSync(path.join(PUB, "library/patentes.json"), JSON.stringify(pats));
+}
+
 // Banderas circulares (flag-icons, MIT): solo las de los países presentes.
 const FLAGS = path.join(path.dirname(require.resolve("flag-icons/package.json")), "flags/1x1");
 rmSync(path.join(PUB, "flags"), { recursive: true, force: true });

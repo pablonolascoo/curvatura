@@ -322,7 +322,6 @@
       "keyGet": "Create a key in the Anthropic console",
       "keySave": "Save key",
       "keyForget": "Forget key",
-      "keyOk": "Key ready",
       "keyBad": "The key is not valid or has no access. Check it and try again.",
       "model": "Model",
       "effort": "Depth",
@@ -333,7 +332,6 @@
         "xhigh": "very high",
         "max": "maximum"
       },
-      "web": "Web",
       "placeholder": "Pose a problem, an idea or a figure you want to check…",
       "send": "Research",
       "stop": "Stop",
@@ -345,7 +343,18 @@
         "leer_paper": "Paper",
         "calcular": "Calculation",
         "ecuacion_proyecto": "Equation",
-        "web": "Web"
+        "web": "Web",
+        "buscar_patentes": "Patents",
+        "Read": "Read",
+        "Grep": "Search",
+        "Glob": "Files",
+        "Bash": "Terminal",
+        "shell": "Terminal",
+        "WebSearch": "Web",
+        "WebFetch": "Web",
+        "read": "Read",
+        "grep": "Search",
+        "glob": "Files"
       },
       "suggestions": [
         "What is the minimum mass of a subluminal positive-energy shell at 0.02 c? Compare with Fuchs 2024.",
@@ -353,15 +362,50 @@
         "What wall thickness do quantum inequalities demand for a 100 m bubble at 0.1 c?",
         "Is there any way around the null energy condition outside the Natário class? Search the library."
       ],
-      "cost": "Calls are billed to your Anthropic account.",
-      "needKey": "Add your Anthropic key to start researching.",
+      "cost": {
+        "cli": "Uses your CLI's session and plan.",
+        "local": "Runs on your machine: free and offline.",
+        "api": "Calls are billed to your account."
+      },
+      "needKey": "Add your {p} key to start.",
       "you": "Question",
       "errors": {
         "auth": "The key is not valid or has no permission for this model.",
         "rate": "Anthropic is rate-limiting requests. Wait a moment and try again.",
         "net": "Could not connect to Anthropic. Check your connection.",
         "other": "AI error"
-      }
+      },
+      "keyLabelOpenai": "OpenAI API key (sk-…)",
+      "keyGetOpenai": "Create a key at OpenAI",
+      "defaultModel": "Default model",
+      "engine": "Engine",
+      "groups": {
+        "cli": "CLI on this computer",
+        "local": "Local model",
+        "api": "API key"
+      },
+      "engines": {
+        "claude-code": "Claude Code",
+        "codex": "Codex (ChatGPT)",
+        "cursor": "Cursor",
+        "ollama": "Ollama (local)",
+        "navegador": "In the browser (WebGPU)",
+        "anthropic": "Anthropic API",
+        "openai": "OpenAI API"
+      },
+      "notInstalled": "not installed",
+      "detecting": "Looking for engines on this computer…",
+      "login": "Sign in to {cli}",
+      "loginHint": "A terminal opens so you can sign in with your account. Then send again.",
+      "ollamaMissing": "Install Ollama to use a local model, free and offline.",
+      "ollamaGet": "Download Ollama",
+      "ollamaNoModel": "No local model yet. Here is the one that best fits your machine.",
+      "download": "Download {m} (≈{gb} GB, for {mem} GB of memory)",
+      "downloading": "Downloading",
+      "browserHint": "The model downloads once (≈{gb} GB), stays in the cache and runs on your GPU with WebGPU and WebAssembly. For deep research, a CLI or Ollama in the desktop app is better.",
+      "browserNoGpu": "This browser has no WebGPU. Use a recent Chrome, Edge or Safari, or the desktop app.",
+      "nativeOnly": "Desktop app only.",
+      "switched": "Engine changed: the next question starts a new conversation."
     },
     "board": {
       "title": "Research board",
@@ -542,5 +586,47 @@
     "obstacles": "Obstacles",
     "view3d": "3D exploded view of the prototype",
     "generated": "AI-generated from the research · verify"
+  },
+  "patents": {
+    "title": "Patents",
+    "body": "Patents on propellantless propulsion, gravity, inertia and spacetime curvature, watched daily. Each one with its office, inventors, holder, legal status and a link to the public record.",
+    "count": "patents",
+    "offices": {
+      "WO": "WIPO (PCT international application)",
+      "EP": "European Patent Office",
+      "EA": "Eurasian Patent Office"
+    },
+    "latest": "Latest",
+    "search": "Search by title, inventor, holder, number, CPC or a word from the abstract…",
+    "office": "Office",
+    "all": "all",
+    "status": "Status",
+    "sort": "Sort",
+    "recent": "Most recent",
+    "cited": "Most cited",
+    "relevant": "Most relevant",
+    "inventors": "Inventors",
+    "holder": "Holder",
+    "priority": "Priority",
+    "published": "Published",
+    "citedBy": "cited by {n}",
+    "abstract": "Official abstract",
+    "google": "Google Patents",
+    "espacenet": "Espacenet",
+    "origTitle": "Original title",
+    "more": "Show more",
+    "empty": "No patent matches the filter.",
+    "loading": "Loading patents…",
+    "error": "Patents could not be loaded. Reload the page.",
+    "cta": "See all patents",
+    "note": "Data from Google Patents. The abstract is in the office's language.",
+    "statuses": {
+      "activa": "In force",
+      "tramite": "Pending",
+      "caducada": "Expired",
+      "abandonada": "Abandoned",
+      "retirada": "Withdrawn"
+    },
+    "officesWord": "offices"
   }
 }

@@ -322,7 +322,6 @@
       "keyGet": "Créer une clé dans la console Anthropic",
       "keySave": "Enregistrer la clé",
       "keyForget": "Oublier la clé",
-      "keyOk": "Clé prête",
       "keyBad": "La clé n'est pas valide ou n'a pas d'accès. Vérifiez-la et réessayez.",
       "model": "Modèle",
       "effort": "Profondeur",
@@ -333,7 +332,6 @@
         "xhigh": "très élevée",
         "max": "maximale"
       },
-      "web": "Web",
       "placeholder": "Posez un problème, une idée ou un chiffre à vérifier…",
       "send": "Chercher",
       "stop": "Arrêter",
@@ -345,7 +343,18 @@
         "leer_paper": "Article",
         "calcular": "Calcul",
         "ecuacion_proyecto": "Équation",
-        "web": "Web"
+        "web": "Web",
+        "buscar_patentes": "Brevets",
+        "Read": "Lire",
+        "Grep": "Chercher",
+        "Glob": "Fichiers",
+        "Bash": "Terminal",
+        "shell": "Terminal",
+        "WebSearch": "Web",
+        "WebFetch": "Web",
+        "read": "Lire",
+        "grep": "Chercher",
+        "glob": "Fichiers"
       },
       "suggestions": [
         "Quelle est la masse minimale d'une coque subluminique d'énergie positive à 0,02 c ? Comparez avec Fuchs 2024.",
@@ -353,15 +362,50 @@
         "Quelle épaisseur de paroi les inégalités quantiques imposent-elles pour une bulle de 100 m à 0,1 c ?",
         "Existe-t-il une issue à la condition d'énergie nulle hors de la classe de Natário ? Cherchez dans la bibliothèque."
       ],
-      "cost": "Les appels sont facturés sur votre compte Anthropic.",
-      "needKey": "Ajoutez votre clé Anthropic pour commencer à chercher.",
+      "cost": {
+        "cli": "Utilise la session et l'offre de votre CLI.",
+        "local": "Tourne sur votre machine : gratuit et hors ligne.",
+        "api": "Les appels sont facturés sur votre compte."
+      },
+      "needKey": "Ajoutez votre clé {p} pour commencer.",
       "you": "Question",
       "errors": {
         "auth": "La clé n'est pas valide ou n'a pas accès à ce modèle.",
         "rate": "Anthropic limite les requêtes. Patientez un instant et réessayez.",
         "net": "Impossible de se connecter à Anthropic. Vérifiez la connexion.",
         "other": "Erreur de l'IA"
-      }
+      },
+      "keyLabelOpenai": "Clé d'API OpenAI (sk-…)",
+      "keyGetOpenai": "Créer une clé chez OpenAI",
+      "defaultModel": "Modèle par défaut",
+      "engine": "Moteur",
+      "groups": {
+        "cli": "CLI sur cet ordinateur",
+        "local": "Modèle local",
+        "api": "Clé API"
+      },
+      "engines": {
+        "claude-code": "Claude Code",
+        "codex": "Codex (ChatGPT)",
+        "cursor": "Cursor",
+        "ollama": "Ollama (local)",
+        "navegador": "Dans le navigateur (WebGPU)",
+        "anthropic": "API Anthropic",
+        "openai": "API OpenAI"
+      },
+      "notInstalled": "non installé",
+      "detecting": "Recherche des moteurs sur cet ordinateur…",
+      "login": "Se connecter à {cli}",
+      "loginHint": "Un terminal s'ouvre pour vous connecter avec votre compte. Puis renvoyez.",
+      "ollamaMissing": "Installez Ollama pour utiliser un modèle local, gratuit et hors ligne.",
+      "ollamaGet": "Télécharger Ollama",
+      "ollamaNoModel": "Aucun modèle local. Voici celui qui convient le mieux à votre machine.",
+      "download": "Télécharger {m} (≈{gb} Go, pour {mem} Go de mémoire)",
+      "downloading": "Téléchargement",
+      "browserHint": "Le modèle se télécharge une fois (≈{gb} Go), reste en cache et tourne sur votre GPU avec WebGPU et WebAssembly. Pour une recherche approfondie, préférez un CLI ou Ollama dans l'application de bureau.",
+      "browserNoGpu": "Ce navigateur n'a pas WebGPU. Utilisez Chrome, Edge ou Safari récents, ou l'application de bureau.",
+      "nativeOnly": "Application de bureau uniquement.",
+      "switched": "Moteur changé : la prochaine question commence une nouvelle conversation."
     },
     "board": {
       "title": "Tableau de recherche",
@@ -542,5 +586,47 @@
     "obstacles": "Obstacles",
     "view3d": "Vue 3D éclatée du prototype",
     "generated": "Généré par IA à partir de la recherche · à vérifier"
+  },
+  "patents": {
+    "title": "Brevets",
+    "body": "Brevets sur la propulsion sans propergol, la gravité, l'inertie et la courbure de l'espace-temps, surveillés chaque jour. Chacun avec son office, ses inventeurs, son titulaire, son statut juridique et le lien vers la fiche publique.",
+    "count": "brevets",
+    "offices": {
+      "WO": "OMPI (demande internationale PCT)",
+      "EP": "Office européen des brevets",
+      "EA": "Office eurasien des brevets"
+    },
+    "latest": "Le plus récent",
+    "search": "Cherchez par titre, inventeur, titulaire, numéro, CPC ou un mot du résumé…",
+    "office": "Office",
+    "all": "tous",
+    "status": "Statut",
+    "sort": "Tri",
+    "recent": "Plus récents",
+    "cited": "Plus cités",
+    "relevant": "Plus pertinents",
+    "inventors": "Inventeurs",
+    "holder": "Titulaire",
+    "priority": "Priorité",
+    "published": "Publié",
+    "citedBy": "cité par {n}",
+    "abstract": "Résumé officiel",
+    "google": "Google Patents",
+    "espacenet": "Espacenet",
+    "origTitle": "Titre original",
+    "more": "Afficher plus",
+    "empty": "Aucun brevet ne correspond au filtre.",
+    "loading": "Chargement des brevets…",
+    "error": "Impossible de charger les brevets. Rechargez la page.",
+    "cta": "Voir tous les brevets",
+    "note": "Données de Google Patents. Le résumé est dans la langue de l'office.",
+    "statuses": {
+      "activa": "En vigueur",
+      "tramite": "En cours",
+      "caducada": "Expiré",
+      "abandonada": "Abandonné",
+      "retirada": "Retiré"
+    },
+    "officesWord": "offices"
   }
 }

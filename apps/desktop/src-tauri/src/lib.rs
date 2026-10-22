@@ -4,6 +4,8 @@
 //! numérico en Rust nativo como comandos. El WebAssembly de la web sigue funcionando igual;
 //! estos comandos permiten cálculos grandes sin el límite de memoria del navegador.
 
+mod agente;
+
 use curvatura_core::alcubierre::{self, Params};
 use std::path::PathBuf;
 use tauri::Manager;
@@ -304,7 +306,17 @@ pub fn run() {
                 let _ = webview.window().show();
             }
         })
-        .invoke_handler(tauri::generate_handler![core_info, total_energy, field_plane, field_plane_bin, hardware, trace_geodesic, python_info, python_setup, python_run])
-        .run(tauri::generate_context!())
-        .expect("error al iniciar Curvatura");
+        .invoke_handler(tauri::generate_handler![
+            core_info, total_energy, field_plane, field_plane_bin, hardware, trace_geodesic, python_info, python_setup, python_run,
+            agente::agente_detectar, agente::agente_espacio, agente::agente_cli, agente::agente_parar, agente::agente_login,
+            agente::ollama_arrancar, agente::local_http
+        ])
+        .build(tauri::generate_context!())
+        .expect("error al iniciar Curvatura")
+        .run(|_, evento| {
+            // Si la app arrancó Ollama, lo para al salir para devolver la memoria.
+            if let tauri::RunEvent::Exit = evento {
+                agente::ollama_parar();
+            }
+        });
 }

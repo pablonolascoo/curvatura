@@ -322,7 +322,6 @@
       "keyGet": "Crear una clave en la consola de Anthropic",
       "keySave": "Guardar clave",
       "keyForget": "Olvidar clave",
-      "keyOk": "Clave lista",
       "keyBad": "La clave no es válida o no tiene acceso. Revísala e inténtalo de nuevo.",
       "model": "Modelo",
       "effort": "Profundidad",
@@ -333,7 +332,6 @@
         "xhigh": "muy alta",
         "max": "máxima"
       },
-      "web": "Web",
       "placeholder": "Plantea un problema, una idea o una cifra que quieras comprobar…",
       "send": "Investigar",
       "stop": "Parar",
@@ -345,7 +343,18 @@
         "leer_paper": "Paper",
         "calcular": "Cálculo",
         "ecuacion_proyecto": "Ecuación",
-        "web": "Web"
+        "web": "Web",
+        "buscar_patentes": "Patentes",
+        "Read": "Leer",
+        "Grep": "Buscar",
+        "Glob": "Archivos",
+        "Bash": "Terminal",
+        "shell": "Terminal",
+        "WebSearch": "Web",
+        "WebFetch": "Web",
+        "read": "Leer",
+        "grep": "Buscar",
+        "glob": "Archivos"
       },
       "suggestions": [
         "¿Cuál es la masa mínima de una cáscara subluminal de energía positiva a 0,02 c? Compara con Fuchs 2024.",
@@ -353,15 +362,50 @@
         "¿Qué grosor de pared exigen las desigualdades cuánticas para una burbuja de 100 m a 0,1 c?",
         "¿Hay alguna salida a la condición de energía nula fuera de la clase de Natário? Busca en la biblioteca."
       ],
-      "cost": "Las llamadas se cobran en tu cuenta de Anthropic.",
-      "needKey": "Añade tu clave de Anthropic para empezar a investigar.",
+      "cost": {
+        "cli": "Usa la sesión y el plan de tu CLI.",
+        "local": "Corre en tu equipo: gratis y sin red.",
+        "api": "Las llamadas se cobran en tu cuenta."
+      },
+      "needKey": "Añade tu clave de {p} para empezar.",
       "you": "Pregunta",
       "errors": {
         "auth": "La clave no es válida o no tiene permiso para este modelo.",
         "rate": "Anthropic ha limitado las peticiones. Espera un momento y vuelve a intentarlo.",
         "net": "No se ha podido conectar con Anthropic. Revisa la conexión.",
         "other": "Error de la IA"
-      }
+      },
+      "keyLabelOpenai": "Clave de API de OpenAI (sk-…)",
+      "keyGetOpenai": "Crear una clave en OpenAI",
+      "defaultModel": "Modelo por defecto",
+      "engine": "Motor",
+      "groups": {
+        "cli": "CLI en este ordenador",
+        "local": "Modelo local",
+        "api": "Clave API"
+      },
+      "engines": {
+        "claude-code": "Claude Code",
+        "codex": "Codex (ChatGPT)",
+        "cursor": "Cursor",
+        "ollama": "Ollama (local)",
+        "navegador": "En el navegador (WebGPU)",
+        "anthropic": "Anthropic API",
+        "openai": "OpenAI API"
+      },
+      "notInstalled": "no instalado",
+      "detecting": "Buscando motores en este ordenador…",
+      "login": "Iniciar sesión en {cli}",
+      "loginHint": "Se abre una terminal para que entres con tu cuenta. Después vuelve a enviar.",
+      "ollamaMissing": "Instala Ollama para usar un modelo local, gratis y sin red.",
+      "ollamaGet": "Descargar Ollama",
+      "ollamaNoModel": "Falta un modelo local. Te recomiendo el que mejor cabe en tu equipo.",
+      "download": "Descargar {m} (≈{gb} GB, para {mem} GB de memoria)",
+      "downloading": "Descargando",
+      "browserHint": "El modelo se descarga una vez (≈{gb} GB), se queda en la caché y corre en tu GPU con WebGPU y WebAssembly. Para investigar a fondo, mejor un CLI o Ollama en la app de escritorio.",
+      "browserNoGpu": "Este navegador no tiene WebGPU. Usa Chrome, Edge o Safari recientes, o la app de escritorio.",
+      "nativeOnly": "Solo en la app de escritorio.",
+      "switched": "Motor cambiado: la próxima pregunta empieza una conversación nueva."
     },
     "board": {
       "title": "Tablero de investigación",
@@ -542,5 +586,47 @@
     "obstacles": "Obstáculos",
     "view3d": "Vista 3D del prototipo con despiece",
     "generated": "Generado con IA a partir de la investigación · verificar"
+  },
+  "patents": {
+    "title": "Patentes",
+    "body": "Patentes sobre propulsión sin propelente, gravedad, inercia y curvatura del espacio-tiempo, vigiladas a diario. Cada una con su oficina, sus inventores, su titular, su estado legal y el enlace a la ficha pública.",
+    "count": "patentes",
+    "offices": {
+      "WO": "OMPI (solicitud internacional PCT)",
+      "EP": "Oficina Europea de Patentes",
+      "EA": "Oficina Euroasiática de Patentes"
+    },
+    "latest": "Más reciente",
+    "search": "Busca por título, inventor, titular, número, CPC o una palabra del resumen…",
+    "office": "Oficina",
+    "all": "todas",
+    "status": "Estado",
+    "sort": "Orden",
+    "recent": "Más recientes",
+    "cited": "Más citadas",
+    "relevant": "Más relevantes",
+    "inventors": "Inventores",
+    "holder": "Titular",
+    "priority": "Prioridad",
+    "published": "Publicada",
+    "citedBy": "citada por {n}",
+    "abstract": "Resumen oficial",
+    "google": "Google Patents",
+    "espacenet": "Espacenet",
+    "origTitle": "Título original",
+    "more": "Mostrar más",
+    "empty": "Ninguna patente coincide con el filtro.",
+    "loading": "Cargando patentes…",
+    "error": "No se han podido cargar las patentes. Recarga la página.",
+    "cta": "Ver todas las patentes",
+    "note": "Datos de Google Patents. El resumen va en el idioma de la oficina.",
+    "statuses": {
+      "activa": "En vigor",
+      "tramite": "En trámite",
+      "caducada": "Caducada",
+      "abandonada": "Abandonada",
+      "retirada": "Retirada"
+    },
+    "officesWord": "oficinas"
   }
 }

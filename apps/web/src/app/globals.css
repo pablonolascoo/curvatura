@@ -211,6 +211,7 @@ a.card:hover, .card-hover:hover { box-shadow: 0 2px 8px rgb(0 0 0 / 0.04); borde
 .tag-blue { background: var(--blue-bg); color: var(--blue); }
 .tag-green { background: var(--green-bg); color: var(--green); }
 .tag-yellow { background: var(--yellow-bg); color: var(--yellow); }
+.tag-gray { background: var(--gray-bg); color: var(--muted); }
 
 input[type="range"] {
   appearance: none;

@@ -15,6 +15,8 @@ library/patentes/indice.yaml (número, título, fecha, CPC, titular, relevancia 
 
 Uso:
   uv run --project ia python -m curvatura_ia.patentes [--max 300] [--fuentes google,epo,uspto,lens]
+  uv run --project ia python -m curvatura_ia.patentes --refrescar   # añade oficina, prioridad y estado a las guardadas
+  uv run --project ia python -m curvatura_ia.patentes --indice      # solo rehace library/patentes/indice.yaml
 """
 
 from __future__ import annotations
@@ -120,6 +122,13 @@ def google(numero: str) -> dict:
         "citada_por": sorted(set(re.findall(r'<tr itemprop="forwardReferences\w*"[\s\S]*?itemprop="publicationNumber">([^<]+)', h))),
         "similares": re.findall(r'<tr itemprop="similarDocuments"[\s\S]*?itemprop="publicationNumber">([^<]+)', h)[:25],
         "literatura": [_limpio(x)[:300] for x in re.findall(r'<tr itemprop="detailedNonPatentLiterature"[\s\S]*?</tr>', h)][:30],
+        # Oficina que la publica, país (o países) de la primera solicitud y estado legal.
+        "oficina": (re.search(r'<dd itemprop="countryCode">([A-Z]{2})</dd>', h) or [None, numero[:2]])[1],
+        "oficina_nombre": html.unescape((re.search(r'<dd itemprop="countryName">([^<]+)</dd>', h) or [None, ""])[1]),
+        "fecha_prioridad": (re.search(r'itemprop="priorityDate"[^>]*>(\d{4}-\d{2}-\d{2})<', h) or [None, ""])[1],
+        "paises_prioridad": sorted(set(re.findall(r'<span itemprop="title">Priority to ([A-Z]{2})', h))),
+        "estado": html.unescape((re.search(r'<span itemprop="ifiStatus">([^<]+)</span>', h) or [None, ""])[1]).strip(),
+        "palabras": re.findall(r'<dd itemprop="priorArtKeywords" repeat>([^<]+)</dd>', h)[:12],
     }
     return p
 
@@ -212,25 +221,74 @@ def lens_buscar(maximo: int) -> list[str]:
 
 
 def guardar_indice() -> None:
+    """Índice público: datos bibliográficos y el resumen oficial de cada patente, de la más reciente a la más antigua."""
     filas = []
-    for f in sorted(PATENTES.glob("*.json")):
+    for f in PATENTES.glob("*.json"):
         if f.name.startswith("_"):
             continue
         p = json.loads(f.read_text())
         if p.get("relevancia", 0) < UMBRAL:
             continue
-        titulo = p.get("titulo", "").replace('"', "'")
-        filas.append(f'- numero: {p["numero"]}\n  titulo: "{titulo}"\n  fecha: "{p.get("fecha", "")}"\n'
-                     f'  titular: "{p.get("titular", "").replace(chr(34), chr(39))}"\n  cpc: [{", ".join(p.get("cpc", [])[:8])}]\n'
-                     f'  relevancia: {p.get("relevancia", 0)}\n  url: {p.get("url", "")}')
+        resumen = re.sub(r"\s+", " ", p.get("resumen", "")).strip()
+        fila = {
+            "numero": p["numero"],
+            "titulo": re.sub(r"\s+", " ", p.get("titulo", "")).strip(),
+            "fecha": p.get("fecha", ""),
+            "fecha_prioridad": p.get("fecha_prioridad", "") or p.get("fecha_solicitud", ""),
+            "inventores": p.get("inventores", []),
+            "titular": p.get("titular", ""),
+            "oficina": p.get("oficina") or p["numero"][:2],
+            "paises_prioridad": p.get("paises_prioridad", []),
+            "estado": p.get("estado", ""),
+            "cpc": p.get("cpc", [])[:8],
+            "palabras": p.get("palabras", [])[:8],
+            "cita_a": len(p.get("cita_a", [])),
+            "citada_por": len(p.get("citada_por", [])),
+            "relevancia": p.get("relevancia", 0),
+            "url": p.get("url", ""),
+            "resumen": resumen[:1500] + ("…" if len(resumen) > 1500 else ""),
+        }
+        filas.append(fila)
+    filas.sort(key=lambda x: (x["fecha"] or x["fecha_prioridad"], x["numero"]), reverse=True)
     INDICE.parent.mkdir(parents=True, exist_ok=True)
-    INDICE.write_text("# Patentes relacionadas (generado por ia/curvatura_ia/patentes.py). Solo datos bibliográficos.\n"
-                      + "\n".join(filas) + "\n")
+    # JSON en línea por campo: es YAML válido y no necesita dependencias.
+    cuerpo = "\n".join("- " + "\n  ".join(f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in fila.items()) for fila in filas)
+    INDICE.write_text("# Patentes relacionadas (generado por ia/curvatura_ia/patentes.py): datos bibliográficos y resumen\n"
+                      "# oficial de cada oficina, de la más reciente a la más antigua. Enlace a la ficha pública.\n" + cuerpo + "\n")
+
+
+def refrescar(maximo: int) -> int:
+    """Vuelve a leer las fichas relevantes guardadas para añadir los campos nuevos (oficina, prioridad, estado)."""
+    hechas = 0
+    for f in sorted(PATENTES.glob("*.json")):
+        if f.name.startswith("_") or hechas >= maximo:
+            continue
+        viejo = json.loads(f.read_text())
+        if viejo.get("relevancia", 0) < UMBRAL or "estado" in viejo:
+            continue
+        try:
+            p = google(viejo["numero"])
+        except Exception as exc:
+            print(f"   {viejo['numero']}: {exc}", flush=True)
+            continue
+        p["relevancia"], p["profundidad"], p["dibujos"] = viejo.get("relevancia", 0), viejo.get("profundidad", 0), viejo.get("dibujos", [])
+        f.write_text(json.dumps(p, ensure_ascii=False))
+        hechas += 1
+        if hechas % 20 == 0:
+            print(f"   {hechas} fichas actualizadas", flush=True)
+    guardar_indice()
+    print(f"Refresco: {hechas} fichas actualizadas")
+    return 0
 
 
 def main() -> int:
     args = sys.argv[1:]
     maximo = int(args[args.index("--max") + 1]) if "--max" in args else 300
+    if "--refrescar" in args:
+        return refrescar(maximo)
+    if "--indice" in args:
+        guardar_indice()
+        return 0
     fuentes = (args[args.index("--fuentes") + 1] if "--fuentes" in args else "google,epo,uspto,lens").split(",")
     vistos: dict = json.loads(VISTOS.read_text()) if VISTOS.exists() else {}
 

@@ -18,6 +18,8 @@ import { equationView, getEquation } from "@/lib/equations";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 import { getPapers, isOpenLicense, localTitle, paperHref } from "@/lib/library";
 import { Flags } from "@/components/Flags";
+import { TarjetaPatente } from "@/components/TarjetaPatente";
+import { getPatentes, resumenPatentes } from "@/lib/patentes";
 import { getObstacles } from "@/lib/obstacles";
 
 const RELEASES = "https://github.com/pablonolascoo/curvatura/releases/latest";
@@ -41,6 +43,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   if (!hasLocale(lang)) notFound();
   const t = getDictionary(lang);
   const papers = getPapers();
+  const patentes = resumenPatentes();
   // Solo lo nuclear y reciente: la portada no enseña ruido de la recolección.
   const recent = papers
     .filter((p) => (p as { relevance?: string }).relevance === "alta")
@@ -305,6 +308,27 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </div>
         </div>
       </section>
+
+      {/* Patentes más recientes */}
+      {patentes.total > 0 && (
+        <section className="border-t border-line px-4 py-24 md:px-8 md:py-32">
+          <div className="mx-auto grid max-w-6xl gap-12">
+            <div className="flex flex-wrap items-end justify-between gap-8">
+              <SectionHead title={t.patents.title} body={t.patents.body} />
+              <div className="reveal grid justify-items-end gap-3">
+                <Flags codes={patentes.oficinas.map((o) => o.bandera)} lang={lang} max={8} size={26} />
+                <p className="font-mono text-[clamp(3rem,7vw,5.5rem)] leading-none tracking-[-0.05em] text-fg tabular-nums">{patentes.total}</p>
+              </div>
+            </div>
+            <ul className="grid gap-3 md:grid-cols-2">
+              {getPatentes().slice(0, 4).map((p, i) => (
+                <li key={p.n} className="reveal" style={{ ["--i" as string]: i }}><TarjetaPatente p={p} lang={lang} labels={t.patents} resumen={false} /></li>
+              ))}
+            </ul>
+            <div className="reveal"><ButtonLink href={`/${lang}/biblioteca/#patentes`}>{t.patents.cta}</ButtonLink></div>
+          </div>
+        </section>
+      )}
 
       {/* Entradas: acordeón horizontal */}
       <section className="border-t border-line px-4 py-24 md:px-8 md:py-32">

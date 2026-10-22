@@ -41,7 +41,7 @@ const fold = (s: string) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerC
 
 // ---------- Herramientas ----------
 
-const TOOLS: Anthropic.Beta.BetaTool[] = [
+export const TOOLS: Anthropic.Beta.BetaTool[] = [
   {
     name: "buscar_biblioteca",
     description:
@@ -83,6 +83,12 @@ const TOOLS: Anthropic.Beta.BetaTool[] = [
     eager_input_streaming: true,
   },
   {
+    name: "buscar_patentes",
+    description: "Busca en las patentes relacionadas que vigila el proyecto (propulsión sin propelente, gravedad, inercia, Casimir…): número, título, fecha, inventores, titular, oficina, país de prioridad, estado legal, CPC y resumen oficial, con enlace. Sin consulta devuelve las más recientes.",
+    input_schema: { type: "object", properties: { consulta: { type: "string" }, max: { type: "integer", description: "1–15, por defecto 8." } } },
+    eager_input_streaming: true,
+  },
+  {
     name: "ecuacion_proyecto",
     description: "Evalúa una de las ecuaciones verificadas del proyecto (cada una sale de un paper) con los valores que indiques; las entradas que no des toman su valor por defecto. Sin id, lista las ecuaciones disponibles con sus entradas y unidades.",
     input_schema: {
@@ -92,8 +98,6 @@ const TOOLS: Anthropic.Beta.BetaTool[] = [
     eager_input_streaming: true,
   },
 ];
-
-const WEB: Anthropic.Beta.BetaWebSearchTool20260209 = { type: "web_search_20260209", name: "web_search", max_uses: 6 };
 
 const fmt = (x: number) => (Math.abs(x) >= 1e5 || (Math.abs(x) < 1e-3 && x !== 0) ? x.toExponential(4) : String(+x.toPrecision(6)));
 
@@ -216,8 +220,31 @@ function ecuacionProyecto(e: Entrada, ctx: Contexto): string {
   return `${q.titulo} (${q.id}, fuente ${q.paper})\n${q.resultado} = ${fmt(v)} ${q.unidad}\nentradas: ${Object.keys(q.entradas).map((k) => `${k}=${fmt(scope[k])} ${q.entradas[k].unidad}`).join(", ")}`;
 }
 
+type FilaPatente = { n: string; t: string; y: string; yp: string | null; i: string[]; h: string | null; o: string; pp: string[]; e: string | null; cpc: string[]; k: string[]; cp: number; u: string; ab: string | null };
+
+async function buscarPatentes(e: Entrada): Promise<string> {
+  const max = Math.min(15, Math.max(1, num(e.max) ?? 8));
+  const todas = await getJSON<FilaPatente[]>("/library/patentes.json");
+  const terms = fold(str(e.consulta) ?? "").split(/\s+/).filter((t) => t.length > 2);
+  const res = terms.length
+    ? todas
+        .map((p) => ({ p, s: terms.reduce((a, t) => a + (fold([p.n, p.t, p.h, ...p.i, ...p.cpc, ...p.k, p.ab].filter(Boolean).join(" ")).includes(t) ? 1 : 0), 0) }))
+        .filter((x) => x.s > 0)
+        .sort((a, b) => b.s - a.s || b.p.y.localeCompare(a.p.y))
+        .map((x) => x.p)
+    : todas;
+  if (!res.length) return `Ninguna patente coincide con «${e.consulta}».`;
+  return res.slice(0, max).map((p) => [
+    `- ${p.n} (${p.y}, oficina ${p.o}${p.pp.length ? `, prioridad ${p.pp.join("/")}` : ""}${p.e ? `, ${p.e}` : ""}) ${p.t}`,
+    `  inventores: ${p.i.join(", ") || "—"} · titular: ${p.h ?? "—"} · CPC: ${p.cpc.slice(0, 4).join(", ")} · citada por ${p.cp}`,
+    `  ${p.u}`,
+    p.ab ? `  resumen: ${p.ab.slice(0, 600)}` : "",
+  ].filter(Boolean).join("\n")).join("\n");
+}
+
 const EJECUTAR: Record<string, (e: Entrada, ctx: Contexto) => Promise<string> | string> = {
   buscar_biblioteca: buscarBiblioteca,
+  buscar_patentes: buscarPatentes,
   leer_paper: leerPaper,
   calcular,
   ecuacion_proyecto: ecuacionProyecto,
@@ -232,13 +259,13 @@ export async function ejecutarHerramienta(nombre: string, entrada: Entrada, ctx:
 
 // ---------- Instrucciones ----------
 
-function sistema(ctx: Contexto): string {
+export function sistema(ctx: Contexto): string {
   return `Eres el investigador IA del laboratorio de Curvatura, un programa abierto que estudia si un motor de curvatura (warp drive) es físicamente posible y qué haría falta para construirlo.
 
 Tu trabajo es investigar con rigor: proponer soluciones a los obstáculos, comprobar la física y las matemáticas, y decir con claridad qué está vivo, qué choca con una ley y qué queda descartado.
 
 Cómo trabajas:
-- Antes de afirmar algo sobre la literatura, búscalo en la biblioteca (buscar_biblioteca) y ábrelo (leer_paper). Cita los papers por su id entre corchetes, así: [fuchs-2024]. No inventes ids ni resultados.
+- Antes de afirmar algo sobre la literatura, búscalo en la biblioteca (buscar_biblioteca) y ábrelo (leer_paper). Mira también las patentes (buscar_patentes) y prioriza lo más reciente. Cita los papers por su id entre corchetes, así: [fuchs-2024]. No inventes ids ni resultados.
 - Toda cifra sale de un cálculo hecho con calcular o ecuacion_proyecto, o de un paper citado. Muestra la expresión y las unidades. Si una cota depende de un parámetro, bárrelo.
 - Distingue lo demostrado, lo calculado aquí y lo especulativo. Si no lo sabes, dilo.
 - Ataca tus propias ideas: contrasta cada propuesta con las condiciones de energía (NEC, WEC), las desigualdades cuánticas, la conservación del momento ADM y la formación de horizontes.
@@ -251,13 +278,13 @@ ${ctx.estado}`;
 
 // ---------- Bucle ----------
 
-export type Opciones = { clave: string; modelo: Modelo; esfuerzo: Esfuerzo; web: boolean; senal: AbortSignal; onPaso: (pasos: Paso[]) => void };
+export type OpcionesAnthropic = { clave: string; modelo: Modelo; esfuerzo: Esfuerzo; senal: AbortSignal; onPaso: (pasos: Paso[]) => void };
 
 /**
  * Ejecuta una vuelta del agente: llama al modelo, ejecuta sus herramientas y repite hasta que
  * termina. Devuelve el historial completo (para continuar la conversación) y los pasos de esta vuelta.
  */
-export async function investigar(historial: Msg[], ctx: Contexto, o: Opciones): Promise<{ historial: Msg[]; pasos: Paso[] }> {
+export async function investigarAnthropic(historial: Msg[], ctx: Contexto, o: OpcionesAnthropic): Promise<{ historial: Msg[]; pasos: Paso[] }> {
   const client = new Anthropic({ apiKey: o.clave, dangerouslyAllowBrowser: true, maxRetries: 2 });
   const mensajes = [...historial];
   const pasos: Paso[] = [];
@@ -271,7 +298,7 @@ export async function investigar(historial: Msg[], ctx: Contexto, o: Opciones): 
         model: o.modelo,
         max_tokens: 64000,
         system: [{ type: "text", text: sistema(ctx), cache_control: { type: "ephemeral" } }],
-        tools: o.web ? [...TOOLS, WEB] : TOOLS,
+        tools: TOOLS,
         thinking: { type: "adaptive", display: "summarized" },
         output_config: { effort: o.esfuerzo },
         messages: mensajes,
@@ -290,13 +317,6 @@ export async function investigar(historial: Msg[], ctx: Contexto, o: Opciones): 
       if (actual?.tipo !== "texto") pasos.push((actual = { tipo: "texto", texto: "" }));
       actual.texto += d;
       emitir();
-    });
-    stream.on("contentBlock", (b) => {
-      if (b.type === "server_tool_use" && b.name === "web_search") {
-        pasos.push({ tipo: "web", consulta: String((b.input as Entrada)?.query ?? "") });
-        actual = null;
-        emitir();
-      }
     });
 
     let m: Anthropic.Beta.BetaMessage;
