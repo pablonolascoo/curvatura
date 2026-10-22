@@ -1,0 +1,818 @@
+# Títulos de las patentes traducidos al español y al francés (traducción con IA, revisable).
+# Clave: número de publicación. Lo usa apps/web/scripts/sync-library.ts.
+US20260100660A1:
+  es: "Sistema de propulsión, atenuador de inercia y generador de campo de fuerza"
+  fr: "Système de propulsion, atténuateur d'inertie et générateur de champ de force"
+US12417870B1:
+  es: "Método y dispositivo para impulsar el movimiento de un objeto mediante un campo gravitatorio generado por un campo electromagnético variable"
+  fr: "Procédé et dispositif pour entraîner le mouvement d'un objet cible par un champ gravitationnel généré par un champ électromagnétique variable"
+WO2026022605A1:
+  es: "Motor eléctrico aeroespacial que utiliza ondas electromagnéticas pulsadas"
+  fr: "Moteur électrique aérospatial utilisant des ondes électromagnétiques pulsées"
+US12283421B2:
+  es: "Métodos y aparatos para producir campos magnéticos ultraintensos, y sistemas y métodos de propulsión que utilizan campos magnéticos planetarios"
+  fr: "Procédés et appareils pour produire des champs magnétiques ultra-intenses, et systèmes et procédés de propulsion utilisant les champs magnétiques planétaires"
+CN120214945A:
+  es: "Método, dispositivo, equipo y medio para adquirir señales de ondas gravitacionales"
+  fr: "Procédé, dispositif, équipement et support pour l'acquisition de signaux d'ondes gravitationnelles"
+EP4613652A1:
+  es: "Unidad de propulsión por campo magnético"
+  fr: "Unité de propulsion par champ magnétique"
+US20250286480A1:
+  es: "Unidad de propulsión por campo magnético"
+  fr: "Unité de propulsion par champ magnétique"
+WO2025186099A2:
+  es: "Aparato y método para generar fuerzas de propulsión"
+  fr: "Appareil et procédé pour générer des forces de propulsion"
+US12209577B2:
+  es: "Propulsor de plasma pulsado avanzado alimentado por fibra (FPPT)"
+  fr: "Propulseur à plasma pulsé avancé alimenté par fibre (FPPT)"
+CN115407417B:
+  es: "Detector de ondas gravitacionales de tipo luz"
+  fr: "Détecteur d'ondes gravitationnelles de type lumière"
+US20260176001A1:
+  es: "Sistema de propulsión con cambio de masa casi nulo para naves interplanetarias e interestelares"
+  fr: "Système de propulsion à variation de masse quasi nulle pour engins spatiaux interplanétaires et interstellaires"
+US12160188B2:
+  es: "Sistema y método para producir empuje electromagnético"
+  fr: "Système et procédé pour produire une poussée électromagnétique"
+TWI855874B:
+  es: "Propulsor de plasma pulsado que utiliza un theta-pinch desequilibrado"
+  fr: "Propulseur à plasma pulsé utilisant un theta-pinch déséquilibré"
+US12012234B2:
+  es: "Propulsor de plasma sin electrodos con cámara de descarga de gas en forma de anillo cerrado"
+  fr: "Propulseur à plasma sans électrodes avec chambre de décharge gazeuse en forme d'anneau fermé"
+US20250236417A1:
+  es: "Sistema y método para un lanzador electromagnético superconductor"
+  fr: "Système et procédé pour un lanceur électromagnétique supraconducteur"
+CN114233593B:
+  es: "Sistema de propulsión electromagnética sin pérdida de masa de diseño mejorado"
+  fr: "Système de propulsion électromagnétique sans perte de masse de conception améliorée"
+US20240375795A1:
+  es: "Dispositivo de propulsión electromagnética para generar una fuerza unidireccional y método correspondiente"
+  fr: "Dispositif de propulsion électromagnétique pour générer une force unidirectionnelle et procédé associé"
+US11961666B2:
+  es: "Sistema de propulsión por campo eléctrico pulsado"
+  fr: "Système de propulsion à champ électrique pulsé"
+US11961666:
+  es: "Sistema de propulsión por campo eléctrico pulsado"
+  fr: "Système de propulsion à champ électrique pulsé"
+US20240376874A1:
+  es: "Propulsor de superalta frecuencia (motor de Faraday)"
+  fr: "Propulseur à supra-haute fréquence (moteur de Faraday)"
+US20240246700A1:
+  es: "Motor de flujo magnético para la propulsión de naves espaciales"
+  fr: "Moteur à flux magnétique pour la propulsion d'engins spatiaux"
+KR20250127079A:
+  es: "Impulsor espacial no reactivo para aumentar la energía cinética de un flujo de plasma dirigido mediante la supresión del flujo magnetohidrodinámico"
+  fr: "Propulseur spatial non réactif pour augmenter l'énergie cinétique d'un flux de plasma dirigé par suppression de l'écoulement magnétohydrodynamique"
+US11821367B2:
+  es: "Motor que produce empuje utilizando un conjunto de calentamiento por inducción para energizar el combustible"
+  fr: "Moteur produisant une poussée à l'aide d'un ensemble de chauffage par induction pour énergiser le combustible"
+IT202300020340A1:
+  es: "Propulsor eléctrico sin propelente basado en la fuerza de Lorentz"
+  fr: "Propulseur électrique sans propergol basé sur la force de Lorentz"
+US20240011469A1:
+  es: "Sistema y método para generar fuerzas mediante presión electrostática asimétrica"
+  fr: "Système et procédé pour générer des forces par pression électrostatique asymétrique"
+US11724831B2:
+  es: "Sistema de propulsión electromagnética del continuo espaciotemporal para viajes espaciales"
+  fr: "Système de propulsion électromagnétique du continuum espace-temps pour les voyages spatiaux"
+US20240063731A1:
+  es: "Sistema de propulsión, atenuador de inercia y generador de campo de fuerza"
+  fr: "Système de propulsion, atténuateur d'inertie et générateur de champ de force"
+CN116828682A:
+  es: "Dispositivo compacto de fuente de plasma de ondas helicoidales de alta potencia y motor de plasma magnético"
+  fr: "Dispositif compact de source de plasma à ondes hélicon de haute puissance et moteur à plasma magnétique"
+WO2024218539A1:
+  es: "Sistema de propulsión superconductor"
+  fr: "Système de propulsion supraconducteur"
+US20230253896A1:
+  es: "Método y aparato que utiliza plasmas pulsados en contrarrotación para extraer energía útil del campo de punto cero y/o modificar o anular las fuerzas de la gravedad y la inercia, o las propiedades de la masa"
+  fr: "Procédé et appareil utilisant des plasmas pulsés contrarotatifs pour extraire de l'énergie utile du champ du point zéro et/ou modifier ou annuler les forces de gravité et d'inertie, ou les propriétés de la masse"
+US20230391478A1:
+  es: "Motor de flujo magnético para la propulsión de naves espaciales"
+  fr: "Moteur à flux magnétique pour la propulsion d'engins spatiaux"
+WO2023130168A1:
+  es: "Sistema de propulsión mediante bobinas"
+  fr: "Système de propulsion utilisant des bobines"
+US11527387B2:
+  es: "Dispositivos y sistemas de propulsión de naves espaciales con excitación por microondas"
+  fr: "Dispositifs et systèmes de propulsion d'engins spatiaux à excitation par micro-ondes"
+WO2023130166A1:
+  es: "Sistema de propulsión mediante bobinas generadoras de campo de fuerza"
+  fr: "Système de propulsion utilisant des bobines génératrices de champ de force"
+WO2023130165A1:
+  es: "Sistema de propulsión y manipulación mediante haces de fuerza"
+  fr: "Système de propulsion et de manipulation utilisant des faisceaux de force"
+US20250132082A1:
+  es: "Sistema de propulsión mediante bobinas generadoras de campo de fuerza"
+  fr: "Système de propulsion utilisant des bobines génératrices de champ de force"
+US20250091734A1:
+  es: "Sistema de propulsión y manipulación mediante haces de fuerza"
+  fr: "Système de propulsion et de manipulation utilisant des faisceaux de force"
+CN115407417A:
+  es: "Detector de ondas gravitacionales de tipo luz"
+  fr: "Détecteur d'ondes gravitationnelles de type lumière"
+US11374329B2:
+  es: "Impulsor toroidal electromagnético"
+  fr: "Impulseur toroïdal électromagnétique"
+US11358741B2:
+  es: "Motor electromagnético de ultraalta frecuencia"
+  fr: "Moteur électromagnétique à ultra-haute fréquence"
+WO2022264177A1:
+  es: "Sistema de propulsión electromagnética para el movimiento de naves espaciales sin emisión de masa de reacción"
+  fr: "Système de propulsion électromagnétique pour le déplacement d'engins spatiaux sans émission de masse de réaction"
+JP7067719B2:
+  es: "Motor electromagnético de ultraalta frecuencia"
+  fr: "Moteur électromagnétique à ultra-haute fréquence"
+US11325727B2:
+  es: "Tobera magnética convergente/divergente"
+  fr: "Tuyère magnétique convergente/divergente"
+EP4271144A1:
+  es: "Propulsor iónico electrostático de corriente alterna polifásica síncrona (SPACE-IT) para la propulsión de naves espaciales, como por ejemplo satélites, minicohetes, etc."
+  fr: "Propulseur ionique électrostatique à courant alternatif polyphasé synchrone (SPACE-IT) pour la propulsion d'engins spatiaux, tels que satellites, mini-fusées, etc."
+US11242844B2:
+  es: "Propulsor de plasma pulsado avanzado alimentado por fibra (FPPT)"
+  fr: "Propulseur à plasma pulsé avancé alimenté par fibre (FPPT)"
+GB2617522A:
+  es: "Sistema de propulsión, atenuador de inercia y generador de campo de fuerza"
+  fr: "Système de propulsion, atténuateur d'inertie et générateur de champ de force"
+DE112022000319T5:
+  es: "Sistema de propulsión, amortiguador inercial y generador de campo de fuerza"
+  fr: "Système de propulsion, amortisseur inertiel et générateur de champ de force"
+BR102022000463A2:
+  es: "Sistema de propulsión y manipulación con haces de fuerza"
+  fr: "Système de propulsion et de manipulation à faisceaux de force"
+US20230191916A1:
+  es: "Nueva tecnología de propulsión y levitación electromagnética"
+  fr: "Nouvelle technologie de propulsion et de lévitation électromagnétique"
+US20230148291A1:
+  es: "Sistema y método de propulsión sin propelente"
+  fr: "Système et procédé de propulsion sans propergol"
+WO2023079341A1:
+  es: "Sistema de propulsión ultrapotente basado en la producción de presión magnética desequilibrada en una bobina electromagnética rectangular"
+  fr: "Système de propulsion ultra-puissant fondé sur la production d'une pression magnétique déséquilibrée dans une bobine électromagnétique rectangulaire"
+US11092142B2:
+  es: "Dispositivo de propulsión eléctrica por plasma"
+  fr: "Dispositif de propulsion électrique à plasma"
+GB2537119B:
+  es: "Propulsor de radiación de microondas superconductor"
+  fr: "Propulseur à rayonnement micro-ondes supraconducteur"
+IT202100015986A1:
+  es: "Sistema de propulsión electromagnética para el movimiento de vehículos espaciales sin emisión de masa de reacción"
+  fr: "Système de propulsion électromagnétique pour le déplacement de véhicules spatiaux sans émission de masse de réaction"
+US20220153455A1:
+  es: "Propulsor de plasma de ondas bidireccional para naves espaciales"
+  fr: "Propulseur à plasma à ondes bidirectionnel pour engins spatiaux"
+US20220371752A1:
+  es: "Sistema de propulsión electromagnética del continuo espaciotemporal para viajes espaciales"
+  fr: "Système de propulsion électromagnétique du continuum espace-temps pour les voyages spatiaux"
+EP3340746B1:
+  es: "Unidad de control para controlar un generador de alta frecuencia"
+  fr: "Unité de commande pour commander un générateur haute fréquence"
+WO2022064282A1:
+  es: "Método de levitación y producción de fuerza dinámica basado en el gradiente del campo magnético"
+  fr: "Procédé de lévitation et de production de force dynamique fondé sur le gradient du champ magnétique"
+GB2605757A:
+  es: "Vehículo y método para propulsar un vehículo"
+  fr: "Véhicule et procédé de propulsion d'un véhicule"
+US20210183624A1:
+  es: "Dispositivos y sistemas de propulsión de naves espaciales con excitación por microondas"
+  fr: "Dispositifs et systèmes de propulsion d'engins spatiaux à excitation par micro-ondes"
+BR102021001266A2:
+  es: "Sistema de propulsión, atenuador de inercia y generador de campo de fuerza"
+  fr: "Système de propulsion, atténuateur d'inertie et générateur de champ de force"
+CN111022275B:
+  es: "Estructura de ánodo de un propulsor de plasma magnético y propulsor de plasma magnético"
+  fr: "Structure d'anode d'un propulseur à plasma magnétique et propulseur à plasma magnétique"
+US10855210B2:
+  es: "Campos eléctricos complejos y campos eléctricos estáticos para producir movimiento con corrientes de conducción y materiales magnéticos"
+  fr: "Champs électriques complexes et champs électriques statiques pour produire un mouvement avec des courants de conduction et des matériaux magnétiques"
+WO2021071455A1:
+  es: "Motor de curvatura impulsado por ondas gravitacionales"
+  fr: "Moteur de distorsion alimenté par des ondes gravitationnelles"
+US10760552B2:
+  es: "Aparatos, sistemas y métodos para establecer un plasma y utilizarlo en un campo magnético giratorio"
+  fr: "Appareils, systèmes et procédés pour établir un plasma et l'utiliser dans un champ magnétique tournant"
+WO2021187686A1:
+  es: "Dispositivo de propulsión electromagnética"
+  fr: "Dispositif de propulsion électromagnétique"
+US20210159005A1:
+  es: "Sistema de propulsión por campo eléctrico pulsado"
+  fr: "Système de propulsion à champ électrique pulsé"
+US20220037971A1:
+  es: "Sistema y método de propulsión magnetodinámica"
+  fr: "Système et procédé de propulsion magnétodynamique"
+KR102135889B1:
+  es: "Aparato de propulsión electromagnética"
+  fr: "Appareil de propulsion électromagnétique"
+US20210009287A1:
+  es: "Motor de flujo magnético para la propulsión de naves espaciales"
+  fr: "Moteur à flux magnétique pour la propulsion d'engins spatiaux"
+US10618678B1:
+  es: "Panel solar autoequilibrado"
+  fr: "Panneau solaire auto-équilibré"
+WO2020186065A2:
+  es: "Dispositivos y sistemas de propulsión de naves espaciales con excitación por microondas"
+  fr: "Dispositifs et systèmes de propulsion d'engins spatiaux à excitation par micro-ondes"
+US10570892B2:
+  es: "Propulsor de plasma pulsado avanzado alimentado por fibra (FPPT)"
+  fr: "Propulseur à plasma pulsé avancé alimenté par fibre (FPPT)"
+US10513353B2:
+  es: "Sistema de propulsión por campo magnético de corriente segmentada"
+  fr: "Système de propulsion à champ magnétique à courant segmenté"
+CN110821771A:
+  es: "Dispositivo de propulsión por campo"
+  fr: "Dispositif de propulsion par champ"
+US10486835B2:
+  es: "Método y sistema de amplificación de la fuerza centrífuga para generar sustentación en un vehículo"
+  fr: "Procédé et système d'amplification de la force centrifuge pour générer la portance d'un véhicule"
+US10442558B2:
+  es: "Vehículo espacial con propulsión eléctrica y propulsión química de propelente sólido"
+  fr: "Véhicule spatial à propulsion électrique et à propulsion chimique à propergol solide"
+CA3111372A1:
+  es: "Motor para producir empuje"
+  fr: "Moteur pour produire une poussée"
+US10322827B2:
+  es: "Generador de ondas gravitacionales de alta frecuencia"
+  fr: "Générateur d'ondes gravitationnelles haute fréquence"
+US10320312B2:
+  es: "Campos eléctricos complejos y campos eléctricos estáticos para producir movimiento con corrientes de conducción y materiales magnéticos"
+  fr: "Champs électriques complexes et champs électriques statiques pour produire un mouvement avec des courants de conduction et des matériaux magnétiques"
+CN107044396B:
+  es: "Propulsor de plasma magnético de campo aplicado con estructura refrigerada por agua"
+  fr: "Propulseur à plasma magnétique à champ appliqué avec structure refroidie par eau"
+US10302808B2:
+  es: "Sistema de comunicación por radiación gravitacional con una membrana superconductora móvil entre cavidades superconductoras cilíndricas para proporcionar amplificación paramétrica"
+  fr: "Système de communication par rayonnement gravitationnel comprenant une membrane supraconductrice mobile entre des cavités supraconductrices cylindriques pour assurer une amplification paramétrique"
+US20190352023A1:
+  es: "Celda de fuerza para proporcionar propulsión sin propelente en aplicaciones de empuje lineal y par sin combustible en aplicaciones rotatorias mediante fuerzas de Casimir externas"
+  fr: "Cellule de force pour fournir une propulsion sans propergol pour des applications de poussée linéaire et un couple sans carburant pour des applications rotatives à l'aide de forces de Casimir externes"
+CA3090882A1:
+  es: "Propulsor de energía-momento electromagnético que utiliza modos evanescentes de un resonador de cavidad cónica"
+  fr: "Propulseur à énergie-impulsion électromagnétique utilisant les modes évanescents d'un résonateur à cavité conique"
+CN106351811B:
+  es: "Propulsor de plasma electromagnético cilíndrico de baja potencia con campo magnético ajustable"
+  fr: "Propulseur à plasma électromagnétique cylindrique de faible puissance à champ magnétique réglable"
+US20190168897A1:
+  es: "Sistema de propulsión por campo magnético de corriente segmentada"
+  fr: "Système de propulsion à champ magnétique à courant segmenté"
+CN106246487B:
+  es: "Propulsor de plasma magnético con conversión de energía mediante un campo electromagnético aplicado"
+  fr: "Propulseur à plasma magnétique à conversion d'énergie par un champ électromagnétique appliqué"
+US20220017240A1:
+  es: "Mejoras de eficiencia para un impulsor de propulsión por campo magnético"
+  fr: "Améliorations de rendement pour un entraînement de propulsion à champ magnétique"
+US10144532B2:
+  es: "Nave que utiliza un dispositivo de reducción de la masa inercial"
+  fr: "Engin utilisant un dispositif de réduction de la masse inertielle"
+US10135366B2:
+  es: "Generador de campo electromagnético y método para generar un campo electromagnético"
+  fr: "Générateur de champ électromagnétique et procédé pour générer un champ électromagnétique"
+US10135323B2:
+  es: "Sistema de propulsión electromagnética por descarga capacitiva"
+  fr: "Système de propulsion électromagnétique à décharge capacitive"
+EP3602760A1:
+  es: "Impulsor de propulsión por campo magnético"
+  fr: "Entraînement de propulsion à champ magnétique"
+EP3633191A1:
+  es: "Propulsión sin reacción basada en el efecto túnel cuántico"
+  fr: "Propulsion sans réaction fondée sur l'effet tunnel quantique"
+US10084395B2:
+  es: "Campos eléctricos complejos y campos eléctricos estáticos para producir movimiento con corrientes de conducción"
+  fr: "Champs électriques complexes et champs électriques statiques pour produire un mouvement avec des courants de conduction"
+CN106337791B:
+  es: "Propulsor de plasma magnético con cátodo hueco poroso cónico"
+  fr: "Propulseur à plasma magnétique à cathode creuse poreuse conique"
+US10027257B2:
+  es: "Interacción de campos eléctricos complejos y campos eléctricos estáticos para producir movimiento"
+  fr: "Interaction de champs électriques complexes et de champs électriques statiques pour produire un mouvement"
+US10006446B2:
+  es: "Sistema de propulsión electromagnética de condensadores segmentados"
+  fr: "Système de propulsion électromagnétique à condensateurs segmentés"
+CN105781921B:
+  es: "Cavidad de propulsor electromagnético basada en una estructura periódica"
+  fr: "Cavité de propulseur électromagnétique fondée sur une structure périodique"
+CN105934063B:
+  es: "Propulsor de plasma de tipo ionizado"
+  fr: "Propulseur à plasma de type ionisé"
+KR101859333B1:
+  es: "Propulsor de radiofrecuencia"
+  fr: "Propulseur radiofréquence"
+WO2018196888A1:
+  es: "Impulsor toroidal electromagnético"
+  fr: "Impulseur toroïdal électromagnétique"
+US20200176159A1:
+  es: "Impulsor toroidal electromagnético"
+  fr: "Impulseur toroïdal électromagnétique"
+US9822769B2:
+  es: "Método y aparato para producir un alto impulso específico y un empuje moderado con un motor cohete de fusión"
+  fr: "Procédé et appareil pour produire une impulsion spécifique élevée et une poussée modérée à partir d'un moteur-fusée à fusion"
+CN104114862B:
+  es: "Propulsor de plasma y método para generar empuje de propulsión por plasma"
+  fr: "Propulseur à plasma et procédé pour générer une poussée de propulsion par plasma"
+US20200039666A1:
+  es: "Motor electromagnético de ultraalta frecuencia"
+  fr: "Moteur électromagnétique à ultra-haute fréquence"
+JP2019532874A:
+  es: "Motor electromagnético de ultraalta frecuencia"
+  fr: "Moteur électromagnétique à ultra-haute fréquence"
+US9712031B2:
+  es: "Sistema de propulsión electromagnética"
+  fr: "Système de propulsion électromagnétique"
+DE102010063452B4:
+  es: "Sistema refrigerado expuesto a un flujo de gas caliente, dispositivo de propulsión, cuerpo de reentrada, método de funcionamiento de un sistema sometido a un flujo de gas caliente y método de fabricación de un sistema refrigerado"
+  fr: "Système refroidi exposé à un flux de gaz chaud, dispositif de propulsion, corps de rentrée, procédé de fonctionnement d'un système soumis à un flux de gaz chaud et procédé de fabrication d'un système refroidi"
+DE102017006271A1:
+  es: "Propulsor espacial puramente eléctrico"
+  fr: "Propulseur spatial purement électrique"
+US9591741B2:
+  es: "Propulsor de plasma y método para generar un empuje de propulsión por plasma"
+  fr: "Propulseur à plasma et procédé pour générer une poussée de propulsion par plasma"
+US20180229864A1:
+  es: "Generador de ondas gravitacionales de alta frecuencia"
+  fr: "Générateur d'ondes gravitationnelles haute fréquence"
+RU2610018C2:
+  es: "Método de propulsión de cuerpos mediante el efecto Casimir y/o su análogo"
+  fr: "Procédé de propulsion de corps par l'effet Casimir et/ou son analogue"
+US20180059704A1:
+  es: "Batería magnética de energía de punto cero (ZPE)"
+  fr: "Batterie magnétique à énergie du point zéro (ZPE)"
+CN106275512A:
+  es: "Sonda de espacio profundo con propulsión magnética sin pérdida de masa"
+  fr: "Sonde spatiale lointaine à propulsion magnétique sans perte de masse"
+US9346564B1:
+  es: "Sistema y método para poner en modo seguro manualmente y desorbitar una nave geoestacionaria en ausencia de procesador de a bordo"
+  fr: "Système et procédé de mise en sécurité manuelle et de désorbitation d'un engin spatial géostationnaire en l'absence de processeur de bord"
+US9337752B2:
+  es: "Interacción de campos eléctricos complejos y campos eléctricos estáticos para producir movimiento"
+  fr: "Interaction de champs électriques complexes et de champs électriques statiques pour produire un mouvement"
+US9334068B2:
+  es: "Control unificado de órbita y actitud para nanosatélites mediante propulsores ablativos pulsados"
+  fr: "Contrôle unifié d'orbite et d'attitude pour nanosatellites à l'aide de propulseurs ablatifs pulsés"
+US20170313446A1:
+  es: "Nave que utiliza un dispositivo de reducción de la masa inercial"
+  fr: "Engin utilisant un dispositif de réduction de la masse inertielle"
+WO2016162676A1:
+  es: "Propulsor de radiación de microondas superconductor"
+  fr: "Propulseur à rayonnement micro-ondes supraconducteur"
+GB2554586A:
+  es: "Propulsor de radiación de microondas superconductor"
+  fr: "Propulseur à rayonnement micro-ondes supraconducteur"
+GB201718189D0:
+  es: "Propulsor de radiación de microondas superconductor"
+  fr: "Propulseur à rayonnement micro-ondes supraconducteur"
+US9287840B1:
+  es: "Amplificación paramétrica y señales de tensión conmutadas para propulsión sin propelente"
+  fr: "Amplification paramétrique et signaux de tension commutés pour une propulsion sans propergol"
+US20170264181A1:
+  es: "Sistema de propulsión electromagnética por descarga capacitiva"
+  fr: "Système de propulsion électromagnétique à décharge capacitive"
+WO2016138266A1:
+  es: "Sistema de comunicación por radiación gravitacional"
+  fr: "Système de communication par rayonnement gravitationnel"
+US9145216B2:
+  es: "Sistema unificado de propulsión química y eléctrica"
+  fr: "Système unifié de propulsion chimique et électrique"
+US9140819B2:
+  es: "Gradiómetro"
+  fr: "Gradiomètre"
+CN102866431B:
+  es: "Dispositivo superconductor de baja temperatura para medir la gravedad"
+  fr: "Dispositif supraconducteur basse température pour mesurer la gravité"
+US9108749B2:
+  es: "Gestión del momento angular de naves espaciales"
+  fr: "Gestion du moment cinétique d'engins spatiaux"
+US20170025935A1:
+  es: "Generador de campo electromagnético y método para generar un campo electromagnético"
+  fr: "Générateur de champ électromagnétique et procédé pour générer un champ électromagnétique"
+US20160083119A1:
+  es: "Sistemas de aumento de empuje"
+  fr: "Systèmes d'augmentation de poussée"
+GB2537119A:
+  es: "Propulsor de radiación de microondas superconductor"
+  fr: "Propulseur à rayonnement micro-ondes supraconducteur"
+US20160197543A1:
+  es: "Sistema de propulsión electromagnética de condensadores segmentados"
+  fr: "Système de propulsion électromagnétique à condensateurs segmentés"
+JP2015097209A:
+  es: "Motor iónico"
+  fr: "Moteur ionique"
+EP3038925A4:
+  es: "Propulsor de plasma sin electrodos"
+  fr: "Propulseur à plasma sans électrodes"
+DE102007036592B4:
+  es: "Generador de alta frecuencia para fuentes de iones y de electrones"
+  fr: "Générateur haute fréquence pour sources d'ions et d'électrons"
+US20150022031A1:
+  es: "Sistema de propulsión electromagnética"
+  fr: "Système de propulsion électromagnétique"
+EP2856629A1:
+  es: "Interacción de campos eléctricos complejos y campos eléctricos estáticos para producir movimiento"
+  fr: "Interaction de champs électriques complexes et de champs électriques statiques pour produire un mouvement"
+US8459002B2:
+  es: "Sistema eficiente de propulsión electromagnética por RF con capacidad de comunicaciones"
+  fr: "Système efficace de propulsion électromagnétique RF avec capacité de communication"
+US20140345251A1:
+  es: "Sistema eficiente de propulsión electromagnética con capacidad de comunicaciones"
+  fr: "Système efficace de propulsion électromagnétique avec capacité de communication"
+US20150098543A1:
+  es: "Método y aparato para producir un alto impulso específico y un empuje moderado con un motor cohete de fusión"
+  fr: "Procédé et appareil pour produire une impulsion spécifique élevée et une poussée modérée à partir d'un moteur-fusée à fusion"
+JP2016503474A:
+  es: "Método para generar un alto empuje específico y un empuje moderado con un motor cohete de energía de fusión"
+  fr: "Procédé pour générer une poussée spécifique élevée et une poussée modérée à partir d'un moteur-fusée à énergie de fusion"
+US8383959B2:
+  es: "Mecanismo de alineación esférica de metamaterial"
+  fr: "Mécanisme d'alignement sphérique en métamatériau"
+US20130175895A1:
+  es: "Sistemas y métodos para proporcionar energía eléctrica y energía mecánica, mediante magnetismo, de acuerdo con la teoría ECE"
+  fr: "Systèmes et procédés pour fournir de l'énergie électrique et de l'énergie mécanique, au moyen du magnétisme, conformément à la théorie ECE"
+WO2012134945A1:
+  es: "Propulsor electromagnético"
+  fr: "Propulseur électromagnétique"
+US20140013724A1:
+  es: "Propulsor electromagnético"
+  fr: "Propulseur électromagnétique"
+CN103492269A:
+  es: "Propulsor electromagnético"
+  fr: "Propulseur électromagnétique"
+WO2012131322A1:
+  es: "Dispositivo para mover una masa y/o generar una fuerza eficaz para modificar el campo gravitatorio entre masas, y método correspondiente"
+  fr: "Dispositif pour déplacer une masse et/ou générer une force efficace pour modifier le champ gravitationnel entre des masses, et procédé associé"
+US8066226B2:
+  es: "Dispositivo de propulsión inercial para mover un objeto hacia arriba y hacia abajo"
+  fr: "Dispositif de propulsion inertielle pour déplacer un objet vers le haut et vers le bas"
+CN102434414A:
+  es: "Tobera magnética de un cohete de plasma magnético de impulso específico variable"
+  fr: "Tuyère magnétique d'une fusée à plasma magnétique à impulsion spécifique variable"
+WO2012053921A2:
+  es: "Sistema de propulsión electromagnética y aplicaciones"
+  fr: "Système de propulsion électromagnétique et applications"
+CA2465994C:
+  es: "Aparato para la medición de gradientes gravitatorios"
+  fr: "Appareil de mesure des gradients gravitationnels"
+US20130047578A1:
+  es: "Sistema unificado de propulsión química y eléctrica"
+  fr: "Système unifié de propulsion chimique et électrique"
+JP4630439B2:
+  es: "Fuente de iones de alta frecuencia y método de funcionamiento de una fuente de iones de alta frecuencia"
+  fr: "Source d'ions haute fréquence et procédé de fonctionnement d'une source d'ions haute fréquence"
+DE102010063452A1:
+  es: "Sistema refrigerado expuesto a un flujo de gas caliente, que comprende una pared y un dispositivo de refrigeración integrado al menos parcialmente en la pared, fabricada en material poroso en una zona parcial y refrigerada por transpiración y/o efusión"
+  fr: "Système refroidi exposé à un flux de gaz chaud, comprenant une paroi et un dispositif de refroidissement intégré au moins partiellement dans la paroi, réalisée en matériau poreux dans une zone partielle et refroidie par transpiration et/ou effusion"
+DE202010015800U1:
+  es: "Dispositivo para generar ondas gravitacionales"
+  fr: "Dispositif pour générer des ondes gravitationnelles"
+DE102010052353A1:
+  es: "Dispositivo para generar ondas gravitacionales, es decir, ondas electromagnéticas, con un módulo que genera un plasma para mover sus iones en vibraciones de alta frecuencia, estimuladas por un campo eléctrico"
+  fr: "Dispositif pour générer des ondes gravitationnelles, c'est-à-dire des ondes électromagnétiques, comportant un module qui génère un plasma pour mettre ses ions en vibrations haute fréquence, stimulées par un champ électrique"
+WO2010151161A2:
+  es: "Sistema de propulsión que utiliza la fuerza antigravitatoria del vacío, y aplicaciones"
+  fr: "Système de propulsion utilisant la force antigravitationnelle du vide, et applications"
+US20120092107A1:
+  es: "Sistema de propulsión que utiliza la fuerza antigravitatoria del vacío, y aplicaciones"
+  fr: "Système de propulsion utilisant la force antigravitationnelle du vide, et applications"
+RU2385555C2:
+  es: "Dispositivo de nivelación esférico"
+  fr: "Dispositif de nivellement sphérique"
+US7627954B2:
+  es: "Gradiómetro de gravedad"
+  fr: "Gradiomètre de gravité"
+US7624635B2:
+  es: "Gradiómetro de gravedad"
+  fr: "Gradiomètre de gravité"
+JP2012508840A:
+  es: "Propulsor iónico para naves espaciales"
+  fr: "Propulseur ionique pour engins spatiaux"
+US20100326042A1:
+  es: "Sistema eficiente de propulsión electromagnética por RF con capacidad de comunicaciones"
+  fr: "Système efficace de propulsion électromagnétique RF avec capacité de communication"
+US20100201133A1:
+  es: "Transductor rotatorio de energía de punto cero y métodos asociados"
+  fr: "Transducteur rotatif à énergie du point zéro et procédés associés"
+US7571547B2:
+  es: "Gradiómetro de gravedad"
+  fr: "Gradiomètre de gravité"
+US7530219B1:
+  es: "Propulsor de plasma pulsado avanzado con alto empuje electromagnético"
+  fr: "Propulseur à plasma pulsé avancé à forte poussée électromagnétique"
+JP2011522357A:
+  es: "Generador de plasma y método de control de un generador de plasma"
+  fr: "Générateur de plasma et procédé de commande d'un générateur de plasma"
+EP2233951A1:
+  es: "Generador de ondas gravitacionales que utiliza osciladores acoplados y métodos para amplificar ondas gravitacionales"
+  fr: "Générateur d'ondes gravitationnelles utilisant des oscillateurs couplés et procédés d'amplification des ondes gravitationnelles"
+US20100180570A1:
+  es: "Movimiento sin reacción (RM)"
+  fr: "Mouvement sans réaction (RM)"
+US20090139762A1:
+  es: "Mecanismo de alineación esférica de metamaterial"
+  fr: "Mécanisme d'alignement sphérique en métamatériau"
+US7465886B1:
+  es: "Mecanismo de alineación esférica con reducción entrópica escalonada y sistema de propulsión"
+  fr: "Mécanisme d'alignement sphérique à réduction entropique par paliers et système de propulsion"
+US7454893B2:
+  es: "Generador electrotérmico de nanopartículas"
+  fr: "Générateur électrothermique de nanoparticules"
+US7446636B1:
+  es: "Sistema que utiliza el campo magnético terrestre para generar una fuerza opuesta a la fuerza de la gravedad"
+  fr: "Système utilisant le champ magnétique terrestre pour générer une force opposée à la force de gravité"
+US20100176248A1:
+  es: "Sistema de propulsión de naves espaciales con mecanismo giroscópico"
+  fr: "Système de propulsion d'engins spatiaux à mécanisme gyroscopique"
+CA2638667A1:
+  es: "Método y aparato para la propulsión de naves espaciales con protección por escudo de campo"
+  fr: "Procédé et appareil de propulsion d'engins spatiaux avec protection par bouclier de champ"
+US7410130B2:
+  es: "Determinación de actitud basada en seguidor estelar para naves espaciales giratorias"
+  fr: "Détermination d'attitude par viseur d'étoiles pour engins spatiaux en rotation"
+US20090183951A1:
+  es: "Dispositivo de propulsión inercial"
+  fr: "Dispositif de propulsion inertielle"
+WO2009043978A1:
+  es: "Dispositivo de propulsión mediante interacción eléctrica disimétrica"
+  fr: "Dispositif de propulsion par interaction électrique dissymétrique"
+CN100338482C:
+  es: "Generador de ondas gravitacionales"
+  fr: "Générateur d'ondes gravitationnelles"
+US20080121037A1:
+  es: "Gradiómetro de gravedad"
+  fr: "Gradiomètre de gravité"
+CA2612990A1:
+  es: "Gradiómetro de gravedad superconductor e interruptor térmico"
+  fr: "Gradiomètre de gravité supraconducteur et interrupteur thermique"
+GB2446028A:
+  es: "Generador portátil gravitomagnético y gravitoeléctrico que utiliza un superconductor"
+  fr: "Générateur portable gravitomagnétique et gravitoélectrique utilisant un supraconducteur"
+US7235945B2:
+  es: "Sistemas de conversión de energía"
+  fr: "Systèmes de conversion d'énergie"
+WO2008000062A1:
+  es: "Método y aparato para generar empuje mediante la variación de la masa inercial"
+  fr: "Procédé et appareil pour générer une poussée par variation de la masse inertielle"
+EP2041432A1:
+  es: "Método y aparato para generar empuje mediante la variación de la masa inercial"
+  fr: "Procédé et appareil pour générer une poussée par variation de la masse inertielle"
+CN101512146A:
+  es: "Método y dispositivo para generar empuje mediante el cambio de la masa inercial"
+  fr: "Procédé et dispositif pour générer une poussée par modification de la masse inertielle"
+US20070295010A1:
+  es: "Método y aparato para generar empuje mediante la variación de la masa inercial"
+  fr: "Procédé et appareil pour générer une poussée par variation de la masse inertielle"
+GB2445180A:
+  es: "Propulsor electromagnético sin propelente"
+  fr: "Propulseur électromagnétique sans propergol"
+WO2007044778A3:
+  es: "Sistema de empuje electromagnético"
+  fr: "Système de poussée électromagnétique"
+FR2906945A1:
+  es: "Dispositivo productor de empuje con conductores eléctricos rectos y paralelos dispuestos en un medio aislante, alimentados por una tensión de alta frecuencia que produce un empuje en cada conductor, en la misma dirección, y situados en condiciones de superconductividad"
+  fr: "Dispositif producteur de poussée comportant des conducteurs électriques droits et parallèles placés dans un milieu isolant, alimentés par une tension haute fréquence qui produit une poussée sur chaque conducteur, dans la même direction, et placés en conditions de supraconductivité"
+WO2007024655A2:
+  es: "Sistema y método para el vuelo en formación con amarre fotónico sin propelente"
+  fr: "Système et procédé de vol en formation par attache photonique sans propergol"
+US20080287301A1:
+  es: "Método y aparato para generar una fuerza gravitatoria sobre un cuerpo giratorio, como un superconductor"
+  fr: "Procédé et appareil pour générer une force gravitationnelle sur un corps en rotation tel qu'un supraconducteur"
+US7053576B2:
+  es: "Sistemas de conversión de energía"
+  fr: "Systèmes de conversion d'énergie"
+CA2537129A1:
+  es: "Sistema de captación y conversión de energía"
+  fr: "Système de captage et de conversion d'énergie"
+WO2007081300A3:
+  es: "Mecanismo de alineación esférica"
+  fr: "Mécanisme d'alignement sphérique"
+US6960975B1:
+  es: "Vehículo espacial propulsado por la presión del estado de vacío inflacionario"
+  fr: "Véhicule spatial propulsé par la pression de l'état de vide inflationnaire"
+US20070001541A1:
+  es: "Propulsión por ondas gravitacionales"
+  fr: "Propulsion par ondes gravitationnelles"
+US20060038080A1:
+  es: "Método de control solar para naves espaciales"
+  fr: "Procédé de contrôle solaire pour engins spatiaux"
+US20050236909A1:
+  es: "Formación de imágenes por ondas gravitacionales"
+  fr: "Imagerie par ondes gravitationnelles"
+US6871542B2:
+  es: "Aparato para la medición de gradientes gravitatorios"
+  fr: "Appareil de mesure des gradients gravitationnels"
+US20050210859A1:
+  es: "Generador electrotérmico de nanopartículas"
+  fr: "Générateur électrothermique de nanoparticules"
+US20060144035A1:
+  es: "Nave espacial fotónica"
+  fr: "Engin spatial photonique"
+WO2005060644A2:
+  es: "Propulsión y telescopio de ondas gravitacionales"
+  fr: "Propulsion et télescope à ondes gravitationnelles"
+US20060071122A1:
+  es: "Sistema de teletransporte de cuerpo completo"
+  fr: "Système de téléportation du corps entier"
+US6784591B2:
+  es: "Generador de ondas gravitacionales que utiliza elementos energizables submicroscópicos"
+  fr: "Générateur d'ondes gravitationnelles utilisant des éléments excitables submicroscopiques"
+US20060065789A1:
+  es: "Método para producir empujes con efectos \"Mach\" manipulados mediante campos electromagnéticos alternos"
+  fr: "Procédé pour produire des poussées par des effets \"Mach\" manipulés au moyen de champs électromagnétiques alternatifs"
+US20050133671A1:
+  es: "Determinación de actitud basada en seguidor estelar para naves espaciales giratorias"
+  fr: "Détermination d'attitude par viseur d'étoiles pour engins spatiaux en rotation"
+US6745980B2:
+  es: "Aparato giroscópico desequilibrado para producir empuje unidireccional"
+  fr: "Appareil gyroscopique déséquilibré pour produire une poussée unidirectionnelle"
+WO2004100174A3:
+  es: "Formación de imágenes por ondas gravitacionales"
+  fr: "Imagerie par ondes gravitationnelles"
+WO2004100174A2:
+  es: "Formación de imágenes por ondas gravitacionales"
+  fr: "Imagerie par ondes gravitationnelles"
+WO2004075372A3:
+  es: "Generador de inercia o rotor antigravitatorio"
+  fr: "Générateur d'inertie ou rotor antigravitationnel"
+US20040130237A1:
+  es: "Propulsión y telescopio de ondas gravitacionales"
+  fr: "Propulsion et télescope à ondes gravitationnelles"
+US20050133670A1:
+  es: "Determinación y control unificados de actitud basados en sensores para operaciones de naves espaciales"
+  fr: "Détermination et contrôle unifiés d'attitude par capteurs pour les opérations d'engins spatiaux"
+US20050109879A1:
+  es: "Método y aparato para la propulsión por implosión de vórtices cuánticos y especies"
+  fr: "Procédé et appareil de propulsion par implosion de vortex quantiques et espèces"
+US6640535B2:
+  es: "Propulsor iónico lineal sin rejillas"
+  fr: "Propulseur ionique linéaire sans grilles"
+WO2004002201A1:
+  es: "Generador de haz de plasma"
+  fr: "Générateur de faisceau de plasma"
+US20040056545A1:
+  es: "Formación de imágenes por ondas gravitacionales"
+  fr: "Imagerie par ondes gravitationnelles"
+GB2399601A:
+  es: "Dispositivo productor de empuje que utiliza microondas"
+  fr: "Dispositif producteur de poussée utilisant des micro-ondes"
+US6530212B1:
+  es: "Propulsor de plasma por láser"
+  fr: "Propulseur à plasma laser"
+US20040200925A1:
+  es: "Generador de energía hiperespacial por cavitación de aceite"
+  fr: "Générateur d'énergie hyperspatiale par cavitation d'huile"
+US20040159090A1:
+  es: "Propulsión inercial hidromagnética"
+  fr: "Propulsion inertielle hydromagnétique"
+US6494091B2:
+  es: "Aparato para medir la atracción gravitatoria de la Tierra"
+  fr: "Appareil de mesure de l'attraction gravitationnelle de la Terre"
+US20040231417A1:
+  es: "Aparato para la medición de gradientes gravitatorios"
+  fr: "Appareil de mesure des gradients gravitationnels"
+US6417597B1:
+  es: "Generador de ondas gravitacionales"
+  fr: "Générateur d'ondes gravitationnelles"
+US20030234318A1:
+  es: "Aparato giroscópico desequilibrado para producir empuje unidireccional"
+  fr: "Appareil gyroscopique déséquilibré pour produire une poussée unidirectionnelle"
+US20030209637A1:
+  es: "Sistema de propulsión electrostática giratoria"
+  fr: "Système de propulsion électrostatique rotatif"
+GB2355599B:
+  es: "Especificaciones técnicas y teóricas para la tecnología de motor de curvatura"
+  fr: "Spécifications techniques et théoriques pour la technologie de moteur de distorsion"
+US6347766B1:
+  es: "Método y aparato para generar fuerzas propulsoras sin expulsión de propelente"
+  fr: "Procédé et appareil pour générer des forces propulsives sans éjection de propergol"
+US6334302B1:
+  es: "Motor cohete magnetoplasmático de impulso específico variable"
+  fr: "Moteur-fusée magnétoplasmique à impulsion spécifique variable"
+CN1488150A:
+  es: "Generador de ondas gravitacionales que utiliza elementos excitables submicroscópicos"
+  fr: "Générateur d'ondes gravitationnelles utilisant des éléments excitables submicroscopiques"
+US6293090B1:
+  es: "Propulsor eléctrico de plasma por RF más eficiente"
+  fr: "Propulseur électrique à plasma RF plus efficace"
+WO2002020346A3:
+  es: "Sistema de propulsión asimétrico por ondas gravitacionales"
+  fr: "Système de propulsion asymétrique par ondes gravitationnelles"
+WO2002020346A2:
+  es: "Sistema de propulsión asimétrico por ondas gravitacionales"
+  fr: "Système de propulsion asymétrique par ondes gravitationnelles"
+US20040140403A1:
+  es: "Sistema de propulsión asimétrico por ondas gravitacionales"
+  fr: "Système de propulsion asymétrique par ondes gravitationnelles"
+CN1654978A:
+  es: "Generador de ondas gravitacionales"
+  fr: "Générateur d'ondes gravitationnelles"
+DE19948229C1:
+  es: "Fuente de iones de alta frecuencia"
+  fr: "Source d'ions haute fréquence"
+US6193194B1:
+  es: "Sistema de propulsión magnética y método de funcionamiento"
+  fr: "Système de propulsion magnétique et procédé de fonctionnement"
+WO2001057881A1:
+  es: "Especificaciones técnicas y teóricas para la tecnología de motor de curvatura"
+  fr: "Spécifications techniques et théoriques pour la technologie de moteur de distorsion"
+US20030114313A1:
+  es: "Especificaciones técnicas y teóricas para la tecnología de motor de curvatura"
+  fr: "Spécifications techniques et théoriques pour la technologie de moteur de distorsion"
+US20020085661A1:
+  es: "Sistema de propulsión para vehículos espaciales"
+  fr: "Système de propulsion pour véhicule spatial"
+US20010006317A1:
+  es: "Generador de ondas gravitacionales que utiliza elementos energizables submicroscópicos"
+  fr: "Générateur d'ondes gravitationnelles utilisant des éléments excitables submicroscopiques"
+GB2355599A:
+  es: "Generación de una fuerza sobre un cuerpo giratorio, como un superconductor"
+  fr: "Génération d'une force sur un corps en rotation tel qu'un supraconducteur"
+JP2001159387A:
+  es: "Fuente de iones de alta frecuencia y método de funcionamiento de una fuente de iones de alta frecuencia"
+  fr: "Source d'ions haute fréquence et procédé de fonctionnement d'une source d'ions haute fréquence"
+GB2357908A:
+  es: "Fuente de iones de alta frecuencia"
+  fr: "Source d'ions haute fréquence"
+US6121569A:
+  es: "Fuente de chorro de plasma que utiliza un plasma de descarga de confinamiento electrostático inercial"
+  fr: "Source de jet de plasma utilisant un plasma de décharge à confinement électrostatique inertiel"
+US6098924A:
+  es: "Método y aparato para generar fuerzas propulsoras sin expulsión de propelente"
+  fr: "Procédé et appareil pour générer des forces propulsives sans éjection de propergol"
+US6068449A:
+  es: "Bomba magnetohidrodinámica"
+  fr: "Pompe magnétohydrodynamique"
+RU2145429C1:
+  es: "Dispositivo de medición de campos gravitatorios"
+  fr: "Dispositif de mesure des champs gravitationnels"
+JP2936858B2:
+  es: "Dispositivo de propulsión para objetos voladores"
+  fr: "Dispositif de propulsion pour objet volant"
+EP0784802B1:
+  es: "Aparato para la medición de campos gravitatorios"
+  fr: "Appareil de mesure des champs gravitationnels"
+WO1998023976A3:
+  es: "Aparato y método mejorados para la modificación gravitatoria"
+  fr: "Appareil et procédé améliorés de modification gravitationnelle"
+US20010004098A1:
+  es: "Estudio de propulsión de tecnología avanzada"
+  fr: "Étude de propulsion de technologie avancée"
+US5590031:
+  es: "Sistema para convertir energía de radiación electromagnética en energía eléctrica"
+  fr: "Système de conversion de l'énergie du rayonnement électromagnétique en énergie électrique"
+GB2312709A:
+  es: "Aeronave con medios de empuje vertical por campo magnético/arco eléctrico"
+  fr: "Aéronef avec moyens de poussée verticale par champ magnétique/arc électrique"
+WO1996010759A1:
+  es: "Aparato para la medición de campos gravitatorios"
+  fr: "Appareil de mesure des champs gravitationnels"
+MD1842C2:
+  es: "Dispositivo y método de medición del campo gravitatorio"
+  fr: "Dispositif et procédé de mesure du champ gravitationnel"
+MD1842B2:
+  es: "Dispositivo y método de medición del campo gravitatorio"
+  fr: "Dispositif et procédé de mesure du champ gravitationnel"
+US5280864A:
+  es: "Método para alterar transitoriamente la masa de objetos para facilitar su transporte o cambiar su peso aparente en reposo"
+  fr: "Procédé pour modifier transitoirement la masse d'objets afin de faciliter leur transport ou de modifier leur poids apparent à l'arrêt"
+US5197279A:
+  es: "Motor de propulsión por energía electromagnética"
+  fr: "Moteur de propulsion à énergie électromagnétique"
+US5170623A:
+  es: "Sistema de propulsión híbrido químico/electromagnético"
+  fr: "Système de propulsion hybride chimique/électromagnétique"
+US5142861A:
+  es: "Sistema y método de propulsión electromagnética no lineal"
+  fr: "Système et procédé de propulsion électromagnétique non linéaire"
+US5052638A:
+  es: "Estatorreactor electromagnético"
+  fr: "Statoréacteur électromagnétique"
+US4992656A:
+  es: "Sensores de rotación, aceleración y gravedad mediante interferometría cuántica de ondas de materia con átomos y moléculas neutros"
+  fr: "Capteurs de rotation, d'accélération et de gravité par interférométrie quantique d'ondes de matière avec des atomes et des molécules neutres"
+JPH05296141A:
+  es: "Motor de propulsión por energía electromagnética"
+  fr: "Moteur de propulsion à énergie électromagnétique"
+WO1991002444A1:
+  es: "Giroscopios, acelerómetros y gradiómetros de gravedad por interferometría atómica"
+  fr: "Gyroscopes, accéléromètres et gradiomètres de gravité à interférométrie atomique"
+US4891600A:
+  es: "Medio y método de aceleración de dipolos"
+  fr: "Moyen et procédé d'accélération de dipôles"
+US4874942A:
+  es: "Sensores de rotación, aceleración y gravedad mediante interferometría cuántica de ondas de materia con átomos y moléculas neutros"
+  fr: "Capteurs de rotation, d'accélération et de gravité par interférométrie quantique d'ondes de matière avec des atomes et des molécules neutres"
+US4663932A:
+  es: "Sistema de propulsión por campo de fuerza dipolar"
+  fr: "Système de propulsion à champ de force dipolaire"
+US3722290A:
+  es: "Detector de campos dinámicos de gradiente de fuerza gravitatoria"
+  fr: "Détecteur de champs dynamiques de gradient de force gravitationnelle"
+US3722288A:
+  es: "Detector de acoplamiento electromagnético de gradientes dinámicos de fuerza gravitatoria"
+  fr: "Détecteur à couplage électromagnétique de gradients dynamiques de force gravitationnelle"
+US3722284A:
+  es: "Detector de campos dinámicos de gradiente de fuerza gravitatoria"
+  fr: "Détecteur de champs dynamiques de gradient de force gravitationnelle"
+US3610971:
+  es: "Generador de campo eléctrico de movimiento totalmente eléctrico"
+  fr: "Générateur de champ électrique motionnel entièrement électrique"
