@@ -4,6 +4,8 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+## Alcubierre v0.4.0 · 2026-10-22
+
 ### Añadido
 - Laboratorio con IA: investigador que corre en el navegador con la clave de Anthropic de cada uno (nunca pasa por nuestros servidores). Busca en el texto completo de la biblioteca, abre papers, calcula y barre cotas con el motor de fórmulas y las ecuaciones del proyecto, y termina con un veredicto. Búsqueda web opcional y exportación en Markdown.
 - Tablero de investigación: el camino que sobrevive, las 5 leyes, los 14 obstáculos, descartes, objeciones y experimentos; cada tarjeta se manda al investigador IA.
