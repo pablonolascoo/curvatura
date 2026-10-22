@@ -22,7 +22,7 @@ Curvatura reúne en un solo sitio tres cosas:
 |---|---|
 | Biblioteca | 3362 papers de arXiv, OpenAlex y fuentes chinas. Todos con título traducido (es, en, fr). 2109 con resumen traducido. Países de los autores en 2645. |
 | Ecuaciones vivas | 20 ecuaciones clave animadas, con símbolos explicados y cálculo en directo. |
-| Laboratorio | Núcleo Rust en WebAssembly, Python (Pyodide) y motor de fórmulas propio, en el navegador. |
+| Laboratorio | Investigador IA con tu clave de Anthropic: busca en la biblioteca, abre papers, calcula con las ecuaciones del proyecto y da un veredicto. Tablero con los 14 obstáculos. Núcleo Rust en WebAssembly, Python (Pyodide) y motor de fórmulas, en el navegador. |
 | App de escritorio | macOS, Windows y Linux, siempre en la misma versión. Se actualiza sola y trae Python nativo. |
 | Buscador y RAG | 10205 fragmentos indexados con citas exactas. Servidor MCP para Claude. |
 | Valoraciones | Estrellas de 1 a 5 con identidad ORCID. Mención de honor para titulados y profesionales verificados. |
@@ -39,10 +39,10 @@ Las traducciones de títulos y resúmenes están hechas con IA y pueden contener
 
 Abre <https://curvatura.consultora-bim.workers.dev>. No hace falta instalar nada.
 
-- **Biblioteca**: filtra por subsistema, tipo, país, año o relevancia. Cada ficha enlaza al original.
+- **Biblioteca**: buscador con IA y mapa semántico 3D; filtra por subsistema, tipo, país, año o relevancia. Cada ficha enlaza al original.
 - **Ecuaciones**: pasa el ratón por un símbolo para ver qué significa. Cambia los valores y mira el resultado.
-- **Laboratorio**: ejecuta cálculos en Rust, Python o con fórmulas propias.
-- **Buscar**: busca en toda la biblioteca a la vez.
+- **Laboratorio**: investiga con IA un obstáculo o una idea, y ejecuta cálculos en Rust, Python o con fórmulas propias.
+- **Prototipo**: despiece 3D del demostrador de mesa y del vehículo conceptual, con material, electrónica y cableado de cada pieza.
 
 ### 3.2 App de escritorio
 

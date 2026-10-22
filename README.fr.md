@@ -22,7 +22,7 @@ Curvatura réunit trois choses :
 |---|---|
 | Bibliothèque | 3362 articles d'arXiv, d'OpenAlex et de sources chinoises. Tous les titres traduits (es, en, fr). 2109 avec résumé traduit. Pays des auteurs pour 2645. |
 | Équations vivantes | 20 équations clés animées, chaque symbole expliqué, calcul en direct. |
-| Laboratoire | Noyau Rust en WebAssembly, Python (Pyodide) et notre propre moteur de formules, dans le navigateur. |
+| Laboratoire | Chercheur IA avec votre clé Anthropic : il cherche dans la bibliothèque, ouvre les articles, calcule avec les équations du projet et rend un verdict. Tableau des 14 obstacles. Noyau Rust en WebAssembly, Python (Pyodide) et moteur de formules, dans le navigateur. |
 | Application de bureau | macOS, Windows et Linux, toujours à la même version. Se met à jour seule et inclut Python natif. |
 | Recherche et RAG | 10205 fragments indexés avec citations exactes. Serveur MCP pour Claude. |
 | Évaluations | De 1 à 5 étoiles avec identité ORCID. Mention d'honneur pour les diplômés et professionnels vérifiés. |
@@ -39,10 +39,10 @@ Les traductions des titres et des résumés sont faites par IA et peuvent conten
 
 Ouvrez <https://curvatura.consultora-bim.workers.dev>. Rien à installer.
 
-- **Bibliothèque** : filtrez par sous-système, type, pays, année ou pertinence. Chaque fiche renvoie à l'original.
+- **Bibliothèque** : recherche par IA et carte sémantique 3D ; filtrez par sous-système, type, pays, année ou pertinence. Chaque fiche renvoie à l'original.
 - **Équations** : survolez un symbole pour voir sa signification. Changez les valeurs et regardez le résultat.
-- **Laboratoire** : lancez des calculs en Rust, en Python ou avec vos propres formules.
-- **Rechercher** : cherchez dans toute la bibliothèque à la fois.
+- **Laboratoire** : étudiez un obstacle ou une idée avec l'IA, et lancez des calculs en Rust, en Python ou avec vos propres formules.
+- **Prototype** : vue éclatée 3D du démonstrateur de table et du véhicule conceptuel, avec le matériau, l'électronique et le câblage de chaque pièce.
 
 ### 3.2 Application de bureau
 

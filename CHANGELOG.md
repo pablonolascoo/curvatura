@@ -4,6 +4,19 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
 
 ## Sin publicar
 
+### Añadido
+- Laboratorio con IA: investigador que corre en el navegador con la clave de Anthropic de cada uno (nunca pasa por nuestros servidores). Busca en el texto completo de la biblioteca, abre papers, calcula y barre cotas con el motor de fórmulas y las ecuaciones del proyecto, y termina con un veredicto. Búsqueda web opcional y exportación en Markdown.
+- Tablero de investigación: el camino que sobrevive, las 5 leyes, los 14 obstáculos, descartes, objeciones y experimentos; cada tarjeta se manda al investigador IA.
+- Biblioteca: buscador con IA y mapa semántico 3D (UMAP de los vectores multilingual-e5-large, 14 grupos y vecinos por IA); la cámara viaja a la zona de los resultados.
+- Prototipo: despiece 3D del demostrador de mesa y del vehículo conceptual, ficha de ingeniería por pieza y bocetos a mano.
+
+### Cambiado
+- Fuera la pestaña Buscar: la búsqueda vive en la biblioteca (las URL antiguas redirigen).
+
+### Corregido
+- La búsqueda en texto completo ya no se queda colgada si falla el índice.
+- Aviso de React al escribir los filtros de la biblioteca en la URL.
+
 ## Alcubierre v0.3.0 · 2026-10-22
 
 ### Añadido

@@ -22,7 +22,7 @@ Curvatura brings three things together:
 |---|---|
 | Library | 3362 papers from arXiv, OpenAlex and Chinese sources. Every title translated (es, en, fr). 2109 with translated abstracts. Author countries on 2645. |
 | Live equations | 20 key equations, animated, with every symbol explained and live computation. |
-| Lab | Rust core in WebAssembly, Python (Pyodide) and our own formula engine, in the browser. |
+| Lab | AI researcher with your own Anthropic key: searches the library, opens papers, computes with the project's equations and gives a verdict. Board with the 14 obstacles. Rust core in WebAssembly, Python (Pyodide) and formula engine, in the browser. |
 | Desktop app | macOS, Windows and Linux, always on the same version. Updates itself and ships native Python. |
 | Search and RAG | 10205 chunks indexed with exact citations. MCP server for Claude. |
 | Ratings | 1 to 5 stars with ORCID identity. Honour mention for verified graduates and professionals. |
@@ -39,10 +39,10 @@ Title and abstract translations are made with AI and may contain errors. The web
 
 Open <https://curvatura.consultora-bim.workers.dev>. Nothing to install.
 
-- **Library**: filter by subsystem, type, country, year or relevance. Every entry links to the original.
+- **Library**: AI search with a 3D semantic map; filter by subsystem, type, country, year or relevance. Every entry links to the original.
 - **Equations**: hover a symbol to see its meaning. Change the values and watch the result.
-- **Lab**: run computations in Rust, Python or with your own formulas.
-- **Search**: search the whole library at once.
+- **Lab**: research an obstacle or an idea with AI, and run computations in Rust, Python or with your own formulas.
+- **Prototype**: 3D exploded view of the tabletop demonstrator and the concept vehicle, with the material, electronics and cabling of each part.
 
 ### 3.2 Desktop app
 
