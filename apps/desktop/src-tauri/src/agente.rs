@@ -438,3 +438,41 @@ pub async fn local_http(url: String, metodo: String, cuerpo: Option<String>, can
     }
     Ok(estado)
 }
+
+#[cfg(test)]
+mod pruebas {
+    use super::*;
+
+    #[test]
+    fn claude_solo_lee_y_calcula() {
+        let a = argumentos("claude", Some("s1"), Some("opus"), Path::new("/tmp/x"));
+        assert!(a.windows(2).any(|w| w[0] == "--output-format" && w[1] == "stream-json"));
+        assert!(a.windows(2).any(|w| w[0] == "--resume" && w[1] == "s1"));
+        let permitidas = &a[a.iter().position(|x| x == "--allowedTools").unwrap() + 1];
+        assert!(!permitidas.contains("Edit") && !permitidas.contains("Write"));
+    }
+
+    #[test]
+    fn codex_retoma_con_opciones_antes_del_subcomando() {
+        let a = argumentos("codex", Some("th"), None, Path::new("/tmp/x"));
+        let r = a.iter().position(|x| x == "resume").unwrap();
+        assert!(a.iter().position(|x| x == "--json").unwrap() < r);
+        assert!(a.windows(2).any(|w| w[0] == "--sandbox" && w[1] == "read-only"));
+        assert_eq!(a.last().unwrap(), "-");
+    }
+
+    #[test]
+    fn jsonl_de_lista_y_de_objeto() {
+        let d = std::env::temp_dir().join("curvatura-jsonl");
+        std::fs::create_dir_all(&d).unwrap();
+        assert_eq!(a_jsonl(br#"[{"a":1},{"a":2}]"#, &d.join("l.jsonl")).unwrap(), 2);
+        assert_eq!(a_jsonl(br#"{"x":{"a":1}}"#, &d.join("o.jsonl")).unwrap(), 1);
+        assert_eq!(std::fs::read_to_string(d.join("l.jsonl")).unwrap(), "{\"a\":1}\n{\"a\":2}\n");
+    }
+
+    #[test]
+    fn encuentra_programas_en_el_path_ampliado() {
+        // `ls` existe en cualquier Unix; en Windows, `cmd`.
+        assert!(buscar(if cfg!(windows) { "cmd" } else { "ls" }).is_some());
+    }
+}
