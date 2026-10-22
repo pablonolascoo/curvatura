@@ -59,6 +59,7 @@ PERFIL = _perfil()
 MODELO_TEXTO, DIM_TEXTO, PREF_Q, PREF_P = MODELOS[PERFIL]
 MODELO_IMAGEN, DIM_IMAGEN = "google/siglip2-base-patch16-224", 768
 ESTADO = VECTORES / f"estado-{PERFIL}.json"
+LATIDO = VECTORES / "latido"
 PALABRAS, SOLAPE = 320, 48
 
 _texto = _img = _imgtxt = _st = None
@@ -152,7 +153,11 @@ def vec_texto(textos: list[str], consulta: bool = False):
 
     pref = PREF_Q if consulta else PREF_P
     if not consulta and len(textos) > 8 and modelo_gpu():
-        return np.asarray(modelo_gpu().encode([pref + t for t in textos], batch_size=32, normalize_embeddings=True), dtype="float32")
+        partes = []
+        for i in range(0, len(textos), 256):  # latido tras cada bloque: el vigilante detecta cuelgues en minutos
+            partes.append(modelo_gpu().encode([pref + t for t in textos[i:i + 256]], batch_size=32, normalize_embeddings=True))
+            LATIDO.touch()
+        return np.asarray(np.concatenate(partes), dtype="float32")
     # Sin GPU ni acelerador: todos los núcleos con un proceso por núcleo (parallel=0) en los lotes grandes.
     from .hardware import proveedores_onnx
 
@@ -327,7 +332,7 @@ def _escribir(tabla: str, filas: list[dict], claves: set[str], vectores, conexio
         conexion.create_table(tabla, data=filas)
 
 
-def vigilado(args: list[str], sin_avance: int = 1200) -> int:
+def vigilado(args: list[str], sin_avance: int = 180) -> int:
     """Ejecuta la vectorización en un subproceso y lo reinicia si se queda colgado (p. ej. la GPU de Apple).
     El avance se guarda tras cada lote, así que reiniciar solo repite el lote en curso."""
     import subprocess
@@ -335,15 +340,16 @@ def vigilado(args: list[str], sin_avance: int = 1200) -> int:
     intentos = 0
     while True:
         p = subprocess.Popen([sys.executable, "-u", "-m", "curvatura_ia.vectorizar", *args])
-        ultimo = ESTADO.stat().st_mtime if ESTADO.exists() else time.time()
+        marca = lambda: max((f.stat().st_mtime for f in (ESTADO, LATIDO) if f.exists()), default=0)  # noqa: E731
+        ultimo = marca()
         visto = time.time()
         while p.poll() is None:
-            time.sleep(30)
-            m = ESTADO.stat().st_mtime if ESTADO.exists() else 0
+            time.sleep(15)
+            m = marca()
             if m != ultimo:
                 ultimo, visto = m, time.time()
             elif time.time() - visto > sin_avance:
-                print(f"   sin avance en {sin_avance // 60} min: se reinicia", flush=True)
+                print(f"   sin avance en {sin_avance // 60} min (GPU colgada): se reinicia", flush=True)
                 p.kill()
                 p.wait()
                 break
