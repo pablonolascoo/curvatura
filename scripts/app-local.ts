@@ -64,7 +64,9 @@ await $`ditto ${app} ${join(staging, "Curvatura.app")}`;
 symlinkSync("/Applications", join(staging, "Applications"));
 const dmg = join(dmgDir, `Curvatura_${version}_aarch64.dmg`);
 rmSync(dmg, { force: true });
-await $`hdiutil create -volname Curvatura -srcfolder ${staging} -ov -format UDZO ${dmg}`.quiet();
+// hdiutil calcula mal el tamaño con muchos ficheros pequeños (Pyodide, uv): se reserva un 30 % de margen.
+const megas = Math.ceil(Number((await $`du -sm ${staging}`.text()).split("\t")[0]) * 1.3) + 50;
+await $`hdiutil create -volname Curvatura -srcfolder ${staging} -size ${`${megas}m`} -ov -format UDZO ${dmg}`.quiet();
 rmSync(staging, { recursive: true, force: true });
 await $`codesign --force --timestamp=none --keychain ${llavero} --sign ${huella} ${dmg}`;
 
