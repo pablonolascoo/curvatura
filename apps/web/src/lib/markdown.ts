@@ -17,6 +17,17 @@ const marked = new Marked({
       renderer: (t) => math(t.text, true),
     },
     {
+      // $$…$$ en mitad de un párrafo (así lo escriben algunas editoriales): fórmula en línea, no en bloque.
+      name: "mathInlineDoble",
+      level: "inline",
+      start: (src) => src.indexOf("$$"),
+      tokenizer(src) {
+        const m = /^\$\$([^$\n]+?)\$\$/.exec(src);
+        if (m) return { type: "mathInlineDoble", raw: m[0], text: m[1].trim() };
+      },
+      renderer: (t) => math(t.text, false),
+    },
+    {
       name: "mathInline",
       level: "inline",
       start: (src) => src.indexOf("$"),

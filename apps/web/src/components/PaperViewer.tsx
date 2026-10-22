@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowUpRight } from "@phosphor-icons/react";
 import { Flags } from "./Flags";
 import { Rating } from "./Rating";
 import { getJSON, shardDe } from "@/lib/datos";
+import { textoConFormulas } from "@/lib/textoMath";
 
 type Paper = {
   id: string; title: string; authors: string[]; year: number; venue: string; doi: string | null; arxiv: string | null;
@@ -112,7 +113,7 @@ export function PaperViewer({ lang, labels, ratingLabels }: { lang: string; labe
           : tab !== p.language && p.abstracts[tab] && <p className="tag tag-yellow w-max normal-case tracking-normal">{labels.translation}</p>}
         <section className="grid gap-4">
           <h2 className="text-xs uppercase tracking-[0.05em] text-muted">{labels.abstract}</h2>
-          {p.abstracts[tab] ? <p className="prose-paper text-lg text-fg">{p.abstracts[tab]}</p> : <p className="text-muted">{labels.noAbstract}</p>}
+          {p.abstracts[tab] ? <p className="prose-paper text-lg text-fg" dangerouslySetInnerHTML={{ __html: textoConFormulas(p.abstracts[tab]) }} /> : <p className="text-muted">{labels.noAbstract}</p>}
         </section>
       </div>
     </article>

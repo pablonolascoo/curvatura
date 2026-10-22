@@ -73,6 +73,7 @@ def vigilar() -> int:
         [py, "-m", "curvatura_ia.corpus"],
         [py, "-m", "curvatura_ia.analizar"],
         [py, "-m", "curvatura_ia.fuentes"],
+        ["python3", "-I", "library/tools/limpiar_resumenes.py"],
         [py, "-m", "curvatura_ia.fuentes", "paginas"],
         [py, "-m", "curvatura_ia.patentes", "--max", "200"],
         [py, "-m", "curvatura_ia.vectorizar", "--vigilado"],
