@@ -11,7 +11,7 @@ language: en
 subsystems: [G, C, E]
 kind: experimental
 license: CC-BY-4.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: true
 harvest: arxiv

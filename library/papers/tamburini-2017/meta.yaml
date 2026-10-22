@@ -14,7 +14,7 @@ language: en
 subsystems: [G]
 kind: solucion
 license: CC-BY-4.0
-fulltext: false
+fulltext: source
 translations: [es, fr]
 verified: false
 harvest: openalex
