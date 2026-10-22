@@ -15,7 +15,7 @@ export function Precarga({ lang }: { lang: string }) {
     const app = !!(window as unknown as { __TAURI__?: unknown }).__TAURI__;
     if (!app && !puedePrecargar()) return;
     return cuandoOcioso(() => {
-      for (const r of ["", "biblioteca/", "ecuaciones/", "laboratorio/", "buscar/", "notas/"]) router.prefetch(`/${lang}/${r}`);
+      for (const r of ["", "biblioteca/", "ecuaciones/", "laboratorio/", "prototipo/", "notas/"]) router.prefetch(`/${lang}/${r}`);
       precargar(INDICE_BIBLIOTECA);
       precargar("/library/static-ids.json");
     });

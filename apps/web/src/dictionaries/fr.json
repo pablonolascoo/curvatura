@@ -19,7 +19,8 @@
     "equations": "Équations",
     "search": "Rechercher",
     "download": "Télécharger",
-    "account": "Compte"
+    "account": "Compte",
+    "prototype": "Prototype"
   },
   "hero": {
     "title": "Déplacer l'espace, pas le vaisseau.",
@@ -431,5 +432,32 @@
       "aplica": "Applique",
       "compara": "Compare"
     }
+  },
+  "prototype": {
+    "title": "Prototype",
+    "body": "La décomposition technique de ce qui survit aujourd'hui : un démonstrateur de table réalisable dès maintenant et le véhicule conceptuel qui le justifie. Chaque pièce avec son matériau exact, son électronique, son câblage et ses chiffres ; ce qui n'a pas encore de plan apparaît en esquisse.",
+    "explode": "Vue éclatée",
+    "parts": "Pièces",
+    "pick": "Choisissez une pièce dans le modèle ou dans la liste pour voir sa fiche technique.",
+    "status": {
+      "calculado": "Calculé",
+      "boceto": "Esquisse",
+      "abierto": "Bloqué par une loi"
+    },
+    "function": "Fonction",
+    "material": "Matériau",
+    "designation": "Désignation",
+    "composition": "Composition massique",
+    "why": "Pourquoi",
+    "properties": "Propriétés",
+    "electronics": "Électronique",
+    "cabling": "Câblage",
+    "figures": "Chiffres",
+    "source": "Source",
+    "next": "Étape suivante",
+    "sketch": "Esquisse",
+    "obstacles": "Obstacles",
+    "view3d": "Vue 3D éclatée du prototype",
+    "generated": "Généré par IA à partir de la recherche · à vérifier"
   }
 }

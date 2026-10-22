@@ -3,7 +3,7 @@
  * Prepara los datos estáticos de la biblioteca para la web:
  *   public/library/<id>/figures/   figuras de los papers con licencia abierta
  *   public/library/index.json      listado completo (lo carga el buscador de la biblioteca)
- *   public/search/chunks.json      fragmentos del índice RAG (lo carga /buscar)
+ *   public/search/chunks.json      fragmentos del índice RAG (búsqueda en el texto completo de la biblioteca)
  *   public/py/curvatura/           paquete Python para Pyodide (laboratorio)
  */
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
@@ -150,7 +150,7 @@ writeFileSync(path.join(PUB, "py/manifest.json"), JSON.stringify(pyFiles));
 const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://curvatura.consultora-bim.workers.dev").replace(/\/$/, "");
 const LANGS = ["es", "en", "fr"];
 const today = new Date().toISOString().slice(0, 10);
-const pages = ["", "ecuaciones/", "laboratorio/", "biblioteca/", "buscar/", "notas/"];
+const pages = ["", "ecuaciones/", "laboratorio/", "biblioteca/", "prototipo/", "notas/"];
 const notes = existsSync(path.join(import.meta.dir, "../content/notas"))
   ? [...new Set(readdirSync(path.join(import.meta.dir, "../content/notas")).map((f) => f.replace(/\.(es|en|fr)\.md$/, "")))]
   : [];
@@ -195,7 +195,8 @@ const llms = [
   `- [Key equations](${SITE}/en/ecuaciones/): animated, computable equations with their source paper`,
   `- [Lab](${SITE}/en/laboratorio/): Rust/WebAssembly core, Python (Pyodide) and formula engine in the browser`,
   `- [Library](${SITE}/en/biblioteca/): searchable, classified paper library`,
-  `- [Search](${SITE}/en/buscar/): full-text search with exact citations`,
+  `- [AI search](${SITE}/en/biblioteca/): semantic 3D map of the library and full-text search with exact citations`,
+  `- [Prototype](${SITE}/en/prototipo/): engineering breakdown of the tabletop demonstrator and the conceptual vehicle`,
   "",
   "## What prevents building a warp drive",
   ...obst.map((o) => `- ${o.title} (${o.subsystem}, ${o.status}): ${o.summary}`),

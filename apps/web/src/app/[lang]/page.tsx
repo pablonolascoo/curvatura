@@ -58,7 +58,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
   const ld = [
     { "@context": "https://schema.org", "@type": "WebSite", name: "Curvatura", url: `${SITE}/${lang}/`, inLanguage: lang, description: t.meta.description,
-      potentialAction: { "@type": "SearchAction", target: `${SITE}/${lang}/buscar/?q={q}`, "query-input": "required name=q" } },
+      potentialAction: { "@type": "SearchAction", target: `${SITE}/${lang}/biblioteca/?q={q}`, "query-input": "required name=q" } },
     { "@context": "https://schema.org", "@type": "ResearchProject", name: "Curvatura", url: `${SITE}/${lang}/`, description: t.meta.description,
       founder: { "@type": "Person", ...AUTHOR }, keywords: "warp drive, Alcubierre metric, energy conditions, general relativity",
       license: "https://polyformproject.org/licenses/noncommercial/1.0.0/" },
@@ -301,7 +301,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </ul>
           <div className="reveal flex flex-wrap gap-3">
             <ButtonLink href={`/${lang}/biblioteca/`}>{t.library.cta}</ButtonLink>
-            <ButtonLink href={`/${lang}/buscar/`} variant="outline">{t.nav.search}</ButtonLink>
+            <ButtonLink href={`/${lang}/biblioteca/`} variant="outline">{t.library.aiSearch}</ButtonLink>
           </div>
         </div>
       </section>
@@ -315,7 +315,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               entries={[
                 { href: `/${lang}/laboratorio/`, code: "Rust · Python · WASM", tone: "tag-green", ...t.entries.lab },
                 { href: `/${lang}/ecuaciones/`, code: "MathML", tone: "tag-blue", ...t.entries.eq },
-                { href: `/${lang}/buscar/`, code: "RAG", tone: "tag-yellow", ...t.entries.search },
+                { href: `/${lang}/biblioteca/`, code: "RAG", tone: "tag-yellow", ...t.entries.search },
               ]}
             />
           </div>

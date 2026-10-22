@@ -19,7 +19,8 @@
     "equations": "Ecuaciones",
     "search": "Buscar",
     "download": "Descargar",
-    "account": "Cuenta"
+    "account": "Cuenta",
+    "prototype": "Prototipo"
   },
   "hero": {
     "title": "Mover el espacio, no la nave.",
@@ -431,5 +432,32 @@
       "aplica": "Aplica",
       "compara": "Compara"
     }
+  },
+  "prototype": {
+    "title": "Prototipo",
+    "body": "El despiece de ingeniería de lo que hoy sobrevive: un demostrador de mesa que ya se puede montar y el vehículo conceptual que lo justifica. Cada pieza con su material exacto, su electrónica, su cableado y sus cifras; lo que aún no tiene plano va en boceto.",
+    "explode": "Despiece",
+    "parts": "Piezas",
+    "pick": "Elige una pieza en el modelo o en la lista para ver su ficha de ingeniería.",
+    "status": {
+      "calculado": "Calculado",
+      "boceto": "Boceto",
+      "abierto": "Bloqueado por una ley"
+    },
+    "function": "Función",
+    "material": "Material",
+    "designation": "Designación",
+    "composition": "Composición en masa",
+    "why": "Por qué",
+    "properties": "Propiedades",
+    "electronics": "Electrónica",
+    "cabling": "Cableado",
+    "figures": "Cifras",
+    "source": "Fuente",
+    "next": "Siguiente paso",
+    "sketch": "Boceto",
+    "obstacles": "Obstáculos",
+    "view3d": "Vista 3D del prototipo con despiece",
+    "generated": "Generado con IA a partir de la investigación · verificar"
   }
 }

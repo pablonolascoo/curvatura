@@ -27,7 +27,7 @@ export function Nav({ lang, t }: { lang: Locale; t: Dictionary["nav"] }) {
     { href: `${base}/ecuaciones/`, label: t.equations },
     { href: `${base}/laboratorio/`, label: t.lab },
     { href: `${base}/biblioteca/`, label: t.library },
-    { href: `${base}/buscar/`, label: t.search },
+    { href: `${base}/prototipo/`, label: t.prototype },
     { href: `${base}/notas/`, label: t.notes },
   ];
   const mobileLinks = [...links, { href: `${base}/cuenta/`, label: t.account }];
