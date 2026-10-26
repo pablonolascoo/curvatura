@@ -1,0 +1,22 @@
+id: earman-2003d
+title: "Take a Ride on a Time Machine"
+authors:
+  - "John Earman"
+  - "Christopher Smeenk"
+  - "Christian Wüthrich"
+year: 2003
+venue: "PhilSci-Archive (University of Pittsburgh)"
+doi: null
+arxiv: null
+source: https://openalex.org/W1590496190
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [ford-roman-1996]
+relevance: media

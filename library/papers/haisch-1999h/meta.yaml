@@ -1,0 +1,21 @@
+id: haisch-1999h
+title: "The Zero-Point Field and the NASA Challenge to Create the Space Drive"
+authors:
+  - "Bernhard Haisch"
+  - "Alfonso Rueda"
+year: 1999
+venue: "NASA Technical Reports Server (NASA)"
+doi: null
+arxiv: null
+source: https://openalex.org/W1848836498
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [alcubierre-1994]
+relevance: media
