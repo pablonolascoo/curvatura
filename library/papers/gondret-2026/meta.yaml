@@ -1,0 +1,30 @@
+id: gondret-2026
+title: "Data for the paper entitled \"Parametric pair production of collective excitations in a Bose–Einstein condensate\""
+authors:
+  - "Victor Gondret"
+  - "Rui Dias"
+  - "Clothilde Lamirault"
+  - "Léa Camier"
+  - "Amaury Micheli"
+  - "Charlie Leprince"
+  - "Quentin Marolleau"
+  - "Scott Robertson"
+  - "Denis Boiron"
+  - "Christoph Ira Westbrook"
+year: 2026
+venue: "Comptes Rendus Physique"
+doi: 10.5281/zenodo.18404429
+arxiv: null
+source: https://doi.org/10.5281/zenodo.18404429
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [FR, JP]
+relevance: media
