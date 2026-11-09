@@ -1,0 +1,22 @@
+id: shirokov-2026
+title: "The Bondi dipole in full numerical relativity: a self-accelerating positive-negative mass binary"
+authors:
+  - "Nikita M. Shirokov"
+  - "Ilya Nachevsky"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2608.24577
+arxiv: "2608.24577"
+source: https://arxiv.org/abs/2608.24577
+language: en
+subsystems: [G]
+kind: numerico
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [clough-2024]
+countries: []
+relevance: media

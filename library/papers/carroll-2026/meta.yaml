@@ -1,0 +1,26 @@
+id: carroll-2026
+title: "Nonlinear Stability of Kerr-Sen Black Holes in Merging Binaries"
+authors:
+  - "Andrew Carroll"
+  - "Eric Hirschmann"
+  - "Hyun Lim"
+  - "David Neilsen"
+  - "David F. Van Komen"
+  - "Sebastian Vander Ploeg Fallon"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2606.24215
+arxiv: "2606.24215"
+source: https://arxiv.org/abs/2606.24215
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [clough-2024]
+countries: [US]
+relevance: media

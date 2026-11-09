@@ -1,0 +1,21 @@
+id: pinto-2024
+title: "Charged and Rotating Black Holes in a Melvin-swirling Universe"
+authors:
+  - "Andrea Di Pinto"
+year: 2024
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2407.11270
+arxiv: "2407.11270"
+source: https://arxiv.org/abs/2407.11270
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

@@ -1,0 +1,34 @@
+id: himmel-2026
+title: "Experimental observation of hyperbolic spacetime dynamics"
+authors:
+  - "Jonas Himmel"
+  - "Coraline Bacq"
+  - "Krishna Chand Maurya"
+  - "Max Ehrhardt"
+  - "Matthias Heinrich"
+  - "Tom A. W. Wolterink"
+  - "Pablo Basteiro"
+  - "Rathindra Nath Das"
+  - "René Meyer"
+  - "Tobias Huber"
+  - "Andreas Theo Pfenning"
+  - "Sven Höfling"
+  - "Johanna Erdmenger B"
+  - "Alexander Szameit"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2606.09501
+arxiv: "2606.09501"
+source: https://arxiv.org/abs/2606.09501
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [DE, CA, CN]
+relevance: media

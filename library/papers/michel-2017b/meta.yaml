@@ -1,0 +1,21 @@
+id: michel-2017b
+title: "Nonlinear and quantum effects in analogue gravity"
+authors:
+  - "Florent Michel"
+year: 2017
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1708.01825
+arxiv: "1708.01825"
+source: https://arxiv.org/abs/1708.01825
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

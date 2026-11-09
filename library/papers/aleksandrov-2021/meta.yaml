@@ -1,0 +1,21 @@
+id: aleksandrov-2021
+title: "Капиллярно-волновой варп-двигатель"
+authors:
+  - "Vitaliy Aleksandrov"
+year: 2021
+venue: "Письма в журнал технической физики"
+doi: 10.21883/pjtf.2021.22.51719.18899
+arxiv: null
+source: https://doi.org/10.21883/pjtf.2021.22.51719.18899
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+countries: [RU]
+relevance: media

@@ -1,0 +1,22 @@
+id: erkul-2026
+title: "Einstein's equations in electromagnetic media"
+authors:
+  - "Eren Erberk Erkul"
+  - "Ulf Leonhardt"
+year: 2026
+venue: "Europhysics Letters (EPL)"
+doi: 10.1209/0295-5075/ae58cf
+arxiv: "2508.11300"
+source: https://arxiv.org/abs/2508.11300
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [TR, IL]
+relevance: media

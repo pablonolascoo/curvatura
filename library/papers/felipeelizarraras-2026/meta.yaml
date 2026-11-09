@@ -1,0 +1,25 @@
+id: felipeelizarraras-2026
+title: "Measurement of analogue Hawking radiation stimulated by a single photon"
+authors:
+  - "Rodrigo Felipe-Elizarraras"
+  - "Héctor Cruz-Ramírez"
+  - "Karina Garay-Palmett"
+  - "Alfred B. U’Ren"
+  - "David Bermúdez"
+year: 2026
+venue: "Nature Communications"
+doi: 10.1038/s41467-026-73812-8
+arxiv: null
+source: https://doi.org/10.1038/s41467-026-73812-8
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: [MX]
+relevance: media

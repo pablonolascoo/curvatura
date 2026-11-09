@@ -1,0 +1,23 @@
+id: diego-2022
+title: "The Lorentz factor in a reverse coordinate system"
+authors:
+  - "Roldan, Diego"
+  - "Rodrigo Sempértegui"
+  - "Roldan, Francisco"
+year: 2022
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2203.13191
+arxiv: "2203.13191"
+source: https://arxiv.org/abs/2203.13191
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [lentz-2021]
+countries: [EC]
+relevance: media

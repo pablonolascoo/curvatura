@@ -1,0 +1,21 @@
+id: shirokov-2026b
+title: "Wormhole Dynamics: Nonlinear Collapse and Gravitational-Wave Emission"
+authors:
+  - "Nikita M. Shirokov"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2604.00071
+arxiv: "2604.00071"
+source: https://arxiv.org/abs/2604.00071
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [clough-2024]
+countries: []
+relevance: media

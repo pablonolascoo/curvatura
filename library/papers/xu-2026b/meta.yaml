@@ -1,0 +1,30 @@
+id: xu-2026b
+title: "Photon‐Sphere Modes in Curved Optical Microcavities: A Black‐Hole Analogue Laser"
+authors:
+  - "Chenni Xu"
+  - "Aswathy Sundaresan"
+  - "Nazire-Begüm Kazkal"
+  - "C. Lafargue"
+  - "Lior Zarfaty"
+  - "Li‐Gang Wang"
+  - "O. Birnholtz"
+  - "D. Decanini"
+  - "M. Lebental"
+  - "Patrick Sebbah"
+year: 2026
+venue: "Advanced Science"
+doi: 10.1002/advs.202517466
+arxiv: "2507.01751"
+source: https://arxiv.org/abs/2507.01751
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [IL, FR, CN]
+relevance: media

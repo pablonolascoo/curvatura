@@ -1,0 +1,21 @@
+id: oguz-2026
+title: "Bogoliubov-de Gennes spectrum, Cherenkov radiation and recoil of solitons with third-order dispersion underlying optical analogue horizons"
+authors:
+  - "Hasan Oguz"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2610.09814
+arxiv: "2610.09814"
+source: https://arxiv.org/abs/2610.09814
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [TR]
+relevance: media

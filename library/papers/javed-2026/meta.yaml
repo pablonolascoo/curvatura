@@ -1,0 +1,27 @@
+id: javed-2026
+title: "On-demand analogue spacetime in superconducting networks: Grey holes, dynamical instability and exceptional points"
+authors:
+  - "M. A. Javed"
+  - "Daniel Kruti"
+  - "Ahmed Kenawy"
+  - "Tobias Herrig"
+  - "Christina Koliofoti"
+  - "Oleksiy Kashuba"
+  - "Roman-Pascal Riwar"
+year: 2026
+venue: "SciPost Physics"
+doi: 10.21468/scipostphys.20.2.047
+arxiv: "2406.01261"
+source: https://arxiv.org/abs/2406.01261
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+countries: [DE]
+relevance: media

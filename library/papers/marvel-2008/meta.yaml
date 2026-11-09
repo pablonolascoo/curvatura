@@ -1,0 +1,22 @@
+id: marvel-2008
+title: "Tunneling with negative tension"
+authors:
+  - "Kate Marvel"
+  - "Daniel Wesley"
+year: 2008
+venue: "Journal of High Energy Physics"
+doi: 10.1088/1126-6708/2008/12/034
+arxiv: "0808.3186"
+source: https://arxiv.org/abs/0808.3186
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [alcubierre-1994, everett-roman-1997, krasnikov-1998, pfenning-ford-1997]
+countries: [GB]
+relevance: media

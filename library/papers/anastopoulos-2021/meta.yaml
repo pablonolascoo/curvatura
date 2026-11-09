@@ -1,0 +1,23 @@
+id: anastopoulos-2021
+title: "Gravitational Decoherence in Deep Space Experiments"
+authors:
+  - "Charis Anastopoulos"
+  - "M. P. Blencowe"
+  - "B. L. Hu"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2111.05441
+arxiv: "2111.05441"
+source: https://arxiv.org/abs/2111.05441
+language: en
+subsystems: [G]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+countries: [GR, US]
+relevance: media

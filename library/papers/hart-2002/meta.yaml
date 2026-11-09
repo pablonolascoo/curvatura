@@ -1,0 +1,33 @@
+id: hart-2002
+title: "On the Problems of Hazardous Matter and Radiation at Faster than Light Speeds in the Warp Drive Space-Time"
+authors:
+  - "C. B. Hart"
+  - "Held, R."
+  - "Paul Karl Hoiland"
+  - "S. Jenks"
+  - "Fernando Loup"
+  - "Martins, D."
+  - "Janice Nyman"
+  - "Pertierra, J. P."
+  - "Santos, P. A."
+  - "M. A. Shore"
+  - "Robert Sims"
+  - "M. Stabno"
+  - "T. O. M. Teage"
+year: 2002
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.gr-qc/0207109
+arxiv: "gr-qc/0207109"
+source: https://arxiv.org/abs/gr-qc/0207109
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [vandenbroeck-1999]
+countries: []
+relevance: alta

@@ -1,0 +1,40 @@
+id: vidal-2026b
+title: "The Search for Technosignatures: a Review of Possibilities"
+authors:
+  - "Clément Vidal"
+  - "Benji L. Fields"
+  - "Damian Sowinski"
+  - "Stuart Bartlett"
+  - "R. J. Terrile"
+  - "Alex A. Ellery"
+  - "Daliah Bibas"
+  - "Armando M. Mastrogiovanni"
+  - "Niklas Alexander Döbler"
+  - "Manika Singla"
+  - "Julia DeMarines"
+  - "Theresa Fisher"
+  - "Yuri Uno"
+  - "Jake D. Turner"
+  - "Evan Latham Sneed"
+  - "Advait Huggahalli"
+  - "Advait Huggahalli"
+  - "Zhuofu"
+  - "Li"
+  - "Li"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2605.21093
+arxiv: "2605.21093"
+source: https://arxiv.org/abs/2605.21093
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, clough-2024, fuchs-2024, lentz-2021, mcmonigal-2012]
+countries: []
+relevance: media

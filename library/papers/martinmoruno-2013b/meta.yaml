@@ -1,0 +1,22 @@
+id: martinmoruno-2013b
+title: "Semiclassical energy conditions for quantum vacuum states"
+authors:
+  - "Prado Martín–Moruno"
+  - "Matt Visser"
+year: 2013
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep09(2013)050
+arxiv: "1306.2076"
+source: https://arxiv.org/abs/1306.2076
+language: en
+subsystems: [G, Q]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 80
+cites_seeds: [ford-roman-1996]
+countries: [NZ]
+relevance: media

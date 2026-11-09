@@ -1,0 +1,21 @@
+id: le-2026c
+title: "Relativistic elastic shells: material support and cavity geometry"
+authors:
+  - "A. T. Le"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2605.25417
+arxiv: "2605.25417"
+source: https://arxiv.org/abs/2605.25417
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994, ford-roman-1996, lobo-visser-2004, natario-2002, pfenning-ford-1997, vandenbroeck-1999]
+countries: []
+relevance: media

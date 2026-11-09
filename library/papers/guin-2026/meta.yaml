@@ -1,0 +1,23 @@
+id: guin-2026
+title: "Renormalization Group Improved Cosmology in the Presence of a Stiff Matter Era"
+authors:
+  - "Gopinath Guin"
+  - "Soham Sen"
+  - "Sunandan Gangopadhyay"
+year: 2026
+venue: "Gravitation and Cosmology"
+doi: 10.1134/s0202289326700027
+arxiv: "2411.03693"
+source: https://arxiv.org/abs/2411.03693
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [ford-roman-1996]
+countries: [IN]
+relevance: media

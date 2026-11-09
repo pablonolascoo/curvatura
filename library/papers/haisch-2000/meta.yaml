@@ -1,0 +1,21 @@
+id: haisch-2000
+title: "Toward an interstellar mission: Zeroing in on the zero-point-field inertia resonance"
+authors:
+  - "Bernhard Haisch"
+year: 2000
+venue: "AIP conference proceedings"
+doi: 10.1063/1.1290904
+arxiv: "physics/9909043"
+source: https://arxiv.org/abs/physics/9909043
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [vandenbroeck-1999]
+countries: [US]
+relevance: media

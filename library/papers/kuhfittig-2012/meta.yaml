@@ -1,0 +1,21 @@
+id: kuhfittig-2012
+title: "The compatibility of thin-shell wormholes with quantum field theory"
+authors:
+  - "Peter K. F. Kuhfittig"
+year: 2012
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1202.0762
+arxiv: "1202.0762"
+source: https://arxiv.org/abs/1202.0762
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [ford-roman-1996]
+countries: [US]
+relevance: media

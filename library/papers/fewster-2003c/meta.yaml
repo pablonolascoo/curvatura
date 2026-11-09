@@ -1,0 +1,22 @@
+id: fewster-2003c
+title: "Stability of Quantum Systems at Three Scales: Passivity, Quantum Weak Energy Inequalities and the Microlocal Spectrum Condition"
+authors:
+  - "Christopher J. Fewster"
+  - "Rainer Verch"
+year: 2003
+venue: "Communications in Mathematical Physics"
+doi: 10.1007/s00220-003-0884-7
+arxiv: "math-ph/0203010"
+source: https://arxiv.org/abs/math-ph/0203010
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 50
+cites_seeds: [ford-roman-1996]
+countries: [GB, DE]
+relevance: media

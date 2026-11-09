@@ -1,0 +1,26 @@
+id: gao-2026
+title: "Testing black holes with interstellar missions: I. Orbiting probes"
+authors:
+  - "Leda Gao"
+  - "Cosimo Bambi"
+  - "Yi Fan"
+  - "Temurbek Mirzaev"
+  - "Abdurakhmon Nosirov"
+  - "Andrea E. Santangelo"
+year: 2026
+venue: "The European Physical Journal C"
+doi: 10.1140/epjc/s10052-026-16371-y
+arxiv: "2605.19176"
+source: https://arxiv.org/abs/2605.19176
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+countries: [CN, UZ, DE]
+relevance: media

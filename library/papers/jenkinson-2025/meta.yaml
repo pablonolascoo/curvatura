@@ -1,0 +1,21 @@
+id: jenkinson-2025
+title: "A Manifestly Causal Approach to Quantum Field Theory"
+authors:
+  - "Ross Jenkinson"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2512.20555
+arxiv: "2512.20555"
+source: https://arxiv.org/abs/2512.20555
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

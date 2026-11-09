@@ -1,0 +1,30 @@
+id: duchene-2026
+title: "A Maxwell fish-eye lens in a Bose–Einstein condensate"
+authors:
+  - "Jelte Duchene"
+  - "Elinor Kath"
+  - "Floriane Arrouas"
+  - "Hanyi Jang"
+  - "Helmut Strobel"
+  - "M. K. Oberthaler"
+  - "Jay Mehta"
+  - "L. M. Farrell"
+  - "W. Kirkby"
+  - "Duncan H J O’Dell"
+year: 2026
+venue: "New Journal of Physics"
+doi: 10.1088/1367-2630/ae774d
+arxiv: "2602.23125"
+source: https://arxiv.org/abs/2602.23125
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+countries: [DE, CA]
+relevance: media

@@ -1,0 +1,23 @@
+id: guvendi-2026b
+title: "Exact scalarization thresholds and onset laws for a nonminimally coupled scalar field on the Ellis wormhole"
+authors:
+  - "Abdullah Güvendi"
+  - "Omar Mustafa"
+  - "Claudio Furtado"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2611.00541
+arxiv: "2611.00541"
+source: https://arxiv.org/abs/2611.00541
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011, ford-roman-1996]
+countries: [TR, CY, BR]
+relevance: media

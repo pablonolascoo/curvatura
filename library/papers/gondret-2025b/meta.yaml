@@ -1,0 +1,31 @@
+id: gondret-2025b
+title: "Observation of Entanglement in a Cold Atom Analog of Cosmological Preheating"
+authors:
+  - "Victor Gondret"
+  - "Clothilde Lamirault"
+  - "Rui Dias"
+  - "Léa Camier"
+  - "Amaury Micheli"
+  - "Charlie Leprince"
+  - "Quentin Marolleau"
+  - "Jean-René Rullier"
+  - "Scott Robertson"
+  - "Denis Boiron"
+  - "Christoph Ira Westbrook"
+year: 2025
+venue: "Physical Review Letters"
+doi: 10.1103/h7ws-g9z2
+arxiv: "2506.22024"
+source: https://arxiv.org/abs/2506.22024
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+countries: [FR, JP]
+relevance: media

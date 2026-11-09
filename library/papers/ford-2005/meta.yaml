@@ -1,0 +1,21 @@
+id: ford-2005
+title: "SPACETIME IN SEMICLASSICAL GRAVITY"
+authors:
+  - "L. H. FORD"
+year: 2005
+venue: "WORLD SCIENTIFIC eBooks"
+doi: 10.1142/9789812700988_0011
+arxiv: "gr-qc/0504096"
+source: https://arxiv.org/abs/gr-qc/0504096
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 22
+cites_seeds: [everett-roman-1997, ford-roman-1996, pfenning-ford-1997]
+countries: [US]
+relevance: media

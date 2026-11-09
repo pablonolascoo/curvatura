@@ -1,0 +1,21 @@
+id: lobo-2026d
+title: "Intrinsic spatial-strain shortcuts in general relativity"
+authors:
+  - "Francisco S. N. Lobo"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2610.09143
+arxiv: "2610.09143"
+source: https://arxiv.org/abs/2610.09143
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, clough-2024, everett-roman-1997, finazzi-2009, helmerich-2024, krasnikov-1998, lentz-2021, lobo-visser-2004, natario-2002, pfenning-ford-1997, santiago-2022, vandenbroeck-1999]
+countries: [PT]
+relevance: media

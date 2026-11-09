@@ -1,0 +1,26 @@
+id: rhyno-2026
+title: "Shell-shaped Bose–Einstein condensates: Dynamics, excitations, and thermodynamics"
+authors:
+  - "Brendan Rhyno"
+  - "Kuei Sun"
+  - "Jude Bedessem"
+  - "Naceur Gaaloul"
+  - "Nathan E. Lundblad"
+  - "Smitha Vishveshwara"
+year: 2026
+venue: "AVS Quantum Science"
+doi: 10.1116/5.0320794
+arxiv: "2512.13858"
+source: https://arxiv.org/abs/2512.13858
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [US, DE]
+relevance: media

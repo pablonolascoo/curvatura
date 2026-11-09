@@ -1,0 +1,20 @@
+id: loup-2024
+title: "Two totally connected superluminal Natario warp drive spacetimes with variable velocities"
+authors:
+  - "Fernando Loup"
+year: 2024
+venue: "HAL"
+doi: null
+arxiv: null
+source: https://openalex.org/W4392577505
+language: en
+subsystems: [G]
+kind: solucion
+license: public-domain
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, natario-2002]
+relevance: alta

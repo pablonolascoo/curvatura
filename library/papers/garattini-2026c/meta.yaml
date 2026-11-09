@@ -1,0 +1,21 @@
+id: garattini-2026c
+title: "Effects of additional sources on Casimir Wormholes"
+authors:
+  - "Remo Garattini"
+year: 2026
+venue: "conference-paper"
+doi: 10.1142/9789819839926_0039
+arxiv: "2411.05522"
+source: https://arxiv.org/abs/2411.05522
+language: en
+subsystems: [G, E]
+kind: fuente
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [ford-roman-1996]
+countries: [IT]
+relevance: media

@@ -1,0 +1,21 @@
+id: sato-2026
+title: "Compact Core--Shell Equilibria in Gravitational Vlasov--Poisson Systems with Positive and Negative Mass"
+authors:
+  - "Naoki Sato"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2608.27900
+arxiv: "2608.27900"
+source: https://arxiv.org/abs/2608.27900
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, bobrick-martire-2021, ford-roman-1996, lentz-2021, natario-2002, santiago-2022]
+countries: [JP]
+relevance: media

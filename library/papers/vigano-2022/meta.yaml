@@ -1,0 +1,21 @@
+id: vigano-2022
+title: "Black holes and solution generating techniques"
+authors:
+  - "Adriano Viganò"
+year: 2022
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2211.00436
+arxiv: "2211.00436"
+source: https://arxiv.org/abs/2211.00436
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 14
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

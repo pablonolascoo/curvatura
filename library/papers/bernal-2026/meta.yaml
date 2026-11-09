@@ -1,0 +1,23 @@
+id: bernal-2026
+title: "Analogue Hawking radiation in nonlinear quantum optics"
+authors:
+  - "Isaac Bernal"
+  - "Miguel A. Cortés-Ortiz"
+  - "David Bermúdez"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2603.03525
+arxiv: "2603.03525"
+source: https://arxiv.org/abs/2603.03525
+language: en
+subsystems: [G, Q, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [MX]
+relevance: media
