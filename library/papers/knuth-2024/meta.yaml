@@ -1,0 +1,21 @@
+id: knuth-2024
+title: "Simulating the characteristics of extra-terrestrial civilizations that encounter Earth"
+authors:
+  - "Kevin H. Knuth"
+year: 2024
+venue: "Proceedings of the International Astronomical Union"
+doi: 10.1017/s1743921324001339
+arxiv: null
+source: https://doi.org/10.1017/s1743921324001339
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, bobrick-martire-2021]
+countries: [US, ZA]
+relevance: media

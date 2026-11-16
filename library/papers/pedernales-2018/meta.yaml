@@ -1,0 +1,27 @@
+id: pedernales-2018
+title: "Dirac Equation in ( 1+1 )-Dimensional Curved Spacetime and the Multiphoton Quantum Rabi Model"
+authors:
+  - "Julen Simon Pedernales"
+  - "Mathieu Beau"
+  - "S. M. Pittman"
+  - "I. L. Egusquiza"
+  - "Lucas Lamata"
+  - "E. Solano"
+  - "Adolfo del Campo"
+year: 2018
+venue: "Physical Review Letters"
+doi: 10.1103/physrevlett.120.160403
+arxiv: "1707.07520"
+source: https://arxiv.org/abs/1707.07520
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 49
+cites_seeds: [barcelo-2011]
+countries: [ES, US, DE, CN]
+relevance: media

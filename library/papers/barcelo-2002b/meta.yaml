@@ -1,0 +1,22 @@
+id: barcelo-2002b
+title: "TWILIGHT FOR THE ENERGY CONDITIONS?"
+authors:
+  - "CARLOS BARCELÓ"
+  - "MATT VISSER"
+year: 2002
+venue: "International Journal of Modern Physics D"
+doi: 10.1142/s0218271802002888
+arxiv: "gr-qc/0205066"
+source: https://arxiv.org/abs/gr-qc/0205066
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 305
+cites_seeds: [alcubierre-1994]
+countries: [GB, NZ]
+relevance: media

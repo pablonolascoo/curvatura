@@ -1,0 +1,23 @@
+id: goulart-2022
+title: "Light propagation in (2+1) -dimensional electrodynamics: The case of linear constitutive laws"
+authors:
+  - "Érico Goulart"
+  - "Eduardo Bittencourt"
+  - "Elliton O. S. Brandão"
+year: 2022
+venue: "Physical Review A"
+doi: 10.1103/physreva.106.063521
+arxiv: "2209.00770"
+source: https://arxiv.org/abs/2209.00770
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 8
+cites_seeds: [barcelo-2011]
+countries: [BR]
+relevance: media

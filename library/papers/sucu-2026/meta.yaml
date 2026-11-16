@@ -1,0 +1,22 @@
+id: sucu-2026
+title: "Aharonov–Bohm Effect for Cooper Pairs in Kerr Spacetime: Gravitomagnetic Phase Shifts From Frame Dragging"
+authors:
+  - "Erdem Sucu"
+  - "Izzet Sakallı"
+year: 2026
+venue: "Annalen der Physik"
+doi: 10.1002/andp.70256
+arxiv: "2602.20337"
+source: https://arxiv.org/abs/2602.20337
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [CY]
+relevance: media
