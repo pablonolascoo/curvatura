@@ -1,0 +1,22 @@
+id: bramati-2026
+title: "Collective excitations of driven-dissipative quantum fluids of light"
+authors:
+  - "Alberto Bramati"
+  - "Iacopo Carusotto"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2609.40110
+arxiv: "2609.40110"
+source: https://arxiv.org/abs/2609.40110
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [FR, IT]
+relevance: media

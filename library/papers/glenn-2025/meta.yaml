@@ -1,0 +1,21 @@
+id: glenn-2025
+title: "Experimental Spacetime Distortion: Generating Gravitational Waves in the Laboratory"
+authors:
+  - "Chance M. Glenn"
+year: 2025
+venue: "European Journal of Engineering and Technology Research"
+doi: 10.24018/ejeng.2025.10.2.3246
+arxiv: null
+source: https://doi.org/10.24018/ejeng.2025.10.2.3246
+language: en
+subsystems: [G, V]
+kind: experimental
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

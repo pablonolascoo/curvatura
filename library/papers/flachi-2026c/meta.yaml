@@ -1,0 +1,21 @@
+id: flachi-2026c
+title: "Engineering a digital acoustic black hole"
+authors:
+  - "Antonino Flachi"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2611.10540
+arxiv: "2611.10540"
+source: https://arxiv.org/abs/2611.10540
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [JP]
+relevance: media

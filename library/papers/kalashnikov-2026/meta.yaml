@@ -1,0 +1,22 @@
+id: kalashnikov-2026
+title: "Toward a Thermodynamic Framework for Dissipative Solitons: From Photonics to Turbulence and Bose–Einstein Condensate Analogies"
+authors:
+  - "Vladimir L. Kalashnikov"
+  - "Irina T. Sorokina"
+year: 2026
+venue: "Applied Sciences"
+doi: 10.3390/app16178895
+arxiv: "2608.10510"
+source: https://arxiv.org/abs/2608.10510
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [NO]
+relevance: media

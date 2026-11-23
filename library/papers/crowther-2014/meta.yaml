@@ -1,0 +1,21 @@
+id: crowther-2014
+title: "Appearing Out of Nowhere: The Emergence of Spacetime in Quantum Gravity"
+authors:
+  - "Karen Crowther"
+year: 2014
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1410.0345
+arxiv: "1410.0345"
+source: https://arxiv.org/abs/1410.0345
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

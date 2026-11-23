@@ -1,0 +1,24 @@
+id: liu-2024b
+title: "A path integral formula of quantum gravity emergent from entangled local structures"
+authors:
+  - "Jinglong Liu"
+  - "Stephon Alexander"
+  - "Antonino Marcianò"
+  - "Roman Pasechnik"
+year: 2024
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep07(2024)219
+arxiv: "2304.10865"
+source: https://arxiv.org/abs/2304.10865
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 7
+cites_seeds: [barcelo-2011]
+countries: [CN, US, IT, SE]
+relevance: media

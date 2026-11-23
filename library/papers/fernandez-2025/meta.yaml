@@ -1,0 +1,22 @@
+id: fernandez-2025
+title: "Exact solutions of the inhomogeneous nonlinear Schrödinger equation through supersymmetric potentials"
+authors:
+  - "C., David J. Fernández"
+  - "Pavón-Torres, O."
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2511.18186
+arxiv: "2511.18186"
+source: https://arxiv.org/abs/2511.18186
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [lentz-2021]
+countries: [MX]
+relevance: media

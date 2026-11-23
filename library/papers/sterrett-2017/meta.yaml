@@ -1,0 +1,21 @@
+id: sterrett-2017
+title: "Experimentation on Analogue Models"
+authors:
+  - "Susan G. Sterrett"
+year: 2017
+venue: "Springer eBooks"
+doi: 10.1007/978-3-319-30526-4_39
+arxiv: null
+source: https://doi.org/10.1007/978-3-319-30526-4_39
+language: en
+subsystems: [G, V]
+kind: experimental
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 42
+cites_seeds: [barcelo-2011]
+countries: [US]
+relevance: media

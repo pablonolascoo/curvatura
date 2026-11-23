@@ -1,0 +1,23 @@
+id: evic-2026
+title: "Wormhole Geometry from a Magnetic Vortex"
+authors:
+  - "Dušan Đorđ ević"
+  - "Fabián Molina"
+  - "Vladimir Juričić"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2608.12285
+arxiv: "2608.12285"
+source: https://arxiv.org/abs/2608.12285
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [CL, RS]
+relevance: media

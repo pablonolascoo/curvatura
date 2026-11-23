@@ -1,0 +1,21 @@
+id: ahmed-2021b
+title: "Type III Spacetime with Closed Timelike Curves"
+authors:
+  - "Faizuddin Ahmed"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2105.08523
+arxiv: "2105.08523"
+source: https://arxiv.org/abs/2105.08523
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994, everett-roman-1997, krasnikov-1998]
+countries: []
+relevance: media

@@ -1,0 +1,21 @@
+id: saw-2014
+title: "A rotating universe outside a Schwarzschild black hole where spacetime itself non-uniformly rotates"
+authors:
+  - "Vee-Liem Saw"
+year: 2014
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1403.0337
+arxiv: "1403.0337"
+source: https://arxiv.org/abs/1403.0337
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [alcubierre-1994]
+countries: [SG]
+relevance: media

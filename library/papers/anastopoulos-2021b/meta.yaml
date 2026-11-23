@@ -1,0 +1,22 @@
+id: anastopoulos-2021b
+title: "Relativistic Particle Motion and Quantum Optics in a Weak Gravitational Field"
+authors:
+  - "Charis Anastopoulos"
+  - "B. L. Hu"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2106.12514
+arxiv: "2106.12514"
+source: https://arxiv.org/abs/2106.12514
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [barcelo-2011]
+countries: [GR, US]
+relevance: media

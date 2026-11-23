@@ -1,0 +1,21 @@
+id: plamondon-2018
+title: "General relativity: An erfc metric"
+authors:
+  - "Réjean Plamondon"
+year: 2018
+venue: "Results in Physics"
+doi: 10.1016/j.rinp.2018.02.035
+arxiv: null
+source: https://doi.org/10.1016/j.rinp.2018.02.035
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+countries: [CA]
+relevance: media

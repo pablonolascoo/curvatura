@@ -1,0 +1,21 @@
+id: moldoveanu-2007
+title: "Quantum Mechanics and Closed Timelike Curves"
+authors:
+  - "Florin Moldoveanu"
+year: 2007
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.0704.3074
+arxiv: "0704.3074"
+source: https://arxiv.org/abs/0704.3074
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

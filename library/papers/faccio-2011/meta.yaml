@@ -1,0 +1,21 @@
+id: faccio-2011
+title: "Laser pulse analogues for gravity and analogue Hawking radiation"
+authors:
+  - "Daniele Faccio"
+year: 2011
+venue: "Contemporary Physics"
+doi: 10.1080/00107514.2011.642559
+arxiv: null
+source: https://doi.org/10.1080/00107514.2011.642559
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 60
+cites_seeds: [barcelo-2011]
+countries: [GB]
+relevance: media

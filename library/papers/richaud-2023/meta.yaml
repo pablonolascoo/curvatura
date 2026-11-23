@@ -1,0 +1,24 @@
+id: richaud-2023
+title: "Mass-driven vortex collisions in flat superfluids"
+authors:
+  - "Andrea Richaud"
+  - "Giacomo Lamporesi"
+  - "Massimo Capone"
+  - "Alessio Recati"
+year: 2023
+venue: "Physical Review A"
+doi: 10.1103/physreva.107.053317
+arxiv: "2209.00493"
+source: https://arxiv.org/abs/2209.00493
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 37
+cites_seeds: [barcelo-2011]
+countries: [IT, ES]
+relevance: media

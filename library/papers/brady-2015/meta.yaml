@@ -1,0 +1,22 @@
+id: brady-2015
+title: "Maxwell's fluid model of magnetism"
+authors:
+  - "Robert M. Brady"
+  - "Ross Anderson"
+year: 2015
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1502.05926
+arxiv: "1502.05926"
+source: https://arxiv.org/abs/1502.05926
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [barcelo-2011]
+countries: [GB]
+relevance: media

@@ -1,0 +1,23 @@
+id: pais-2026
+title: "Valley-resolved high harmonics probe symmetry breaking beyond the Dirac cone"
+authors:
+  - "Pablo Pais"
+  - "Alfredo Iorio"
+  - "Marcelo F. Ciappina"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2610.15251
+arxiv: "2610.15251"
+source: https://arxiv.org/abs/2610.15251
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [CZ, CL, IT, CN]
+relevance: media

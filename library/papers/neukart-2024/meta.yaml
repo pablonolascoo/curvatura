@@ -1,0 +1,21 @@
+id: neukart-2024
+title: "Toward the Stars: Technological, Ethical, and Sociopolitical Dimensions of Interstellar Exploration"
+authors:
+  - "Florian Neukart"
+year: 2024
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2402.15536
+arxiv: "2402.15536"
+source: https://arxiv.org/abs/2402.15536
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994, lentz-2021]
+countries: [CH, NL]
+relevance: media

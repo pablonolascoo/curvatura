@@ -1,0 +1,21 @@
+id: juschitz-2021
+title: "Two-mode Phonon Squeezing in Bose-Einstein Condensates for Gravitational Wave Detection"
+authors:
+  - "Paul Juschitz"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2101.05051
+arxiv: "2101.05051"
+source: https://arxiv.org/abs/2101.05051
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

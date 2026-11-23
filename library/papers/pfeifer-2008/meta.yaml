@@ -1,0 +1,21 @@
+id: pfeifer-2008
+title: "A Classical Analogue to the Standard Model, Chapter 3: Standard Model particle spectrum from scalar fields on $\\mathbb{C}^{\\wedge 18}$"
+authors:
+  - "Robert N. C. Pfeifer"
+year: 2008
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.0805.3819
+arxiv: "0805.3819"
+source: https://arxiv.org/abs/0805.3819
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

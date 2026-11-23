@@ -1,0 +1,27 @@
+id: barroso-2022
+title: "Primary thermalisation mechanism of Early Universe observed from Faraday-wave scattering on liquid-liquid interfaces"
+authors:
+  - "Vitor S. Barroso"
+  - "August Geelmuyden"
+  - "Zack Fifer"
+  - "Sebastian Erne"
+  - "Anastasios Avgoustidis"
+  - "Hill, Richard J. A."
+  - "Silke Weinfurtner"
+year: 2022
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2207.02199
+arxiv: "2207.02199"
+source: https://arxiv.org/abs/2207.02199
+language: en
+subsystems: [G]
+kind: experimental
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 16
+cites_seeds: [barcelo-2011]
+countries: [GB, AT]
+relevance: media

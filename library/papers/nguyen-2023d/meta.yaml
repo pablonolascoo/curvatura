@@ -1,0 +1,21 @@
+id: nguyen-2023d
+title: "Overcoming Inverse-square Law of Gravitation and Luminosity for Interstellar Hyperspace Navigation by Celestial Objects"
+authors:
+  - "Nghi C. Nguyen"
+year: 2023
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2301.11130
+arxiv: "2301.11130"
+source: https://arxiv.org/abs/2301.11130
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

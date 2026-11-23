@@ -1,0 +1,21 @@
+id: waite-2001
+title: "Inertia Manipulation through Metric Patching"
+authors:
+  - "D. Waite"
+year: 2001
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.gr-qc/0106003
+arxiv: "gr-qc/0106003"
+source: https://arxiv.org/abs/gr-qc/0106003
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [vandenbroeck-1999]
+countries: []
+relevance: media

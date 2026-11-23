@@ -1,0 +1,22 @@
+id: hsiang-2026b
+title: "Atom-field-medium interactions. III. Quantum-field-mediated entanglement between two atoms near a conducting surface"
+authors:
+  - "Jen-Tsung Hsiang"
+  - "B. L. Hu"
+year: 2026
+venue: "Physical Review A"
+doi: 10.1103/331c-5t51
+arxiv: "2507.20213"
+source: https://arxiv.org/abs/2507.20213
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [TW, US]
+relevance: media

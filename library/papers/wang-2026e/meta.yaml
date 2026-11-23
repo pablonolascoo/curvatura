@@ -1,0 +1,27 @@
+id: wang-2026e
+title: "Quantum Mpemba-like effect in Unruh thermalization"
+authors:
+  - "Zihao Wang"
+  - "Wenjing Chen"
+  - "Si-Wei Han"
+  - "X. N. Feng"
+  - "Linmu Qiao"
+  - "Zhichun Ouyang"
+  - "Jun Min Feng"
+year: 2026
+venue: "Journal of High Energy Physics"
+doi: 10.1007/jhep06(2026)183
+arxiv: "2509.05756"
+source: https://arxiv.org/abs/2509.05756
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [CN, HK]
+relevance: media

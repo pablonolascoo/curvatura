@@ -1,0 +1,22 @@
+id: robson-2021
+title: "Reduction of nonlinear field theory equations to envelope models: towards a universal understanding of analogues of relativistic systems"
+authors:
+  - "Charles W. Robson"
+  - "Fabio Biancalana"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2105.04498
+arxiv: "2105.04498"
+source: https://arxiv.org/abs/2105.04498
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [FI, GB]
+relevance: media

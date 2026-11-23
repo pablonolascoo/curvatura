@@ -1,0 +1,21 @@
+id: santos-2026
+title: "Fermi--Born--Infeld electrodynamics: a nonlinear theory with physical gauge"
+authors:
+  - "Renato Vieira dos Santos"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.17605/osf.io/bav47
+arxiv: "2607.22631"
+source: https://arxiv.org/abs/2607.22631
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

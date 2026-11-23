@@ -1,0 +1,22 @@
+id: anderson-2013b
+title: "Why quantum computing is hard - and quantum cryptography is not provably secure"
+authors:
+  - "Ross Anderson"
+  - "Robert M. Brady"
+year: 2013
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1301.7351
+arxiv: "1301.7351"
+source: https://arxiv.org/abs/1301.7351
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 6
+cites_seeds: [barcelo-2011]
+countries: [GB]
+relevance: media

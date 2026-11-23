@@ -1,0 +1,24 @@
+id: pereira-2026b
+title: "Perturbative aspects of analogue FLRW spacetime Jellium models"
+authors:
+  - "Matheus E. Pereira"
+  - "Hermano Velten"
+  - "Francisco Bento Lustosa"
+  - "Alexandre G. M. Schmidt"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2607.09843
+arxiv: "2607.09843"
+source: https://arxiv.org/abs/2607.09843
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [BR, AR]
+relevance: media

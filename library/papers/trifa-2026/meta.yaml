@@ -1,0 +1,24 @@
+id: trifa-2026
+title: "Many-body gravitating quantum systems with Bose-Einstein condensates and dipolar analogue"
+authors:
+  - "Youssef Trifa"
+  - "Dario Cafasso"
+  - "Marco Fattori"
+  - "Luca Pezzè"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2602.23319
+arxiv: "2602.23319"
+source: https://arxiv.org/abs/2602.23319
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [IT]
+relevance: media

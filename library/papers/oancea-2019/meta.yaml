@@ -1,0 +1,24 @@
+id: oancea-2019
+title: "An overview of the gravitational spin Hall effect"
+authors:
+  - "Marius A. Oancea"
+  - "Claudio F. Paganini"
+  - "Jérémie Joudioux"
+  - "Lars Andersson"
+year: 2019
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1904.09963
+arxiv: "1904.09963"
+source: https://arxiv.org/abs/1904.09963
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 47
+cites_seeds: [barcelo-2011]
+countries: [DE, AU]
+relevance: media

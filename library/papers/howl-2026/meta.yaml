@@ -1,0 +1,25 @@
+id: howl-2026
+title: "Quantum superposition of black hole states as a communication resource"
+authors:
+  - "Richard Howl"
+  - "Ali Akil"
+  - "Hlér Kristjánsson"
+  - "Xiaobin Zhao"
+  - "Giulio Chiribella"
+year: 2026
+venue: "Communications Physics"
+doi: 10.1038/s42005-026-02526-6
+arxiv: "2203.05861"
+source: https://arxiv.org/abs/2203.05861
+language: en
+subsystems: [G]
+kind: fuente
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 11
+cites_seeds: [barcelo-2011]
+countries: [HK, GB, CN, CA]
+relevance: media

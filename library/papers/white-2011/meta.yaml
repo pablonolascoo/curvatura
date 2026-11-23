@@ -1,0 +1,20 @@
+id: white-2011
+title: "Warp Field Mechanics 101"
+authors:
+  - "Harold White"
+year: 2011
+venue: "NASA STI Repository (National Aeronautics and Space Administration)"
+doi: null
+arxiv: null
+source: https://openalex.org/W1652642680
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 21
+cites_seeds: [alcubierre-1994]
+relevance: alta

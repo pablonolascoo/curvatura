@@ -1,0 +1,21 @@
+id: mandal-2026
+title: "Quantum Tunneling-induced Hybridization and Coherent Dynamics of Jackiw-Rebbi Zero Modes in a Modified Su-Schrieffer-Heeger Chain"
+authors:
+  - "Surajit Mandal"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2607.01344
+arxiv: "2607.01344"
+source: https://arxiv.org/abs/2607.01344
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [IN]
+relevance: media

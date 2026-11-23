@@ -1,0 +1,23 @@
+id: palaciosrazo-2025
+title: "Herramienta computacional en Python para cálculos de relatividad general"
+authors:
+  - "Luis Palacios-Razo"
+  - "Esmeralda Yatzel Castillo Castillo"
+  - "Carlos Arturo Soto-Campos"
+year: 2025
+venue: "PÄDI Boletín Científico de Ciencias Básicas e Ingenierías del ICBI"
+doi: 10.29057/icbi.v13iespecial.13553
+arxiv: null
+source: https://doi.org/10.29057/icbi.v13iespecial.13553
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+countries: [MX]
+relevance: media

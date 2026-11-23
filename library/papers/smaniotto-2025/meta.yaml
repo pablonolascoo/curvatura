@@ -1,0 +1,28 @@
+id: smaniotto-2025
+title: "Black-hole spectroscopy from a giant quantum vortex"
+authors:
+  - "Pietro Smaniotto"
+  - "Leonardo Solidoro"
+  - "P. Švančara"
+  - "Sam Patrick"
+  - "Maurício Richartz"
+  - "Carlo F. Barenghi"
+  - "Ruth Gregory"
+  - "Silke Weinfurtner"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2502.11209
+arxiv: "2502.11209"
+source: https://arxiv.org/abs/2502.11209
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 22
+cites_seeds: [barcelo-2011]
+countries: [GB, BR, CA]
+relevance: media

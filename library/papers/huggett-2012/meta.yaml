@@ -1,0 +1,21 @@
+id: huggett-2012
+title: "Is science without spacetime possible"
+authors:
+  - "Nick Huggett"
+  - "Christian Wüthrich"
+year: 2012
+venue: "PhilSci-Archive (University of Pittsburgh)"
+doi: null
+arxiv: null
+source: https://openalex.org/W2167560535
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+relevance: media

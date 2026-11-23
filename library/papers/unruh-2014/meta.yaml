@@ -1,0 +1,21 @@
+id: unruh-2014
+title: "Has Hawking Radiation Been Measured?"
+authors:
+  - "W. G. Unruh"
+year: 2014
+venue: "Foundations of Physics"
+doi: 10.1007/s10701-014-9778-0
+arxiv: "1401.6612"
+source: https://arxiv.org/abs/1401.6612
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 73
+cites_seeds: [barcelo-2011]
+countries: [CA]
+relevance: media

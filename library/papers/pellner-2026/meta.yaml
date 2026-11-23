@@ -1,0 +1,22 @@
+id: pellner-2026
+title: "Phase dynamics of self-accelerating Bose-Einstein condensates"
+authors:
+  - "Maximilian L. D. D. Pellner"
+  - "Georgi Gary Rozenman"
+year: 2026
+venue: "Physical Review Research"
+doi: 10.1103/zg1p-nwf8
+arxiv: "2602.01406"
+source: https://arxiv.org/abs/2602.01406
+language: en
+subsystems: [G, D]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

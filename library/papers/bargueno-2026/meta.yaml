@@ -1,0 +1,22 @@
+id: bargueno-2026
+title: "A proposal to test the distinguishability of singular and regular black holes using a GRIN lens analogue"
+authors:
+  - "Pedro Bargueño"
+  - "Ernesto Contreras"
+year: 2026
+venue: "Classical and Quantum Gravity"
+doi: 10.1088/1361-6382/aebd5c
+arxiv: null
+source: https://doi.org/10.1088/1361-6382/aebd5c
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [ES]
+relevance: media

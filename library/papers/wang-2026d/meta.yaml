@@ -1,0 +1,28 @@
+id: wang-2026d
+title: "Field-Driven Active Matter Physics and Material Applications"
+authors:
+  - "Jing Wang"
+  - "Shengkai Li"
+  - "Trung V. Phan"
+  - "Gao Wang"
+  - "Huaicheng Chen"
+  - "Xiaorui Chen"
+  - "Robert H. Austin"
+  - "Liyu Liu"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2611.19806
+arxiv: "2611.19806"
+source: https://arxiv.org/abs/2611.19806
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994]
+countries: [CN, US]
+relevance: media

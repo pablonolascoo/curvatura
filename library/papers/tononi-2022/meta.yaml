@@ -1,0 +1,23 @@
+id: tononi-2022
+title: "Topological superfluid transition in bubble-trapped condensates"
+authors:
+  - "Andrea Tononi"
+  - "Axel Pelster"
+  - "Luca Salasnich"
+year: 2022
+venue: "Physical Review Research"
+doi: 10.1103/physrevresearch.4.013122
+arxiv: "2104.04585"
+source: https://arxiv.org/abs/2104.04585
+language: en
+subsystems: [G]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 60
+cites_seeds: [barcelo-2011]
+countries: [FR, IT]
+relevance: media

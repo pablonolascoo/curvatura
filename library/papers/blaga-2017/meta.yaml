@@ -1,0 +1,21 @@
+id: blaga-2017
+title: "The response of a Unruh-deWitt particle detector in a thin-shell wormhole spacetime"
+authors:
+  - "Robert Blaga"
+year: 2017
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1705.00890
+arxiv: "1705.00890"
+source: https://arxiv.org/abs/1705.00890
+language: en
+subsystems: [G, S]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [ford-roman-1996]
+countries: []
+relevance: media

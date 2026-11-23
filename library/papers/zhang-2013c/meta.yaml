@@ -1,0 +1,26 @@
+id: zhang-2013c
+title: "On the Geometry and Topology of Transformation Optics"
+authors:
+  - "Yongliang Zhang"
+  - "Lina Shi"
+  - "Xian-Zi Dong"
+  - "Fuzhou Gong"
+  - "Zhen‐Sheng Zhao"
+  - "Xuan‐Ming Duan"
+year: 2013
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1301.6954
+arxiv: "1301.6954"
+source: https://arxiv.org/abs/1301.6954
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [barcelo-2011]
+countries: [CN]
+relevance: media

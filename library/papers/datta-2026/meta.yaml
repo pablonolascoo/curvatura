@@ -1,0 +1,23 @@
+id: datta-2026
+title: "Dynamical Love numbers of analogue rotating black and white holes"
+authors:
+  - "Satadal Datta"
+  - "Wei-Can Syu"
+  - "Da-Shin Lee"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2608.23496
+arxiv: "2608.23496"
+source: https://arxiv.org/abs/2608.23496
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [TW]
+relevance: media

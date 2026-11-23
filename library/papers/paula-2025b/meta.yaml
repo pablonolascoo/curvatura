@@ -1,0 +1,23 @@
+id: paula-2025b
+title: "Effective spacetime description of light propagation in linear magnetoelectric media"
+authors:
+  - "Lucas Tobias de Paula"
+  - "Caio C. Holanda Ribeiro"
+  - "V. A. De Lorenci"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2511.00353
+arxiv: "2511.00353"
+source: https://arxiv.org/abs/2511.00353
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [BR]
+relevance: media

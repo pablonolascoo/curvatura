@@ -1,0 +1,23 @@
+id: klimenko-2001
+title: "Structure of singularities on the world sheets of relativistic strings"
+authors:
+  - "Stanislav Klimenko"
+  - "Igor Nikitin"
+  - "Lialia Nikitina"
+year: 2001
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.hep-th/0110042
+arxiv: "hep-th/0110042"
+source: https://arxiv.org/abs/hep-th/0110042
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+countries: [RU]
+relevance: media

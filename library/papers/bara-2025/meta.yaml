@@ -1,0 +1,21 @@
+id: bara-2025
+title: "Unexplored Opportunities for Automatic Differentiation in Astrophysics"
+authors:
+  - "Marc Bara"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2507.09379
+arxiv: "2507.09379"
+source: https://arxiv.org/abs/2507.09379
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+countries: []
+relevance: media

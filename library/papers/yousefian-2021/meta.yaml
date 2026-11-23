@@ -1,0 +1,22 @@
+id: yousefian-2021
+title: "A `Third' Quantization Constructed for Gauge Theory of Gravity"
+authors:
+  - "Maysam Yousefian"
+  - "Mehrdad Farhoudi"
+year: 2021
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2104.05768
+arxiv: "2104.05768"
+source: https://arxiv.org/abs/2104.05768
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: [IR]
+relevance: media

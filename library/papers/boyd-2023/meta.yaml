@@ -1,0 +1,24 @@
+id: boyd-2023
+title: "Philosophy of Astrophysics"
+authors:
+  - "Nora Mills Boyd"
+  - "Siska De Baerdemaeker"
+  - "Kevin Heng"
+  - "Vera Matarese"
+year: 2023
+venue: "Synthese Library/Synthese library"
+doi: 10.1007/978-3-031-26618-8
+arxiv: null
+source: https://doi.org/10.1007/978-3-031-26618-8
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 9
+cites_seeds: [barcelo-2011]
+countries: [IT, US, CH, DE]
+relevance: media

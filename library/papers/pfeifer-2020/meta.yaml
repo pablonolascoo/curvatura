@@ -1,0 +1,21 @@
+id: pfeifer-2020
+title: "A Classical Analogue to the Standard Model, Chapters 4-11: Particle generations and masses; curved spacetimes and gravitation; heavy weak bosons"
+authors:
+  - "Robert N. C. Pfeifer"
+year: 2020
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2008.05893
+arxiv: "2008.05893"
+source: https://arxiv.org/abs/2008.05893
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

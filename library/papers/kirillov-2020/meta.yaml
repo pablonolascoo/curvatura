@@ -1,0 +1,23 @@
+id: kirillov-2020
+title: "Scattering of GWs on wormholes: foreshadow and afterglow/echoes from binary merges"
+authors:
+  - "Alexander A. Kirillov"
+  - "Elena P. Savelova"
+  - "Orchidea Maria Lecian"
+year: 2020
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2003.13127
+arxiv: "2003.13127"
+source: https://arxiv.org/abs/2003.13127
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [ford-roman-1996]
+countries: [RU, IT]
+relevance: media

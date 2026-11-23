@@ -1,0 +1,24 @@
+id: moro-2026
+title: "Dirac oscillator in a helically twisted spacetime with axial torsion"
+authors:
+  - "Matheus Diniz Moro"
+  - "Fabiano M. Andrade"
+  - "Faizuddin Ahmed"
+  - "Edilberto O Silva"
+year: 2026
+venue: "arXiv (Cornell University)"
+doi: 10.13140/rg.2.2.17279.16805
+arxiv: "2607.01301"
+source: https://arxiv.org/abs/2607.01301
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: []
+relevance: media

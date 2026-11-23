@@ -1,0 +1,20 @@
+id: millis-1998b
+title: "NASA Breakthrough Propulsion Physics Program"
+authors:
+  - "Marc G. Millis"
+year: 1998
+venue: "NASA Technical Reports Server (NASA)"
+doi: null
+arxiv: null
+source: https://openalex.org/W3169240447
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 5
+cites_seeds: [alcubierre-1994]
+relevance: media

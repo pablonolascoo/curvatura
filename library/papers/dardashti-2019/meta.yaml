@@ -1,0 +1,23 @@
+id: dardashti-2019
+title: "Assessing Scientific Theories: The Bayesian Approach"
+authors:
+  - "Radin Dardashti"
+  - "Richard Dawid"
+  - "Karim P. Y. Thébault"
+year: 2019
+venue: "Cambridge University Press eBooks"
+doi: 10.1017/9781108671224.006
+arxiv: null
+source: https://doi.org/10.1017/9781108671224.006
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+countries: [DE, SE, GB]
+relevance: media

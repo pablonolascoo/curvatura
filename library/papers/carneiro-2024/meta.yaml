@@ -1,0 +1,23 @@
+id: carneiro-2024
+title: "On reference frames and coordinate transformations"
+authors:
+  - "F. L. Carneiro"
+  - "S. C. Ulhoa"
+  - "Matheus Pereira Lobo"
+year: 2024
+venue: "Revista Brasileira de Ensino de Física"
+doi: 10.1590/1806-9126-rbef-2024-0043
+arxiv: "2405.03623"
+source: https://arxiv.org/abs/2405.03623
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+countries: [BR]
+relevance: media

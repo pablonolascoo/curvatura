@@ -1,0 +1,23 @@
+id: bravo-2015
+title: "Analog quantum simulation of gravitational waves in a Bose-Einstein condensate"
+authors:
+  - "Tupac Bravo"
+  - "Carlos Sabín"
+  - "Ivette Fuentes"
+year: 2015
+venue: "EPJ Quantum Technology"
+doi: 10.1140/epjqt16
+arxiv: "1406.3572"
+source: https://arxiv.org/abs/1406.3572
+language: en
+subsystems: [G, V]
+kind: analogo
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [barcelo-2011]
+countries: [GB]
+relevance: media

@@ -1,0 +1,22 @@
+id: sarbach-2012
+title: "The propagation of particles and fields in wormhole geometries"
+authors:
+  - "Olivier C A Sarbach"
+  - "T. Zannias"
+year: 2012
+venue: "AIP conference proceedings"
+doi: 10.1063/1.4748557
+arxiv: "1204.3977"
+source: https://arxiv.org/abs/1204.3977
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 18
+cites_seeds: [ford-roman-1996]
+countries: [MX]
+relevance: media

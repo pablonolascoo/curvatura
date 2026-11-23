@@ -1,0 +1,22 @@
+id: jangid-2025
+title: "Penetrating the horizon of a hydrodynamic white hole"
+authors:
+  - "Nisha Jangid"
+  - "Arnab Ray"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2510.02411
+arxiv: "2510.02411"
+source: https://arxiv.org/abs/2510.02411
+language: en
+subsystems: [G, D]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [IN]
+relevance: media

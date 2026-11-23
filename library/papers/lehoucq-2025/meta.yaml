@@ -1,0 +1,22 @@
+id: lehoucq-2025
+title: "In Praise of Slowness"
+authors:
+  - "Roland Lehoucq"
+  - "Étienne Ligout"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2509.16349
+arxiv: "2509.16349"
+source: https://arxiv.org/abs/2509.16349
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [alcubierre-1994]
+countries: [FR]
+relevance: media

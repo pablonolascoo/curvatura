@@ -1,0 +1,23 @@
+id: santos-2022
+title: "Relativistic Hydrodynamics a brief review of classical and quantum fluids in relativistic astrophysics"
+authors:
+  - "R. F. Santos"
+  - "A. C. Amaro Faria"
+  - "L. G. Almeida"
+year: 2022
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2210.07331
+arxiv: "2210.07331"
+source: https://arxiv.org/abs/2210.07331
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 4
+cites_seeds: [barcelo-2011]
+countries: [BR]
+relevance: media

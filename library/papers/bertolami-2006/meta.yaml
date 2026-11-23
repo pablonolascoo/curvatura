@@ -1,0 +1,22 @@
+id: bertolami-2006
+title: "Gravity Control Propulsion: Towards a General Relativistic Approach"
+authors:
+  - "Orfeu Bertolami"
+  - "Pedro, F. G."
+year: 2006
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.physics/0610116
+arxiv: "physics/0610116"
+source: https://arxiv.org/abs/physics/0610116
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994]
+countries: [PT]
+relevance: media

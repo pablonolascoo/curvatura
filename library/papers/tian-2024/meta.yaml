@@ -1,0 +1,31 @@
+id: tian-2024
+title: "Quantum Simulation of Oscillatory Unruh Effect with Superposed Trajectories"
+authors:
+  - "Zehua Tian"
+  - "Xu Cheng"
+  - "Yue Li"
+  - "Xingyu Zhao"
+  - "Waner Hou"
+  - "Mingdong Zhu"
+  - "Lin Yan"
+  - "Kamran Rehan"
+  - "Xi Qin"
+  - "Yiheng Lin"
+  - "Jiangfeng Du"
+year: 2024
+venue: "Research Square"
+doi: 10.21203/rs.3.rs-4753072/v1
+arxiv: "2510.23050"
+source: https://arxiv.org/abs/2510.23050
+language: en
+subsystems: [G]
+kind: numerico
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 1
+cites_seeds: [barcelo-2011]
+countries: [CN]
+relevance: media

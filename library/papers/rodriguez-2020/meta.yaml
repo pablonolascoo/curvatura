@@ -1,0 +1,24 @@
+id: rodriguez-2020
+title: "Exploration of the duality between generalized geometry and extraordinary magnetoresistance"
+authors:
+  - "Leo Rodriguez"
+  - "S. Rodríguez"
+  - "Sathwik Bharadwaj"
+  - "L. R. Ram‐Mohan"
+year: 2020
+venue: "Physical review. B./Physical review. B"
+doi: 10.1103/physrevb.101.174417
+arxiv: "1912.05780"
+source: https://arxiv.org/abs/1912.05780
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: [US]
+relevance: media

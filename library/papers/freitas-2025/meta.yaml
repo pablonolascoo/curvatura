@@ -1,0 +1,23 @@
+id: freitas-2025
+title: "Probing cosmic expansion through small anisotropies in a Bose-Einstein condensate analogue"
+authors:
+  - "Miguel Citeli de Freitas"
+  - "Thaïs Nivaille"
+  - "Caio C. Holanda Ribeiro"
+year: 2025
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2504.21236
+arxiv: "2504.21236"
+source: https://arxiv.org/abs/2504.21236
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [barcelo-2011]
+countries: [BR, BE]
+relevance: media

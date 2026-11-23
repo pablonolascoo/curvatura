@@ -1,0 +1,21 @@
+id: carusotto-2025
+title: "How to exploit driving and dissipation to stabilize and manipulate quantum many-body states"
+authors:
+  - "Iacopo Carusotto"
+year: 2025
+venue: "Comptes Rendus Physique"
+doi: 10.5802/crphys.258
+arxiv: "2505.15165"
+source: https://arxiv.org/abs/2505.15165
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 12
+cites_seeds: [barcelo-2011]
+countries: [IT]
+relevance: media

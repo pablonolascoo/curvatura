@@ -1,0 +1,20 @@
+id: loup-2016
+title: "Is the Natario warp drive a valid candidate for an interstellar voyage to the star system KIC8462852??-Part II"
+authors:
+  - "Fernando Loup"
+year: 2016
+venue: "HAL"
+doi: null
+arxiv: null
+source: https://openalex.org/W2302770538
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [alcubierre-1994, lobo-visser-2004, natario-2002]
+relevance: alta

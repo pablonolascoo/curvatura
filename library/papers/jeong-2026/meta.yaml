@@ -1,0 +1,23 @@
+id: jeong-2026
+title: "Deep learning spacetime from entanglement dynamics"
+authors:
+  - "Hyun-Sik Jeong"
+  - "Keun-Young Kim"
+  - "Gaya Yun"
+  - "Kwan Yun"
+year: 2026
+venue: "arXiv:2611.24666"
+doi: null
+arxiv: "2611.24666"
+source: https://arxiv.org/abs/2611.24666
+language: en
+subsystems: [G, C, D, Q]
+kind: restriccion
+license: unknown
+fulltext: false
+translations: []
+verified: true
+harvest: arxiv
+cited_by: 0
+countries: [KR]
+relevance: media

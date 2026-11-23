@@ -1,0 +1,23 @@
+id: biondi-2024
+title: "Vortical scattering channel in an aquatic space-time"
+authors:
+  - "Alessia Biondi"
+  - "Scott Robertson"
+  - "Germain Rousseaux"
+year: 2024
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2409.16864
+arxiv: "2409.16864"
+source: https://arxiv.org/abs/2409.16864
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 3
+cites_seeds: [barcelo-2011]
+countries: [FR]
+relevance: media

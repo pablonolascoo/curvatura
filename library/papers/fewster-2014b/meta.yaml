@@ -1,0 +1,23 @@
+id: fewster-2014b
+title: "Probability distributions for quantum stress tensors in two and four dimensions"
+authors:
+  - "Christopher J. Fewster"
+  - "Lawrence H. Ford"
+  - "Thomas A. Roman"
+year: 2014
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1409.7516
+arxiv: "1409.7516"
+source: https://arxiv.org/abs/1409.7516
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 0
+cites_seeds: [ford-roman-1996, pfenning-ford-1997]
+countries: [US, GB]
+relevance: media

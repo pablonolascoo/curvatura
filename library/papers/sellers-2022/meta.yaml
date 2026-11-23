@@ -1,0 +1,25 @@
+id: sellers-2022
+title: "Searching for Intelligent Life in Gravitational Wave Signals Part I: Present Capabilities and Future Horizons"
+authors:
+  - "Luke Sellers"
+  - "Alexey Bobrick"
+  - "Gianni Martire"
+  - "Michael Benjamin Andrews"
+  - "M. Paulini"
+year: 2022
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.2212.02065
+arxiv: "2212.02065"
+source: https://arxiv.org/abs/2212.02065
+language: en
+subsystems: [G]
+kind: solucion
+license: CC-BY-4.0
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 17
+cites_seeds: [alcubierre-1994, bobrick-martire-2021]
+countries: [US]
+relevance: media

@@ -1,0 +1,23 @@
+id: hangleiter-2022b
+title: "Analogue Quantum Simulation: A New Instrument for Scientific Understanding"
+authors:
+  - "Dominik Hangleiter"
+  - "Jacques Carolan"
+  - "Karim P. Y. Thébault"
+year: 2022
+venue: "Springer eBooks"
+doi: 10.1007/978-3-030-87216-8
+arxiv: "2303.00814"
+source: https://arxiv.org/abs/2303.00814
+language: en
+subsystems: [G, V]
+kind: analogo
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 22
+cites_seeds: [barcelo-2011]
+countries: [GB, US]
+relevance: media

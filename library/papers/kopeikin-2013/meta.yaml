@@ -1,0 +1,21 @@
+id: kopeikin-2013
+title: "Einstein's equivalence principle in cosmology"
+authors:
+  - "Sergei M. Kopeikin"
+year: 2013
+venue: "arXiv (Cornell University)"
+doi: 10.48550/arxiv.1311.4912
+arxiv: "1311.4912"
+source: https://arxiv.org/abs/1311.4912
+language: en
+subsystems: [G]
+kind: solucion
+license: unknown
+fulltext: false
+translations: []
+verified: false
+harvest: openalex
+cited_by: 2
+cites_seeds: [alcubierre-1994, natario-2002]
+countries: [US]
+relevance: media
